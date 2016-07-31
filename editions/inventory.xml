@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="TextInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TextInventory
+  tiid="croalamodruski"
+  tiversion="5.0.rc.1"
+  xmlns="http://chs.harvard.edu/xmlns/cts"
+  xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <ctsnamespace
+    abbr="croala"
+    ns="http://croala.ffzg.unizg.hr/hccroala/textus">
+    <description
+      xml:lang="eng"> A selection of Croatian Latin with CTS identifiers. </description>
+  </ctsnamespace>
+  
+  <!-- croala -->
+
+  
+
+<textgroup urn="urn:cts:croala:modr-n:">
+  <groupname xml:lang="hrv">Nikola Modruški c. 1427-1480</groupname>
+  <work urn="urn:cts:croala:modr-n.oratio-riar:" xml:lang="lat">
+    <title xml:lang="lat">Oratio in funere Petri Riarii, versio electronica</title>
+    <edition urn="urn:cts:croala:modr-n.oratio-riar.croala-op:">
+      <label xml:lang="lat">Edidit: Neven Jovanović. </label>
+      <description xml:lang="hrv">Arhivsko izdanje. Podatak o izdanju: elektronska verzija: Neolatina Croatica, znanstveni projekt na Filozofskom fakultetu Sveučilišta u Zagrebu , Zagreb Hrvatska. srpanj 2005</description>
+      <online/>
+    </edition>
+    <edition urn="urn:cts:croala:modr-n.oratio-riar.croala-paragraphi:">
+      <label xml:lang="lat">Edidit: Neven Jovanović. </label>
+      <description xml:lang="hrv">Struktura do razine paragrafa. Podatak o izdanju: elektronska verzija: Filozofski fakultet Sveučilišta u Zagrebu , Zagreb Hrvatska. Srpnja 2016.</description>
+      <online/>
+    </edition>
+    <edition urn="urn:cts:croala:modr-n.oratio-riar.croala-verba:">
+      <label xml:lang="lat">Edidit: Neven Jovanović. </label>
+      <description xml:lang="hrv">Struktura do razine rečenica i riječi. Podatak o izdanju: elektronska verzija: Filozofski fakultet Sveučilišta u Zagrebu , Zagreb Hrvatska. Srpnja 2016.</description>
+      <online/>
+    </edition>
+    <edition urn="urn:cts:croala:modr-n.oratio-riar.croala-loci:">
+      <label xml:lang="lat">Edidit: Neven Jovanović. </label>
+      <description xml:lang="hrv">Struktura do razine imenovanih mjesta. Podatak o izdanju: elektronska verzija: Filozofski fakultet Sveučilišta u Zagrebu , Zagreb Hrvatska. Srpnja 2016.</description>
+      <online/>
+    </edition>
+  </work>
+</textgroup>
+
+  <!-- end croala -->
+  
+
+
+</TextInventory>

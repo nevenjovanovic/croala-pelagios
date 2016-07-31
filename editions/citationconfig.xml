@@ -1,0 +1,39 @@
+<?xml-model href="CitationConfiguration.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<CitationConfiguration xmlns="http://chs.harvard.edu/xmlns/hocuspocus">
+  
+  <online type="xml" urn="urn:cts:croala:modr-n.oratio-riar.croala-op:" docname="modr-n-oratio-riar-jovanovic.xml">
+    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+    <citationMapping>
+      <citation label="sectio" scope="/tei:TEI/tei:text/tei:body/tei:div" xpath="/tei:*[@n='?']"/>
+    </citationMapping>
+ </online>
+  <online type="xml" urn="urn:cts:croala:modr-n.oratio-riar.croala-paragraphi:" docname="modr-n-oratio-riar-jovanovic-paragraphi.xml">
+    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+    <citationMapping>
+      <citation label="sectio" scope="/tei:TEI/tei:text/tei:body/tei:div" xpath="/tei:*[@n='?']"/>
+    </citationMapping>
+  </online>
+  <online type="xml" urn="urn:cts:croala:modr-n.oratio-riar.croala-verba:" docname="modr-n-oratio-riar-jovanovic-sententiae-verba.xml">
+    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+    <citationMapping>
+      <citation label="sectio" scope="/tei:TEI/tei:text/tei:body/tei:div" xpath="/tei:*[@n='?']">
+        <citation label="sententia" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:*[@n='?']" xpath="/tei:s[@n='?']">
+          <citation label="membrum" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:*[@n='?']/tei:s[@n='?']" xpath="/tei:*[@n='?']"/>
+          
+        </citation>
+      </citation>
+    </citationMapping>
+  </online>
+  <online type="xml" urn="urn:cts:croala:modr-n.oratio-riar.croala-loci:" docname="modr-n-oratio-riar-jovanovic-loci.xml">
+    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+    <citationMapping>
+      <citation label="sectio" scope="/tei:TEI/tei:text/tei:body/tei:div" xpath="/tei:*[@n='?']">
+        <citation label="sententia" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:*[@n='?']" xpath="/tei:s[@n='?']">
+          <citation label="locus" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:*[@n='?']/tei:s[@n='?']" xpath="/tei:placeName[@n='?']"/>
+          
+        </citation>
+      </citation>
+    </citationMapping>
+  </online>
+
+</CitationConfiguration>
