@@ -12,6 +12,8 @@ University of Zagreb
 
 ## Contents
 
+See the [wiki](https://github.com/nevenjovanovic/croala-pelagios/wiki) for guidelines on annotation and annotating strategies.
+
 The pilot for CITE analyses is in [CSV](csv/pilot).
 
 The pilot text, several editions of Nicholas' of Modruš 1474 funeral oration for Pietro Riario and their CTS support files, are in [editions](editions).
