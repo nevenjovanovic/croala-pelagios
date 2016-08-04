@@ -1,0 +1,27 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ecrm: <http://erlangen-crm.org/current/> .
+@prefix lawd: <http://lawd.info/ontology/1.0/> .
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix pleiades: <http://pleiades.stoa.org/places/vocab#> .
+@prefix saws: <http://purl.org/saws/ontology> .
+
+<urn:cite:croala:loci.ana.1> a oa:Annotation ;
+	oa:motivatedBy oa:identifying ;
+	oa:hasTarget <urn:cite:croala:loci.2> ;
+	oa:hasBody [
+	a lawd:PlaceName ;
+	saws:refersTo <http://pleiades.stoa.org/places/1052> ;
+	pleiades:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ] ;
+	oa:hasBody [
+	a ecrm:E89_Propositional_Object ;
+	a <http://live.dbpedia.org/ontology/nonFictionSubject> ] ;
+	oa:hasBody [
+	a ecrm:E33_Linguistic_Object ;
+	a <http://purl.org/linguistics/gold/ProperNoun> ;
+	a <http://purl.org/linguistics/gold/GenitiveCase> ] ;
+	dcterms:creator <http://orcid.org/0000-0002-9119-399X> ;
+	dcterms:created "02/08/2016 01:16:42" ;
+    rdfs:label "Italia"@la .
+
+

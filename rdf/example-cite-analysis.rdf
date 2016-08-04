@@ -1,0 +1,11 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix olo:     <http://purl.org/ontology/olo/core#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+
+<urn:cite:croala:loci.19> a oa:Annotation ;
+	olo:index 1 ;
+    oa:hasBody <urn:cite:croala:loci.ana.18> ;
+    oa:hasTarget <urn:cts:croala:modr-n.oratio-riar.croala-loci:p2.s1.locus57> ;
+    owl:sameAs <urn:cts:croala:modr-n.oratio-riar.croala-loci.loc:1.18> ;
+    rdfs:label "Saona"@la .
