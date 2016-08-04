@@ -16,7 +16,6 @@ __status__ = "Prototype"
 
 import os
 import csv
-from lxml import etree
 from rdflib import URIRef, BNode, Literal, Graph, Namespace, XSD
 from rdflib.namespace import RDF , DC
 
@@ -27,10 +26,7 @@ rdfs = Namespace("http://www.w3.org/2000/01/rdf-schema#")
 oa = Namespace("http://www.w3.org/ns/oa#")
 olo = Namespace("http://purl.org/ontology/olo/core#")
 owl = Namespace("http://www.w3.org/2002/07/owl#")
-# prefix = "http://"
-# Define the NLW lexicon
-# croala1graph.add((croala.lexicon,RDF.type,oa.Annotation))
-# nlwxmlgraph.add((croala.lexicon,DC.source,URIRef('http://www.neulatein.de')))
+
 # open file, parse it as CSV object, select necessary fields
 with open('../csv/pilot/modruski-cite-analysis-places.csv') as csvfile:
     reader = csv.reader(csvfile)
