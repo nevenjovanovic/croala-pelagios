@@ -16,8 +16,8 @@ __status__ = "Prototype"
 
 import os
 import csv
-from rdflib import URIRef, BNode, Literal, Graph, Namespace, XSD
-from rdflib.namespace import RDF , DC
+from rdflib import BNode, Literal, Graph, Namespace, XSD
+from rdflib.namespace import RDF
 
 
 # initialize RDF graph and rdfs, oa, olo, and owl namespaces
