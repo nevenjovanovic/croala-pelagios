@@ -1,6 +1,7 @@
-@prefix ns1: <http://purl.org/saws/ontology/> .
+@prefix ns1: <http://purl.org/dc/terms/> .
 @prefix ns2: <http://www.w3.org/ns/oa#> .
 @prefix ns3: <http://pleiades.stoa.org/places/vocab#> .
+@prefix ns4: <http://purl.org/saws/ontology/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -8,185 +9,346 @@
 
 <urn:cite:croala:loci.ana.1> a ns2:Annotation ;
     rdfs:label "Italiae"@la ;
-    ns2:hasBody [ a <http://lawd.info/ontology/1.0/PlaceName> ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns2:hasBody [ a <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ a <http://lawd.info/ontology/1.0/PlaceName> ;
             ns3:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
-            ns1:refersTo <http://pleiades.stoa.org/places/1052> ] ;
+            ns4:refersTo <http://pleiades.stoa.org/places/1052> ],
+        [ a <http://erlangen-crm.org/current/E33_Linguistic_Object>,
+                <http://purl.org/linguistics/gold/GenitiveCase>,
+                <http://purl.org/linguistics/gold/ProperNoun> ] ;
     ns2:hasTarget <urn:cite:croala:loci.2> ;
     ns2:motivatedBy ns2:identifying .
 
 <urn:cite:croala:loci.ana.10> a ns2:Annotation ;
     rdfs:label "Senam"@la ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
     ns2:hasBody [ a <http://lawd.info/ontology/1.0/PlaceName> ;
             ns3:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
-            ns1:refersTo <http://pleiades.stoa.org/places/413293> ] ;
+            ns4:refersTo <http://pleiades.stoa.org/places/413293> ],
+        [ a <http://erlangen-crm.org/current/E33_Linguistic_Object>,
+                <http://purl.org/linguistics/gold/AccusativeCase>,
+                <http://purl.org/linguistics/gold/ProperNoun> ],
+        [ a <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ] ;
     ns2:hasTarget <urn:cite:croala:loci.11> ;
     ns2:motivatedBy ns2:identifying .
 
 <urn:cite:croala:loci.ana.11> a ns2:Annotation ;
     rdfs:label "Senis"@la ;
-    ns2:hasBody [ a <http://lawd.info/ontology/1.0/PlaceName> ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns2:hasBody [ a <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ a <http://erlangen-crm.org/current/E33_Linguistic_Object>,
+                <http://purl.org/linguistics/gold/AblativeCase>,
+                <http://purl.org/linguistics/gold/ProperNoun> ],
+        [ a <http://lawd.info/ontology/1.0/PlaceName> ;
             ns3:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
-            ns1:refersTo <http://pleiades.stoa.org/places/413293> ] ;
+            ns4:refersTo <http://pleiades.stoa.org/places/413293> ] ;
     ns2:hasTarget <urn:cite:croala:loci.12> ;
     ns2:motivatedBy ns2:identifying .
 
 <urn:cite:croala:loci.ana.12> a ns2:Annotation ;
     rdfs:label "Imolam"@la ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
     ns2:hasBody [ a <http://lawd.info/ontology/1.0/PlaceName> ;
             ns3:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
-            ns1:refersTo <http://pleiades.stoa.org/places/393424> ] ;
+            ns4:refersTo <http://pleiades.stoa.org/places/393424> ],
+        [ a <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ a <http://erlangen-crm.org/current/E33_Linguistic_Object>,
+                <http://purl.org/linguistics/gold/AccusativeCase>,
+                <http://purl.org/linguistics/gold/ProperNoun> ] ;
     ns2:hasTarget <urn:cite:croala:loci.13> ;
     ns2:motivatedBy ns2:identifying .
 
 <urn:cite:croala:loci.ana.13> a ns2:Annotation ;
     rdfs:label "Imolam"@la ;
-    ns2:hasBody [ a <http://lawd.info/ontology/1.0/PlaceName> ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns2:hasBody [ a <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ a <http://lawd.info/ontology/1.0/PlaceName> ;
             ns3:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
-            ns1:refersTo <http://pleiades.stoa.org/places/393424> ] ;
+            ns4:refersTo <http://pleiades.stoa.org/places/393424> ],
+        [ a <http://erlangen-crm.org/current/E33_Linguistic_Object>,
+                <http://purl.org/linguistics/gold/AccusativeCase>,
+                <http://purl.org/linguistics/gold/ProperNoun> ] ;
     ns2:hasTarget <urn:cite:croala:loci.14> ;
     ns2:motivatedBy ns2:identifying .
 
 <urn:cite:croala:loci.ana.14> a ns2:Annotation ;
     rdfs:label "Italiae"@la ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
     ns2:hasBody [ a <http://lawd.info/ontology/1.0/PlaceName> ;
             ns3:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
-            ns1:refersTo <http://pleiades.stoa.org/places/1052> ] ;
+            ns4:refersTo <http://pleiades.stoa.org/places/1052> ],
+        [ a <http://erlangen-crm.org/current/E33_Linguistic_Object>,
+                <http://purl.org/linguistics/gold/GenitiveCase>,
+                <http://purl.org/linguistics/gold/ProperNoun> ],
+        [ a <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ] ;
     ns2:hasTarget <urn:cite:croala:loci.15> ;
     ns2:motivatedBy ns2:identifying .
 
 <urn:cite:croala:loci.ana.15> a ns2:Annotation ;
     rdfs:label "Mediolani"@la ;
-    ns2:hasBody [ a <http://lawd.info/ontology/1.0/PlaceName> ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns2:hasBody [ a <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ a <http://lawd.info/ontology/1.0/PlaceName> ;
             ns3:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
-            ns1:refersTo <http://pleiades.stoa.org/places/383706> ] ;
+            ns4:refersTo <http://pleiades.stoa.org/places/383706> ],
+        [ a <http://erlangen-crm.org/current/E33_Linguistic_Object>,
+                <http://purl.org/linguistics/gold/GenitiveCase>,
+                <http://purl.org/linguistics/gold/ProperNoun> ] ;
     ns2:hasTarget <urn:cite:croala:loci.16> ;
     ns2:motivatedBy ns2:identifying .
 
 <urn:cite:croala:loci.ana.16> a ns2:Annotation ;
     rdfs:label "Italiae"@la ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
     ns2:hasBody [ a <http://lawd.info/ontology/1.0/PlaceName> ;
             ns3:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
-            ns1:refersTo <http://pleiades.stoa.org/places/1052> ] ;
+            ns4:refersTo <http://pleiades.stoa.org/places/1052> ],
+        [ a <http://erlangen-crm.org/current/E33_Linguistic_Object>,
+                <http://purl.org/linguistics/gold/GenitiveCase>,
+                <http://purl.org/linguistics/gold/ProperNoun> ],
+        [ a <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ] ;
     ns2:hasTarget <urn:cite:croala:loci.17> ;
     ns2:motivatedBy ns2:identifying .
 
 <urn:cite:croala:loci.ana.17> a ns2:Annotation ;
     rdfs:label "Imolae"@la ;
-    ns2:hasBody [ a <http://lawd.info/ontology/1.0/PlaceName> ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns2:hasBody [ a <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ a <http://erlangen-crm.org/current/E33_Linguistic_Object>,
+                <http://purl.org/linguistics/gold/GenitiveCase>,
+                <http://purl.org/linguistics/gold/ProperNoun> ],
+        [ a <http://lawd.info/ontology/1.0/PlaceName> ;
             ns3:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
-            ns1:refersTo <http://pleiades.stoa.org/places/393424> ] ;
+            ns4:refersTo <http://pleiades.stoa.org/places/393424> ] ;
     ns2:hasTarget <urn:cite:croala:loci.18> ;
     ns2:motivatedBy ns2:identifying .
 
 <urn:cite:croala:loci.ana.18> a ns2:Annotation ;
     rdfs:label "Saona"@la ;
-    ns2:hasBody [ a <http://lawd.info/ontology/1.0/PlaceName> ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns2:hasBody [ a <http://erlangen-crm.org/current/E33_Linguistic_Object>,
+                <http://purl.org/linguistics/gold/AblativeCase>,
+                <http://purl.org/linguistics/gold/ProperNoun> ],
+        [ a <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ a <http://lawd.info/ontology/1.0/PlaceName> ;
             ns3:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
-            ns1:refersTo <http://pleiades.stoa.org/places/383770> ] ;
+            ns4:refersTo <http://pleiades.stoa.org/places/383770> ] ;
     ns2:hasTarget <urn:cite:croala:loci.19> ;
     ns2:motivatedBy ns2:identifying .
 
 <urn:cite:croala:loci.ana.19> a ns2:Annotation ;
     rdfs:label "Vicheriae"@la ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
     ns2:hasBody [ a <http://lawd.info/ontology/1.0/PlaceName> ;
             ns3:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
-            ns1:refersTo <https://www.wikidata.org/wiki/Q39981> ] ;
+            ns4:refersTo <https://www.wikidata.org/wiki/Q39981> ],
+        [ a <http://erlangen-crm.org/current/E33_Linguistic_Object>,
+                <http://purl.org/linguistics/gold/GenitiveCase>,
+                <http://purl.org/linguistics/gold/ProperNoun> ],
+        [ a <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ] ;
     ns2:hasTarget <urn:cite:croala:loci.20> ;
     ns2:motivatedBy ns2:identifying .
 
 <urn:cite:croala:loci.ana.2> a ns2:Annotation ;
     rdfs:label "Romam"@la ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
     ns2:hasBody [ a <http://lawd.info/ontology/1.0/PlaceName> ;
             ns3:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
-            ns1:refersTo <http://pleiades.stoa.org/places/423025> ] ;
+            ns4:refersTo <http://pleiades.stoa.org/places/423025> ],
+        [ a <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ a <http://erlangen-crm.org/current/E33_Linguistic_Object>,
+                <http://purl.org/linguistics/gold/AccusativeCase>,
+                <http://purl.org/linguistics/gold/ProperNoun> ] ;
     ns2:hasTarget <urn:cite:croala:loci.3> ;
     ns2:motivatedBy ns2:identifying .
 
 <urn:cite:croala:loci.ana.20> a ns2:Annotation ;
     rdfs:label "Bosti"@la ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
     ns2:hasBody [ a <http://lawd.info/ontology/1.0/PlaceName> ;
             ns3:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
-            ns1:refersTo <https://www.wikidata.org/wiki/Q17283> ] ;
+            ns4:refersTo <https://www.wikidata.org/wiki/Q17283> ],
+        [ a <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ a <http://erlangen-crm.org/current/E33_Linguistic_Object>,
+                <http://purl.org/linguistics/gold/AccusativeCase>,
+                <http://purl.org/linguistics/gold/ProperNoun> ] ;
     ns2:hasTarget <urn:cite:croala:loci.21> ;
     ns2:motivatedBy ns2:identifying .
 
 <urn:cite:croala:loci.ana.22> a ns2:Annotation ;
     rdfs:label "Romana urbe"@la ;
-    ns2:hasBody [ a <http://lawd.info/ontology/1.0/PlaceName> ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns2:hasBody [ a <http://erlangen-crm.org/current/E33_Linguistic_Object>,
+                <http://purl.org/linguistics/gold/AblativeCase>,
+                <http://purl.org/linguistics/gold/NounPhrase> ],
+        [ a <http://lawd.info/ontology/1.0/PlaceName> ;
             ns3:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
-            ns1:refersTo <http://pleiades.stoa.org/places/423025> ] ;
+            ns4:refersTo <http://pleiades.stoa.org/places/423025> ],
+        [ a <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ] ;
     ns2:hasTarget <urn:cite:croala:loci.22> ;
     ns2:motivatedBy ns2:identifying .
 
 <urn:cite:croala:loci.ana.23> a ns2:Annotation ;
     rdfs:label "Taruixii"@la ;
-    ns2:hasBody [ a <http://lawd.info/ontology/1.0/PlaceName> ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns2:hasBody [ a <http://erlangen-crm.org/current/E33_Linguistic_Object>,
+                <http://purl.org/linguistics/gold/GenitiveCase>,
+                <http://purl.org/linguistics/gold/ProperNoun> ],
+        [ a <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ a <http://lawd.info/ontology/1.0/PlaceName> ;
             ns3:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
-            ns1:refersTo <http://pleiades.stoa.org/places/393503> ] ;
+            ns4:refersTo <http://pleiades.stoa.org/places/393503> ] ;
     ns2:hasTarget <urn:cite:croala:loci.23> ;
     ns2:motivatedBy ns2:identifying .
 
 <urn:cite:croala:loci.ana.24> a ns2:Annotation ;
     rdfs:label "Papiae"@la ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
     ns2:hasBody [ a <http://lawd.info/ontology/1.0/PlaceName> ;
             ns3:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
-            ns1:refersTo <http://pleiades.stoa.org/places/383798> ] ;
+            ns4:refersTo <http://pleiades.stoa.org/places/383798> ],
+        [ a <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ a <http://erlangen-crm.org/current/E33_Linguistic_Object>,
+                <http://purl.org/linguistics/gold/GenitiveCase>,
+                <http://purl.org/linguistics/gold/ProperNoun> ] ;
     ns2:hasTarget <urn:cite:croala:loci.24> ;
     ns2:motivatedBy ns2:identifying .
 
 <urn:cite:croala:loci.ana.3> a ns2:Annotation ;
     rdfs:label "Ticinium"@la ;
-    ns2:hasBody [ a <http://lawd.info/ontology/1.0/PlaceName> ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns2:hasBody [ a <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ a <http://lawd.info/ontology/1.0/PlaceName> ;
             ns3:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
-            ns1:refersTo <http://pleiades.stoa.org/places/383798> ] ;
+            ns4:refersTo <http://pleiades.stoa.org/places/383798> ],
+        [ a <http://erlangen-crm.org/current/E33_Linguistic_Object>,
+                <http://purl.org/linguistics/gold/AccusativeCase>,
+                <http://purl.org/linguistics/gold/ProperNoun> ] ;
     ns2:hasTarget <urn:cite:croala:loci.4> ;
     ns2:motivatedBy ns2:identifying .
 
 <urn:cite:croala:loci.ana.4> a ns2:Annotation ;
     rdfs:label "Patauium"@la ;
-    ns2:hasBody [ a <http://lawd.info/ontology/1.0/PlaceName> ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns2:hasBody [ a <http://erlangen-crm.org/current/E33_Linguistic_Object>,
+                <http://purl.org/linguistics/gold/AccusativeCase>,
+                <http://purl.org/linguistics/gold/ProperNoun> ],
+        [ a <http://lawd.info/ontology/1.0/PlaceName> ;
             ns3:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
-            ns1:refersTo <http://pleiades.stoa.org/places/393473> ] ;
+            ns4:refersTo <http://pleiades.stoa.org/places/393473> ],
+        [ a <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ] ;
     ns2:hasTarget <urn:cite:croala:loci.5> ;
     ns2:motivatedBy ns2:identifying .
 
 <urn:cite:croala:loci.ana.5> a ns2:Annotation ;
     rdfs:label "Venetias"@la ;
-    ns2:hasBody [ a <http://lawd.info/ontology/1.0/PlaceName> ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns2:hasBody [ a <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ a <http://lawd.info/ontology/1.0/PlaceName> ;
             ns3:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
-            ns1:refersTo <https://www.wikidata.org/wiki/Q641> ] ;
+            ns4:refersTo <https://www.wikidata.org/wiki/Q641> ],
+        [ a <http://erlangen-crm.org/current/E33_Linguistic_Object>,
+                <http://purl.org/linguistics/gold/AccusativeCase>,
+                <http://purl.org/linguistics/gold/ProperNoun> ] ;
     ns2:hasTarget <urn:cite:croala:loci.6> ;
     ns2:motivatedBy ns2:identifying .
 
 <urn:cite:croala:loci.ana.6> a ns2:Annotation ;
     rdfs:label "Bononiam"@la ;
-    ns2:hasBody [ a <http://lawd.info/ontology/1.0/PlaceName> ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns2:hasBody [ a <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ a <http://erlangen-crm.org/current/E33_Linguistic_Object>,
+                <http://purl.org/linguistics/gold/AccusativeCase>,
+                <http://purl.org/linguistics/gold/ProperNoun> ],
+        [ a <http://lawd.info/ontology/1.0/PlaceName> ;
             ns3:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
-            ns1:refersTo <http://pleiades.stoa.org/places/206975> ] ;
+            ns4:refersTo <http://pleiades.stoa.org/places/206975> ] ;
     ns2:hasTarget <urn:cite:croala:loci.7> ;
     ns2:motivatedBy ns2:identifying .
 
 <urn:cite:croala:loci.ana.7> a ns2:Annotation ;
     rdfs:label "Romam"@la ;
-    ns2:hasBody [ a <http://lawd.info/ontology/1.0/PlaceName> ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns2:hasBody [ a <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ a <http://lawd.info/ontology/1.0/PlaceName> ;
             ns3:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
-            ns1:refersTo <http://pleiades.stoa.org/places/423025> ] ;
+            ns4:refersTo <http://pleiades.stoa.org/places/423025> ],
+        [ a <http://erlangen-crm.org/current/E33_Linguistic_Object>,
+                <http://purl.org/linguistics/gold/AccusativeCase>,
+                <http://purl.org/linguistics/gold/ProperNoun> ] ;
     ns2:hasTarget <urn:cite:croala:loci.8> ;
     ns2:motivatedBy ns2:identifying .
 
 <urn:cite:croala:loci.ana.8> a ns2:Annotation ;
     rdfs:label "Mediolani"@la ;
-    ns2:hasBody [ a <http://lawd.info/ontology/1.0/PlaceName> ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns2:hasBody [ a <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ a <http://lawd.info/ontology/1.0/PlaceName> ;
             ns3:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
-            ns1:refersTo <http://pleiades.stoa.org/places/383706> ] ;
+            ns4:refersTo <http://pleiades.stoa.org/places/383706> ],
+        [ a <http://erlangen-crm.org/current/E33_Linguistic_Object>,
+                <http://purl.org/linguistics/gold/GenitiveCase>,
+                <http://purl.org/linguistics/gold/ProperNoun> ] ;
     ns2:hasTarget <urn:cite:croala:loci.9> ;
     ns2:motivatedBy ns2:identifying .
 
 <urn:cite:croala:loci.ana.9> a ns2:Annotation ;
     rdfs:label "Perusium"@la ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
     ns2:hasBody [ a <http://lawd.info/ontology/1.0/PlaceName> ;
             ns3:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
-            ns1:refersTo <http://pleiades.stoa.org/places/413248> ] ;
+            ns4:refersTo <http://pleiades.stoa.org/places/413248> ],
+        [ a <http://erlangen-crm.org/current/E33_Linguistic_Object>,
+                <http://purl.org/linguistics/gold/AccusativeCase>,
+                <http://purl.org/linguistics/gold/ProperNoun> ],
+        [ a <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ] ;
     ns2:hasTarget <urn:cite:croala:loci.10> ;
     ns2:motivatedBy ns2:identifying .
 
