@@ -16,6 +16,6 @@ See the [wiki](https://github.com/nevenjovanovic/croala-pelagios/wiki) for guide
 
 The pilot for CITE analyses is in [CSV](csv/pilot). The resulting RDF files are in [rdf](rdf). The scripts (mostly Python) are in [scripts](scripts).
 
-The pilot text, consisting on several editions of Nicholas' of Modruš 1474 funeral oration for Pietro Riario and their CTS support files, are in [editions](editions).
+The pilot text, consisting of several editions of Nicholas' of Modruš 1474 funeral oration for Pietro Riario and their CTS support files, is in [editions](editions).
 
 The documentation is on the [wiki](https://github.com/nevenjovanovic/croala-pelagios/wiki) and in [docs](docs).
