@@ -1,3 +1,4 @@
 *.py~
 *~
 *.rdf~
+editions/work/*
