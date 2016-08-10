@@ -42,6 +42,33 @@
     </edition>
   </work>
 </textgroup>
+<!-- Tuberon -->
+<textgroup urn="urn:cts:croala:tubero:">
+  <groupname xml:lang="hrv">Ludovik Crijević Tuberon, 1458-1527</groupname>
+  <work urn="urn:cts:croala:tubero.commentarii:" xml:lang="lat">
+    <title xml:lang="lat">Commentarii de temporibus suis, versio electronica</title>
+    <edition urn="urn:cts:croala:tubero.commentarii.croala-op:">
+      <label xml:lang="lat">Edidit: Vladimir Rezar.</label>
+      <description xml:lang="hrv">Arhivsko izdanje. Podatak o izdanju: elektronska verzija modernog kritičkog izdanja (2001): Neolatina Croatica, znanstveni projekt na Filozofskom fakultetu Sveučilišta u Zagrebu, Hrvatska. Kolovoza 2008.</description>
+      <online/>
+    </edition>
+    <edition urn="urn:cts:croala:tubero.commentarii.croala-paragraphi:">
+      <label xml:lang="lat">Edidit: Neven Jovanović.</label>
+      <description xml:lang="hrv">Struktura do razine paragrafa. Podatak o izdanju: elektronska verzija: Filozofski fakultet Sveučilišta u Zagrebu, Hrvatska. Kolovoza 2016.</description>
+      <online/>
+    </edition>
+    <edition urn="urn:cts:croala:tubero.commentarii.croala-verba:">
+      <label xml:lang="lat">Edidit: Neven Jovanović. </label>
+      <description xml:lang="hrv">Struktura do razine rečenica i riječi. Podatak o izdanju: elektronska verzija: Filozofski fakultet Sveučilišta u Zagrebu, Hrvatska. Kolovoza 2016.</description>
+      <online/>
+    </edition>
+    <edition urn="urn:cts:croala:tubero.commentarii.croala-loci:">
+      <label xml:lang="lat">Edidit: Neven Jovanović. </label>
+      <description xml:lang="hrv">Struktura do razine imenovanih mjesta. Podatak o izdanju: elektronska verzija: Filozofski fakultet Sveučilišta u Zagrebu, Hrvatska. Kolovoza 2016.</description>
+      <online/>
+    </edition>
+  </work>
+</textgroup>
 
   <!-- end croala -->
   
