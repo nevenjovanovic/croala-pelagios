@@ -133,8 +133,8 @@
       </revisionDesc>
    </teiHeader>
    <text type="prosa-oratio">
-      <body>
-         <div type="oratio">
+      <body n="body1">
+         <div n="div1" type="oratio">
             <head n="head1">
           <s n="s1">
             <w n="w1">Oratio</w>
@@ -145,7 +145,7 @@
             <w n="w6">domini</w>
             <w n="w7">Petri</w>
             <w n="w8">cardinalis</w>
-            <placeName n="locus9">sancti Sixti</placeName>
+            <placeName n="placeName9">sancti Sixti</placeName>
             <w n="w11">habita</w>
             <w n="w12">a</w>
             <w n="w13">reuerendo</w>
@@ -588,7 +588,7 @@
             <w n="w7">domini</w>
             <w n="w8">Petri</w>
             <w n="w9">cardinalis</w>
-            <placeName n="locus10">sancti Sixti</placeName>
+            <placeName n="placeName10">sancti Sixti</placeName>
             <pc n="pc1">,</pc>
             <w n="w12">cuius</w>
             <w n="w13">miserandum</w>
@@ -639,9 +639,9 @@
             <w n="w52">et</w>
             <w n="w53">celeberrimo</w>
             <w n="w54">uetustoque</w>
-            <placeName n="locus55">Ligurum</placeName>
+            <placeName n="placeName55">Ligurum</placeName>
             <w n="w56">oppido</w>
-            <placeName n="locus57">Saona</placeName>
+            <placeName n="placeName57">Saona</placeName>
             <pc n="pc8">,</pc>
             <w n="w58">uerum</w>
             <w n="w59">quod</w>
@@ -835,7 +835,7 @@
             <w n="w21">per</w>
             <w n="w22">id</w>
             <w n="w23">tempus</w>
-            <placeName n="locus24">Senis</placeName>
+            <placeName n="placeName24">Senis</placeName>
             <w n="w25">suis</w>
             <w n="w26">fratribus</w>
             <w n="w27">sacras</w>
@@ -1081,7 +1081,7 @@
             <w n="w5">Latinis</w>
             <w n="w6">eum</w>
             <w n="w7">litteris</w>
-            <placeName n="locus8">Vicheriae</placeName>
+            <placeName n="placeName8">Vicheriae</placeName>
             <w n="w9">imbuendum</w>
             <w n="w10">tradidit</w>
             <pc n="pc1">,</pc>
@@ -1090,19 +1090,19 @@
             <w n="w13">celeritate</w>
             <w n="w14">perceptis</w>
             <w n="w15">mox</w>
-            <placeName n="locus16">Ticinium</placeName>
+            <placeName n="placeName16">Ticinium</placeName>
             <pc n="pc2">,</pc>
             <w n="w17">deinde</w>
-            <placeName n="locus18">Patauium</placeName>
+            <placeName n="placeName18">Patauium</placeName>
             <pc n="pc3">,</pc>
             <w n="w19">subinde</w>
-            <placeName n="locus20">Venetias</placeName>
+            <placeName n="placeName20">Venetias</placeName>
             <pc n="pc4">,</pc>
-            <placeName n="locus21">Bononiam</placeName>
+            <placeName n="placeName21">Bononiam</placeName>
             <pc n="pc5">,</pc>
-            <placeName n="locus22">Perusium</placeName>
+            <placeName n="placeName22">Perusium</placeName>
             <pc n="pc6">,</pc>
-            <placeName n="locus23">Senam</placeName>
+            <placeName n="placeName23">Senam</placeName>
             <pc n="pc7">,</pc>
             <w n="w24">Ferrariamque</w>
             <w n="w25">misit</w>
@@ -1112,7 +1112,7 @@
             <w n="w28">in</w>
             <w n="w29">tam</w>
             <w n="w30">celeberrimis</w>
-            <placeName n="locus31">Italiae</placeName>
+            <placeName n="placeName31">Italiae</placeName>
             <w n="w32">gymnasiis</w>
             <w n="w33">aut</w>
             <w n="w34">liberalium</w>
@@ -1362,7 +1362,7 @@
             <w n="w8">coepit</w>
             <w n="w9">importunius</w>
             <w n="w10">compellere</w>
-            <placeName n="locus11">Romam</placeName>
+            <placeName n="placeName11">Romam</placeName>
             <w n="w12">peteret</w>
             <w n="w13">atque</w>
             <w n="w14">in</w>
@@ -1460,7 +1460,7 @@
             <w n="w18">prodigiis</w>
             <w n="w19">euictum</w>
             <w n="w20">propulit</w>
-            <placeName n="locus21">Romam</placeName>
+            <placeName n="placeName21">Romam</placeName>
             <w n="w22">proficisci</w>
             <pc n="pc1">,</pc>
             <w n="w23">in</w>
@@ -2749,7 +2749,7 @@
             <w n="w7">in</w>
             <w n="w8">qua</w>
             <w n="w9">omnes</w>
-            <placeName n="locus10">Italiae</placeName>
+            <placeName n="placeName10">Italiae</placeName>
             <w n="w11">populi</w>
             <w n="w12">singulique</w>
             <w n="w13">ipsorum</w>
@@ -2871,7 +2871,7 @@
             <pc n="pc3">,</pc>
             <w n="w34">in</w>
             <w n="w35">pacem</w>
-            <placeName n="locus36">Italiae</placeName>
+            <placeName n="placeName36">Italiae</placeName>
             <w n="w37">et</w>
             <w n="w38">perfidi</w>
             <w n="w39">hostis</w>
@@ -3162,7 +3162,7 @@
             <w n="w19">ab</w>
             <w n="w20">inclito</w>
             <w n="w21">duce</w>
-            <placeName n="locus22">Mediolani</placeName>
+            <placeName n="placeName22">Mediolani</placeName>
             <w n="w23">connubio</w>
             <w n="w24">filiae</w>
             <w n="w25">dignatum</w>
@@ -3196,7 +3196,7 @@
           <s n="s4">
             <w n="w1">Vrbem</w>
             <w n="w2">enim</w>
-            <placeName n="locus3">Imolam</placeName>
+            <placeName n="placeName3">Imolam</placeName>
             <pc n="pc1">,</pc>
             <w n="w4">quae</w>
             <w n="w5">iam</w>
@@ -3278,7 +3278,7 @@
             <w n="w2">et</w>
             <w n="w3">uicario</w>
             <w n="w4">illi</w>
-            <placeName n="locus5">Imolae</placeName>
+            <placeName n="placeName5">Imolae</placeName>
             <pc n="pc1">,</pc>
             <w n="w6">quamuis</w>
             <w n="w7">de</w>
@@ -3309,7 +3309,7 @@
             <w n="w6">et</w>
             <w n="w7">opulentissimum</w>
             <w n="w8">oppidum</w>
-            <placeName n="locus9">Bosti</placeName>
+            <placeName n="placeName9">Bosti</placeName>
             <pc n="pc2">,</pc>
             <w n="w10">ex</w>
             <w n="w11">quo</w>
@@ -3329,7 +3329,7 @@
             <w n="w25">poterit</w>
             <pc n="pc3">,</pc>
             <w n="w26">neque</w>
-            <placeName n="locus27">Imolam</placeName>
+            <placeName n="placeName27">Imolam</placeName>
             <w n="w28">nisi</w>
             <w n="w29">eo</w>
             <w n="w30">uolente</w>
@@ -3846,8 +3846,8 @@
             <w n="w4">munificentiam</w>
             <w n="w5">in</w>
             <w n="w6">hac</w>
-            <placeName n="locus7">Romana urbe</placeName>
-            <placeName n="locus9">diui Gregorii templum</placeName>
+            <placeName n="placeName7">Romana urbe</placeName>
+            <placeName n="placeName9">diui Gregorii templum</placeName>
             <w n="w12">et</w>
             <w n="w13">prouentibus</w>
             <w n="w14">optime</w>
@@ -3859,8 +3859,8 @@
             <w n="w20">instauratum</w>
             <pc n="pc1">;</pc>
             <w n="w21">testatur</w>
-            <placeName n="locus22">Taruixii</placeName>
-            <placeName n="locus23">maior basilica</placeName>
+            <placeName n="placeName22">Taruixii</placeName>
+            <placeName n="placeName23">maior basilica</placeName>
             <w n="w25">non</w>
             <w n="w26">paruis</w>
             <w n="w27">ditata</w>
@@ -3873,8 +3873,8 @@
             <w n="w33">illustrata</w>
             <pc n="pc3">;</pc>
             <w n="w34">testatur</w>
-            <placeName n="locus35">Mediolani</placeName>
-            <placeName n="locus36">Ambrosii monasterium</placeName>
+            <placeName n="placeName35">Mediolani</placeName>
+            <placeName n="placeName36">Ambrosii monasterium</placeName>
             <w n="w38">quod</w>
             <pc n="pc4">,</pc>
             <w n="w39">cum</w>
@@ -3909,8 +3909,8 @@
           </s>
           <s n="s3">
             <w n="w1">Testatur</w>
-            <placeName n="locus2">Papiae</placeName>
-            <placeName n="locus3">Maioli fanum</placeName>
+            <placeName n="placeName2">Papiae</placeName>
+            <placeName n="placeName3">Maioli fanum</placeName>
             <w n="w5">in</w>
             <w n="w6">quo</w>
             <w n="w7">ne</w>
@@ -4008,7 +4008,7 @@
           <s n="s5">
             <w n="w1">Haec</w>
             <w n="w2">quoque</w>
-            <placeName n="locus3">sacra apostolorum aedes</placeName>
+            <placeName n="placeName3">sacra apostolorum aedes</placeName>
             <w n="w6">beneficentiam</w>
             <w n="w7">eius</w>
             <w n="w8">testari</w>
