@@ -1,0 +1,1 @@
+XQUERY db:create("cp", "/home/croala/cpxml/", (), map { 'ftindex': true(), 'chop': false(), 'intparse' : true(), 'autooptimize' : true(), 'updindex' : true() })
