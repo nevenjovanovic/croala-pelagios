@@ -6,5 +6,7 @@ let $t := ft:tokenize($d)
 return count($t)
 return sum($counts)
 };
-for $doc in (doc("/home/neven/rad/croala-pelagios/editions/XML/tubero-commentarii-rezar-paragraphi.xml"), db:open("tubero-commentarii"))
+let $file := "/home/neven/rad/croala-pelagios/editions/XML/tubero-commentarii-rezar-paragraphi.xml"
+let $dbfile := "tubero-commentarii-rezar-p-s-w-n.xml"
+for $doc in (doc($file), db:open("tubero-commentarii", $dbfile))
 return element count { local:doccount($doc) }
