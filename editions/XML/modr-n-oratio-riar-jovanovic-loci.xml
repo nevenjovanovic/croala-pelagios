@@ -145,8 +145,7 @@
             <w n="w6">domini</w>
             <w n="w7">Petri</w>
             <w n="w8">cardinalis</w>
-            <w n="w9">sancti</w>
-            <w n="w10">Sixti</w>
+            <placeName n="locus9">sancti Sixti</placeName>
             <w n="w11">habita</w>
             <w n="w12">a</w>
             <w n="w13">reuerendo</w>
@@ -589,8 +588,7 @@
             <w n="w7">domini</w>
             <w n="w8">Petri</w>
             <w n="w9">cardinalis</w>
-            <w n="w10">sancti</w>
-            <w n="w11">Sixti</w>
+            <placeName n="locus10">sancti Sixti</placeName>
             <pc n="pc1">,</pc>
             <w n="w12">cuius</w>
             <w n="w13">miserandum</w>
@@ -641,7 +639,7 @@
             <w n="w52">et</w>
             <w n="w53">celeberrimo</w>
             <w n="w54">uetustoque</w>
-            <w n="w55">Ligurum</w>
+            <placeName n="locus55">Ligurum</placeName>
             <w n="w56">oppido</w>
             <placeName n="locus57">Saona</placeName>
             <pc n="pc8">,</pc>
@@ -3849,9 +3847,7 @@
             <w n="w5">in</w>
             <w n="w6">hac</w>
             <placeName n="locus7">Romana urbe</placeName>
-            <w n="w9">diui</w>
-            <w n="w10">Gregorii</w>
-            <w n="w11">templum</w>
+            <placeName n="locus9">diui Gregorii templum</placeName>
             <w n="w12">et</w>
             <w n="w13">prouentibus</w>
             <w n="w14">optime</w>
@@ -3864,8 +3860,7 @@
             <pc n="pc1">;</pc>
             <w n="w21">testatur</w>
             <placeName n="locus22">Taruixii</placeName>
-            <w n="w23">maior</w>
-            <w n="w24">basilica</w>
+            <placeName n="locus23">maior basilica</placeName>
             <w n="w25">non</w>
             <w n="w26">paruis</w>
             <w n="w27">ditata</w>
@@ -3879,8 +3874,7 @@
             <pc n="pc3">;</pc>
             <w n="w34">testatur</w>
             <placeName n="locus35">Mediolani</placeName>
-            <w n="w36">Ambrosii</w>
-            <w n="w37">monasterium</w>
+            <placeName n="locus36">Ambrosii monasterium</placeName>
             <w n="w38">quod</w>
             <pc n="pc4">,</pc>
             <w n="w39">cum</w>
@@ -3916,8 +3910,7 @@
           <s n="s3">
             <w n="w1">Testatur</w>
             <placeName n="locus2">Papiae</placeName>
-            <w n="w3">Maioli</w>
-            <w n="w4">fanum</w>
+            <placeName n="locus3">Maioli fanum</placeName>
             <w n="w5">in</w>
             <w n="w6">quo</w>
             <w n="w7">ne</w>
@@ -4015,9 +4008,7 @@
           <s n="s5">
             <w n="w1">Haec</w>
             <w n="w2">quoque</w>
-            <w n="w3">sacra</w>
-            <w n="w4">apostolorum</w>
-            <w n="w5">aedes</w>
+            <placeName n="locus3">sacra apostolorum aedes</placeName>
             <w n="w6">beneficentiam</w>
             <w n="w7">eius</w>
             <w n="w8">testari</w>
