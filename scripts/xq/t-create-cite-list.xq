@@ -4,7 +4,7 @@ declare namespace cp = 'http://croala.ffzg.unizg.hr/croalapelagios';
 (: pretty printing of text :)
 declare function cp:prettyp2($settext) {
     element td {
-  replace(replace($settext, ' ([,).;])', '$1'), '([(]) ', '$1')
+  replace(replace($settext, ' ([,).:;])', '$1'), '([(]) ', '$1')
 }
 };
 
@@ -22,7 +22,7 @@ let $sq := data($i/@xml:id)
 let $cts := data($i/@n)
 let $label := $i/text()
 let $citerecord := "urn:cite:croala:loci." || $sq
-let $isplace := "=TRUE()"
+let $isplace := 1
 let $txt := cp:openurn2($sq)
 order by xs:integer($sq)
 return element tr {

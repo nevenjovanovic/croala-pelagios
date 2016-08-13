@@ -6,14 +6,14 @@ let $tree := string-join(data($f/ancestor-or-self::*[@n]/@n),'.')
 return element w { attribute xml:id {db:node-id($f)} , attribute n { $ctsname || $tree } , data($f) }
 };
 declare variable $flist := map {
-  "tubero-commentarii-rezar-p-s-w-n.xml": "urn:cts:croala:tubero.commentarii.croala-loci:",
+  "tubero-commentarii-rezar-p-s-w-placename-n.xml": "urn:cts:croala:tubero.commentarii.croala-loci:",
   "modr-n-oratio-riar-jovanovic-loci.xml": "urn:cts:croala:modruski-n.oratio-riario.croala-loci:"
 };
 let $windex :=
 element wlist {
   for $xmlfile in map:keys($flist)
   let $cts := map:get($flist,$xmlfile)
-for $f in db:open("tubero-commentarii")//*:text//*:placeName
+for $f in db:open("tubero-commentarii", $xmlfile)//*:text//*:placeName
 let $ntree := local:ntree($f, $cts)
 return $ntree
 }
