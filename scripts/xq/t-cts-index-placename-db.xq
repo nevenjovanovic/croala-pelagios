@@ -6,7 +6,7 @@ let $tree := string-join(data($f/ancestor-or-self::*[@n]/@n),'.')
 return element w { 
 attribute xml:id {db:node-id($f)} , 
 attribute n { $ctsname || $tree } , 
-if ($f/@ana) then $f/@ana else attribute ana { "1" } , 
+if ($f/@ana) then $f/@ana else attribute ana { "estlocus1" } , 
 data($f) }
 };
 declare variable $flist := map {

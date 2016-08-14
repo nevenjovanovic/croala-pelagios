@@ -22,7 +22,7 @@ let $sq := data($i/@xml:id)
 let $cts := data($i/@n)
 let $label := $i/text()
 let $citerecord := "urn:cite:croala:loci." || $sq
-let $isplace := 1
+let $isplace := data($i/@ana)
 let $txt := cp:openurn2($sq)
 order by xs:integer($sq)
 return element tr {
