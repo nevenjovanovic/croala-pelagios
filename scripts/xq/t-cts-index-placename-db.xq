@@ -3,7 +3,11 @@
 declare function local:ntree($words, $ctsname) {
   for $f in $words
 let $tree := string-join(data($f/ancestor-or-self::*[@n]/@n),'.')
-return element w { attribute xml:id {db:node-id($f)} , attribute n { $ctsname || $tree } , data($f) }
+return element w { 
+attribute xml:id {db:node-id($f)} , 
+attribute n { $ctsname || $tree } , 
+if ($f/@ana) then $f/@ana else attribute ana { "1" } , 
+data($f) }
 };
 declare variable $flist := map {
   "tubero-commentarii-rezar-p-s-w-placename-n.xml": "urn:cts:croala:tubero.commentarii.croala-loci:",

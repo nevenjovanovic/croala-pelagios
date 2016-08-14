@@ -4,7 +4,7 @@ declare namespace cp = 'http://croala.ffzg.unizg.hr/croalapelagios';
 (: pretty printing of text :)
 declare function cp:prettyp2($settext) {
     element td {
-  replace(replace($settext, ' ([,).:;])', '$1'), '([(]) ', '$1')
+  replace(replace($settext, ' ([,).:;?])', '$1'), '([(]) ', '$1')
 }
 };
 
