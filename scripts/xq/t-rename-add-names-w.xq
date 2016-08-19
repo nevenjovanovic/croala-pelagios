@@ -2,7 +2,7 @@
 (: in tubero-commentarii :)
 declare default element namespace "http://www.tei-c.org/ns/1.0";
 for $nonnames in (
-  "Boemorum",
+  (:  "Boemorum",
 "Dacico",
 "Drauo",
 "Europeae",
@@ -16,7 +16,36 @@ for $nonnames in (
 "Rhipheos",
 "Sarmatiae",
 "Slauenos",
-"Vistulaque"
+"Vistulaque",
+"Boemiaeque",
+"Boemici",
+"Bohemiae",
+"Bosinensium",
+"Bossinensium",
+"Circumistranas",
+"Francorum",
+"Italicae",
+"Italicam",
+"Quinqueeclesiarum",
+"Tribuniensium",
+"Varanensem",
+"Visegradiensis", 
+"Belgicae",
+"Galliae",
+"Citeriorem",
+"Budensemque",
+"Transistrana",
+"Regiam",
+"Superior",
+"Nouam" :)
+"Galliis",
+"Galliisque"
 )
-for $n in db:open("tubero-commentarii")//*:w[text() contains text { $nonnames } using case sensitive]
-return rename node $n as 'placeName'
+for $n in db:open("tubero-commentarii")//*:w[not(@ana) and text() contains text { $nonnames } using case sensitive]
+let $newn := replace($n/@n, 'w', 'placeName')
+let $ana := "estlocusX"
+return replace node $n with element placeName {
+  attribute ana {$ana},
+  attribute n {$newn},
+  $nonnames
+}
