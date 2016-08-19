@@ -1,0 +1,2 @@
+SET CHOP false; SET FTINDEX true; SET UPDINDEX true; SET AUTOOPTIMIZE true
+CREATE DB tubero-commentarii /home/neven/rad/croalapelagiosxml/

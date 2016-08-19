@@ -1,0 +1,3 @@
+OPEN tubero-commentarii
+CREATE BACKUP tubero-commentarii
+REPLACE tubero-commentarii-rezar-p-s-w-placename-n.xml /home/neven/rad/croalapelagiosxml/tubero-commentarii-rezar-p-s-w-placename-n.xml

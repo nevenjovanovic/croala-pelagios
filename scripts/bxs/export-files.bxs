@@ -1,0 +1,3 @@
+OPEN tubero-commentarii
+CREATE BACKUP tubero-commentarii
+EXPORT /home/neven/rad/croalapelagiosxml/
