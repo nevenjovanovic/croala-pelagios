@@ -22,6 +22,7 @@ let $sq := data($i/@xml:id)
 let $cts := data($i/@n)
 let $label := $i/text()
 let $citerecord := "urn:cite:croala:loci." || $sq
+let $citebodyrecord := "urn:cite:croala:loci.ana." || $sq
 let $isplace := data($i/@ana)
 let $txt := cp:openurn2($sq)
 order by xs:integer($sq)
@@ -31,7 +32,8 @@ return element tr {
   element td { $isplace },
   $txt,
   element td { $cts },
-  element td { $citerecord }
+  element td { $citerecord },
+  element td { $citebodyrecord }
 }
 }
 return csv:serialize($citelist)
