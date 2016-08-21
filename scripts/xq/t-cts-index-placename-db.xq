@@ -6,7 +6,7 @@ let $tree := string-join(data($f/ancestor-or-self::*[@n]/@n),'.')
 return element w { 
 attribute xml:id {db:node-id($f)} , 
 attribute n { $ctsname || $tree } , 
-if ($f/@ana) then $f/@ana else attribute ana { "estlocus1" } , 
+$f/@ana , 
 data($f) }
 };
 declare variable $flist := map {
@@ -17,7 +17,7 @@ let $windex :=
 element wlist {
   for $xmlfile in map:keys($flist)
   let $cts := map:get($flist,$xmlfile)
-for $f in db:open("tubero-commentarii", $xmlfile)//*:text//*:placeName
+for $f in db:open("tubero-commentarii", $xmlfile)//*:text//*[name()='placeName' or name()='w' and @ana]
 let $ntree := local:ntree($f, $cts)
 return $ntree
 }
