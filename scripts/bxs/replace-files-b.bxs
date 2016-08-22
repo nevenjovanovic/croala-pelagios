@@ -1,0 +1,4 @@
+SET CHOP false; SET FTINDEX true; SET UPDINDEX true; SET AUTOOPTIMIZE true
+OPEN tubero-commentarii
+CREATE BACKUP tubero-commentarii
+REPLACE modr-n-oratio-riar-jovanovic-loci.xml /home/neven/rad/croalapelagiosxml/modr-n-oratio-riar-jovanovic-loci.xml
