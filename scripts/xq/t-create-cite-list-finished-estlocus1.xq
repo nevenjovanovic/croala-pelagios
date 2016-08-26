@@ -18,7 +18,7 @@ return cp:prettyp2($settext)
 
 let $citelist :=
 element csv {
-for $i in collection("tub-com-placename-idx")//*:w[@ana!='estlocusX']
+for $i in collection("tub-com-placename-idx")//*:w[@ana='estlocus1']
 let $sq := data($i/@xml:id)
 let $cts := data($i/@n)
 let $label := $i/text()
