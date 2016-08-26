@@ -1,0 +1,7 @@
+SET CHOP false; SET INTPARSE true; SET FTINDEX true; SET UPDINDEX true; SET AUTOOPTIMIZE true
+CREATE DB modr-morph /home/neven/rad/croala-pelagios/editions/XML/modr-n-oratio-riar-jovanovic-sententiae-verba.xml
+RUN /home/neven/rad/croala-pelagios/scripts/xq/edition-renumber-id.xq
+RUN /home/neven/rad/croala-pelagios/scripts/xq/edition-renumber-id-pc.xq
+RUN /home/neven/rad/croala-pelagios/scripts/xq/edition-identify-words.xq
+RUN /home/neven/rad/croala-pelagios/scripts/xq/insert-ana-into-edition-sent-verb.xq
+EXPORT /home/neven/rad/croala-pelagios/editions/XML/

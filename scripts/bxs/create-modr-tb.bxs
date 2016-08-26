@@ -1,0 +1,7 @@
+SET CHOP false; SET INTPARSE true; SET UPDINDEX true; SET AUTOOPTIMIZE true
+CREATE DB modr-tb /home/neven/rad/modruskiriarioizdanje/xml2/morphologia/n/
+RUN /home/neven/rad/croala-pelagios/scripts/xq/tb-add-urn.xq
+RUN /home/neven/rad/croala-pelagios/scripts/xq/treebank-renumber-id-sentence.xq
+RUN /home/neven/rad/croala-pelagios/scripts/xq/tb-renumber-id.xq
+RUN /home/neven/rad/croala-pelagios/scripts/xq/treebank-identify-words.xq
+EXPORT /home/neven/rad/modruskiriarioizdanje/xml2/morphologia/final/
