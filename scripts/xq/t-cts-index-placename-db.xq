@@ -17,7 +17,8 @@ let $windex :=
 element wlist {
   for $xmlfile in map:keys($flist)
   let $cts := map:get($flist,$xmlfile)
-for $f in db:open("tubero-commentarii", $xmlfile)//*:text//*[name()='placeName' or name()='w' and @ana]
+let $names := ("placeName", "name", "w")
+for $f in db:open("tubero-commentarii", $xmlfile)//*:text//*[name()=$names and @ana]
 let $ntree := local:ntree($f, $cts)
 return $ntree
 }
