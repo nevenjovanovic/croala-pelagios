@@ -1,0 +1,425 @@
+@prefix ns1: <http://purl.org/saws/ontology/> .
+@prefix ns2: <http://www.w3.org/ns/oa#> .
+@prefix ns3: <http://purl.org/dc/terms/> .
+@prefix ns4: <http://pleiades.stoa.org/places/vocab#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:cite:croala:loci.ana-nota.10616> a ns2:Annotation ;
+    rdfs:label "Italia" ;
+    ns3:created "04/08/2016 02:33:10" ;
+    ns3:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns2:hasBody [ ns1:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ ns4:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
+            ns1:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <http://pleiades.stoa.org/places/1052> ] ;
+    ns2:hasTarget <urn:cite:croala:loci.ana.10616> ;
+    ns2:motivatedBy ns2:identifying .
+
+<urn:cite:croala:loci.ana-nota.11089> a ns2:Annotation ;
+    rdfs:label "Italia" ;
+    ns3:created "04/08/2016 02:33:10" ;
+    ns3:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns2:hasBody [ ns1:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ ns4:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
+            ns1:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <http://pleiades.stoa.org/places/1052> ] ;
+    ns2:hasTarget <urn:cite:croala:loci.ana.11089> ;
+    ns2:motivatedBy ns2:identifying .
+
+<urn:cite:croala:loci.ana-nota.12214> a ns2:Annotation ;
+    rdfs:label "Milano" ;
+    ns3:created "04/08/2016 02:33:10" ;
+    ns3:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns2:hasBody [ ns1:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ ns4:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
+            ns1:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <http://pleiades.stoa.org/places/383706> ] ;
+    ns2:hasTarget <urn:cite:croala:loci.ana.12214> ;
+    ns2:motivatedBy ns2:identifying .
+
+<urn:cite:croala:loci.ana-nota.12653> a ns2:Annotation ;
+    rdfs:label "Imola" ;
+    ns3:created "04/08/2016 02:33:10" ;
+    ns3:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns2:hasBody [ ns4:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
+            ns1:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <http://pleiades.stoa.org/places/393424> ],
+        [ ns4:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
+            ns1:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <http://pleiades.stoa.org/places/393424> ],
+        [ ns1:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ ns1:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ] ;
+    ns2:hasTarget <urn:cite:croala:loci.ana.12335>,
+        <urn:cite:croala:loci.ana.12344>,
+        <urn:cite:croala:loci.ana.12653> ;
+    ns2:motivatedBy ns2:identifying .
+
+<urn:cite:croala:loci.ana-nota.12776> a ns2:Annotation ;
+    rdfs:label "Bosco Marengo" ;
+    ns3:created "04/08/2016 02:33:10" ;
+    ns3:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns2:hasBody [ ns1:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ ns4:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
+            ns1:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <https://www.wikidata.org/wiki/Q17283> ] ;
+    ns2:hasTarget <urn:cite:croala:loci.ana.12766>,
+        <urn:cite:croala:loci.ana.12771>,
+        <urn:cite:croala:loci.ana.12776> ;
+    ns2:motivatedBy ns2:identifying .
+
+<urn:cite:croala:loci.ana-nota.12857> a ns2:Annotation ;
+    rdfs:label "Imola" ;
+    ns3:created "04/08/2016 02:33:10" ;
+    ns3:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns2:hasBody [ ns4:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
+            ns1:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <http://pleiades.stoa.org/places/393424> ],
+        [ ns1:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ] ;
+    ns2:hasTarget <urn:cite:croala:loci.ana.12857> ;
+    ns2:motivatedBy ns2:identifying .
+
+<urn:cite:croala:loci.ana-nota.14864> a ns2:Annotation ;
+    rdfs:label "Romana urbs (Roma)" ;
+    ns3:created "04/08/2016 02:33:10" ;
+    ns3:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns2:hasBody [ ns4:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
+            ns1:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <http://pleiades.stoa.org/places/423025> ],
+        [ ns1:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ] ;
+    ns2:hasTarget <urn:cite:croala:loci.ana.14854>,
+        <urn:cite:croala:loci.ana.14859>,
+        <urn:cite:croala:loci.ana.14864> ;
+    ns2:motivatedBy ns2:identifying .
+
+<urn:cite:croala:loci.ana-nota.14869> a ns2:Annotation ;
+    rdfs:label "San Gregorio Magno al Celio (chiesa, Roma)" ;
+    ns3:created "04/08/2016 02:33:10" ;
+    ns3:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns2:hasBody [ ns4:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
+            ns1:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <https://www.wikidata.org/wiki/Q748459> ],
+        [ ns1:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ] ;
+    ns2:hasTarget <urn:cite:croala:loci.ana.14854>,
+        <urn:cite:croala:loci.ana.14859>,
+        <urn:cite:croala:loci.ana.14864>,
+        <urn:cite:croala:loci.ana.14869>,
+        <urn:cite:croala:loci.ana.14874>,
+        <urn:cite:croala:loci.ana.14879> ;
+    ns2:motivatedBy ns2:identifying .
+
+<urn:cite:croala:loci.ana-nota.14928> a ns2:Annotation ;
+    rdfs:label "Treviso" ;
+    ns3:created "04/08/2016 02:33:10" ;
+    ns3:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns2:hasBody [ ns4:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
+            ns1:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <http://pleiades.stoa.org/places/393503> ],
+        [ ns1:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ] ;
+    ns2:hasTarget <urn:cite:croala:loci.ana.14928>,
+        <urn:cite:croala:loci.ana.14933>,
+        <urn:cite:croala:loci.ana.14938> ;
+    ns2:motivatedBy ns2:identifying .
+
+<urn:cite:croala:loci.ana-nota.14933> a ns2:Annotation ;
+    rdfs:label "Duomo di Treviso" ;
+    ns3:created "04/08/2016 02:33:10" ;
+    ns3:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns2:hasBody [ ns4:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
+            ns1:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <https://www.wikidata.org/wiki/Q51149> ],
+        [ ns1:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ] ;
+    ns2:hasTarget <urn:cite:croala:loci.ana.14928> ;
+    ns2:motivatedBy ns2:identifying .
+
+<urn:cite:croala:loci.ana-nota.14991> a ns2:Annotation ;
+    rdfs:label "Milano" ;
+    ns3:created "04/08/2016 02:33:10" ;
+    ns3:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns2:hasBody [ ns1:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ ns4:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
+            ns1:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <http://pleiades.stoa.org/places/383706> ] ;
+    ns2:hasTarget <urn:cite:croala:loci.ana.14991> ;
+    ns2:motivatedBy ns2:identifying .
+
+<urn:cite:croala:loci.ana-nota.14996> a ns2:Annotation ;
+    rdfs:label "Basilica di Sant'Ambrogio, Milano" ;
+    ns3:created "04/08/2016 02:33:10" ;
+    ns3:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns2:hasBody [ ns1:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ ns4:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
+            ns1:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <https://www.wikidata.org/wiki/Q1071570> ] ;
+    ns2:hasTarget <urn:cite:croala:loci.ana.14991>,
+        <urn:cite:croala:loci.ana.14996>,
+        <urn:cite:croala:loci.ana.15001> ;
+    ns2:motivatedBy ns2:identifying .
+
+<urn:cite:croala:loci.ana-nota.15138> a ns2:Annotation ;
+    rdfs:label "Pavia" ;
+    ns3:created "04/08/2016 02:33:10" ;
+    ns3:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns2:hasBody [ ns4:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
+            ns1:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <http://pleiades.stoa.org/places/383798> ],
+        [ ns1:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ] ;
+    ns2:hasTarget <urn:cite:croala:loci.ana.15138> ;
+    ns2:motivatedBy ns2:identifying .
+
+<urn:cite:croala:loci.ana-nota.15143> a ns2:Annotation ;
+    rdfs:label "San Maiolo (Pavia)" ;
+    ns3:created "04/08/2016 02:33:10" ;
+    ns3:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns2:hasBody [ ns1:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ ns4:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
+            ns1:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <https://thesaurus.cerl.org/record/cnc00020580> ] ;
+    ns2:hasTarget <urn:cite:croala:loci.ana.15138>,
+        <urn:cite:croala:loci.ana.15143>,
+        <urn:cite:croala:loci.ana.15148> ;
+    ns2:motivatedBy ns2:identifying .
+
+<urn:cite:croala:loci.ana-nota.15525> a ns2:Annotation ;
+    rdfs:label "Santi Apostoli (basilica, Roma)" ;
+    ns3:created "04/08/2016 02:33:10" ;
+    ns3:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns2:hasBody [ ns4:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
+            ns1:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <https://www.wikidata.org/wiki/Q1515300> ],
+        [ ns1:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ] ;
+    ns2:hasTarget <urn:cite:croala:loci.ana.15525>,
+        <urn:cite:croala:loci.ana.15534>,
+        <urn:cite:croala:loci.ana.15539>,
+        <urn:cite:croala:loci.ana.15544> ;
+    ns2:motivatedBy ns2:identifying .
+
+<urn:cite:croala:loci.ana-nota.2372> a ns2:Annotation ;
+    rdfs:label "Liguria" ;
+    ns3:created "04/08/2016 02:33:10" ;
+    ns3:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns2:hasBody [ ns1:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ ns4:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
+            ns1:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <http://pleiades.stoa.org/places/383698> ] ;
+    ns2:hasTarget <urn:cite:croala:loci.ana.2372>,
+        <urn:cite:croala:loci.ana.2377>,
+        <urn:cite:croala:loci.ana.2382> ;
+    ns2:motivatedBy ns2:identifying .
+
+<urn:cite:croala:loci.ana-nota.2382> a ns2:Annotation ;
+    rdfs:label "Saona" ;
+    ns3:created "04/08/2016 02:33:10" ;
+    ns3:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns2:hasBody [ ns4:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
+            ns1:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <http://pleiades.stoa.org/places/383770> ],
+        [ ns1:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ] ;
+    ns2:hasTarget <urn:cite:croala:loci.ana.2372> ;
+    ns2:motivatedBy ns2:identifying .
+
+<urn:cite:croala:loci.ana-nota.3151> a ns2:Annotation ;
+    rdfs:label "Siena" ;
+    ns3:created "04/08/2016 02:33:10" ;
+    ns3:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns2:hasBody [ ns1:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ ns4:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
+            ns1:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <http://pleiades.stoa.org/places/413293> ] ;
+    ns2:hasTarget <urn:cite:croala:loci.ana.3151> ;
+    ns2:motivatedBy ns2:identifying .
+
+<urn:cite:croala:loci.ana-nota.4108> a ns2:Annotation ;
+    rdfs:label "Vicheria" ;
+    ns3:created "04/08/2016 02:33:10" ;
+    ns3:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns2:hasBody [ ns4:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
+            ns1:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <https://www.wikidata.org/wiki/Q39981> ],
+        [ ns1:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ] ;
+    ns2:hasTarget <urn:cite:croala:loci.ana.4108> ;
+    ns2:motivatedBy ns2:identifying .
+
+<urn:cite:croala:loci.ana-nota.4145> a ns2:Annotation ;
+    rdfs:label "Ticino" ;
+    ns3:created "04/08/2016 02:33:10" ;
+    ns3:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns2:hasBody [ ns4:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
+            ns1:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <http://pleiades.stoa.org/places/383798> ],
+        [ ns1:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ] ;
+    ns2:hasTarget <urn:cite:croala:loci.ana.4145> ;
+    ns2:motivatedBy ns2:identifying .
+
+<urn:cite:croala:loci.ana-nota.4158> a ns2:Annotation ;
+    rdfs:label "Padova" ;
+    ns3:created "04/08/2016 02:33:10" ;
+    ns3:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns2:hasBody [ ns1:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ ns4:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
+            ns1:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <http://pleiades.stoa.org/places/393473> ] ;
+    ns2:hasTarget <urn:cite:croala:loci.ana.4158> ;
+    ns2:motivatedBy ns2:identifying .
+
+<urn:cite:croala:loci.ana-nota.4171> a ns2:Annotation ;
+    rdfs:label "Venezia" ;
+    ns3:created "04/08/2016 02:33:10" ;
+    ns3:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns2:hasBody [ ns1:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ ns4:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
+            ns1:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <https://www.wikidata.org/wiki/Q641> ] ;
+    ns2:hasTarget <urn:cite:croala:loci.ana.4171> ;
+    ns2:motivatedBy ns2:identifying .
+
+<urn:cite:croala:loci.ana-nota.4180> a ns2:Annotation ;
+    rdfs:label "Bologna" ;
+    ns3:created "04/08/2016 02:33:10" ;
+    ns3:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns2:hasBody [ ns1:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ ns4:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
+            ns1:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <http://pleiades.stoa.org/places/206975> ] ;
+    ns2:hasTarget <urn:cite:croala:loci.ana.4180> ;
+    ns2:motivatedBy ns2:identifying .
+
+<urn:cite:croala:loci.ana-nota.4189> a ns2:Annotation ;
+    rdfs:label "Perugia" ;
+    ns3:created "04/08/2016 02:33:10" ;
+    ns3:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns2:hasBody [ ns1:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ ns4:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
+            ns1:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <http://pleiades.stoa.org/places/413248> ] ;
+    ns2:hasTarget <urn:cite:croala:loci.ana.4189> ;
+    ns2:motivatedBy ns2:identifying .
+
+<urn:cite:croala:loci.ana-nota.4198> a ns2:Annotation ;
+    rdfs:label "Siena" ;
+    ns3:created "04/08/2016 02:33:10" ;
+    ns3:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns2:hasBody [ ns4:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
+            ns1:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <http://pleiades.stoa.org/places/413293> ],
+        [ ns1:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ] ;
+    ns2:hasTarget <urn:cite:croala:loci.ana.4198> ;
+    ns2:motivatedBy ns2:identifying .
+
+<urn:cite:croala:loci.ana-nota.4207> a ns2:Annotation ;
+    rdfs:label "Ferrara" ;
+    ns3:created "04/08/2016 02:33:10" ;
+    ns3:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns2:hasBody [ ns4:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
+            ns1:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <http://pleiades.stoa.org/places/471923> ],
+        [ ns1:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ] ;
+    ns2:hasTarget <urn:cite:croala:loci.ana.4207> ;
+    ns2:motivatedBy ns2:identifying .
+
+<urn:cite:croala:loci.ana-nota.4240> a ns2:Annotation ;
+    rdfs:label "Italia" ;
+    ns3:created "04/08/2016 02:33:10" ;
+    ns3:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns2:hasBody [ ns1:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ ns4:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
+            ns1:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <http://pleiades.stoa.org/places/1052> ] ;
+    ns2:hasTarget <urn:cite:croala:loci.ana.4240>,
+        <urn:cite:croala:loci.ana.4245> ;
+    ns2:motivatedBy ns2:identifying .
+
+<urn:cite:croala:loci.ana-nota.4245> a ns2:Annotation ;
+    rdfs:label "Italiae gymnasia" ;
+    ns3:created "04/08/2016 02:33:10" ;
+    ns3:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns2:hasBody [ ns1:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ ns4:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
+            ns1:refersTo <>,
+                <http://lawd.info/ontology/1.0/PlaceName> ] ;
+    ns2:hasTarget <urn:cite:croala:loci.ana.4240> ;
+    ns2:motivatedBy ns2:identifying .
+
+<urn:cite:croala:loci.ana-nota.435> a ns2:Annotation ;
+    rdfs:label "San Sisto Vecchio (Roma)" ;
+    ns3:created "04/08/2016 02:33:10" ;
+    ns3:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns2:hasBody [ ns4:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
+            ns1:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <https://www.wikidata.org/wiki/Q2736770> ],
+        [ ns1:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ] ;
+    ns2:hasTarget <urn:cite:croala:loci.ana.2162>,
+        <urn:cite:croala:loci.ana.2167>,
+        <urn:cite:croala:loci.ana.435>,
+        <urn:cite:croala:loci.ana.440> ;
+    ns2:motivatedBy ns2:identifying .
+
+<urn:cite:croala:loci.ana-nota.473> a ns2:Annotation ;
+    rdfs:label "Modruš" ;
+    ns3:created "04/08/2016 02:33:10" ;
+    ns3:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns2:hasBody [ ns1:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ ns4:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
+            ns1:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <https://www.wikidata.org/wiki/Q958041> ] ;
+    ns2:hasTarget <urn:cite:croala:loci.ana.473> ;
+    ns2:motivatedBy ns2:identifying .
+
+<urn:cite:croala:loci.ana-nota.5214> a ns2:Annotation ;
+    rdfs:label "Roma" ;
+    ns3:created "04/08/2016 02:33:10" ;
+    ns3:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns2:hasBody [ ns1:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ ns4:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
+            ns1:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <http://pleiades.stoa.org/places/423025> ] ;
+    ns2:hasTarget <urn:cite:croala:loci.ana.5214> ;
+    ns2:motivatedBy ns2:identifying .
+
+<urn:cite:croala:loci.ana-nota.5599> a ns2:Annotation ;
+    rdfs:label "Roma" ;
+    ns3:created "04/08/2016 02:33:10" ;
+    ns3:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns2:hasBody [ ns1:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ ns4:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
+            ns1:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <http://pleiades.stoa.org/places/423025> ] ;
+    ns2:hasTarget <urn:cite:croala:loci.ana.5599> ;
+    ns2:motivatedBy ns2:identifying .
+
+

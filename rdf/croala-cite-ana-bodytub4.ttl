@@ -1,0 +1,753 @@
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix ns2: <http://purl.org/saws/ontology/> .
+@prefix ns3: <http://www.w3.org/ns/oa#> .
+@prefix ns4: <http://pleiades.stoa.org/places/vocab#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:cite:croala:loci.ana-nota.21196> a ns3:Annotation ;
+    rdfs:label "Italia" ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns3:hasBody [ ns2:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ ns4:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
+            ns2:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <http://pleiades.stoa.org/places/1052> ] ;
+    ns3:hasTarget <urn:cite:croala:loci.ana.21196>,
+        <urn:cite:croala:loci.ana.42216> ;
+    ns3:motivatedBy ns3:identifying .
+
+<urn:cite:croala:loci.ana-nota.22082> a ns3:Annotation ;
+    rdfs:label "Kingdom of Hungary" ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns3:hasBody [ ns4:during <http://n2t.net/ark:/99152/p0qhb66qqkh> ;
+            ns2:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <https://www.wikidata.org/wiki/Q171150> ],
+        [ ns2:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ] ;
+    ns3:hasTarget <urn:cite:croala:loci.ana.22082>,
+        <urn:cite:croala:loci.ana.29051>,
+        <urn:cite:croala:loci.ana.40666>,
+        <urn:cite:croala:loci.ana.43919>,
+        <urn:cite:croala:loci.ana.44421>,
+        <urn:cite:croala:loci.ana.45103>,
+        <urn:cite:croala:loci.ana.45283>,
+        <urn:cite:croala:loci.ana.46229>,
+        <urn:cite:croala:loci.ana.46575>,
+        <urn:cite:croala:loci.ana.47096>,
+        <urn:cite:croala:loci.ana.51526>,
+        <urn:cite:croala:loci.ana.57843>,
+        <urn:cite:croala:loci.ana.65083>,
+        <urn:cite:croala:loci.ana.66274>,
+        <urn:cite:croala:loci.ana.74357>,
+        <urn:cite:croala:loci.ana.78218>,
+        <urn:cite:croala:loci.ana.80444>,
+        <urn:cite:croala:loci.ana.85144>,
+        <urn:cite:croala:loci.ana.85353>,
+        <urn:cite:croala:loci.ana.89154>,
+        <urn:cite:croala:loci.ana.89370> ;
+    ns3:motivatedBy ns3:identifying .
+
+<urn:cite:croala:loci.ana-nota.23841> a ns3:Annotation ;
+    rdfs:label "Prague" ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns3:hasBody [ ns4:during <http://n2t.net/ark:/99152/p0qhb66388g> ;
+            ns2:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <https://www.wikidata.org/wiki/Q1085> ],
+        [ ns2:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ] ;
+    ns3:hasTarget <urn:cite:croala:loci.ana.23841>,
+        <urn:cite:croala:loci.ana.27954>,
+        <urn:cite:croala:loci.ana.52236>,
+        <urn:cite:croala:loci.ana.78055> ;
+    ns3:motivatedBy ns3:identifying .
+
+<urn:cite:croala:loci.ana-nota.25611> a ns3:Annotation ;
+    rdfs:label "Vienna" ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns3:hasBody [ ns2:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ ns4:during <http://n2t.net/ark:/99152/p0qhb66pgtj> ;
+            ns2:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <https://www.wikidata.org/wiki/Q1741> ] ;
+    ns3:hasTarget <urn:cite:croala:loci.ana.25611>,
+        <urn:cite:croala:loci.ana.26297>,
+        <urn:cite:croala:loci.ana.26624>,
+        <urn:cite:croala:loci.ana.29798>,
+        <urn:cite:croala:loci.ana.63811> ;
+    ns3:motivatedBy ns3:identifying .
+
+<urn:cite:croala:loci.ana-nota.26324> a ns3:Annotation ;
+    rdfs:label "Noricum" ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns3:hasBody [ ns2:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ ns4:during <http://n2t.net/ark:/99152/p0qhb66pgtj> ;
+            ns2:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <http://pleiades.stoa.org/places/981538> ] ;
+    ns3:hasTarget <urn:cite:croala:loci.ana.26324>,
+        <urn:cite:croala:loci.ana.26665> ;
+    ns3:motivatedBy ns3:identifying .
+
+<urn:cite:croala:loci.ana-nota.26333> a ns3:Annotation ;
+    rdfs:label "Carniola" ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns3:hasBody [ ns4:during <http://n2t.net/ark:/99152/p0qhb66qqkh> ;
+            ns2:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <https://www.wikidata.org/wiki/Q193474> ],
+        [ ns2:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ] ;
+    ns3:hasTarget <urn:cite:croala:loci.ana.26333> ;
+    ns3:motivatedBy ns3:identifying .
+
+<urn:cite:croala:loci.ana-nota.26446> a ns3:Annotation ;
+    rdfs:label "Europe" ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns3:hasBody [ ns2:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ ns4:during <http://n2t.net/ark:/99152/p0qhb66qqkh> ;
+            ns2:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <https://www.wikidata.org/wiki/Q46> ] ;
+    ns3:hasTarget <urn:cite:croala:loci.ana.26446>,
+        <urn:cite:croala:loci.ana.35480>,
+        <urn:cite:croala:loci.ana.38205>,
+        <urn:cite:croala:loci.ana.48741> ;
+    ns3:motivatedBy ns3:identifying .
+
+<urn:cite:croala:loci.ana-nota.26716> a ns3:Annotation ;
+    rdfs:label "Austria" ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns3:hasBody [ ns4:during <http://n2t.net/ark:/99152/p0qhb66qqkh> ;
+            ns2:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <https://www.wikidata.org/wiki/Q40> ],
+        [ ns2:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ] ;
+    ns3:hasTarget <urn:cite:croala:loci.ana.26716>,
+        <urn:cite:croala:loci.ana.29883> ;
+    ns3:motivatedBy ns3:identifying .
+
+<urn:cite:croala:loci.ana-nota.27429> a ns3:Annotation ;
+    rdfs:label "Székesfehérvár" ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns3:hasBody [ ns2:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ ns4:during <http://n2t.net/ark:/99152/p0qhb66qqkh>,
+                <https://www.wikidata.org/wiki/Q6669> ;
+            ns2:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <https://www.wikidata.org/wiki/Q130212> ] ;
+    ns3:hasTarget <urn:cite:croala:loci.ana.27429>,
+        <urn:cite:croala:loci.ana.30140>,
+        <urn:cite:croala:loci.ana.34663> ;
+    ns3:motivatedBy ns3:identifying .
+
+<urn:cite:croala:loci.ana-nota.29072> a ns3:Annotation ;
+    rdfs:label "Holy Roman Empire" ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns3:hasBody [ ns2:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ ns4:during <http://n2t.net/ark:/99152/p0qhb66qqkh> ;
+            ns2:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <https://www.wikidata.org/wiki/Q12548> ] ;
+    ns3:hasTarget <urn:cite:croala:loci.ana.29072>,
+        <urn:cite:croala:loci.ana.49461> ;
+    ns3:motivatedBy ns3:identifying .
+
+<urn:cite:croala:loci.ana-nota.30189> a ns3:Annotation ;
+    rdfs:label "Buda" ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns3:hasBody [ ns2:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ ns4:during <http://n2t.net/ark:/99152/p0qhb66qqkh> ;
+            ns2:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <https://www.wikidata.org/wiki/Q193478> ] ;
+    ns3:hasTarget <urn:cite:croala:loci.ana.30189>,
+        <urn:cite:croala:loci.ana.35232>,
+        <urn:cite:croala:loci.ana.71929>,
+        <urn:cite:croala:loci.ana.73332>,
+        <urn:cite:croala:loci.ana.89244> ;
+    ns3:motivatedBy ns3:identifying .
+
+<urn:cite:croala:loci.ana-nota.32295> a ns3:Annotation ;
+    rdfs:label "Dacia" ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns3:hasBody [ ns2:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ ns4:during <http://n2t.net/ark:/99152/p0qhb66kqd5> ;
+            ns2:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <http://pleiades.stoa.org/places/207065> ] ;
+    ns3:hasTarget <urn:cite:croala:loci.ana.32295> ;
+    ns3:motivatedBy ns3:identifying .
+
+<urn:cite:croala:loci.ana-nota.34308> a ns3:Annotation ;
+    rdfs:label "Dubrovnik" ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns3:hasBody [ ns4:during <http://n2t.net/ark:/99152/p0qhb66qqkh> ;
+            ns2:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <https://www.wikidata.org/wiki/Q1722> ],
+        [ ns2:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ] ;
+    ns3:hasTarget <urn:cite:croala:loci.ana.34308> ;
+    ns3:motivatedBy ns3:identifying .
+
+<urn:cite:croala:loci.ana-nota.34329> a ns3:Annotation ;
+    rdfs:label "Dalmatia" ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns3:hasBody [ ns4:during <http://n2t.net/ark:/99152/p0qhb66qqkh> ;
+            ns2:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <http://pleiades.stoa.org/places/197240> ],
+        [ ns2:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ] ;
+    ns3:hasTarget <urn:cite:croala:loci.ana.34329> ;
+    ns3:motivatedBy ns3:identifying .
+
+<urn:cite:croala:loci.ana-nota.35118> a ns3:Annotation ;
+    rdfs:label "" ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns3:hasBody [ ns2:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ ns4:during <http://n2t.net/ark:/99152/p0qhb66qqkh> ;
+            ns2:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <https://www.wikidata.org/wiki/Q1252407> ] ;
+    ns3:hasTarget <urn:cite:croala:loci.ana.35118>,
+        <urn:cite:croala:loci.ana.47023> ;
+    ns3:motivatedBy ns3:identifying .
+
+<urn:cite:croala:loci.ana-nota.35195> a ns3:Annotation ;
+    rdfs:label "Pest" ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns3:hasBody [ ns2:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ ns4:during <http://n2t.net/ark:/99152/p0qhb66qqkh> ;
+            ns2:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <https://www.wikidata.org/wiki/Q210205> ] ;
+    ns3:hasTarget <urn:cite:croala:loci.ana.35195>,
+        <urn:cite:croala:loci.ana.63650> ;
+    ns3:motivatedBy ns3:identifying .
+
+<urn:cite:croala:loci.ana-nota.35245> a ns3:Annotation ;
+    rdfs:label "Danuvius/Istros/Hister fl." ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns3:hasBody [ ns4:during <http://n2t.net/ark:/99152/p0qhb66qqkh> ;
+            ns2:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <http://pleiades.stoa.org/places/226577> ],
+        [ ns2:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ] ;
+    ns3:hasTarget <urn:cite:croala:loci.ana.35245>,
+        <urn:cite:croala:loci.ana.35467>,
+        <urn:cite:croala:loci.ana.35641>,
+        <urn:cite:croala:loci.ana.38004>,
+        <urn:cite:croala:loci.ana.43687>,
+        <urn:cite:croala:loci.ana.63667>,
+        <urn:cite:croala:loci.ana.67903>,
+        <urn:cite:croala:loci.ana.76608>,
+        <urn:cite:croala:loci.ana.89403> ;
+    ns3:motivatedBy ns3:identifying .
+
+<urn:cite:croala:loci.ana-nota.35575> a ns3:Annotation ;
+    rdfs:label "(H)Adriaticum/Superum Mare" ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns3:hasBody [ ns2:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ ns4:during <http://n2t.net/ark:/99152/p08m57h8zmq> ;
+            ns2:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <http://pleiades.stoa.org/places/1004> ] ;
+    ns3:hasTarget <urn:cite:croala:loci.ana.35575>,
+        <urn:cite:croala:loci.ana.36154> ;
+    ns3:motivatedBy ns3:identifying .
+
+<urn:cite:croala:loci.ana-nota.35658> a ns3:Annotation ;
+    rdfs:label "Pontus Euxinus" ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns3:hasBody [ ns4:during <http://n2t.net/ark:/99152/p0qhb66qqkh> ;
+            ns2:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <http://pleiades.stoa.org/places/1224> ],
+        [ ns2:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ] ;
+    ns3:hasTarget <urn:cite:croala:loci.ana.35658> ;
+    ns3:motivatedBy ns3:identifying .
+
+<urn:cite:croala:loci.ana-nota.36171> a ns3:Annotation ;
+    rdfs:label "Dravus (river)" ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns3:hasBody [ ns4:during <http://n2t.net/ark:/99152/p0qhb66qqkh> ;
+            ns2:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <http://pleiades.stoa.org/places/197253> ],
+        [ ns2:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ] ;
+    ns3:hasTarget <urn:cite:croala:loci.ana.36171>,
+        <urn:cite:croala:loci.ana.36253> ;
+    ns3:motivatedBy ns3:identifying .
+
+<urn:cite:croala:loci.ana-nota.36748> a ns3:Annotation ;
+    rdfs:label "Thracia" ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns3:hasBody [ ns4:during <http://n2t.net/ark:/99152/p0qhb66zbsz> ;
+            ns2:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <http://pleiades.stoa.org/places/501638> ],
+        [ ns2:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ] ;
+    ns3:hasTarget <urn:cite:croala:loci.ana.36748> ;
+    ns3:motivatedBy ns3:identifying .
+
+<urn:cite:croala:loci.ana-nota.36771> a ns3:Annotation ;
+    rdfs:label "Macedonia" ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns3:hasBody [ ns2:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ ns4:during <http://n2t.net/ark:/99152/p0qhb66bjxq> ;
+            ns2:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <http://pleiades.stoa.org/places/491656> ] ;
+    ns3:hasTarget <urn:cite:croala:loci.ana.36771> ;
+    ns3:motivatedBy ns3:identifying .
+
+<urn:cite:croala:loci.ana-nota.36788> a ns3:Annotation ;
+    rdfs:label "Illyricum" ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns3:hasBody [ ns2:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ ns4:during <http://n2t.net/ark:/99152/p0qhb66zbsz> ;
+            ns2:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <http://pleiades.stoa.org/places/481865> ] ;
+    ns3:hasTarget <urn:cite:croala:loci.ana.36788>,
+        <urn:cite:croala:loci.ana.37901>,
+        <urn:cite:croala:loci.ana.38515> ;
+    ns3:motivatedBy ns3:identifying .
+
+<urn:cite:croala:loci.ana-nota.36801> a ns3:Annotation ;
+    rdfs:label "Pannonia" ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns3:hasBody [ ns4:during <http://n2t.net/ark:/99152/p0qhb66xttp> ;
+            ns2:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <http://pleiades.stoa.org/places/197425> ],
+        [ ns2:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ] ;
+    ns3:hasTarget <urn:cite:croala:loci.ana.36801> ;
+    ns3:motivatedBy ns3:identifying .
+
+<urn:cite:croala:loci.ana-nota.37754> a ns3:Annotation ;
+    rdfs:label "Vistula (river)" ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns3:hasBody [ ns2:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ ns4:during <http://n2t.net/ark:/99152/p0zj6g8w7zq> ;
+            ns2:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <http://pleiades.stoa.org/places/20639> ] ;
+    ns3:hasTarget <urn:cite:croala:loci.ana.37754> ;
+    ns3:motivatedBy ns3:identifying .
+
+<urn:cite:croala:loci.ana-nota.37775> a ns3:Annotation ;
+    rdfs:label "Albis fl." ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns3:hasBody [ ns4:during <http://n2t.net/ark:/99152/p06v8w472bf> ;
+            ns2:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <http://pleiades.stoa.org/places/98909> ],
+        [ ns2:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ] ;
+    ns3:hasTarget <urn:cite:croala:loci.ana.37775> ;
+    ns3:motivatedBy ns3:identifying .
+
+<urn:cite:croala:loci.ana-nota.37946> a ns3:Annotation ;
+    rdfs:label "Illyricum" ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns3:hasBody [ ns4:during <http://n2t.net/ark:/99152/p06v8w485jk> ;
+            ns2:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <http://pleiades.stoa.org/places/481865> ],
+        [ ns2:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ] ;
+    ns3:hasTarget <urn:cite:croala:loci.ana.37946> ;
+    ns3:motivatedBy ns3:identifying .
+
+<urn:cite:croala:loci.ana-nota.37963> a ns3:Annotation ;
+    rdfs:label "Serbia" ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns3:hasBody [ ns4:during <http://n2t.net/ark:/99152/p06v8w485jk> ;
+            ns2:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <https://www.wikidata.org/wiki/Q403> ],
+        [ ns2:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ] ;
+    ns3:hasTarget <urn:cite:croala:loci.ana.37963> ;
+    ns3:motivatedBy ns3:identifying .
+
+<urn:cite:croala:loci.ana-nota.38013> a ns3:Annotation ;
+    rdfs:label "Rhipaei montes" ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns3:hasBody [ ns2:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://vocab.getty.edu/aat/term/1000538745-en> ],
+        [ ns4:during <http://n2t.net/ark:/99152/p08m57h8zmq> ;
+            ns2:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <https://www.wikidata.org/wiki/Q20552181> ] ;
+    ns3:hasTarget <urn:cite:croala:loci.ana.38013> ;
+    ns3:motivatedBy ns3:identifying .
+
+<urn:cite:croala:loci.ana-nota.38055> a ns3:Annotation ;
+    rdfs:label "Roma" ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns3:hasBody [ ns2:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ ns4:during <http://n2t.net/ark:/99152/p0qhb66gw4d> ;
+            ns2:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <http://pleiades.stoa.org/places/423025> ] ;
+    ns3:hasTarget <urn:cite:croala:loci.ana.38055> ;
+    ns3:motivatedBy ns3:identifying .
+
+<urn:cite:croala:loci.ana-nota.38242> a ns3:Annotation ;
+    rdfs:label "Asia" ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns3:hasBody [ ns2:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ ns4:during <http://n2t.net/ark:/99152/p0qhb66n9z7> ;
+            ns2:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <http://pleiades.stoa.org/places/981509> ] ;
+    ns3:hasTarget <urn:cite:croala:loci.ana.38242> ;
+    ns3:motivatedBy ns3:identifying .
+
+<urn:cite:croala:loci.ana-nota.38255> a ns3:Annotation ;
+    rdfs:label "Rha/Attila (river)" ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns3:hasBody [ ns4:during <http://n2t.net/ark:/99152/p08m57h8zmq> ;
+            ns2:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <http://pleiades.stoa.org/places/834296> ],
+        [ ns2:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ] ;
+    ns3:hasTarget <urn:cite:croala:loci.ana.38255>,
+        <urn:cite:croala:loci.ana.38357>,
+        <urn:cite:croala:loci.ana.38386> ;
+    ns3:motivatedBy ns3:identifying .
+
+<urn:cite:croala:loci.ana-nota.38340> a ns3:Annotation ;
+    rdfs:label "Moscow" ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns3:hasBody [ ns2:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ ns4:during <http://n2t.net/ark:/99152/p08m57h8zmq> ;
+            ns2:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <https://www.wikidata.org/wiki/Q649> ] ;
+    ns3:hasTarget <urn:cite:croala:loci.ana.38340> ;
+    ns3:motivatedBy ns3:identifying .
+
+<urn:cite:croala:loci.ana-nota.38403> a ns3:Annotation ;
+    rdfs:label "Scythia" ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns3:hasBody [ ns2:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ ns4:during <http://n2t.net/ark:/99152/p08m57h8zmq> ;
+            ns2:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <http://pleiades.stoa.org/places/991379> ] ;
+    ns3:hasTarget <urn:cite:croala:loci.ana.38403> ;
+    ns3:motivatedBy ns3:identifying .
+
+<urn:cite:croala:loci.ana-nota.38424> a ns3:Annotation ;
+    rdfs:label "Caspium/Hyrcanium Mare" ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns3:hasBody [ ns2:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ ns4:during <http://n2t.net/ark:/99152/p0qhb66qqkh> ;
+            ns2:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <http://pleiades.stoa.org/places/884130> ] ;
+    ns3:hasTarget <urn:cite:croala:loci.ana.38424> ;
+    ns3:motivatedBy ns3:identifying .
+
+<urn:cite:croala:loci.ana-nota.38832> a ns3:Annotation ;
+    rdfs:label "Illyricum" ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns3:hasBody [ ns4:during <http://n2t.net/ark:/99152/p06c6g33gpw> ;
+            ns2:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <http://pleiades.stoa.org/places/481865> ],
+        [ ns2:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ] ;
+    ns3:hasTarget <urn:cite:croala:loci.ana.38832>,
+        <urn:cite:croala:loci.ana.38932> ;
+    ns3:motivatedBy ns3:identifying .
+
+<urn:cite:croala:loci.ana-nota.38999> a ns3:Annotation ;
+    rdfs:label "Illyricum" ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns3:hasBody [ ns4:during <http://n2t.net/ark:/99152/p0qhb66qqkh> ;
+            ns2:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <http://pleiades.stoa.org/places/481865> ],
+        [ ns2:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ] ;
+    ns3:hasTarget <urn:cite:croala:loci.ana.38999>,
+        <urn:cite:croala:loci.ana.60468>,
+        <urn:cite:croala:loci.ana.61480>,
+        <urn:cite:croala:loci.ana.61673>,
+        <urn:cite:croala:loci.ana.62099>,
+        <urn:cite:croala:loci.ana.62357> ;
+    ns3:motivatedBy ns3:identifying .
+
+<urn:cite:croala:loci.ana-nota.41297> a ns3:Annotation ;
+    rdfs:label "Scythia" ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns3:hasBody [ ns2:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ ns4:during <http://n2t.net/ark:/99152/p0qhb66zbsz> ;
+            ns2:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <http://pleiades.stoa.org/places/991379> ] ;
+    ns3:hasTarget <urn:cite:croala:loci.ana.41297> ;
+    ns3:motivatedBy ns3:identifying .
+
+<urn:cite:croala:loci.ana-nota.41314> a ns3:Annotation ;
+    rdfs:label "Tanais (river)" ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns3:hasBody [ ns4:during <http://n2t.net/ark:/99152/p0qhb66zbsz> ;
+            ns2:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <http://pleiades.stoa.org/places/825398> ],
+        [ ns2:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ] ;
+    ns3:hasTarget <urn:cite:croala:loci.ana.41314> ;
+    ns3:motivatedBy ns3:identifying .
+
+<urn:cite:croala:loci.ana-nota.42095> a ns3:Annotation ;
+    rdfs:label "Roma" ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns3:hasBody [ ns4:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
+            ns2:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <http://pleiades.stoa.org/places/423025> ],
+        [ ns2:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ] ;
+    ns3:hasTarget <urn:cite:croala:loci.ana.42095>,
+        <urn:cite:croala:loci.ana.42309>,
+        <urn:cite:croala:loci.ana.45840>,
+        <urn:cite:croala:loci.ana.66487>,
+        <urn:cite:croala:loci.ana.66592> ;
+    ns3:motivatedBy ns3:identifying .
+
+<urn:cite:croala:loci.ana-nota.42340> a ns3:Annotation ;
+    rdfs:label "Latium" ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns3:hasBody [ ns2:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ ns4:during <http://n2t.net/ark:/99152/p0qhb66pk6z> ;
+            ns2:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <http://pleiades.stoa.org/places/432900> ] ;
+    ns3:hasTarget <urn:cite:croala:loci.ana.42340> ;
+    ns3:motivatedBy ns3:identifying .
+
+<urn:cite:croala:loci.ana-nota.43632> a ns3:Annotation ;
+    rdfs:label "Dacia" ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns3:hasBody [ ns2:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ ns4:during <http://n2t.net/ark:/99152/p0qhb66n9z7> ;
+            ns2:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <http://pleiades.stoa.org/places/207065> ] ;
+    ns3:hasTarget <urn:cite:croala:loci.ana.43632> ;
+    ns3:motivatedBy ns3:identifying .
+
+<urn:cite:croala:loci.ana-nota.45266> a ns3:Annotation ;
+    rdfs:label "Poland" ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns3:hasBody [ ns4:during <http://n2t.net/ark:/99152/p0qhb665b9q> ;
+            ns2:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <https://www.wikidata.org/wiki/Q36> ],
+        [ ns2:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ] ;
+    ns3:hasTarget <urn:cite:croala:loci.ana.45266>,
+        <urn:cite:croala:loci.ana.45926> ;
+    ns3:motivatedBy ns3:identifying .
+
+<urn:cite:croala:loci.ana-nota.50557> a ns3:Annotation ;
+    rdfs:label "Bohemia" ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns3:hasBody [ ns4:during <http://n2t.net/ark:/99152/p0qhb66qqkh> ;
+            ns2:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <https://www.wikidata.org/wiki/Q39193> ],
+        [ ns2:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ] ;
+    ns3:hasTarget <urn:cite:croala:loci.ana.50557> ;
+    ns3:motivatedBy ns3:identifying .
+
+<urn:cite:croala:loci.ana-nota.50759> a ns3:Annotation ;
+    rdfs:label "(H)Adriaticum/Superum Mare" ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns3:hasBody [ ns2:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ ns4:during <http://n2t.net/ark:/99152/p0qhb66qqkh> ;
+            ns2:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <http://pleiades.stoa.org/places/1004> ] ;
+    ns3:hasTarget <urn:cite:croala:loci.ana.50759> ;
+    ns3:motivatedBy ns3:identifying .
+
+<urn:cite:croala:loci.ana-nota.61489> a ns3:Annotation ;
+    rdfs:label "Una" ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns3:hasBody [ ns2:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ ns4:during <http://n2t.net/ark:/99152/p08m57h8zmq> ;
+            ns2:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <https://www.wikidata.org/wiki/Q212927> ] ;
+    ns3:hasTarget <urn:cite:croala:loci.ana.61489> ;
+    ns3:motivatedBy ns3:identifying .
+
+<urn:cite:croala:loci.ana-nota.61506> a ns3:Annotation ;
+    rdfs:label "Una" ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns3:hasBody [ ns4:during <http://n2t.net/ark:/99152/p0qhb66qqkh> ;
+            ns2:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <https://www.wikidata.org/wiki/Q212927> ],
+        [ ns2:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ] ;
+    ns3:hasTarget <urn:cite:croala:loci.ana.61506> ;
+    ns3:motivatedBy ns3:identifying .
+
+<urn:cite:croala:loci.ana-nota.61527> a ns3:Annotation ;
+    rdfs:label "Dreinos fl." ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns3:hasBody [ ns4:during <http://n2t.net/ark:/99152/p0qhb66qqkh> ;
+            ns2:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <http://pleiades.stoa.org/places/207097> ],
+        [ ns2:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ] ;
+    ns3:hasTarget <urn:cite:croala:loci.ana.61527> ;
+    ns3:motivatedBy ns3:identifying .
+
+<urn:cite:croala:loci.ana-nota.61578> a ns3:Annotation ;
+    rdfs:label "Bosnia" ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns3:hasBody [ ns2:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ ns4:during <http://n2t.net/ark:/99152/p0qhb66qqkh> ;
+            ns2:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <https://www.wikidata.org/wiki/Q188736> ] ;
+    ns3:hasTarget <urn:cite:croala:loci.ana.61578> ;
+    ns3:motivatedBy ns3:identifying .
+
+<urn:cite:croala:loci.ana-nota.62244> a ns3:Annotation ;
+    rdfs:label "Jajce" ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns3:hasBody [ ns2:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ ns4:during <http://n2t.net/ark:/99152/p0qhb66qqkh> ;
+            ns2:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <https://www.wikidata.org/wiki/Q258429> ] ;
+    ns3:hasTarget <urn:cite:croala:loci.ana.62244> ;
+    ns3:motivatedBy ns3:identifying .
+
+<urn:cite:croala:loci.ana-nota.63462> a ns3:Annotation ;
+    rdfs:label "Rhodos (island)" ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns3:hasBody [ ns2:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ ns4:during <http://n2t.net/ark:/99152/p03wskd5222> ;
+            ns2:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <http://pleiades.stoa.org/places/590031> ] ;
+    ns3:hasTarget <urn:cite:croala:loci.ana.63462> ;
+    ns3:motivatedBy ns3:identifying .
+
+<urn:cite:croala:loci.ana-nota.63467> a ns3:Annotation ;
+    rdfs:label "Lykia" ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns3:hasBody [ ns2:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ ns4:during <http://n2t.net/ark:/99152/p03wskd5222> ;
+            ns2:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <http://pleiades.stoa.org/places/1001914> ] ;
+    ns3:hasTarget <urn:cite:croala:loci.ana.63467> ;
+    ns3:motivatedBy ns3:identifying .
+
+<urn:cite:croala:loci.ana-nota.64462> a ns3:Annotation ;
+    rdfs:label "Sárvíz" ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns3:hasBody [ ns4:during <http://n2t.net/ark:/99152/p0qhb66qqkh> ;
+            ns2:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <https://www.wikidata.org/wiki/Q1315093> ],
+        [ ns2:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ] ;
+    ns3:hasTarget <urn:cite:croala:loci.ana.64462>,
+        <urn:cite:croala:loci.ana.67856>,
+        <urn:cite:croala:loci.ana.77479> ;
+    ns3:motivatedBy ns3:identifying .
+
+<urn:cite:croala:loci.ana-nota.67890> a ns3:Annotation ;
+    rdfs:label "Báta" ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns3:hasBody [ ns2:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ ns4:during <http://n2t.net/ark:/99152/p0qhb66qqkh> ;
+            ns2:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <https://www.wikidata.org/wiki/Q853601> ] ;
+    ns3:hasTarget <urn:cite:croala:loci.ana.67890> ;
+    ns3:motivatedBy ns3:identifying .
+
+<urn:cite:croala:loci.ana-nota.77221> a ns3:Annotation ;
+    rdfs:label "Vyšehrad" ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns3:hasBody [ ns4:during <http://n2t.net/ark:/99152/p0qhb66qqkh> ;
+            ns2:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <https://www.wikidata.org/wiki/Q616334> ],
+        [ ns2:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ] ;
+    ns3:hasTarget <urn:cite:croala:loci.ana.77221>,
+        <urn:cite:croala:loci.ana.77342> ;
+    ns3:motivatedBy ns3:identifying .
+
+<urn:cite:croala:loci.ana-nota.89171> a ns3:Annotation ;
+    rdfs:label "Esztergom" ;
+    ns1:created "04/08/2016 02:33:10" ;
+    ns1:creator <http://orcid.org/0000-0002-9119-399X> ;
+    ns3:hasBody [ ns2:refersTo <http://erlangen-crm.org/current/E89_Propositional_Object>,
+                <http://live.dbpedia.org/ontology/nonFictionSubject> ],
+        [ ns4:during <http://n2t.net/ark:/99152/p0qhb66qqkh> ;
+            ns2:refersTo <http://lawd.info/ontology/1.0/PlaceName>,
+                <https://www.wikidata.org/wiki/Q171353> ] ;
+    ns3:hasTarget <urn:cite:croala:loci.ana.89171> ;
+    ns3:motivatedBy ns3:identifying .
+
+

@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:ns1="http://www.w3.org/ns/oa#"
+   xmlns:ns2="http://purl.org/ontology/olo/core#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.12766">
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci:body1.div1.p13.s3.w7"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+    <rdfs:label xml:lang="la">opulentissimum</rdfs:label>
+    <ns2:item rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12766</ns2:item>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci.lexis:body1.div1.p13.s3.w7"/>
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.12776"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.435">
+    <rdfs:label xml:lang="la">sancti</rdfs:label>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci:body1.div1.head1.s1.w9"/>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci.lexis:body1.div1.head1.s1.w9"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.435"/>
+    <ns2:item rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">435</ns2:item>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.14859">
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci:body1.div1.p16.s2.placeName7"/>
+    <rdfs:label xml:lang="la">Romana</rdfs:label>
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.14869"/>
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.14864"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci.lexis:body1.div1.p16.s2.placeName7"/>
+    <ns2:item rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14859</ns2:item>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.2377">
+    <ns2:item rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2377</ns2:item>
+    <rdfs:label xml:lang="la">oppido</rdfs:label>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci:body1.div1.p2.s1.w56"/>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci.lexis:body1.div1.p2.s1.w56"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.2382"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.14879">
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci.lexis:body1.div1.p16.s2.w11"/>
+    <ns2:item rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14879</ns2:item>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci:body1.div1.p16.s2.w11"/>
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.14869"/>
+    <rdfs:label xml:lang="la">templum</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.4180">
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci:body1.div1.p3.s10.placeName21"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci.lexis:body1.div1.p3.s10.placeName21"/>
+    <rdfs:label xml:lang="la">Bononiam</rdfs:label>
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.4180"/>
+    <ns2:item rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4180</ns2:item>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.12771">
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.12776"/>
+    <rdfs:label xml:lang="la">oppidum</rdfs:label>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci:body1.div1.p13.s3.w8"/>
+    <ns2:item rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12771</ns2:item>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci.lexis:body1.div1.p13.s3.w8"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.473">
+    <rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.473"/>
+    <rdfs:label xml:lang="la">Modrusiensi</rdfs:label>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci:body1.div1.head1.s1.placeName18"/>
+    <ns2:item rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">473</ns2:item>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci.lexis:body1.div1.head1.s1.placeName18"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.4198">
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci:body1.div1.p3.s10.placeName23"/>
+    <ns2:item rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4198</ns2:item>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci.lexis:body1.div1.p3.s10.placeName23"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+    <rdfs:label xml:lang="la">Senam</rdfs:label>
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.4198"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.15525">
+    <rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci.lexis:body1.div1.p16.s5.w1"/>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci:body1.div1.p16.s5.w1"/>
+    <ns2:item rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15525</ns2:item>
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.15525"/>
+    <rdfs:label xml:lang="la">Haec</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.2167">
+    <rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+    <rdfs:label xml:lang="la">Sixti</rdfs:label>
+    <ns2:item rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2167</ns2:item>
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.435"/>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci:body1.div1.p2.s1.name11"/>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci.lexis:body1.div1.p2.s1.name11"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.10616">
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci:body1.div1.p10.s2.placeName10"/>
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.10616"/>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci.lexis:body1.div1.p10.s2.placeName10"/>
+    <ns2:item rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10616</ns2:item>
+    <rdfs:label xml:lang="la">Italiae</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.2162">
+    <rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci:body1.div1.p2.s1.w10"/>
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.435"/>
+    <rdfs:label xml:lang="la">sancti</rdfs:label>
+    <ns2:item rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2162</ns2:item>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci.lexis:body1.div1.p2.s1.w10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.440">
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci:body1.div1.head1.s1.name10"/>
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.435"/>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci.lexis:body1.div1.head1.s1.name10"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+    <ns2:item rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">440</ns2:item>
+    <rdfs:label xml:lang="la">Sixti</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.11089">
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci:body1.div1.p10.s6.placeName36"/>
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.11089"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci.lexis:body1.div1.p10.s6.placeName36"/>
+    <rdfs:label xml:lang="la">Italiae</rdfs:label>
+    <ns2:item rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11089</ns2:item>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.4158">
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.4158"/>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci.lexis:body1.div1.p3.s10.placeName18"/>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci:body1.div1.p3.s10.placeName18"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+    <rdfs:label xml:lang="la">Patauium</rdfs:label>
+    <ns2:item rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4158</ns2:item>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.4108">
+    <rdfs:label xml:lang="la">Vicheriae</rdfs:label>
+    <ns2:item rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4108</ns2:item>
+    <rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci:body1.div1.p3.s10.placeName8"/>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci.lexis:body1.div1.p3.s10.placeName8"/>
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.4108"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.2382">
+    <rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci.lexis:body1.div1.p2.s1.placeName57"/>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci:body1.div1.p2.s1.placeName57"/>
+    <rdfs:label xml:lang="la">Saona</rdfs:label>
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.2382"/>
+    <ns2:item rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2382</ns2:item>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.15539">
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.15525"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+    <rdfs:label xml:lang="la">apostolorum</rdfs:label>
+    <ns2:item rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15539</ns2:item>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci.lexis:body1.div1.p16.s5.w4"/>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci:body1.div1.p16.s5.w4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.14933">
+    <rdfs:label xml:lang="la">maior</rdfs:label>
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.14933"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci:body1.div1.p16.s2.w23"/>
+    <ns2:item rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14933</ns2:item>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci.lexis:body1.div1.p16.s2.w23"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.14854">
+    <rdfs:label xml:lang="la">hac</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.14864"/>
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.14869"/>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci.lexis:body1.div1.p16.s2.w6"/>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci:body1.div1.p16.s2.w6"/>
+    <ns2:item rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14854</ns2:item>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.12653">
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.12653"/>
+    <rdfs:label xml:lang="la">Imolae</rdfs:label>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci.lexis:body1.div1.p13.s2.placeName5"/>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci:body1.div1.p13.s2.placeName5"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+    <ns2:item rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12653</ns2:item>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.3151">
+    <rdfs:label xml:lang="la">Senis</rdfs:label>
+    <ns2:item rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3151</ns2:item>
+    <rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci:body1.div1.p3.s3.placeName24"/>
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.3151"/>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci.lexis:body1.div1.p3.s3.placeName24"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.4240">
+    <ns2:item rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4240</ns2:item>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci.lexis:body1.div1.p3.s10.placeName31"/>
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.4245"/>
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.4240"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci:body1.div1.p3.s10.placeName31"/>
+    <rdfs:label xml:lang="la">Italiae</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.14996">
+    <rdfs:label xml:lang="la">Ambrosii</rdfs:label>
+    <ns2:item rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14996</ns2:item>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci.lexis:body1.div1.p16.s2.name36"/>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci:body1.div1.p16.s2.name36"/>
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.14996"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.15544">
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.15525"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+    <ns2:item rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15544</ns2:item>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci:body1.div1.p16.s5.w5"/>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci.lexis:body1.div1.p16.s5.w5"/>
+    <rdfs:label xml:lang="la">aedes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.14991">
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci:body1.div1.p16.s2.placeName35"/>
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.14991"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.14996"/>
+    <rdfs:label xml:lang="la">Mediolani</rdfs:label>
+    <ns2:item rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14991</ns2:item>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci.lexis:body1.div1.p16.s2.placeName35"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.15148">
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.15143"/>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci:body1.div1.p16.s3.w4"/>
+    <rdfs:label xml:lang="la">fanum</rdfs:label>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci.lexis:body1.div1.p16.s3.w4"/>
+    <ns2:item rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15148</ns2:item>
+    <rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.12335">
+    <rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+    <ns2:item rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12335</ns2:item>
+    <rdfs:label xml:lang="la">Vrbem</rdfs:label>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci:body1.div1.p12.s4.w1"/>
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.12344"/>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci.lexis:body1.div1.p12.s4.w1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.12214">
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci:body1.div1.p12.s2.placeName22"/>
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.12214"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+    <ns2:item rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12214</ns2:item>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci.lexis:body1.div1.p12.s2.placeName22"/>
+    <rdfs:label xml:lang="la">Mediolani</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.14864">
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci:body1.div1.p16.s2.w8"/>
+    <rdfs:label xml:lang="la">urbe</rdfs:label>
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.14869"/>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci.lexis:body1.div1.p16.s2.w8"/>
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.14864"/>
+    <ns2:item rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14864</ns2:item>
+    <rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.12776">
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci.lexis:body1.div1.p13.s3.placeName9"/>
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.12776"/>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci:body1.div1.p13.s3.placeName9"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+    <ns2:item rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12776</ns2:item>
+    <rdfs:label xml:lang="la">Bosti</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.14869">
+    <ns2:item rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14869</ns2:item>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci:body1.div1.p16.s2.w9"/>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci.lexis:body1.div1.p16.s2.w9"/>
+    <rdfs:label xml:lang="la">diui</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.14869"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.15001">
+    <rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+    <ns2:item rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15001</ns2:item>
+    <rdfs:label xml:lang="la">monasterium</rdfs:label>
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.14996"/>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci.lexis:body1.div1.p16.s2.w37"/>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci:body1.div1.p16.s2.w37"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.12344">
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci:body1.div1.p12.s4.placeName3"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci.lexis:body1.div1.p12.s4.placeName3"/>
+    <rdfs:label xml:lang="la">Imolam</rdfs:label>
+    <ns2:item rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12344</ns2:item>
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.12344"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.14938">
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.14933"/>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci.lexis:body1.div1.p16.s2.w24"/>
+    <rdfs:label xml:lang="la">basilica</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci:body1.div1.p16.s2.w24"/>
+    <ns2:item rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14938</ns2:item>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.4245">
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci:body1.div1.p3.s10.w32"/>
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.4245"/>
+    <ns2:item rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4245</ns2:item>
+    <rdfs:label xml:lang="la">gymnasiis</rdfs:label>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci.lexis:body1.div1.p3.s10.w32"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.2372">
+    <ns2:item rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2372</ns2:item>
+    <rdfs:label xml:lang="la">Ligurum</rdfs:label>
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.2382"/>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci:body1.div1.p2.s1.placeName55"/>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci.lexis:body1.div1.p2.s1.placeName55"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.2372"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.4207">
+    <rdfs:label xml:lang="la">Ferrariamque</rdfs:label>
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.4207"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+    <ns2:item rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4207</ns2:item>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci:body1.div1.p3.s10.placeName24"/>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci.lexis:body1.div1.p3.s10.placeName24"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.4189">
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.4189"/>
+    <rdfs:label xml:lang="la">Perusium</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci.lexis:body1.div1.p3.s10.placeName22"/>
+    <ns2:item rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4189</ns2:item>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci:body1.div1.p3.s10.placeName22"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.12857">
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci.lexis:body1.div1.p13.s3.placeName27"/>
+    <rdfs:label xml:lang="la">Imolam</rdfs:label>
+    <ns2:item rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12857</ns2:item>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci:body1.div1.p13.s3.placeName27"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.12857"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.4145">
+    <rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci:body1.div1.p3.s10.placeName16"/>
+    <ns2:item rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4145</ns2:item>
+    <rdfs:label xml:lang="la">Ticinium</rdfs:label>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci.lexis:body1.div1.p3.s10.placeName16"/>
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.4145"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.5599">
+    <rdfs:label xml:lang="la">Romam</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci.lexis:body1.div1.p3.s19.placeName21"/>
+    <ns2:item rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5599</ns2:item>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci:body1.div1.p3.s19.placeName21"/>
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.5599"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.4171">
+    <rdfs:label xml:lang="la">Venetias</rdfs:label>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci:body1.div1.p3.s10.placeName20"/>
+    <ns2:item rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4171</ns2:item>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci.lexis:body1.div1.p3.s10.placeName20"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.4171"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.14874">
+    <rdfs:label xml:lang="la">Gregorii</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.14869"/>
+    <ns2:item rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14874</ns2:item>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci:body1.div1.p16.s2.name10"/>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci.lexis:body1.div1.p16.s2.name10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.5214">
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci:body1.div1.p3.s17.placeName11"/>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci.lexis:body1.div1.p3.s17.placeName11"/>
+    <rdfs:label xml:lang="la">Romam</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+    <ns2:item rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5214</ns2:item>
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.5214"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.15138">
+    <rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci.lexis:body1.div1.p16.s3.placeName2"/>
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.15138"/>
+    <rdfs:label xml:lang="la">Papiae</rdfs:label>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci:body1.div1.p16.s3.placeName2"/>
+    <ns2:item rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15138</ns2:item>
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.15143"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.15143">
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci:body1.div1.p16.s3.name3"/>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci.lexis:body1.div1.p16.s3.name3"/>
+    <rdfs:label xml:lang="la">Maioli</rdfs:label>
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.15143"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+    <ns2:item rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15143</ns2:item>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.15534">
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.15525"/>
+    <ns2:item rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15534</ns2:item>
+    <rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci.lexis:body1.div1.p16.s5.w3"/>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci:body1.div1.p16.s5.w3"/>
+    <rdfs:label xml:lang="la">sacra</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.14928">
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci.lexis:body1.div1.p16.s2.placeName22"/>
+    <ns1:hasTarget rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cts:croala:modruski-n.oratio-riario.croala-loci:body1.div1.p16.s2.placeName22"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+    <ns2:item rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14928</ns2:item>
+    <rdfs:label xml:lang="la">Taruixii</rdfs:label>
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.14933"/>
+    <ns1:hasBody rdf:resource="http://croala.ffzg.unizg.hr/basex/cts/urn:cite:croala:loci.ana.14928"/>
+  </rdf:Description>
+</rdf:RDF>
