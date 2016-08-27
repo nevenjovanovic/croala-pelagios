@@ -1,0 +1,688 @@
+<list>
+  <r>
+    <note>urn:cite:croala:loci.ana-nota.21196</note>
+    <place>http://pleiades.stoa.org/places/1052</place>
+    <label>Italia</label>
+    <period>
+      <a href="http://n2t.net/ark:/99152/p0qhb66pk6z">Renaissance (Italy less Sicily, Sardinia, Tuscany, Umbria, 1350-1549)</a>
+    </period>
+    <anno>
+      <entry>urn:cite:croala:loci.ana.21196</entry>
+      <entry>urn:cite:croala:loci.ana.42216</entry>
+    </anno>
+  </r>
+  <r>
+    <note>urn:cite:croala:loci.ana-nota.22082</note>
+    <place>https://www.wikidata.org/wiki/Q171150</place>
+    <label>Kingdom of Hungary</label>
+    <period>
+      <a href="http://n2t.net/ark:/99152/p0qhb66qqkh">Medieval (Hungary, 1301-1525)</a>
+    </period>
+    <anno>
+      <entry>urn:cite:croala:loci.ana.22082</entry>
+      <entry>urn:cite:croala:loci.ana.29051</entry>
+      <entry>urn:cite:croala:loci.ana.40666</entry>
+      <entry>urn:cite:croala:loci.ana.43919</entry>
+      <entry>urn:cite:croala:loci.ana.44421</entry>
+      <entry>urn:cite:croala:loci.ana.45103</entry>
+      <entry>urn:cite:croala:loci.ana.45283</entry>
+      <entry>urn:cite:croala:loci.ana.46229</entry>
+      <entry>urn:cite:croala:loci.ana.46575</entry>
+      <entry>urn:cite:croala:loci.ana.47096</entry>
+      <entry>urn:cite:croala:loci.ana.51526</entry>
+      <entry>urn:cite:croala:loci.ana.57843</entry>
+      <entry>urn:cite:croala:loci.ana.65083</entry>
+      <entry>urn:cite:croala:loci.ana.66274</entry>
+      <entry>urn:cite:croala:loci.ana.74357</entry>
+      <entry>urn:cite:croala:loci.ana.78218</entry>
+      <entry>urn:cite:croala:loci.ana.80444</entry>
+      <entry>urn:cite:croala:loci.ana.85144</entry>
+      <entry>urn:cite:croala:loci.ana.85353</entry>
+      <entry>urn:cite:croala:loci.ana.89154</entry>
+      <entry>urn:cite:croala:loci.ana.89370</entry>
+    </anno>
+  </r>
+  <r>
+    <note>urn:cite:croala:loci.ana-nota.23841</note>
+    <place>https://www.wikidata.org/wiki/Q1085</place>
+    <label>Prague</label>
+    <period>
+      <a href="http://n2t.net/ark:/99152/p0qhb66388g">Late Medieval (Germany, Switzerland, Czech Republic, Liechtenstein, 1250-1499)</a>
+    </period>
+    <anno>
+      <entry>urn:cite:croala:loci.ana.23841</entry>
+      <entry>urn:cite:croala:loci.ana.27954</entry>
+      <entry>urn:cite:croala:loci.ana.52236</entry>
+      <entry>urn:cite:croala:loci.ana.78055</entry>
+    </anno>
+  </r>
+  <r>
+    <note>urn:cite:croala:loci.ana-nota.25611</note>
+    <place>https://www.wikidata.org/wiki/Q1741</place>
+    <label>Vienna</label>
+    <period>
+      <a href="http://n2t.net/ark:/99152/p0qhb66pgtj">Late Medieval (Austria, 1250-1499)</a>
+    </period>
+    <anno>
+      <entry>urn:cite:croala:loci.ana.25611</entry>
+      <entry>urn:cite:croala:loci.ana.26297</entry>
+      <entry>urn:cite:croala:loci.ana.26624</entry>
+      <entry>urn:cite:croala:loci.ana.29798</entry>
+      <entry>urn:cite:croala:loci.ana.63811</entry>
+    </anno>
+  </r>
+  <r>
+    <note>urn:cite:croala:loci.ana-nota.26324</note>
+    <place>http://pleiades.stoa.org/places/981538</place>
+    <label>Noricum</label>
+    <period>
+      <a href="http://n2t.net/ark:/99152/p0qhb66pgtj">Late Medieval (Austria, 1250-1499)</a>
+    </period>
+    <anno>
+      <entry>urn:cite:croala:loci.ana.26324</entry>
+      <entry>urn:cite:croala:loci.ana.26665</entry>
+    </anno>
+  </r>
+  <r>
+    <note>urn:cite:croala:loci.ana-nota.26333</note>
+    <place>https://www.wikidata.org/wiki/Q193474</place>
+    <label>Carniola</label>
+    <period>
+      <a href="http://n2t.net/ark:/99152/p0qhb66qqkh">Medieval (Hungary, 1301-1525)</a>
+    </period>
+    <anno>
+      <entry>urn:cite:croala:loci.ana.26333</entry>
+    </anno>
+  </r>
+  <r>
+    <note>urn:cite:croala:loci.ana-nota.26446</note>
+    <place>https://www.wikidata.org/wiki/Q46</place>
+    <label>Europe</label>
+    <period>
+      <a href="http://n2t.net/ark:/99152/p0qhb66qqkh">Medieval (Hungary, 1301-1525)</a>
+    </period>
+    <anno>
+      <entry>urn:cite:croala:loci.ana.26446</entry>
+      <entry>urn:cite:croala:loci.ana.35480</entry>
+      <entry>urn:cite:croala:loci.ana.38205</entry>
+      <entry>urn:cite:croala:loci.ana.48741</entry>
+    </anno>
+  </r>
+  <r>
+    <note>urn:cite:croala:loci.ana-nota.26716</note>
+    <place>https://www.wikidata.org/wiki/Q40</place>
+    <label>Austria</label>
+    <period>
+      <a href="http://n2t.net/ark:/99152/p0qhb66qqkh">Medieval (Hungary, 1301-1525)</a>
+    </period>
+    <anno>
+      <entry>urn:cite:croala:loci.ana.26716</entry>
+      <entry>urn:cite:croala:loci.ana.29883</entry>
+    </anno>
+  </r>
+  <r>
+    <note>urn:cite:croala:loci.ana-nota.27429</note>
+    <place>https://www.wikidata.org/wiki/Q130212</place>
+    <label>Székesfehérvár</label>
+    <period>
+      <a href="http://n2t.net/ark:/99152/p0qhb66qqkh">Medieval (Hungary, 1301-1525)</a>
+    </period>
+    <anno>
+      <entry>urn:cite:croala:loci.ana.27429</entry>
+      <entry>urn:cite:croala:loci.ana.30140</entry>
+      <entry>urn:cite:croala:loci.ana.34663</entry>
+    </anno>
+  </r>
+  <r>
+    <note>urn:cite:croala:loci.ana-nota.29072</note>
+    <place>https://www.wikidata.org/wiki/Q12548</place>
+    <label>Holy Roman Empire</label>
+    <period>
+      <a href="http://n2t.net/ark:/99152/p0qhb66qqkh">Medieval (Hungary, 1301-1525)</a>
+    </period>
+    <anno>
+      <entry>urn:cite:croala:loci.ana.29072</entry>
+      <entry>urn:cite:croala:loci.ana.49461</entry>
+    </anno>
+  </r>
+  <r>
+    <note>urn:cite:croala:loci.ana-nota.30189</note>
+    <place>https://www.wikidata.org/wiki/Q193478</place>
+    <label>Buda</label>
+    <period>
+      <a href="http://n2t.net/ark:/99152/p0qhb66qqkh">Medieval (Hungary, 1301-1525)</a>
+    </period>
+    <anno>
+      <entry>urn:cite:croala:loci.ana.30189</entry>
+      <entry>urn:cite:croala:loci.ana.35232</entry>
+      <entry>urn:cite:croala:loci.ana.71929</entry>
+      <entry>urn:cite:croala:loci.ana.73332</entry>
+      <entry>urn:cite:croala:loci.ana.89244</entry>
+    </anno>
+  </r>
+  <r>
+    <note>urn:cite:croala:loci.ana-nota.32295</note>
+    <place>http://pleiades.stoa.org/places/207065</place>
+    <label>Dacia</label>
+    <period>
+      <a href="http://n2t.net/ark:/99152/p0qhb66kqd5">Roman (Romania, -0106-0274)</a>
+    </period>
+    <anno>
+      <entry>urn:cite:croala:loci.ana.32295</entry>
+    </anno>
+  </r>
+  <r>
+    <note>urn:cite:croala:loci.ana-nota.34308</note>
+    <place>https://www.wikidata.org/wiki/Q1722</place>
+    <label>Dubrovnik</label>
+    <period>
+      <a href="http://n2t.net/ark:/99152/p0qhb66qqkh">Medieval (Hungary, 1301-1525)</a>
+    </period>
+    <anno>
+      <entry>urn:cite:croala:loci.ana.34308</entry>
+    </anno>
+  </r>
+  <r>
+    <note>urn:cite:croala:loci.ana-nota.34329</note>
+    <place>http://pleiades.stoa.org/places/197240</place>
+    <label>Dalmatia</label>
+    <period>
+      <a href="http://n2t.net/ark:/99152/p0qhb66qqkh">Medieval (Hungary, 1301-1525)</a>
+    </period>
+    <anno>
+      <entry>urn:cite:croala:loci.ana.34329</entry>
+    </anno>
+  </r>
+  <r>
+    <note>urn:cite:croala:loci.ana-nota.35118</note>
+    <place>https://www.wikidata.org/wiki/Q1252407</place>
+    <label/>
+    <period>
+      <a href="http://n2t.net/ark:/99152/p0qhb66qqkh">Medieval (Hungary, 1301-1525)</a>
+    </period>
+    <anno>
+      <entry>urn:cite:croala:loci.ana.35118</entry>
+      <entry>urn:cite:croala:loci.ana.47023</entry>
+    </anno>
+  </r>
+  <r>
+    <note>urn:cite:croala:loci.ana-nota.35195</note>
+    <place>https://www.wikidata.org/wiki/Q210205</place>
+    <label>Pest</label>
+    <period>
+      <a href="http://n2t.net/ark:/99152/p0qhb66qqkh">Medieval (Hungary, 1301-1525)</a>
+    </period>
+    <anno>
+      <entry>urn:cite:croala:loci.ana.35195</entry>
+      <entry>urn:cite:croala:loci.ana.63650</entry>
+    </anno>
+  </r>
+  <r>
+    <note>urn:cite:croala:loci.ana-nota.35245</note>
+    <place>http://pleiades.stoa.org/places/226577</place>
+    <label>Danuvius/Istros/Hister fl.</label>
+    <period>
+      <a href="http://n2t.net/ark:/99152/p0qhb66qqkh">Medieval (Hungary, 1301-1525)</a>
+    </period>
+    <anno>
+      <entry>urn:cite:croala:loci.ana.35245</entry>
+      <entry>urn:cite:croala:loci.ana.35467</entry>
+      <entry>urn:cite:croala:loci.ana.35641</entry>
+      <entry>urn:cite:croala:loci.ana.38004</entry>
+      <entry>urn:cite:croala:loci.ana.43687</entry>
+      <entry>urn:cite:croala:loci.ana.63667</entry>
+      <entry>urn:cite:croala:loci.ana.67903</entry>
+      <entry>urn:cite:croala:loci.ana.76608</entry>
+      <entry>urn:cite:croala:loci.ana.89403</entry>
+    </anno>
+  </r>
+  <r>
+    <note>urn:cite:croala:loci.ana-nota.35575</note>
+    <place>http://pleiades.stoa.org/places/1004</place>
+    <label>(H)Adriaticum/Superum Mare</label>
+    <period>
+      <a href="http://n2t.net/ark:/99152/p08m57h8zmq">Medieval (Europe, 0400-1500)</a>
+    </period>
+    <anno>
+      <entry>urn:cite:croala:loci.ana.35575</entry>
+      <entry>urn:cite:croala:loci.ana.36154</entry>
+    </anno>
+  </r>
+  <r>
+    <note>urn:cite:croala:loci.ana-nota.35658</note>
+    <place>http://pleiades.stoa.org/places/1224</place>
+    <label>Pontus Euxinus</label>
+    <period>
+      <a href="http://n2t.net/ark:/99152/p0qhb66qqkh">Medieval (Hungary, 1301-1525)</a>
+    </period>
+    <anno>
+      <entry>urn:cite:croala:loci.ana.35658</entry>
+    </anno>
+  </r>
+  <r>
+    <note>urn:cite:croala:loci.ana-nota.36171</note>
+    <place>http://pleiades.stoa.org/places/197253</place>
+    <label>Dravus (river)</label>
+    <period>
+      <a href="http://n2t.net/ark:/99152/p0qhb66qqkh">Medieval (Hungary, 1301-1525)</a>
+    </period>
+    <anno>
+      <entry>urn:cite:croala:loci.ana.36171</entry>
+      <entry>urn:cite:croala:loci.ana.36253</entry>
+    </anno>
+  </r>
+  <r>
+    <note>urn:cite:croala:loci.ana-nota.36748</note>
+    <place>http://pleiades.stoa.org/places/501638</place>
+    <label>Thracia</label>
+    <period>
+      <a href="http://n2t.net/ark:/99152/p0qhb66zbsz">Migration Period (Hungary, 0400-0884)</a>
+    </period>
+    <anno>
+      <entry>urn:cite:croala:loci.ana.36748</entry>
+    </anno>
+  </r>
+  <r>
+    <note>urn:cite:croala:loci.ana-nota.36771</note>
+    <place>http://pleiades.stoa.org/places/491656</place>
+    <label>Macedonia</label>
+    <period>
+      <a href="http://n2t.net/ark:/99152/p0qhb66bjxq">Medieval (Macedonia, 0600-1370)</a>
+    </period>
+    <anno>
+      <entry>urn:cite:croala:loci.ana.36771</entry>
+    </anno>
+  </r>
+  <r>
+    <note>urn:cite:croala:loci.ana-nota.36788</note>
+    <place>http://pleiades.stoa.org/places/481865</place>
+    <label>Illyricum</label>
+    <period>
+      <a href="http://n2t.net/ark:/99152/p0qhb66zbsz">Migration Period (Hungary, 0400-0884)</a>
+    </period>
+    <anno>
+      <entry>urn:cite:croala:loci.ana.36788</entry>
+      <entry>urn:cite:croala:loci.ana.37901</entry>
+      <entry>urn:cite:croala:loci.ana.38515</entry>
+    </anno>
+  </r>
+  <r>
+    <note>urn:cite:croala:loci.ana-nota.36801</note>
+    <place>http://pleiades.stoa.org/places/197425</place>
+    <label>Pannonia</label>
+    <period>
+      <a href="http://n2t.net/ark:/99152/p0qhb66xttp">Hungarian Conquest Period (Hungary, 0885-0999)</a>
+    </period>
+    <anno>
+      <entry>urn:cite:croala:loci.ana.36801</entry>
+    </anno>
+  </r>
+  <r>
+    <note>urn:cite:croala:loci.ana-nota.37754</note>
+    <place>http://pleiades.stoa.org/places/20639</place>
+    <label>Vistula (river)</label>
+    <period>
+      <a href="http://n2t.net/ark:/99152/p0zj6g8w7zq">Early Medieval (Poland, 0375-0600)</a>
+    </period>
+    <anno>
+      <entry>urn:cite:croala:loci.ana.37754</entry>
+    </anno>
+  </r>
+  <r>
+    <note>urn:cite:croala:loci.ana-nota.37775</note>
+    <place>http://pleiades.stoa.org/places/98909</place>
+    <label>Albis fl.</label>
+    <period>
+      <a href="http://n2t.net/ark:/99152/p06v8w472bf">Early Medieval (Serbia, 0565-1000)</a>
+    </period>
+    <anno>
+      <entry>urn:cite:croala:loci.ana.37775</entry>
+    </anno>
+  </r>
+  <r>
+    <note>urn:cite:croala:loci.ana-nota.37946</note>
+    <place>http://pleiades.stoa.org/places/481865</place>
+    <label>Illyricum</label>
+    <period>
+      <a href="http://n2t.net/ark:/99152/p06v8w485jk">Ottoman (Serbia, 1389-1850)</a>
+    </period>
+    <anno>
+      <entry>urn:cite:croala:loci.ana.37946</entry>
+    </anno>
+  </r>
+  <r>
+    <note>urn:cite:croala:loci.ana-nota.37963</note>
+    <place>https://www.wikidata.org/wiki/Q403</place>
+    <label>Serbia</label>
+    <period>
+      <a href="http://n2t.net/ark:/99152/p06v8w485jk">Ottoman (Serbia, 1389-1850)</a>
+    </period>
+    <anno>
+      <entry>urn:cite:croala:loci.ana.37963</entry>
+    </anno>
+  </r>
+  <r>
+    <note>urn:cite:croala:loci.ana-nota.38013</note>
+    <place>https://www.wikidata.org/wiki/Q20552181</place>
+    <label>Rhipaei montes</label>
+    <period>
+      <a href="http://n2t.net/ark:/99152/p08m57h8zmq">Medieval (Europe, 0400-1500)</a>
+    </period>
+    <anno>
+      <entry>urn:cite:croala:loci.ana.38013</entry>
+    </anno>
+  </r>
+  <r>
+    <note>urn:cite:croala:loci.ana-nota.38055</note>
+    <place>http://pleiades.stoa.org/places/423025</place>
+    <label>Roma</label>
+    <period>
+      <a href="http://n2t.net/ark:/99152/p0qhb66gw4d">Late Antique (Italy less Sicily, Sardinia, Tuscany, Umbria, 0400-0599)</a>
+    </period>
+    <anno>
+      <entry>urn:cite:croala:loci.ana.38055</entry>
+    </anno>
+  </r>
+  <r>
+    <note>urn:cite:croala:loci.ana-nota.38242</note>
+    <place>http://pleiades.stoa.org/places/981509</place>
+    <label>Asia</label>
+    <period>
+      <a href="http://n2t.net/ark:/99152/p0qhb66n9z7">Early Medieval (Hungary, 0885-1300)</a>
+    </period>
+    <anno>
+      <entry>urn:cite:croala:loci.ana.38242</entry>
+    </anno>
+  </r>
+  <r>
+    <note>urn:cite:croala:loci.ana-nota.38255</note>
+    <place>http://pleiades.stoa.org/places/834296</place>
+    <label>Rha/Attila (river)</label>
+    <period>
+      <a href="http://n2t.net/ark:/99152/p08m57h8zmq">Medieval (Europe, 0400-1500)</a>
+    </period>
+    <anno>
+      <entry>urn:cite:croala:loci.ana.38255</entry>
+      <entry>urn:cite:croala:loci.ana.38357</entry>
+      <entry>urn:cite:croala:loci.ana.38386</entry>
+    </anno>
+  </r>
+  <r>
+    <note>urn:cite:croala:loci.ana-nota.38340</note>
+    <place>https://www.wikidata.org/wiki/Q649</place>
+    <label>Moscow</label>
+    <period>
+      <a href="http://n2t.net/ark:/99152/p08m57h8zmq">Medieval (Europe, 0400-1500)</a>
+    </period>
+    <anno>
+      <entry>urn:cite:croala:loci.ana.38340</entry>
+    </anno>
+  </r>
+  <r>
+    <note>urn:cite:croala:loci.ana-nota.38403</note>
+    <place>http://pleiades.stoa.org/places/991379</place>
+    <label>Scythia</label>
+    <period>
+      <a href="http://n2t.net/ark:/99152/p08m57h8zmq">Medieval (Europe, 0400-1500)</a>
+    </period>
+    <anno>
+      <entry>urn:cite:croala:loci.ana.38403</entry>
+    </anno>
+  </r>
+  <r>
+    <note>urn:cite:croala:loci.ana-nota.38424</note>
+    <place>http://pleiades.stoa.org/places/884130</place>
+    <label>Caspium/Hyrcanium Mare</label>
+    <period>
+      <a href="http://n2t.net/ark:/99152/p0qhb66qqkh">Medieval (Hungary, 1301-1525)</a>
+    </period>
+    <anno>
+      <entry>urn:cite:croala:loci.ana.38424</entry>
+    </anno>
+  </r>
+  <r>
+    <note>urn:cite:croala:loci.ana-nota.38832</note>
+    <place>http://pleiades.stoa.org/places/481865</place>
+    <label>Illyricum</label>
+    <period>
+      <a href="http://n2t.net/ark:/99152/p06c6g33gpw">Empire, 30 B.C.-476 A.D (Rome, -0029-0476)</a>
+    </period>
+    <anno>
+      <entry>urn:cite:croala:loci.ana.38832</entry>
+      <entry>urn:cite:croala:loci.ana.38932</entry>
+    </anno>
+  </r>
+  <r>
+    <note>urn:cite:croala:loci.ana-nota.38999</note>
+    <place>http://pleiades.stoa.org/places/481865</place>
+    <label>Illyricum</label>
+    <period>
+      <a href="http://n2t.net/ark:/99152/p0qhb66qqkh">Medieval (Hungary, 1301-1525)</a>
+    </period>
+    <anno>
+      <entry>urn:cite:croala:loci.ana.38999</entry>
+      <entry>urn:cite:croala:loci.ana.60468</entry>
+      <entry>urn:cite:croala:loci.ana.61480</entry>
+      <entry>urn:cite:croala:loci.ana.61673</entry>
+      <entry>urn:cite:croala:loci.ana.62099</entry>
+      <entry>urn:cite:croala:loci.ana.62357</entry>
+    </anno>
+  </r>
+  <r>
+    <note>urn:cite:croala:loci.ana-nota.41297</note>
+    <place>http://pleiades.stoa.org/places/991379</place>
+    <label>Scythia</label>
+    <period>
+      <a href="http://n2t.net/ark:/99152/p0qhb66zbsz">Migration Period (Hungary, 0400-0884)</a>
+    </period>
+    <anno>
+      <entry>urn:cite:croala:loci.ana.41297</entry>
+    </anno>
+  </r>
+  <r>
+    <note>urn:cite:croala:loci.ana-nota.41314</note>
+    <place>http://pleiades.stoa.org/places/825398</place>
+    <label>Tanais (river)</label>
+    <period>
+      <a href="http://n2t.net/ark:/99152/p0qhb66zbsz">Migration Period (Hungary, 0400-0884)</a>
+    </period>
+    <anno>
+      <entry>urn:cite:croala:loci.ana.41314</entry>
+    </anno>
+  </r>
+  <r>
+    <note>urn:cite:croala:loci.ana-nota.42095</note>
+    <place>http://pleiades.stoa.org/places/423025</place>
+    <label>Roma</label>
+    <period>
+      <a href="http://n2t.net/ark:/99152/p0qhb66pk6z">Renaissance (Italy less Sicily, Sardinia, Tuscany, Umbria, 1350-1549)</a>
+    </period>
+    <anno>
+      <entry>urn:cite:croala:loci.ana.42095</entry>
+      <entry>urn:cite:croala:loci.ana.42309</entry>
+      <entry>urn:cite:croala:loci.ana.45840</entry>
+      <entry>urn:cite:croala:loci.ana.66487</entry>
+      <entry>urn:cite:croala:loci.ana.66592</entry>
+    </anno>
+  </r>
+  <r>
+    <note>urn:cite:croala:loci.ana-nota.42340</note>
+    <place>http://pleiades.stoa.org/places/432900</place>
+    <label>Latium</label>
+    <period>
+      <a href="http://n2t.net/ark:/99152/p0qhb66pk6z">Renaissance (Italy less Sicily, Sardinia, Tuscany, Umbria, 1350-1549)</a>
+    </period>
+    <anno>
+      <entry>urn:cite:croala:loci.ana.42340</entry>
+    </anno>
+  </r>
+  <r>
+    <note>urn:cite:croala:loci.ana-nota.43632</note>
+    <place>http://pleiades.stoa.org/places/207065</place>
+    <label>Dacia</label>
+    <period>
+      <a href="http://n2t.net/ark:/99152/p0qhb66n9z7">Early Medieval (Hungary, 0885-1300)</a>
+    </period>
+    <anno>
+      <entry>urn:cite:croala:loci.ana.43632</entry>
+    </anno>
+  </r>
+  <r>
+    <note>urn:cite:croala:loci.ana-nota.45266</note>
+    <place>https://www.wikidata.org/wiki/Q36</place>
+    <label>Poland</label>
+    <period>
+      <a href="http://n2t.net/ark:/99152/p0qhb665b9q">Post Medieval (Poland, 1250-1499)</a>
+    </period>
+    <anno>
+      <entry>urn:cite:croala:loci.ana.45266</entry>
+      <entry>urn:cite:croala:loci.ana.45926</entry>
+    </anno>
+  </r>
+  <r>
+    <note>urn:cite:croala:loci.ana-nota.50557</note>
+    <place>https://www.wikidata.org/wiki/Q39193</place>
+    <label>Bohemia</label>
+    <period>
+      <a href="http://n2t.net/ark:/99152/p0qhb66qqkh">Medieval (Hungary, 1301-1525)</a>
+    </period>
+    <anno>
+      <entry>urn:cite:croala:loci.ana.50557</entry>
+    </anno>
+  </r>
+  <r>
+    <note>urn:cite:croala:loci.ana-nota.50759</note>
+    <place>http://pleiades.stoa.org/places/1004</place>
+    <label>(H)Adriaticum/Superum Mare</label>
+    <period>
+      <a href="http://n2t.net/ark:/99152/p0qhb66qqkh">Medieval (Hungary, 1301-1525)</a>
+    </period>
+    <anno>
+      <entry>urn:cite:croala:loci.ana.50759</entry>
+    </anno>
+  </r>
+  <r>
+    <note>urn:cite:croala:loci.ana-nota.61489</note>
+    <place>https://www.wikidata.org/wiki/Q212927</place>
+    <label>Una</label>
+    <period>
+      <a href="http://n2t.net/ark:/99152/p08m57h8zmq">Medieval (Europe, 0400-1500)</a>
+    </period>
+    <anno>
+      <entry>urn:cite:croala:loci.ana.61489</entry>
+    </anno>
+  </r>
+  <r>
+    <note>urn:cite:croala:loci.ana-nota.61506</note>
+    <place>https://www.wikidata.org/wiki/Q212927</place>
+    <label>Una</label>
+    <period>
+      <a href="http://n2t.net/ark:/99152/p0qhb66qqkh">Medieval (Hungary, 1301-1525)</a>
+    </period>
+    <anno>
+      <entry>urn:cite:croala:loci.ana.61506</entry>
+    </anno>
+  </r>
+  <r>
+    <note>urn:cite:croala:loci.ana-nota.61527</note>
+    <place>http://pleiades.stoa.org/places/207097</place>
+    <label>Dreinos fl.</label>
+    <period>
+      <a href="http://n2t.net/ark:/99152/p0qhb66qqkh">Medieval (Hungary, 1301-1525)</a>
+    </period>
+    <anno>
+      <entry>urn:cite:croala:loci.ana.61527</entry>
+    </anno>
+  </r>
+  <r>
+    <note>urn:cite:croala:loci.ana-nota.61578</note>
+    <place>https://www.wikidata.org/wiki/Q188736</place>
+    <label>Bosnia</label>
+    <period>
+      <a href="http://n2t.net/ark:/99152/p0qhb66qqkh">Medieval (Hungary, 1301-1525)</a>
+    </period>
+    <anno>
+      <entry>urn:cite:croala:loci.ana.61578</entry>
+    </anno>
+  </r>
+  <r>
+    <note>urn:cite:croala:loci.ana-nota.62244</note>
+    <place>https://www.wikidata.org/wiki/Q258429</place>
+    <label>Jajce</label>
+    <period>
+      <a href="http://n2t.net/ark:/99152/p0qhb66qqkh">Medieval (Hungary, 1301-1525)</a>
+    </period>
+    <anno>
+      <entry>urn:cite:croala:loci.ana.62244</entry>
+    </anno>
+  </r>
+  <r>
+    <note>urn:cite:croala:loci.ana-nota.63462</note>
+    <place>http://pleiades.stoa.org/places/590031</place>
+    <label>Rhodos (island)</label>
+    <period>
+      <a href="http://n2t.net/ark:/99152/p03wskd5222">Crusader-Ottoman Levant (AD 1099-1750) (Levant, 1099-1750)</a>
+    </period>
+    <anno>
+      <entry>urn:cite:croala:loci.ana.63462</entry>
+    </anno>
+  </r>
+  <r>
+    <note>urn:cite:croala:loci.ana-nota.63467</note>
+    <place>http://pleiades.stoa.org/places/1001914</place>
+    <label>Lykia</label>
+    <period>
+      <a href="http://n2t.net/ark:/99152/p03wskd5222">Crusader-Ottoman Levant (AD 1099-1750) (Levant, 1099-1750)</a>
+    </period>
+    <anno>
+      <entry>urn:cite:croala:loci.ana.63467</entry>
+    </anno>
+  </r>
+  <r>
+    <note>urn:cite:croala:loci.ana-nota.64462</note>
+    <place>https://www.wikidata.org/wiki/Q1315093</place>
+    <label>Sárvíz</label>
+    <period>
+      <a href="http://n2t.net/ark:/99152/p0qhb66qqkh">Medieval (Hungary, 1301-1525)</a>
+    </period>
+    <anno>
+      <entry>urn:cite:croala:loci.ana.64462</entry>
+      <entry>urn:cite:croala:loci.ana.67856</entry>
+      <entry>urn:cite:croala:loci.ana.77479</entry>
+    </anno>
+  </r>
+  <r>
+    <note>urn:cite:croala:loci.ana-nota.67890</note>
+    <place>https://www.wikidata.org/wiki/Q853601</place>
+    <label>Báta</label>
+    <period>
+      <a href="http://n2t.net/ark:/99152/p0qhb66qqkh">Medieval (Hungary, 1301-1525)</a>
+    </period>
+    <anno>
+      <entry>urn:cite:croala:loci.ana.67890</entry>
+    </anno>
+  </r>
+  <r>
+    <note>urn:cite:croala:loci.ana-nota.77221</note>
+    <place>https://www.wikidata.org/wiki/Q616334</place>
+    <label>Vyšehrad</label>
+    <period>
+      <a href="http://n2t.net/ark:/99152/p0qhb66qqkh">Medieval (Hungary, 1301-1525)</a>
+    </period>
+    <anno>
+      <entry>urn:cite:croala:loci.ana.77221</entry>
+      <entry>urn:cite:croala:loci.ana.77342</entry>
+    </anno>
+  </r>
+  <r>
+    <note>urn:cite:croala:loci.ana-nota.89171</note>
+    <place>https://www.wikidata.org/wiki/Q171353</place>
+    <label>Esztergom</label>
+    <period>
+      <a href="http://n2t.net/ark:/99152/p0qhb66qqkh">Medieval (Hungary, 1301-1525)</a>
+    </period>
+    <anno>
+      <entry>urn:cite:croala:loci.ana.89171</entry>
+    </anno>
+  </r>
+</list>
