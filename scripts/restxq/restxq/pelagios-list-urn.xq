@@ -9,7 +9,7 @@ import module namespace vit = "http://croala.ffzg.unizg.hr/vit" at "../../repo/v
 declare namespace page = 'http://basex.org/examples/web-page';
 
 declare variable $title := 'CTS URN locorum in CroALa';
-declare variable $content := "Display a available CTS URNs of place names.";
+declare variable $content := "Display available CTS URNs of place names.";
 declare variable $keywords := "Neo-Latin literature, CTS / CITE architecture, Pelagios historical places, gazetteer, literary analysis, scholarly edition, analytical exemplar, place name, URN";
 
 
@@ -43,7 +43,7 @@ declare
 <h1><span class="glyphicon glyphicon-th" aria-hidden="true"></span>{ $title }</h1>
 <div class="container-fluid">
 <div class="col-md-6">
-<p>Locus in <a href="http://croala.ffzg.unizg.hr">CroALa</a> aspectu <a href="http://commons.pelagios.org/">Pelagii</a>, { current-date() }.</p>
+<p>Locus in <a href="http://croala.ffzg.unizg.hr">CroALa</a> sub specie <a href="http://commons.pelagios.org/">Pelagii</a>, { current-date() }.</p>
 <p><a href="http://orcid.org/0000-0002-9119-399X">Neven Jovanović</a></p>
 <p>Indiculi CTS URN in collectione.</p>
 <p>Functio nominatur: {rest:uri()}.</p>

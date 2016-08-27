@@ -1,1 +1,3 @@
 XQUERY db:create("cp", "/home/croala/cpxml/", (), map { 'ftindex': true(), 'chop': false(), 'intparse' : true(), 'autooptimize' : true(), 'updindex' : true() })
+SET INTPARSE true; SET CHOP false; SET FTINDEX true; SET UPDINDEX true; SET AUTOOPTIMIZE true
+RUN /home/croala/croala-pelagios/scripts/xq/cp-cts-index-placename-into-db.xq

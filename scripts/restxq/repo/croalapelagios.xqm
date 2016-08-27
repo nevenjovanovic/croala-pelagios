@@ -6,7 +6,7 @@ declare function cp:prettyp($settext, $ctsadr, $word) {
     element td { element b { $ctsadr } },
     element td { $word },
     element td {
-  replace(replace($settext, ' ([,).;])', '$1'), '([(]) ', '$1')
+  replace(replace($settext, ' ([,).:;?!])', '$1'), '([(]) ', '$1')
 }
 }
 };
