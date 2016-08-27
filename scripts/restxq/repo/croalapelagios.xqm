@@ -38,3 +38,32 @@ let $text := data(db:open-id("cp", $pre)/parent::*:s)
 let $settext := normalize-space($text)
 return cp:prettyp($settext, $ctsadr, $word)
 };
+(: make node quickly :)
+declare function cp:td($node) {
+  element td {
+    data($node)
+  }
+};
+(: pretty printing of CTS URN list :)
+(: send to /$domain/$urn, where the CITE body or CTS is displayed :)
+declare function cp:prettycitebody($citeadr, $domain) {
+  element td {
+    element a { 
+    attribute href { "http://croala.ffzg.unizg.hr/basex/" || $domain || $citeadr } , 
+    data($citeadr) }
+  }
+};
+(: list CITE URNs linking to their bodies, and their CTS equivalents :)
+declare function cp:citelist(){
+let $citedb := collection("cp-cts-cite-idx")
+let $citelistbody := element tbody { for $r in $citedb//record
+let $ctsurn := cp:prettycitebody($r/entry[4], "cts/")
+let $citeurn := cp:prettycitebody($r/entry[5], "cite/")
+let $label := cp:td($r/entry[2])
+let $citeanaex := element td { "CITE Analytical exemplar" }
+return element tr {
+  $label , $citeurn , $ctsurn
+}
+}
+return $citelistbody
+};
