@@ -1,3 +1,5 @@
 SET INTPARSE true; SET CHOP false; SET FTINDEX true; SET UPDINDEX true; SET AUTOOPTIMIZE true
+CREATE BACKUP tubero-commentarii
+CREATE BACKUP tub-com-placename-idx
 CREATE DB tubero-commentarii /home/neven/rad/croalapelagiosxml/
 RUN /home/neven/rad/croala-pelagios/scripts/xq/t-cts-index-placename-db.xq
