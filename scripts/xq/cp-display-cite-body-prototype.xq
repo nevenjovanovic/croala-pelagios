@@ -1,13 +1,15 @@
 (: for a given CITE URN, display record :)
 (: to be made into cp:openciteurn function :)
 (: relies on the cp-citebody db :)
-let $citeurn := "urn:cite:croala:loci.ana.89403"
-let $idx := collection("cp-citebody")
+let $citeurn := "urn:cite:croala:loci.ana.14879"
+(: let $idx := collection("cp-citebody") :)
+let $idx := doc("/home/neven/rad/croala-pelagios/csv/modrtub-idx-citebodies.xml")
 for $r in $idx//r[anno/entry[.=$citeurn]]
-let $citebodyurn := $r/note
-let $placeref := element a { attribute href {$r/place}, data($r/label) }
-let $periodref := $r/period/a
-let $creator := "http://orcid.org/0000-0002-9119-399X"
+let $citebodyurn := $r/note/entry
+let $placeref := for $e in $r/place/entry return element a { attribute href {$e}, for $txt in tokenize($e, '/')[last()] return $txt }
+let $placereflabel := data($r/label/entry)
+let $periodref := $r/periodlabel/entry
+let $creator := $r/creator/entry
 return element div {
   attribute class {"table-responsive"},
   element head { "Note for " , element b { $citeurn } },
@@ -17,6 +19,7 @@ return element div {
       element tr {
         element td { "CITE Body URN"},
         element td { "Place Reference"},
+        element td { "Place Referred To"},
         element td {"Period Referred To"},
         element td { "Note Created By"},
         element td { "Created On"}
@@ -26,6 +29,7 @@ return element div {
     element tr { 
   element td { data($citebodyurn)},
   element td { $placeref },
+  element td { $placereflabel } ,
   element td { $periodref },
   element td { element a { attribute href {$creator}, replace($creator, 'http://' , '')} },
   element td { "02/07/2016" }
