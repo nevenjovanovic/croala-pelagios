@@ -78,7 +78,7 @@ for $r in $idx//r[anno/entry[.=$citeurn]]
 let $citebodyurn := $r/note/entry
 let $placeref := for $e in $r/place/entry return element a { attribute href {$e}, for $txt in tokenize($e, '/')[last()] return $txt }
 let $placereflabel := data($r/label/entry)
-let $periodref := $r/periodlabel/entry
+let $periodref := for $p in $r/period/entry return element a { attribute href {$p} , $r/periodlabel/entry }
 let $creator := $r/creator/entry
 return element div {
   attribute class {"table-responsive"},
