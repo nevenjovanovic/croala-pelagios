@@ -1,0 +1,6 @@
+SET INTPARSE true; SET CHOP false; SET FTINDEX true; SET UPDINDEX true; SET AUTOOPTIMIZE true
+CREATE BACKUP tubero-commentarii
+RUN /home/neven/rad/croala-pelagios/scripts/xq/t-update-cp-nodes-from-annotated-spreadsheet.xq
+OPEN tubero-commentarii
+CREATE BACKUP tubero-commentarii
+EXPORT /home/neven/rad/croalapelagiosxml/

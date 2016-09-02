@@ -4,7 +4,7 @@
 (: add ana=locus2 etc :)
 declare default element namespace "http://www.tei-c.org/ns/1.0";
 (: name of csv file with updates :)
-let $f := file:read-text("/home/neven/rad/croala-pelagios/csv/t-cite-modr.csv")
+let $f := file:read-text("/home/neven/rad/croala-pelagios/csv/tub-estlocus1-add.csv")
 for $r in csv:parse($f)//*:record
 let $id := data($r/*:entry[1])
 let $value := data($r/*:entry[3])
