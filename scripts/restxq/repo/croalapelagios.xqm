@@ -123,7 +123,7 @@ let $citeurn := element div {
         element td { "Place Referred To"},
         element td {"Period Referred To"},
         element td { "Note Created By"},
-        element td { "Created On"}
+        element td { "File Last Modified On"}
       }
     },
     element tbody {
@@ -142,7 +142,7 @@ return
   element td { $placereflabel } ,
   element td { $periodref },
   element td { element a { attribute href {$creator}, replace($creator, 'http://' , '')} },
-  element td { "02/07/2016" }
+  element td { file:last-modified("/home/croala/croala-pelagios/csv/modrtub-idx-citebodies.xml") }
 }
 }}
 }
