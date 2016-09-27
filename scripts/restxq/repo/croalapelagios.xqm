@@ -148,3 +148,77 @@ return
 }
 return $citeurn
 };
+
+declare function cp:listciteplaces(){
+  (: display all available CITE URNs for places :)
+(: relies on the cp-loci db :)
+let $citeurn := element div {
+  attribute class {"table-responsive"},
+  element table {
+    attribute class {"table-striped  table-hover table-centered"},
+    element thead {
+      element tr {
+        element td { "CITE Body URN"},
+        element td { "Place Reference"},
+        element td { "Place Referred To"},
+        element td { "Note Created By"},
+        element td { "Note Last Modified On"}
+      }
+    },
+    element tbody {
+let $idx := collection("cp-loci")
+for $r in $idx//w
+let $citebodyurn := data($r/citebody)
+let $placeref := data($r/uri)
+let $placereflabel := data($r/label)
+let $creator := data($r/creator)
+order by $placereflabel
+return 
+    element tr { 
+  element td { $citebodyurn },
+  element td { $placereflabel } ,
+  element td { $placeref },
+  element td { element a { attribute href {$creator}, replace($creator, 'http://' , '')} },
+  element td { data(db:info("cp-loci")//timestamp) }
+}
+}}
+}
+return $citeurn
+};
+
+declare function cp:listciteperiods(){
+  (: display all available CITE URNs for periods :)
+(: relies on the cp-aetates db :)
+let $citeurn := element div {
+  attribute class {"table-responsive"},
+  element table {
+    attribute class {"table-striped  table-hover table-centered"},
+    element thead {
+      element tr {
+        element td { "CITE Body URN"},
+        element td { "Period Reference"},
+        element td { "Period Referred To"},
+        element td { "Note Created By"},
+        element td { "Note Last Modified On"}
+      }
+    },
+    element tbody {
+let $idx := collection("cp-aetates")
+for $r in $idx//w
+let $citebodyurn := data($r/citebody)
+let $placeref := data($r/uri)
+let $placereflabel := data($r/label)
+let $creator := data($r/creator)
+order by $placereflabel
+return 
+    element tr { 
+  element td { $citebodyurn },
+  element td { $placereflabel } ,
+  element td { $placeref },
+  element td { element a { attribute href {$creator}, replace($creator, 'http://' , '')} },
+  element td { data(db:info("cp-aetates")//timestamp) }
+}
+}}
+}
+return $citeurn
+};
