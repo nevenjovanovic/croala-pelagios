@@ -1,0 +1,4 @@
+XQUERY db:create("cp-loci", "/home/croala/croala-pelagios/csv/cpplaces.xml", (), map { 'ftindex': true(), 'chop': false(), 'intparse' : true(), 'autooptimize' : true(), 'updindex' : true() })
+XQUERY db:create("cp-aetates", "/home/croala/croala-pelagios/csv/cpperiods.xml", (), map { 'ftindex': true(), 'chop': false(), 'intparse' : true(), 'autooptimize' : true(), 'updindex' : true() })
+CREATE BACKUP cp-loci
+CREATE BACKUP cp-aetates
