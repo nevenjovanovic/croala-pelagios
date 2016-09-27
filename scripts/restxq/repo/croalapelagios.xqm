@@ -179,7 +179,7 @@ return
   element td { $placereflabel } ,
   element td { $placeref },
   element td { element a { attribute href {$creator}, replace($creator, 'http://' , '')} },
-  element td { data(db:info("cp-loci")//timestamp) }
+  element td { db:info("cp-loci")//databaseproperties/timestamp/string() }
 }
 }}
 }
@@ -216,7 +216,7 @@ return
   element td { $placereflabel } ,
   element td { $placeref },
   element td { element a { attribute href {$creator}, replace($creator, 'http://' , '')} },
-  element td { data(db:info("cp-aetates")//timestamp) }
+  element td { db:info("cp-aetates")//databaseproperties/timestamp/string() }
 }
 }}
 }
