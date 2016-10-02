@@ -18,7 +18,7 @@ declare variable $keywords := "Neo-Latin literature, CTS / CITE architecture, Pe
  : This function returns an XML response message.
  :)
 declare
-  %rest:path("cts/{$urn}")
+  %rest:path("ctsp/{$urn}")
   %output:method(
   "xhtml"
 )
