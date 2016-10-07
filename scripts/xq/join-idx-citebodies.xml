@@ -1,0 +1,7 @@
+let $m := doc("/home/neven/rad/croala-pelagios/csv/modridx-citebodies.xml")
+let $t := doc("/home/neven/rad/croala-pelagios/csv/tubidx-citebodies.xml")
+let $both := element bodies {
+  $m ,
+  $t
+}
+return $both
