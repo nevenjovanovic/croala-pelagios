@@ -1,15 +1,15 @@
-(: create CITE URN from @xml:id :)
+(: create CITE URNs from @xml:id :)
 let $citeindex := element list {
-for $cite in collection("cp-placename-idx")//*:w
+for $cite in collection("cp-cts-urns")//*:w
 let $cts := $cite/@n
 let $label := $cite/text()
 let $citeana := "urn:cite:croala:loci.ana." || $cite/@xml:id
 let $citeaex := replace($cts, "-loci:", "-loci.lexis:")
-return element cite {
+return element w {
   $cts,
   attribute citeurn { $citeana },
   attribute citeaex { $citeaex },
   $label
 }
 }
-return db:create("cp-cite", $citeindex, "cp-citeidx.xml", map {'ftindex' : true() , 'autooptimize' : true() , 'intparse' : true() })
+return db:create("cp-cite-urns", $citeindex, "cp-citeurns.xml", map {'ftindex' : true() , 'autooptimize' : true() , 'intparse' : true() })
