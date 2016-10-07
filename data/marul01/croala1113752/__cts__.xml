@@ -1,0 +1,7 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:croala:marul01" urn="urn:cts:croala:marul01.croala1113752" xml:lang="lat">
+  <ti:title xml:lang="lat">Repertorium</ti:title>
+  <ti:edition workUrn="urn:cts:croala:marul01.croala1113752" urn="urn:cts:croala:marul01.croala1113752.croala-lat1">
+    <ti:label xml:lang="lat">Repertorium, versio electronica</ti:label>
+    <ti:description xml:lang="hrv">Digitalizat modernoga kritičkog izdanja (1998-2000).</ti:description>
+  </ti:edition>
+</ti:work>

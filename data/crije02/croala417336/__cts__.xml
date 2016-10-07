@@ -1,0 +1,7 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:croala:crije02" urn="urn:cts:croala:crije02.croala417336" xml:lang="lat">
+  <ti:title xml:lang="lat">Epistula ad Marinum Bonum (1510)</ti:title>
+  <ti:edition workUrn="urn:cts:croala:crije02.croala417336" urn="urn:cts:croala:crije02.croala417336.croala-lat1">
+    <ti:label xml:lang="lat">Epistula ad Marinum Bonum (1510), versio electronica</ti:label>
+    <ti:description xml:lang="hrv"/>
+  </ti:edition>
+</ti:work>

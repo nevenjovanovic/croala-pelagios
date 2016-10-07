@@ -1,0 +1,5 @@
+<ti:textgroup xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:croala:marul01">
+  <ti:groupname xml:lang="hrv">
+    <persName xmlns="http://www.tei-c.org/ns/1.0" xml:lang="hrv">Marulić, Marko</persName>
+  </ti:groupname>
+</ti:textgroup>

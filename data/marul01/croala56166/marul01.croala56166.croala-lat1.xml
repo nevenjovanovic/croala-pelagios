@@ -1,0 +1,334 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc xml:id="marul-mar-dante">
+         <titleStmt>
+            <title>Principium operis Dantis Aligerii de Fluentino sermone in Latinum conuersum, versio electronica</title>
+            <author ref="marul01" role="trl">
+               <persName xml:lang="hr">Marulić, Marko</persName>
+               <date>1450-1524</date>
+            </author>
+            <author ref="#alienus-viaf97105654">
+               <persName xml:lang="hr" ref="viaf97105654">Dante Alighieri</persName>
+               <date>1265-1321</date>
+            </author>
+            <editor>
+               <persName>
+                  <ref>Bratislav Lučin</ref>
+               </persName>; <persName>
+                  <ref>Darko Novaković</ref>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <persName>
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+          
+            Prema modernom kritičkom izdanju (2005).
+          
+        </edition>
+         </editionStmt>
+         <extent ana="B">Mg:B 138 versus, verborum 974</extent>
+         <publicationStmt>
+            <p>elektronska verzija: Hrvatska latinistička epika, znanstveni
+          projekt na <orgName>
+                  <ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref>
+               </orgName>, <placeName ref="3186886">Zagreb</placeName>
+          Hrvatska.  <date when="2014-06">Lipnja 2014</date>
+            </p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
+            <bibl>Marulić, Marko, Bratislav Lučin, i Darko Novaković. Latinski stihovi. Splitski književni krug. Split: Književni krug, 2005.</bibl>
+            <bibl>Lučin, Bratislav: Nepoznati Marulićev epigram u ostavštini don Mate Ivčevića. // Poslanje filologa; zbornik radova povodom 70. rođendana Mirka Tomasovića. Uredili Tomislav Bogdan i Cvijeta Pavlović, FF Press, Zagreb, 2008, str. 251-260</bibl>
+            <bibl>Francisco Javier Juez y Gálvez, Maruliana u Kolumbovoj knjižnici u Sevilli, Colloquia Maruliana, Vol.14 Travanj 2005. Str. 199 - 233</bibl>
+         </sourceDesc>
+      </fileDesc>
+    <encodingDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="abstract" occurs="1"/>
+          <tagUsage gi="author" occurs="2"/>
+          <tagUsage gi="bibl" occurs="4"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="change" occurs="5"/>
+          <tagUsage gi="creation" occurs="1"/>
+          <tagUsage gi="date" occurs="9"/>
+          <tagUsage gi="div" occurs="1" withId="1"/>
+          <tagUsage gi="edition" occurs="1"/>
+          <tagUsage gi="editionStmt" occurs="1"/>
+          <tagUsage gi="editor" occurs="1"/>
+          <tagUsage gi="encodingDesc" occurs="1"/>
+          <tagUsage gi="extent" occurs="1"/>
+          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
+          <tagUsage gi="head" occurs="1"/>
+          <tagUsage gi="keywords" occurs="3"/>
+          <tagUsage gi="l" occurs="138"/>
+          <tagUsage gi="langUsage" occurs="1"/>
+          <tagUsage gi="language" occurs="1"/>
+          <tagUsage gi="namespace" occurs="1"/>
+          <tagUsage gi="note" occurs="3"/>
+          <tagUsage gi="orgName" occurs="1"/>
+          <tagUsage gi="p" occurs="4"/>
+          <tagUsage gi="particDesc" occurs="1"/>
+          <tagUsage gi="persName" occurs="11"/>
+          <tagUsage gi="placeName" occurs="2"/>
+          <tagUsage gi="profileDesc" occurs="1"/>
+          <tagUsage gi="publicationStmt" occurs="1"/>
+          <tagUsage gi="q" occurs="1"/>
+          <tagUsage gi="ref" occurs="8"/>
+          <tagUsage gi="resp" occurs="1"/>
+          <tagUsage gi="respStmt" occurs="1"/>
+          <tagUsage gi="revisionDesc" occurs="1"/>
+          <tagUsage gi="settingDesc" occurs="1"/>
+          <tagUsage gi="sourceDesc" occurs="1"/>
+          <tagUsage gi="tagUsage" occurs="39"/>
+          <tagUsage gi="tagsDecl" occurs="1"/>
+          <tagUsage gi="teiHeader" occurs="1"/>
+          <tagUsage gi="term" occurs="7"/>
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="textClass" occurs="1"/>
+          <tagUsage gi="title" occurs="1"/>
+          <tagUsage gi="titleStmt" occurs="1"/>
+        </namespace>
+      </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1510" period="15xx_1_third">1510</date>
+            <placeName>Split</placeName>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>poesis</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 16 (1501-1600)</term>
+               <term>1501-1550</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>poesis - epica</term>
+               <term>poesis - versio</term>
+               <term>poesis - fragmentum</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <persName>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </persName>
+            <date>2014-06-26</date>
+        Izdvojio radi epike.
+      </change>
+         <change>
+            <persName>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </persName>
+            <persName>Luka Špoljarić</persName>
+            <date>2012-02-18</date>
+        Novo, unificirano zaglavlje.
+      </change>
+         <change>
+            <date>2010-09-15</date>
+            <persName>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </persName> Addidi fragmentum panegyrici ad A. Dandulum e bibliotheca Colombina, Hispali.
+      </change>
+         <change>
+            <date>2010-08-29</date>
+            <persName>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </persName> Aliud epitaphium Draxoevii addidi ex editione B. Lučin. Addidi notas metrorum, numeros versuum ut attributa notae l.
+      </change>
+         <change>
+            <date>2005-04-08T17:24:54</date>
+            <persName>Neven Jovanovic</persName> revision </change>
+      </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:croala:marul01.croala56166.croala-lat1" xml:lang="lat">
+      <body n="body">
+         <div n="div" xml:id="C190" met="hexameter" type="poesis-epica-versio-fragmentum">
+            <head n="head">190. Principium operis Dantis Aligerii de Fluentino sermone in Latinum conuersum</head>
+            <l n="l1">Humanę spacium uitę concesserat ętas </l>
+            <l n="l2">Iam medium tenerosque mihi subduxerat annos,</l>
+            <l n="l3">Per loca quum tenebris obscura atque aspera siluis </l>
+            <l n="l4">Me miserum errantem sensi gressuque represso </l>
+            <l n="l5">Incertusque uię mentem confusus inhęsi </l>
+            <l n="l6">Et circumlustraui oculis pauitantibus. Horror </l>
+            <l n="l7">Non tantum spectasse fuit: memorando pauoris </l>
+            <l n="l8">Offertur facies et adhuc conterrita pulsat </l>
+            <l n="l9">Corda metus; uix ipsa magis mihi dura uideri </l>
+            <l n="l10">Mors et acerba potest. Sed enim nec inutile demum </l>
+            <l n="l11">Illa referre reor, quum spes oblata salutis </l>
+            <l n="l12">Errexit mentem, quę uidi. Non tamen atris </l>
+            <l n="l13">Quomodo me siluis anceps incluserat error </l>
+            <l n="l14">Scire datum captumque oculis sopor altus habebat </l>
+            <l n="l15">Quum rectum rationis egens iter ipse reliqui. </l>
+            <l n="l16">At postquam siluis egressus tristibus alto </l>
+            <l n="l17">Me sub colle tuli, surgentis lumina solis, </l>
+            <l n="l18">Solis, iter uerum claro qui detegit ortu, </l>
+            <l n="l19">Suspiciens montis dorsum splendescere uidi. </l>
+            <l n="l20">Paulatim cessere metus qui noctis abactę </l>
+            <l n="l21">Cum gemitu gelido quassarant turbine mentem. </l>
+            <note n="note1" place="margin">Comparatio</note>
+            <l n="l22">Vtque feris ereptus aquis pluuiaque procella </l>
+            <l n="l23">Littus ad optatum qui uenit, pectus anhellum </l>
+            <l n="l24">Fessus adhuc, tumidas cum lumina torquet ad undas </l>
+            <l n="l25">Et stupet insanos ponti quos pertulit ęstus, </l>
+            <l n="l26">Sic ego adhuc fugiens oculis post terga reductis </l>
+            <l n="l27">Spectabam uix credens euasisse per illam </l>
+            <l n="l28">Erroris uallem, uallem euasisse per illam, </l>
+            <l n="l29">Quę tulit innumeris lethum, sic fumat opacam </l>
+            <l n="l30">Exhalans nebulam et fuscans caligine cęlum. </l>
+            <l n="l31">Vt licuit placida corpus releuare quiete, </l>
+            <l n="l32">Collis inaccessi sublatis gressibus alte </l>
+            <l n="l33">Corripuisse uiam pergo. Vix limina adibam </l>
+            <l n="l34">Linx =Prima iugi, linx ecce leuis distinctaque mille </l>
+            <l n="l35">Terga super maculis uillos arrexit et acrem </l>
+            <l n="l36">Intendit uisum, subitoque accensa furore </l>
+            <l n="l37">Fertur in aduersum: stat contra atque obuia terret </l>
+            <l n="l38">Et coeptam uetat ire uiam prorsusque resistit,</l>
+            <l n="l39">Vsque adeo quod certa mihi mens sępius esset </l>
+            <l n="l40">Retro ferre pedem uersoque recedere tergo. </l>
+            <l n="l41">Tempus erat quo prima diem lux aduehit almum, </l>
+            <l n="l42">Occiduas umbram terrę quum trudit ad oras, </l>
+            <l n="l43">Scandebatque polum Titan comitantibus astris </l>
+            <l n="l44">Proxima quę radiis percussit quando supremo </l>
+            <l n="l45">Artifici placuit rerum producere formas </l>
+            <l n="l46">Et totum ex nihilo conficere. Temporis huius </l>
+            <l n="l47">Vt status in mentem uenit, decernere pugna </l>
+            <l n="l48">Spes mihi uincendi suasit. Spem turbat eandem </l>
+            <l n="l49">Leo =Alterius monstri terror. Nam qualis in aruis </l>
+            <l n="l50">Alcydę occurrit Nemees leo, talis hiantes </l>
+            <l n="l51">Erecta ceruice ferox expandere rictus </l>
+            <l n="l52">Me contra mihi uisus erat. Mox sęuior illo </l>
+            <l n="l53">Lupa =Et longa macilenta fame, saturabilis haustu </l>
+            <l n="l54">Non ullo lupa, multorum quoque conscia luctus </l>
+            <l n="l55">Et pręceps fecisse nefas sic perculit acri </l>
+            <l n="l56">Turbatam uisu mentem mihi, cogeret ut iam </l>
+            <l n="l57">Desperare uiam surgentis in ęthera saxi. </l>
+            <l n="l58">Comparatio Vt tristatur opes belli sibi tempore raptas</l>
+            <l n="l59">Quęsiuit studio qui rem curaque perenni, </l>
+            <l n="l60">Sic dolui uincente fera; nanque alta petentem </l>
+            <l n="l61">In siluas iterum pellebat sole carentis. </l>
+            <l n="l62">Dum ruerem, sese ante oculos incognita nostros </l>
+            <note n="note2" place="margin">Vergilius Maro</note>
+            <l n="l63">Effigies offerre uiri miserantis iniquum </l>
+            <l n="l64">Casum uisa mihi. »Corpus seu corporis«, inquam, </l>
+            <l n="l65">
+        »Vmbra uenis, succurre, precor, succurre cadenti!«
+      </l>
+            <l n="l66">»Corpus et umbra fui, sed tantum corporis umbram </l>
+            <l n="l67" part="I">Nunc me cernis«, ait. »Latia de gente parentes</l>
+            <l n="l68">Ambo fuere mihi. Quę moenia condidit Ocnus, </l>
+            <l n="l69">His natale solum. Rexit quum Iulius orbem, </l>
+            <l n="l70">Natus ego. Vixi Romę quum sęcla redisse </l>
+            <l n="l71">Aurea Saturni plebis uox una patrumque </l>
+            <l n="l72">Augusto rectore fuit. Nec cesserat error </l>
+            <l n="l73">Gentis adhuc coluisse deos. Mihi serta ferebant </l>
+            <l n="l74">Laurea Parnasi gemino de uertice Musę. </l>
+            <l n="l75">Arma, uirum cecini Troię qui primus ab oris </l>
+            <l n="l76">Aduenit Danao cecidit quum Pergamon igni. </l>
+            <l n="l77">Sed quę te mala mens tantos iterare labores </l>
+            <l n="l78">Auersum cogit? Montis iuga lęta beati </l>
+            <l n="l79">Scandere quid refugis? Verę, mihi crede, quietis </l>
+            <l n="l80">Hic aditus primus, cunctorum hic causa bonorum est.« </l>
+      
+            <l n="l81">
+               <q n="q">»Tu ne Maro, tu ne ille Maro«</q> (sic dicere uatis </l>
+            <l n="l82" part="I">Occursu attonitus coepi), »tu ne ille diserti </l>
+            <l n="l83">Oris inexhaustus torrens? O gloria uatum, </l>
+            <l n="l84">Prosit honos prositque tuę mihi cura Camenę, </l>
+            <l n="l85">Et labor assiduus studiumque perenne legendi! </l>
+            <l n="l86">Tu das unde meos ualeam componere uersus, </l>
+            <l n="l87">Quos uulgata uehit mecum super ęthera fama. </l>
+            <l n="l88">Respice portentum quod me dare terga coegit, </l>
+            <l n="l89">Affer opem misero, tanto me tolle periclo </l>
+            <l n="l90">Exanimemque iuua si spes est ulla salutis.« </l>
+      
+            <note n="note3" place="margin">Vergilius ad Dantem</note>
+            <l n="l91" part="I">Ille sub hęc: »Opus est alio conuertere gressum </l>
+            <l n="l92">Si te summa iuuant. Nam non sinit improba pestis </l>
+            <l n="l93">Carpere iter qua se opposuit, sed corpora gaudet </l>
+            <l n="l94">Obuia quęque uirum sedes detrudere ad imas. </l>
+            <l n="l95">Hęc nullo saturata malo ieiunia sentit </l>
+            <l n="l96">Acrius exhausit quo plura nec ullus edendi </l>
+            <l n="l97">Est modus. Huius item cubitus animalia diros </l>
+            <l n="l98">Multa petunt et multa petent, tam cęca libido est, </l>
+            <l n="l99">Donec in hanc celerem soluet grauis ira Molossum, </l>
+            <l n="l100">Quo mordente cadet. Non illum iugera campi, </l>
+            <l n="l101">Erruta non illum pascent tellure metalla, </l>
+            <l n="l102">Sed uirtus, sed amor, sed non sapientia fallax. </l>
+            <l n="l103">Aerias linquet nubes humilemque uolabit </l>
+            <l n="l104">Italiam supra, quam propter uirgo Camilla </l>
+            <l n="l105">Bellando oppetiit, quam propter fortis in armis </l>
+            <l n="l106">Turnus et ipsa pii notissima nomina amoris, </l>
+            <l n="l107">Nysus et Eurialus. Primi hinc exordia cursus </l>
+            <l n="l108">Sumet et hoc monstrum campos atque oppida circum </l>
+            <l n="l109">Indefessus aget donec depellat ad antri </l>
+            <l n="l110">Tartarei latebras, unde hęc emissa superne </l>
+            <l n="l111">Bellua ab Inuidia terras atque ęquora late </l>
+            <l n="l112">Infecit tabo sparsitque uenena per orbem. </l>
+            <l n="l113">Interea tu parce metu, compesce querelas </l>
+            <l n="l114">Et me pone sequens mea iam uestigia serua! </l>
+            <l n="l115">Hinc ego te per regna traham pallentia Ditis </l>
+            <l n="l116">Vmbrarumque domos, ubi semper triste reorum </l>
+            <l n="l117">Lamentum fremit, infelix ubi personat horror. </l>
+            <l n="l118">Expediet uidisse semel. Mox impia linquens </l>
+            <l n="l119">Tartara te ad manes adsistam protinus illos </l>
+            <l n="l120">Iniocunda quibus non sunt tormenta nec ignis, </l>
+            <l n="l121">Criminibus quoniam post sęcula certa piatis </l>
+            <l n="l122">Sydereas penetrant sedes et regna beatum. </l>
+            <l n="l123">Ad quę, siqua tibi suberit properare cupido, </l>
+            <l n="l124">Dignior hac anima recto te tramite ducet. </l>
+            <l n="l125">Illi ego te cędam discedens; me uetat illuc </l>
+            <l n="l126">Ire Deus prohibetque suum conscendere Olympum </l>
+            <l n="l127">Neglecti ob noxam ritus morisque sacrorum. </l>
+            <l n="l128">Quippe colendus erat quando protendit in omnes </l>
+            <l n="l129">Imperium partes, quando sua regia cęlum est. </l>
+            <l n="l130">O felix quemcunque legit sua sydera supra!« </l>
+            <l n="l131">His animum dictis mihi reddidit, hac ego tanta </l>
+            <l n="l132">Spe feruens refero: »Per te, quod nosse negasti, </l>
+            <l n="l133">Obtestor numen ne me trahat ista pauoris </l>
+            <l n="l134">Pręcipitem facies monstroque nocentior error, </l>
+            <l n="l135">Duc, ut ais, duc, ecce sequor. Permitte uidere </l>
+            <l n="l136">Aetherios aditus, ubi magni ianua Petri </l>
+            <l n="l137">Panditur et memoras quos sic incedere moestos.« </l>
+            <l n="l138">Tunc mouet ille pedes, ego sum comitatus euntem. </l>
+         </div>
+    
+      </body>
+  </text>
+</TEI>

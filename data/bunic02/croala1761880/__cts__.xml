@@ -1,0 +1,7 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:croala:bunic02" urn="urn:cts:croala:bunic02.croala1761880" xml:lang="lat">
+  <ti:title xml:lang="lat">De raptu Cerberi</ti:title>
+  <ti:edition workUrn="urn:cts:croala:bunic02.croala1761880" urn="urn:cts:croala:bunic02.croala1761880.croala-lat1">
+    <ti:label xml:lang="lat">De raptu Cerberi, versio electronica</ti:label>
+    <ti:description xml:lang="hrv"/>
+  </ti:edition>
+</ti:work>

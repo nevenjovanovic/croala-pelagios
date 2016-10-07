@@ -1,0 +1,7 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:croala:bunic02" urn="urn:cts:croala:bunic02.croala1631251" xml:lang="lat">
+  <ti:title xml:lang="lat">De vita et gestis Christi</ti:title>
+  <ti:edition workUrn="urn:cts:croala:bunic02.croala1631251" urn="urn:cts:croala:bunic02.croala1631251.croala-lat1">
+    <ti:label xml:lang="lat">De vita et gestis Christi, versio electronica</ti:label>
+    <ti:description xml:lang="hrv">Moderno izdanje prema izvornom tiskanom tekstu (1526).</ti:description>
+  </ti:edition>
+</ti:work>

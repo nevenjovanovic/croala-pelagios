@@ -1,0 +1,233 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="marul-mar-epist-1477">
+         <titleStmt>
+            <title>Ad Georgium Sisgoreum epistula (1465-1466), versio electronica</title>
+            <author ref="marul01">
+               <persName xml:lang="hr">Marulić, Marko</persName>
+               <date>1450-1524</date>
+            </author>
+            <editor>
+               <persName>
+                  <ref type="viaf" target="71418226">Veljko Gortan</ref>
+               </persName>
+            </editor>
+            <editor>
+               <persName>
+                  <ref type="viaf" target="91623065">Vladimir Vratović</ref>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <persName>
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <p>Digitalizat modernih kritičkih izdanja, bez aparata.</p>
+         </editionStmt>
+         <extent ana="B">Mg:B Verborum 216</extent>
+         <publicationStmt>
+            <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni projekt na <orgName>
+                  <ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref>
+               </orgName>, <placeName ref="3186886">Zagreb</placeName> Hrvatska. <date>Lipnja 2009.</date>
+            </p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
+            <bibl>Digitalni tekstovi prema Colloquia Maruliana, priredio Marulianum. Adresa: <ptr target="http://marulianum.storia.unipd.it/data/pdf/it/opere_latine/8.pdf"/>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+    <encodingDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="abbr" occurs="1"/>
+          <tagUsage gi="abstract" occurs="1"/>
+          <tagUsage gi="author" occurs="1"/>
+          <tagUsage gi="bibl" occurs="2"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="change" occurs="2"/>
+          <tagUsage gi="choice" occurs="1"/>
+          <tagUsage gi="closer" occurs="1"/>
+          <tagUsage gi="corr" occurs="1"/>
+          <tagUsage gi="creation" occurs="1"/>
+          <tagUsage gi="date" occurs="5"/>
+          <tagUsage gi="div" occurs="1" withId="1"/>
+          <tagUsage gi="editionStmt" occurs="1"/>
+          <tagUsage gi="editor" occurs="2"/>
+          <tagUsage gi="encodingDesc" occurs="1"/>
+          <tagUsage gi="extent" occurs="1"/>
+          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
+          <tagUsage gi="keywords" occurs="4"/>
+          <tagUsage gi="langUsage" occurs="2"/>
+          <tagUsage gi="language" occurs="3"/>
+          <tagUsage gi="name" occurs="8"/>
+          <tagUsage gi="namespace" occurs="1"/>
+          <tagUsage gi="opener" occurs="1"/>
+          <tagUsage gi="orgName" occurs="1"/>
+          <tagUsage gi="orig" occurs="1"/>
+          <tagUsage gi="p" occurs="5"/>
+          <tagUsage gi="particDesc" occurs="1"/>
+          <tagUsage gi="persName" occurs="13"/>
+          <tagUsage gi="person" occurs="6"/>
+          <tagUsage gi="place" occurs="2"/>
+          <tagUsage gi="placeName" occurs="3"/>
+          <tagUsage gi="profileDesc" occurs="1"/>
+          <tagUsage gi="ptr" occurs="1"/>
+          <tagUsage gi="publicationStmt" occurs="1"/>
+          <tagUsage gi="ref" occurs="6"/>
+          <tagUsage gi="resp" occurs="1"/>
+          <tagUsage gi="respStmt" occurs="1"/>
+          <tagUsage gi="revisionDesc" occurs="1"/>
+          <tagUsage gi="salute" occurs="1"/>
+          <tagUsage gi="settingDesc" occurs="1"/>
+          <tagUsage gi="signed" occurs="1"/>
+          <tagUsage gi="sourceDesc" occurs="1"/>
+          <tagUsage gi="tagUsage" occurs="46"/>
+          <tagUsage gi="tagsDecl" occurs="1"/>
+          <tagUsage gi="teiHeader" occurs="1"/>
+          <tagUsage gi="term" occurs="8"/>
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="textClass" occurs="1"/>
+          <tagUsage gi="title" occurs="1"/>
+          <tagUsage gi="titleStmt" occurs="1"/>
+        </namespace>
+      </tagsDecl>
+    <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+      <profileDesc>
+         
+         <settingDesc>
+            <place ana="origin" type="unknown">
+               <placeName type="unknown">Unknown</placeName>
+            </place>
+            <place ana="destination" type="unknown">
+               <placeName type="unknown">Unknown</placeName>
+            </place>
+         </settingDesc>
+         
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <abstract>
+            <p>Humanistička pohvalnica šibenskom pjesniku Jurju Šižgoriću. Prvo Marulićevo djelo objavljeno tiskom (Juraj Šižgorić, Elegiarum et carminum libri tres, Mleci 1477).</p>
+         </abstract>
+         <creation>
+            <date when="1465" cert="medium" period="14xx_2_third">1465-1466</date>
+         </creation>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+            <language ident="lat" xml:lang="lat">Latinitas humanistica</language>
+         </langUsage>
+         <particDesc>
+            <person role="sender">
+               <persName ref="marul01">Marko Marulić</persName>
+            </person>
+            <person role="recipient">
+               <persName ref="sizgo01">Juraj Šižgorić</persName>
+            </person>
+            <person role="mentioned">
+               <persName ref="marul01">Marko Marulić</persName>
+            </person>
+            <person role="mentioned">
+               <persName ref="sizgo01">Juraj Šižgorić</persName>
+            </person>
+            <person role="mentioned">
+               <persName ref="http://id.loc.gov/authorities/names/n79042233">Propertius</persName>
+            </person>
+            <person role="mentioned">
+               <persName ref="http://id.loc.gov/authorities/names/n79041738">Ovidius</persName>
+            </person>
+         </particDesc>
+         <textClass>
+    
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 15 (1401-1500)</term>
+               <term>1451-1500</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - epistula</term>
+            </keywords>
+            <keywords scheme="biblio/croala-catalogus-aetatum.xml#epistgen01">
+               <term xml:lang="hrv">pismo</term>
+               <term xml:lang="hrv">pismo - tiskano</term>
+               <term xml:lang="hrv">pismo - pohvalnica</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <persName>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </persName>
+            <date>2015-01-01</date> Ispravljeni priređivači, označena imena, promijenjen id div teksta (za CTS). </change>
+         <change>
+            <persName>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </persName>
+            <persName>Luka Špoljarić</persName>
+            <date>2012-03-09</date> Novo,
+    unificirano zaglavlje. </change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:base="urn:cts:croala:marul01.croala352124.croala-lat1" xml:lang="lat" type="prosa">
+      <body n="body">
+         <div n="div" type="prosa-epistula" xml:id="Georg.Sisgor">
+            <opener n="opener">
+               <signed n="signed">
+                  <name n="name1">
+                     <abbr n="abbr">M.</abbr> Marulus</name> adolescens <name n="name2">Dalmata</name>
+               </signed>
+            </opener>
+            <p n="p1"> Ignotus ad te litteras scribo, quem et si nunquam viderim, amavi tamen, antequam viderim.
+     Virtus hoc quidem tua effecit ingenii, quippe que non solum eos, quos non vidimus, sed etiam
+     qui multo ante nos fuerunt, amabiles <choice n="choice">
+                  <corr n="corr" resp="VG-VV">nobis reddat</corr> 
+                  <orig n="orig" resp="ed1477">nos
+      reddunt</orig>
+               </choice> Vellem tamen, suavissime <name n="name1">Georgi Sisgoree</name>, ut me tui tam studiosum mutuo
+     complecti non fastidires amore. Quod si tibi inest par doctrine tue humanitas, hoc certe, quod
+     omnium mihi est gratissimum, consecutus sum. Video enim, que vis in te iuvene acerrimi ingenii
+     et quam potens. Etenim nonnulla ex metris tuis, que iam totam pervagantur <name n="name2">Italiam</name>, incredibilem
+     quandam et prope singularem et divinam doctrinam praeseferentia ad nos quoque pervenerunt. In
+     his itaque contemplanti mihi tam artificiosam verborum compositionem, tam integras novasque
+     sententias, qui priscis illis sanctisque vatibus propius accederet videtur nemo. Teque non
+     nostre etatis modo poetis prefero, sed etiam <name n="name3">Nasoni</name>, <name n="name4">Propertio</name>, <name n="name5">Tibullo</name> simillimum iudico. Hi
+     enim exactissime ornatissimeque elegiam scripsisse putantur. </p>
+            <p n="p2"> Tu igitur, iucundissime <name n="name">Georgi Sisgoree</name> - sic tibi dii omnia bene vertant - facias, ut
+     quemadmodum ingenii tui, ita mansuetudinis et humanitatis nomen vigeat et celebritas, hoc est
+     talem iam mihi te prestes, qualem me quoque erga te esse cernis. Et si in hoc nimis forte
+     temerarius ferar, quod te, disertissimum iuvenem, mea exili oratione alloqui ausim, conciliandi
+     tui defendar cupiditate. </p>
+            <closer n="closer">
+               <salute n="salute">Vale.</salute>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

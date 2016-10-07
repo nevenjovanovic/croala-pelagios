@@ -1,0 +1,1587 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc xml:id="bunic-j-de-r">
+      <titleStmt>
+        <title>De raptu Cerberi, versio electronica</title>
+        <author ref="bunic02">
+          <persName xml:lang="hr">Bunić, Jakov</persName>
+          <date>1469-1534</date>
+        </author>
+        <editor>
+          <persName>
+            <ref>Branimir Glavičić</ref>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp>Hanc editionem electronicam curavit</resp>
+          <persName>
+            <ref type="viaf" target="6913774">Neven Jovanović</ref>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <extent ana="C">Mg:C 1034 versus, verborum 6750</extent>
+      <publicationStmt>
+        <p>Elektronska verzija: Neolatina Croatica, znanstveni
+	   projekt na<orgName>
+            <ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref>
+          </orgName>,<placeName ref="3186886">Zagreb</placeName>Hrvatska.<date>lipanj 2005</date>
+        </p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
+        <bibl>Bunić, Jakov Ilijin / Iacobus Bonus
+             Racusaeus, 
+             De raptu Cerberi ; De vita
+             et gestis Christi : (loci selecti) ; editionem quartam curavit, locos selectos
+             convertit, praefationem et commentaria scripsit indicesque
+             addidit Branimir Glavičić; Zagreb : Jugoslavenska
+             akademija znanosti i umjetnosti, 1978. Hrvatski latinisti ; knj. 9<note>
+            <name>Philippi Beroaldi</name>Hexasticon Glavičić omisit; ex
+               editione eadem antiqua (Romae 1526) sumpsimus et adiecimus.</note>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <variantEncoding method="parallel-segmentation" location="internal"/>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="abstract" occurs="1"/>
+          <tagUsage gi="add" occurs="2"/>
+          <tagUsage gi="app" occurs="95"/>
+          <tagUsage gi="author" occurs="1"/>
+          <tagUsage gi="back" occurs="1"/>
+          <tagUsage gi="bibl" occurs="2"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="change" occurs="3"/>
+          <tagUsage gi="creation" occurs="1"/>
+          <tagUsage gi="date" occurs="6"/>
+          <tagUsage gi="del" occurs="1"/>
+          <tagUsage gi="div" occurs="8"/>
+          <tagUsage gi="editor" occurs="1"/>
+          <tagUsage gi="encodingDesc" occurs="1"/>
+          <tagUsage gi="extent" occurs="1"/>
+          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
+          <tagUsage gi="front" occurs="1"/>
+          <tagUsage gi="head" occurs="6"/>
+          <tagUsage gi="keywords" occurs="3"/>
+          <tagUsage gi="l" occurs="1034"/>
+          <tagUsage gi="langUsage" occurs="1"/>
+          <tagUsage gi="language" occurs="1"/>
+          <tagUsage gi="listWit" occurs="1"/>
+          <tagUsage gi="name" occurs="2"/>
+          <tagUsage gi="namespace" occurs="1"/>
+          <tagUsage gi="note" occurs="6"/>
+          <tagUsage gi="orgName" occurs="1"/>
+          <tagUsage gi="p" occurs="4"/>
+          <tagUsage gi="particDesc" occurs="1"/>
+          <tagUsage gi="persName" occurs="7"/>
+          <tagUsage gi="placeName" occurs="2"/>
+          <tagUsage gi="profileDesc" occurs="1"/>
+          <tagUsage gi="publicationStmt" occurs="1"/>
+          <tagUsage gi="rdg" occurs="182"/>
+          <tagUsage gi="ref" occurs="6"/>
+          <tagUsage gi="resp" occurs="1"/>
+          <tagUsage gi="respStmt" occurs="1"/>
+          <tagUsage gi="revisionDesc" occurs="1"/>
+          <tagUsage gi="settingDesc" occurs="1"/>
+          <tagUsage gi="sic" occurs="1"/>
+          <tagUsage gi="sourceDesc" occurs="1"/>
+          <tagUsage gi="tagUsage" occurs="48"/>
+          <tagUsage gi="tagsDecl" occurs="1"/>
+          <tagUsage gi="teiHeader" occurs="1"/>
+          <tagUsage gi="term" occurs="5"/>
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="textClass" occurs="1"/>
+          <tagUsage gi="title" occurs="1"/>
+          <tagUsage gi="titleStmt" occurs="1"/>
+          <tagUsage gi="variantEncoding" occurs="1"/>
+          <tagUsage gi="witness" occurs="5" withId="5"/>
+        </namespace>
+      </tagsDecl>
+      <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6']/*[@n='$7'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+        <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <abstract>
+        <p/>
+      </abstract>
+      <settingDesc>
+        <p/>
+      </settingDesc>
+      <particDesc>
+        <p/>
+      </particDesc>
+      <langUsage>
+        <language ident="lat" xml:lang="hrv">latinski</language>
+      </langUsage>
+      <creation>
+        <date when="1490" period="14xx_3_third">1490</date>
+        <placeName>Dubrovnik</placeName>
+      </creation>
+      <textClass>
+        <keywords scheme="typus">
+          <term>poesis</term>
+        </keywords>
+        <keywords scheme="aetas">
+          <term>Litterae renatae (1400-1600)</term>
+          <term>Saeculum 15 (1401-1500)</term>
+          <term>1451-1500</term>
+        </keywords>
+        <keywords scheme="genre">
+          <term>poesis - epica</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <persName>
+          <ref type="viaf" target="6913774">Neven Jovanović</ref>
+        </persName>
+        <date>2016-10-07</date>:
+        Pojednostavio strukturu TEI/body/div[@type='liber'].
+        Premjestio @met u l elemente, svuda osim za "elegiacum".
+        Pojednostavio app za tekstove koji ne postoje u pojedinim izdanjima.
+        Kao i drugdje, dodao refsDecl/@n='TEI', automatski.
+      </change>
+      <change>
+        <persName>
+          <ref type="viaf" target="6913774">Neven Jovanović</ref>
+        </persName>
+        <persName>Luka Špoljarić</persName>
+        <date>2012-02-19</date>Novo, unificirano zaglavlje.</change>
+      <change>
+        <persName>
+          <ref type="viaf" target="6913774">Neven Jovanović</ref>
+        </persName>
+        <date>Mense Decembri, anno 2010</date>. TEI caput. Versus numerati.</change>
+      <change>Versio altera:<persName>
+          <ref type="viaf" target="6913774">Neven Jovanović</ref>
+        </persName>
+        <date>Mense Augusti, anno 2010</date>. Validatio in TEI P5</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:base="urn:cts:croala:bunic02.croala1761880.croala-lat1" xml:lang="lat">
+    <front n="front">
+      <div n="div" type="apparatus">
+        <listWit n="listWit">
+          <witness n="witness1" xml:id="R1">Editio princeps (Romae 1490)</witness>
+          <witness n="witness2" xml:id="Cu">Ms ONB Cod. 3111 (exaravit Johannes Cuspinianus anno 1492)</witness>
+          <witness n="witness3" xml:id="Sn">MS ONB Cod. Ser. n. 12881</witness>
+          <witness n="witness4" xml:id="R2">Editio altera (Romae 1526)</witness>
+          <witness n="witness5" xml:id="Gl">Editio tertia (edidit Branimir Glavičić, Zagreb 1978)</witness>
+        </listWit>
+      </div>
+      <app n="app1">
+        <rdg n="rdg1" wit="#R2 #Gl">
+          <div n="div" type="epigramma" met="elegiacum">
+            <head n="head">Pro praeludio in opus quod sequitur / Responsio auctoris ad Lectorem.</head>
+            <l n="l1">Cur mea dicta Charis, cur Gratia Musa uocata est?</l>
+            <l n="l2">Quod charis, et totum hoc Gratia condit opus.</l>
+            <l n="l3">Cur treis esse Deas? Et enim tria nomina in uno</l>
+            <l n="l4">Numine perpetuo brachia nexa tenent.</l>
+            <l n="l5">Cur deus Alcides ualida domat omnia claua?</l>
+            <l n="l6">Hinc mihi quod Christus rite canendus erat.</l>
+          </div>
+        </rdg>
+        <rdg n="rdg2" wit="#Sn #R1 #Cu"/>
+      </app>
+      <app n="app2">
+        <rdg n="rdg1" wit="#Sn"/>
+        <rdg n="rdg2" wit="#R1 #Cu #R2 #Gl">
+          <div n="div" type="epigramma" met="hendecasyllabus">
+            <head n="head">
+              <app n="app">
+                <rdg n="rdg1" wit="#R1 #Cu">Reuerendissimo in Christo patri <abbr>D.</abbr> Oliuerio Carraphę Cardinali Neapolitano
+                  episcopo Sabinensi protectori Ragusino Iacobus Bonus</rdg>
+                <rdg n="rdg2" wit="#R2 #Gl">IACOBVS BONVS RACVSAEORVM ORATOR AD LEONEM DECIMVM <abbr>PONT. MAX.</abbr></rdg>
+              </app>
+            </head>
+            <l met="hendecasyllabus" n="l1">Diuas, quae Paphiam deam colentem</l>
+            <l met="hendecasyllabus" n="l2">Siluas Idalii et nemus Cytheri</l>
+            <l met="hendecasyllabus" n="l3">Formosam faciunt Apollinemque,</l>
+            <l met="hendecasyllabus" n="l4">Musas, Pallada Liberumque patrem,</l>
+            <l met="hendecasyllabus" n="l5">
+              <app n="app">
+                <rdg n="rdg1" wit="#R1 #Cu">Istis</rdg>
+                <rdg n="rdg2" wit="#R2 #Gl">Nostris</rdg>
+              </app>praeposui tribus libellis,</l>
+            <l met="hendecasyllabus" n="l6">
+              <app n="app">
+                <rdg n="rdg1" wit="#R1 #Cu">Quos: o gloria patrię, domusque</rdg>
+                <rdg n="rdg2" wit="#R2 #Gl">Qui Christum Herculea canunt figura,</rdg>
+              </app>
+            </l>
+            <l met="hendecasyllabus" n="l7">
+              <app n="app">
+                <rdg n="rdg1" wit="#R1 #Cu">Carraphę nitor, et decus perenne</rdg>
+                <rdg n="rdg2" wit="#R2 #Gl">Cuius tu imperium geris uicemque.</rdg>
+              </app>
+            </l>
+            <l met="hendecasyllabus" n="l8">
+              <app n="app">
+                <rdg n="rdg1" wit="#R1 #Cu">Fidem qui rubeo tegis galero:</rdg>
+                <rdg n="rdg2" wit="#R2 #Gl">Iccirco hunc tibi, pontifex, dicamus,</rdg>
+              </app>
+            </l>
+            <l met="hendecasyllabus" n="l9">
+              <app n="app">
+                <rdg n="rdg1" wit="#R1 #Cu">Mundi et pondera, cardinemque uertis</rdg>
+                <rdg n="rdg2" wit="#R2 #Gl">Orbes quem decimum uocant Leonem.</rdg>
+              </app>
+            </l>
+            <l met="hendecasyllabus" n="l10">
+              <app n="app">
+                <rdg n="rdg1" wit="#R1 #Cu">Diis ęquus superis: tibi dicamus:</rdg>
+                <rdg n="rdg2" wit="#R2 #Gl">Ne te mouerit alteri quod olim</rdg>
+              </app>
+            </l>
+            <l met="hendecasyllabus" n="l11">
+              <app n="app">
+                <rdg n="rdg1" wit="#R1 #Cu">Et dono Herculeum damus laborem:</rdg>
+                <rdg n="rdg2" wit="#R2 #Gl">Hic a me fuit Hercules dicatus!</rdg>
+              </app>
+            </l>
+            <l met="hendecasyllabus" n="l12">
+              <app n="app">
+                <rdg n="rdg1" wit="#R1 #Cu">Munus quod decet infimum Poetam:</rdg>
+                <rdg n="rdg2" wit="#R2 #Gl">Est Christus modo, quem refers leonem,</rdg>
+              </app>
+            </l>
+            <l met="hendecasyllabus" n="l13">
+              <app n="app">
+                <rdg n="rdg1" wit="#R1 #Cu">Non quod maximus exigit patronus</rdg>
+                <rdg n="rdg2" wit="#R2 #Gl">De Iudae catuli tribu leonis.</rdg>
+              </app>
+            </l>
+            <l met="hendecasyllabus" n="l14">
+              <app n="app">
+                <rdg n="rdg1" wit="#R1 #Cu">Vrbis: quę illyrici caput tenetur.</rdg>
+                <rdg n="rdg2" wit="#R2 #Gl">Hic omnes superat feras et omni</rdg>
+              </app>
+            </l>
+            <l met="hendecasyllabus" n="l15">
+              <app n="app">
+                <rdg n="rdg" wit="#R2 #Gl">Prostrato leo parcit et pusillo.</rdg>
+              </app>
+            </l>
+            <l met="hendecasyllabus" n="l16">
+              <app n="app">
+                <rdg n="rdg" wit="#R2 #Gl">Res haec magnanimum decet leonem.</rdg>
+              </app>
+            </l>
+          </div>
+        </rdg>
+      </app>
+    </front>
+    <body ana="poesis-epica" n="body">
+      <div type="poesis-liber" n="div1">
+        <head n="head">IACOBI BONI RACVSAEI
+SVB FIGVRA HERCVLIS CHRISTI PRAELVDIVM
+DEDICATVM LEONI X <abbr>PONT. MAX.</abbr> LIBER PRIMVS: AGLAIA</head>
+        <l met="hexameter" n="l1">Taenarias fauces et debellata profundi</l>
+        <l met="hexameter" n="l2">Regna Iouis soliumque canam, quo clauiger heros</l>
+        <l met="hexameter" n="l3">Tergeminum<app n="app">
+            <rdg n="rdg1" wit="#R1 #Cu #Sn">traxisse canem sub sidera</rdg>
+            <rdg n="rdg2" wit="#R2 #Gl">domuisse canem ui Marteque</rdg>
+          </app>fertur.</l>
+        <l met="hexameter" n="l4">Multa prius saeuae qui prodigiosa nouercae</l>
+        <l met="hexameter" n="l5">Monstra Mycenaeo<app n="app">
+            <rdg n="rdg1" wit="#R1 #Cu #Sn">domuit</rdg>
+            <rdg n="rdg2" wit="#R2 #Gl">superat</rdg>
+          </app>sub rege, timendus</l>
+        <l met="hexameter" n="l6">Victor, et Oechalicas euertit funditus arces.</l>
+        <l met="hexameter" n="l7">Adsis, o Helicona tuens Iouis alma propago,</l>
+        <l met="hexameter" n="l8">Numine, Phoebe, potens uario, siue aurea princeps</l>
+        <l met="hexameter" n="l9">Astra tenes, seu bella geris, seu candida circum</l>
+        <l met="hexameter" n="l10">Pieridum te turba choro ludente coronat</l>
+        <l met="hexameter" n="l11">Enthea uocali modulantem carmina plectro,</l>
+        <l met="hexameter" n="l12">Seu tua Latoo potius cunabula Cyntho</l>
+        <l met="hexameter" n="l13">Flammiferae seu templa colis Patarea Chimaerae.</l>
+        <l met="hexameter" n="l14">Non te ad uulgatum Thymbraee uocamus Apollo</l>
+        <l met="hexameter" n="l15">Carmen et ad dictas acies. Quis namque Gigantum</l>
+        <l met="hexameter" n="l16">Aut fera Titanum belli conamina nescit?</l>
+        <l met="hexameter" n="l17">Quoi non Romulidum referuntur proelia, quoi non</l>
+        <l met="hexameter" n="l18">Perfida Carthago deuictaque Pergama flammis</l>
+        <l met="hexameter" n="l19">Argolicis et si qua prior uulgauerit aetas?</l>
+        <l met="hexameter" n="l20">Sed Furiis commota canam noua proelia, namque</l>
+        <l met="hexameter" n="l21">Sic prius hoc bellum nulli cecinere priorum.</l>
+        <l met="hexameter" n="l22">Est prope in obiectu rabidae spelunca Maleae,</l>
+        <l met="hexameter" n="l23">Spartano praetenta sinu, qua Ditis anhelat</l>
+        <l met="hexameter" n="l24">Spiritus ater olens uasto et fremit Orcus hiatu.</l>
+        <l met="hexameter" n="l25">Hac chaos Alcides nigra formidine mersum</l>
+        <l met="hexameter" n="l26">Inuasit Stygiique ferox sacraria regni</l>
+        <l met="hexameter" n="l27">Et caligantes Erebi deuenit ad umbras.</l>
+        <l met="hexameter" n="l28">Quamuis inferni trita est uia, uos tamen Orci</l>
+        <l met="hexameter" n="l29">Numina diique omnes, animis qui limen utrumque</l>
+        <l met="hexameter" n="l30">Panditis et Phlegeton quos gurgite lustrat adusto,</l>
+        <l met="hexameter" n="l31">Et uos Tartareae secreta silentia noctis</l>
+        <l met="hexameter" n="l32">Adsitis: sequor Andini uestigia uatis.</l>
+        <l met="hexameter" n="l33">Principio ad fauces tetri stabulantur Auerni</l>
+        <l met="hexameter" n="l34">Centauri, gens mixta feris partusque biformes,</l>
+        <l met="hexameter" n="l35">Scyllaque, Circaeis quoi latrant inguina monstris,</l>
+        <l met="hexameter" n="l36">Infoelix stat uirgo procul, centumque mouentur</l>
+        <l met="hexameter" n="l37">Aegaeone manus, linguisque sonantibus instat</l>
+        <l met="hexameter" n="l38">Parrhasius serpens, ignisque<app n="app">
+            <rdg n="rdg1" wit="#R1 #Sn">erructat</rdg>
+            <rdg n="rdg2" wit="#Cu #R2 #Gl">eructat</rdg>
+          </app>ad auras</l>
+        <l met="hexameter" n="l39">Fumantes horrenda globos terno ore Chimaera.</l>
+        <l met="hexameter" n="l40">Quid uarias species diuersaque monstra ferarum</l>
+        <l met="hexameter" n="l41">Exequar? Harpyiaeque et Phorcidos umbra Medusae</l>
+        <l met="hexameter" n="l42">Stant prope, Gerionesque triceps procul aufugit hostem,</l>
+        <l met="hexameter" n="l43">Ceu caua quum tractis sonuit spelunca iuuencis.</l>
+        <l met="hexameter" n="l44">Sternunturque toris Gemitus, infaustaque lugent</l>
+        <l met="hexameter" n="l45">Funera, nec longe fugientia Gaudia distant,</l>
+        <l met="hexameter" n="l46">Et macie confecta graui flagrantibus alis</l>
+        <l met="hexameter" n="l47">Agmina Curarum uolitant, gressuque propinquat</l>
+        <l met="hexameter" n="l48">Exangues inter Morbos odiosa Senectus.</l>
+        <l met="hexameter" n="l49">Hic Dolor, hic Metus, hic immanem pandit hiatum</l>
+        <l met="hexameter" n="l50">Improba Auarities, nullo saturabilis auro,</l>
+        <l met="hexameter" n="l51">Et miseranda Fames humilique infirma grabato</l>
+        <l met="hexameter" n="l52">Pauperies recubat foedo turpissima uisu.</l>
+        <l met="hexameter" n="l53">Postibus aduersis stimulo Bellona cruento</l>
+        <l met="hexameter" n="l54">Eumenides in bella ciet fremituque lacessit</l>
+        <l met="hexameter" n="l55">Horrisono, furibunda ruit Discordia iuxta,</l>
+        <l met="hexameter" n="l56">Demissos lacerata sinus uittisque cruentis</l>
+        <l met="hexameter" n="l57">Anguiferas depressa comas, et proelia poscit.</l>
+        <l met="hexameter" n="l58">Hic subito Alcides nodoso robore circum</l>
+        <l met="hexameter" n="l59">Fulmineos acer rotat imperterritus ictus</l>
+        <l met="hexameter" n="l60">Praecipitesque fuga tenues diuerberat umbras</l>
+        <l met="hexameter" n="l61">Et, qua pandit iter, se fert<app n="app">
+            <rdg n="rdg1" wit="#R1 #Cu">Acherontis ad
+amnes</rdg>
+            <rdg n="rdg2" wit="#Sn">Acheruntis ad amnes</rdg>
+            <rdg n="rdg3" wit="#R2 #Gl">Acheruntis ad amnem</rdg>
+          </app>.</l>
+        <l met="hexameter" n="l62">Iamque propinquabat Stygiae qua portitor undae</l>
+        <l met="hexameter" n="l63">Caerulea puppi manes transuectat humatos</l>
+        <l met="hexameter" n="l64">Quoi fera terribili sordet pedore senectus</l>
+        <l met="hexameter" n="l65">Hirtaque canities incultaque, feruidus ignis</l>
+        <l met="hexameter" n="l66">Luminibus, fauces lata fornace fathiscunt.</l>
+        <l met="hexameter" n="l67">Auritum caput et nigra ferrugine corpus</l>
+        <l met="hexameter" n="l68">
+          <app n="app">
+            <rdg n="rdg1" wit="#R1 #Cu #Sn">Atrius</rdg>
+            <rdg n="rdg2" wit="#R2 #Gl">Furuius</rdg>
+          </app>inuoluit discincto syrmate, gentes</l>
+        <l met="hexameter" n="l69">Quem circum innumerae uolitant ripasque per omnes</l>
+        <l met="hexameter" n="l70">Turba inhumata ruit, quantus ruit aethere densis</l>
+        <l met="hexameter" n="l71">Imber aquis quantaeque cauo tolluntur arenae</l>
+        <l met="hexameter" n="l72">Gurgite<app n="app">
+            <rdg n="rdg1" wit="#R1 #Cu">aristęis</rdg>
+            <rdg n="rdg2" wit="#Sn">aristeis<!-- možda fotokopija? -->
+            </rdg>
+            <rdg n="rdg3" wit="#R2 #Gl">Aristaeis</rdg>
+          </app>Euro spirante Cyrenis.</l>
+        <l met="hexameter" n="l73">Alcides tenuit uestigia pressa parumper,</l>
+        <l met="hexameter" n="l74">Cognoscat tanto si quos in turbine manes.</l>
+        <l met="hexameter" n="l75">Cernit ibi plures tristi quos miserat Orco:</l>
+        <l met="hexameter" n="l76">Agmina praecipue Centaurica nubigenarum</l>
+        <l met="hexameter" n="l77">Atque Pelectronios<app n="app">
+            <rdg n="rdg1" wit="#R1 #Cu #Sn">laphitas</rdg>
+            <rdg n="rdg2" wit="#R2">lapitas</rdg>
+            <rdg n="rdg3" wit="#Gl">Lapithas</rdg>
+          </app>Rhetumque Pholumque</l>
+        <l met="hexameter" n="l78">
+          <app n="app">
+            <rdg n="rdg1" wit="#R1 #Cu #Sn">Nelęumque</rdg>
+            <rdg n="rdg2" wit="#R2 #Gl">Hylaeumque</rdg>
+          </app>datumque sua in praesepia regem</l>
+        <l met="hexameter" n="l79">Atque cruentatam Pharii Busiridis umbram.</l>
+        <l met="hexameter" n="l80">Et te cernit, Hyla puer: "O Hyla", ipse repente,</l>
+        <l met="hexameter" n="l81">"Hiccine maestus ades?" dixit. "Quis te mihi saeuus</l>
+        <l met="hexameter" n="l82">
+          <app n="app">
+            <rdg n="rdg1" wit="#R1 #Cu">Abstulit? ha</rdg>
+            <rdg n="rdg2" wit="#Sn">Abstulit ha</rdg>
+            <rdg n="rdg3" wit="#R2">Abstulit, ah</rdg>
+            <rdg n="rdg4" wit="#Gl">Abstulit, ah,</rdg>
+          </app>nimium saeuus? Vix ora comamque</l>
+        <l met="hexameter" n="l83">Auratam et faciem dulci candore nitentem,</l>
+        <l met="hexameter" n="l84">Vix roseas agnosco genas. Heu, quis tibi uultus</l>
+        <l met="hexameter" n="l85">
+          <app n="app">
+            <rdg n="rdg1" wit="#Cu"/>
+            <rdg n="rdg2" wit="#R1 #Sn #R2 #Gl">Foedauit, meus ille fuit crudelior hostis.</rdg>
+          </app>
+        </l>
+        <l met="hexameter" n="l86">Hei mihi, rapte puer, nunquam te has ire<app n="app">
+            <rdg n="rdg1" wit="#R1 #Cu #Sn">sub</rdg>
+            <rdg n="rdg2" wit="#R2 #Gl">per</rdg>
+          </app>umbras</l>
+        <l met="hexameter" n="l87">Crediderim nec posse mori florentibus annis!</l>
+        <l met="hexameter" n="l88">Immo equidem rebar niueis te ad sidera cycnis</l>
+        <l met="hexameter" n="l89">Sublatum<app n="app">
+            <rdg n="rdg1" wit="#R1 #Cu #Sn">spretoue</rdg>
+            <rdg n="rdg2" wit="#R2 #Gl">socioque</rdg>
+          </app>Patrem Ganymede potitum</l>
+        <l met="hexameter" n="l90">Te, puer, ambrosiaeque suae fecisse ministrum.</l>
+        <l met="hexameter" n="l91">Quem non heroum demens quos uexerat Argo</l>
+        <l met="hexameter" n="l92">Fatidica argueram furti rixasque mouebam</l>
+        <l met="hexameter" n="l93">Impatiens! Quoties fallax mihi dixerat Orpheus</l>
+        <l met="hexameter" n="l94">Flumina te propter nymphas rapuisse Napaeas!</l>
+        <l met="hexameter" n="l95">Ipse uelut Furiis praeceps agitatus adibam</l>
+        <l met="hexameter" n="l96">Antra, lacum Dryadumque domos et lustra ferarum</l>
+        <l met="hexameter" n="l97">Causabarque deos furto. Mihi per Styga cuncti</l>
+        <l met="hexameter" n="l98">Iurabant nil scire tui. Scit Mysia quantum</l>
+        <l met="hexameter" n="l99">Quaesierim te, chare puer, quantosque<app n="app">
+            <rdg n="rdg1" wit="#R1 #Cu #Sn">sub altis</rdg>
+            <rdg n="rdg2" wit="#R2 #Gl">praealtis</rdg>
+          </app>
+        </l>
+        <l met="hexameter" n="l100">Montibus ediderim gemitus, scit tristis imago</l>
+        <l met="hexameter" n="l101">Vociferans nostros planctus lamentaque nostra.</l>
+        <l met="hexameter" n="l102">Quas ego non sortes, quae non oracula diuum</l>
+        <l met="hexameter" n="l103">Tentaui? Sed uana mihi responsa dederunt.</l>
+        <l met="hexameter" n="l104">Quin etiam Phoebi tripodes inimica canebant</l>
+        <l met="hexameter" n="l105">Numina Nayadum te sub sua regna tulisse.</l>
+        <l met="hexameter" n="l106">En quoque me falso frater delusit Apollo!"</l>
+        <l met="hexameter" n="l107">Tunc tristis laetatus Hylas stetit Hercule uiso</l>
+        <!-- neocekivana varijanta -->
+        <l met="hexameter" n="l108">Atque ait: "O magni<app n="app1">
+            <rdg n="rdg1" wit="#R1">domitor</rdg>
+            <rdg n="rdg2" wit="#R2">dominator</rdg>
+          </app>fortissime<app n="app2">
+            <rdg n="rdg1" wit="#R1">mundi</rdg>
+            <rdg n="rdg2" wit="#R2 #Gl">regni</rdg>
+          </app>,</l>
+        <l met="hexameter" n="l109">Alcide, neque te frater neque Thracius Orpheus</l>
+        <note n="note1" place="margin">❦</note>
+        <l met="hexameter" n="l110">Nec falsis responsa deum lusere figuris.</l>
+        <l met="hexameter" n="l111">Nam tibi (quandoquidem fatis conuenimus altis)</l>
+        <l met="hexameter" n="l112">Ipse meos casus fabor mortemque nefandam:</l>
+        <l met="hexameter" n="l113">Hellespontiacos portus Argoa carina</l>
+        <l met="hexameter" n="l114">Quum tot onusta deum genitis intrarat, Iason</l>
+        <l met="hexameter" n="l115">Quos secum auricomam cupientes carpere pellem</l>
+        <l met="hexameter" n="l116">Colchon, et Oethei ducebat Phasydos undas,</l>
+        <l met="hexameter" n="l117">Tum (bene si memini) quum tota in puppe corona</l>
+        <note n="note2" place="margin">❦</note>
+        <l met="hexameter" n="l118">Heroum accubuit mensae circumque ministri</l>
+        <l met="hexameter" n="l119">Aurea uasa, dapes et dulcia uina ferebant,</l>
+        <l met="hexameter" n="l120">Ipse ego iussus eram gelidis e fontibus urnam</l>
+        <l met="hexameter" n="l121">
+          <app n="app">
+            <rdg n="rdg1" wit="#Cu"/>
+            <rdg n="rdg2" wit="#R1 #Sn #R2 #Gl">Implere ex haustu laticum. Quam fune reuinctam</rdg>
+          </app>
+        </l>
+        <l met="hexameter" n="l122">In uada proieci, frigentes flumine lymphas</l>
+        <l met="hexameter" n="l123">Vt caperem. Tunc ecce procul sub sole calenti</l>
+        <l met="hexameter" n="l124">Candida siccabat madidos Arethusa capillos,</l>
+        <l met="hexameter" n="l125">Gurgite pube tenus uirgo stans nuda supremo.</l>
+        <l met="hexameter" n="l126">Bis subito liquidas sese<app n="app">
+            <rdg n="rdg1" wit="#R1">summergit</rdg>
+            <rdg n="rdg2" wit="#R2 #Gl">summersit</rdg>
+          </app>in undas,</l>
+        <l met="hexameter" n="l127">Bisque<app n="app">
+            <rdg n="rdg1" wit="#R1">emergit</rdg>
+            <rdg n="rdg2" wit="#R2 #Gl">emersit</rdg>
+          </app>aquis iterum nymphasque sorores</l>
+        <l met="hexameter" n="l128">Euocat: extemplo nudatas aequore toto</l>
+        <l met="hexameter" n="l129">Nayadas aspicio spumantes ire per undas.</l>
+        <l met="hexameter" n="l130">Obstupui humoremque mihi<app n="app">
+            <rdg n="rdg1" wit="#R1">sub
+pectora</rdg>
+            <rdg n="rdg2" wit="#R2 #Gl">tum pectore</rdg>
+          </app>traxit</l>
+        <l met="hexameter" n="l131">Sanguineum formido repens, gelidosque per artus</l>
+        <l met="hexameter" n="l132">Pallor iit, nox orta oculis, labefactaque terram</l>
+        <l met="hexameter" n="l133">Membra petunt, sopita cadit mens corde<app n="app">
+            <rdg n="rdg1" wit="#R1">sub
+imo</rdg>
+            <rdg n="rdg2" wit="#R2 #Gl">subacta</rdg>
+          </app>.</l>
+        <l met="hexameter" n="l134">Me tunc exanimo similem chorus omnis abegit</l>
+        <l met="hexameter" n="l135">In caua Nayadum spumosae Doridos antra."</l>
+        <l met="hexameter" n="l136">"Ergo uera pii dicebant omina uates",</l>
+        <l met="hexameter" n="l137">Alcides<app n="app">
+            <rdg n="rdg1" wit="#R1">ait: at</rdg>
+            <rdg n="rdg2" wit="#R2 #Gl">ait. "Ah,</rdg>
+          </app>male amantia numina nymphae,</l>
+        <l met="hexameter" n="l138">Quae mihi delitias nimium rapuistis inique,</l>
+        <l met="hexameter" n="l139">Non bene in Alcidae consultae damna<app n="app">
+            <rdg n="rdg1" wit="#R1">fuistis.</rdg>
+            <rdg n="rdg2" wit="#R2 #Gl">, Napaeae!</rdg>
+          </app>
+        </l>
+        <l met="hexameter" n="l140">Verum age, quum duri casus aduersaque fata</l>
+        <l met="hexameter" n="l141">Nocte sub hac odiosa tuos ostendere manes</l>
+        <l met="hexameter" n="l142">Decreuere mihi, dicas, puer, ordine tristes</l>
+        <l met="hexameter" n="l143">Euentus quibus, heu, Stygias detrusus ad undas</l>
+        <l met="hexameter" n="l144">Omnia tu nostrae fregisti gaudia mentis.</l>
+        <note n="note3" place="margin">❦</note>
+        <l met="hexameter" n="l145">Quoi puer: "Interea uacuae clamore cauernae</l>
+        <l met="hexameter" n="l146">Monte sonant gelidoque madent aspergine uultus</l>
+        <l met="hexameter" n="l147">Pallentes, tum membra mihi frigentia torquent</l>
+        <l met="hexameter" n="l148">Et stringunt per crura, manus et brachia nodos.</l>
+        <l met="hexameter" n="l149">Haec fert<app n="app">
+            <rdg n="rdg1" wit="#R1">straceo pingues de</rdg>
+            <rdg n="rdg2" wit="#R2 #Gl">Memphitico pingues e</rdg>
+          </app>cortice guttas,</l>
+        <l met="hexameter" n="l150">Ast alia ampullis costum depromit olentem,</l>
+        <l met="hexameter" n="l151">Spargit<app n="app">
+            <rdg n="rdg1" wit="#R1">odorato</rdg>
+            <rdg n="rdg2" wit="#R2 #Gl">odorata</rdg>
+          </app>necnon cum baccare nardum</l>
+        <l met="hexameter" n="l152">Et cum purpureo myrrham styrace madentem.</l>
+        <l met="hexameter" n="l153">Attoniti redeunt sensus et pristina uirtus</l>
+        <l met="hexameter" n="l154">Membra subit. Feror in thalamos tum protinus altae</l>
+        <l met="hexameter" n="l155">Doridos; huic laetae me dant pro munere nymphae.</l>
+        <l met="hexameter" n="l156">Illa tuas ingressa fores proruptaque nuper</l>
+        <l met="hexameter" n="l157">Limina, in Hispanam Calpen qua surgit Abyla</l>
+        <l met="hexameter" n="l158">Quaque tui<app n="app">
+            <rdg n="rdg1" wit="#R1 #R2 #Gl">monimenta</rdg>
+            <rdg n="rdg2" wit="#Sn">monumenta</rdg>
+          </app>manent aeterna laboris,</l>
+        <l met="hexameter" n="l159">O Hymenaee, tibi magno pulcherrima Nereo</l>
+        <l met="hexameter" n="l160">Nupserat ingentique thoro noua nupta sedebat</l>
+        <l met="hexameter" n="l161">Et noua progenies circum, fluuiique lacusque</l>
+        <l met="hexameter" n="l162">Nympharumque chori, uasto genetricis in antro</l>
+        <l met="hexameter" n="l163">Carmina rauca canunt ultro citroque<app n="app">
+            <rdg n="rdg1" wit="#R1">uagantes.</rdg>
+            <rdg n="rdg2" wit="#R2 #Gl">meantes:</rdg>
+          </app>
+        </l>
+        <l met="hexameter" n="l164">Protoque Meliteque<app n="app1">
+            <rdg n="rdg1" wit="#R2">Taliaque</rdg>
+            <rdg n="rdg2" wit="#Gl">Thaliaque</rdg>
+          </app>
+          <app n="app2">
+            <rdg n="rdg1" wit="#R1">Dotoque</rdg>
+            <rdg n="rdg2" wit="#R2 #Gl">Doto</rdg>
+          </app>Ieraque</l>
+        <l met="hexameter" n="l165">Amphitoique comis in candida colla solutis,</l>
+        <l met="hexameter" n="l166">Et Chlymene,<app n="app">
+            <rdg n="rdg1" wit="#R1">Liminoriaque, Acteique, Spioque,</rdg>
+            <rdg n="rdg2" wit="#R2 #Gl">Limnoria, Actei Cymodoceque</rdg>
+          </app>
+        </l>
+        <l met="hexameter" n="l167">
+          <app n="app">
+            <rdg n="rdg1" wit="#R1">Cymothoe, Cymodoceque,</rdg>
+            <rdg n="rdg2" wit="#R2 #Gl">Cymothoeque Legaeaque Spio</rdg>
+          </app>et flaua Orithya,</l>
+        <l met="hexameter" n="l168">Turba pharetratae nec adhuc uitiata Dianae,</l>
+        <l met="hexameter" n="l169">Atque Thoi atque Amatis atque aurea Gallianira,</l>
+        <l met="hexameter" n="l170">Candida succinctae collecto syrmata nodo.</l>
+        <l met="hexameter" n="l171">Inter quas Protheus cythara recinebat eburna</l>
+        <l met="hexameter" n="l172">Foedera prima deum narrans festosque hymenaeos,</l>
+        <l met="hexameter" n="l173">Praecipue Oceani thalamos, ipsoque canebat</l>
+        <l met="hexameter" n="l174">Progeniem fluxisse deo quaecunque creata est.</l>
+        <l met="hexameter" n="l175">Sed dicam breuius, ne dillabatur inani</l>
+        <l met="hexameter" n="l176">Temporis hoc spatium sermone. Vt me ipsa recoepit</l>
+        <l met="hexameter" n="l177">Doris ait meque in gremio complexa tenebat:</l>
+        <l met="hexameter" n="l178">Egregium decus hoc, nymphae, munusque parente</l>
+        <l met="hexameter" n="l179">Dignum erit Oceano. Ite, citos mihi ducite currus,</l>
+        <l met="hexameter" n="l180">Delphinas stimulate uagos! Cristalla ferantur</l>
+        <l met="hexameter" n="l181">Praeduro concreta gelu, quo conditus altos</l>
+        <l met="hexameter" n="l182">Possit inoffensus nobiscum cernere fluctus</l>
+        <l met="hexameter" n="l183">Et quod pontus habet iam prospectare<app n="app">
+            <rdg n="rdg1" wit="#R1">sub undis</rdg>
+            <rdg n="rdg2" wit="#R2 #Gl">per undas</rdg>
+          </app>."</l>
+        <l met="hexameter" n="l184">Dixit, et haud segnes referunt<app n="app">
+            <rdg n="rdg1" wit="#R1">ascyntheta</rdg>
+            <rdg n="rdg2" wit="#R2 #Gl">acentea</rdg>
+          </app>nymphae</l>
+        <l met="hexameter" n="l185">Alpinis extracta iugis, ac plaustra<app n="app">
+            <rdg n="rdg1" wit="#R1">rotati</rdg>
+            <rdg n="rdg2" wit="#R2 #Gl">rotato</rdg>
+          </app>
+        </l>
+        <l met="hexameter" n="l186">Sistunt delphines magnae prope limina portae.</l>
+        <l met="hexameter" n="l187">Interea genitor mensas instruxerat omnes</l>
+        <l met="hexameter" n="l188">Oceanus magnoque tubae clangore uocabant</l>
+        <l met="hexameter" n="l189">Aequoreos ad nota deos conuiuia: pontus</l>
+        <l met="hexameter" n="l190">Antraque clamosis resonabant intima conchis.</l>
+        <l met="hexameter" n="l191">Progreditur regina toro currumque iugalem</l>
+        <l met="hexameter" n="l192">Scandit et aurata palla uestita resedit.</l>
+        <l met="hexameter" n="l193">Maeraque prima nouos experta cupidinis ignes</l>
+        <l met="hexameter" n="l194">Et cythara Dianassa sonans miranda tricordi</l>
+        <l met="hexameter" n="l195">Apseudisque Ianiraque et hispida corpore Meni,</l>
+        <l met="hexameter" n="l196">Omnes inflabant roseis caua buxa labellis.</l>
+        <l met="hexameter" n="l197">Tresque simul iuuenes: Glaucis nitidisque Pherusa</l>
+        <l met="hexameter" n="l198">Conspicienda comis matrique simillima Doris</l>
+        <l met="hexameter" n="l199">Dulcia crispabant tenera modulamina uoce.</l>
+        <l met="hexameter" n="l200">Meque sub ingentis<app n="app">
+            <rdg n="rdg1" wit="#R1">camerata</rdg>
+            <rdg n="rdg2" wit="#R2 #Gl">camerato</rdg>
+          </app>fornice currus</l>
+        <l met="hexameter" n="l201">Defigunt, intus diuinaque pocula ponunt</l>
+        <l met="hexameter" n="l202">Ambrosiasque dapes, uitreo<app n="app">
+            <rdg n="rdg1" wit="#R1">sub</rdg>
+            <rdg n="rdg2" wit="#R2 #Gl">tum</rdg>
+          </app>carcere clausum,</l>
+        <l met="hexameter" n="l203">Qualis ubi in domibus magnis auis Inda puellis</l>
+        <l met="hexameter" n="l204">Delitium humanas meditatur promere uoces,</l>
+        <l met="hexameter" n="l205">Argento contexta domus quam paruula claudit</l>
+        <l met="hexameter" n="l206">Fixaque<app n="app">
+            <rdg n="rdg1" wit="#R1">sub</rdg>
+            <rdg n="rdg2" wit="#R2 #Gl">de</rdg>
+          </app>trabibus recta suspendit ab hasta.</l>
+        <l met="hexameter" n="l207">Iam uada sulcabat prouectus in aequora currus</l>
+        <l met="hexameter" n="l208">Altaque Arionius scindebat caerula delphin</l>
+        <l met="hexameter" n="l209">Tergore pinnifero, uolucri quom Nerea curru</l>
+        <l met="hexameter" n="l210">
+          <app n="app1">
+            <rdg n="rdg1" wit="#R1">Immanes</rdg>
+            <rdg n="rdg2" wit="#R2 #Gl">Immanis</rdg>
+          </app>longo<app n="app2">
+            <rdg n="rdg1" wit="#R1">uexerunt</rdg>
+            <rdg n="rdg2" wit="#R2 #Gl">deuexit</rdg>
+          </app>corpore<app n="app3">
+            <rdg n="rdg1" wit="#R1">pristes</rdg>
+            <rdg n="rdg2" wit="#R2 #Gl">pistrix</rdg>
+          </app>.</l>
+        <l met="hexameter" n="l211">Agmina nam propior cupiebat iungere Nereus</l>
+        <l met="hexameter" n="l212">Atque rotis altas paribus perlabier undas</l>
+        <l met="hexameter" n="l213">Miscerique simul, ueluti trieterica Bacchae</l>
+        <l met="hexameter" n="l214">Orgia quom celebrant euantes tygribus "Euan!"</l>
+        <l met="hexameter" n="l215">Taygetis si quando iugis descendit amantes</l>
+        <l met="hexameter" n="l216">Virginibus satyros cupiens miscere Lacaenis.</l>
+        <l met="hexameter" n="l217">Nereidum sic laeta cohors fluuiique sonantes</l>
+        <l met="hexameter" n="l218">Nerea delapsi uastum comitantur in aequor</l>
+        <l met="hexameter" n="l219">Immixti nymphis: Strymon,<app n="app">
+            <rdg n="rdg1" wit="#R1">Sperchios, Ilerda,</rdg>
+            <rdg n="rdg2" wit="#R2 #Gl">Sperchius et Arar</rdg>
+          </app>
+        </l>
+        <l met="hexameter" n="l220">
+          <app n="app">
+            <rdg n="rdg1" wit="#R1">Dillectus<add n="add">que</add>
+            </rdg>
+            <rdg n="rdg2" wit="#R2 #Gl">Dilectusque</rdg>
+          </app>Lycus nymphis et fuluus Oaxis</l>
+        <l met="hexameter" n="l221">Et flauus Tybris cornuque Achelous adempto</l>
+        <l met="hexameter" n="l222">Et septemgeminus secreto Nilus ab ortu</l>
+        <l met="hexameter" n="l223">Auratoque Tagus uultu Rhodanusque bicornis,</l>
+        <l met="hexameter" n="l224">Omnigenosque ferens pisces<app n="app">
+            <rdg n="rdg1" wit="#R1">uarias<add n="add">que</add>
+            </rdg>
+            <rdg n="rdg2" wit="#R2 #Gl">uariasque</rdg>
+          </app>uolucres</l>
+        <l met="hexameter" n="l225">Dalmaticus Naron, Phasis Phrygiusque Caycus,</l>
+        <l met="hexameter" n="l226">Laurifer Eurotas et nigro excussus ab Orco</l>
+        <l met="hexameter" n="l227">Corniger Eridanus, Liparis, Moedusque Nyphates</l>
+        <l met="hexameter" n="l228">Smyrneusque Meles et multo Marte notatus</l>
+        <l met="hexameter" n="l229">Ister et Illyrico ueniens a littore Narbon.</l>
+        <l met="hexameter" n="l230">Iamque uias utraeque pares tenuere quadrigae</l>
+        <l met="hexameter" n="l231">Marmore demersae in medio. Quae monstra natantum,</l>
+        <l met="hexameter" n="l232">Quos pelagi populos et<app n="app">
+            <rdg n="rdg1" wit="#R1">quęue sub ęquore</rdg>
+            <rdg n="rdg2" wit="#R2 #Gl">quanta per aequora</rdg>
+          </app>uidi!</l>
+        <l met="hexameter" n="l233">Longa est haec series; quod si mihi guttura mille,</l>
+        <l met="hexameter" n="l234">Mille modis<app n="app">
+            <rdg n="rdg1" wit="#R1">uariis:</rdg>
+            <rdg n="rdg2" wit="#R2 #Gl">multis</rdg>
+          </app>et mille per ora sonarent,</l>
+        <l met="hexameter" n="l235">Vix equidem unius numerarem tempore mensis.</l>
+        <l met="hexameter" n="l236">Omnia nam magno quaecunque sub aethere tellus</l>
+        <l met="hexameter" n="l237">Concipit et pulchri profert in lumina solis,</l>
+        <l met="hexameter" n="l238">Omnia multiparens<app n="app">
+            <rdg n="rdg1" wit="#R1 #Gl">complectitur</rdg>
+            <rdg n="rdg2" wit="#R2">amplectitur</rdg>
+          </app>Amphitrite</l>
+        <l met="hexameter" n="l239">Nascunturque alto uasti sub gurgite ponti.</l>
+        <l met="hexameter" n="l240">Sunt nemora et celso consurgunt uertice montes,</l>
+        <l met="hexameter" n="l241">Sunt lati fundi, sunt rubra corallia messes,</l>
+        <l met="hexameter" n="l242">Et uirides errant diuersa armenta per agros</l>
+        <l met="hexameter" n="l243">Pastorumque greges per pascua laeta uagantur.</l>
+        <l met="hexameter" n="l244">Verum haec quid referam? Nam quamuis marmore toto</l>
+        <l met="hexameter" n="l245">Plurima sint passim uiuis magalia saxis</l>
+        <l met="hexameter" n="l246">Tectaque nympharum et palatia magna deorum,</l>
+        <l met="hexameter" n="l247">Exitium crudele tamen memorare iuuabit</l>
+        <l met="hexameter" n="l248">Atque animae miserae tam lamentabile fatum"</l>
+        <l met="hexameter" n="l249">Alcides imo suspiria corde trahebat</l>
+        <l met="hexameter" n="l250">Torua piis lachrymis humectans ora genasque.</l>
+        <l met="hexameter" n="l251">Vocis et antiquo uerborum ardebat amore</l>
+        <l met="hexameter" n="l252">Pectore percipiens notae uestigia flammae.</l>
+        <l met="hexameter" n="l253">Et quanquam sese quod saeuo Acheronte manebat</l>
+        <l met="hexameter" n="l254">Forti animo uoluebat opus, tamen ipse loquentem</l>
+        <l met="hexameter" n="l255">Instigat coeptis peragat fata impia dictis.</l>
+        <l met="hexameter" n="l256">At multum miserandus Hylas male cognita ponti</l>
+        <l met="hexameter" n="l257">Numina narrando luctus solatur acerbos,</l>
+        <l met="hexameter" n="l258">Supplicii uelut immeriti sortisque nefandae:</l>
+        <l met="hexameter" n="l259">"Foelix Troianus Phrygia uenator ab Ida"</l>
+        <l met="hexameter" n="l260">Mox ait, "ad caelum raptus, quoi Dardana pubes</l>
+        <l met="hexameter" n="l261">Inuidet et superis qui dulcia pocula praebet!</l>
+        <l met="hexameter" n="l262">Foelix ille puer Phrygiis in montibus Atys,</l>
+        <l met="hexameter" n="l263">Cymbala quoi tollunt moestas resonantia curas</l>
+        <l met="hexameter" n="l264">Atque leues Gallae et furibundae sacra Cybelles.</l>
+        <l met="hexameter" n="l265">Ast ego qui dulci priuatus lumine uitae ---</l>
+        <l met="hexameter" n="l266">Heu, nimium infoelix --- Stygias inhumatus arenas</l>
+        <l met="hexameter" n="l267">Incolo, nec<app n="app">
+            <rdg n="rdg1" wit="#R1">nostro solatia spesue dolori</rdg>
+            <rdg n="rdg2" wit="#Sn">paenis spes aut solatia nostris</rdg>
+            <rdg n="rdg3" wit="#R2 #Gl">nostro spes uel postrema dolori</rdg>
+          </app>
+        </l>
+        <l met="hexameter" n="l268">Vlla datur, sed dira agit inclaementia tetros</l>
+        <l met="hexameter" n="l269">Daemonas inque meos iactant incendia manes.</l>
+        <l met="hexameter" n="l270">Scilicet hoc pulchras prodest uidisse Napaeas</l>
+        <l met="hexameter" n="l271">Nereidumque choros et Doridos antra marinae,</l>
+        <l met="hexameter" n="l272">Hoc currum Nerei,<app n="app">
+            <rdg n="rdg1" wit="#R1 #R2 #Gl">infidi</rdg>
+            <rdg n="rdg2" wit="#Sn">
+              <del n="del">iniusti</del>infidi</rdg>
+          </app>hoc miracula ponti,</l>
+        <l met="hexameter" n="l273">Quin et caelicolas omnes omnesque tenentem</l>
+        <l met="hexameter" n="l274">Oceanum terras magnis discumbere mensis</l>
+        <l met="hexameter" n="l275">Regna per Aethiopum. --- Postquam genitoris adiuit</l>
+        <l met="hexameter" n="l276">Atria grandaeuus pulchra cum coniuge Nereus,</l>
+        <note n="note4" place="margin">❦</note>
+        <l met="hexameter" n="l277">Stabant ter centum currus et mille iugales</l>
+        <l met="hexameter" n="l278">Laeta per arua ferae pastu implebantur opimo:</l>
+        <l met="hexameter" n="l279">Quae magnum uexere Iouem rerumque parentem</l>
+        <l met="hexameter" n="l280">Oceanum mentemque Iouis cum coniuge saeua,</l>
+        <l met="hexameter" n="l281">Quae Tethym et Neptunum et te, Tritonia Pallas,</l>
+        <l met="hexameter" n="l282">Insignem clypeo et picto cum cuspide peplo,</l>
+        <l met="hexameter" n="l283">Quae prolem, Latona, tuam stridente sub ipsis</l>
+        <l met="hexameter" n="l284">Marmore quadriiugis. Et te, Gradive, tulerunt</l>
+        <l met="hexameter" n="l285">Thraces equi et Veneris niuei pascuntur olores;</l>
+        <l met="hexameter" n="l286">Quattuor atque rotae, domitrix quas atra deorum</l>
+        <l met="hexameter" n="l287">Nox tulit, adfugiens<app n="app">
+            <rdg n="rdg1" wit="#Sn">Erebum</rdg>
+            <rdg n="rdg2" wit="#R1 #R2 #Gl">Orcum</rdg>
+          </app>, Phanetis amores;</l>
+        <l met="hexameter" n="l288">Et picti Bromii lynces et plaustra leonum,</l>
+        <l met="hexameter" n="l289">Alma quibus uehitur diuum Berecynthia mater.</l>
+        <l met="hexameter" n="l290">
+          <app n="app">
+            <rdg n="rdg1" wit="#R1">Et te flaua Ceres</rdg>
+            <rdg n="rdg2" wit="#R2 #Gl">Teque, Ceres o diua,</rdg>
+          </app>nothae ad conuiuia bigae</l>
+        <l met="hexameter" n="l291">Vexerunt et te gelidi, Saturne, iugales.</l>
+        <l met="hexameter" n="l292">Et celer annexis<app n="app">
+            <rdg n="rdg1" wit="#R1">uenerat</rdg>
+            <rdg n="rdg2" wit="#R2 #Gl">aderat</rdg>
+          </app>talaribus Arcas,</l>
+        <l met="hexameter" n="l293">Cum patulo pennata gerit qui crura galero</l>
+        <l met="hexameter" n="l294">Atque soporiferam laetali cuspide uirgam</l>
+        <l met="hexameter" n="l295">Qua regit Elysium, qua Tartara quaque<app n="app">
+            <rdg n="rdg1" wit="#R1">sub imo</rdg>
+            <rdg n="rdg2" wit="#R2 #Gl">uoraci</rdg>
+          </app>
+        </l>
+        <l met="hexameter" n="l296">Fas Phlegetonte tenet placidoque in flumine Laethes</l>
+        <l met="hexameter" n="l297">Elicit hinc manes, hic<app n="app">
+            <rdg n="rdg1" wit="#R1">suffocat</rdg>
+            <rdg n="rdg2" wit="#R2 #Gl">
+              <sic n="sic">suprimit</sic>
+            </rdg>
+          </app>impius Arcas.</l>
+        <l met="hexameter" n="l298">Ventum erat ad sedes, ubi conuenit omne deorum</l>
+        <l met="hexameter" n="l299">
+          <app n="app">
+            <rdg n="rdg1" wit="#R1 #Sn">Concilium</rdg>
+            <rdg n="rdg2" wit="#R2 #Gl">Consilium</rdg>
+          </app>et nitidis collucet regia mensis.</l>
+        <l met="hexameter" n="l300">Tum pater undisonus sobolem complectitur almam</l>
+        <l met="hexameter" n="l301">Plurima laetanti testatus gaudia uultu.</l>
+        <l met="hexameter" n="l302">Me quoque transpicui coniectum carcere uitri</l>
+        <l met="hexameter" n="l303">Accepit dono. Postquam saturata libido est</l>
+        <l met="hexameter" n="l304">Magna deum mensaeque dapes et uasa remota</l>
+        <l met="hexameter" n="l305">Delibata procul, laeti discedere diui</l>
+        <l met="hexameter" n="l306">Coeperunt hilarique uagi sermone fremebant,</l>
+        <l met="hexameter" n="l307">Quale solet siluis insurgere murmur opacis</l>
+        <l met="hexameter" n="l308">Et foliis crepitare nemus saltusque sonantes,</l>
+        <l met="hexameter" n="l309">Aut matutino quom purpurat aequora flatu</l>
+        <l met="hexameter" n="l310">Horrificans Boreas gelidae sub uirginis ortu,</l>
+        <l met="hexameter" n="l311">Quom freta tum leuibus uentis agitata tumescunt,</l>
+        <l met="hexameter" n="l312">Quale sonant fragiles curuato in littore fluctus.</l>
+        <l met="hexameter" n="l313">Insiliunt igitur currus atque astra capessunt</l>
+        <l met="hexameter" n="l314">Exortusque petunt alii bipatentis Olympi,</l>
+        <l met="hexameter" n="l315">Qua tuus aurato pandebat limine Cancer</l>
+        <l met="hexameter" n="l316">Moenia caelicolumque domos et lucida templa,</l>
+        <l met="hexameter" n="l317">Complexu quae cuncta suo clauduntque teguntque.</l>
+        <l met="hexameter" n="l318">Ast alii latebras terrarum et concaua saxis</l>
+        <l met="hexameter" n="l319">Antra adeunt magnoque cauant cum murmure montes."</l>
+      </div>
+      <div type="poesis-liber" n="div2">
+        <head n="head">IACOBI BONI RACVSAEI CHRISTI SVB FIGVRA HERCVLIS PRAELVDIVM
+LEONI X <abbr>PONT. MAX.</abbr> DICATVM LIBER SECVNDVS: THALIA</head>
+        <l met="hexameter" n="l1">"Postera ab Eoo roseis inuecta quadrigis</l>
+        <l met="hexameter" n="l2">Te croceis, Titone, toris Aurora reliquit</l>
+        <l met="hexameter" n="l3">Solque recedentes radiis dispescuit umbras</l>
+        <l met="hexameter" n="l4">Atraque nigrantes Erebo nox intulit alas,</l>
+        <l met="hexameter" n="l5">Quum sator omnigeni foetus diuumque creator</l>
+        <l met="hexameter" n="l6">Oceanus Scythico balaenis aequore iunctis</l>
+        <l met="hexameter" n="l7">Inuehitur curru et decliues fertur in undas.</l>
+        <l met="hexameter" n="l8">Illa dies misero fatorum extrema meorum</l>
+        <l met="hexameter" n="l9">
+          <app n="app">
+            <rdg n="rdg1" wit="#R1">Illuxit</rdg>
+            <rdg n="rdg2" wit="#R2 #Gl">Irruerat</rdg>
+          </app>maestamque mihi fudere querelam</l>
+        <l met="hexameter" n="l10">Castorides, uox illa fuit praenuntia laeti.</l>
+        <l met="hexameter" n="l11">Namque supinatum curru dum uerrimus aequor</l>
+        <l met="hexameter" n="l12">Flumine delati rapido, procul ecce tumentes</l>
+        <l met="hexameter" n="l13">
+          <app n="app">
+            <rdg n="rdg1" wit="#Sn">Voluuntur</rdg>
+            <rdg n="rdg2" wit="#R1 #R2 #Gl">Consurgunt</rdg>
+          </app>magno compulsi turbine fluctus</l>
+        <l met="hexameter" n="l14">Versaque arenosum secum maria omnia fundum</l>
+        <l met="hexameter" n="l15">Corripiunt et late irato in marmore miscent.</l>
+        <l met="hexameter" n="l16">Diuersi fugiunt pisces, ingentia cete</l>
+        <l met="hexameter" n="l17">Phocarumque greges magnarum et monstra rotarum</l>
+        <l met="hexameter" n="l18">Arboribusque ferae similes similesque columnis</l>
+        <l met="hexameter" n="l19">Dilluuiem tetris ructantes faucibus atram.</l>
+        <l met="hexameter" n="l20">Monstraque quadrupedum secum mare uoluit ab imo</l>
+        <l met="hexameter" n="l21">Orbe trahens, causa et tantae uenit ecce procellae:</l>
+        <l met="hexameter" n="l22">Balaenae saeuis infestabantur ab orcis</l>
+        <l met="hexameter" n="l23">Oceanoque fuga pulsae maria alta petebant,</l>
+        <l met="hexameter" n="l24">Quo sese hostili defendere ab agmine possent,</l>
+        <l met="hexameter" n="l25">Et uasto profugae turbabant aequora motu,</l>
+        <l met="hexameter" n="l26">Ac si conuulsis radicibus urgeat altas</l>
+        <l met="hexameter" n="l27">Orcadas et magnos rapiat fuga in aequora montes.</l>
+        <l met="hexameter" n="l28">Occurrunt orcae contra rostrisque trucidant</l>
+        <l met="hexameter" n="l29">Angustisque graues illidunt cautibus, illae</l>
+        <l met="hexameter" n="l30">Commotae ingenti<app n="app">
+            <rdg n="rdg1" wit="#R1">conturbant</rdg>
+            <rdg n="rdg2" wit="#R2 #Gl">perturbant</rdg>
+          </app>aequora flatu.</l>
+        <l met="hexameter" n="l31">Dicas Aeoliis fluctus eferuere uentis</l>
+        <l met="hexameter" n="l32">Quum Notus aut Aquilo Neptunia concutit arua.</l>
+        <l met="hexameter" n="l33">Saxosae interea circum iactantur arenae,</l>
+        <l met="hexameter" n="l34">Quas grauis interdum balaena e faucibus efflat.</l>
+        <l met="hexameter" n="l35">Tempestas sic atra deum denuntiet iras,</l>
+        <l met="hexameter" n="l36">Si duros caelo lapides effulminet alto.</l>
+        <l met="hexameter" n="l37">Crystallum fragile adueniens<app n="app">
+            <rdg n="rdg1" wit="#R1">tunc</rdg>
+            <rdg n="rdg2" wit="#R2 #Gl">hinc</rdg>
+          </app>impete turbo</l>
+        <l met="hexameter" n="l38">Disiicit in tenues crustas, mihi guttura densis</l>
+        <l met="hexameter" n="l39">Irruit humor aquis uitalem et strangulat ignem:</l>
+        <l met="hexameter" n="l40">Praecluduntque undae miserae spiracula uitae.</l>
+        <l met="hexameter" n="l41">Tum pater Oceanus casum miseratus<app n="app">
+            <rdg n="rdg1" wit="#R1">iniquum</rdg>
+            <rdg n="rdg2" wit="#R2 #Gl">acerbum</rdg>
+          </app>,</l>
+        <l met="hexameter" n="l42">In pisces corpus uertit caeloque locauit.</l>
+        <l met="hexameter" n="l43">Diuulsam membris animam insaturabilis Orcus</l>
+        <l met="hexameter" n="l44">Deuorat; haec Stygiis centum damnata per annos</l>
+        <l met="hexameter" n="l45">Errabit ripis horrendaque monstra pauebit.</l>
+        <l met="hexameter" n="l46">Sed te per caelum, quod te manet, et iubar almum</l>
+        <l met="hexameter" n="l47">Obtestor Phoebi et Dircaei Amphionis urbem,</l>
+        <l met="hexameter" n="l48">Des ut opem misero quum tu remeabis ab umbris</l>
+        <l met="hexameter" n="l49">Tristibus ad superas iucundi luminis<app n="app">
+            <rdg n="rdg1" wit="#R1">auras</rdg>
+            <rdg n="rdg2" wit="#R2 #Gl">oras</rdg>
+          </app>
+        </l>
+        <l met="hexameter" n="l50">Manibus inferiasque meis atque aggere inanem</l>
+        <l met="hexameter" n="l51">Constituas tumulum, saltum ut hoc munere fungar.</l>
+        <l met="hexameter" n="l52">Aut tu si quid habes iuris seu roboris alti,</l>
+        <l met="hexameter" n="l53">Si durum<app n="app">
+            <rdg n="rdg1" wit="#R1">flegetonta</rdg>
+            <rdg n="rdg2" wit="#Sn">Phlegethonta</rdg>
+            <rdg n="rdg3" wit="#R2 #Gl">Phlegetonta</rdg>
+          </app>domas legesque deorum</l>
+        <l met="hexameter" n="l54">Omnia quandoquidem uincis, tu me eripe tanto</l>
+        <l met="hexameter" n="l55">Supplicio et tecum crudelibus extrahe poenis!"</l>
+        <l met="hexameter" n="l56">Talia fatus Hylas ac talia clauiger heros</l>
+        <l met="hexameter" n="l57">Reddidit: "O utinam tantum mihi robur adesset</l>
+        <l met="hexameter" n="l58">Ius quoque, quo propriis exutas artubus umbras</l>
+        <l met="hexameter" n="l59">Attrectasse queam tristesque refringere poenas</l>
+        <l met="hexameter" n="l60">Et diuinarum decreta adamantina legum,</l>
+        <l met="hexameter" n="l61">Tu uotis<app n="app">
+            <rdg n="rdg1" wit="#R1 #Sn">fruere</rdg>
+            <rdg n="rdg2" wit="#R2 #Gl">fruerere</rdg>
+          </app>tuis, foret alter Olympo</l>
+        <l met="hexameter" n="l62">Iuppiter Alcides, Saturnia regna redirent.</l>
+        <l met="hexameter" n="l63">Sed si uictorem spoliis Acherontis iniqui</l>
+        <l met="hexameter" n="l64">Me superi aspicient, faxo tua sentiat umbra</l>
+        <l met="hexameter" n="l65">Non tantum inferias tristes et nomen inane</l>
+        <l met="hexameter" n="l66">Sarcophagi: uolucrem mihi Iuppiter Arcada caelo</l>
+        <l met="hexameter" n="l67">Demittet, uincat linguae qui fulmine Ditem</l>
+        <l met="hexameter" n="l68">Transferat et qui te ad requiem sedesque beatas."</l>
+        <l met="hexameter" n="l69">His dictis gauisus Hylas magnamque recoepit</l>
+        <l met="hexameter" n="l70">Spem puer, haec si qua est miseris sub tristibus umbris.</l>
+        <l met="hexameter" n="l71">Proripit Alcides Stygiae se ad stagna paludis.</l>
+        <l met="hexameter" n="l72">Quem simul atque Charon uiridi prospexit ab alueo</l>
+        <l met="hexameter" n="l73">Ad uada currentem caenosoque algida fluxu</l>
+        <l met="hexameter" n="l74">Littora uectoremque ratis clamore uocantem,</l>
+        <l met="hexameter" n="l75">Expauit torua facie magnoque tremendum</l>
+        <l met="hexameter" n="l76">Pectore uixque ausus fatalem poscere uirgam</l>
+        <l met="hexameter" n="l77">Cunctarique uirum et properandi quaerere causas.</l>
+        <l met="hexameter" n="l78">Officii memor ipse sui: "Tu clauiger", inquit,</l>
+        <l met="hexameter" n="l79">"Siste pedes!<app n="app">
+            <rdg n="rdg1" wit="#R1">Quo</rdg>
+            <rdg n="rdg2" wit="#R2 #Gl">Qui</rdg>
+          </app>te ad nostras rapit impetus undas?</l>
+        <l met="hexameter" n="l80">Quis deus humanis indutus carnibus? Istud</l>
+        <l met="hexameter" n="l81">Quidue petit ferrum, quid stipite robur obusto?</l>
+        <l met="hexameter" n="l82">Quo ruis? Huc supero defunctae lumine gentes</l>
+        <l met="hexameter" n="l83">Conueniunt manesque uehit mea cymba sepultos</l>
+        <l met="hexameter" n="l84">Corporeis nunquam membris assueta grauari.</l>
+        <l met="hexameter" n="l85">Sed si Persephones rutilantis uirga metalli</l>
+        <l met="hexameter" n="l86">Est tibi, tum nostra poteris trannare carina</l>
+        <l met="hexameter" n="l87">Sospes et ad dominam Ditis sua munera ferre.</l>
+        <l met="hexameter" n="l88">Orphea nam memini, quem candida Calliopea</l>
+        <l met="hexameter" n="l89">Edidit Oeagro conceptum flumine, cymba</l>
+        <l met="hexameter" n="l90">Accepisse mea, stupidos quum carmine manes</l>
+        <l met="hexameter" n="l91">Mulcebat cytharaque lacus resonante furentis</l>
+        <l met="hexameter" n="l92">Firmabat cursum siluasque animasque trahebat</l>
+        <l met="hexameter" n="l93">Ad cantum: inferni strepitus latrantiaque ora</l>
+        <l met="hexameter" n="l94">Conticuere canis, dum garrula murmurat ipsis</l>
+        <l met="hexameter" n="l95">Cyllenis fidibus uoces imitata canentis.</l>
+        <l met="hexameter" n="l96">Ille reposcebat miserando funere raptam</l>
+        <l met="hexameter" n="l97">Euridicen: chaos antiquum primaeuaque mundi</l>
+        <l met="hexameter" n="l98">Semina, quae Phlegeton dias produxit in oras,</l>
+        <l met="hexameter" n="l99">Germanosque Ioues diuisaque regna canebat.</l>
+        <l met="hexameter" n="l100">Talia dum cantu celebrat Rhodopeius Orpheus,</l>
+        <l met="hexameter" n="l101">Dulcia lenibant miseros solatia manes,</l>
+        <l met="hexameter" n="l102">Tractus et Aeolides dura cum caute rotaque</l>
+        <l met="hexameter" n="l103">Constitit Ixion, pertusas fontibus urnas</l>
+        <l met="hexameter" n="l104">Bellides implerunt Acheronque obmutuit undis.</l>
+        <l met="hexameter" n="l105">Victus et infernus blanda dulcedine Pluto</l>
+        <l met="hexameter" n="l106">Restituit manes abreptae coniugis Orpheo,</l>
+        <l met="hexameter" n="l107">Orpheus et superas remeauit uictor ad auras."</l>
+        <l met="hexameter" n="l108">Quem contra breuibus fatur Thyrintius heros:</l>
+        <l met="hexameter" n="l109">"Thracius ad sedes Erebi descendere uates</l>
+        <l met="hexameter" n="l110">Si potuit uictorque lacus exire profundos</l>
+        <l met="hexameter" n="l111">Garrulitate lyrae fretus cantuque loquaci</l>
+        <l met="hexameter" n="l112">Et mea qui quondam cecinit praeconia, cur non</l>
+        <l met="hexameter" n="l113">Fas mihi sit patrui sedes inuisere Ditis?!</l>
+        <l met="hexameter" n="l114">Iuppiter ipse mihi genitor, me Iuno nouerca</l>
+        <l met="hexameter" n="l115">Iussit adire domos Erebi Stygiamque paludem</l>
+        <l met="hexameter" n="l116">Transulcare rati magnam Plutonis ad arcem.</l>
+        <l met="hexameter" n="l117">Hoc insigne mihi gestandum: robur et ipsa</l>
+        <l met="hexameter" n="l118">Ferrea compago, sic Marti ferreus ensis,</l>
+        <l met="hexameter" n="l119">Tela trisulca Ioui, Neptuno fuscina, Phoebo</l>
+        <l met="hexameter" n="l120">Corytus calamique leues et thyrsus Iaccho;</l>
+        <l met="hexameter" n="l121">Mercurio sic uirga datur. Nonne ipse tridentem</l>
+        <l met="hexameter" n="l122">Pluto tenet gestatque suam Diana pharetram?</l>
+        <l met="hexameter" n="l123">Quisque deus sua signa gerit. --- Proserpina quondam</l>
+        <l met="hexameter" n="l124">Quod statuit ferri ipsa sibi sub Tartara munus</l>
+        <l met="hexameter" n="l125">Ecce uides, ramum fuluui cognosce metalli!"</l>
+        <l met="hexameter" n="l126">Dixit, et unguifero ramum detexit amictu.</l>
+        <l met="hexameter" n="l127">His placata senis mitescunt pectora dictis</l>
+        <l met="hexameter" n="l128">Sedatusque timor nautae laetusque coruscae</l>
+        <l met="hexameter" n="l129">Suspicit admirans donum uenerabile uirgae.</l>
+        <l met="hexameter" n="l130">Tunc se praecingit, remos et uela rudentesque</l>
+        <l met="hexameter" n="l131">Expedit et tenui<app n="app">
+            <rdg n="rdg1" wit="#R1">misso sub</rdg>
+            <rdg n="rdg2" wit="#R2 #Gl">demisso</rdg>
+          </app>gurgite conto</l>
+        <l met="hexameter" n="l132">
+          <app n="app">
+            <rdg n="rdg1" wit="#R1">Detrudit</rdg>
+            <rdg n="rdg2" wit="#R2 #Gl">Protrudit</rdg>
+          </app>puppim proramque aduertit arenae.</l>
+        <l met="hexameter" n="l133">Impiger ingreditur uasta cum mole carinam</l>
+        <l met="hexameter" n="l134">Amphitryoniades. Tum lubrica pondere cymba</l>
+        <l met="hexameter" n="l135">Subsedit tremefacta iugis undamque recaepit</l>
+        <l met="hexameter" n="l136">In latus et titubans tranauit flumina tandem.</l>
+        <l met="hexameter" n="l137">Alcides postquam ripa ulteriore potitus,</l>
+        <l met="hexameter" n="l138">Qua minus adgeritur limi fluuiique refusis</l>
+        <l met="hexameter" n="l139">Languet margo uadis et glauca sordet in ulua,</l>
+        <l met="hexameter" n="l140">Protinus hic ingens apparuit aula tyranni</l>
+        <l met="hexameter" n="l141">Tartarei: hanc longo suspendit porticus arcu</l>
+        <l met="hexameter" n="l142">Sublimesque alto tollunt adamante columnae</l>
+        <l met="hexameter" n="l143">Et circum<app n="app">
+            <rdg n="rdg1" wit="#R1">obductos</rdg>
+            <rdg n="rdg2" wit="#R2 #Gl">obductas</rdg>
+          </app>atra fuligine turres</l>
+        <l met="hexameter" n="l144">Diis ueneranda palus liuenti personat unda.</l>
+        <l met="hexameter" n="l145">Hic prope uestibulum et diri palatia<app n="app">
+            <rdg n="rdg1" wit="#Sn">regis</rdg>
+            <rdg n="rdg2" wit="#R1 #R2 #Gl">Ditis</rdg>
+          </app>
+        </l>
+        <l met="hexameter" n="l146">Stat solium sublime dei iuxtaque triformis</l>
+        <l met="hexameter" n="l147">Cerberus: humano depastus sanguine<app n="app">
+            <rdg n="rdg1" wit="#R1">sternit</rdg>
+            <rdg n="rdg2" wit="#R2 #Gl">condit</rdg>
+          </app>
+        </l>
+        <l met="hexameter" n="l148">Membra sub exesa scabri<app n="app">
+            <rdg n="rdg1" wit="#R1">testudine</rdg>
+            <rdg n="rdg2" wit="#R2 #Gl">rubigine</rdg>
+          </app>saxi,</l>
+        <l met="hexameter" n="l149">Quo Stygias prostratus aquas custodit et alta</l>
+        <l met="hexameter" n="l150">Atria latratu triplici gentesque sepultas</l>
+        <l met="hexameter" n="l151">Deuorat et tenues horrendus territat umbras.</l>
+        <l met="hexameter" n="l152">Isque ubi mota pedum propius uestigia sensit</l>
+        <l met="hexameter" n="l153">Accessisse dei, lapsas mox arrigit aures</l>
+        <l met="hexameter" n="l154">Captauitque sonum et paulatim gutture clauso</l>
+        <l met="hexameter" n="l155">Infremuit, uibrat caudam draco uerbere torto,</l>
+        <l met="hexameter" n="l156">Vipereis stant colla iubis, procurrit et altos</l>
+        <l met="hexameter" n="l157">Iactat in aduersum latratus eminus hostem</l>
+        <l met="hexameter" n="l158">Et modo terga timor uertit, modo subtrahit ira.</l>
+        <l met="hexameter" n="l159">Indomitus stetit Alcides formidinis expers</l>
+        <l met="hexameter" n="l160">Nudatumque clepit Nemeaeo tegmine corpus</l>
+        <l met="hexameter" n="l161">Et graue suscepit uibrato pondere robur</l>
+        <l met="hexameter" n="l162">Exploratque manu uersans aptatque catenas</l>
+        <l met="hexameter" n="l163">Ingentes, infracta cani mox uincula capto.</l>
+        <l met="hexameter" n="l164">Tum se proripuit furibundi fulminis instar,</l>
+        <l met="hexameter" n="l165">Ille fuga uersus petit alta sedilia Ditis.</l>
+        <l met="hexameter" n="l166">Vt quum Chaonius quondam latrator euntis</l>
+        <l met="hexameter" n="l167">Mota uiatoris sensit uestigia, raptim</l>
+        <l met="hexameter" n="l168">Dura catenati frangens retinacula ferri</l>
+        <l met="hexameter" n="l169">Currit in aduersum latrans, sed fuste uiator,</l>
+        <l met="hexameter" n="l170">Expertus rabiem timidae domitare Lyciscae,</l>
+        <l met="hexameter" n="l171">Hanc fugat impauidus tectumque suburget herile,</l>
+        <l met="hexameter" n="l172">Sic premitur fugiens uicinaque Cerberus horret</l>
+        <l met="hexameter" n="l173">Vincla catenarum et minitantis uerbera clauae.</l>
+        <l met="hexameter" n="l174">Iam penes Alcides aderat, iam terga premebat</l>
+        <l met="hexameter" n="l175">Ictibus intorquens magna ui robur obesum,</l>
+        <l met="hexameter" n="l176">Quum Iouis ante thronum Stygii collabitur atque</l>
+        <l met="hexameter" n="l177">Colla dedit domitus duris uexanda catenis.</l>
+        <l met="hexameter" n="l178">Haud segnis ferrum ceruicibus alligat atris</l>
+        <l met="hexameter" n="l179">Amphitryoniades spiris immanibus omnemque</l>
+        <l met="hexameter" n="l180">Implicat, Assacheus ueluti draco sanguine Maurum</l>
+        <l met="hexameter" n="l181">Quum sitiens elephanta petit seu flumine uiuo</l>
+        <l met="hexameter" n="l182">Insidiatus atrox seu densa conditus umbra</l>
+        <l met="hexameter" n="l183">Nexibus innodat longoque ligamine serpit.</l>
+        <l met="hexameter" n="l184">At procul aeria custos ex arce Megaera</l>
+        <note n="note" place="margin">❦</note>
+        <l met="hexameter" n="l185">--- Spectaclum horrendum --- exoritur, quoi condere bellum</l>
+        <l met="hexameter" n="l186">Et Stygias seruare domos dedit arbiter Orci.</l>
+        <l met="hexameter" n="l187">Illam monstrifero genuit Nox humida partu</l>
+        <l met="hexameter" n="l188">Pressa Acheronte truci, quae proelia uoce cieret</l>
+        <l met="hexameter" n="l189">Et strictos in bella ferox committeret enses.</l>
+        <l met="hexameter" n="l190">Tunc irata cauam furiali murmure concham</l>
+        <l met="hexameter" n="l191">Inflauit, Stygii quo protinus ardua regni</l>
+        <l met="hexameter" n="l192">Machina contremuit uastum intonuitque profundum:</l>
+        <l met="hexameter" n="l193">Sensit et Elysium longe nemus, audiit omnis</l>
+        <l met="hexameter" n="l194">Fortunata cohors foelicibus abdita siluis,</l>
+        <l met="hexameter" n="l195">Audiit armifraga quae cuspide ab aegide saeua</l>
+        <l met="hexameter" n="l196">Fulgurat et subito stimulat Bellona tumultu</l>
+        <l met="hexameter" n="l197">Daemonas. Hi spurcos bifido mucrone bidentes</l>
+        <l met="hexameter" n="l198">Vulcano candente ferunt, qua buccina Martem</l>
+        <l met="hexameter" n="l199">Increpuit, ceu bella noua pro coniuge rursus</l>
+        <l met="hexameter" n="l200">Pluto gerat uetitisque petat procursibus Aetnam.</l>
+        <l met="hexameter" n="l201">At non Alcides ullis perterrita monstris</l>
+        <l met="hexameter" n="l202">Pectora turbabat, ueluti Cantabria cautes</l>
+        <l met="hexameter" n="l203">Nil timet Aeolias hyemes aestumque minacis</l>
+        <l met="hexameter" n="l204">Oceani, scopulis sed firma sonantibus haeret</l>
+        <l met="hexameter" n="l205">Fluctibus in mediis, Magnes et concaua circum</l>
+        <l met="hexameter" n="l206">Antra fremunt undisque sonat latrantibus aequor.</l>
+        <l met="hexameter" n="l207">Quem procul ut regno spolia ex utroque ferentem</l>
+        <l met="hexameter" n="l208">Prospiciunt illique induta comantibus armis</l>
+        <l met="hexameter" n="l209">Alta Cleonei fulserunt terga leonis,</l>
+        <l met="hexameter" n="l210">Conspectu patuit deus et praestantibus alto</l>
+        <l met="hexameter" n="l211">Corde animis, patuere palam fatalia dona</l>
+        <l met="hexameter" n="l212">Et robur uiresque dei, quibus omnia uictor</l>
+        <l met="hexameter" n="l213">Prodigia et portenta domet quae pontus et aether</l>
+        <l met="hexameter" n="l214">Et quae terra creat cunctisque patentia regna</l>
+        <l met="hexameter" n="l215">Persephones. Quare infestum si comminus agmen</l>
+        <l met="hexameter" n="l216">Consererent, magni timuerunt Herculis iras.</l>
+        <l met="hexameter" n="l217">Tum dea terrorum quae fraude exuberat omni</l>
+        <l met="hexameter" n="l218">Mortem saeua uocat, quae postquam nocte cruenta</l>
+        <l met="hexameter" n="l219">Prodiit, indignum uita nec amabile uulgus</l>
+        <l met="hexameter" n="l220">In senio marcere sinit floresque iuuentae,</l>
+        <l met="hexameter" n="l221">Immatura legit populo lachrymanda domoque</l>
+        <l met="hexameter" n="l222">Funera praecipuosque immani absumit hiatu.</l>
+        <l met="hexameter" n="l223">Et Dolor inclaemens aegro uestigia gressu</l>
+        <l met="hexameter" n="l224">Admouet; his toto non est deformior ulla</l>
+        <l met="hexameter" n="l225">Pestis in inferno nec monstrum dirius ullum.</l>
+        <l met="hexameter" n="l226">Quos his exacuit dictis ac uoce superba:</l>
+        <l met="hexameter" n="l227">"O mihi bellorum comites, Erebi effera proles,</l>
+        <l met="hexameter" n="l228">Humano quoties respersi sanguine campos!</l>
+        <l met="hexameter" n="l229">Vincimur insoliti uinci, proh dedecus! Hostis</l>
+        <l met="hexameter" n="l230">En nostras trahit exuuias, qui bella Typhaeum</l>
+        <l met="hexameter" n="l231">Vana lacessentem tumulo depressimus alto</l>
+        <l met="hexameter" n="l232">Inarimes quique Enceladum subiecimus Aetnae</l>
+        <l met="hexameter" n="l233">Atque tot anguipedes Phlegraea ualle Gigantas</l>
+        <l met="hexameter" n="l234">Fulmine et excussa lapsos obtriuimus Ossa.</l>
+        <l met="hexameter" n="l235">At nunc --- heu, quanta est iniuria! --- pristina nobis</l>
+        <l met="hexameter" n="l236">Vis cecidit, qua cuncta cadunt, nomenque uerendum</l>
+        <l met="hexameter" n="l237">Perdidimus, sursum liceat si impune reuerti</l>
+        <l met="hexameter" n="l238">Dedecus hoc nostraque ingens cum labe trophaeum</l>
+        <l met="hexameter" n="l239">Si referet superae Iunoni inuisa propago.</l>
+        <l met="hexameter" n="l240">Scilicet ignaui Stygia torpebimus aula</l>
+        <l met="hexameter" n="l241">Et uictor parto remeabit praedo triumpho?!</l>
+        <l met="hexameter" n="l242">At non hinc audax nostrae Iunonis adulter</l>
+        <l met="hexameter" n="l243">Vt labyrintheos potuit euadere flexus,</l>
+        <l met="hexameter" n="l244">Aequorei quanquam fuerit Iouis inclyta proles.</l>
+        <l met="hexameter" n="l245">Nunc igitur ne fama prior neu clarus Auerni</l>
+        <l met="hexameter" n="l246">Conculcetur honos nostrique potentia sceptri,</l>
+        <l met="hexameter" n="l247">Sumite laetales calamos funestaque tela,</l>
+        <l met="hexameter" n="l248">Quae nece cuncta premunt, caelum quae, terra fretumque</l>
+        <l met="hexameter" n="l249">Fert quaeque aetherium subter nascuntur Olympum!</l>
+        <l met="hexameter" n="l250">Laus acri rapienda uiro est et adorea pugnae."</l>
+        <l met="hexameter" n="l251">Hoc pacto incensi dictis furialibus alas</l>
+        <l met="hexameter" n="l252">Concutiunt gaudentque dolis. Mors falce cruenta</l>
+        <l met="hexameter" n="l253">Terribilis praecepta facit pharetramque silentem</l>
+        <l met="hexameter" n="l254">Induit atque implet calamis. Hanc pone sequuntur:</l>
+        <l met="hexameter" n="l255">Luctus et algificus Pallor, Dolor improbus ipsam</l>
+        <l met="hexameter" n="l256">Praeuolat innumeros portans in proelia Morbos.</l>
+        <l met="hexameter" n="l257">Sed neque Cocyti nox importuna nec Orci</l>
+        <l met="hexameter" n="l258">Ianitor et moesto mors inuitabilis arcu,</l>
+        <l met="hexameter" n="l259">Non alius labor aut aduersis prodiga damnis</l>
+        <l met="hexameter" n="l260">Fata uirum superare ualent: domat omnia fortis</l>
+        <l met="hexameter" n="l261">Amphitryoniades aequo sub corde ferendo</l>
+        <l met="hexameter" n="l262">Quae tristis fortuna sibi seu fata dedissent.</l>
+        <l met="hexameter" n="l263">Iamque nouem uenit quo cingitur orbibus Orcus</l>
+        <l met="hexameter" n="l264">Clamosumque forum nigram stat Ditis ad aulam</l>
+        <l met="hexameter" n="l265">Gnosius et residens celsa quaesitor in arce</l>
+        <l met="hexameter" n="l266">Iura docet sontes saeuam et quatit horridus urnam.</l>
+        <l met="hexameter" n="l267">Hic quoque Pirithoi sese obuia protulit umbra.</l>
+        <l met="hexameter" n="l268">Tunc subito sic orsa loqui: "Iouis alta propago</l>
+        <l met="hexameter" n="l269">Alcide, qui cuncta domas quae mundus ubique</l>
+        <l met="hexameter" n="l270">Monstra creat fatique dolos fraudesque nouercae!</l>
+        <l met="hexameter" n="l271">Quis deus haec superi praedicere posset Olympi ,</l>
+        <l met="hexameter" n="l272">Euentura mihi? Quae spes portenderet unquam</l>
+        <l met="hexameter" n="l273">Quae tua dextra tulit, quae nox imperuia fatis?</l>
+        <l met="hexameter" n="l274">Tu misero defensor ades tutellaque Theseo.</l>
+        <l met="hexameter" n="l275">Inclyte semideum princeps, solatia nobis</l>
+        <l met="hexameter" n="l276">Insperata geris. Vinclis uictricibus hostem</l>
+        <l met="hexameter" n="l277">Fortius ange meum, qui me fornace trifauci</l>
+        <l met="hexameter" n="l278">Corripuit trepidos frangens in dentibus artus,</l>
+        <l met="hexameter" n="l279">Ange, precor, nostri capitis fortissime uindex!</l>
+        <l met="hexameter" n="l280">Nec monstri miserere feri! Nihil iste dolebat</l>
+        <l met="hexameter" n="l281">Thaesea quom Stygiae uinctum duxere cateruae;</l>
+        <l met="hexameter" n="l282">Atque tot humanos crudelis manderet artus,</l>
+        <l met="hexameter" n="l283">Me quoque Gnosiaci qui quaesitoris acerbum</l>
+        <l met="hexameter" n="l284">Iudicium expecto tristis sortesque tremisco.</l>
+        <l met="hexameter" n="l285">Sed te si qua manet priscae pietatis imago,</l>
+        <l met="hexameter" n="l286">Eripe Tartareis miserandum Thaesea uinclis!</l>
+        <l met="hexameter" n="l287">Hoc facilis labor: est praeduro adamante reuinctus</l>
+        <l met="hexameter" n="l288">Praeque uiam quae te superas educet ad auras.</l>
+        <l met="hexameter" n="l289">Haec te facta decent; isto tuo gloria gressu</l>
+        <l met="hexameter" n="l290">Scandit ad aetherium tecum sublimis Olympum."</l>
+        <l met="hexameter" n="l291">Haec ait. Ille malis miseros defendere suetus</l>
+        <l met="hexameter" n="l292">Ingemuit; subiere tori, quibus ipse bimembres</l>
+        <l met="hexameter" n="l293">Nimbigenas domuit, uirtus subit aemula Thaesei,</l>
+        <l met="hexameter" n="l294">Thermodontiaca quocum pro coniuge bellum</l>
+        <l met="hexameter" n="l295">Gessit et inuictis spoliauit Amazonas armis.</l>
+        <l met="hexameter" n="l296">Talia tum breuiter sedato pectore fatur:</l>
+        <l met="hexameter" n="l297">"Huius, amice, tibi solaminis auctor adesse</l>
+        <l met="hexameter" n="l298">Iam pridem cupio, nec me crassator Auernus</l>
+        <l met="hexameter" n="l299">Terruit umbrarum, non mille pericula laeti.</l>
+        <l met="hexameter" n="l300">Ostendas igitur, squallent quo languida Thesei</l>
+        <l met="hexameter" n="l301">Membra situ, qua mole ruunt, qua compede marcent.</l>
+        <l met="hexameter" n="l302">Sed prius hoc strictim doceas: quot moenibus istis</l>
+        <l met="hexameter" n="l303">Cingitur Orcus inops, quid claudit machina tanta?"</l>
+        <l met="hexameter" n="l304">Quoi Phlegyae genus inuiso de sanguine Martis:</l>
+        <l met="hexameter" n="l305">"Tristia Persephones clauduntur regna noueno</l>
+        <l met="hexameter" n="l306">Circuitu: quorum ridenti lucidus aura</l>
+        <l met="hexameter" n="l307">Vltimus aspectat ludentes mollibus aruis</l>
+        <l met="hexameter" n="l308">Foelices animas et fortunata piorum</l>
+        <l met="hexameter" n="l309">Concilia, octauus ueterum iam labe malorum</l>
+        <l met="hexameter" n="l310">Lustratas, largo quae potu obliuia captant.</l>
+        <l met="hexameter" n="l311">Septimus impressas uario purgamine culpas</l>
+        <l met="hexameter" n="l312">Exedit leuibus uentis uel fonte uel igni.</l>
+        <l met="hexameter" n="l313">Sex reliqui uariis resonant cruciatibus, intus</l>
+        <l met="hexameter" n="l314">Instipant animas flammis poenisque cohercent</l>
+        <l met="hexameter" n="l315">Perpetuis peccata luant. Has dira nocentes</l>
+        <l met="hexameter" n="l316">Peruigil Alecto semper custodit, at illas</l>
+        <l met="hexameter" n="l317">Belli feruor adhuc mutilat. Stat fertilis orbis</l>
+        <l met="hexameter" n="l318">Idalio saltu: hic miseros amor urit amantes.</l>
+        <l met="hexameter" n="l319">Hic homicidarum statio et qui sponte nefandas</l>
+        <l met="hexameter" n="l320">Iniecere manus sibimet uitasque dederunt</l>
+        <l met="hexameter" n="l321">Aeterno exitio. Tantum mors ipsa rependit</l>
+        <l met="hexameter" n="l322">Libera, corporeo quibus est de carcere pulsa</l>
+        <l met="hexameter" n="l323">Lux uitae, cuique ut peragat sua fata necesse est.</l>
+        <l met="hexameter" n="l324">Hic solida glacie atque altis concreta pruinis</l>
+        <l met="hexameter" n="l325">Gens, quae ignara fuit rerum, sine fulgure mentis</l>
+        <l met="hexameter" n="l326">Figitur atque undis immota tenacibus haeret,</l>
+        <l met="hexameter" n="l327">Quosque nouercales Lucina excoepit in ulnas</l>
+        <l met="hexameter" n="l328">Aspexitque truci uultu, defluxa maligno</l>
+        <l met="hexameter" n="l329">In terras inimica polo, crudelia lugent</l>
+        <l met="hexameter" n="l330">Funera, crudeles Parcas matrumque hymenaeos."</l>
+        <l met="hexameter" n="l331">"Rex Lapitum, armisoni proles a sanguine Martis,</l>
+        <l met="hexameter" n="l332">Anne etiam infantes miserae dispendia uitae</l>
+        <l met="hexameter" n="l333">Suscipiunt? Quidnam angusto meruere sub aeuo?</l>
+        <l met="hexameter" n="l334">Tantane Tartareum tenet inclaementia regem?</l>
+        <l met="hexameter" n="l335">Anne alium? Tantos animas quid mergat in ignes?</l>
+        <l met="hexameter" n="l336">Quis deus infesto condemnet numine manes?!"</l>
+        <l met="hexameter" n="l337">"Heu, male nota rogas huc descendentibus umbris.</l>
+        <l met="hexameter" n="l338">Verum equidem dicam, dictis te et uera docebo."</l>
+      </div>
+      <div type="poesis-liber" n="div3">
+        <head n="head">IACOBI BONI RACVSAEI CHRISTI SVB FIGVRA HERCVLIS PRAELVDIVM DEDICATVM LEONI X <abbr>PONT. MAX.</abbr> LIBER TERTIVS: EVPHROSYNA</head>
+        <l met="hexameter" n="l1">"Principio architenens excelsi rector Olympi,</l>
+        <l met="hexameter" n="l2">Libera causa, deus, mens mundi, certa uoluntas,</l>
+        <l met="hexameter" n="l3">In quo principium rerum finisque recumbit,</l>
+        <l met="hexameter" n="l4">Miscuit ex alta rerum mysteria mente</l>
+        <l met="hexameter" n="l5">In magno cratere chaos caelumque deosque</l>
+        <l met="hexameter" n="l6">Conflauit. Pater archetypas et mente figuras</l>
+        <l met="hexameter" n="l7">Protulit in nato et per natum, et foedere sancto</l>
+        <l met="hexameter" n="l8">Magni hominis fecit caput et fundamen et ignem,</l>
+        <l met="hexameter" n="l9">Post hominem cunctis opus excellentius, instar</l>
+        <l met="hexameter" n="l10">Mundi totius, tenues conclusit in artus</l>
+        <l met="hexameter" n="l11">Et domino rerum donauit libera iura.</l>
+        <l met="hexameter" n="l12">Hinc manes sibi quisque duos sortimur: ad astra</l>
+        <l met="hexameter" n="l13">Alter monstrat iter, caligantem alter ad Orcum.</l>
+        <l met="hexameter" n="l14">Nos etiam fatis summae deus arbiter aulae</l>
+        <l met="hexameter" n="l15">Subiecit, fatis ad res impellimur omnes.</l>
+        <l met="hexameter" n="l16">Non tamen ingenium nostrique arbitria saecli</l>
+        <l met="hexameter" n="l17">Fata trahunt: genios sequimur, sed sponte uolentes.</l>
+        <l met="hexameter" n="l18">Hinc animi morbi caecaeque insania mentis</l>
+        <l met="hexameter" n="l19">Ignaros homines a summo auertit Olympo</l>
+        <l met="hexameter" n="l20">Aut malesuadus amor deiectas attrahit ad res.</l>
+        <l met="hexameter" n="l21">Quum uero a membris nos morte resoluimur atra,</l>
+        <l met="hexameter" n="l22">Quam grauia inuitos quamque impia facta sequuntur,</l>
+        <l met="hexameter" n="l23">Crimina inhaerescunt prauus quae fecerat usus.</l>
+        <l met="hexameter" n="l24">Ergo ubi nos uitae claementia diua reliquit,</l>
+        <l met="hexameter" n="l25">Impius ex atro sontes Acheronte satelles</l>
+        <l met="hexameter" n="l26">Ducit ad horrendas sedes soliumque seueri</l>
+        <l met="hexameter" n="l27">Iudicis. Hic poenas et crimina lancibus aequant.</l>
+        <l met="hexameter" n="l28">Quo non ulla ualent populi tabularia, testes</l>
+        <l met="hexameter" n="l29">Nec pro sonte citant, nudae stant iudice causae</l>
+        <l met="hexameter" n="l30">Iam sontum detecta palam secreta uidente.</l>
+        <l met="hexameter" n="l31">Omnibus hic deus est ignotus gentibus, ille</l>
+        <l met="hexameter" n="l32">Scilicet omnipotens, aeterni maxima patris</l>
+        <l met="hexameter" n="l33">Progenies, humana salus, qui corpore mortem</l>
+        <l met="hexameter" n="l34">Sponte reus capiet, uitam pro morte daturus</l>
+        <l met="hexameter" n="l35">Gentibus, et primi uictor sub carne parentis</l>
+        <l met="hexameter" n="l36">Aeternas iusto delebit sanguine poenas.</l>
+        <l met="hexameter" n="l37">Hic sontes damnat, qui magno errore grauati</l>
+        <l met="hexameter" n="l38">Tramitibus uariis Stygios merguntur in ignes.</l>
+        <l met="hexameter" n="l39">Tunc alias subeunt leges atque altera iura.</l>
+        <l met="hexameter" n="l40">Namque sub ingenti qua mors tellure coercet</l>
+        <l met="hexameter" n="l41">Hoc barathrum tenditque cauum per inane sub umbras</l>
+        <l met="hexameter" n="l42">Plutonis domus et summi Iouis alta potestas,</l>
+        <l met="hexameter" n="l43">Dictaei fratres saeuas Acherontis habenas</l>
+        <l met="hexameter" n="l44">Imperiumque tenent umbrarum atque impia Ditis</l>
+        <l met="hexameter" n="l45">Iussa regunt et iura feris obnoxia poenis.</l>
+        <l met="hexameter" n="l46">Aeacus Europae gentes, Rhadamantus Eoas</l>
+        <l met="hexameter" n="l47">Iudicat atque Asiam magnam, peccataque Minos</l>
+        <l met="hexameter" n="l48">Cuncta recognoscit fraternaque iura recenset.</l>
+        <l met="hexameter" n="l49">Audi plorantes maestis uagitibus umbras</l>
+        <l met="hexameter" n="l50">Infantum: miseri genitali labe parentum</l>
+        <l met="hexameter" n="l51">Polluti caeco tenebris plectuntur in antro.</l>
+        <l met="hexameter" n="l52">Sed uerbis trahimus tempus, nox frigida curru</l>
+        <l met="hexameter" n="l53">Cornipedes adiunxit equos. Pete Thaesea mecum</l>
+        <l met="hexameter" n="l54">Et celeres capiamus iter, breuis est uia nobis!"</l>
+        <l met="hexameter" n="l55">Interea, dum iam properant, grauis ecce tumultus</l>
+        <l met="hexameter" n="l56">Auditur, fragor insonuit, totumque repente</l>
+        <l met="hexameter" n="l57">Incaepit mugire chaos pulsuque rotarum</l>
+        <l met="hexameter" n="l58">Quadrupedante quati magni fundamina mundi,</l>
+        <l met="hexameter" n="l59">Quales humenti uentosa tonitrua caelo</l>
+        <l met="hexameter" n="l60">Quum glomerant Euri pluuia impendente sub aethra</l>
+        <l met="hexameter" n="l61">Obscura, foeti rixantur in aethere nimbi.</l>
+        <l met="hexameter" n="l62">Mox subitum nigra caligine uoluier agmen</l>
+        <l met="hexameter" n="l63">Aspexere procul spissamque insurgere nubem.</l>
+        <l met="hexameter" n="l64">En quae castra uomit Phlegeton, quod Tartarus agmen</l>
+        <l met="hexameter" n="l65">Ructat in Alciden, en quas globus exerit alas!</l>
+        <l met="hexameter" n="l66">"O Phlegyda", Alcides inquit, "quid tanta gerat uis?"</l>
+        <l met="hexameter" n="l67">Exin Gorgoneis serpentibus hirta Megaera</l>
+        <l met="hexameter" n="l68">Et Stygiae dant signa canes. Quis nube cruenta</l>
+        <l met="hexameter" n="l69">Ductor erat? Quo tanta lues inuaserit Orcum</l>
+        <l met="hexameter" n="l70">Diua mihi Pimplea refer! --- Dux agmine Pluto</l>
+        <l met="hexameter" n="l71">Primus quadrupedum curru est inuectus equorum,</l>
+        <l met="hexameter" n="l72">Quoi caput armatur galea flammisque relucent</l>
+        <l met="hexameter" n="l73">Tempora Tartareis ardentque in uertice cristae.</l>
+        <l met="hexameter" n="l74">Proximus it iuxtaque Satan, quo nulla barathro</l>
+        <l met="hexameter" n="l75">Peior pestis inest nec saeuior ira deorum:</l>
+        <l met="hexameter" n="l76">Mille deos Acherontis agit. Hinc arduus instat</l>
+        <l met="hexameter" n="l77">Laeuiathan, crines flauos arrectaque pulchrae</l>
+        <l met="hexameter" n="l78">Virginis ora gerens et foedi crura draconis,</l>
+        <l met="hexameter" n="l79">Caetera serpenti similis. Prope Mammona curru</l>
+        <l met="hexameter" n="l80">Victor inaurato fertur, quoi caeca potensque</l>
+        <l met="hexameter" n="l81">It Fortuna comes, fert tela tricuspida daemon</l>
+        <l met="hexameter" n="l82">Et camuris triplices incingit cornibus hydros.</l>
+        <l met="hexameter" n="l83">Bellial effrenusque ruunt et bellua Beaemoth.</l>
+        <l met="hexameter" n="l84">Hos prima (ut perhibent) nascentis origine mundi,</l>
+        <l met="hexameter" n="l85">Inclyta ne sine laude foret praesentia regis</l>
+        <l met="hexameter" n="l86">Aetherii, diuos summo formauit Olympo.</l>
+        <l met="hexameter" n="l87">Nondum Luna nothos agitabat candida currus</l>
+        <l met="hexameter" n="l88">Nec stellis fulsere poli nec Apolline pulchro:</l>
+        <l met="hexameter" n="l89">Puniceo ille Satan surgebat Lucifer ortu.</l>
+        <l met="hexameter" n="l90">In quo ceu speculo sol aureus aut orichalco</l>
+        <l met="hexameter" n="l91">Aut uitreis quum fulget aquis splendebat imago</l>
+        <l met="hexameter" n="l92">Et summi mens alta dei, quo maior Olympo</l>
+        <l met="hexameter" n="l93">Non fuit in toto formaque decentior alter.</l>
+        <l met="hexameter" n="l94">Conditus aetheria tunc Iuppiter arce latebat</l>
+        <l met="hexameter" n="l95">Et geminae summo pendebant orbe catenae:</l>
+        <l met="hexameter" n="l96">Altera de duro ferri compacta metallo</l>
+        <l met="hexameter" n="l97">Laeua parte poli ad nigrum tendebat abyssum;</l>
+        <l met="hexameter" n="l98">Altera de fuluo longe formosior auro</l>
+        <l met="hexameter" n="l99">A dextra regione dei tollebat in arcem.</l>
+        <l met="hexameter" n="l100">Lucifer interea, quod se deus altior esset,</l>
+        <l met="hexameter" n="l101">Concipit inuidiam, fastuque inflatus inani</l>
+        <l met="hexameter" n="l102">Dixit: "Conscendam aetherios sublimis ad axes</l>
+        <l met="hexameter" n="l103">Ipse egomet sedesque meas Aquilone subacto</l>
+        <l met="hexameter" n="l104">Sustollam super astra deoque aequabor Olympi."</l>
+        <l met="hexameter" n="l105">Quem pater omnipotens caelo indignatus ab alto</l>
+        <l met="hexameter" n="l106">Fulmine deiecit, compago laeua reuulsa</l>
+        <l met="hexameter" n="l107">Mille deos secum rapuit, ceu lucida Phoebe</l>
+        <l met="hexameter" n="l108">De caelo si lapsa ruat, quam mille secutae</l>
+        <l met="hexameter" n="l109">Nocturnae per inane faces conuulsaque mundo</l>
+        <l met="hexameter" n="l110">Sidera labantur. Sic Lucifer aethere summo</l>
+        <l met="hexameter" n="l111">Aera per tenuem praeceps Acheronta sub imum</l>
+        <l met="hexameter" n="l112">Decidit innumerumque cohors ingrata deorum,</l>
+        <l met="hexameter" n="l113">Quos rabies aeterna tenet, quos Orcus et aer</l>
+        <l met="hexameter" n="l114">Sustinet. Omne nefas his persuadentibus ortum est.</l>
+        <l met="hexameter" n="l115">Postquam autem Stygii tempestas atra tyranni</l>
+        <l met="hexameter" n="l116">Astitit Alciden propius, riget horrida tortis</l>
+        <l met="hexameter" n="l117">Caesaries erecta comis atque acribus ardor</l>
+        <l met="hexameter" n="l118">Fulgurat ex oculis, sudor fluit, aestuat ingens</l>
+        <l met="hexameter" n="l119">Pectus anhelantesque premit sub faucibus ignes:</l>
+        <l met="hexameter" n="l120">Qualis Apollineo Perrhebi uertice Pindi</l>
+        <l met="hexameter" n="l121">Quum leo descendit poturus flumina Nesti</l>
+        <l met="hexameter" n="l122">Seu fontes, Acheloe, tuos, si conspicit arma</l>
+        <l met="hexameter" n="l123">Bellaces inferre Getas, fremit arduus, armi</l>
+        <l met="hexameter" n="l124">Horrescunt et colla toris, ardescit in imo</l>
+        <l met="hexameter" n="l125">Pectore uis, nec tela pauet, sed lumina torua</l>
+        <l met="hexameter" n="l126">Figit humi, quo saeua ruat uenabula contra.</l>
+        <l met="hexameter" n="l127">Tum qui regna tenet pedibus subiecta Tonantis</l>
+        <l met="hexameter" n="l128">Dis pater, ignitis produnt quae faucibus alta</l>
+        <l met="hexameter" n="l129">Taenara et Aetnaeis torrens Vulcanus ab antris,</l>
+        <l met="hexameter" n="l130">Quadrupedes frenare iubet cunctasque phalanges</l>
+        <l met="hexameter" n="l131">Iussit in immotis pariter consistere castris.</l>
+        <l met="hexameter" n="l132">Turba deo paret durisque auriga lupatis</l>
+        <l met="hexameter" n="l133">Nigrantes attraxit equos, quibus actus ab armis</l>
+        <l met="hexameter" n="l134">Spiritus ardentes concussis naribus ignes</l>
+        <l met="hexameter" n="l135">Spargit et hinnitu spumas agit ore cruentas.</l>
+        <l met="hexameter" n="l136">Illi autem trigam sistunt et calcibus auras</l>
+        <l met="hexameter" n="l137">Sublatis feriunt uentosque lacessere gaudent.</l>
+        <l met="hexameter" n="l138">Mox deus umbrarum curru se promouet alto</l>
+        <l met="hexameter" n="l139">Et uertit ferale caput lateque uidentes</l>
+        <l met="hexameter" n="l140">In tenebris acies plenas formidinis atrae,</l>
+        <l met="hexameter" n="l141">Et uidet Alcmenae et Iouis omnipotentis alumnum</l>
+        <l met="hexameter" n="l142">Faucibus e mediis mediisque ex ignibus Orci</l>
+        <l met="hexameter" n="l143">Tergeminum rapuisse canem contraque cateruas</l>
+        <l met="hexameter" n="l144">Tartareas audere et contra daemonas omnes.</l>
+        <l met="hexameter" n="l145">Tunc ambage noua Stygii timor iraque mentem</l>
+        <l met="hexameter" n="l146">Inuasere ducis: praedam seu pace reposci</l>
+        <l met="hexameter" n="l147">Seu durum Mauortis opus, certamen iniri</l>
+        <l met="hexameter" n="l148">Expediat laesa pro maiestate barathri.</l>
+        <l met="hexameter" n="l149">Hinc obstabat atrox atque insuperabile robur</l>
+        <l met="hexameter" n="l150">Alcidae magni, Diti quoque cognita summi</l>
+        <l met="hexameter" n="l151">Progenies inuicta Iouis, quem Iuppiter alto</l>
+        <l met="hexameter" n="l152">Aethere caelitibus praedixerat unius aluo</l>
+        <l met="hexameter" n="l153">Victorem prodire nurus terraeque polique</l>
+        <l met="hexameter" n="l154">Infernaeque domus, quo tempore matris ab aluo</l>
+        <l met="hexameter" n="l155">Prodiit et uenit dii sub lumen Olympi.</l>
+        <l met="hexameter" n="l156">Praeterea Pylium nec adhuc aboleuerat ulcus</l>
+        <l met="hexameter" n="l157">Nestoreaeque memor fuerat Saturnius aulae;</l>
+        <l met="hexameter" n="l158">Qui quum pro caesis in eodem sanguine natis</l>
+        <l met="hexameter" n="l159">Nelidae auxilium ferret, uix saucius iram</l>
+        <l met="hexameter" n="l160">Herculis aufugit moestas Acherontis in aedes.</l>
+        <l met="hexameter" n="l161">Haec obiectabat timor, at calcaria demens</l>
+        <l met="hexameter" n="l162">Ira deo uesana dabat maiorque feroci</l>
+        <l met="hexameter" n="l163">Corde dolor flammis urgebat pectus anhelis.</l>
+        <l met="hexameter" n="l164">Ipse tamen tacitus memorabat talia secum:</l>
+        <l met="hexameter" n="l165">"Tu genitor, Saturne, mihi, tu, regia Iuno,</l>
+        <l met="hexameter" n="l166">Es soror, est frater mundum qui fulmine terret,</l>
+        <l met="hexameter" n="l167">Es mater tu, Rhea, mihi, non foemina pellex.</l>
+        <l met="hexameter" n="l168">Non equidem Antheus, non armentalis abactor,</l>
+        <l met="hexameter" n="l169">Non hymenaeei turpis bellator Iacchi,</l>
+        <l met="hexameter" n="l170">Nec Tegeaeus Aper, nec quos puer enecat angues</l>
+        <l met="hexameter" n="l171">Aut aliae quas mille feras hominesque nurusque</l>
+        <l met="hexameter" n="l172">Contudit. Haec propter dici insuperabilis heros</l>
+        <l met="hexameter" n="l173">Scilicet in terris meruit. Non protinus Orco</l>
+        <l met="hexameter" n="l174">Mortali sit tantus honos! Victoria nostra</l>
+        <l met="hexameter" n="l175">Est dea nata domo! Iactet se magnus adulter</l>
+        <l met="hexameter" n="l176">In caelo superisque thronis caetuque deorum,</l>
+        <l met="hexameter" n="l177">Incrementa ferat nocti solemque retardet,</l>
+        <l met="hexameter" n="l178">Vt rerum domitor maecha nascatur ab una!</l>
+        <l met="hexameter" n="l179">Est fraus in fatis quam nec seruauit ad unguem</l>
+        <l met="hexameter" n="l180">Iuppiter, interdum licuit quoi fallere diuos.</l>
+        <l met="hexameter" n="l181">Nam regina Sami partu sub uentre retento</l>
+        <l met="hexameter" n="l182">Talibus eductum fatis Eurysthea tinxit.</l>
+        <l met="hexameter" n="l183">Nil moueor quernae tenui pro uulnere clauae.</l>
+        <l met="hexameter" n="l184">Namque haud illa deum, pigros sed perculit artus.</l>
+        <l met="hexameter" n="l185">Te quoque Bistonio qui quadrupedante superbis,</l>
+        <l met="hexameter" n="l186">Armipotens Gradiue pater, Diomedis acuta</l>
+        <l met="hexameter" n="l187">Cuspide Pergameis perfodit lancea campis.</l>
+        <l met="hexameter" n="l188">Et tu quod dulcem properas defendere natum,</l>
+        <l met="hexameter" n="l189">Cypria diua, geris candenti in corpore uulnus."</l>
+        <l met="hexameter" n="l190">Haec ubi desierat, Furiis atque acribus iris</l>
+        <l met="hexameter" n="l191">Ardescunt animi Ditis, procul exulat omnis</l>
+        <l met="hexameter" n="l192">Mente timor pulsus dubio comitatus inerti.</l>
+        <l met="hexameter" n="l193">Arma rapit curruque pedes descendit ab alto.</l>
+        <l met="hexameter" n="l194">Quantus Olympus, Athos quantus, uel nubifer Atlas</l>
+        <l met="hexameter" n="l195">Quantus alit siluas et longa prominet umbra,</l>
+        <l met="hexameter" n="l196">Quantaque Caucasei dorsi iuga, quanta Pachinni</l>
+        <l met="hexameter" n="l197">Et quantis Idaea iugis se Gargara tollunt</l>
+        <l met="hexameter" n="l198">Tanta tridentiferi facies erat Aidonei.</l>
+        <l met="hexameter" n="l199">Tunc sceptro cunctis nutuque silentia suadet.</l>
+        <l met="hexameter" n="l200">Obticet atra phalanx subito, silet omnis ad unum</l>
+        <l met="hexameter" n="l201">Implacata domus, non amplius insonat ultrix</l>
+        <l met="hexameter" n="l202">Verbera Tisiphone, tacitae stant ignibus umbrae.</l>
+        <l met="hexameter" n="l203">Styx tacet atra palus, mutescunt triste sonantis</l>
+        <l met="hexameter" n="l204">Pallentes Acherontis aquae, silet igneus amnis</l>
+        <l met="hexameter" n="l205">Et ripis, Cocyte, tuis graue labile flumen.</l>
+        <l met="hexameter" n="l206">Deinde deos Erebi precibus compellat amicis:</l>
+        <l met="hexameter" n="l207">"Summe pater rerum, uacua qui Gorgonis aluo</l>
+        <l met="hexameter" n="l208">Stas, quem scire palam uel cuius nomen in aures</l>
+        <l met="hexameter" n="l209">Ferre nefas, res prima, Chaos, quae rite silendo</l>
+        <l met="hexameter" n="l210">Dum sis iuncta deo, faecunda fundis ab aluo</l>
+        <l met="hexameter" n="l211">Omnia, tuque pater calami memorande canori</l>
+        <l met="hexameter" n="l212">Cultor siluarum et Martis lymphator anheli,</l>
+        <l met="hexameter" n="l213">Magna parens, Erebum medio quae claudis in antro,</l>
+        <l met="hexameter" n="l214">Et Phlegeton et Nox, quam discolor ambit amictus:</l>
+        <l met="hexameter" n="l215">Vobis, o magni, deuota est uictima, diui,</l>
+        <l met="hexameter" n="l216">Vobis succumbat, uestris mactetur in aris!</l>
+        <l met="hexameter" n="l217">Solus ego aggrediar, porro uos eminus este,</l>
+        <l met="hexameter" n="l218">Este procul, socii, nec quisquam bella capessat!"</l>
+        <l met="hexameter" n="l219">Haec ait. Alcides iam dudum inuadere pugnam</l>
+        <l met="hexameter" n="l220">Gestit, Cerbereos et nexibus implicat artus</l>
+        <l met="hexameter" n="l221">Et deponit humi uinctum ceu rusticus hedum.</l>
+        <l met="hexameter" n="l222">Et tunc ipse deos tali sic uoce precatur:</l>
+        <l met="hexameter" n="l223">"O pater omnipotens et rex hominumque deumque,</l>
+        <l met="hexameter" n="l224">In quo principium rerum finisque recumbit,</l>
+        <l met="hexameter" n="l225">Tu quoque quam uertex armatam protulit altus,</l>
+        <l met="hexameter" n="l226">Bellipotens Tritonis hera, intemerata uirago,</l>
+        <l met="hexameter" n="l227">Solque dator lucis, caeli cor mensque profundi,</l>
+        <l met="hexameter" n="l228">Vos quoque uocales magni Syrenes Olympi,</l>
+        <l met="hexameter" n="l229">Vatibus aetherios, Musae, quae infunditis haustus:</l>
+        <l met="hexameter" n="l230">Vobis, o magni, talis cadat hostia, diui,</l>
+        <l met="hexameter" n="l231">Vobis mactetur, uestris procumbat in aris!"</l>
+        <l met="hexameter" n="l232">Iam uero et manes certatim et daemonas omnes</l>
+        <l met="hexameter" n="l233">Conspexisse iuuat diuersi numina regni</l>
+        <l met="hexameter" n="l234">Ingenteisque deos acri coiisse duello.</l>
+        <l met="hexameter" n="l235">Postquam autem rapido procursu comminus armis</l>
+        <l met="hexameter" n="l236">Inuadunt Martem, crebris sonat ictibus omnis</l>
+        <l met="hexameter" n="l237">Tartarus et tonitru longe domus alta remugit.</l>
+        <l met="hexameter" n="l238">Alcides multa pollens ui et Palladis arte</l>
+        <l met="hexameter" n="l239">Exponit laeuum pedem pectusque sinistrum</l>
+        <l met="hexameter" n="l240">Ditis ad insultum telique tricuspidis ictum.</l>
+        <l met="hexameter" n="l241">Dis impune putans ad apertos emicat artus</l>
+        <l met="hexameter" n="l242">Marte furens totoque intorquet turbine telum</l>
+        <l met="hexameter" n="l243">Ceu ferit: exclamant acies, chaos intonat omne</l>
+        <l met="hexameter" n="l244">Et sonitu tetri domus atra resultat Auerni.</l>
+        <l met="hexameter" n="l245">At uegetus retro caedit pes clauaque teli</l>
+        <l met="hexameter" n="l246">Excipiens ictum frustratum cum pede dextro</l>
+        <l met="hexameter" n="l247">Vertitur acta manu dextra ceu fulmen et Orcum</l>
+        <l met="hexameter" n="l248">Assequitur. Caedit retro bellator uterque.</l>
+        <l met="hexameter" n="l249">Tollitur interea fuscis exercitus alis</l>
+        <l met="hexameter" n="l250">Excipiuntque graui nutantem uulnere Ditem</l>
+        <l met="hexameter" n="l251">Aegrescuntque acti Furiis mussantque dolore</l>
+        <l met="hexameter" n="l252">Accensi ueniamque petunt a rege cruento,</l>
+        <l met="hexameter" n="l253">Daemonas ut cunctos Mars experiatur ad unum.</l>
+        <l met="hexameter" n="l254">Respondit Pluto: "Magni uis Herculis ingens</l>
+        <l met="hexameter" n="l255">Si uinci posset, dextra hac deuicta fuisset.</l>
+        <l met="hexameter" n="l256">Immo hoc praecipio uobis: date Thaesea magnum</l>
+        <l met="hexameter" n="l257">Insuper Alcidae tantoque absistite monstro,</l>
+        <l met="hexameter" n="l258">Mature ut talis discedat pestis ab Orco!"</l>
+        <l met="hexameter" n="l259">Ac uelut Assyrios saltus aut Syrtica linquens</l>
+        <l met="hexameter" n="l260">Arua draco siluasue procul cristatus Eoas,</l>
+        <l met="hexameter" n="l261">Si super undantem flammis ardentibus Aetnam,</l>
+        <l met="hexameter" n="l262">Dum secat aerios tractus pernicibus alis,</l>
+        <l met="hexameter" n="l263">Sidat et in uastum Polyphaemi Cyclopis antrum</l>
+        <l met="hexameter" n="l264">Septaque conturbet, ualidum tum corpore taurum</l>
+        <l met="hexameter" n="l265">Fauce apprendat atrox et nexibus angat adactis</l>
+        <l met="hexameter" n="l266">Obuius at Cyclops trunco Polyphaemus obusto</l>
+        <l met="hexameter" n="l267">Prodeat, horrendi rabies animosa draconis</l>
+        <l met="hexameter" n="l268">Taurum linquat humi saeuumque assurgat in hostem;</l>
+        <l met="hexameter" n="l269">Hic, ut tanta lues antro discedat opaco,</l>
+        <l met="hexameter" n="l270">Obiicit atque alium taurum. Sic Thaesea forti</l>
+        <l met="hexameter" n="l271">Amphitryoniadae pro munere tradidit Orcus.</l>
+        <l met="hexameter" n="l272">Tum specus horrendum et fauces Phlegetontis anheli</l>
+        <l met="hexameter" n="l273">Victor adit spoliis et munere laetus Auerni,</l>
+        <l met="hexameter" n="l274">Qua patet introitu facilis uia prona barathri,</l>
+        <l met="hexameter" n="l275">Sed non egressu facilis. Tunc Cerberus auras</l>
+        <l met="hexameter" n="l276">Ignotas lumenque suo inspectabile uisu</l>
+        <l met="hexameter" n="l277">Vidit nec potuit tenebrarum et noctis alumnus</l>
+        <l met="hexameter" n="l278">Lumine lucifugo splendorem ferre diurnum.</l>
+        <l met="hexameter" n="l279">Triplex ergo caput Stygias auersus ad umbras</l>
+        <l met="hexameter" n="l280">Concutit et toto conquassat uincula nixu.</l>
+        <l met="hexameter" n="l281">Sed domitus quid uana, canis, certamina sumis</l>
+        <l met="hexameter" n="l282">Atque reluctando uictus bella irrita tentas?</l>
+        <l met="hexameter" n="l283">Quum uero Alcides iucundas luminis oras</l>
+        <l met="hexameter" n="l284">Attigit et dulcem tellurem laetaque uidit</l>
+        <l met="hexameter" n="l285">Ridentis conuexa poli, sic protinus infit:</l>
+        <l met="hexameter" n="l286">"Alme pater mundi, solio qui promis ab alto</l>
+        <l met="hexameter" n="l287">Cuncta, ratis Parcae quae uoluunt stamina fusis,</l>
+        <l met="hexameter" n="l288">En tua progenies sacraria Ditis auari</l>
+        <l met="hexameter" n="l289">Subiecit uictrixque ferum spoliauit Auernum,</l>
+        <l met="hexameter" n="l290">Vt pateat mundo quanti tibi filius esset</l>
+        <l met="hexameter" n="l291">Alcides, in quo uirtus tua sancta refulsit.</l>
+        <l met="hexameter" n="l292">Ergo uictor ago grates tibi, Iuppiter, auctor</l>
+        <l met="hexameter" n="l293">Victoris contra uires Iunonis iniquas."</l>
+        <l met="hexameter" n="l294">Dixerat, et medios sol feruentissimus axes</l>
+        <l met="hexameter" n="l295">Igniferis calcabat equis et lampade recta</l>
+        <l met="hexameter" n="l296">Aethiopas duplices axemque uidebat utrumque.</l>
+        <l met="hexameter" n="l297">Tum deus Alcides ob durum iter atque laborem</l>
+        <l met="hexameter" n="l298">Fessus anhelabat requiemque et molle leuamen</l>
+        <l met="hexameter" n="l299">Vt caperet curis, gelidas petit arboris umbras,</l>
+        <l met="hexameter" n="l300">Arboris antiquae, quae stans delubra secundum</l>
+        <l met="hexameter" n="l301">Ingentes ramos et brachia densa per auras</l>
+        <l met="hexameter" n="l302">Sparserat, algenti crepitans umbrosa susurro.</l>
+        <l met="hexameter" n="l303">Hic placida uirides diuellit ab arbore ramos</l>
+        <l met="hexameter" n="l304">Impexasque comas foliis bicoloribus ambit.</l>
+        <l met="hexameter" n="l305">Exin populeis protecti frondibus ambo</l>
+        <l met="hexameter" n="l306">Heroes recubant, pictam mirantur et aedem,</l>
+        <l met="hexameter" n="l307">Qua Methymnaeus donaria liquit Arion:</l>
+        <l met="hexameter" n="l308">Hic Ephyrea ratis Calabro resoluta Tarento</l>
+        <l met="hexameter" n="l309">Vela Notis effusa dabat pelagusque tenebat.</l>
+        <l met="hexameter" n="l310">Collecti in foribus nautae de caede nefanda</l>
+        <l met="hexameter" n="l311">Tractabant, supplex fundebat Lesbius aurum.</l>
+        <l met="hexameter" n="l312">Hinc media puppi Thyrio stans lucidus ostro</l>
+        <l met="hexameter" n="l313">Orthrya dicebat diuino carmina cantu</l>
+        <l met="hexameter" n="l314">Distinctamque auro cytharam niueoque elephanto</l>
+        <l met="hexameter" n="l315">Pectine pulsabat; stupidi quo carmine nautae</l>
+        <l met="hexameter" n="l316">Hi flectebantur pronis ceruicibus, illi</l>
+        <l met="hexameter" n="l317">Stertebant alte: comitatus carmina somnus</l>
+        <l met="hexameter" n="l318">Dulcia sopitos cunctis irrepserat artus.</l>
+        <l met="hexameter" n="l319">Hoc et Neritium cantu sopisset Vlixem</l>
+        <l met="hexameter" n="l320">Traxissetque altis proceras montibus ornos,</l>
+        <l met="hexameter" n="l321">Auritas faceret cautes, tenuisset et amnes,</l>
+        <l met="hexameter" n="l322">Cumque truci molles misceret tygride damas</l>
+        <l met="hexameter" n="l323">Ipseque cum docto certaret Apolline tutus.</l>
+        <l met="hexameter" n="l324">Hinc illum uectans argenteus aequore delphin</l>
+        <l met="hexameter" n="l325">Innabat summo proscindens caerula dorso.</l>
+        <l met="hexameter" n="l326">Parte alia ueniens Ephyreas laetus ad arces</l>
+        <l met="hexameter" n="l327">Mira Corinthiaco narrabat facta tyranno.</l>
+        <l met="hexameter" n="l328">Mox aduecta ratis bimari iam perfida portu</l>
+        <l met="hexameter" n="l329">Stabat et incolumem mirantur Ariona nautae</l>
+        <l met="hexameter" n="l330">Astantes domino coram et formidine pallent.</l>
+        <l met="hexameter" n="l331">Haec dum per templum uulgo depicta tuentur,</l>
+        <l met="hexameter" n="l332">Ecce coronati Phoebeis frondibus adsunt</l>
+        <l met="hexameter" n="l333">Indigenae, qui facta canunt et carmine laudes</l>
+        <l met="hexameter" n="l334">Herculeas super astra ferunt: ut fata nouercae</l>
+        <l met="hexameter" n="l335">Prodigia atque odium domuit geminumque leonem,</l>
+        <l met="hexameter" n="l336">Aeripedem ceruam, taurum, Stymphalidas, hortos</l>
+        <l met="hexameter" n="l337">Hesperidum: "Tu terrigenas, inuicte, Gigantes</l>
+        <l met="hexameter" n="l338">Deiicis, euertis Troiam, tu Albionas imbre</l>
+        <l met="hexameter" n="l339">Ad Rhodani ripas sternis Nessumque latronemque</l>
+        <l met="hexameter" n="l340">Acer Auentinum, tu templa Lacinia condis.</l>
+        <l met="hexameter" n="l341">Te quoque labentem mundum superosque tenentem</l>
+        <l met="hexameter" n="l342">Atlas obstupuit, te tela trisulca ferentem</l>
+        <l met="hexameter" n="l343">Contremuit percussa soror Iouis. Elicis umbram</l>
+        <l met="hexameter" n="l344">Coniugis Admeti furuis e sedibus Orci</l>
+        <l met="hexameter" n="l345">Aequoreoque rapis tu Laomedontida monstro."</l>
+        <l met="hexameter" n="l346">Haec et mille dei laudes et gesta canebant.</l>
+        <l met="hexameter" n="l347">Sed lyra iam reticet lassi Cyllenia Phoebi.</l>
+        <l met="hexameter" n="l348">Soluite, Pierides, choreas et claudite fontes</l>
+        <l met="hexameter" n="l349">Bellerophonteos: uestris sat lusimus antris!</l>
+      </div>
+    </body>
+    <back n="back">
+      <app n="app">
+        <rdg n="rdg1" wit="#R1 #Cu #Sn #R2">
+          <div n="div" type="epigramma" met="elegiacum">
+            <head n="head">Philippi Beroaldi Hexasticon.</head>
+            <l n="l1">Viribus Alcides superas educit ad auras</l>
+            <l n="l2">Inferna Stygium de regione canem.</l>
+            <l n="l3">Versibus Herculeae par est Iacobus arenae</l>
+            <l n="l4">Ille canenda gerit fortiter, iste canit.</l>
+            <l n="l5">Aetherios illi cultus benefacta dedere,</l>
+            <l n="l6">Isti grande decus haec benedicta dabunt.</l>
+          </div>
+        </rdg>
+        <rdg n="rdg2" wit="#Gl"/>
+      </app>
+    </back>
+  </text>
+</TEI>
