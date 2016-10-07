@@ -1,3 +1,3 @@
 SET INTPARSE true; SET CHOP false; SET FTINDEX true; SET UPDINDEX true; SET AUTOOPTIMIZE true
-CREATE DB cp-tokenize /home/neven/rad/croala-pelagios/editions/work/crije01.croala789994.croala-lat2w.xml"
+CREATE DB cp-tokenize /home/neven/rad/croala-pelagios/editions/work/marul01.croala754085.croala-lat2w.xml"
 CREATE BACKUP cp-tokenize
