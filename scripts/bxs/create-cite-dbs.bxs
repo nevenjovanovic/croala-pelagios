@@ -1,0 +1,6 @@
+RUN /home/croala/croala-pelagios/scripts/xq/cp-db/cp-create-ctsurns.xq
+CREATE BACKUP cp-cts-urns
+RUN /home/croala/croala-pelagios/scripts/xq/cp-db/cp-createctscontexts.xq
+CREATE BACKUP cp-cts-contexts
+RUN /home/croala/croala-pelagios/scripts/xq/cp-db/cp-createciteana.xq
+CREATE BACKUP cp-cite-urns

@@ -1,2 +1,3 @@
 SET INTPARSE true; SET CHOP false; SET FTINDEX true; SET UPDINDEX true; SET AUTOOPTIMIZE true
 RUN /home/croala/croala-pelagios/scripts/xq/cp-create-cts-index-estlocus1.xq
+CREATE BACKUP croala-lectio

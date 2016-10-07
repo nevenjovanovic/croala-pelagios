@@ -1,0 +1,4 @@
+XQUERY db:create("cpoe", "/home/neven/rad/croalapelagiosxml/marul-mar-carmina-w-n.xml", (), map { 'ftindex': true(), 'chop': false(), 'intparse' : true(), 'autooptimize' : true(), 'updindex' : true() })
+SET INTPARSE true; SET CHOP false; SET FTINDEX true; SET UPDINDEX true; SET AUTOOPTIMIZE true
+XQUERY db:add("cpoe", "/home/neven/rad/croalapelagiosxml/crijev-i-carm-1678-w-pc.xml")
+CREATE BACKUP cpoe
