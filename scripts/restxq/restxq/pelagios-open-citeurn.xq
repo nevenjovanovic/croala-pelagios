@@ -3,6 +3,7 @@
 import module namespace rest = "http://exquery.org/ns/restxq";
 import module namespace croala = "http://www.ffzg.unizg.hr/klafil/croala" at "../../repo/croala.xqm";
 import module namespace cp = "http://croala.ffzg.unizg.hr/croalapelagios" at "../../repo/croalapelagios.xqm";
+import module namespace cite = "http://croala.ffzg.unizg.hr/cite" at '../../repo/croalacite.xqm';
 import module namespace vit = "http://croala.ffzg.unizg.hr/vit" at "../../repo/vitezovic.xqm";
 
 
@@ -57,7 +58,9 @@ declare
 <div class="container-fluid">
 <blockquote class="croala">
 	
-	{cp:openciteurn($urn)}
+	{ return if (starts-with($urn, "urn:cite:croala:loci" )) then cp:openciteurn($urn)
+      else if (starts-with($urn, "urn:cite:perseus:latlexent")) then cite:geturn($urn)
+    else element p { "URN deest in collectionibus nostris."}}
   
 </blockquote>
      <p/>
