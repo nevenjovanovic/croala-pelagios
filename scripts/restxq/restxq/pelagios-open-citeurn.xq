@@ -58,9 +58,9 @@ declare
 <div class="container-fluid">
 <blockquote class="croala">
 	
-	{ return if (starts-with($urn, "urn:cite:croala:loci" )) then cp:openciteurn($urn)
-      else if (starts-with($urn, "urn:cite:perseus:latlexent")) then cite:geturn($urn)
-    else element p { "URN deest in collectionibus nostris."}}
+	{  if (starts-with($urn, "urn:cite:croala:loci" )) then return cp:openciteurn($urn)
+      else if (starts-with($urn, "urn:cite:perseus:latlexent")) then return cite:geturn($urn)
+    else return element p { "URN deest in collectionibus nostris."}}
   
 </blockquote>
      <p/>
