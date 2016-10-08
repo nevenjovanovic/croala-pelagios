@@ -59,7 +59,7 @@ declare
 <blockquote class="croala">
 	
 	{  if (starts-with($urn, "urn:cite:croala:loci" )) then cp:openciteurn($urn)
-      else if (starts-with($urn, "urn:cite:perseus:latlexent")) then cite:geturn($urn)
+      else if (starts-with($urn, ("urn:cite:perseus:latlexent", "urn:cite:croala:latmorph"))) then cite:geturn($urn)
     else if (matches($urn, "^[A-Z]")) then cite:queryname($urn) 
     else
     element p { "URN deest in collectionibus nostris."}
