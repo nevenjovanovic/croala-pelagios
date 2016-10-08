@@ -25,6 +25,9 @@ return element tr {
 };
 
 declare function cite:queryname ($q) {
+  let $list := collection("cp-latlexent")//record[matches(entry[2]/string(), '^[A-Z]')]
+  let $result := $list[entry[2][matches(string(), '^' || $q )]]
+  return if ($result) then
   element table {
     element thead {
       element tr {
@@ -34,8 +37,7 @@ declare function cite:queryname ($q) {
       }
     },
     element tbody {
-for $r in collection("cp-latlexent")//record[matches(entry[2]/string(), '^[A-Z]')]
-where $r/entry[2][matches(string(), '^' || $q )]
+for $r in $result
 return element tr {
   element td { $r/entry[1]/string() },
   element td { $r/entry[2]/string() },
@@ -43,4 +45,5 @@ return element tr {
 }
 }
 }
+else element p { "Nomen deest in collectionibus nostris." }
 };
