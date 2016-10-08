@@ -61,7 +61,7 @@ declare
 	{  if (starts-with($urn, "urn:cite:croala:loci" )) then cp:openciteurn($urn)
       else if (starts-with($urn, "urn:cite:perseus:latlexent")) then cite:geturn($urn)
     else element p { "URN deest in collectionibus nostris."}
-  return 
+   
 }
   
 </blockquote>
