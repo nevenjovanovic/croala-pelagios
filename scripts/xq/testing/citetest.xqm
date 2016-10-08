@@ -16,6 +16,15 @@ declare %unit:test function test:retrieve-citeurn() {
     return $tr/td/string(), ($urn, $label, $definition))
 };
 
+declare %unit:test function test:retrieve-citeurnmorph() {
+  let $urn := "urn:cite:croala:latmorph.morph.143.1"
+  let $label := "n-s---nnc"
+  let $definition := "adiectivum, singularis, neutrum, nominativus, comparativus"
+  return unit:assert-equals(
+    for $tr in cite:geturn($urn)//tbody[parent::table]/tr[td[1]/string()[.=$urn]]
+    return $tr/td/string(), ($urn, $label, $definition))
+};
+
 declare %unit:test function test:retrieve-citeurn-thead() {
   let $urn := "urn:cite:perseus:latlexent.lex7232.1"
   let $urnhead := "URN"

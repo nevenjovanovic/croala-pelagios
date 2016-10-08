@@ -13,7 +13,8 @@ declare function cite:geturn($urn) {
       }
     },
     element tbody {
-for $r in collection("cp-latlexent")//record[matches(entry[2]/string(), '^[A-Z]')]
+let $dbs := (collection("cp-latlexent"), collection("cp-latmorph"))
+for $r in $dbs//record[matches(entry[2]/string(), '^[A-Zna]')]
 where $r/entry[1][string()=$urn]
 return element tr {
   element td { $r/entry[1]/string() },

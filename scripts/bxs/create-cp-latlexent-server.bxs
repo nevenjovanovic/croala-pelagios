@@ -1,3 +1,5 @@
 SET INTPARSE true; SET CHOP false; SET FTINDEX true; SET UPDINDEX true; SET AUTOOPTIMIZE true
 RUN /home/croala/croala-pelagios/scripts/xq/cp-latlexent/create-cp-latlexent-from-perseus-csv-server.xq
 CREATE BACKUP cp-latlexent
+RUN /home/croala/croala-pelagios/scripts/xq/cp-latlexent/create-cp-latmorph-from-csv-server.xq
+CREATE BACKUP cp-latmorph

@@ -1,0 +1,5 @@
+(: from a csv of postags, create cite inventory for Latin morphology :)
+let $i := file:read-text("/home/neven/rad/croala-pelagios/csv/citeposlist.csv")
+let $csv := csv:parse($i)
+return db:create("cp-latmorph", $csv, "latmorph")
+(: return $csv :)
