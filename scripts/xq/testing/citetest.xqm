@@ -25,6 +25,15 @@ declare %unit:test function test:retrieve-citeurnmorph() {
     return $tr/td/string(), ($urn, $label, $definition))
 };
 
+declare %unit:test function test:citeurn-croala-latlexent() {
+  let $urn := "urn:cite:croala:latlexent.lex61578.1"
+  let $label := "Bossina"
+  let $definition := "Name of a state in East-Central Europe, Bosnia (Bosna)."
+  return unit:assert-equals(
+    for $tr in cite:geturn($urn)//tbody[parent::table]/tr[td[1]/string()[.=$urn]]
+    return $tr/td/string(), ($urn, $label, $definition))
+};
+
 declare %unit:test function test:retrieve-citeurn-thead() {
   let $urn := "urn:cite:perseus:latlexent.lex7232.1"
   let $urnhead := "URN"
@@ -52,4 +61,14 @@ declare %unit:test function test:ask-name-thead() {
   return unit:assert-equals(
     for $tr in cite:queryname($name)//thead[parent::table]/tr[1]
     return $tr/td/string(), ($urnhead, $label, $definition))
+};
+
+
+declare %unit:test function test:name-croala-latlexent() {
+  let $urn := "urn:cite:croala:latlexent.lex32295.1"
+  let $label := "Dacicum"
+  let $definition := "Name of the province Dacia."
+  return unit:assert-equals(
+    for $tr in cite:queryname($label)//tbody[parent::table]/tr[td[1]/string()[.=$urn]]
+    return $tr/td/string(), ($urn, $label, $definition))
 };

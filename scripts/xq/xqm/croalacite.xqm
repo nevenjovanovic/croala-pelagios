@@ -13,8 +13,8 @@ declare function cite:geturn($urn) {
       }
     },
     element tbody {
-let $dbs := (collection("cp-latlexent"), collection("cp-latmorph"))
-for $r in $dbs//record[matches(entry[2]/string(), '^[A-Zna]')]
+let $dbs := (collection("cp-latlexent"), collection("cp-latmorph"), collection("cp-croala-latlexents"))
+for $r in $dbs//record
 where $r/entry[1][string()=$urn]
 return element tr {
   element td { $r/entry[1]/string() },
@@ -26,6 +26,10 @@ return element tr {
 };
 
 declare function cite:queryname ($q) {
+  let $dbs := (collection("cp-latlexent"), collection("cp-croala-latlexents"))
+  let $list := $dbs//record
+  let $result := $list[entry[2][matches(string(), '^' || $q )]]
+  return if ($result) then
   element table {
     element thead {
       element tr {
@@ -35,8 +39,8 @@ declare function cite:queryname ($q) {
       }
     },
     element tbody {
-for $r in collection("cp-latlexent")//record[matches(entry[2]/string(), '^[A-Z]')]
-where $r/entry[2][matches(string(), '^' || $q )]
+
+for $r in $result
 return element tr {
   element td { $r/entry[1]/string() },
   element td { $r/entry[2]/string() },
@@ -44,4 +48,5 @@ return element tr {
 }
 }
 }
+else element p { "Nomen deest in collectionibus nostris." }
 };
