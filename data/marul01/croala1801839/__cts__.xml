@@ -1,7 +1,0 @@
-<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:croala:marul01" urn="urn:cts:croala:marul01.croala1801839" xml:lang="lat">
-  <ti:title xml:lang="lat">Epistola ad Adrianum VI Pontificem Maximum</ti:title>
-  <ti:edition workUrn="urn:cts:croala:marul01.croala1801839" urn="urn:cts:croala:marul01.croala1801839.croala-lat1">
-    <ti:label xml:lang="lat">Epistola ad Adrianum VI Pontificem Maximum, versio electronica</ti:label>
-    <ti:description xml:lang="hrv"/>
-  </ti:edition>
-</ti:work>

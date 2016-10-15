@@ -1,7 +1,0 @@
-<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:croala:marul01" urn="urn:cts:croala:marul01.croala1828810" xml:lang="lat">
-  <ti:title xml:lang="lat">Reuerendo in Christo Domino Iacobo Grassolario</ti:title>
-  <ti:edition workUrn="urn:cts:croala:marul01.croala1828810" urn="urn:cts:croala:marul01.croala1828810.croala-lat1">
-    <ti:label xml:lang="lat">Reuerendo in Christo Domino Iacobo Grassolario, versio electronica</ti:label>
-    <ti:description xml:lang="hrv"/>
-  </ti:edition>
-</ti:work>

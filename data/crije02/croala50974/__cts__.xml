@@ -1,9 +1,0 @@
-<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:croala:crije02" urn="urn:cts:croala:crije02.croala50974" xml:lang="lat">
-  <ti:title xml:lang="lat">In Junium Sorgium avunculum suum 
-                    funebris oratio</ti:title>
-  <ti:edition workUrn="urn:cts:croala:crije02.croala50974" urn="urn:cts:croala:crije02.croala50974.croala-lat1">
-    <ti:label xml:lang="lat">In Junium Sorgium avunculum suum 
-                    funebris oratio, versio electronica</ti:label>
-    <ti:description xml:lang="hrv">Digitalizat dijela kasnijeg znanstvenog izdanja (1906).</ti:description>
-  </ti:edition>
-</ti:work>

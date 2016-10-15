@@ -1,7 +1,0 @@
-<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:croala:crije02" urn="urn:cts:croala:crije02.croala589191" xml:lang="lat">
-  <ti:title xml:lang="lat">Aelius Lampridius Cervinus Paulo Palladino suo</ti:title>
-  <ti:edition workUrn="urn:cts:croala:crije02.croala589191" urn="urn:cts:croala:crije02.croala589191.croala-lat1">
-    <ti:label xml:lang="lat">Aelius Lampridius Cervinus Paulo Palladino suo, versio electronica</ti:label>
-    <ti:description xml:lang="hrv">Tekst priređen za kritičko izdanje (2004).</ti:description>
-  </ti:edition>
-</ti:work>
