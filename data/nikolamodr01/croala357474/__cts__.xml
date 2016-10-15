@@ -1,0 +1,7 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:croala:nikolamodr01" urn="urn:cts:croala:nikolamodr01.croala357474" xml:lang="lat">
+  <ti:title xml:lang="lat">De consolatione liber</ti:title>
+  <ti:edition workUrn="urn:cts:croala:nikolamodr01.croala357474" urn="urn:cts:croala:nikolamodr01.croala357474.croala-lat1">
+    <ti:label xml:lang="lat">De consolatione liber, versio electronica</ti:label>
+    <ti:description xml:lang="hrv"/>
+  </ti:edition>
+</ti:work>
