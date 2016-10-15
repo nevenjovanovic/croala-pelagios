@@ -207,7 +207,7 @@
          </change>
       </revisionDesc>
    </teiHeader>
-   <text xml:base="urn:cts:croala:crije02.croala292491.croala-lat1" xml:lang="lat">
+   <text xml:base="urn:cts:croala:crije02.croala292491.croala-lat1" xml:lang="lat" type="poesis">
       <body n="body">
          <pb n="pb1"/>
          <div type="liber" n="div1">

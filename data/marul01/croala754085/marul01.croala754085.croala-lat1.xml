@@ -206,16 +206,16 @@
             <persName>Neven Jovanovic</persName> revision </change>
       </revisionDesc>
   </teiHeader>
-  <text xml:base="urn:cts:croala:marul01.croala754085.croala-lat1" xml:lang="lat" xml:space="preserve">
+  <text xml:base="urn:cts:croala:marul01.croala754085.croala-lat1" xml:lang="lat" xml:space="preserve" type="poesis">
       <front n="front">
          <docTitle n="docTitle">
-            <titlePart n="titlePart">Marko Marulić, Latinski stihovi</titlePart>
+            <titlePart n="titlePart" xml:lang="hrv">Marko Marulić, Latinski stihovi</titlePart>
          </docTitle>
       </front>
       <group n="group">
          <text n="text1">
             <front n="front">
-               <head n="head">MITOLOŠKI EPIGRAMI</head>
+               <head n="head" xml:lang="hrv">MITOLOŠKI EPIGRAMI</head>
             </front>
             <body n="body">
 
@@ -544,7 +544,7 @@
          <text n="text2">
             <front n="front">
                <docTitle n="docTitle">
-                  <titlePart n="titlePart">POPRATNICE UZ KNJIGE I JAVNI NATPISI</titlePart>
+                  <titlePart n="titlePart" xml:lang="hrv">POPRATNICE UZ KNJIGE I JAVNI NATPISI</titlePart>
                </docTitle>
             </front>
             <body n="body">
@@ -658,7 +658,7 @@
          </text>
          <text n="text3">
             <front n="front">
-               <head n="head">POHVALNI EPIGRAMI I EPIGRAMSKE POSLANICE</head>
+               <head n="head" xml:lang="hrv">POHVALNI EPIGRAMI I EPIGRAMSKE POSLANICE</head>
             </front>
             <body n="body">
                <div n="div">
@@ -901,7 +901,7 @@
          </text>
          <text n="text4">
             <front n="front">
-               <head n="head">PRIGODNI I POLITIČKI EPIGRAMI</head>
+               <head n="head" xml:lang="hrv">PRIGODNI I POLITIČKI EPIGRAMI</head>
             </front>
             <body n="body">
                <div n="div">
@@ -1182,7 +1182,7 @@
          </text>
          <text n="text5">
             <front n="front">
-               <head n="head">SATIRIČNI I EROTSKI EPIGRAMI</head>
+               <head n="head" xml:lang="hrv">SATIRIČNI I EROTSKI EPIGRAMI</head>
             </front>
             <body n="body">
                <div n="div">
@@ -1467,7 +1467,7 @@
          </text>
          <text n="text6">
             <front n="front">
-               <head n="head">MORALISTIČKI EPIGRAMI</head>
+               <head n="head" xml:lang="hrv">MORALISTIČKI EPIGRAMI</head>
             </front>
             <body n="body">
                <div n="div">
@@ -1794,7 +1794,7 @@
          </text>
          <text n="text7">
             <front n="front">
-               <head n="head">POSLANICE I ELEGIJE</head>
+               <head n="head" xml:lang="hrv">POSLANICE I ELEGIJE</head>
             </front>
             <body n="body">
                <div n="div">
@@ -2029,7 +2029,7 @@
          </text>
          <text n="text8">
             <front n="front">
-               <head n="head">NABOŽNE PJESME</head>
+               <head n="head" xml:lang="hrv">NABOŽNE PJESME</head>
             </front>
             <body n="body">
                <div n="div">
@@ -2917,7 +2917,7 @@
          </text>
          <text n="text9">
             <front n="front">
-               <head n="head">PREPJEVI</head>
+               <head n="head" xml:lang="hrv">PREPJEVI</head>
             </front>
             <body n="body">
                <div n="div">
@@ -3190,7 +3190,7 @@
          </text>
          <text n="text12">
             <front n="front">
-               <head n="head">PRILOZI</head>
+               <head n="head" xml:lang="hrv">PRILOZI</head>
             </front>
             <body n="body">
                <div n="div">

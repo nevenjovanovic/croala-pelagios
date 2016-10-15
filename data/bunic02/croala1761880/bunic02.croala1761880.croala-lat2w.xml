@@ -184,7 +184,7 @@
         <date>Mense Augusti, anno 2010</date>. Validatio in TEI P5</change>
     </revisionDesc>
   </teiHeader>
-  <text xml:base="urn:cts:croala:bunic02.croala1761880.croala-lat1" xml:lang="lat">
+  <text xml:base="urn:cts:croala:bunic02.croala1761880.croala-lat2w" xml:lang="lat" type="poesis-epica">
     <front n="front">
       <div n="div" type="apparatus">
         <listWit n="listWit">

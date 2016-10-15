@@ -203,7 +203,7 @@
         <persName>Neven Jovanovic</persName>revision</change>
     </revisionDesc>
   </teiHeader>
-  <text xml:base="urn:cts:croala:marul01.croala754085.croala-lat2w" xml:lang="lat" xml:space="preserve">
+  <text xml:base="urn:cts:croala:marul01.croala754085.croala-lat2w" xml:lang="lat" xml:space="preserve" type="poesis">
     <front n="front" xml:lang="hr">
       <docTitle n="docTitle">
         <titlePart n="titlePart"><w n="w1">Marko</w> <w n="w2">Marulić</w><pc n="pc">,</pc> <w n="w3" ana="estlocus0">Latinski</w> <w n="w4">stihovi</w></titlePart>
