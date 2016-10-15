@@ -1,0 +1,2 @@
+XQUERY db:create("cp-2-texts", "/home/neven/rad/croala-pelagios/data/", (), map { 'ftindex': true(), 'chop': false(), 'intparse' : true(), 'autooptimize' : true(), 'updindex' : true() })
+CREATE BACKUP cp-2-texts

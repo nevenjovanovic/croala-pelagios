@@ -1,0 +1,2 @@
+XQUERY db:create("marul-carmina", "/home/neven/rad/croala-pelagios/data/marul01/croala754085/", (), map { 'ftindex': true(), 'chop': false(), 'intparse' : true(), 'autooptimize' : true(), 'updindex' : true() })
+CREATE BACKUP marul-carmina
