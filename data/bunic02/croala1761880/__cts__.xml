@@ -2,6 +2,10 @@
   <ti:title xml:lang="lat">De raptu Cerberi</ti:title>
   <ti:edition workUrn="urn:cts:croala:bunic02.croala1761880" urn="urn:cts:croala:bunic02.croala1761880.croala-lat1">
     <ti:label xml:lang="lat">De raptu Cerberi, versio electronica</ti:label>
-    <ti:description xml:lang="hrv"/>
+    <ti:description xml:lang="hrv">Temeljno arhivsko digitalno izdanje projekta CroALa.</ti:description>
+  </ti:edition>
+  <ti:edition workUrn="urn:cts:croala:bunic02.croala1761880" urn="urn:cts:croala:bunic02.croala1761880.croala-lat2w">
+    <ti:label xml:lang="lat">De raptu Cerberi, versio electronica verbatim distincta</ti:label>
+    <ti:description xml:lang="hrv">Izdanje teksta analiziranog do razine pojedinih riječi unutar stihova.</ti:description>
   </ti:edition>
 </ti:work>

@@ -2,6 +2,10 @@
   <ti:title xml:lang="lat">Carmina e cod. Vat. lat. 1678</ti:title>
   <ti:edition workUrn="urn:cts:croala:crije02.croala292491" urn="urn:cts:croala:crije02.croala292491.croala-lat1">
     <ti:label xml:lang="lat">Carmina e cod. Vat. lat. 1678, versio electronica</ti:label>
-    <ti:description xml:lang="hrv">Tekst priređen za kritičko izdanje (2004).</ti:description>
+    <ti:description xml:lang="hrv">Tekst priređen za kritičko izdanje (2004). Temeljno arhivsko digitalno izdanje projekta CroALa.</ti:description>
+  </ti:edition>
+  <ti:edition workUrn="urn:cts:croala:crije02.croala292491" urn="urn:cts:croala:crije02.croala292491.croala-lat2w">
+    <ti:label xml:lang="lat">Carmina e cod. Vat. lat. 1678, versio electronica verbatim distincta</ti:label>
+    <ti:description xml:lang="hrv">Izdanje teksta analiziranog do razine pojedinih riječi unutar stihova.</ti:description>
   </ti:edition>
 </ti:work>

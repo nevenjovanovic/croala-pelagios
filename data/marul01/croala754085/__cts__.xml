@@ -2,6 +2,10 @@
   <ti:title xml:lang="lat">Carmina Latina</ti:title>
   <ti:edition workUrn="urn:cts:croala:marul01.croala754085" urn="urn:cts:croala:marul01.croala754085.croala-lat1">
     <ti:label xml:lang="lat">Carmina Latina, versio electronica</ti:label>
-    <ti:description xml:lang="hrv">Prema modernom kritičkom izdanju (2005).</ti:description>
+    <ti:description xml:lang="hrv">Prema modernom kritičkom izdanju (2005). Temeljno arhivsko digitalno izdanje projekta CroALa.</ti:description>
+  </ti:edition>
+  <ti:edition workUrn="urn:cts:croala:marul01.croala754085" urn="urn:cts:croala:marul01.croala754085.croala-lat2w">
+    <ti:label xml:lang="lat">Carmina Latina, versio electronica verbatim distincta</ti:label>
+    <ti:description xml:lang="hrv">Izdanje teksta analiziranog do razine pojedinih riječi unutar stihova.</ti:description>
   </ti:edition>
 </ti:work>
