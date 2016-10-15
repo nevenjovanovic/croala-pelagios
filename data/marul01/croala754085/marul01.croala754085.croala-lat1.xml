@@ -207,350 +207,283 @@
       </revisionDesc>
   </teiHeader>
   <text xml:base="urn:cts:croala:marul01.croala754085.croala-lat1" xml:lang="lat" xml:space="preserve" type="poesis">
-      <front n="front">
+      <front n="front" xml:lang="hrv">
          <docTitle n="docTitle">
             <titlePart n="titlePart" xml:lang="hrv">Marko Marulić, Latinski stihovi</titlePart>
          </docTitle>
       </front>
       <group n="group">
          <text n="text1">
-            <front n="front">
+            <front n="front" xml:lang="hrv">
                <head n="head" xml:lang="hrv">MITOLOŠKI EPIGRAMI</head>
             </front>
             <body n="body">
 
-               <div n="div" met="elegiacum">
-
-                  <div n="div1" xml:id="C1">
+               <div met="elegiacum" n="div1" xml:id="C1">
                      <head n="head"> In Titanas contra Iouem coniuratos</head>
                      <l n="l1">Tu dabis ęternas, proles Titania, poenas:</l>
                      <l n="l2"> Sic eat in dominum qui uolet ire suum!</l>
-                  </div>
-                  <div n="div2" xml:id="C2">
+                  </div><div met="elegiacum" n="div2" xml:id="C2">
                      <head n="head"> De Lycaone in lupum</head>
                      <l n="l1">Haud docuit feritas sic te sęuire, Lycaon:</l>
                      <l n="l2"> Vir fueras quando sanguinolentus eras.</l>
-                  </div>
-                  <div n="div3" xml:id="C3">
+                  </div><div met="elegiacum" n="div3" xml:id="C3">
                      <head n="head"> De Phitone serpente</head>
                      <l n="l1">Squamosus Phiton terra de matre creatus</l>
                      <l n="l2"> Occubui telis, Phoebe superbe, tuis.</l>
-                  </div>
-                  <div n="div4" xml:id="C4">
+                  </div><div met="elegiacum" n="div4" xml:id="C4">
                      <head n="head"> De Daphne in laurum</head>
                      <l n="l1">Hęc laurus quondam uirgo Peneia Daphne</l>
                      <l n="l2"> In lauro mulier, ni latuisset, erat.</l>
-                  </div>
-                  <div n="div5" xml:id="C5">
+                  </div><div met="elegiacum" n="div5" xml:id="C5">
                      <head n="head"> Io siue Isis</head>
                      <l n="l1">Isida nunc uocitant, pater Inacus Iona dixit:</l>
                      <l n="l2"> Bosque fui Argoę tradita custodię.</l>
-                  </div>
-                  <div n="div6" xml:id="C6">
+                  </div><div met="elegiacum" n="div6" xml:id="C6">
                      <head n="head"> Io in uaccam</head>
                      <l n="l1">Buccula sum, fueram uirgo dilecta Tonanti.</l>
                      <l n="l2"> Idem sexus inest: Iuppiter, ergo ueni!</l>
-                  </div>
-                  <div n="div7" xml:id="C7">
+                  </div><div met="elegiacum" n="div7" xml:id="C7">
                      <head n="head"> Io in uaccam</head>
                      <l n="l1">Inachidos si flamma tuę te, Iuppiter, urit,</l>
                      <l n="l2"> Qualis ad Europam diceris isse, ueni.</l>
-                  </div>
-                  <div n="div8" xml:id="C8">
+                  </div><div met="elegiacum" n="div8" xml:id="C8">
                      <head n="head"> Phoeton</head>
                      <l n="l1">Quo tibi, parue puer, Phoebei munera currus?</l>
                      <l n="l2"> Excussus rapido, Phoeton, ab axe cades.</l>
-                  </div>
-                  <div n="div9" xml:id="C9">
+                  </div><div met="elegiacum" n="div9" xml:id="C9">
                      <head n="head"> Phoetusa, Iapete, Phoebe</head>
                      <l n="l1">Phoetontis miseri fueramus, Pade, sorores.</l>
                      <l n="l2"> Nunc populi ripę, maxime Pade, tuę.</l>
-                  </div>
-                  <div n="div10" xml:id="C10">
+                  </div><div met="elegiacum" n="div10" xml:id="C10">
                      <head n="head"> Cignus</head>
                      <l n="l1">Dum queritur Cignus fatum miserabile fratris,</l>
                      <l n="l2"> Creuerunt plumę, mansit et albus olor.</l>
-                  </div>
-                  <div n="div11" xml:id="C11">
+                  </div><div met="elegiacum" n="div11" xml:id="C11">
                      <head n="head"> Calisto, Lycaonis filia</head>
                      <l n="l1">Vrsus ista tibi, Iuno, non ursa Calisto</l>
                      <l n="l2"> Fiat, ne rursum iuncta sit illa Ioui.</l>
-                  </div>
-                  <div n="div12" xml:id="C12">
+                  </div><div met="elegiacum" n="div12" xml:id="C12">
                      <head n="head"> Coruus</head>
                      <l n="l1">Quid nisi uerbosę dedit hoc petulantia linguę,</l>
                      <l n="l2"> Corue, tibi? Niger es, qui prius albus eras!</l>
-                  </div>
-                  <div n="div13" xml:id="C13">
+                  </div><div met="elegiacum" n="div13" xml:id="C13">
                      <head n="head"> Idem</head>
                      <l n="l1">Nigrior Idea nunc es pice, corue, sed idem</l>
                      <l n="l2"> Sithonia fueras albior ipse niue.</l>
-                  </div>
-                  <div n="div14" xml:id="C14">
+                  </div><div met="elegiacum" n="div14" xml:id="C14">
                      <head n="head"> Cornix</head>
                      <l n="l1">Nata Coroneo spaciatur littora circum:</l>
                      <l n="l2"> Vritur in mediis Ennosigeus aquis.</l>
-                  </div>
-                  <div n="div15" xml:id="C15">
+                  </div><div met="elegiacum" n="div15" xml:id="C15">
                      <head n="head"> Nictimene</head>
                      <l n="l1">Nocte uolare pudor, cogit sat nota libido.</l>
                      <l n="l2"> Nictei fueram filia Nictimene.</l>
-                  </div>
-                  <div n="div16" xml:id="C16">
+                  </div><div met="elegiacum" n="div16" xml:id="C16">
                      <head n="head"> Ochiroe</head>
                      <l n="l1">Ochiroę uati cęssit cortina Sybillę</l>
                      <l n="l2"> Olli certa nimis, sed cecinisse nocet.</l>
-                  </div>
-                  <div n="div17" xml:id="C17">
+                  </div><div met="elegiacum" n="div17" xml:id="C17">
                      <head n="head"> Bathus pastor</head>
                      <l n="l1">Hic lapis est index, sed si Cylenia furta</l>
                      <l n="l2"> Desisset quondam prodere, Bathus erat.</l>
-                  </div>
-                  <div n="div18" xml:id="C18">
+                  </div><div met="elegiacum" n="div18" xml:id="C18">
                      <head n="head"> Aglauros</head>
                      <l n="l1">Aglauros pretio noctem depecta sororis</l>
                      <l n="l2"> Duruit et nullas saxea quęrit opes.</l>
-                  </div>
-                  <div n="div19" xml:id="C19">
+                  </div><div met="elegiacum" n="div19" xml:id="C19">
                      <head n="head"> Cadmus</head>
                      <l n="l1">Cadme, iuuat patria iussis cęssisse paternis</l>
                      <l n="l2"> Nobile Thebeę surgat ut urbis opus.</l>
-                  </div>
-                  <div n="div20" xml:id="C20">
+                  </div><div met="elegiacum" n="div20" xml:id="C20">
                      <head n="head"> Cadmi socii</head>
                      <l n="l1">Mutantur animi: quę fratrum sanguine dextras</l>
                      <l n="l2"> Polluerat, Cadmo gens ea fida fuit.</l>
-                  </div>
-                  <div n="div21" xml:id="C21">
+                  </div><div met="elegiacum" n="div21" xml:id="C21">
                      <head n="head"> Acteon</head>
                      <l n="l1">Heu, quantum uidisse nocet sine ueste Dianam:</l>
                      <l n="l2"> Acteon canibus sum data pręda meis.</l>
-                  </div>
-                  <div n="div22" xml:id="C22">
+                  </div><div met="elegiacum" n="div22" xml:id="C22">
                      <head n="head"> Tyresias</head>
                      <l n="l1">Tyresias quondam sexus expertus utrosque</l>
                      <l n="l2"> Vno eodem fui foemina uirque modo.</l>
-                  </div>
-                  <div n="div23" xml:id="C23">
+                  </div><div met="elegiacum" n="div23" xml:id="C23">
                      <head n="head"> Idem</head>
                      <l n="l1">Cęssit Iuno Ioui me iudice: lumine priuor,</l>
                      <l n="l2"> Sed pro luminibus scire futura datur.</l>
-                  </div>
-                  <div n="div24" xml:id="C24">
+                  </div><div met="elegiacum" n="div24" xml:id="C24">
                      <head n="head"> Echo</head>
                      <l n="l1">Arsit amans Echo Cęphiso flumine natum:</l>
                      <l n="l2"> Nunc agit extremos deficiendo sonos.</l>
-                  </div>
-                  <div n="div25" xml:id="C25">
+                  </div><div met="elegiacum" n="div25" xml:id="C25">
                      <head n="head"> Narcisus</head>
                      <l n="l1">Narcisus liquidis dum se speculatur in undis,</l>
                      <l n="l2"> Nominis in florem uertitur ipse sui.</l>
-                  </div>
-                  <div n="div26" xml:id="C26">
+                  </div><div met="elegiacum" n="div26" xml:id="C26">
                      <head n="head"> Pentheus</head>
                      <l n="l1">Cędunt iura mero: discerpsit Penthea mater</l>
                      <l n="l2"> Ebria nec fratrem nouerat Ino soror.</l>
-                  </div>
-                  <div n="div27" xml:id="C27">
+                  </div><div met="elegiacum" n="div27" xml:id="C27">
                      <head n="head"> Pyramus et Tysbe</head>
                      <l n="l1">Incubuit Tysbe pariter cui Pyramus ensi:</l>
                      <l n="l2"> Causa necis miseris error amorque fuit.</l>
-                  </div>
-                  <div n="div28" xml:id="C28">
+                  </div><div met="elegiacum" n="div28" xml:id="C28">
                      <head n="head"> Leucotoe</head>
                      <l n="l1">Leucotoen miseram pater obruis, Orcame, terra</l>
                      <l n="l2"> Nata sed e terra thurea uirga fuit.</l>
-                  </div>
-                  <div n="div29" xml:id="C29">
+                  </div><div met="elegiacum" n="div29" xml:id="C29">
                      <head n="head"> Clitia, mater Circes</head>
                      <l n="l1">Sol placuit Clitię. Sic nunc quo uertitur ille</l>
                      <l n="l2"> Gaudet helitropium flectere facta caput.</l>
-                  </div>
-                  <div n="div30" xml:id="C30">
+                  </div><div met="elegiacum" n="div30" xml:id="C30">
                      <head n="head"> Daphnis pastor</head>
                      <l n="l1">Quam sit grande nefas pacti iuga soluere lecti,</l>
                      <l n="l2"> Daphnidis Idei saxea fata docent.</l>
-                  </div>
-                  <div n="div31" xml:id="C31">
+                  </div><div met="elegiacum" n="div31" xml:id="C31">
                      <head n="head"> Salmacis et Hermaphroditus</head>
                      <l n="l1">Dum fuit ignotus tibi, Salmacis, Hermaphroditus,</l>
                      <l n="l2"> Simplicis hic sexus Hermaphroditus erat.</l>
-                  </div>
-                  <div n="div32" xml:id="C32">
+                  </div><div met="elegiacum" n="div32" xml:id="C32">
                      <head n="head"> Mineides, Thebanę sorores</head>
                      <l n="l1">Facta est Mineis, dum despicit orgia Bacchi,</l>
                      <l n="l2"> Nec uolucris nec mus, mus tamen et uolucris.</l>
-                  </div>
-                  <div n="div33" xml:id="C33">
+                  </div><div met="elegiacum" n="div33" xml:id="C33">
                      <head n="head"> Ino, uxor Athamantis</head>
                      <l n="l1">Contemptrix Iunonis erat mater Melicertę </l>
                      <l n="l2"> In mare cum nato se furiosa dedit.</l>
-                  </div>
-                  <div n="div34" xml:id="C34">
+                  </div><div met="elegiacum" n="div34" xml:id="C34">
                      <head n="head"> Athamas</head>
                      <l n="l1">Eolides Athamas lustrans indagine siluas</l>
                      <l n="l2"> Confixit natum: credidit esse feram.</l>
-                  </div>
-                  <div n="div35" xml:id="C35">
+                  </div><div met="elegiacum" n="div35" xml:id="C35">
                      <head n="head"> Inoos comites</head>
                      <l n="l1">Inoos comites eadem dum fata sequuntur</l>
                      <l n="l2"> Non eadem accipiunt: hęc natat, hęque uolant.</l>
-                  </div>
-                  <div n="div36" xml:id="C36">
+                  </div><div met="elegiacum" n="div36" xml:id="C36">
                      <head n="head"> Cadmus et Hermione </head>
                      <l n="l1">Cadmus et Hermione deflebant fata nepotum</l>
                      <l n="l2"> Fitque draco pariter Cadmus et Hermione.</l>
-                  </div>
-                  <div n="div37" xml:id="C37">
+                  </div><div met="elegiacum" n="div37" xml:id="C37">
                      <head n="head"> Medusę caput</head>
                      <l n="l1">Gorgonis hoc caput est quod Perseus abstulit harpe.</l>
                      <l n="l2"> Hinc fuge: ni fugias, saxificatus eris.</l>
-                  </div>
-                  <div n="div38" xml:id="C38">
+                  </div><div met="elegiacum" n="div38" xml:id="C38">
                      <head n="head"> Pegasus equus</head>
                      <l n="l1">Pegase, pasce tuo mea disticha fonte! Recusas?</l>
                      <l n="l2"> At saltem lotio, Pegase, pasce tuo!</l>
-                  </div>
-                  <div n="div39" xml:id="C39">
+                  </div><div met="elegiacum" n="div39" xml:id="C39">
                      <head n="head"> Athlas </head>
                      <l n="l1">Athlas Iapetides stellarum torquet Olympum</l>
                      <l n="l2"> Atque deos omnis sustinet unus Athlas.</l>
-                  </div>
-                  <div n="div40" xml:id="C40">
+                  </div><div met="elegiacum" n="div40" xml:id="C40">
                      <head n="head"> Idem</head>
                      <l n="l1">Signifero forsan nunquam premeretur Olympo</l>
                      <l n="l2"> Hospitium Perseo ni uetuisset Athlas.</l>
-                  </div>
-                  <div n="div41" xml:id="C41">
+                  </div><div met="elegiacum" n="div41" xml:id="C41">
                      <head n="head"> Andromeda</head>
                      <l n="l1">Perseus Andromedes fertur pepigisse hymeneos</l>
                      <l n="l2"> Atque hanc ęquoreis eripuisse feris.</l>
-                  </div>
-                  <div n="div42" xml:id="C42">
+                  </div><div met="elegiacum" n="div42" xml:id="C42">
                      <head n="head"> Medusa</head>
                      <l n="l1">Felix si cupidum nunquam fugisset amantem:</l>
                      <l n="l2"> Angue foret nullo cincta Medusa caput.</l>
-                  </div>
-                  <div n="div43" xml:id="C43">
+                  </div><div met="elegiacum" n="div43" xml:id="C43">
                      <head n="head"> Phineus cum Perseo</head>
                      <l n="l1">Phineus Andromedes thalamos dum uendicat armis,</l>
                      <l n="l2"> Protinus oblato Gorgonis ore riget.</l>
-                  </div>
-                  <div n="div44" xml:id="C44">
+                  </div><div met="elegiacum" n="div44" xml:id="C44">
                      <head n="head"> Idem</head>
                      <l n="l1">Sero petis, Phineu, iunctam Cepheida Perseo:</l>
                      <l n="l2"> Hanc prius a monstris eripuisse fuit.</l>
-                  </div>
-                  <div n="div45" xml:id="C45">
+                  </div><div met="elegiacum" n="div45" xml:id="C45">
                      <head n="head"> Polidectes rex</head>
                      <l n="l1">Vt Polidectei riguerunt ilicet artus,</l>
                      <l n="l2"> Hunc modo dum uicta Gorgone uictor adit!</l>
-                  </div>
-                  <div n="div46" xml:id="C46">
+                  </div><div met="elegiacum" n="div46" xml:id="C46">
                      <head n="head"> Pyreneus e turri pręcipitatus</head>
                      <l n="l1">Castalidas uiolare meas fuge, si sapis; his qui</l>
                      <l n="l2"> Struxerat insidias pręcipitando ruit.</l>
-                  </div>
-                  <div n="div47" xml:id="C47">
+                  </div><div met="elegiacum" n="div47" xml:id="C47">
                      <head n="head"> Theseus</head>
                      <l n="l1">Lęthifera ignoto propinabat pocula nato</l>
                      <l n="l2"> Ęgeus: errori crimen inesse solet.</l>
-                  </div>
-                  <div n="div48" xml:id="C48">
+                  </div><div met="elegiacum" n="div48" xml:id="C48">
                      <head n="head"> Chiron</head>
                      <l n="l1">In scopulos Chirona tibi fuge, nauita, uersum:</l>
                      <l n="l2"> Latro fuit nec adhuc non habet ille dolos.</l>
-                  </div>
-                  <div n="div49" xml:id="C49">
+                  </div><div met="elegiacum" n="div49" xml:id="C49">
                      <head n="head"> Arne</head>
                      <l n="l1">Hęc patriam pretio Sithonia uendidit Arne:</l>
                      <l n="l2"> Nunc aurum uolucris facta cupit rapere.</l>
-                  </div>
-                  <div n="div50" xml:id="C50">
+                  </div><div met="elegiacum" n="div50" xml:id="C50">
                      <head n="head"> Mirmidones</head>
                      <l n="l1">Magnum ne paruo natum mirere parente</l>
                      <l n="l2"> Si formica potest ędere Mirmidonas!</l>
-                  </div>
-                  <div n="div51" xml:id="C51">
+                  </div><div met="elegiacum" n="div51" xml:id="C51">
                      <head n="head"> Procris et Cephalus</head>
                      <l n="l1">Ardet amans Aurora, fugit te, Cephale, Procris:</l>
                      <l n="l2"> Sępe solent tales necti ab amante doli.</l>
-                  </div>
-                  <div n="div52" xml:id="C52">
+                  </div><div met="elegiacum" n="div52" xml:id="C52">
                      <head n="head"> Idem</head>
                      <l n="l1">Inuictumque canem cursu certamque sagittam</l>
                      <l n="l2"> Ipsa suo Procris donat habere uiro.</l>
-                  </div>
-                  <div n="div53" xml:id="C53">
+                  </div><div met="elegiacum" n="div53" xml:id="C53">
                      <head n="head"> Cephalus in Procrim</head>
                      <l n="l1">Procri, mihi dederas nunquam fallentia tela</l>
                      <l n="l2"> Hisque cadis. Quid sit fallere, Procri, magis?</l>
-                  </div>
-                  <div n="div54" xml:id="C54">
+                  </div><div met="elegiacum" n="div54" xml:id="C54">
                      <head n="head"> Scylla</head>
                      <l n="l1">Occidit Androgeus, pugnatur. Scylla capilli</l>
                      <l n="l2"> Fata secat, Minos Attica regna capit.</l>
-                  </div>
-                  <div n="div55" xml:id="C55">
+                  </div><div met="elegiacum" n="div55" xml:id="C55">
                      <head n="head"> Scylla</head>
                      <l n="l1">Scylla patrem fugiens fugiebat plumea Cyris.</l>
                      <l n="l2"> Pone sequens natam Nysus alietos erat.</l>
-                  </div>
-                  <div n="div56" xml:id="C56">
+                  </div><div met="elegiacum" n="div56" xml:id="C56">
                      <head n="head"> Labyrintus et Minotaurus</head>
                      <l n="l1">Perplexum Labyrinthus iter, uarius Minotaurus.</l>
                      <l n="l2"> Hoc est Pasiphes, Dedali at illud opus.</l>
-                  </div>
-                  <div n="div57" xml:id="C57">
+                  </div><div met="elegiacum" n="div57" xml:id="C57">
                      <head n="head"> Theseus</head>
                      <l n="l1">Thesea iuuit amor. Quem ni Minois amasset,</l>
                      <l n="l2"> Dedalię fuerat pręda cibusque ferę.</l>
-                  </div>
-                  <div n="div58" xml:id="C58">
+                  </div><div met="elegiacum" n="div58" xml:id="C58">
                      <head n="head"> Icarus</head>
                      <l n="l1">Qui quondam sani spreuit pręcepta parentis,</l>
                      <l n="l2"> Improbus Icarię nomina fecit aquę.</l>
-                  </div>
-                  <div n="div59" xml:id="C59">
+                  </div><div met="elegiacum" n="div59" xml:id="C59">
                      <head n="head"> Perdix</head>
                      <l n="l1">Pręceps aeria Perdix dimittitur arce</l>
                      <l n="l2"> Circinus inuentum serraque cuius erat.</l>
-                  </div>
-                  <div n="div60" xml:id="C60">
+                  </div><div met="elegiacum" n="div60" xml:id="C60">
                      <head n="head"> De Antheo ab Hercule superato</head>
                      <l n="l1">Antheus Herculea sublatus in aera dextra</l>
                      <l n="l2"> Defecit: uictor, si cecidisset, erat.</l>
-                  </div>
-                  <div n="div61" xml:id="C61">
+                  </div><div met="elegiacum" n="div61" xml:id="C61">
                      <head n="head"> De Męra, Proethi filia, a Ioue uitiata et a Diana interfecta</head>
                      <l n="l1">Cinthia, Proethidem quid curuo confodis arcu?</l>
                      <l n="l2"> Parce, satis telum quod tulit illa Iouis!</l>
-                  </div>
-                  <div n="div62" xml:id="C62">
+                  </div><div met="elegiacum" n="div62" xml:id="C62">
                      <head n="head"> Pluto</head>
                      <l n="l1">Dux Herebi Pluton superas peruenit ad auras</l>
                      <l n="l2"> Frugiferęque rapit pignora chara deę.</l>
-                  </div>
-                  <div n="div63" xml:id="C63">
+                  </div><div met="elegiacum" n="div63" xml:id="C63">
                      <head n="head"> De hyrco conquerente se conuersum in utrem</head>
                      <l n="l1">Saturnus barbam, Pan plantas, cornua Bacchus</l>
                      <l n="l2"> Abstulit. Hyrcus eram: nunc ego dicor uter.</l>
                      <l n="l3">Sic tibi dent, lector, mihi dii quę reddere nolunt:</l>
                      <l n="l4"> Ne me despicias, sed miserere mei!</l>
                   </div>
-               </div>
             </body>
          </text>
          <text n="text2">
-            <front n="front">
+            <front n="front" xml:lang="hrv">
                <docTitle n="docTitle">
                   <titlePart n="titlePart" xml:lang="hrv">POPRATNICE UZ KNJIGE I JAVNI NATPISI</titlePart>
                </docTitle>
             </front>
             <body n="body">
-               <div n="div">
-
-                  <div n="div1" xml:id="C64" met="elegiacum">
+               <div n="div1" xml:id="C64" met="elegiacum">
                      <head n="head"> Bibliopola ad lectorem</head>
                      <l n="l1">Quisquis nosse cupis modico collecta libello </l>
                      <l n="l2">Bibliacis quę sunt sparsa uoluminibus, </l>
@@ -560,8 +493,7 @@
                      <l n="l6">Actaque tergemini prodigiosa Dei – </l>
                      <l n="l7">Hortamur paruum parua mercede parato </l>
                      <l n="l8">Hoc quod non paruę est utilitatis opus.</l>
-                  </div>
-                  <div n="div2" xml:id="C65" met="elegiacum" type="poesis-carmen-elegia">
+                  </div><div n="div2" xml:id="C65" met="elegiacum" type="poesis-carmen-elegia">
                      <head n="head"> Carmen de gestis Herculis</head>
                      <l n="l1">Paruulus Alcydes geminos interficit angues </l>
                      <l n="l2">Aggressus tenera dura pericla manu. </l>
@@ -607,15 +539,13 @@
                      <l n="l42">Addideritque malis frena cupidinibus, </l>
                      <l n="l43">Atque iter ad cęlum uera uirtute pararit </l>
                      <l n="l44">Donandus uitę munere perpetuę.</l>
-                  </div>
-                  <div n="div3" xml:id="C66" met="elegiacum">
+                  </div><div n="div3" xml:id="C66" met="elegiacum">
                      <head n="head"> Tetrasticon de Hercule</head>
                      <l n="l1">Quem non euertit uitiorum dira libido, </l>
                      <l n="l2">Fortior hic ipso est Amphitrioniade. </l>
                      <l n="l3">Esse ita cognosces Marci quicunque libellum </l>
                      <l n="l4">Quo magni Alcydę rettulit acta leges.</l>
-                  </div>
-                  <div n="div4" xml:id="C67" met="elegiacum">
+                  </div><div n="div4" xml:id="C67" met="elegiacum">
                      <head n="head"> Ad lectorem</head>
                      <l n="l1">Sęclorum finem paruus tenet iste libellus</l>
                      <l n="l2">Et summi examen iudiciumque Dei </l>
@@ -625,45 +555,37 @@
                      <l n="l6">Iudicis ęterni iussa uerenda sequi. </l>
                      <l n="l7">Ille dabit populo cęlestia regna fideli </l>
                      <l n="l8">Infernisque reos ignibus ille dabit. </l>
-                  </div>
-                  <div n="div5" xml:id="C68" met="elegiacum">
+                  </div><div n="div5" xml:id="C68" met="elegiacum">
                      <head n="head"> Supra portam urbis Tragurinę</head>
                      <l n="l1">Hoc prętoris opus Pizamani conspicis, hospes,</l>
                      <l n="l2"> Dominico si uis noscere nomen erat.</l>
                      <l n="l3">Quęris qualis erat? Celebrarunt laudibus illum</l>
                      <l n="l4"> Cum patribus populus cum populoque patres.</l>
-                  </div>
-                  <div n="div6" xml:id="C69" met="elegiacum">
+                  </div><div n="div6" xml:id="C69" met="elegiacum">
                      <head n="head"> De Sancto Christophoro</head>
                      <l n="l1">Christophorus plusquam cęlum gestauit in armo.</l>
                      <l n="l2"> Cędat Athlas — prisco carmine clarus Athlas!</l>
-                  </div>
-                  <div n="div7" xml:id="C70" met="elegiacum">
+                  </div><div n="div7" xml:id="C70" met="elegiacum">
                      <head n="head"> De Sancto Stephano Protomartyre</head>
                      <l n="l1">Primum pro patria cęlesti uulnera passum,</l>
                      <l n="l2"> Stephane, te dicunt: tu, Protomartir, aue!</l>
-                  </div>
-                  <div n="div8" xml:id="C71" met="elegiacum">
+                  </div><div n="div8" xml:id="C71" met="elegiacum">
                      <head n="head"> De templo S. Domnii olim Ioui dicato</head>
                      <l n="l1">Hęc sunt templa tibi, Domni, data: Iuppiter absit —</l>
                      <l n="l2"> Vanus cum ritu Iuppiter ille suo!</l>
-                  </div>
-                  <div n="div9" xml:id="C72" met="elegiacum">
+                  </div><div n="div9" xml:id="C72" met="elegiacum">
                      <head n="head"> De dracone marmoreo</head>
                      <l n="l1">In magnum latrare, canes, nolite draconem:</l>
                      <l n="l2"> Hic etiam tauros ore uorare potest.</l>
                   </div>
-               </div>
             </body>
          </text>
          <text n="text3">
-            <front n="front">
+            <front n="front" xml:lang="hrv">
                <head n="head" xml:lang="hrv">POHVALNI EPIGRAMI I EPIGRAMSKE POSLANICE</head>
             </front>
             <body n="body">
-               <div n="div">
-
-                  <div n="div1" xml:id="C73" met="elegiacum">
+               <div n="div1" xml:id="C73" met="elegiacum">
                      <head n="head"> Ad Ioannem Asclepianum poetam de eius Ariminea in qua Robertum Ariminensium
                 ducem Latium Achillem appellat</head>
                      <l n="l1">Pyerios cantus Latiumque sonantia plectra</l>
@@ -674,8 +596,7 @@
                      <l n="l6"> Increpuit resonam Cinthius ipse lyram</l>
                      <l n="l7">Et toto plaudente polo, mirantibus astris,</l>
                      <l n="l8"> Victoris cecinit fortia facta Iouis.</l>
-                  </div>
-                  <div n="div2" xml:id="C74" met="elegiacum">
+                  </div><div n="div2" xml:id="C74" met="elegiacum">
                      <head n="head"> Ad Franciscum Sricham saltatriculum</head>
                      <l n="l1">Exercere choros et molli ludere saltu</l>
                      <l n="l2"> Et terram tremulo uix tetigisse gradu</l>
@@ -687,8 +608,7 @@
                      <sp n="sp" who="puellae">
                         <l n="l"> »Hunc docuit lusus nostra Diana suos!«</l>
                      </sp>
-                  </div>
-                  <div n="div3" xml:id="C75" met="elegiacum">
+                  </div><div n="div3" xml:id="C75" met="elegiacum">
                      <head n="head"> 
                         <add n="add">Ad Franciscum Martiniacum</add>
                      </head>
@@ -706,8 +626,7 @@
                      <l n="l12"> Inuideant semper sęcula temporibus, </l>
                      <l n="l13">Ne semper uictam doleat se fama nepotum,</l>
                      <l n="l14"> Te tandem sed auis pręferat et proauis. </l>
-                  </div>
-                  <div n="div4" xml:id="C76">
+                  </div><div n="div4" xml:id="C76">
                      <head n="head"> 
                         <add n="add">Ad Hieronymum Martiniacum</add>
                      </head>
@@ -725,8 +644,7 @@
                      <l n="l12"> Atque per exiguos uelificare lacus; </l>
                      <l n="l13">Sat mihi uester amor, tristes nam temnere possum </l>
                      <l n="l14"> Inuidię uestro tectus amore minas. </l>
-                  </div>
-                  <div n="div5" xml:id="C77">
+                  </div><div n="div5" xml:id="C77">
                      <head n="head"> 
                         <add n="add">Ad Hieronymum Papalem</add>
                      </head>
@@ -744,8 +662,7 @@
                      <l n="l12"> Obruat illa tuum quę tua membra teget. </l>
                      <l n="l13">Id tibi ne ueniat, Musarum cultibus, oro, </l>
                      <l n="l14"> Exerce ingenium nocte dieque tuum. </l>
-                  </div>
-                  <div n="div6" xml:id="C78">
+                  </div><div n="div6" xml:id="C78">
                      <head n="head"> 
                         <add n="add">Ad Nicolaum de Albertis</add>
                      </head>
@@ -761,8 +678,7 @@
                      <l n="l10"> Aonii superes culmina summa iugi.  </l>
                      <l n="l11">O quam magna tibi succedet gloria cum te </l>
                      <l n="l12"> Ętas nostra simul posteriorque leget! </l>
-                  </div>
-                  <div n="div7" xml:id="C79">
+                  </div><div n="div7" xml:id="C79">
                      <head n="head"> 
                         <add n="add">Ad Thomam Chrancum</add>
                      </head>
@@ -784,8 +700,7 @@
                      <l n="l16"> Grandescitque suo planta nouella die, </l>
                      <l n="l17">Quęque humili raras gestabat stipite frondes, </l>
                      <l n="l18"> Iam pandit ramos fertque sub astra caput. </l>
-                  </div>
-                  <div n="div8" xml:id="C80">
+                  </div><div n="div8" xml:id="C80">
                      <head n="head"> Ad Phoebum pro Hannibale iuuene poeticę studioso</head>
                      <l n="l1">Sume lyram lauroque tuos pręcinge capillos</l>
                      <l n="l2"> Et lętus uatem suscipe, Phoebe, nouum.</l>
@@ -797,8 +712,7 @@
                      <l n="l8"> Cantibus accedat proximus ille tuis.</l>
                      <l n="l9">Et qui nunc iuuenum fertur pulcherrimus, idem</l>
                      <l n="l10"> Arte sua iuuenes anteeat atque senes. </l>
-                  </div>
-                  <div n="div9" xml:id="C81">
+                  </div><div n="div9" xml:id="C81">
                      <head n="head"> Ad Caterinum poetam Pharensem</head>
                      <l n="l1">Dulce tuum nobis carmen, Caterine, nimisque</l>
                      <l n="l2"> Dulcia polito uerba soluta sono.</l>
@@ -814,19 +728,16 @@
                      <l n="l12"> Quique simul laudes edat in orbe suas.</l>
                      <l n="l13">Perge alios aliosque refer modulamine cantus</l>
                      <l n="l14"> Et tibi dii faueant Pyeridumque cohors!</l>
-                  </div>
-                  <div n="div10" xml:id="C82" met="hendecasyllabus">
+                  </div><div n="div10" xml:id="C82" met="hendecasyllabus">
                      <head n="head"> De Alberto citharedo</head>
                      <l n="l1">Albertus cithara sonabat ista</l>
                      <l n="l2">Quando illum roseis Diana labris,</l>
                      <l n="l3">Dum fratrem putat, ipsa basiauit.</l>
-                  </div>
-                  <div n="div11" xml:id="C83">
+                  </div><div n="div11" xml:id="C83">
                      <head n="head"> De Marino in cęna dulciter canente</head>
                      <l n="l1">Dulcior ambrosia est cęna hęc et nectare sacro;</l>
                      <l n="l2">Dulcius est cęna carmen cantante Marino.</l>
-                  </div>
-                  <div n="div12" xml:id="C84">
+                  </div><div n="div12" xml:id="C84">
                      <head n="head"> In Hieronymum Papalem, psalocitharistam omnium pręstantissimum</head>
                      <l n="l1">Cantibus Orphei Rhodope lętetur et Hemus,</l>
                      <l n="l2"> Thebe Amphioniam laudet ametque lyram;</l>
@@ -840,8 +751,7 @@
                      <l n="l10"> Nullaque non Phoebi credidit esse sui. </l>
                      <l n="l11">Fama licet saxis alios placuisse ferisque,</l>
                      <l n="l12"> Hic placet his quorum mens animusque sapit.</l>
-                  </div>
-                  <div n="div13" xml:id="C85">
+                  </div><div n="div13" xml:id="C85">
                      <head n="head"> De Diodoro statuario</head>
                      <l n="l1">Perdidit infelix charam Diodorus amicam,</l>
                      <l n="l2"> Quam potuit nullo iam reuocare modo.</l>
@@ -849,8 +759,7 @@
                      <l n="l4"> Quam fuerat similis ipsa puella sibi!</l>
                      <l n="l5">Non poterunt igitur crudelia fata negare </l>
                      <l n="l6"> Hoc, Diodore, tibi: mortua uiuit enim!</l>
-                  </div>
-                  <div n="div14" xml:id="C86">
+                  </div><div n="div14" xml:id="C86">
                      <head n="head"> Ad Triphonem Buchiam</head>
                      <l n="l1">Qualis amor fratrum fuit olim Tyndaridarum,</l>
                      <l n="l2"> Qualis amor Thesei Pirithoique fuit,</l>
@@ -864,8 +773,7 @@
                      <l n="l9">Sum tuus atque tuus, dum pręsens suppetit ętas</l>
                      <l n="l10"> Et dum nostra uigent corpora, semper ero. <note n="note" type="numvers">10</note>
                      </l>
-                  </div>
-                  <div n="div15" xml:id="C87">
+                  </div><div n="div15" xml:id="C87">
                      <head n="head"> Ad Nicolaum sibi carissimum</head>
                      <l n="l1">Si modo tanta foret dicendi copia nobis</l>
                      <l n="l2"> Quantam iudicio dicor habere tuo,</l>
@@ -882,8 +790,7 @@
                      <l n="l12"> Siue colit Nysę qui iuga celsa deus,</l>
                      <l n="l13">Effari, Nicolae, tamen non carmine possem</l>
                      <l n="l14"> Quam mihi sit nostrum dulce sodalicium.</l>
-                  </div>
-                  <div n="div16" xml:id="C88">
+                  </div><div n="div16" xml:id="C88">
                      <head n="head"> Ad Franciscum Natalem</head>
                      <l n="l1">Dum, Francisce, meum tollis super ęthera nomen</l>
                      <l n="l2"> Assiduo cantu carminibusque tuis,</l>
@@ -896,17 +803,14 @@
                      <l n="l9">Hęc ego si taceam, taceant si deniqui cuncti,</l>
                      <l n="l10"> Incipient siluę mutaque saxa loqui. </l>
                   </div>
-               </div>
             </body>
          </text>
          <text n="text4">
-            <front n="front">
+            <front n="front" xml:lang="hrv">
                <head n="head" xml:lang="hrv">PRIGODNI I POLITIČKI EPIGRAMI</head>
             </front>
             <body n="body">
-               <div n="div">
-
-                  <div n="div1" xml:id="C89">
+               <div n="div1" xml:id="C89">
                      <head n="head"> De uirtute animique pręstantia Dominici Manlipetri, Venetę classis pręfecti,
                 cum Pisas obsedione liberauit iuuitque frumento</head>
                      <l n="l1">Pisa, Fluentinę quę multo tempore genti</l>
@@ -928,8 +832,7 @@
                      <l n="l16"> O, pietas nullo non recolenda die!</l>
                      <l n="l17">Huic geminum debes (nec fallor), Pisa, triumphum:</l>
                      <l n="l18"> Hostem a te pariter qui fugat atque famem!</l>
-                  </div>
-                  <div n="div2" xml:id="C90">
+                  </div><div n="div2" xml:id="C90">
                      <head n="head"> Autor et Cęsar</head>
                      <sp n="sp1">
                         <speaker n="speaker">Autor:</speaker>
@@ -977,8 +880,7 @@
                         <l n="l1" part="F"> Munera pacis </l>
                         <l n="l2">Da; uitas nisi des, oppida, crede, dabis. </l>
                      </sp>
-                  </div>
-                  <div n="div3" xml:id="C91">
+                  </div><div n="div3" xml:id="C91">
                      <head n="head"> De Leone X. Pontifice Maximo Florentino de Medicum familia</head>
                      <l n="l1">Ipse Deus Medicem clarum pietate fideque</l>
                      <l n="l2"> Ecclesię iussit totius esse caput</l>
@@ -991,8 +893,7 @@
                      </sp>
                      <l n="l4">Gaude igitur, Medices, tibi conuenit ampla potestas:</l>
                      <l n="l5"> Conuenit et meritis nomen utrumque tuis.</l>
-                  </div>
-                  <div n="div4" xml:id="C92">
+                  </div><div n="div4" xml:id="C92">
                      <head n="head"> In Medicem Leonem X. Pontificem Maximum</head>
                      <l n="l1">Ducere securas ad pascua lęta capellas </l>
                      <l n="l2">Pastoris cura est officiumque pii; </l>
@@ -1006,8 +907,7 @@
                      <l n="l10">Et mens non belli, sed studiosa togę. </l>
                      <l n="l11">Ergo Italo Mauors quę uulnera contulit orbi </l>
                      <l n="l12">Sanabit Medici cura benigna patris. </l>
-                  </div>
-                  <div n="div5" xml:id="C93">
+                  </div><div n="div5" xml:id="C93">
                      <head n="head"> Pro sanctissimo patre Leone X. Pontifice Maximo oratio</head>
                      <l n="l1">Pontifici da, Christe, tuo quę posco Leoni:</l>
                      <l n="l2"> Apta illi et populis commoda posco tuis.</l>
@@ -1028,8 +928,7 @@
                      <l n="l15">Est commune bonum quicquid conceditur uni: <note n="note" type="numvers">15</note>
                      </l>
                      <l n="l16"> Omnes membra sumus, omnibus ille caput.</l>
-                  </div>
-                  <div n="div6" xml:id="C94">
+                  </div><div n="div6" xml:id="C94">
                      <head n="head"> Pro Adriano VI. Pontifice Maximo ad Christum oratio </head>
                      <l n="l1">Pontifici da, Christe, tuo quę posco Adriano:</l>
                      <l n="l2"> Apta illi et populis commoda posco tuis.</l>
@@ -1049,8 +948,7 @@
                      <l n="l15">Est commune bonum quicquid concesseris uni: <note n="note" type="numvers">15</note>
                      </l>
                      <l n="l16"> Omnes membra sumus, omnibus ille caput.</l>
-                  </div>
-                  <div n="div7" xml:id="C95">
+                  </div><div n="div7" xml:id="C95">
                      <head n="head"> De Gallis et Hispanis inter se bellantibus</head>
                      <l n="l1">Inter sese odiis nimio furore calentes</l>
                      <l n="l2"> Gallus et Hispanus bella cruenta gerunt.</l>
@@ -1064,8 +962,7 @@
                      <l n="l10"> Occurrant: nullam res petit ista moram. </l>
                      <l n="l11">Ille etenim reliquas properat disperdere gentes,</l>
                      <l n="l12"> Vnus qui mundi plurima regna tenet.</l>
-                  </div>
-                  <div n="div8" xml:id="C96">
+                  </div><div n="div8" xml:id="C96">
                      <head n="head"> In discordiam principum Christianorum</head>
                      <l n="l1">Mus et rana lacu medio dum pręlia miscent,</l>
                      <l n="l2"> Alter in alterius damna suprema furens,</l>
@@ -1079,8 +976,7 @@
                      <l n="l10"> Nostra ferens auras dissipet in tenues! </l>
                      <l n="l11">Sed nisi discordes iungat commune periclum,</l>
                      <l n="l12"> Phoebea fient uera magis tripode!</l>
-                  </div>
-                  <div n="div9" xml:id="C97">
+                  </div><div n="div9" xml:id="C97">
                      <head n="head"> Domino Ioanni Baptistę de Molino Spalati prętori bene merito</head>
                      <l n="l1">Qui Christum profudit aqua Baptista uocatur</l>
                      <l n="l2"> Atque eadem noster nomina prętor habet.</l>
@@ -1090,8 +986,7 @@
                      <l n="l6"> Consortem cęli participemque fore.</l>
                      <l n="l7">Tale bonum capiet, cum terram liquerit olim,</l>
                      <l n="l8"> Sed iuuat et terras ut colat ipse diu.</l>
-                  </div>
-                  <div n="div10" xml:id="C98">
+                  </div><div n="div10" xml:id="C98">
                      <head n="head"> Ad inclytum uirum Andream Grittum Venetorum principem bene meritum nuperrime
                 creatum</head>
                      <l n="l1">Placatis animis et uerso numina fato</l>
@@ -1104,8 +999,7 @@
                      <l n="l8"> Cęsar es officiis Attiliusque fide.</l>
                      <l n="l9">Iam sperare licet, quod non sperauimus ante,</l>
                      <l n="l10"> Principe sub tali prospera cuncta fore. </l>
-                  </div>
-                  <div n="div11" xml:id="C99">
+                  </div><div n="div11" xml:id="C99">
                      <head n="head"> In laudem eiusdem</head>
                      <l n="l1">Si qua fides uatum, formosus Parthenopeius,</l>
                      <l n="l2"> Prouidus ingenio dux Itacensis erat.</l>
@@ -1123,8 +1017,7 @@
                      <l n="l14"> Cunctorum uotis consilioque patrum.</l>
                      <l n="l15">Quis non iam tandem speret sub principe tali </l>
                      <l n="l16"> Stamine Parcarum prosperiore frui?</l>
-                  </div>
-                  <div n="div12" xml:id="C100">
+                  </div><div n="div12" xml:id="C100">
                      <head n="head"> Quod omnia prospera sperare liceat Andrea Gritto Venetorum principe</head>
                      <l n="l1">Spirabit faciles Venetis pater Eolus auras</l>
                      <l n="l2"> Neptunusque fauens ęquora tuta dabit;</l>
@@ -1138,8 +1031,7 @@
                      <l n="l10"> Et rata, quę fieri uiderit, esse uolet. </l>
                      <l n="l11">Nil non sperandum est Andrea principe Gritto,</l>
                      <l n="l12"> Omnes quem pariter diique hominesque colunt.</l>
-                  </div>
-                  <div n="div13" xml:id="C101">
+                  </div><div n="div13" xml:id="C101">
                      <head n="head"> Ad Clementem VII. Pontificem Maximum</head>
                      <l n="l1">Pontifices magnos modico discrimine binos</l>
                      <l n="l2"> Ex una excitos uidimus esse domo.</l>
@@ -1177,17 +1069,14 @@
                      <l n="l31">Vnanimes Deus ipse iuuat, discordibus obstat,</l>
                      <l n="l32"> Nec nisi pacatis prosperitate fauet.</l>
                   </div>
-               </div>
             </body>
          </text>
          <text n="text5">
-            <front n="front">
+            <front n="front" xml:lang="hrv">
                <head n="head" xml:lang="hrv">SATIRIČNI I EROTSKI EPIGRAMI</head>
             </front>
             <body n="body">
-               <div n="div">
-
-                  <div n="div1" xml:id="C102">
+               <div n="div1" xml:id="C102">
                      <head n="head"> In Pamphagum malum poetam</head>
                      <l n="l1">Allia cenarat cupiens cum pangere uersus</l>
                      <l n="l2"> Pamphagus Aonias iussit adesse deas.</l>
@@ -1197,18 +1086,15 @@
                      <l n="l6"> Sed neque sic pranso Pieris ulla fauet.</l>
                      <l n="l7">Mitte aliis igitur condendi carmina curam:</l>
                      <l n="l8"> Tu tantum uentrem, Pamphage, pasce tuum!</l>
-                  </div>
-                  <div n="div2">
+                  </div><div n="div2">
                      <head n="head">103. In Iacobum Iacotinum malum poetam</head>
                      <l n="l1">Magni inter uates quando Iacotinus habetur,</l>
                      <l n="l2"> Magni inter numos et bagatinus erit.</l>
-                  </div>
-                  <div n="div3" xml:id="C104">
+                  </div><div n="div3" xml:id="C104">
                      <head n="head"> In eundem</head>
                      <l n="l1">Causidicus, rhetor, uates uis, Iacobe, dici?</l>
                      <l n="l2"> Hac ratione, puto, qua sine prole pater.</l>
-                  </div>
-                  <div n="div4" xml:id="C105">
+                  </div><div n="div4" xml:id="C105">
                      <head n="head"> In Iacobum</head>
                      <l n="l1">Quid Phoebum Musasque uocas Heliconis ab antro</l>
                      <l n="l2"> Pyerium quotiens scribere sumis opus?</l>
@@ -1218,25 +1104,21 @@
                      <l n="l6"> Bellorophonteos plus pia turba colit.</l>
                      <l n="l7">At tu Vulcanum pete Neptunumque madentem</l>
                      <l n="l8"> O, Iacobe, modis numina digna tuis!</l>
-                  </div>
-                  <div n="div5" xml:id="C106">
+                  </div><div n="div5" xml:id="C106">
                      <head n="head"> In Iacotinum pessimum poetam</head>
                      <l n="l1">Quod rudunt, quod olent Iacotini carmina uatis</l>
                      <l n="l2"> Et quod desipiunt, quęritis unde uenit?</l>
                      <l n="l3">Pro Baccho caprum, pro Phoebo stultus asellum,</l>
                      <l n="l4"> Mentem pro Musis inuocat ille Malam.</l>
-                  </div>
-                  <div n="div6" xml:id="C107">
+                  </div><div n="div6" xml:id="C107">
                      <head n="head"> In criticum suorum scriptorum</head>
                      <l n="l1">Cur mea scripta notant multi, tua, critice, nemo?</l>
                      <l n="l2"> Hunc qui nil scribit, critice, nemo notat.</l>
-                  </div>
-                  <div n="div7" xml:id="C108">
+                  </div><div n="div7" xml:id="C108">
                      <head n="head"> De Ila seruo patre nata</head>
                      <l n="l1">Ęthiopes cignos, nanos uocat Ila Cyclopas.</l>
                      <l n="l2"> Non miror dominum si uocet illa patrem.</l>
-                  </div>
-                  <div n="div8" xml:id="C109">
+                  </div><div n="div8" xml:id="C109">
                      <head n="head"> In Polyphemum </head>
                      <l n="l1">Cum specto medio uersantem forte macello,</l>
                      <l n="l2"> Esse quidem lanium te, Polipheme, puto.</l>
@@ -1246,18 +1128,15 @@
                      <l n="l6"> Te de lenonum suspicor esse grege.</l>
                      <l n="l7">Ne tam multa, rogo, cures, Polypheme, sed unum,</l>
                      <l n="l8"> Vt tandem qua sis pręditus arte sciam.</l>
-                  </div>
-                  <div n="div9" xml:id="C110">
+                  </div><div n="div9" xml:id="C110">
                      <head n="head"> Ad Bassum pedibus debilem</head>
                      <l n="l1">Aeripedem ceruam posses pręuertere cursu,</l>
                      <l n="l2"> Sed te loripedem, Basse, podagra facit.</l>
-                  </div>
-                  <div n="div10" xml:id="C111">
+                  </div><div n="div10" xml:id="C111">
                      <head n="head"> Ad eundem</head>
                      <l n="l1">Mille facis passus et passum non facis unum.</l>
                      <l n="l2"> Basse, podagrosos res notat ista pedes.</l>
-                  </div>
-                  <div n="div11" xml:id="C112">
+                  </div><div n="div11" xml:id="C112">
                      <head n="head"> Ad eundem</head>
                      <l n="l1">Tardigradum ne te pigeat, mi Basse! Memento</l>
                      <l n="l2"> Festinos homines casibus expositos</l>
@@ -1265,8 +1144,7 @@
                      <l n="l4"> Et tardos firmis passibus ire boues.</l>
                      <l n="l5">Ne cures igitur lentis te insistere plantis: </l>
                      <l n="l6"> Non ruere in terram sit tibi, Basse, satis!</l>
-                  </div>
-                  <div n="div12" xml:id="C113">
+                  </div><div n="div12" xml:id="C113">
                      <head n="head"> In Sabellum, Marci Maruli detractorem</head>
                      <l n="l1">Longa, Sabelle, tuo dependet stiria naso:</l>
                      <l n="l2"> Non possum nasum ferre, Sabelle, tuum!</l>
@@ -1274,15 +1152,13 @@
                      <l n="l4"> Non possum linguam ferre, Sabelle, tuam!</l>
                      <l n="l5">Emunctę naris sanusque, Sabelle, palato </l>
                      <l n="l6"> Cum fueris, superis sacrificabo deis.</l>
-                  </div>
-                  <div n="div13" xml:id="C114">
+                  </div><div n="div13" xml:id="C114">
                      <head n="head"> Ad Bartholum Illyricum</head>
                      <l n="l1">Gallica te uestis designat, Barthole, Gallum;</l>
                      <l n="l2"> Lingua sed Illyricum te genus esse docet.</l>
                      <l n="l3">Elinguis fias posthac et mutus oportet</l>
                      <l n="l4"> Hunc te, qui non es, Barthole, ut esse putem.</l>
-                  </div>
-                  <div n="div14" xml:id="C115" met="hendecasyllabus">
+                  </div><div n="div14" xml:id="C115" met="hendecasyllabus">
                      <head n="head"> De Bartholo comato</head>
                      <l n="l1">Lętare, o modo sępe qui rogabas</l>
                      <l n="l2">Tot numos tibi quot gerit capillos</l>
@@ -1293,56 +1169,47 @@
                      <l n="l7">Et quot syderibus refulget ęther.</l>
                      <l n="l8">Ridebunt faciles dabuntque diui —</l>
                      <l n="l9">Sed caluum facient prius comatum.</l>
-                  </div>
-                  <div n="div15" xml:id="C116">
+                  </div><div n="div15" xml:id="C116">
                      <head n="head"> Ad Bartholum lusorem</head>
                      <l n="l1">Quolibet in ludo scis quare, Barthole, perdis?</l>
                      <l n="l2"> Hoc te quod nescis, Barthole, scire putas.</l>
-                  </div>
-                  <div n="div16" xml:id="C117">
+                  </div><div n="div16" xml:id="C117">
                      <head n="head"> In patronum supra causę ęstimationem a clientulo petentem</head>
                      <l n="l1">Lis mihi cum Crasso est, debes mihi plurima, Crasse,</l>
                      <l n="l2"> Sed plus patronus me petit inde meus.</l>
                      <l n="l3">Ne plus persoluam quam te modo postulo, Crasse,</l>
                      <l n="l4"> Ęs mihi quod debes omne remitto tibi.</l>
-                  </div>
-                  <div n="div17" xml:id="C118">
+                  </div><div n="div17" xml:id="C118">
                      <head n="head"> In bibulum Crassum</head>
                      <l n="l1">Vincis Fabricios, uincis grauitate Catones</l>
                      <l n="l2"> Dum te metiris, bibule, lance tua.</l>
                      <l n="l3">At quia metimur mores, non pondera suci,</l>
                      <l n="l4"> Non minus aut plumis es leuis, aut stipulis.</l>
-                  </div>
-                  <div n="div18" xml:id="C119">
+                  </div><div n="div18" xml:id="C119">
                      <head n="head"> Ad Crassum diuitem</head>
                      <l n="l1">Sępe solet »Longum ualeas« mihi dicere Crassus</l>
                      <l n="l2"> Atque »O, Nestoreos uiuito, Marce, dies!«</l>
                      <l n="l3">Vt ualeam longum, tria da mihi sęcula, Crasse,</l>
                      <l n="l4"> Aurum, ęs, argentum: sic ego Nestor ero!</l>
-                  </div>
-                  <div n="div19" xml:id="C120">
+                  </div><div n="div19" xml:id="C120">
                      <head n="head"> In Marinellium uesanum equitem</head>
                      <l n="l1">Ibat uectus equo solus Marinellius uno.</l>
                      <l n="l2"> Vnus equus, uerum est: bruta fuere duo.</l>
-                  </div>
-                  <div n="div20" xml:id="C121">
+                  </div><div n="div20" xml:id="C121">
                      <head n="head"> Ad Helyam Babalum implagatum</head>
                      <l n="l1">Est plaga multa tibi diffusi, Babale, campi,</l>
                      <l n="l2"> Sed tua, dic, quare non tibi plaga placet?</l>
-                  </div>
-                  <div n="div21" xml:id="C122">
+                  </div><div n="div21" xml:id="C122">
                      <head n="head"> In Antulum bibacem et loquacem</head>
                      <l n="l1">Felix, si prisco uixisses, Antule, sęclo:</l>
                      <l n="l2"> Nam Baccho maior Mercurioque fores.</l>
                      <l n="l3">Deditus iste deus fando est atque ille bibendo,</l>
                      <l n="l4"> Sed tu plus illis et bibis et loqueris.</l>
-                  </div>
-                  <div n="div22" xml:id="C123">
+                  </div><div n="div22" xml:id="C123">
                      <head n="head"> In Dominum Bartholomeum Aueroldum, episcopum Spalatensem</head>
                      <l n="l1">Aspice dissimiles quam sint duo Bartholomei:</l>
                      <l n="l2"> Hic pellem Christo sustulit, ille dedit.</l>
-                  </div>
-                  <div n="div23" xml:id="C124" met="hendecasyllabus">
+                  </div><div n="div23" xml:id="C124" met="hendecasyllabus">
                      <head n="head"> In pręsens sęculum</head>
                      <l n="l1">Olim Luciliusque Horatiusque,</l>
                      <l n="l2">Olim Petroniusque Persiusque,</l>
@@ -1350,8 +1217,7 @@
                      <l n="l4">Noxas carminibus grauis notarunt.</l>
                      <l n="l5">At si uiueret ille nunc uel ille, </l>
                      <l n="l6">Nulla esset satyris satis papyrus.</l>
-                  </div>
-                  <div n="div24" xml:id="C125">
+                  </div><div n="div24" xml:id="C125">
                      <head n="head"> De Myrca puella</head>
                      <l n="l1">Cędite Cyrrheo nascentes uertice lauri</l>
                      <l n="l2"> Atque corimbiferę cędite uos hederę;</l>
@@ -1365,8 +1231,7 @@
                      <l n="l10"> Et recinet dulci nostra Thalia sono, </l>
                      <l n="l11">Illa mihi ęstiui donabit temporis umbram:</l>
                      <l n="l12"> Pro tali pretium munere carmen erit.</l>
-                  </div>
-                  <div n="div25" xml:id="C126" met="Sapphicum">
+                  </div><div n="div25" xml:id="C126" met="Sapphicum">
                      <head n="head"> Ad Musas in amore supplicatio</head>
                      <l n="l1">Iam manu curuos puer acer arcus</l>
                      <l n="l2">Contrahens totam uacuat pharetram</l>
@@ -1388,13 +1253,11 @@
                      <l n="l18">Mi »uale« moestas iterando uoces</l>
                      <l n="l19">Siue desertis Heliconis undis</l>
                      <l n="l20"> Ferte leuamen! </l>
-                  </div>
-                  <div n="div26" xml:id="C127">
+                  </div><div n="div26" xml:id="C127">
                      <head n="head"> In amatorem Lucretię habitantis turrim</head>
                      <l n="l1">Sydereas habitat fortis Lucretia turres.</l>
                      <l n="l2"> Mollis Tarquinius irrita uota facit.</l>
-                  </div>
-                  <div n="div27" xml:id="C128">
+                  </div><div n="div27" xml:id="C128">
                      <head n="head"> In eadem eam auro et donis corrumpi posse</head>
                      <l n="l1">Auriferos indute ueni, rex Iuppiter, imbres:</l>
                      <l n="l2"> Inclusam Danaem ferrea turris habet.</l>
@@ -1403,8 +1266,7 @@
                      <l n="l5">Aurum Sauromatas, Parthos, Tracesque Getasque <note n="note" type="numvers">5</note>
                      </l>
                      <l n="l6"> Perdomuit populos, oppida, castra, duces.</l>
-                  </div>
-                  <div n="div28" xml:id="C129">
+                  </div><div n="div28" xml:id="C129">
                      <head n="head"> In Marcum Suitarizam uxori odiosum</head>
                      <l n="l1">Quęris cur coniunx, quę te dilexerat olim,</l>
                      <l n="l2"> Nunc fugit et duris litibus exagitat?</l>
@@ -1415,8 +1277,7 @@
                      <l n="l6"> Ętas longa quibus languida membra facit.</l>
                      <l n="l7">Vis tu pace frui, cum sit tibi candida barba,</l>
                      <l n="l8"> I procul atque alio uiuere disce loco!</l>
-                  </div>
-                  <div n="div29" xml:id="C130">
+                  </div><div n="div29" xml:id="C130">
                      <head n="head"> In Thomam tenuiori ueste hyeme utentem</head>
                      <l n="l1">Dum desęuit hyems, tritis sudare lacernis</l>
                      <l n="l2"> Admiror medio teque tepere gelu,</l>
@@ -1424,8 +1285,7 @@
                      <l n="l4"> Tunc te, Thoma, tuas sumere gausapinas.</l>
                      <l n="l5">Te, puto, cogit amor diuersa uiuere lege: </l>
                      <l n="l6"> Vreris hyberno, sole tepente tremis!</l>
-                  </div>
-                  <div n="div30" xml:id="C131">
+                  </div><div n="div30" xml:id="C131">
                      <head n="head"> In Peschium ebrium</head>
                      <l n="l1">Peschius in nostram turba spectante puellam</l>
                      <l n="l2"> Reiecit multo membra soluta mero</l>
@@ -1433,18 +1293,15 @@
                      <l n="l4"> Coepit et insana lactea colla manu.</l>
                      <l n="l5">Me miserum! Fecit quod me fecisse iuuaret. </l>
                      <l n="l6"> Si licet hoc Baccho, parue Cupido, uale!</l>
-                  </div>
-                  <div n="div31" xml:id="C132">
+                  </div><div n="div31" xml:id="C132">
                      <head n="head"> Ad Paulum de Franco moecho</head>
                      <l n="l1">Si potes uxorem Franco seruare furente</l>
                      <l n="l2"> Non Argus sed tu, Paule, tetrargus eris.</l>
-                  </div>
-                  <div n="div32" xml:id="C133">
+                  </div><div n="div32" xml:id="C133">
                      <head n="head"> In Margaritam meretricem</head>
                      <l n="l1">Margarita suos sine certo coniuge natos</l>
                      <l n="l2"> Edit: Lucinam, non Hymenea colit.</l>
-                  </div>
-                  <div n="div33" xml:id="C134">
+                  </div><div n="div33" xml:id="C134">
                      <head n="head"> De Chichia amasio Dianę</head>
                      <l n="l1">Ardet formosam deformis Chichia Dianam;</l>
                      <l n="l2"> Spernit deformem pulchra Diana uirum.</l>
@@ -1452,8 +1309,7 @@
                      <l n="l4"> Fiat, deformis uel sit ut illa iube.</l>
                      <l n="l5">Spernere deformem deformis desinet ille </l>
                      <l n="l6"> Atque eadem pulchrum pulchra Diana colet.</l>
-                  </div>
-                  <div n="div34" xml:id="C135">
+                  </div><div n="div34" xml:id="C135">
                      <head n="head"> Ad Priapum</head>
                      <l n="l1">Dic quibus in terris habites, lasciue Priape,</l>
                      <l n="l2"> Hortos te quoniam deseruisse ferunt.</l>
@@ -1462,17 +1318,14 @@
                         <l n="l2"> Hic patet in media nunc mihi ualle domus.«</l>
                      </sp>
                   </div>
-               </div>
             </body>
          </text>
          <text n="text6">
-            <front n="front">
+            <front n="front" xml:lang="hrv">
                <head n="head" xml:lang="hrv">MORALISTIČKI EPIGRAMI</head>
             </front>
             <body n="body">
-               <div n="div">
-
-                  <div n="div1" xml:id="C136">
+               <div n="div1" xml:id="C136">
                      <head n="head"> Ad Symonem fratrem ut a talorum ludo abstineat</head>
                      <l n="l1">Talorum uetitum tandem fuge, Symone, ludum:</l>
                      <l n="l2"> Dedecet ingenuos, dedecet iste iocus.</l>
@@ -1480,8 +1333,7 @@
                      <l n="l4"> Fallacique dolum composuisse manu.«</l>
                      <l n="l5">Id fateor, sed tu meliorem quęrito lucrum: </l>
                      <l n="l6"> Lucri habuit semper fama pudica satis.</l>
-                  </div>
-                  <div n="div2" xml:id="C137">
+                  </div><div n="div2" xml:id="C137">
                      <head n="head"> In Fortunam de annulo amisso</head>
                      <l n="l1">Iam, peior Fortuna, meo ditarier ęre</l>
                      <l n="l2"> Credis? Nec laudi consulis ipsa tuę?</l>
@@ -1492,8 +1344,7 @@
                      <sp n="sp" who="turba">
                         <l n="l"> »Non erat hęc uerę pręda petenda deę!«</l>
                      </sp>
-                  </div>
-                  <div n="div3" xml:id="C138">
+                  </div><div n="div3" xml:id="C138">
                      <head n="head"> In Periclem bona corporis sui iactantem</head>
                      <l n="l1">Attollit nimium te gloria uana, Pericles,</l>
                      <l n="l2"> Quod celeri excurris plana per arua pede,</l>
@@ -1507,8 +1358,7 @@
                      <l n="l10"> Naribus agnoscunt quo fera torsit iter. </l>
                      <l n="l11">Quid te igitur magnum censes, insane Pericles,</l>
                      <l n="l12"> Gloria quum pecudum non sit habenda minor?</l>
-                  </div>
-                  <div n="div4" xml:id="C139">
+                  </div><div n="div4" xml:id="C139">
                      <head n="head"> De duabus uiis, uitii altera, altera uirtutis</head>
                      <l n="l1">Lata patensque uia est, prono quę tramite ducit</l>
                      <l n="l2"> Ad Phlegetontei stagna profunda lacus.</l>
@@ -1529,20 +1379,17 @@
                      <l n="l16"> Atque capi latę fraude cauete uię,</l>
                      <l n="l17">Qui cupitis terris cęlestia regna relictis</l>
                      <l n="l18"> Scandere et ęterni pręmia ferre boni.</l>
-                  </div>
-                  <div n="div5" xml:id="C140">
+                  </div><div n="div5" xml:id="C140">
                      <head n="head"> Ad nobiles Spalatenses</head>
                      <l n="l1">Cogite concilium, summę consulite rerum </l>
                      <l n="l2">Ordine, lege, ęquo, simplicitate, fide. </l>
                      <l n="l3">Non amor aut odium, mentes non occupet ira: </l>
                      <l n="l4">Libera sint uobis publica consilia.</l>
-                  </div>
-                  <div n="div6" xml:id="C141">
+                  </div><div n="div6" xml:id="C141">
                      <head n="head"> Ad sacerdotes</head>
                      <l n="l1">Templa male exornant argentum, uestis et aurum: </l>
                      <l n="l2">Casta, sacerdotes, corda dicate Deo.</l>
-                  </div>
-                  <div n="div7" xml:id="C142">
+                  </div><div n="div7" xml:id="C142">
                      <head n="head"> Causidicus uersibus rectis bonus, retrogradis malus</head>
                      <l n="l1">Pax bona, non mala lis, probitas non conscia fraudis,</l>
                      <l n="l2"> Questio quas pręstat, da mihi diuitias.</l>
@@ -1568,8 +1415,7 @@
                      <l n="l12">
                         <emph n="emph"> Conscia non probitas, lis mala, non bona pax.</emph>
                      </l>
-                  </div>
-                  <div n="div8" xml:id="C143">
+                  </div><div n="div8" xml:id="C143">
                      <head n="head"> Versus in directum stoici, in transuersum Epicurei </head>
                      <l n="l1">Dilige uirtutes damnato turpia sperne</l>
                      <l n="l2">Delicias omnes nomen seruato pudicum</l>
@@ -1577,8 +1423,7 @@
                      <l n="l4">Mollia uitato conuiuia temne nepotum</l>
                      <l n="l5">Quęre labores posce Catonum commonefacta <note n="note" type="numvers">5</note>
                      </l>
-                  </div>
-                  <div n="div9" xml:id="C144">
+                  </div><div n="div9" xml:id="C144">
                      <head n="head"> De lupo a rustico interempto</head>
                      <l n="l1">Frangebat teneros perduris dentibus agnos</l>
                      <l n="l2"> Bellua lanigero perniciosa gregi.</l>
@@ -1588,8 +1433,7 @@
                      <l n="l6"> Sanguine nunc moriens exaturare tuo!«</l>
                      <l n="l7">O utinam parili pendant examine poenas,</l>
                      <l n="l8"> Quoscunque impietas sęuitięque iuuant!</l>
-                  </div>
-                  <div n="div10" xml:id="C145">
+                  </div><div n="div10" xml:id="C145">
                      <head n="head"> De morte</head>
                      <l n="l1">Illa ego terribilis Mors cum discrimine nullo </l>
                      <l n="l2">Falce meto iuuenes et meto falce senes, </l>
@@ -1597,8 +1441,7 @@
                      <l n="l4">Diues inopsque mea concidit ecce manu. </l>
                      <l n="l5">Sola potest nostras uires contemnere uirtus, </l>
                      <l n="l6">Viuere quę ęterno tempore sola potest.</l>
-                  </div>
-                  <div n="div11" xml:id="C146" met="archilochicum-secundum">
+                  </div><div n="div11" xml:id="C146" met="archilochicum-secundum">
                      <head n="head"> In Fortunam</head>
                      <l n="l1">Fallaci Fortuna manu dat et eripit omnem</l>
                      <l n="l2"> Remque statumque simul.</l>
@@ -1607,8 +1450,7 @@
                      <l n="l5">Indulget nunquam nec seruo dira nec ulli </l>
                      <l n="l6"> Simpliciter domino.</l>
                      <l n="l7">NADGROBNI EPIGRAMI</l>
-                  </div>
-                  <div n="div12" xml:id="C147">
+                  </div><div n="div12" xml:id="C147">
                      <head n="head"> 
                         <add n="add">Epitaphium Georgii et Perinę</add>
                      </head>
@@ -1618,8 +1460,7 @@
                      <l n="l4">Hic demum nimio victa dolore iacet. </l>
                      <l n="l5">Hęc quicunque legis, sęuę maledicito dextrę </l>
                      <l n="l6">Una quę fecit cęde perire duos. </l>
-                  </div>
-                  <div n="div13" xml:id="C148">
+                  </div><div n="div13" xml:id="C148">
                      <head n="head"> 
                         <add n="add">Epitaphium Christophori Nigri</add>
                      </head>
@@ -1634,8 +1475,7 @@
                         <add n="add">Christus:</add> Non iacet hic igitur, sed me mea sydera supra <note n="note" type="numvers">5</note>
                      </l>
                      <l n="l6"> Nunc quoque cum fertur mortuus esse colit. </l>
-                  </div>
-                  <div n="div14" xml:id="C149">
+                  </div><div n="div14" xml:id="C149">
                      <head n="head"> 
                         <add n="add">Epitaphium Symonis Selymbrii</add>
                      </head>
@@ -1645,8 +1485,7 @@
                      <l n="l4"> Frigida nunc lachrymis irrigat ossa suis. </l>
                      <l n="l5">Nam mage maturum uitam si ferret in ęuum, </l>
                      <l n="l6"> Vatibus antiquis annumerandus erat. </l>
-                  </div>
-                  <div n="div15" xml:id="C150">
+                  </div><div n="div15" xml:id="C150">
                      <head n="head"> 
                         <add n="add">Epitaphium Xarci Draxoeuii</add>
                      </head>
@@ -1658,8 +1497,7 @@
                      <l n="l6"> Pectora, quam turpi uertere terga fuga. </l>
                      <l n="l7">Quod licet antiquę sint tradita membra parenti, </l>
                      <l n="l8"> At tamen illius fama perennis erit. </l>
-                  </div>
-                  <div n="div16" xml:id="C150a" met="hendecasyllabus">
+                  </div><div n="div16" xml:id="C150a" met="hendecasyllabus">
                      <head n="head">Aliud eiusdem</head>
                      <l n="l1">Hic Xarcus iacet ille qui solebat</l>
                      <l n="l2">Ingentes minima manu cohortes</l>
@@ -1667,8 +1505,7 @@
                      <l n="l4">Quiuit non alio perire fato</l>
                      <l n="l5">Hostis quam ualida phalange et astu.</l>
                      <note n="note" resp="NJ">Primum edidit <bibl n="bibl">B. Lučin, "Nepoznati Marulićev epigram u ostavštini don Mate Ivčevića", Poslanje filologa: zbornik radova povodom 70. rođendana Mirka Tomasovića, Zagreb: Sveučilište u Zagrebu, Filozofski fakultet, Odsjek za komparativnu književnost, FF-press, 2008, p. 259</bibl>.</note>
-                  </div>
-                  <div n="div17" xml:id="C151" met="hendecasyllabus">
+                  </div><div n="div17" xml:id="C151" met="hendecasyllabus">
                      <head n="head"> Epitaphium Stephani Capogrosso</head>
                      <l n="l1">Diues Stephanus et pecuniosus</l>
                      <l n="l2">Olim qui fuerat, loco sepultus</l>
@@ -1678,8 +1515,7 @@
                      <l n="l6">Argentum tibi comparare et aurum,</l>
                      <l n="l7">Mox nudus gelida tegendus urna</l>
                      <l n="l8">Et iam iam tenuis cinis futurus?</l>
-                  </div>
-                  <div n="div18" xml:id="C152">
+                  </div><div n="div18" xml:id="C152">
                      <head n="head"> Epitaphium Ottomani, Turcarum imperatoris</head>
                      <l n="l1">Cuius sensit Arar, cuius certamina Tygris,</l>
                      <l n="l2"> Horrendum cuius nomen uterque polus,</l>
@@ -1687,8 +1523,7 @@
                      <l n="l4"> Ottomanum paruus nunc tegit ecce lapis.</l>
                      <l n="l5">Pręcipitat celeres humana potentia cursus </l>
                      <l n="l6"> Et cito dilapsis corruit illa rotis.</l>
-                  </div>
-                  <div n="div19" xml:id="C153">
+                  </div><div n="div19" xml:id="C153">
                      <head n="head"> Epitaphium Leonardi Lauredani, inclyti Venetorum principis</head>
                      <l n="l1">Hic sunt ossa ducis Leonardi condita, cuius</l>
                      <l n="l2"> Virtus sub uaria sorte probata fuit.</l>
@@ -1696,8 +1531,7 @@
                      <l n="l4"> Contigerint, nunquam prospera fata magis,</l>
                      <l n="l5">Illum nec tristis fregit fortuna nec alte </l>
                      <l n="l6"> Lęta tulit: fortes res decet ista uiros.</l>
-                  </div>
-                  <div n="div20" xml:id="C154">
+                  </div><div n="div20" xml:id="C154">
                      <head n="head"> Epitaphium eiusdem</head>
                      <l n="l1">Hic tumulata iacent Leonardi principis ossa,</l>
                      <l n="l2"> Qui Lauredano sanguine natus erat.</l>
@@ -1705,13 +1539,11 @@
                      <l n="l4"> Testata est lachrymis utraque turba suis.</l>
                      <l n="l5">Nam licet in centum uitam protenderit annos, </l>
                      <l n="l6"> Visus perpropere est omnibus ille mori.</l>
-                  </div>
-                  <div n="div21" xml:id="C155">
+                  </div><div n="div21" xml:id="C155">
                      <head n="head"> Epitaphium Luxę de Bilsa Spalatensis</head>
                      <l n="l1">Hic sum Luxa situs lucis cognomine dictus.</l>
                      <l n="l2"> Qui legis hęc, lucem dic mihi perpetuam.</l>
-                  </div>
-                  <div n="div22" xml:id="C156">
+                  </div><div n="div22" xml:id="C156">
                      <head n="head"> Epitaphium eiusdem</head>
                      <l n="l1">Credere quis posset: felix in morte quiesco,</l>
                      <l n="l2"> Gratior est tumulus quam mihi uita fuit.</l>
@@ -1721,8 +1553,7 @@
                      <l n="l6"> Hinc procul ut condant coniugis ossa meę,</l>
                      <l n="l7">Ne mihi post cineres etiam conuitia dicat</l>
                      <l n="l8"> Neue mea exagitet lite sepulchra graui.</l>
-                  </div>
-                  <div n="div23" xml:id="C157">
+                  </div><div n="div23" xml:id="C157">
                      <head n="head"> Epitaphium Hieronymi de Lucaris Spalatensis</head>
                      <l n="l1">Hieronymus tegor hic, Lucarę gentis alumnus,</l>
                      <l n="l2"> Messe quaterdena iussus obire diem.</l>
@@ -1739,8 +1570,7 @@
                      <l n="l12"> Illic ut uita iam meliore fruar.</l>
                      <l n="l13">Dilige uirtutem quisquis cupis esse beatus:</l>
                      <l n="l14"> Mors super hanc solam non habet arbitrium.</l>
-                  </div>
-                  <div n="div24" xml:id="C158">
+                  </div><div n="div24" xml:id="C158">
                      <head n="head"> Epitaphium Bernardinę Pauonię</head>
                      <l n="l1">Bernardina nitens morum formęque decore</l>
                      <l n="l2"> Hic recubat primo rapta puerperio.</l>
@@ -1748,8 +1578,7 @@
                      <sp n="sp" who="BernardinaPauonia">
                         <l n="l"> »Viue diu, fili, non mihi: uiue patri!«</l>
                      </sp>
-                  </div>
-                  <div n="div25" xml:id="C159">
+                  </div><div n="div25" xml:id="C159">
                      <head n="head"> Epitaphium diui Hieronymi</head>
                      <l n="l1">Condita Hironymi recubant hoc ossa sepulchro;</l>
                      <l n="l2"> Ipse colit celsi regna beata poli.</l>
@@ -1764,8 +1593,7 @@
                      </l>
                      <l n="l11">His tamen ingenii magnis insignibus olim</l>
                      <l n="l12"> Sancte actę uitę gloria maior erat.</l>
-                  </div>
-                  <div n="div26" xml:id="C160">
+                  </div><div n="div26" xml:id="C160">
                      <head n="head"> Epitaphium Sanctę Catherinę</head>
                      <l n="l1">Passa rotas gladioque caput truncata tyrannum</l>
                      <l n="l2">Vici; sicque Deo sum modo iuncta meo.</l>
@@ -1774,32 +1602,27 @@
                      <l n="l5">Filia regis eram, nunc Regis filia regum <note n="note" type="numvers">5</note>
                      </l>
                      <l n="l6">Sedibus in superis regna beata colo.</l>
-                  </div>
-                  <div n="div27" xml:id="C161">
+                  </div><div n="div27" xml:id="C161">
                      <head n="head"> De Durato equo</head>
                      <l n="l1">Gloria nobilium iacet hic Duratus equorum,</l>
                      <l n="l2"> Qui potuit currum, Phoebe, decere tuum.</l>
                      <l n="l3">Ocior hic uentis, Euro, Zephiroque Notoque</l>
                      <l n="l4"> Non potuit mortem pręteriisse feram.</l>
-                  </div>
-                  <div n="div28" xml:id="C162">
+                  </div><div n="div28" xml:id="C162">
                      <head n="head"> De morte accipitris Marini</head>
                      <l n="l1">Accipitrem reuocas dum tu, Marine, uolantem,</l>
                      <l n="l2"> Ille redire suum noluit ad dominum.</l>
                      <l n="l3">Ceruorum rapido poenas dedit ungue petitus:</l>
                      <l n="l4"> I nunc et dominum despice, stulte, tuum!</l>
                   </div>
-               </div>
             </body>
          </text>
          <text n="text7">
-            <front n="front">
+            <front n="front" xml:lang="hrv">
                <head n="head" xml:lang="hrv">POSLANICE I ELEGIJE</head>
             </front>
             <body n="body">
-               <div n="div">
-
-                  <div n="div1" xml:id="C163" met="elegiacum">
+               <div n="div1" xml:id="C163" met="elegiacum">
                      <head n="head"> Francisco Natali Marci Maruli in Valle surda commorantis responsio</head>
                      <l n="l1">Grata salutatrix a te mihi littera uenit</l>
                      <l n="l2"> O Francisce, meę cultor amicicię!</l>
@@ -1893,8 +1716,7 @@
                      <l n="l86"> Ante salutetur Barbarus usque meus;</l>
                      <l n="l87">Ille licet Musis et sanguine pręstet auorum,</l>
                      <l n="l88"> Non tamen inuitus carmina nostra legit.</l>
-                  </div>
-                  <div n="div2" xml:id="C164" met="elegiacum">
+                  </div><div n="div2" xml:id="C164" met="elegiacum">
                      <head n="head"> Francisco Natali Marci Maruli responsio</head>
                      <l n="l1">Angebant, Francisce, mei me funera fratris,</l>
                      <l n="l2"> Nulla quies lacrimis nec modus ullus erat.</l>
@@ -1925,8 +1747,7 @@
                      <l n="l26"> Compulsus monitis consiliisque tuis.</l>
                      <l n="l27">Dii tibi pro tali persoluant munere grates</l>
                      <l n="l28"> Fataque dent fatis candidiora meis.</l>
-                  </div>
-                  <div n="div3" xml:id="C165" met="elegiacum" type="poesis-elegia">
+                  </div><div n="div3" xml:id="C165" met="elegiacum" type="poesis-elegia">
                      <head n="head"> Querela in canis sui Fusci interfectorem</head>
                      <l n="l1">Hei mihi, Fusce meus, quis te tam uulnere diro</l>
                      <l n="l2"> Perdidit innocuum? Cui male notus eras?</l>
@@ -1952,8 +1773,7 @@
                      <l n="l22"> Dum queritur dominę tristia fata suę.</l>
                      <l n="l23">Cur ego non sperem de te quoque tale futurum?</l>
                      <l n="l24"> Tam fidus dominę non fuit ille suę!</l>
-                  </div>
-                  <div n="div4" xml:id="C166" met="elegiacum" type="poesis-elegia">
+                  </div><div n="div4" xml:id="C166" met="elegiacum" type="poesis-elegia">
                      <head n="head"> In somnum diurnum querela</head>
                      <l n="l1">Vt quid ab ingenuo prohibes me, somne, labore?</l>
                      <l n="l2"> Nox data cum tibi sit, cur quoque luce uenis?</l>
@@ -1988,8 +1808,7 @@
                      <l n="l30"> Non animos perimit nec uigilare uetat. </l>
                      <l n="l31">Tu me, somne, meam superans torpedine mentem</l>
                      <l n="l32"> Non ubi sum, non si sim quoque nosse sinis.</l>
-                  </div>
-                  <div n="div5" xml:id="C167" met="elegiacum" type="poesis-elegia">
+                  </div><div n="div5" xml:id="C167" met="elegiacum" type="poesis-elegia">
                      <head n="head"> Ad Franciscum Martiniacum quod senectus non annis sed ualetudine conferenda est</head>
                      <l n="l1">Sum quoniam, Francisce, tibi charissimus unus</l>
                      <l n="l2"> Optas me multas uiuere Olympiadas;</l>
@@ -2024,17 +1843,14 @@
                      <l n="l29">Hinc tu, qui multos optas me uiuere in annos,</l>
                      <l n="l30"> Sat multos annos esse ualere puta. </l>
                   </div>
-               </div>
             </body>
          </text>
          <text n="text8">
-            <front n="front">
+            <front n="front" xml:lang="hrv">
                <head n="head" xml:lang="hrv">NABOŽNE PJESME</head>
             </front>
             <body n="body">
-               <div n="div">
-
-                  <div n="div1" xml:id="C168" met="elegiacum" type="poesis-carmen-elegia">
+               <div n="div1" xml:id="C168" met="elegiacum" type="poesis-carmen-elegia">
                      <head n="head"> Carmen de doctrina Domini nostri Iesu Christi pendentis in cruce. Christianus
                 interrogat, Christus respondet.</head>
                      <sp n="sp1">
@@ -2161,8 +1977,7 @@
                         <l n="l51"> Felix qui semper uitę bene computat usum</l>
                         <l n="l52">Cogitat et finem iam fore iamque suum.</l>
                      </sp>
-                  </div>
-                  <div n="div2" xml:id="C169" met="hexameter" type="poesis-carmen-hymnus">
+                  </div><div n="div2" xml:id="C169" met="hexameter" type="poesis-carmen-hymnus">
                      <head n="head"> Hymnus ad Deum</head>
                      <l n="l1">Nunc sublime ferens trans ardua nubila mundi </l>
                      <l n="l2">Magnanimum, mea Musa, pedem, trans sydera cęli </l>
@@ -2281,8 +2096,7 @@
                      <l n="l115">Terrarum cęlique potens, quem (ut spero) facultas </l>
                      <l n="l116">Visendi dabitur tunc cum tellure leuatis </l>
                      <l n="l117">Stelliferi nobis aditus reserabit Olympi.</l>
-                  </div>
-                  <div n="div3" xml:id="C170" met="Sapphicum" type="poesis-hymnus">
+                  </div><div n="div3" xml:id="C170" met="Sapphicum" type="poesis-hymnus">
                      <head n="head"> In natalitio Sancti Raynerii archiepiscopi Spalatensis pro iure ecclesię tuendo
                 interempti martyrioque coronati hymnus</head>
                      <l n="l1">Ecce sol claro radians nitore</l>
@@ -2322,8 +2136,7 @@
                      <l n="l35">Omnium autorem dominumque rerum </l>
                      <l n="l36"> Glorificemus. </l>
                      <l n="l37"> Amen.</l>
-                  </div>
-                  <div n="div4" xml:id="C171" met="elegiacum">
+                  </div><div n="div4" xml:id="C171" met="elegiacum">
                      <head n="head"> De Sancto Nicolao</head>
                      <l n="l1">Paruulus hic charę dum sugeret ubera matris,</l>
                      <l n="l2"> Ieiunus magnum se fore signa dabat.</l>
@@ -2337,9 +2150,7 @@
                      <l n="l10"> Esset et in superis notus ut inde plagis. </l>
                      <l n="l11">Illic perpetuo uiuit feliciter ęuo</l>
                      <l n="l12"> Additus ętherię principibus patrię.</l>
-                  </div>
-
-                  <div n="div5" met="elegiacum">
+                  </div><div n="div5" met="elegiacum">
                      <head n="head">De duodecim apostolis</head>
                      <div n="div1" xml:id="C172">
                         <head n="head"> Petrus</head>
@@ -2795,8 +2606,7 @@
                         <l n="l32">Adhęsit Domino lętus ouansque suo. </l>
                         <l n="l33">Passus est anno a Dominica passione XI.</l>
                      </div>
-                  </div>
-                  <div n="div6">
+                  </div><div n="div6">
                      <head n="head">DE QUATTUOR ECCLESIĘ DOCTORIBUS</head>
                      <div n="div1" xml:id="C185" met="elegiacum">
                         <head n="head"> De laudibus diui Hieronymi carmen</head>
@@ -2912,17 +2722,14 @@
                         <l n="l14"> Consors imperii, Maxime Christe, Tui.</l>
                      </div>
                   </div>
-               </div>
             </body>
          </text>
          <text n="text9">
-            <front n="front">
+            <front n="front" xml:lang="hrv">
                <head n="head" xml:lang="hrv">PREPJEVI</head>
             </front>
             <body n="body">
-               <div n="div">
-
-                  <div n="div1" xml:id="C189">
+               <div n="div1" xml:id="C189">
                      <head n="head"> Ad Virginem beatam</head>
                      <div n="div1">
                         <opener n="opener">M. Marulus Hieronymo Papali salutem.</opener>
@@ -3131,11 +2938,9 @@
                         <l n="l175" xml:id="VB175">Et cum finis erit, cęlestia limina pandat </l>
                         <l n="l176">Egredienti animę spirituique meo. </l>
                      </div>
-                  </div>
-                  <div n="div2" xml:id="C190" met="hexameter" type="poesis-epica-versio">
+                  </div><div n="div2" xml:id="C190" met="hexameter" type="poesis-epica-versio">
                      <gap n="gap" reason="alibi"/>
                   </div>
-               </div>
             </body>
          </text>
          <text n="text10">
@@ -3143,17 +2948,12 @@
                <head n="head">Fragmentum</head>
             </front>
             <body n="body">
-               <div n="div" xml:id="C192" met="hexameter" type="poesis-panegyris">
-                  <head n="head">Panegyris ad Iohannem Antonium Dandolum
+               <head n="head">Panegyris ad Iohannem Antonium Dandolum
             
-          </head>
-                  <l n="l1">O ego si tali condenda in carmina cantu
-          </l>
-                  <l n="l2">ire queam qualem ...<gap n="gap" resp="scriba" reason="omisit"/>
-                  </l>
-                  <note n="note" resp="NJ">Biblioteca Colombina, Sevilla, Abecedarium B (columna 1200, nota 25):
+          </head><l n="l1">O ego si tali condenda in carmina cantu
+          </l><l n="l2">ire queam qualem ...<gap n="gap" resp="scriba" reason="omisit"/>
+                  </l><note n="note" resp="NJ">Biblioteca Colombina, Sevilla, Abecedarium B (columna 1200, nota 25):
             O ego si tali condenda in carmina cantu ire queam qualem · 10808 ·</note>
-               </div>
             </body>
          </text>
          <text n="text11">
@@ -3161,9 +2961,7 @@
                <head n="head">INCERTUM</head>
             </front>
             <body n="body">
-               <div n="div">
-
-                  <div n="div" xml:id="DSV01" met="elegiacum" type="epigramma">
+               <div n="div" xml:id="DSV01" met="elegiacum" type="epigramma">
                      <head n="head"> 
                         <add n="add1">1.</add> 
                         <add n="add2">Dialogus sepulti et viatoris</add>
@@ -3185,18 +2983,14 @@
                         <l n="l2"> »Ducta est Parthenope si tibi, uiue Senis!«</l>
                      </sp>
                   </div>
-               </div>
             </body>
          </text>
          <text n="text12">
-            <front n="front">
+            <front n="front" xml:lang="hrv">
                <head n="head" xml:lang="hrv">PRILOZI</head>
             </front>
             <body n="body">
-               <div n="div">
-
-
-                  <div n="div1" xml:id="FBVS01" met="elegiacum">
+               <div n="div1" xml:id="FBVS01" met="elegiacum">
                      <head n="head"> [1.] Franciscus Natalis Marco Marulo in Valle Surda commoranti</head>
                      <l n="l1">Cultor et antistes Surdę, celeberrime, uallis,</l>
                      <l n="l2"> Marule, perpetui Regis amator, aue!</l>
@@ -3278,8 +3072,7 @@
                      <l n="l72"> Concilias Christum dum tibi, Marce, tuum,</l>
                      <l n="l73">Quem pro Francisco uelis exorare misello,</l>
                      <l n="l74"> Perpetuo sic te donet, amice, bono.</l>
-                  </div>
-                  <div n="div2" xml:id="FBV02" met="elegiacum">
+                  </div><div n="div2" xml:id="FBV02" met="elegiacum">
                      <head n="head">[2.] Franciscus Natalis ad Marcum Marulum de obitu Valerii fratris</head>
                      <l n="l1">Marule, Socraticę non dispar gloria uitę,</l>
                      <l n="l2"> Pręualido fultum robore pectus habens,</l>
@@ -3354,7 +3147,6 @@
                      <l n="l50" xml:id="V65">Ex quo nil timuit leti discrimina frater,</l>
                      <l n="l51"> Certa hęc fraternę signa salutis habe.</l>
                   </div>
-               </div>
 
             </body>
          </text>
