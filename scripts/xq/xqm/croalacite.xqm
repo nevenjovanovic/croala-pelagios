@@ -23,13 +23,18 @@ declare function cite:urn-exists($urn){
   if (starts-with($urn, "urn:cts:croala:")) then 
      if (collection("cp-cts-urns")//w[@n=$urn]) then collection("cp-cts-urns")//w[@n=$urn]/@xml:id/string()
      else "URN deest in collectionibus nostris."
+     
   else if (starts-with($urn, "urn:cite:croala:loci")) then 
     if (collection("cp-cite-urns")//w[@citeurn=$urn]) then collection("cp-cite-urns")//w[@citeurn=$urn]
     else "URN deest in collectionibus nostris."
+    
   else if (matches($urn, "^[A-Z]")) then 
     if (collection("cp-loci")//w[label=$urn]) then collection("cp-loci")//w[label=$urn]/citebody/string()
     else  "URN deest in collectionibus nostris."
-  else if (starts-with($urn, "urn:cite:croala:latlexent.") or starts-with($urn, "urn:cite:perseus:latlexent.")) then (collection("cp-latlexent"), collection("cp-croala-latlexents"))//record[entry[1]=$urn]/entry[2]
+    
+  else if (starts-with($urn, "urn:cite:croala:latlexent.") or starts-with($urn, "urn:cite:perseus:latlexent.")) then
+    if ((collection("cp-latlexent"), collection("cp-croala-latlexents"))//record[entry[1]=$urn]) then (collection("cp-latlexent"), collection("cp-croala-latlexents"))//record[entry[1]=$urn]/entry[2]
+    else "URN deest in collectionibus nostris."
   else if ($urn=()) then "URN deest in collectionibus nostris."
   else "URN deest in collectionibus nostris."
 };
