@@ -4,14 +4,35 @@ declare namespace ti = "http://chs.harvard.edu/xmlns/cts";
 
 declare function cite:validate-cts($cts){
   let $result :=
-  if (not(ends-with($cts, ":"))) then
     if (matches($cts, "urn:cts:croala:[a-z0-9.\-]+:[a-z0-9.\-]+$")) then true()
     else if  (matches($cts, "urn:cts:croala:[a-z0-9.\-]+$")) then true()
     else false()
-  else false()
   return $result
 };
 
+declare function cite:validate-cite($cite){
+  let $result :=
+    if (matches($cite, "urn:cite:croala:[a-z0-9.]+[0-9]+$")) then true()
+    else if  (matches($cite, "^[A-Z][a-z]+$")) then true()
+    else false()
+  return $result
+};
+
+declare function cite:urn-exists($urn){
+    
+  if (starts-with($urn, "urn:cts:croala:")) then 
+     if (collection("cp-cts-urns")//w[@n=$urn]) then collection("cp-cts-urns")//w[@n=$urn]/@xml:id/string()
+     else "URN deest in collectionibus nostris."
+  else if (starts-with($urn, "urn:cite:croala:loci")) then 
+    if (collection("cp-cite-urns")//w[@citeurn=$urn]) then collection("cp-cite-urns")//w[@citeurn=$urn]
+    else "URN deest in collectionibus nostris."
+  else if (matches($urn, "^[A-Z]")) then 
+    if (collection("cp-loci")//w[label=$urn]) then collection("cp-loci")//w[label=$urn]/citebody/string()
+    else  "URN deest in collectionibus nostris."
+  else if (starts-with($urn, "urn:cite:croala:latlexent.") or starts-with($urn, "urn:cite:perseus:latlexent.")) then (collection("cp-latlexent"), collection("cp-croala-latlexents"))//record[entry[1]=$urn]/entry[2]
+  else if ($urn=()) then "URN deest in collectionibus nostris."
+  else "URN deest in collectionibus nostris."
+};
 
 declare function cite:geturn($urn) {
   element table {
