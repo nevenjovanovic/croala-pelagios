@@ -1,6 +1,13 @@
 module namespace test = 'http://basex.org/modules/xqunit-tests';
 import module namespace cite = "http://croala.ffzg.unizg.hr/cite" at '../xqm/croalacite.xqm';
 
+(: check whether necessary dbs are present :)
+
+declare %unit:test function test:find-dbs() {
+  for $dbs in ("cp-2-texts", "cp-cts-urns", "cp-cite-urns", "cp-loci", "cp-aetates", "cp-latlexent", "cp-croala-latlexents", "cp-latmorph")
+  return unit:assert(db:info($dbs))
+};
+
 (: check whether a CTS URN is valid for CroALa :)
 
 declare %unit:test function test:valid-cts() {
