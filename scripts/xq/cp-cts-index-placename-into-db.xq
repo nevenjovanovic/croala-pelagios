@@ -6,7 +6,8 @@ declare function local:ntree($words, $ctsname) {
 let $tree := string-join(data($f/ancestor-or-self::*[@n]/@n),'.')
 return element w { 
 attribute xml:id {db:node-id($f)} , 
-attribute n { $ctsname || $tree } , 
+attribute n { $ctsname || ":" || $tree } , 
+attribute aex { $ctsname || ".lexis:" || $tree } , 
 $f/@ana , 
 data($f) }
 };
@@ -16,11 +17,13 @@ declare variable $flist := map {
 };
 let $windex :=
 element wlist {
-  for $xmlfile in map:keys($flist)
-  let $cts := map:get($flist,$xmlfile)
-let $names := ("placeName", "name", "w")
-for $f in db:open("cp", $xmlfile)//*:text//*[name()=$names and @ana]
+(:  for $xmlfile in map:keys($flist)
+  let $cts := map:get($flist,$xmlfile) :)
+for $xmlfile in collection("cp-2-texts")//*:TEI[descendant::*[matches(@ana, 'estlocus')]]
+let $cts := $xmlfile//*:text/@xml:base
+let $names := ("placeName", "name", "w", "tei:w")
+for $f in $xmlfile//*:text//*[name()=$names and @ana]
 let $ntree := local:ntree($f, $cts)
 return $ntree
 }
-return db:create("cp-placename-idx", $windex, "cp-idx.xml", map {'ftindex' : true() , 'autooptimize' : true() , 'intparse' : true() })
+return db:create("cp-cts-urns", $windex, "cts-urns.xml", map {'ftindex' : true() , 'autooptimize' : true() , 'intparse' : true() })
