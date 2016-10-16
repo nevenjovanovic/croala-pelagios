@@ -2,6 +2,16 @@ module namespace cite = "http://croala.ffzg.unizg.hr/cite";
 import module namespace functx = "http://www.functx.com" at "functx.xqm";
 declare namespace ti = "http://chs.harvard.edu/xmlns/cts";
 
+declare function cite:validate-cts($cts){
+  let $result :=
+  if (not(ends-with($cts, ":"))) then
+    if (matches($cts, "urn:cts:croala:[a-z0-9.\-]+:[a-z0-9.\-]+$")) then true()
+    else if  (matches($cts, "urn:cts:croala:[a-z0-9.\-]+$")) then true()
+    else false()
+  else false()
+  return $result
+};
+
 
 declare function cite:geturn($urn) {
   element table {
