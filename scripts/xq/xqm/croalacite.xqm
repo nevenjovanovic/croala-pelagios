@@ -86,7 +86,7 @@ return element tr {
       attribute value { $r/entry[1]/string() } } , 
     element button { 
       attribute class { "btn" } ,
-      attribute tooltip { "Recordare!"},
+      attribute aria-label { "Recordare!"},
       attribute data-clipboard-target { "#" || $id },
       element span { 
         attribute class { "glyphicon glyphicon-copy"},
