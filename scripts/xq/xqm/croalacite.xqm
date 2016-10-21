@@ -81,7 +81,7 @@ let $id := generate-id($r)
 return element tr {
   element td { 
     element input { 
-      attribute size { "100"},
+      attribute size { "55"},
       attribute id { $id },
       attribute value { $r/entry[1]/string() } } , 
     element button { 
