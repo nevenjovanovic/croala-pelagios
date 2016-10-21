@@ -80,7 +80,6 @@ for $r in $result
 let $id := generate-id($r)
 return element tr {
   element td { 
-  attribute class {"input-group"},
     element input { 
       attribute type {"text"},
       attribute class {"form-control"},
