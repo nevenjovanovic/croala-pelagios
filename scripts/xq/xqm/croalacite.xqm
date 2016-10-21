@@ -93,7 +93,7 @@ else element p { "Nomen deest in collectionibus nostris." }
 
 declare function cite:input-field($id, $r){
   element input { 
-      attribute size { "55"},
+      attribute size { "45"},
       attribute id { $id },
       attribute value { $r/entry[1]/string() } } , 
     element button { 
