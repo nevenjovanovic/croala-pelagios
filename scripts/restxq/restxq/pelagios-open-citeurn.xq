@@ -66,7 +66,6 @@ else if (starts-with($urn, "urn:cite:perseus:latlexent")
         or starts-with($urn, "urn:cite:croala:latlexent")) 
     then cite:geturn($urn)
     else cite:queryname($urn) 
-else element p { "URN deest in collectionibus nostris."}
    
 }
   
