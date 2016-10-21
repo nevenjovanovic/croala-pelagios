@@ -80,19 +80,13 @@ for $r in $result
 let $id := generate-id($r)
 return element tr {
   element td { 
-  attribute class {"input-group"},
     element input { 
-      attribute type {"text"},
-      attribute class {"form-control"},
-      attribute placeholder { "CITE URN"},
       attribute size { "55"},
       attribute id { $id },
       attribute value { $r/entry[1]/string() } } , 
     element button { 
-      attribute class { "btn btn-default" } ,
-      attribute data-toggle {"tooltip"},
-      attribute data-placement {"button"},
-      attribute title { "Recordare!"},
+      attribute class { "btn" } ,
+      attribute aria-label { "Recordare!"},
       attribute data-clipboard-target { "#" || $id },
       element span { 
         attribute class { "glyphicon glyphicon-copy"},
