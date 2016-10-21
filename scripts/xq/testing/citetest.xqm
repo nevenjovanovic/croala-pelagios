@@ -12,8 +12,8 @@ declare %unit:test function test:retrieve-citeurn() {
   let $label := "Roma"
   let $definition := "Rome, the mother city"
   return unit:assert-equals(
-    for $tr in cite:geturn($urn)//tbody[parent::table]/tr[td[1]/string()[.=$urn]]
-    return $tr/td/string(), ($urn, $label, $definition))
+    for $tr in cite:geturn($urn)//tbody[parent::table]/tr[td[1][input/@value=$urn]]
+    return $tr/td[2]/string(), ($label))
 };
 
 declare %unit:test function test:retrieve-citeurnmorph() {
@@ -21,8 +21,8 @@ declare %unit:test function test:retrieve-citeurnmorph() {
   let $label := "n-s---nnc"
   let $definition := "adiectivum, singularis, neutrum, nominativus, comparativus"
   return unit:assert-equals(
-    for $tr in cite:geturn($urn)//tbody[parent::table]/tr[td[1]/string()[.=$urn]]
-    return $tr/td/string(), ($urn, $label, $definition))
+    for $tr in cite:geturn($urn)//tbody[parent::table]/tr[td[1][input/@value=$urn]]
+    return $tr/td[2]/string(), ($label))
 };
 
 declare %unit:test function test:citeurn-croala-latlexent() {
@@ -30,8 +30,8 @@ declare %unit:test function test:citeurn-croala-latlexent() {
   let $label := "Bossina"
   let $definition := "Name of a state in East-Central Europe, Bosnia (Bosna)."
   return unit:assert-equals(
-    for $tr in cite:geturn($urn)//tbody[parent::table]/tr[td[1]/string()[.=$urn]]
-    return $tr/td/string(), ($urn, $label, $definition))
+    for $tr in cite:geturn($urn)//tbody[parent::table]/tr[td[1][input/@value=$urn]]
+    return $tr[td[1]/input/@value=$urn]/td[2]/string(), ($label))
 };
 
 declare %unit:test function test:retrieve-citeurn-thead() {
@@ -78,6 +78,6 @@ declare %unit:test function test:cite-small() {
   let $label := "zephyrius"
   let $definition := "wind-eggs"
   return unit:assert-equals(
-    for $tr in cite:geturn($urn)//tbody[parent::table]/tr[td[1]/string()[.=$urn]]
-    return $tr/td/string(), ($urn, $label, $definition))
+    for $tr in cite:geturn($urn)//tbody[parent::table]/tr[td[1][input/@value=$urn]]
+    return $tr/td[2]/string(), ($label))
 };

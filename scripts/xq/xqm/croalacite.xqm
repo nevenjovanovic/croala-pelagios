@@ -51,9 +51,10 @@ declare function cite:geturn($urn) {
     element tbody {
 let $dbs := (collection("cp-latlexent"), collection("cp-latmorph"), collection("cp-croala-latlexents"))
 for $r in $dbs//record
+let $id := generate-id($r)
 where $r/entry[1][string()=$urn]
 return element tr {
-  element td { $r/entry[1]/string() },
+  element td { cite:input-field($id, $r) },
   element td { $r/entry[2]/string() },
   element td { $r/entry[3]/string() }
 }
@@ -80,7 +81,18 @@ for $r in $result
 let $id := generate-id($r)
 return element tr {
   element td { 
-    element input { 
+    cite:input-field($id, $r)
+    },
+  element td { $r/entry[2]/string() },
+  element td { $r/entry[3]/string() }
+}
+}
+}
+else element p { "Nomen deest in collectionibus nostris." }
+};
+
+declare function cite:input-field($id, $r){
+  element input { 
       attribute size { "55"},
       attribute id { $id },
       attribute value { $r/entry[1]/string() } } , 
@@ -94,11 +106,4 @@ return element tr {
         attribute aria-label { "Recordare!" }
       }
     }
-    },
-  element td { $r/entry[2]/string() },
-  element td { $r/entry[3]/string() }
-}
-}
-}
-else element p { "Nomen deest in collectionibus nostris." }
 };
