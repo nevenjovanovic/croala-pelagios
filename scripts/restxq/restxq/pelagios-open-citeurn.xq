@@ -48,7 +48,7 @@ declare
 <p><a href="http://orcid.org/0000-0002-9119-399X">Neven Jovanović</a></p>
 <p>Locus identificatur et commentatur.</p>
 <p>Functio nominatur: {rest:uri()}.</p>
-<p>Redi ad <a href="http://croala.ffzg.unizg.hr/basex/cp/citelist">CTS URN indiculum</a>.</p>
+<p>Iconem <span class="glyphicon glyphicon-copy" aria-hidden="true"></span> preme ut CITE URN notetur.</p>
 </div>
 <div class="col-md-6">
 {croala:infodb('cp-citebody')}
