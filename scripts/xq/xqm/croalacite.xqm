@@ -81,6 +81,7 @@ let $id := generate-id($r)
 return element tr {
   element td { 
     element input { 
+      attribute size { "100"},
       attribute id { $id },
       attribute value { $r/entry[1]/string() } } , 
     element button { 
@@ -90,7 +91,7 @@ return element tr {
       element span { 
         attribute class { "glyphicon glyphicon-copy"},
         attribute aria-hidden {"true"},
-        attribute alt { "Recordare!" }
+        attribute aria-label { "Recordare!" }
       }
     }
     },
