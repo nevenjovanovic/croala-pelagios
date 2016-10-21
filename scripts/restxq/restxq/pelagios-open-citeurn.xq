@@ -74,16 +74,6 @@ else if (starts-with($urn, "urn:cite:perseus:latlexent")
      </div>
 <hr/>
 { croala:footerserver() }
-<script>
-    var btn = document.getElementById('btn');
-    var clipboard = new Clipboard(btn);
-    clipboard.on('success', function(e) {
-        console.log(e);
-    });
-    clipboard.on('error', function(e) {
-        console.log(e);
-    });
-    </script>
 </body>
 </html>
 };
