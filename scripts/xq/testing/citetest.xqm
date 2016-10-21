@@ -49,12 +49,12 @@ declare %unit:test function test:ask-name() {
   let $label := "Roma"
   let $definition := "Rome, the mother city"
   return unit:assert-equals(
-    for $tr in cite:queryname($label)//tbody[parent::table]/tr[td[1]/string()[.=$urn]]
-    return $tr/td/string(), ($urn, $label, $definition))
+    for $tr in cite:queryname($label)//tbody[parent::table]/tr[td[1]/input[@id and @value=$urn]]
+    return $tr/td[2]/string(), $label)
 };
 
 declare %unit:test function test:ask-name-thead() {
-  let $name := "Rom"
+  for $name in ("Rom", "zephyr")
   let $urnhead := "URN"
   let $label := "Name"
   let $definition := "Short definition"
@@ -69,6 +69,15 @@ declare %unit:test function test:name-croala-latlexent() {
   let $label := "Dacicum"
   let $definition := "Name of the province Dacia."
   return unit:assert-equals(
-    for $tr in cite:queryname($label)//tbody[parent::table]/tr[td[1]/string()[.=$urn]]
+    for $tr in cite:queryname($label)//tbody[parent::table]/tr[td[1]/input[@id and @value=$urn]]
+    return $tr/td[2]/string(), ($label))
+};
+
+declare %unit:test function test:cite-small() {
+  let $urn := "urn:cite:perseus:latlexent.lex54369.1"
+  let $label := "zephyrius"
+  let $definition := "wind-eggs"
+  return unit:assert-equals(
+    for $tr in cite:geturn($urn)//tbody[parent::table]/tr[td[1]/string()[.=$urn]]
     return $tr/td/string(), ($urn, $label, $definition))
 };

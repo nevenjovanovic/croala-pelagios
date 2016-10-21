@@ -60,7 +60,7 @@ declare
 	
 	{  if (starts-with($urn, "urn:cite:croala:loci" )) then cp:openciteurn($urn)
       else if (starts-with($urn, "urn:cite:perseus:latlexent") or starts-with($urn, "urn:cite:croala:latmorph") or starts-with($urn, "urn:cite:croala:latlexent")) then cite:geturn($urn)
-    else if (matches($urn, "^[A-Z]")) then cite:queryname($urn) 
+    else cite:queryname($urn) 
     else
     element p { "URN deest in collectionibus nostris."}
    
