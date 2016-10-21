@@ -81,16 +81,12 @@ let $id := generate-id($r)
 return element tr {
   element td { 
     element input { 
-      attribute type {"text"},
-      attribute class {"form-control"},
-      attribute placeholder { "CITE URN"},
       attribute size { "55"},
       attribute id { $id },
       attribute value { $r/entry[1]/string() } } , 
     element button { 
-      attribute class { "btn btn-default" } ,
+      attribute class { "btn" } ,
       attribute data-toggle {"tooltip"},
-      attribute data-placement {"button"},
       attribute title { "Recordare!"},
       attribute data-clipboard-target { "#" || $id },
       element span { 
