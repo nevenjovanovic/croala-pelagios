@@ -99,6 +99,9 @@
         </namespace>
       </tagsDecl>
       <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6']/*[@n='$7']/*[@n='$8'])">
+          <p>This pointer pattern extracts @n value of segment.</p>
+        </cRefPattern>
         <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6']/*[@n='$7'])">
           <p>This pointer pattern extracts @n value of segment.</p>
         </cRefPattern>
@@ -214,7 +217,8 @@
               <app n="app">
                 <rdg n="rdg1" wit="#R1 #Cu">Reuerendissimo in Christo patri <abbr>D.</abbr> Oliuerio Carraphę Cardinali Neapolitano
                   episcopo Sabinensi protectori Ragusino Iacobus Bonus</rdg>
-                <rdg n="rdg2" wit="#R2 #Gl">IACOBVS BONVS RACVSAEORVM ORATOR AD LEONEM DECIMVM <abbr>PONT. MAX.</abbr></rdg>
+                <rdg n="rdg2" wit="#R2 #Gl">IACOBVS BONVS RACVSAEORVM ORATOR AD LEONEM DECIMVM <abbr>PONT. MAX.</abbr>
+                </rdg>
               </app>
             </head>
             <l met="hendecasyllabus" n="l1">Diuas, quae Paphiam deam colentem</l>
