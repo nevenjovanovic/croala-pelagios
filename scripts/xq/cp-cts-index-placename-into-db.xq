@@ -19,10 +19,10 @@ let $windex :=
 element wlist {
 (:  for $xmlfile in map:keys($flist)
   let $cts := map:get($flist,$xmlfile) :)
-for $xmlfile in collection("cp-2-texts")//*:TEI[descendant::*[matches(@ana, 'estlocus')]]
+for $xmlfile in collection("cp-2-texts")//*:TEI[descendant::*:w]
 let $cts := $xmlfile//*:text/@xml:base
 let $names := ("placeName", "name", "w", "tei:w")
-for $f in $xmlfile//*:text//*[name()=$names and @ana]
+for $f in $xmlfile//*:text//*[name()=$names]
 let $ntree := local:ntree($f, $cts)
 return $ntree
 }
