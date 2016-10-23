@@ -225,7 +225,7 @@
               <l n="l2"><w n="w1">Occubui</w> <w n="w2">telis</w><pc n="pc1">,</pc> <w n="w3" ana="estlocus0">Phoebe</w> <w n="w4">superbe</w><pc n="pc2">,</pc> <w n="w5">tuis</w><pc n="pc3">.</pc></l>
             </div><div met="elegiacum" n="div4" xml:id="C4">
               <head n="head"><w n="w1">De</w> <w n="w2">Daphne</w> <w n="w3">in</w> <w n="w4">laurum</w></head>
-              <l n="l1"><w n="w1">Hęc</w> <w n="w2">laurus</w> <w n="w3">quondam</w> <w n="w4">uirgo</w> <w n="w5" ana="estlocus0">Peneia</w> <w n="w6">Daphne</w></l>
+              <l n="l1"><w n="w1">Hęc</w> <w n="w2">laurus</w> <w n="w3">quondam</w> <w n="w4">uirgo</w> <w n="w5" ana="estlocus4">Peneia</w> <w n="w6">Daphne</w></l>
               <l n="l2"><w n="w1">In</w> <w n="w2">lauro</w> <w n="w3">mulier</w><pc n="pc1">,</pc> <w n="w4">ni</w> <w n="w5">latuisset</w><pc n="pc2">,</pc> <w n="w6">erat</w><pc n="pc3">.</pc></l>
             </div><div met="elegiacum" n="div5" xml:id="C5">
               <head n="head"><w n="w1">Io</w> <w n="w2">siue</w> <w n="w3">Isis</w></head>
@@ -277,7 +277,7 @@
               <l n="l2"><w n="w1">Olli</w> <w n="w2">certa</w> <w n="w3">nimis</w><pc n="pc1">,</pc> <w n="w4">sed</w> <w n="w5">cecinisse</w> <w n="w6">nocet</w><pc n="pc2">.</pc></l>
             </div><div met="elegiacum" n="div17" xml:id="C17">
               <head n="head"><w n="w1">Bathus</w> <w n="w2">pastor</w></head>
-              <l n="l1"><w n="w1">Hic</w> <w n="w2">lapis</w> <w n="w3">est</w> <w n="w4">index</w><pc n="pc">,</pc> <w n="w5">sed</w> <w n="w6">si</w> <w n="w7" ana="estlocus0">Cylenia</w> <w n="w8">furta</w></l>
+              <l n="l1"><w n="w1">Hic</w> <w n="w2">lapis</w> <w n="w3">est</w> <w n="w4">index</w><pc n="pc">,</pc> <w n="w5">sed</w> <w n="w6">si</w> <w n="w7" ana="estlocus4">Cylenia</w> <w n="w8">furta</w></l>
               <l n="l2"><w n="w1">Desisset</w> <w n="w2">quondam</w> <w n="w3">prodere</w><pc n="pc1">,</pc> <w n="w4">Bathus</w> <w n="w5">erat</w><pc n="pc2">.</pc></l>
             </div><div met="elegiacum" n="div18" xml:id="C18">
               <head n="head"><w n="w">Aglauros</w></head>
@@ -332,8 +332,8 @@
               <l n="l1"><w n="w1">Quam</w> <w n="w2">sit</w> <w n="w3">grande</w> <w n="w4">nefas</w> <w n="w5">pacti</w> <w n="w6">iuga</w> <w n="w7">soluere</w> <w n="w8">lecti</w><pc n="pc">,</pc></l>
               <l n="l2"><w n="w1">Daphnidis</w> <w n="w2" ana="estlocus4">Idei</w> <w n="w3">saxea</w> <w n="w4">fata</w> <w n="w5">docent</w><pc n="pc">.</pc></l>
             </div><div met="elegiacum" n="div31" xml:id="C31">
-              <head n="head"><w n="w1" ana="estlocusX">Salmacis</w> <w n="w2">et</w> <w n="w3">Hermaphroditus</w></head>
-              <l n="l1"><w n="w1">Dum</w> <w n="w2">fuit</w> <w n="w3">ignotus</w> <w n="w4">tibi</w><pc n="pc1">,</pc> <w n="w5" ana="estlocus0">Salmacis</w><pc n="pc2">,</pc> <w n="w6">Hermaphroditus</w><pc n="pc3">,</pc></l>
+              <head n="head"><w n="w1" ana="estlocus4">Salmacis</w> <w n="w2">et</w> <w n="w3">Hermaphroditus</w></head>
+              <l n="l1"><w n="w1">Dum</w> <w n="w2">fuit</w> <w n="w3">ignotus</w> <w n="w4">tibi</w><pc n="pc1">,</pc> <w n="w5" ana="estlocus4">Salmacis</w><pc n="pc2">,</pc> <w n="w6">Hermaphroditus</w><pc n="pc3">,</pc></l>
               <l n="l2"><w n="w1">Simplicis</w> <w n="w2">hic</w> <w n="w3">sexus</w> <w n="w4">Hermaphroditus</w> <w n="w5">erat</w><pc n="pc">.</pc></l>
             </div><div met="elegiacum" n="div32" xml:id="C32">
               <head n="head"><w n="w1" ana="estlocus0">Mineides</w><pc n="pc">,</pc> <w n="w2" ana="estlocus4">Thebanę</w> <w n="w3">sorores</w></head>
@@ -365,11 +365,11 @@
               <l n="l2"><w n="w1">At</w> <w n="w2">saltem</w> <w n="w3">lotio</w><pc n="pc1">,</pc> <w n="w4" ana="estlocus0">Pegase</w><pc n="pc2">,</pc> <w n="w5">pasce</w> <w n="w6">tuo</w><pc n="pc3">!</pc></l>
             </div><div met="elegiacum" n="div39" xml:id="C39">
               <head n="head"><w n="w" ana="estlocus0">Athlas</w></head>
-              <l n="l1"><w n="w1" ana="estlocus0">Athlas</w> <w n="w2" ana="estlocus0">Iapetides</w> <w n="w3">stellarum</w> <w n="w4">torquet</w> <w n="w5" ana="estlocus1">Olympum</w></l>
+              <l n="l1"><w n="w1" ana="estlocus0">Athlas</w> <w n="w2" ana="estlocus0">Iapetides</w> <w n="w3">stellarum</w> <w n="w4">torquet</w> <w n="w5" ana="estlocus4">Olympum</w></l>
               <l n="l2"><w n="w1">Atque</w> <w n="w2">deos</w> <w n="w3">omnis</w> <w n="w4">sustinet</w> <w n="w5">unus</w> <w n="w6" ana="estlocus0">Athlas</w><pc n="pc">.</pc></l>
             </div><div met="elegiacum" n="div40" xml:id="C40">
               <head n="head"><w n="w" ana="estlocus0">Idem</w></head>
-              <l n="l1"><w n="w1">Signifero</w> <w n="w2">forsan</w> <w n="w3">nunquam</w> <w n="w4">premeretur</w> <w n="w5" ana="estlocus0">Olympo</w></l>
+              <l n="l1"><w n="w1">Signifero</w> <w n="w2">forsan</w> <w n="w3">nunquam</w> <w n="w4">premeretur</w> <w n="w5" ana="estlocus4">Olympo</w></l>
               <l n="l2"><w n="w1">Hospitium</w> <w n="w2">Perseo</w> <w n="w3">ni</w> <w n="w4">uetuisset</w> <w n="w5" ana="estlocus0">Athlas</w><pc n="pc">.</pc></l>
             </div><div met="elegiacum" n="div41" xml:id="C41">
               <head n="head"><w n="w">Andromeda</w></head>
@@ -393,14 +393,14 @@
               <l n="l2"><w n="w1">Hunc</w> <w n="w2">modo</w> <w n="w3">dum</w> <w n="w4">uicta</w> <w n="w5">Gorgone</w> <w n="w6">uictor</w> <w n="w7">adit</w><pc n="pc">!</pc></l>
             </div><div met="elegiacum" n="div46" xml:id="C46">
               <head n="head"><w n="w1" ana="estlocus0">Pyreneus</w> <w n="w2">e</w> <w n="w3">turri</w> <w n="w4">pręcipitatus</w></head>
-              <l n="l1"><w n="w1" ana="estlocus0">Castalidas</w> <w n="w2">uiolare</w> <w n="w3">meas</w> <w n="w4">fuge</w><pc n="pc1">,</pc> <w n="w5">si</w> <w n="w6">sapis</w><pc n="pc2">;</pc> <w n="w7">his</w> <w n="w8">qui</w></l>
+              <l n="l1"><w n="w1" ana="estlocus4">Castalidas</w> <w n="w2">uiolare</w> <w n="w3">meas</w> <w n="w4">fuge</w><pc n="pc1">,</pc> <w n="w5">si</w> <w n="w6">sapis</w><pc n="pc2">;</pc> <w n="w7">his</w> <w n="w8">qui</w></l>
               <l n="l2"><w n="w1">Struxerat</w> <w n="w2">insidias</w> <w n="w3">pręcipitando</w> <w n="w4">ruit</w><pc n="pc">.</pc></l>
             </div><div met="elegiacum" n="div47" xml:id="C47">
               <head n="head"><w n="w">Theseus</w></head>
               <l n="l1"><w n="w1">Lęthifera</w> <w n="w2">ignoto</w> <w n="w3">propinabat</w> <w n="w4">pocula</w> <w n="w5">nato</w></l>
               <l n="l2"><w n="w1" ana="estlocus0">Ęgeus</w><pc n="pc1">:</pc> <w n="w2">errori</w> <w n="w3">crimen</w> <w n="w4">inesse</w> <w n="w5">solet</w><pc n="pc2">.</pc></l>
             </div><div met="elegiacum" n="div48" xml:id="C48">
-              <head n="head"><w n="w" ana="estlocus4">Chiron</w></head>
+              <head n="head"><w n="w" ana="estlocus0">Chiron</w></head>
               <l n="l1"><w n="w1">In</w> <w n="w2">scopulos</w> <w n="w3" ana="estlocus4">Chirona</w> <w n="w4">tibi</w> <w n="w5">fuge</w><pc n="pc1">,</pc> <w n="w6">nauita</w><pc n="pc2">,</pc> <w n="w7">uersum</w><pc n="pc3">:</pc></l>
               <l n="l2"><w n="w1">Latro</w> <w n="w2">fuit</w> <w n="w3">nec</w> <w n="w4">adhuc</w> <w n="w5">non</w> <w n="w6">habet</w> <w n="w7">ille</w> <w n="w8">dolos</w><pc n="pc">.</pc></l>
             </div><div met="elegiacum" n="div49" xml:id="C49">
@@ -433,7 +433,7 @@
               <l n="l2"><w n="w1">Pone</w> <w n="w2">sequens</w> <w n="w3">natam</w> <w n="w4" ana="estlocus0">Nysus</w> <w n="w5">alietos</w> <w n="w6">erat</w><pc n="pc">.</pc></l>
             </div><div met="elegiacum" n="div56" xml:id="C56">
               <head n="head"><w n="w1">Labyrintus</w> <w n="w2">et</w> <w n="w3">Minotaurus</w></head>
-              <l n="l1"><w n="w1">Perplexum</w> <w n="w2" ana="estlocus4">Labyrinthus</w> <w n="w3">iter</w><pc n="pc1">,</pc> <w n="w4">uarius</w> <w n="w5">Minotaurus</w><pc n="pc2">.</pc></l>
+              <l n="l1"><w n="w1">Perplexum</w> <w n="w2" ana="estlocus1">Labyrinthus</w> <w n="w3">iter</w><pc n="pc1">,</pc> <w n="w4">uarius</w> <w n="w5">Minotaurus</w><pc n="pc2">.</pc></l>
               <l n="l2"><w n="w1">Hoc</w> <w n="w2">est</w> <w n="w3">Pasiphes</w><pc n="pc1">,</pc> <w n="w4">Dedali</w> <w n="w5">at</w> <w n="w6">illud</w> <w n="w7">opus</w><pc n="pc2">.</pc></l>
             </div><div met="elegiacum" n="div57" xml:id="C57">
               <head n="head"><w n="w">Theseus</w></head>
@@ -453,7 +453,7 @@
               <l n="l2"><w n="w1">Defecit</w><pc n="pc1">:</pc> <w n="w2">uictor</w><pc n="pc2">,</pc> <w n="w3">si</w> <w n="w4">cecidisset</w><pc n="pc3">,</pc> <w n="w5">erat</w><pc n="pc4">.</pc></l>
             </div><div met="elegiacum" n="div61" xml:id="C61">
               <head n="head"><w n="w1">De</w> <w n="w2">Męra</w><pc n="pc1">,</pc> <w n="w3">Proethi</w> <w n="w4">filia</w><pc n="pc2">,</pc> <w n="w5">a</w> <w n="w6">Ioue</w> <w n="w7">uitiata</w> <w n="w8">et</w> <w n="w9">a</w> <w n="w10">Diana</w> <w n="w11">interfecta</w></head>
-              <l n="l1"><w n="w1" ana="estlocus0">Cinthia</w><pc n="pc1">,</pc> <w n="w2">Proethidem</w> <w n="w3">quid</w> <w n="w4">curuo</w> <w n="w5">confodis</w> <w n="w6">arcu</w><pc n="pc2">?</pc></l>
+              <l n="l1"><w n="w1" ana="estlocus4">Cinthia</w><pc n="pc1">,</pc> <w n="w2">Proethidem</w> <w n="w3">quid</w> <w n="w4">curuo</w> <w n="w5">confodis</w> <w n="w6">arcu</w><pc n="pc2">?</pc></l>
               <l n="l2"><w n="w1">Parce</w><pc n="pc1">,</pc> <w n="w2">satis</w> <w n="w3">telum</w> <w n="w4">quod</w> <w n="w5">tulit</w> <w n="w6">illa</w> <w n="w7">Iouis</w><pc n="pc2">!</pc></l>
             </div><div met="elegiacum" n="div62" xml:id="C62">
               <head n="head"><w n="w">Pluto</w></head>
@@ -505,7 +505,7 @@
               <l n="l16"><w n="w1">Pro</w> <w n="w2">grege</w> <w n="w3">Geryones</w> <w n="w4">dum</w> <w n="w5">capit</w> <w n="w6">arma</w> <w n="w7">suo</w><pc n="pc">.</pc></l>
               <l n="l17"><w n="w1">Agmina</w> <w ana="estlocus4" n="w2">Amazonidum</w> <w n="w3">peltis</w> <w n="w4">fugere</w> <w n="w5">relictis</w><pc n="pc">,</pc></l>
               <l n="l18"><w n="w1">Zonam</w> <w n="w2">uicta</w> <w n="w3">suam</w> <w n="w4">perdidit</w> <w n="w5">Hippolite</w><pc n="pc">.</pc></l>
-              <l n="l19"><w n="w1">Mactato</w> <w n="w2" ana="estlocus0">Hesperidum</w> <w n="w3">carpuntur</w> <w n="w4">poma</w> <w n="w5">dracone</w></l>
+              <l n="l19"><w n="w1">Mactato</w> <w n="w2" ana="estlocus4">Hesperidum</w> <w n="w3">carpuntur</w> <w n="w4">poma</w> <w n="w5">dracone</w></l>
               <l n="l20"><w n="w1">Aurea</w><pc n="pc1">:</pc> <w n="w2">peruigilem</w> <w n="w3">profuit</w> <w n="w4">esse</w> <w n="w5">nihil</w><pc n="pc2">.</pc></l>
               <l n="l21"><w n="w1">Ferrea</w> <w n="w2">soluuntur</w> <w n="w3">religati</w> <w n="w4">uincla</w> <w n="w5">Promethei</w><pc n="pc">,</pc></l>
               <l n="l22"><w n="w1">Improba</w> <w n="w2">cui</w> <w n="w3">misero</w> <w n="w4">cor</w> <w n="w5">lacerabat</w> <w n="w6">auis</w><pc n="pc">.</pc></l>
@@ -613,7 +613,7 @@
               <l n="l7"><w n="w1">Si</w> <w n="w2">fera</w> <w n="w3">maturum</w> <w n="w4">Lachesis</w> <w n="w5">tibi</w> <w n="w6">uoluerit</w> <w n="w7">ęuum</w><pc n="pc">,</pc></l>
               <l n="l8"><w n="w1" ana="estlocus4">Aoniam</w> <w n="w2">flabis</w> <w n="w3">forsan</w> <w n="w4">et</w> <w n="w5">ipse</w> <w n="w6">tubam</w></l>
               <l n="l9"><w n="w1">Atque</w> <w n="w2">cothurnatis</w> <w n="w3">pedibus</w> <w n="w4">comitabere</w> <w n="w5">uatem</w></l>
-              <l n="l10"><w n="w1">Qui</w> <w n="w2">profugos</w> <w n="w3" ana="estlocus4">Troas</w><pc n="pc1">,</pc> <w n="w4">qui</w> <w n="w5">canit</w> <w n="w6">arma</w> <w n="w7">uirum</w><pc n="pc2">.</pc></l>
+              <l n="l10"><w n="w1">Qui</w> <w n="w2">profugos</w> <w n="w3" ana="estlocus0">Troas</w><pc n="pc1">,</pc> <w n="w4">qui</w> <w n="w5">canit</w> <w n="w6">arma</w> <w n="w7">uirum</w><pc n="pc2">.</pc></l>
               <l n="l11"><w n="w1">Viue</w> <w n="w2">igitur</w><pc n="pc1">,</pc> <w n="w3">sed</w> <w n="w4">uiue</w> <w n="w5">diu</w><pc n="pc2">,</pc> <w n="w6">ne</w> <w n="w7">nostra</w> <w n="w8">uetustis</w></l>
               <l n="l12"><w n="w1">Inuideant</w> <w n="w2">semper</w> <w n="w3">sęcula</w> <w n="w4">temporibus</w><pc n="pc">,</pc></l>
               <l n="l13"><w n="w1">Ne</w> <w n="w2">semper</w> <w n="w3">uictam</w> <w n="w4">doleat</w> <w n="w5">se</w> <w n="w6">fama</w> <w n="w7">nepotum</w><pc n="pc">,</pc></l>
@@ -679,7 +679,7 @@
               <l n="l3"><w n="w1">Sed</w> <w n="w2">non</w> <w n="w3">est</w> <w n="w4">coepisse</w> <w n="w5">satis</w><pc n="pc">:</pc> <w n="w6">persistere</w> <w n="w7">oportet</w></l>
               <l n="l4"><w n="w1">Quisquis</w> <w n="w2">par</w> <w n="w3">magnis</w> <w n="w4">uatibus</w> <w n="w5">esse</w> <w n="w6">cupit</w><pc n="pc">.</pc></l>
               <l n="l5"><w n="w1">Perge</w> <w n="w2">igitur</w> <w n="w3">multisque</w> <w n="w4">tuis</w> <w n="w5">comes</w> <w n="w6">ire</w> <w n="w7">memento</w></l>
-              <l n="l6"><w n="w1">Vsque</w> <w n="w2">ad</w> <w n="w3" ana="estlocus4">Pierii</w> <w n="w4">culmina</w><pc n="pc1">,</pc> <w n="w5">Chrance</w><pc n="pc2">,</pc> <w n="w6">iugi</w><pc n="pc3">.</pc></l>
+              <l n="l6"><w n="w1">Vsque</w> <w n="w2">ad</w> <w n="w3" ana="estlocus1">Pierii</w> <w n="w4">culmina</w><pc n="pc1">,</pc> <w n="w5">Chrance</w><pc n="pc2">,</pc> <w n="w6">iugi</w><pc n="pc3">.</pc></l>
               <l n="l7"><w n="w1">Carmina</w> <w n="w2">cum</w> <w n="w3">Musis</w> <w n="w4">tibi</w> <w n="w5">tunc</w> <w n="w6">dictabit</w> <w n="w7">Apollo</w><pc n="pc">,</pc></l>
               <l n="l8"><w n="w1">Quę</w> <w n="w2">pręsens</w> <w n="w3">ętas</w> <w n="w4">posteriorque</w> <w n="w5">leget</w><pc n="pc">.</pc></l>
               <l n="l9"><w n="w1">Ergo</w> <w n="w2">primitias</w> <w n="w3">frugum</w><pc n="pc1">,</pc> <w n="w4">iucunde</w><pc n="pc2">,</pc> <w n="w5">tuarum</w></l>
@@ -731,11 +731,11 @@
               <l n="l2"><w n="w1">Dulcius</w> <w n="w2">est</w> <w n="w3">cęna</w> <w n="w4">carmen</w> <w n="w5">cantante</w> <w n="w6">Marino</w><pc n="pc">.</pc></l>
             </div><div n="div12" xml:id="C84">
               <head n="head"><w n="w1">In</w> <w n="w2">Hieronymum</w> <w n="w3">Papalem</w><pc n="pc">,</pc> <w n="w4">psalocitharistam</w> <w n="w5">omnium</w> <w n="w6">pręstantissimum</w></head>
-              <l n="l1"><w n="w1">Cantibus</w> <w n="w2">Orphei</w> <w n="w3" ana="estlocus3">Rhodope</w> <w n="w4">lętetur</w> <w n="w5">et</w> <w n="w6" ana="estlocus3">Hemus</w><pc n="pc">,</pc></l>
-              <l n="l2"><w n="w1" ana="estlocus1">Thebe</w> <w n="w2" ana="estlocus0">Amphioniam</w> <w n="w3">laudet</w> <w n="w4">ametque</w> <w n="w5">lyram</w><pc n="pc">;</pc></l>
+              <l n="l1"><w n="w1">Cantibus</w> <w n="w2">Orphei</w> <w n="w3" ana="estlocus0">Rhodope</w> <w n="w4">lętetur</w> <w n="w5">et</w> <w n="w6" ana="estlocus0">Hemus</w><pc n="pc">,</pc></l>
+              <l n="l2"><w n="w1" ana="estlocus1">Thebe</w> <w n="w2" ana="estlocus4">Amphioniam</w> <w n="w3">laudet</w> <w n="w4">ametque</w> <w n="w5">lyram</w><pc n="pc">;</pc></l>
               <l n="l3"><w n="w1">Pandus</w> <w n="w2">et</w> <w n="w3">argutum</w> <w n="w4">quod</w> <w n="w5">gessit</w> <w n="w6">Ariona</w> <w n="w7">delphin</w><pc n="pc">,</pc></l>
               <l n="l4"><w n="w1">Hoc</w> <w n="w2" ana="estlocus1">Metimna</w> <w n="w3">super</w> <w n="w4">sydera</w> <w n="w5">cuncta</w> <w n="w6">ferat</w><pc n="pc">.</pc></l>
-              <l n="l5"><w n="w1">Gloria</w> <w n="w2">non</w> <w n="w3">leuior</w> <w n="w4" ana="estlocus4">Spalatinę</w> <w n="w5">contigit</w> <w n="w6">urbi</w><pc n="pc">:</pc></l>
+              <l n="l5"><w n="w1">Gloria</w> <w n="w2">non</w> <w n="w3">leuior</w> <w n="w4" ana="estlocus2">Spalatinę</w> <w n="w5">contigit</w> <w n="w6">urbi</w><pc n="pc">:</pc></l>
               <l n="l6"><w n="w1">Hieronymum</w> <w n="w2">quo</w> <w n="w3">se</w> <w n="w4">tam</w> <w n="w5">bene</w> <w n="w6">iactet</w> <w n="w7">habet</w><pc n="pc">.</pc></l>
               <l n="l7"><w n="w1">Huic</w> <w n="w2">admirantes</w> <w n="w3">plaudunt</w> <w n="w4">hominesque</w> <w n="w5">deique</w></l>
               <l n="l8"><w n="w1">Quum</w> <w n="w2">cytharam</w> <w n="w3">digitis</w> <w n="w4">pulsat</w> <w n="w5">et</w> <w n="w6">ore</w> <w n="w7">canit</w><pc n="pc">.</pc></l>
@@ -800,9 +800,9 @@
         </front>
         <body n="body">
           <div n="div1" xml:id="C89">
-              <head n="head"><w n="w1">De</w> <w n="w2">uirtute</w> <w n="w3">animique</w> <w n="w4">pręstantia</w> <w n="w5">Dominici</w> <w n="w6">Manlipetri</w><pc n="pc1">,</pc> <w n="w7" ana="estlocus1">Venetę</w> <w n="w8">classis</w> <w n="w9">pręfecti</w><pc n="pc2">,</pc>
+              <head n="head"><w n="w1">De</w> <w n="w2">uirtute</w> <w n="w3">animique</w> <w n="w4">pręstantia</w> <w n="w5">Dominici</w> <w n="w6">Manlipetri</w><pc n="pc1">,</pc> <w n="w7" ana="estlocus4">Venetę</w> <w n="w8">classis</w> <w n="w9">pręfecti</w><pc n="pc2">,</pc>
                 <w n="w10">cum</w> <w n="w11" ana="estlocus1">Pisas</w> <w n="w12">obsedione</w> <w n="w13">liberauit</w> <w n="w14">iuuitque</w> <w n="w15">frumento</w></head>
-              <l n="l1"><w n="w1" ana="estlocus1">Pisa</w><pc n="pc">,</pc> <w n="w2" ana="estlocus4">Fluentinę</w> <w n="w3">quę</w> <w n="w4">multo</w> <w n="w5">tempore</w> <w n="w6">genti</w></l>
+              <l n="l1"><w n="w1" ana="estlocus1">Pisa</w><pc n="pc">,</pc> <w n="w2" ana="estlocus1">Fluentinę</w> <w n="w3">quę</w> <w n="w4">multo</w> <w n="w5">tempore</w> <w n="w6">genti</w></l>
               <l n="l2"><w n="w1">Seruisti</w> <w n="w2">indignum</w> <w n="w3">ferre</w> <w n="w4">coacta</w> <w n="w5">iugum</w><pc n="pc">,</pc></l>
               <l n="l3"><w n="w1">Gaude</w><pc n="pc">!</pc> <w n="w2">Nam</w> <w n="w3" ana="estlocus4">Venetum</w> <w n="w4">tibi</w> <w n="w5">parta</w> <w n="w6">potentibus</w> <w n="w7">armis</w></l>
               <l n="l4"><w n="w1">Libertas</w> <w n="w2">ueteri</w> <w n="w3">sorte</w> <w n="w4">rediit</w> <w n="w5">melior</w><pc n="pc">,</pc></l>
@@ -832,7 +832,7 @@
               </sp>
               <sp n="sp3">
                 <speaker n="speaker"><w n="w">Autor</w><pc n="pc">:</pc></speaker>
-                <l n="l"><w n="w1">Vade</w><pc n="pc1">,</pc> <w n="w2">sed</w> <w n="w3">in</w> <w n="w4" ana="estlocus4">Venetos</w> <w n="w5">arma</w> <w n="w6">mouere</w> <w n="w7">caue</w><pc n="pc2">.</pc></l>
+                <l n="l"><w n="w1">Vade</w><pc n="pc1">,</pc> <w n="w2">sed</w> <w n="w3">in</w> <w n="w4" ana="estlocus3">Venetos</w> <w n="w5">arma</w> <w n="w6">mouere</w> <w n="w7">caue</w><pc n="pc2">.</pc></l>
               </sp>
               <sp n="sp4">
                 <speaker n="speaker"><w n="w">Cęsar</w><pc n="pc">:</pc></speaker>
@@ -849,7 +849,7 @@
               </sp>
               <sp n="sp7">
                 <speaker n="speaker"><w n="w">Autor</w><pc n="pc">:</pc></speaker>
-                <l n="l"><w n="w1">Huic</w> <w n="w2">fidis</w><pc n="pc1">,</pc> <w n="w3" ana="estlocus4">Venetis</w> <w n="w4">qui</w> <w n="w5">dedit</w> <w n="w6">ipse</w> <w n="w7">togam</w><pc n="pc2">?</pc></l>
+                <l n="l"><w n="w1">Huic</w> <w n="w2">fidis</w><pc n="pc1">,</pc> <w n="w3" ana="estlocus3">Venetis</w> <w n="w4">qui</w> <w n="w5">dedit</w> <w n="w6">ipse</w> <w n="w7">togam</w><pc n="pc2">?</pc></l>
               </sp>
               <sp n="sp8">
                 <speaker n="speaker"><w n="w">Cęsar</w><pc n="pc">:</pc></speaker>
@@ -934,7 +934,7 @@
             </div><div n="div7" xml:id="C95">
               <head n="head"><w n="w1">De</w> <w n="w2" ana="estlocus0">Gallis</w> <w n="w3">et</w> <w n="w4" ana="estlocus0">Hispanis</w> <w n="w5">inter</w> <w n="w6">se</w> <w n="w7">bellantibus</w></head>
               <l n="l1"><w n="w1">Inter</w> <w n="w2">sese</w> <w n="w3">odiis</w> <w n="w4">nimio</w> <w n="w5">furore</w> <w n="w6">calentes</w></l>
-              <l n="l2"><w n="w1" ana="estlocus0">Gallus</w> <w n="w2">et</w> <w n="w3" ana="estlocus0">Hispanus</w> <w n="w4">bella</w> <w n="w5">cruenta</w> <w n="w6">gerunt</w><pc n="pc">.</pc></l>
+              <l n="l2"><w n="w1" ana="estlocus3">Gallus</w> <w n="w2">et</w> <w n="w3" ana="estlocus3">Hispanus</w> <w n="w4">bella</w> <w n="w5">cruenta</w> <w n="w6">gerunt</w><pc n="pc">.</pc></l>
               <l n="l3"><w n="w1">Infensus</w> <w n="w2">genti</w> <w n="w3">Maumetes</w> <w n="w4">Christicolarum</w></l>
               <l n="l4"><w n="w1">Nititur</w> <w n="w2">imperio</w> <w n="w3">subdere</w> <w n="w4">cuncta</w> <w n="w5">suo</w><pc n="pc">.</pc></l>
               <l n="l5"><w n="w1">Hi</w> <w n="w2">cum</w> <w n="w3">se</w> <w n="w4">multis</w> <w n="w5">consument</w> <w n="w6">cędibus</w><pc n="pc1">,</pc> <w n="w7">ille</w> <pc n="pc2">—</pc></l>
@@ -1002,7 +1002,7 @@
               <l n="l16"><w n="w1">Stamine</w> <w n="w2">Parcarum</w> <w n="w3">prosperiore</w> <w n="w4">frui</w><pc n="pc">?</pc></l>
             </div><div n="div12" xml:id="C100">
               <head n="head"><w n="w1">Quod</w> <w n="w2">omnia</w> <w n="w3">prospera</w> <w n="w4">sperare</w> <w n="w5">liceat</w> <w n="w6">Andrea</w> <w n="w7">Gritto</w> <w n="w8" ana="estlocus4">Venetorum</w> <w n="w9">principe</w></head>
-              <l n="l1"><w n="w1">Spirabit</w> <w n="w2">faciles</w> <w n="w3" ana="estlocus4">Venetis</w> <w n="w4">pater</w> <w n="w5" ana="estlocus0">Eolus</w> <w n="w6">auras</w></l>
+              <l n="l1"><w n="w1">Spirabit</w> <w n="w2">faciles</w> <w n="w3" ana="estlocus3">Venetis</w> <w n="w4">pater</w> <w n="w5" ana="estlocus0">Eolus</w> <w n="w6">auras</w></l>
               <l n="l2"><w n="w1">Neptunusque</w> <w n="w2">fauens</w> <w n="w3">ęquora</w> <w n="w4">tuta</w> <w n="w5">dabit</w><pc n="pc">;</pc></l>
               <l n="l3"><w n="w1">Flaua</w> <w n="w2">Ceres</w> <w n="w3">fruges</w> <w n="w4">et</w> <w n="w5">dulces</w> <w n="w6">Bromius</w> <w n="w7">uuas</w></l>
               <l n="l4"><w n="w1">Incipient</w> <w n="w2">larga</w> <w n="w3">suppeditare</w> <w n="w4">manu</w><pc n="pc">;</pc></l>
@@ -1010,9 +1010,9 @@
               <l n="l6"><w n="w1">Hic</w> <w n="w2">etenim</w> <w n="w3">lucris</w> <w n="w4">fertur</w> <w n="w5">adesse</w> <w n="w6">deus</w><pc n="pc">;</pc></l>
               <l n="l7"><w n="w1">Pręstabit</w> <w n="w2">claros</w> <w n="w3">uicto</w> <w n="w4">Mars</w> <w n="w5">hoste</w> <w n="w6">triumphos</w></l>
               <l n="l8"><w n="w1">Et</w> <w n="w2" ana="estlocus4">Venetum</w> <w n="w3">domitus</w> <w n="w4">uiribus</w> <w n="w5">orbis</w> <w n="w6">erit</w><pc n="pc">.</pc></l>
-              <l n="l9"><w n="w1">Annuet</w> <w n="w2">his</w> <w n="w3">magni</w> <w n="w4">magnus</w> <w n="w5">regnator</w> <w n="w6" ana="estlocus0">Olympi</w></l>
+              <l n="l9"><w n="w1">Annuet</w> <w n="w2">his</w> <w n="w3">magni</w> <w n="w4">magnus</w> <w n="w5">regnator</w> <w n="w6" ana="estlocus4">Olympi</w></l>
               <l n="l10"><w n="w1">Et</w> <w n="w2">rata</w><pc n="pc1">,</pc> <w n="w3">quę</w> <w n="w4">fieri</w> <w n="w5">uiderit</w><pc n="pc2">,</pc> <w n="w6">esse</w> <w n="w7">uolet</w><pc n="pc3">.</pc></l>
-              <l n="l11"><w n="w1" ana="estlocusX">Nil</w> <w n="w2">non</w> <w n="w3">sperandum</w> <w n="w4">est</w> <w n="w5">Andrea</w> <w n="w6">principe</w> <w n="w7">Gritto</w><pc n="pc">,</pc></l>
+              <l n="l11"><w n="w1" ana="estlocus0">Nil</w> <w n="w2">non</w> <w n="w3">sperandum</w> <w n="w4">est</w> <w n="w5">Andrea</w> <w n="w6">principe</w> <w n="w7">Gritto</w><pc n="pc">,</pc></l>
               <l n="l12"><w n="w1">Omnes</w> <w n="w2">quem</w> <w n="w3">pariter</w> <w n="w4">diique</w> <w n="w5">hominesque</w> <w n="w6">colunt</w><pc n="pc">.</pc></l>
             </div><div n="div13" xml:id="C101">
               <head n="head"><w n="w1">Ad</w> <w n="w2">Clementem</w> <w n="w3">VII</w><pc n="pc">.</pc> <w n="w4" ana="estlocus0">Pontificem</w> <w n="w5">Maximum</w></head>
@@ -1029,7 +1029,7 @@
               <l n="l11"><w n="w1">Hac</w> <w n="w2">ratione</w> <w n="w3">tamen</w> <w n="w4">nobis</w> <w n="w5">potes</w> <w n="w6">ipse</w> <w n="w7">mederi</w></l>
               <l n="l12"><w n="w1">Et</w> <w n="w2">tanto</w><pc n="pc1">,</pc> <w n="w3">o</w> <w n="w4" ana="estlocus0">Medices</w><pc n="pc2">,</pc> <w n="w5">obuius</w> <w n="w6">ire</w> <w n="w7">malo</w><pc n="pc3">,</pc></l>
               <l n="l13"><w n="w1">Christicolam</w> <w n="w2">populum</w> <w n="w3">si</w> <w n="w4">cogas</w> <w n="w5">foedus</w> <w n="w6">in</w> <w n="w7">unum</w></l>
-              <l n="l14"><w n="w1" ana="estlocus4">Turcarum</w> <w n="w2">ut</w> <w n="w3">ualidas</w> <w n="w4">frangere</w> <w n="w5">possit</w> <w n="w6">opes</w><pc n="pc">.</pc></l>
+              <l n="l14"><w n="w1" ana="estlocus0">Turcarum</w> <w n="w2">ut</w> <w n="w3">ualidas</w> <w n="w4">frangere</w> <w n="w5">possit</w> <w n="w6">opes</w><pc n="pc">.</pc></l>
               <l n="l15"><w n="w1">Hi</w> <w n="w2">sunt</w> <w n="w3">qui</w> <w n="w4">cupiunt</w> <w n="w5">cunctos</w> <w n="w6">delere</w> <w n="w7">fideles</w></l>
               <l n="l16"><w n="w1">Et</w> <w n="w2">uiolare</w> <w n="w3">tuo</w> <w n="w4">templa</w> <w n="w5">dicata</w> <w n="w6">Deo</w><pc n="pc">.</pc></l>
               <l n="l17"><w n="w1">Hi</w> <w n="w2">tibi</w> <w n="w3">commisso</w> <w n="w4">generi</w> <w n="w5">fera</w> <w n="w6">bella</w> <w n="w7">mouentes</w></l>
@@ -1063,7 +1063,7 @@
               <l n="l3"><w n="w1">Ast</w> <w n="w2">illę</w> <w n="w3">offensę</w> <w n="w4">diro</w> <w n="w5">ructantis</w> <w n="w6">odore</w></l>
               <l n="l4"><w n="w1">Conuersis</w> <w n="w2">capiunt</w> <w n="w3">passibus</w> <w n="w4">inde</w> <w n="w5">fugam</w><pc n="pc">.</pc></l>
               <l n="l5"><w n="w1">Lautius</w> <w n="w2">hinc</w> <w n="w3">pransus</w> <w n="w4">tentat</w> <w n="w5">reuocare</w> <w n="w6">fugaces</w><pc n="pc">,</pc></l>
-              <l n="l6"><w n="w1">Sed</w> <w n="w2">neque</w> <w n="w3">sic</w> <w n="w4">pranso</w> <w n="w5" ana="estlocus0">Pieris</w> <w n="w6">ulla</w> <w n="w7">fauet</w><pc n="pc">.</pc></l>
+              <l n="l6"><w n="w1">Sed</w> <w n="w2">neque</w> <w n="w3">sic</w> <w n="w4">pranso</w> <w n="w5" ana="estlocus4">Pieris</w> <w n="w6">ulla</w> <w n="w7">fauet</w><pc n="pc">.</pc></l>
               <l n="l7"><w n="w1">Mitte</w> <w n="w2">aliis</w> <w n="w3">igitur</w> <w n="w4">condendi</w> <w n="w5">carmina</w> <w n="w6">curam</w><pc n="pc">:</pc></l>
               <l n="l8"><w n="w1">Tu</w> <w n="w2">tantum</w> <w n="w3">uentrem</w><pc n="pc1">,</pc> <w n="w4">Pamphage</w><pc n="pc2">,</pc> <w n="w5">pasce</w> <w n="w6">tuum</w><pc n="pc3">!</pc></l>
             </div><div n="div2">
@@ -1134,8 +1134,8 @@
               <l n="l6"><w n="w1">Cum</w> <w n="w2">fueris</w><pc n="pc1">,</pc> <w n="w3">superis</w> <w n="w4">sacrificabo</w> <w n="w5">deis</w><pc n="pc2">.</pc></l>
             </div><div n="div13" xml:id="C114">
               <head n="head"><w n="w1">Ad</w> <w n="w2">Bartholum</w> <w n="w3" ana="estlocus4">Illyricum</w></head>
-              <l n="l1"><w n="w1" ana="estlocus4">Gallica</w> <w n="w2">te</w> <w n="w3">uestis</w> <w n="w4">designat</w><pc n="pc1">,</pc> <w n="w5">Barthole</w><pc n="pc2">,</pc> <w n="w6" ana="estlocus0">Gallum</w><pc n="pc3">;</pc></l>
-              <l n="l2"><w n="w1">Lingua</w> <w n="w2">sed</w> <w n="w3" ana="estlocus4">Illyricum</w> <w n="w4">te</w> <w n="w5">genus</w> <w n="w6">esse</w> <w n="w7">docet</w><pc n="pc">.</pc></l>
+              <l n="l1"><w n="w1" ana="estlocus0">Gallica</w> <w n="w2">te</w> <w n="w3">uestis</w> <w n="w4">designat</w><pc n="pc1">,</pc> <w n="w5">Barthole</w><pc n="pc2">,</pc> <w n="w6" ana="estlocus0">Gallum</w><pc n="pc3">;</pc></l>
+              <l n="l2"><w n="w1">Lingua</w> <w n="w2">sed</w> <w n="w3" ana="estlocus0">Illyricum</w> <w n="w4">te</w> <w n="w5">genus</w> <w n="w6">esse</w> <w n="w7">docet</w><pc n="pc">.</pc></l>
               <l n="l3"><w n="w1">Elinguis</w> <w n="w2">fias</w> <w n="w3">posthac</w> <w n="w4">et</w> <w n="w5">mutus</w> <w n="w6">oportet</w></l>
               <l n="l4"><w n="w1">Hunc</w> <w n="w2">te</w><pc n="pc1">,</pc> <w n="w3">qui</w> <w n="w4">non</w> <w n="w5">es</w><pc n="pc2">,</pc> <w n="w6">Barthole</w><pc n="pc3">,</pc> <w n="w7">ut</w> <w n="w8">esse</w> <w n="w9">putem</w><pc n="pc4">.</pc></l>
             </div><div n="div14" xml:id="C115" met="hendecasyllabus">
@@ -1243,7 +1243,7 @@
               <l n="l2"><w n="w1">Inclusam</w> <w n="w2" ana="estlocus0">Danaem</w> <w n="w3">ferrea</w> <w n="w4">turris</w> <w n="w5">habet</w><pc n="pc">.</pc></l>
               <l n="l3"><w n="w1">Auriferos</w><pc n="pc1">,</pc> <w n="w2">mihi</w> <w n="w3">crede</w><pc n="pc2">,</pc> <w n="w4">feras</w> <w n="w5">nisi</w><pc n="pc3">,</pc> <w n="w6">Iuppiter</w><pc n="pc4">,</pc> <w n="w7">imbres</w><pc n="pc5">,</pc></l>
               <l n="l4"><w n="w1">Damnabis</w> <w n="w2">durę</w> <w n="w3">limina</w> <w n="w4">clausa</w> <w n="w5">domus</w><pc n="pc">.</pc> =</l>
-              <l n="l5"><w n="w1">Aurum</w> <w n="w2" ana="estlocus4">Sauromatas</w><pc n="pc1">,</pc> <w n="w3" ana="estlocus4">Parthos</w><pc n="pc2">,</pc> <w n="w4" ana="estlocus4">Tracesque</w> <w n="w5" ana="estlocus4">Getasque</w></l>
+              <l n="l5"><w n="w1">Aurum</w> <w n="w2" ana="estlocus0">Sauromatas</w><pc n="pc1">,</pc> <w n="w3" ana="estlocus0">Parthos</w><pc n="pc2">,</pc> <w n="w4" ana="estlocus0">Tracesque</w> <w n="w5" ana="estlocus0">Getasque</w></l>
               <l n="l6"><w n="w1">Perdomuit</w> <w n="w2">populos</w><pc n="pc1">,</pc> <w n="w3">oppida</w><pc n="pc2">,</pc> <w n="w4">castra</w><pc n="pc3">,</pc> <w n="w5">duces</w><pc n="pc4">.</pc></l>
             </div><div n="div28" xml:id="C129">
               <head n="head"><w n="w1">In</w> <w n="w2">Marcum</w> <w n="w3">Suitarizam</w> <w n="w4">uxori</w> <w n="w5">odiosum</w></head>
@@ -1447,7 +1447,7 @@
               </head>
               <l n="l1"><w n="w1">Qui</w> <w n="w2">toties</w> <w n="w3">sęuum</w> <w n="w4">saturauit</w> <w n="w5">sanguine</w> <w n="w6">Martem</w></l>
               <l n="l2"><w n="w1">Obtulit</w> <w n="w2">et</w> <w n="w3">magno</w> <w n="w4">parta</w> <w n="w5">trophea</w> <w n="w6">Ioui</w><pc n="pc">,</pc></l>
-              <l n="l3"><w n="w1">Hic</w> <w n="w2">iacet</w> <w n="w3">insidiis</w> <w n="w4" ana="estlocus4">Turcarum</w> <w n="w5">uictus</w> <w n="w6">et</w> <w n="w7">astu</w><pc n="pc">:</pc></l>
+              <l n="l3"><w n="w1">Hic</w> <w n="w2">iacet</w> <w n="w3">insidiis</w> <w n="w4" ana="estlocus0">Turcarum</w> <w n="w5">uictus</w> <w n="w6">et</w> <w n="w7">astu</w><pc n="pc">:</pc></l>
               <l n="l4"><w n="w1">Xarcus</w><pc n="pc1">,</pc> <w n="w2" ana="estlocus4">Dalmaticum</w> <w n="w3">gloria</w> <w n="w4">prima</w> <w n="w5">ducum</w><pc n="pc2">.</pc></l>
               <l n="l5"><w n="w1">Hic</w> <w n="w2">potius</w> <w n="w3">uoluit</w> <w n="w4">ferro</w> <w n="w5">confossus</w> <w n="w6">obire</w></l>
               <l n="l6"><w n="w1">Pectora</w><pc n="pc1">,</pc> <w n="w2">quam</w> <w n="w3">turpi</w> <w n="w4">uertere</w> <w n="w5">terga</w> <w n="w6">fuga</w><pc n="pc2">.</pc></l>
@@ -1457,7 +1457,7 @@
               <head n="head"><w n="w1">Aliud</w> <w n="w2">eiusdem</w></head>
               <l n="l1"><w n="w1">Hic</w> <w n="w2">Xarcus</w> <w n="w3">iacet</w> <w n="w4">ille</w> <w n="w5">qui</w> <w n="w6">solebat</w></l>
               <l n="l2"><w n="w1">Ingentes</w> <w n="w2">minima</w> <w n="w3">manu</w> <w n="w4">cohortes</w></l>
-              <l n="l3"><w n="w1" ana="estlocusX*">Turcarum</w> <w n="w2">rigido</w> <w n="w3">fugare</w> <w n="w4">Marte</w><pc n="pc">.</pc></l>
+              <l n="l3"><w n="w1" ana="estlocus4">Turcarum</w> <w n="w2">rigido</w> <w n="w3">fugare</w> <w n="w4">Marte</w><pc n="pc">.</pc></l>
               <l n="l4"><w n="w1">Quiuit</w> <w n="w2">non</w> <w n="w3">alio</w> <w n="w4">perire</w> <w n="w5">fato</w></l>
               <l n="l5"><w n="w1">Hostis</w> <w n="w2">quam</w> <w n="w3">ualida</w> <w n="w4">phalange</w> <w n="w5">et</w> <w n="w6">astu</w><pc n="pc">.</pc></l>
             </div><div n="div17" xml:id="C151" met="hendecasyllabus">
@@ -1543,7 +1543,7 @@
               <l n="l7"><w n="w1">Errorum</w> <w n="w2">tenebras</w> <w n="w3">ueri</w> <w n="w4">splendore</w> <w n="w5">fugauit</w><pc n="pc">,</pc></l>
               <l n="l8"><w n="w1">Assiduus</w> <w n="w2">recti</w> <w n="w3">doctor</w> <w n="w4">et</w> <w n="w5">autor</w> <w n="w6">erat</w><pc n="pc">,</pc></l>
               <l n="l9"><w n="w1">Et</w> <w n="w2">Latię</w> <w n="w3">et</w> <w n="w4" ana="estlocus4">Graię</w> <w n="w5">callebat</w> <w n="w6">Palladis</w> <w n="w7">artes</w><pc n="pc">,</pc></l>
-              <l n="l10"><w n="w1">Nouerat</w> <w n="w2" ana="estlocus4">Hebraice</w> <w n="w3">Caldaiceque</w> <w n="w4">loqui</w><pc n="pc">.</pc></l>
+              <l n="l10"><w n="w1">Nouerat</w> <w n="w2" ana="estlocus0">Hebraice</w> <w n="w3">Caldaiceque</w> <w n="w4">loqui</w><pc n="pc">.</pc></l>
               <l n="l11"><w n="w1">His</w> <w n="w2">tamen</w> <w n="w3">ingenii</w> <w n="w4">magnis</w> <w n="w5">insignibus</w> <w n="w6">olim</w></l>
               <l n="l12"><w n="w1">Sancte</w> <w n="w2">actę</w> <w n="w3">uitę</w> <w n="w4">gloria</w> <w n="w5">maior</w> <w n="w6">erat</w><pc n="pc">.</pc></l>
             </div><div n="div26" xml:id="C160">
@@ -1558,7 +1558,7 @@
               <head n="head"><w n="w1">De</w> <w n="w2">Durato</w> <w n="w3">equo</w></head>
               <l n="l1"><w n="w1">Gloria</w> <w n="w2">nobilium</w> <w n="w3">iacet</w> <w n="w4">hic</w> <w n="w5">Duratus</w> <w n="w6">equorum</w><pc n="pc">,</pc></l>
               <l n="l2"><w n="w1">Qui</w> <w n="w2">potuit</w> <w n="w3">currum</w><pc n="pc1">,</pc> <w n="w4" ana="estlocus0">Phoebe</w><pc n="pc2">,</pc> <w n="w5">decere</w> <w n="w6">tuum</w><pc n="pc3">.</pc></l>
-              <l n="l3"><w n="w1">Ocior</w> <w n="w2">hic</w> <w n="w3">uentis</w><pc n="pc1">,</pc> <w n="w4" ana="estlocus0">Euro</w><pc n="pc2">,</pc> <w n="w5">Zephiroque</w> <w n="w6" ana="estlocusX">Notoque</w></l>
+              <l n="l3"><w n="w1">Ocior</w> <w n="w2">hic</w> <w n="w3">uentis</w><pc n="pc1">,</pc> <w n="w4" ana="estlocus0">Euro</w><pc n="pc2">,</pc> <w n="w5">Zephiroque</w> <w n="w6" ana="estlocus0">Notoque</w></l>
               <l n="l4"><w n="w1">Non</w> <w n="w2">potuit</w> <w n="w3">mortem</w> <w n="w4">pręteriisse</w> <w n="w5">feram</w><pc n="pc">.</pc></l>
             </div><div n="div28" xml:id="C162">
               <head n="head"><w n="w1">De</w> <w n="w2">morte</w> <w n="w3">accipitris</w> <w n="w4">Marini</w></head>
@@ -1644,7 +1644,7 @@
               <l n="l66"><w n="w1">Est</w> <w n="w2">ubi</w> <w n="w3">perpetui</w> <w n="w4">mansio</w> <w n="w5">certa</w> <w n="w6">boni</w><pc n="pc">,</pc></l>
               <l n="l67"><w n="w1">Christicolas</w> <w n="w2">immensa</w> <w n="w3">beant</w> <w n="w4">ubi</w> <w n="w5">gaudia</w> <w n="w6">fidos</w><pc n="pc">,</pc></l>
               <l n="l68"><w n="w1">Gaudia</w> <w n="w2">non</w> <w n="w3">ulla</w> <w n="w4">deperitura</w> <w n="w5">die</w><pc n="pc">.</pc></l>
-              <l n="l69"><w n="w1" ana="estlocusX">Nil</w> <w n="w2">hostile</w> <w n="w3">timent</w><pc n="pc1">,</pc> <w n="w4">nec</w> <w n="w5">quicquam</w> <w n="w6">triste</w> <w n="w7">uerentur</w><pc n="pc2">,</pc></l>
+              <l n="l69"><w n="w1" ana="estlocus0">Nil</w> <w n="w2">hostile</w> <w n="w3">timent</w><pc n="pc1">,</pc> <w n="w4">nec</w> <w n="w5">quicquam</w> <w n="w6">triste</w> <w n="w7">uerentur</w><pc n="pc2">,</pc></l>
               <l n="l70"><w n="w1">Conspectum</w> <w n="w2">summi</w> <w n="w3">qui</w> <w n="w4">meruere</w> <w n="w5">Dei</w><pc n="pc">.</pc></l>
               <l n="l71"><w n="w1">Ipse</w> <w n="w2">quidem</w> <w n="w3">nobis</w> <w n="w4">cęlesti</w> <w n="w5">in</w> <w n="w6">lumine</w> <w n="w7">sedem</w></l>
               <l n="l72"><w n="w1">Esse</w> <w n="w2">iubet</w><pc n="pc1">,</pc> <w n="w3">non</w> <w n="w4">quam</w> <w n="w5">nunc</w> <w n="w6">habitamus</w> <w n="w7">humum</w><pc n="pc2">.</pc></l>
@@ -1685,7 +1685,7 @@
               <l n="l17"><w n="w1">Nunc</w> <w n="w2">illo</w> <w n="w3">amisso</w> <w n="w4">successit</w> <w n="w5">cura</w> <w n="w6">quieti</w><pc n="pc">,</pc></l>
               <l n="l18"><w n="w1">Dispulit</w> <w n="w2">adueniens</w> <w n="w3">ocia</w> <w n="w4">longa</w> <w n="w5">labor</w><pc n="pc">,</pc></l>
               <l n="l19"><w n="w1">Quęque</w> <w n="w2">aderant</w> <w n="w3">nobis</w> <w n="w4">procul</w> <w n="w5">effugere</w> <w n="w6">Camenę</w></l>
-              <l n="l20"><w n="w1">Deseruitque</w> <w n="w2">meam</w> <w n="w3" ana="estlocus3">Pegasis</w> <w n="w4">unda</w> <w n="w5">sitim</w><pc n="pc">.</pc></l>
+              <l n="l20"><w n="w1">Deseruitque</w> <w n="w2">meam</w> <w n="w3" ana="estlocus2">Pegasis</w> <w n="w4">unda</w> <w n="w5">sitim</w><pc n="pc">.</pc></l>
               <l n="l21"><w n="w1">Denique</w> <w n="w2">pressus</w> <w n="w3">ego</w> <w n="w4">tantorum</w> <w n="w5">mille</w> <w n="w6">laborum</w></l>
               <l n="l22"><w n="w1">Optabam</w> <w n="w2">uitę</w> <w n="w3">fila</w> <w n="w4">suprema</w> <w n="w5">meę</w><pc n="pc">.</pc></l>
               <l n="l23"><w n="w1">Ast</w> <w n="w2">ubi</w> <w n="w3">missa</w> <w n="w4">mihi</w> <w n="w5">tua</w> <w n="w6">nuper</w> <w n="w7">carmina</w> <w n="w8">legi</w><pc n="pc">,</pc></l>
@@ -1703,7 +1703,7 @@
               <l n="l5"><w n="w1">Tu</w> <w n="w2">mihi</w> <w n="w3">blanda</w> <w n="w4">dabas</w> <w n="w5">festiuo</w> <w n="w6">gaudia</w> <w n="w7">gestu</w></l>
               <l n="l6"><w n="w1">Et</w> <w n="w2">caudę</w> <w n="w3">crebra</w> <w n="w4">mobilitate</w> <w n="w5">iocum</w><pc n="pc">.</pc></l>
               <l n="l7"><w n="w1">Tu</w> <w n="w2">custos</w> <w n="w3">nostrę</w> <w n="w4">fueras</w> <w n="w5">fidissimus</w> <w n="w6">aulę</w><pc n="pc">,</pc></l>
-              <l n="l8"><w n="w1" ana="estlocus0">Hesperidumque</w> <w n="w2">magis</w><pc n="pc1">,</pc> <w n="w3">Fusce</w><pc n="pc2">,</pc> <w n="w4">dracone</w> <w n="w5">uigil</w><pc n="pc3">.</pc></l>
+              <l n="l8"><w n="w1" ana="estlocus4">Hesperidumque</w> <w n="w2">magis</w><pc n="pc1">,</pc> <w n="w3">Fusce</w><pc n="pc2">,</pc> <w n="w4">dracone</w> <w n="w5">uigil</w><pc n="pc3">.</pc></l>
               <l n="l9"><w n="w1">At</w> <w n="w2">nunc</w> <w n="w3">uulnifico</w> <w n="w4">traiectus</w> <w n="w5">uiscera</w> <w n="w6">ferro</w></l>
               <l n="l10"><w n="w1">In</w> <w n="w2">dura</w> <w n="w3">recubas</w> <w n="w4">sanguinolentus</w> <w n="w5">humo</w><pc n="pc">.</pc></l>
               <l n="l11"><w n="w1">Dextera</w> <w n="w2">sęua</w> <w n="w3">nimis</w><pc n="pc1">,</pc> <w n="w4">quę</w> <w n="w5">te</w><pc n="pc2">,</pc> <w n="w6">miserande</w><pc n="pc3">,</pc> <w n="w7">peremit</w><pc n="pc4">,</pc></l>
@@ -1757,7 +1757,7 @@
             </div><div n="div5" xml:id="C167" met="elegiacum" type="poesis-elegia">
               <head n="head"><w n="w1">Ad</w> <w n="w2">Franciscum</w> <w n="w3" ana="estlocus0">Martiniacum</w> <w n="w4">quod</w> <w n="w5">senectus</w> <w n="w6">non</w> <w n="w7">annis</w> <w n="w8">sed</w> <w n="w9">ualetudine</w> <w n="w10">conferenda</w> <w n="w11">est</w></head>
               <l n="l1"><w n="w1">Sum</w> <w n="w2">quoniam</w><pc n="pc1">,</pc> <w n="w3">Francisce</w><pc n="pc2">,</pc> <w n="w4">tibi</w> <w n="w5">charissimus</w> <w n="w6">unus</w></l>
-              <l n="l2"><w n="w1">Optas</w> <w n="w2">me</w> <w n="w3">multas</w> <w n="w4">uiuere</w> <w n="w5" ana="estlocusX">Olympiadas</w><pc n="pc">;</pc></l>
+              <l n="l2"><w n="w1">Optas</w> <w n="w2">me</w> <w n="w3">multas</w> <w n="w4">uiuere</w> <w n="w5" ana="estlocus0">Olympiadas</w><pc n="pc">;</pc></l>
               <l n="l3"><w n="w1">Hoc</w> <w n="w2">propter</w> <w n="w3">uotis</w> <w n="w4">diuos</w> <w n="w5">precibusque</w> <w n="w6">fatigas</w></l>
               <l n="l4"><w n="w1">Nec</w> <w n="w2">cessas</w> <w n="w3">sacris</w> <w n="w4">thura</w> <w n="w5">cremare</w> <w n="w6">focis</w><pc n="pc">.</pc></l>
               <l n="l5"><w n="w1">Accipe</w> <w n="w2">sed</w> <w n="w3">quare</w> <w n="w4">longeuę</w> <w n="w5">tempora</w> <w n="w6">uitę</w></l>
@@ -1947,7 +1947,7 @@
               <l n="l26"><w n="w1">Quęque</w> <w n="w2">suis</w> <w n="w3">discreta</w> <w n="w4">locis</w> <w n="w5">secedere</w> <w n="w6">certa</w></l>
               <l n="l27"><w n="w1">Lege</w> <w n="w2">iubes</w><pc n="pc1">,</pc> <w n="w3">magno</w> <w n="w4">complectens</w> <w n="w5">omnia</w> <w n="w6">cęlo</w><pc n="pc2">;</pc></l>
               <l n="l28"><w n="w1">Tu</w> <w n="w2">clarum</w> <w n="w3">Titana</w> <w n="w4">creas</w><pc n="pc">,</pc> <w n="w5">qui</w> <w n="w6">lumine</w> <w n="w7">largo</w></l>
-              <l n="l29"><w n="w1">Sydereum</w> <w n="w2">circum</w> <w n="w3">curru</w> <w n="w4">uectatus</w> <w n="w5" ana="estlocus0">Olympum</w></l>
+              <l n="l29"><w n="w1">Sydereum</w> <w n="w2">circum</w> <w n="w3">curru</w> <w n="w4">uectatus</w> <w n="w5" ana="estlocus4">Olympum</w></l>
               <l n="l30"><w n="w1">Alternas</w> <w n="w2">nobis</w> <w n="w3">rediens</w> <w n="w4">daret</w> <w n="w5">ordine</w> <w n="w6">luces</w><pc n="pc">;</pc></l>
               <l n="l31"><w n="w1">Tu</w> <w n="w2">roseum</w> <w n="w3">lunę</w> <w n="w4">uultum</w> <w n="w5">stellasque</w> <w n="w6">minores</w><pc n="pc">,</pc></l>
               <l n="l32"><w n="w1">Vt</w><pc n="pc1">,</pc> <w n="w2">dum</w> <w n="w3">lentus</w> <w n="w4">habet</w> <w n="w5">mortalia</w> <w n="w6">corpora</w> <w n="w7">somnus</w><pc n="pc2">,</pc></l>
@@ -2035,7 +2035,7 @@
               <l n="l114"><w n="w1">Nulla</w> <w n="w2">queunt</w><pc n="pc1">:</pc> <w n="w3">hic</w> <w n="w4">est</w><pc n="pc2">,</pc> <w n="w5">hic</w> <w n="w6">est</w> <w n="w7">et</w> <w n="w8">trinus</w> <w n="w9">et</w> <w n="w10">unus</w><pc n="pc3">,</pc></l>
               <l n="l115"><w n="w1">Terrarum</w> <w n="w2">cęlique</w> <w n="w3">potens</w><pc n="pc1">,</pc> <w n="w4">quem</w> <pc n="pc2">(</pc><w n="w5">ut</w> <w n="w6">spero</w><pc n="pc3">)</pc> <w n="w7">facultas</w></l>
               <l n="l116"><w n="w1">Visendi</w> <w n="w2">dabitur</w> <w n="w3">tunc</w> <w n="w4">cum</w> <w n="w5">tellure</w> <w n="w6">leuatis</w></l>
-              <l n="l117"><w n="w1">Stelliferi</w> <w n="w2">nobis</w> <w n="w3">aditus</w> <w n="w4">reserabit</w> <w n="w5" ana="estlocus0">Olympi</w><pc n="pc">.</pc></l>
+              <l n="l117"><w n="w1">Stelliferi</w> <w n="w2">nobis</w> <w n="w3">aditus</w> <w n="w4">reserabit</w> <w n="w5" ana="estlocus4">Olympi</w><pc n="pc">.</pc></l>
             </div><div n="div3" xml:id="C170" met="Sapphicum" type="poesis-hymnus">
               <head n="head"><w n="w1">In</w> <w n="w2">natalitio</w> <w n="w3">Sancti</w> <w n="w4">Raynerii</w> <w n="w5">archiepiscopi</w> <w n="w6" ana="estlocus4">Spalatensis</w> <w n="w7">pro</w> <w n="w8">iure</w> <w n="w9">ecclesię</w> <w n="w10">tuendo</w>
                 <w n="w11">interempti</w> <w n="w12">martyrioque</w> <w n="w13">coronati</w> <w n="w14">hymnus</w></head>
@@ -2194,7 +2194,7 @@
                 <l n="l22"><w n="w1">Carnem</w> <w n="w2">non</w> <w n="w3">ueram</w><pc n="pc1">,</pc> <w n="w4">Christe</w><pc n="pc2">,</pc> <w n="w5">fuisse</w> <w n="w6">Tuam</w><pc n="pc3">.</pc></l>
                 <l n="l23"><w n="w1" ana="estlocus1">Hieropoli</w> <w n="w2" ana="estlocus1">Phrygię</w> <w n="w3">post</w> <w n="w4">hęc</w> <w n="w5">comprensus</w> <w n="w6">in</w> <w n="w7">urbe</w></l>
                 <l n="l24"><w n="w1">Bis</w> <w n="w2">septem</w> <w n="w3">ętatis</w> <w n="w4">lustra</w> <w n="w5">senilis</w> <w n="w6">agens</w><pc n="pc">,</pc></l>
-                <l n="l25"><w n="w1" ana="estlocusX">Nil</w> <w n="w2">metuens</w> <w n="w3">dum</w> <w n="w4">uera</w> <w n="w5">docet</w><pc n="pc">,</pc> <w n="w6">crucifigitur</w> <w n="w7">ergo</w></l>
+                <l n="l25"><w n="w1" ana="estlocus0">Nil</w> <w n="w2">metuens</w> <w n="w3">dum</w> <w n="w4">uera</w> <w n="w5">docet</w><pc n="pc">,</pc> <w n="w6">crucifigitur</w> <w n="w7">ergo</w></l>
                 <l n="l26"><w n="w1">Et</w> <w n="w2">multo</w> <w n="w3">lapidum</w> <w n="w4">uerbere</w> <w n="w5">fractus</w> <w n="w6">obit</w><pc n="pc">.</pc></l>
                 <l n="l27"><w n="w1">Illic</w> <w n="w2">illius</w> <w n="w3">sunt</w> <w n="w4">condita</w> <w n="w5">membra</w> <w n="w6">sepulchro</w><pc n="pc">,</pc></l>
                 <l n="l28"><w n="w1">Ast</w> <w n="w2">animus</w> <w n="w3">cęli</w> <w n="w4">regna</w> <w n="w5">superna</w> <w n="w6">tenet</w><pc n="pc">.</pc></l>
@@ -2202,7 +2202,7 @@
               </div>
               <div n="div4" xml:id="C175">
                 <head n="head"><w n="w">Bartholomęus</w></head>
-                <l n="l1"><w n="w1">Regia</w> <w n="w2">progenies</w> <w n="w3" ana="estlocus4">Indorum</w> <w n="w4">Bartholomęus</w><pc n="pc">,</pc></l>
+                <l n="l1"><w n="w1">Regia</w> <w n="w2">progenies</w> <w n="w3" ana="estlocus0">Indorum</w> <w n="w4">Bartholomęus</w><pc n="pc">,</pc></l>
                 <l n="l2"><w n="w1">Sponte</w> <w n="w2">tamen</w> <w n="w3">seruus</w><pc n="pc1">,</pc> <w n="w4">maxime</w> <w n="w5">Christe</w><pc n="pc2">,</pc> <w n="w6">Tuus</w><pc n="pc3">:</pc></l>
                 <l n="l3"><w n="w1">Vsque</w> <w n="w2">adeo</w> <w n="w3">seruire</w> <w n="w4">Tibi</w> <w n="w5">quam</w> <w n="w6">sceptra</w> <w n="w7">tenere</w></l>
                 <l n="l4"><w n="w1">Pręstat</w> <w n="w2">et</w> <w n="w3">innumeris</w> <w n="w4">imperitare</w> <w n="w5">uiris</w><pc n="pc">.</pc></l>
@@ -2234,7 +2234,7 @@
                 <head n="head"><w n="w1">Iacobus</w> <w n="w2">Zebedei</w></head>
                 <l n="l1"><w n="w1">Ipse</w> <w n="w2">Zebedei</w> <w n="w3">Iacobus</w> <w n="w4">filius</w> <w n="w5">olim</w><pc n="pc">,</pc></l>
                 <l n="l2"><w n="w1">Nunc</w> <w n="w2">factus</w> <w n="w3">magni</w> <w n="w4">filius</w> <w n="w5">ecce</w> <w n="w6">Dei</w><pc n="pc">,</pc></l>
-                <l n="l3"><w n="w1">Et</w> <w n="w2" ana="estlocus4">Samaritanis</w> <w n="w3">Christum</w> <w n="w4">simul</w> <w n="w5">et</w> <w n="w6" ana="estlocus4">Solymitis</w></l>
+                <l n="l3"><w n="w1">Et</w> <w n="w2" ana="estlocus0">Samaritanis</w> <w n="w3">Christum</w> <w n="w4">simul</w> <w n="w5">et</w> <w n="w6" ana="estlocus0">Solymitis</w></l>
                 <l n="l4"><w n="w1">Prędicat</w> <w n="w2">et</w> <w n="w3">quę</w> <w n="w4">sint</w> <w n="w5">inde</w> <w n="w6">tenenda</w> <w n="w7">docet</w><pc n="pc">.</pc></l>
                 <l n="l5"><w n="w1">Transit</w> <w n="w2">ad</w> <w n="w3" ana="estlocus3">Hispanos</w> <w n="w4">atque</w> <w n="w5">his</w> <w n="w6">monstrauit</w> <w n="w7">Iesum</w><pc n="pc">,</pc></l>
                 <l n="l6"><w n="w1">Mox</w> <w n="w2">repetit</w> <w n="w3">fines</w><pc n="pc1">,</pc> <w n="w4">gens</w> <w n="w5">recutita</w><pc n="pc2">,</pc> <w n="w6">tuos</w><pc n="pc3">.</pc></l>
@@ -2341,7 +2341,7 @@
                 <l n="l1"><w n="w1">Mattheus</w><pc n="pc1">,</pc> <w n="w2">hic</w> <w n="w3">Leui</w> <w n="w4">quondam</w> <w n="w5">cognomine</w> <w n="w6">dictus</w><pc n="pc2">,</pc></l>
                 <l n="l2"><w n="w1">Diuinum</w> <w n="w2">Christi</w> <w n="w3">scripsit</w> <w n="w4">euangelium</w><pc n="pc">.</pc></l>
                 <l n="l3"><w n="w1">Hic</w> <w n="w2">in</w> <w n="w3" ana="estlocus1">Iudea</w> <w n="w4">doctrinę</w> <w n="w5">semina</w> <w n="w6">sanctę</w></l>
-                <l n="l4"><w n="w1">In</w> <w n="w2" ana="estlocus3">Macedum</w> <w n="w3">campos</w> <w n="w4">sparsit</w> <w n="w5">et</w> <w n="w6" ana="estlocus3">Ęthiopum</w><pc n="pc">.</pc></l>
+                <l n="l4"><w n="w1">In</w> <w n="w2" ana="estlocus2">Macedum</w> <w n="w3">campos</w> <w n="w4">sparsit</w> <w n="w5">et</w> <w n="w6" ana="estLocus2">Ęthiopum</w><pc n="pc">.</pc></l>
                 <l n="l5"><w n="w1">Metropolis</w> <w n="w2" ana="estlocus1">Nadabar</w> <w n="w3">circumdata</w> <w n="w4">moenibus</w> <w n="w5">altis</w></l>
                 <l n="l6"><w n="w1">Stabat</w><pc n="pc1">,</pc> <w n="w2">diues</w> <w n="w3">opum</w><pc n="pc2">,</pc> <w n="w4">Marte</w> <w n="w5">uirisque</w> <w n="w6">potens</w><pc n="pc3">.</pc></l>
                 <l n="l7"><w n="w1">Hunc</w> <w n="w2">eunuchus</w> <w n="w3">ibi</w> <w n="w4">quem</w> <w n="w5">iam</w> <w n="w6">baptisma</w> <w n="w7">Philippi</w></l>
@@ -2446,7 +2446,7 @@
                 <l n="l5"><w n="w1">Cum</w> <w n="w2">tamen</w> <w n="w3">e</w> <w n="w4">geminis</w> <w n="w5">foret</w> <w n="w6">unus</w> <w n="w7">sufficiendus</w><pc n="pc">,</pc></l>
                 <l n="l6"><w n="w1">Visa</w> <w n="w2">est</w> <w n="w3">Matthiam</w> <w n="w4">sors</w> <w n="w5">cecidisse</w> <w n="w6">super</w><pc n="pc">.</pc></l>
                 <l n="l7"><w n="w1">Explicat</w> <w n="w2">hic</w> <w n="w3">Christi</w> <w n="w4" ana="estlocus2">Iudea</w> <w n="w5">per</w> <w n="w6">oppida</w> <w n="w7">leges</w></l>
-                <l n="l8"><w n="w1" ana="estlocusX">Nil</w> <w n="w2">metuens</w> <w n="w3">Domini</w> <w n="w4">iussa</w> <w n="w5">sequendo</w> <w n="w6">sui</w><pc n="pc">.</pc></l>
+                <l n="l8"><w n="w1" ana="estlocus0">Nil</w> <w n="w2">metuens</w> <w n="w3">Domini</w> <w n="w4">iussa</w> <w n="w5">sequendo</w> <w n="w6">sui</w><pc n="pc">.</pc></l>
                 <l n="l9"><w n="w1">Inter</w> <w n="w2">discipulos</w> <w n="w3">iam</w> <w n="w4">post</w> <w n="w5">miracula</w> <w n="w6">claro</w></l>
                 <l n="l10"><w n="w1">Mors</w> <w n="w2">equidem</w> <w n="w3">soli</w> <w n="w4">non</w> <w n="w5">uiolenta</w> <w n="w6">fuit</w><pc n="pc">.</pc></l>
                 <l n="l11"><w n="w1">Sunt</w> <w n="w2">quoque</w> <w n="w3">qui</w> <w n="w4">dicant</w> <w n="w5" ana="estlocus4">Romano</w> <w n="w6">more</w> <w n="w7">securi</w></l>
@@ -2509,7 +2509,7 @@
               </div>
               <div n="div13" xml:id="C184">
                 <head n="head"><w n="w">Barnabas</w></head>
-                <l n="l1"><w n="w1" ana="estlocus4">Cypria</w> <w n="w2">progenies</w> <w n="w3">Barnabas</w> <w n="w4">atque</w> <w n="w5">Leuites</w></l>
+                <l n="l1"><w n="w1" ana="estlocus0">Cypria</w> <w n="w2">progenies</w> <w n="w3">Barnabas</w> <w n="w4">atque</w> <w n="w5">Leuites</w></l>
                 <l n="l2"><w n="w1">Luca</w> <w n="w2">teste</w> <w n="w3">sacro</w> <w n="w4">pneumate</w> <w n="w5">plenus</w> <w n="w6">erat</w><pc n="pc">.</pc></l>
                 <l n="l3"><w n="w1">Hic</w> <w n="w2">collega</w> <w n="w3">datus</w> <w n="w4">Paulo</w> <w n="w5">fuit</w> <w n="w6">urbeque</w> <w n="w7" ana="estlocus1">Tharso</w></l>
                 <l n="l4"><w n="w1">Inter</w> <w n="w2">se</w> <w n="w3">iuncti</w> <w n="w4">longius</w> <w n="w5">ire</w> <w n="w6">parant</w><pc n="pc">.</pc></l>
@@ -2537,7 +2537,7 @@
                 <l n="l26"><w n="w1">Matthei</w> <w n="w2">secum</w> <w n="w3">scripta</w> <w n="w4">sacrata</w> <w n="w5">ferens</w><pc n="pc">.</pc></l>
                 <l n="l27"><w n="w1">His</w> <w n="w2">morbo</w> <w n="w3">affectos</w> <w n="w4">tangens</w> <w n="w5">langore</w> <w n="w6">leuauit</w><pc n="pc">,</pc></l>
                 <l n="l28"><w n="w1">Hęc</w> <w n="w2">relegens</w> <w n="w3">uitę</w> <w n="w4">pharmaca</w> <w n="w5">certa</w> <w n="w6">dabat</w><pc n="pc">.</pc></l>
-                <l n="l29"><w n="w1">Hunc</w> <w n="w2" ana="estlocus1">Salaminę</w> <w n="w3">gens</w> <w n="w4">tandem</w> <w n="w5">impia</w> <w n="w6" ana="estlocus4">Iudeorum</w></l>
+                <l n="l29"><w n="w1">Hunc</w> <w n="w2" ana="estlocus1">Salaminę</w> <w n="w3">gens</w> <w n="w4">tandem</w> <w n="w5">impia</w> <w n="w6" ana="estlocus0">Iudeorum</w></l>
                 <l n="l30"><w n="w1">Flagranti</w> <w n="w2">impositum</w> <w n="w3">iussit</w> <w n="w4">obire</w> <w n="w5">rogo</w><pc n="pc">.</pc></l>
                 <l n="l31"><w n="w1">Atque</w> <w n="w2">ita</w> <w n="w3">martyrii</w> <w n="w4">redimitus</w> <w n="w5">et</w> <w n="w6">ipse</w> <w n="w7">corona</w></l>
                 <l n="l32"><w n="w1">Adhęsit</w> <w n="w2">Domino</w> <w n="w3">lętus</w> <w n="w4">ouansque</w> <w n="w5">suo</w><pc n="pc">.</pc></l>
@@ -2551,8 +2551,8 @@
                 <l n="l2"><w n="w1">Hieronymus</w> <w n="w2">toto</w> <w n="w3">notus</w> <w n="w4">in</w> <w n="w5">orbe</w> <w n="w6">fuit</w><pc n="pc">.</pc></l>
                 <l n="l3"><w n="w1">Inter</w> <w n="w2">Catholicos</w> <w n="w3">unus</w> <w n="w4">facundior</w> <w n="w5">omnes</w><pc n="pc">,</pc></l>
                 <l n="l4"><w n="w1">Iudice</w> <w n="w2">me</w><pc n="pc1">,</pc> <w n="w3">magno</w> <w n="w4">nec</w> <w n="w5">Cicerone</w> <w n="w6">minor</w><pc n="pc2">.</pc></l>
-                <l n="l5"><w n="w1" ana="estlocus4">Cecropia</w> <w n="w2">doctus</w> <w n="w3">lingua</w> <w n="w4">doctusque</w> <w n="w5" ana="estlocus4">Latina</w><pc n="pc">,</pc></l>
-                <l n="l6"><w n="w1" ana="estlocus4">Hebraicos</w> <w n="w2">didicit</w> <w n="w3">Chaldaicosque</w> <w n="w4">sonos</w><pc n="pc">.</pc></l>
+                <l n="l5"><w n="w1" ana="estlocus0">Cecropia</w> <w n="w2">doctus</w> <w n="w3">lingua</w> <w n="w4">doctusque</w> <w n="w5" ana="estlocus0">Latina</w><pc n="pc">,</pc></l>
+                <l n="l6"><w n="w1" ana="estlocus0">Hebraicos</w> <w n="w2">didicit</w> <w n="w3">Chaldaicosque</w> <w n="w4">sonos</w><pc n="pc">.</pc></l>
                 <l n="l7"><w n="w1">Felix</w> <w n="w2">tam</w> <w n="w3">uarię</w> <w n="w4">donis</w> <w n="w5">donate</w> <w n="w6">loquellę</w><pc n="pc">,</pc></l>
                 <l n="l8"><w n="w1">Ingenio</w> <w n="w2">multum</w><pc n="pc1">,</pc> <w n="w3">nec</w> <w n="w4">minus</w> <w n="w5">arte</w> <w n="w6">ualens</w><pc n="pc2">!</pc></l>
                 <l n="l9"><w n="w1">Te</w> <w n="w2">Scripturarum</w> <w n="w3">castigatore</w> <w n="w4">recessit</w></l>
@@ -2612,7 +2612,7 @@
                 <l n="l6"><w n="w1">Cur</w> <w n="w2">non</w> <w n="w3">et</w> <w n="w4">magno</w> <w n="w5">credimus</w> <w n="w6">Ambrosio</w><pc n="pc">?</pc></l>
                 <l n="l7"><w n="w1">Par</w> <w n="w2">fandi</w> <w n="w3">splendore</w> <w n="w4">fuit</w><pc n="pc">,</pc> <w n="w5">moderamine</w> <w n="w6">uitę</w></l>
                 <l n="l8"><w n="w1">Sanctior</w> <w n="w2">et</w> <w n="w3">ueri</w> <w n="w4">cognitione</w> <w n="w5">prior</w><pc n="pc">.</pc></l>
-                <l n="l9"><w n="w1">Hic</w> <w n="w2">postquam</w> <w n="w3" ana="estlocus3">Insubrum</w> <w n="w4">pręses</w> <w n="w5">peruenit</w> <w n="w6">ad</w> <w n="w7">urbem</w><pc n="pc">,</pc></l>
+                <l n="l9"><w n="w1">Hic</w> <w n="w2">postquam</w> <w n="w3" ana="estlocus2">Insubrum</w> <w n="w4">pręses</w> <w n="w5">peruenit</w> <w n="w6">ad</w> <w n="w7">urbem</w><pc n="pc">,</pc></l>
                 <l n="l10"><w n="w1" ana="estlocus0">Pontificis</w> <w n="w2">fungi</w> <w n="w3">cogitur</w> <w n="w4">officio</w><pc n="pc">.</pc></l>
                 <l n="l11"><w n="w1">Tunc</w> <w n="w2">morum</w> <w n="w3">monstrauit</w> <w n="w4">iter</w><pc n="pc">,</pc> <w n="w5">consurgere</w> <w n="w6">lapsos</w></l>
                 <l n="l12"><w n="w1">Iussit</w> <w n="w2">et</w> <w n="w3">exterso</w> <w n="w4">cautius</w> <w n="w5">ire</w> <w n="w6">pede</w><pc n="pc">.</pc></l>
@@ -2624,7 +2624,7 @@
                 <l n="l18"><w n="w1">Scripserit</w><pc n="pc1">,</pc> <w n="w2">hoc</w> <w n="w3">dices</w> <w n="w4">uerius</w> <w n="w5">esse</w> <w n="w6">nihil</w><pc n="pc2">.</pc></l>
                 <l n="l19"><w n="w1">Inspice</w><pc n="pc1">,</pc> <w n="w2">pręterea</w><pc n="pc2">,</pc> <w n="w3">quicquid</w><pc n="pc3">,</pc> <w n="w4">dum</w> <w n="w5">uita</w> <w n="w6">manebat</w><pc n="pc4">,</pc></l>
                 <l n="l20"><w n="w1">Gesserit</w><pc n="pc1">,</pc> <w n="w2">hoc</w> <w n="w3">dices</w> <w n="w4">iustius</w> <w n="w5">esse</w> <w n="w6">nihil</w><pc n="pc2">.</pc></l>
-                <l n="l21"><w n="w1">Ergo</w> <w n="w2">sydereum</w> <w n="w3">merito</w> <w n="w4">conscendit</w> <w n="w5" ana="estlocus0">Olympum</w></l>
+                <l n="l21"><w n="w1">Ergo</w> <w n="w2">sydereum</w> <w n="w3">merito</w> <w n="w4">conscendit</w> <w n="w5" ana="estlocus4">Olympum</w></l>
                 <l n="l22"><w n="w1">Et</w> <w n="w2">fruitur</w> <w n="w3">summis</w> <w n="w4">perpetuisque</w> <w n="w5">bonis</w><pc n="pc">.</pc></l>
               </div>
               <div n="div3" xml:id="C187" met="elegiacum">
@@ -2669,7 +2669,7 @@
                 <opener n="opener"><w n="w1">M</w><pc n="pc1">.</pc> <w n="w2">Marulus</w> <w n="w3">Hieronymo</w> <w n="w4">Papali</w> <w n="w5">salutem</w><pc n="pc2">.</pc></opener>
                 <p n="p1"><w n="w1">Nuper</w> <w n="w2">petenti</w> <w n="w3">tibi</w> <w n="w4">ut</w> <w n="w5">Francisci</w> <w n="w6">Petrarchę</w><pc n="pc1">,</pc> <w n="w7">inter</w> <w n="w8" ana="estlocus4">Thuscos</w> <w n="w9">poetas</w> <w n="w10">facundissimi</w><pc n="pc2">,</pc> <w n="w11">de</w>
                   <w n="w12">beata</w> <w n="w13">Maria</w> <w n="w14">matre</w> <w n="w15">semper</w> <w n="w16">uirgine</w> <w n="w17">cantilenam</w> <w n="w18">suo</w> <w n="w19">uernaculo</w> <w n="w20">sermone</w> <w n="w21">compositam</w>
-                  <w n="w22" ana="estlocus4">Latinam</w> <w n="w23">facerem</w><pc n="pc3">,</pc> <w n="w24">negare</w> <w n="w25">non</w> <w n="w26">potui</w><pc n="pc4">,</pc> <w n="w27">licet</w> <w n="w28">enim</w> <w n="w29">partim</w> <w n="w30">ingenii</w> <w n="w31">eruditionisque</w> <w n="w32">meę</w>
+                  <w n="w22" ana="estlocus0">Latinam</w> <w n="w23">facerem</w><pc n="pc3">,</pc> <w n="w24">negare</w> <w n="w25">non</w> <w n="w26">potui</w><pc n="pc4">,</pc> <w n="w27">licet</w> <w n="w28">enim</w> <w n="w29">partim</w> <w n="w30">ingenii</w> <w n="w31">eruditionisque</w> <w n="w32">meę</w>
                   <w n="w33">paruitas</w><pc n="pc5">,</pc> <w n="w34">partim</w> <w n="w35">ipsa</w> <w n="w36">uertendi</w> <w n="w37">difficultas</w> <w n="w38">ab</w> <w n="w39">eo</w> <w n="w40">me</w> <w n="w41">non</w> <w n="w42">parum</w> <w n="w43">dehortarentur</w><pc n="pc6">.</pc> <w n="w44">Sunt</w>
                   <w n="w45">quippe</w> <w n="w46">linguarum</w> <w n="w47">proprietates</w> <w n="w48">quędam</w> <w n="w49">ita</w> <w n="w50">natura</w> <w n="w51">comparatę</w> <w n="w52">ut</w> <w n="w53">multa</w> <w n="w54">quę</w> <w n="w55">in</w> <w n="w56">alio</w>
                   <w n="w57">idiomate</w> <w n="w58">apte</w><pc n="pc7">,</pc> <w n="w59">apposite</w> <w n="w60">lepideque</w> <w n="w61">dicuntur</w> <w n="w62">in</w> <w n="w63">aliud</w> <w n="w64">conuersa</w> <w n="w65">degenerare</w> <w n="w66">uideantur</w>
@@ -2910,7 +2910,7 @@
               </sp>
               <sp n="sp4" who="uiator">
                 <l n="l1"><pc n="pc1">»</pc><w n="w1">Quid</w> <w n="w2">faciam</w><pc n="pc2">?</pc> <w n="w3">Ducta</w> <w n="w4">est</w><pc n="pc3">.</pc> <w n="w5">Misero</w> <w n="w6">succurre</w> <w n="w7">marito</w><pc n="pc4">!</pc><pc n="pc5">«</pc></l>
-                <l n="l2"><pc n="pc1">»</pc><w n="w1">Ducta</w> <w n="w2">est</w> <w n="w3" ana="estlocus4">Parthenope</w> <w n="w4">si</w> <w n="w5">tibi</w><pc n="pc2">,</pc> <w n="w6">uiue</w> <w ana="estlocus1" n="w7">Senis</w><pc n="pc3">!</pc><pc n="pc4">«</pc></l>
+                <l n="l2"><pc n="pc1">»</pc><w n="w1">Ducta</w> <w n="w2">est</w> <w n="w3" ana="estlocus3">Parthenope</w> <w n="w4">si</w> <w n="w5">tibi</w><pc n="pc2">,</pc> <w n="w6">uiue</w> <w ana="estlocus1" n="w7">Senis</w><pc n="pc3">!</pc><pc n="pc4">«</pc></l>
               </sp>
             </div>
         </body>

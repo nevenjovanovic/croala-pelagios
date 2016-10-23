@@ -216,11 +216,11 @@
               <w n="w1">Cur</w>
               <w n="w2">mea</w>
               <w n="w3">dicta</w>
-              <w n="w4">Charis</w>
+              <w ana="estlocus0" n="w4">Charis</w>
               <pc n="pc1">,</pc>
               <w n="w5">cur</w>
-              <w n="w6">Gratia</w>
-              <w n="w7">Musa</w>
+              <w ana="estlocus0" n="w6">Gratia</w>
+              <w ana="estlocus0" n="w7">Musa</w>
               <w n="w8">uocata</w>
               <w n="w9">est</w>
               <pc n="pc2">?</pc>
@@ -232,7 +232,7 @@
               <w n="w3">et</w>
               <w n="w4">totum</w>
               <w n="w5">hoc</w>
-              <w n="w6">Gratia</w>
+              <w ana="estlocus0" n="w6">Gratia</w>
               <w n="w7">condit</w>
               <w n="w8">opus</w>
               <pc n="pc2">.</pc>
@@ -261,7 +261,7 @@
             <l n="l5">
               <w n="w1">Cur</w>
               <w n="w2">deus</w>
-              <w n="w3">Alcides</w>
+              <w ana="estlocus0" n="w3">Alcides</w>
               <w n="w4">ualida</w>
               <w n="w5">domat</w>
               <w n="w6">omnia</w>
@@ -297,18 +297,18 @@
                   <w n="w5">Oliuerio</w>
                   <w n="w6">Carraphe</w>
                   <w n="w7">Cardinali</w>
-                  <w n="w8">Neapolitano</w>
+                  <w ana="estlocus1" n="w8">Neapolitano</w>
                   <w n="w9">episcopo</w>
-                  <w n="w10">Sabinensi</w>
+                  <w ana="estlocus1" n="w10">Sabinensi</w>
                   <w n="w11">protectori</w>
-                  <w n="w12">Ragusino</w>
+                  <w ana="estlocus1" n="w12">Ragusino</w>
                   <w n="w13">Iacobus</w>
                   <w n="w14">Bonus</w>
                 </rdg>
                 <rdg n="rdg2" wit="#R2 #Gl">
                   <w n="w1">IACOBVS</w>
                   <w n="w2">BONVS</w>
-                  <w n="w3">RACVSAEORVM</w>
+                  <w ana="estlocus1" n="w3">RACVSAEORVM</w>
                   <w n="w4">ORATOR</w>
                   <w n="w5">AD</w>
                   <w n="w6">LEONEM</w>
@@ -319,31 +319,31 @@
               </app>
             </head>
             <l met="hendecasyllabus" n="l1">
-              <w n="w1">Diuas</w>
+              <w ana="estlocus0" n="w1">Diuas</w>
               <pc n="pc">,</pc>
               <w n="w2">quae</w>
-              <w n="w3">Paphiam</w>
+              <w ana="estlocus1" n="w3">Paphiam</w>
               <w n="w4">deam</w>
               <w n="w5">colentem</w>
             </l>
             <l met="hendecasyllabus" n="l2">
               <w n="w1">Siluas</w>
-              <w n="w2">Idalii</w>
+              <w ana="estlocus1" n="w2">Idalii</w>
               <w n="w3">et</w>
               <w n="w4">nemus</w>
-              <w n="w5">Cytheri</w>
+              <w ana="estlocus4" n="w5">Cytheri</w>
             </l>
             <l met="hendecasyllabus" n="l3">
               <w n="w1">Formosam</w>
               <w n="w2">faciunt</w>
-              <w n="w3">Apollinemque</w>
+              <w ana="estlocus0" n="w3">Apollinemque</w>
               <pc n="pc">,</pc>
             </l>
             <l met="hendecasyllabus" n="l4">
-              <w n="w1">Musas</w>
+              <w ana="estlocus0" n="w1">Musas</w>
               <pc n="pc1">,</pc>
-              <w n="w2">Pallada</w>
-              <w n="w3">Liberumque</w>
+              <w ana="estlocus0" n="w2">Pallada</w>
+              <w ana="estlocus0" n="w3">Liberumque</w>
               <w n="w4">patrem</w>
               <pc n="pc2">,</pc>
             </l>
@@ -375,7 +375,7 @@
                 <rdg n="rdg2" wit="#R2 #Gl">
                   <w n="w1">Qui</w>
                   <w n="w2">Christum</w>
-                  <w n="w3">Herculea</w>
+                  <w ana="estlocus0" n="w3">Herculea</w>
                   <w n="w4">canunt</w>
                   <w n="w5">figura</w>
                   <pc n="pc">,</pc>
@@ -435,11 +435,11 @@
                   <w n="w5">uertis</w>
                 </rdg>
                 <rdg n="rdg2" wit="#R2 #Gl">
-                  <w n="w1">Orbes</w>
+                  <w ana="estlocus4" n="w1">Orbes</w>
                   <w n="w2">quem</w>
                   <w n="w3">decimum</w>
                   <w n="w4">uocant</w>
-                  <w n="w5">Leonem</w>
+                  <w ana="estlocus0" n="w5">Leonem</w>
                   <pc n="pc">.</pc>
                 </rdg>
               </app>
@@ -470,7 +470,7 @@
                 <rdg n="rdg1" wit="#R1 #Cu">
                   <w n="w1">Et</w>
                   <w n="w2">dono</w>
-                  <w n="w3">Herculeum</w>
+                  <w ana="estlocus0" n="w3">Herculeum</w>
                   <w n="w4">damus</w>
                   <w n="w5">laborem</w>
                   <pc n="pc">:</pc>
@@ -519,7 +519,7 @@
                 </rdg>
                 <rdg n="rdg2" wit="#R2 #Gl">
                   <w n="w1">De</w>
-                  <w n="w2">Iudae</w>
+                  <w ana="estlocus0" n="w2">Iudae</w>
                   <w n="w3">catuli</w>
                   <w n="w4">tribu</w>
                   <w n="w5">leonis</w>
@@ -530,7 +530,7 @@
             <l met="hendecasyllabus" n="l14">
               <app n="app">
                 <rdg n="rdg1" wit="#R1 #Cu">
-                  <w n="w1">Vrbis</w>
+                  <w ana="estlocus4" n="w1">Vrbis</w>
                   <pc n="pc1">:</pc>
                   <w n="w2">que</w>
                   <w n="w3">illyrici</w>
@@ -581,11 +581,11 @@
         <head n="head">
           <w n="w1">IACOBI</w>
           <w n="w2">BONI</w>
-          <w n="w3">RACVSAEI</w>
+          <w ana="estlocus1" n="w3">RACVSAEI</w>
           <w n="w4">SVB</w>
           <w n="w5">FIGVRA</w>
           <w n="w6">HERCVLIS</w>
-          <w n="w7">CHRISTI</w>
+          <w ana="estlocus0" n="w7">CHRISTI</w>
           <w n="w8">PRAELVDIVM</w>
           <w n="w9">DEDICATVM</w>
           <w n="w10">LEONI</w>
@@ -595,10 +595,10 @@
           <w n="w12">LIBER</w>
           <w n="w13">PRIMVS</w>
           <pc n="pc">:</pc>
-          <w n="w14">AGLAIA</w>
+          <w ana="estlocus0" n="w14">AGLAIA</w>
         </head>
         <l met="hexameter" n="l1">
-          <w n="w1">Taenarias</w>
+          <w ana="estlocus1" n="w1">Taenarias</w>
           <w n="w2">fauces</w>
           <w n="w3">et</w>
           <w n="w4">debellata</w>
@@ -606,7 +606,7 @@
         </l>
         <l met="hexameter" n="l2">
           <w n="w1">Regna</w>
-          <w n="w2">Iouis</w>
+          <w ana="estlocus0" n="w2">Iouis</w>
           <w n="w3">soliumque</w>
           <w n="w4">canam</w>
           <pc n="pc">,</pc>
@@ -627,7 +627,7 @@
               <w n="w1">domuisse</w>
               <w n="w2">canem</w>
               <w n="w3">ui</w>
-              <w n="w4">Marteque</w>
+              <w ana="estlocus0" n="w4">Marteque</w>
             </rdg>
           </app>
           <w n="w2">fertur</w>
@@ -643,7 +643,7 @@
         </l>
         <l met="hexameter" n="l5">
           <w n="w1">Monstra</w>
-          <w n="w2">Mycenaeo</w>
+          <w ana="estlocus1" n="w2">Mycenaeo</w>
           <app n="app">
             <rdg n="rdg1" wit="#R1 #Cu #Sn">
               <w n="w">domuit</w>
@@ -661,7 +661,7 @@
           <w n="w1">Victor</w>
           <pc n="pc1">,</pc>
           <w n="w2">et</w>
-          <w n="w3">Oechalicas</w>
+          <w ana="estlocus1" n="w3">Oechalicas</w>
           <w n="w4">euertit</w>
           <w n="w5">funditus</w>
           <w n="w6">arces</w>
@@ -671,9 +671,9 @@
           <w n="w1">Adsis</w>
           <pc n="pc1">,</pc>
           <w n="w2">o</w>
-          <w n="w3">Helicona</w>
+          <w ana="estlocus4" n="w3">Helicona</w>
           <w n="w4">tuens</w>
-          <w n="w5">Iouis</w>
+          <w ana="estlocus0" n="w5">Iouis</w>
           <w n="w6">alma</w>
           <w n="w7">propago</w>
           <pc n="pc2">,</pc>
@@ -681,7 +681,7 @@
         <l met="hexameter" n="l8">
           <w n="w1">Numine</w>
           <pc n="pc1">,</pc>
-          <w n="w2">Phoebe</w>
+          <w ana="estlocus0" n="w2">Phoebe</w>
           <pc n="pc2">,</pc>
           <w n="w3">potens</w>
           <w n="w4">uario</w>
@@ -691,7 +691,7 @@
           <w n="w7">princeps</w>
         </l>
         <l met="hexameter" n="l9">
-          <w n="w1">Astra</w>
+          <w ana="estlocus0" n="w1">Astra</w>
           <w n="w2">tenes</w>
           <pc n="pc1">,</pc>
           <w n="w3">seu</w>
@@ -703,7 +703,7 @@
           <w n="w8">circum</w>
         </l>
         <l met="hexameter" n="l10">
-          <w n="w1">Pieridum</w>
+          <w ana="estlocus0" n="w1">Pieridum</w>
           <w n="w2">te</w>
           <w n="w3">turba</w>
           <w n="w4">choro</w>
@@ -711,7 +711,7 @@
           <w n="w6">coronat</w>
         </l>
         <l met="hexameter" n="l11">
-          <w n="w1">Enthea</w>
+          <w ana="estlocus0" n="w1">Enthea</w>
           <w n="w2">uocali</w>
           <w n="w3">modulantem</w>
           <w n="w4">carmina</w>
@@ -721,18 +721,18 @@
         <l met="hexameter" n="l12">
           <w n="w1">Seu</w>
           <w n="w2">tua</w>
-          <w n="w3">Latoo</w>
+          <w ana="estlocus4" n="w3">Latoo</w>
           <w n="w4">potius</w>
           <w n="w5">cunabula</w>
-          <w n="w6">Cyntho</w>
+          <w ana="estlocus4" n="w6">Cyntho</w>
         </l>
         <l met="hexameter" n="l13">
           <w n="w1">Flammiferae</w>
           <w n="w2">seu</w>
           <w n="w3">templa</w>
           <w n="w4">colis</w>
-          <w n="w5">Patarea</w>
-          <w n="w6">Chimaerae</w>
+          <w ana="estlocus1" n="w5">Patarea</w>
+          <w ana="estlocus1" n="w6">Chimaerae</w>
           <pc n="pc">.</pc>
         </l>
         <l met="hexameter" n="l14">
@@ -740,9 +740,9 @@
           <w n="w2">te</w>
           <w n="w3">ad</w>
           <w n="w4">uulgatum</w>
-          <w n="w5">Thymbraee</w>
+          <w ana="estlocus1" n="w5">Thymbraee</w>
           <w n="w6">uocamus</w>
-          <w n="w7">Apollo</w>
+          <w ana="estlocus0" n="w7">Apollo</w>
         </l>
         <l met="hexameter" n="l15">
           <w n="w1">Carmen</w>
@@ -753,12 +753,12 @@
           <pc n="pc">.</pc>
           <w n="w6">Quis</w>
           <w n="w7">namque</w>
-          <w n="w8">Gigantum</w>
+          <w ana="estlocus0" n="w8">Gigantum</w>
         </l>
         <l met="hexameter" n="l16">
           <w n="w1">Aut</w>
           <w n="w2">fera</w>
-          <w n="w3">Titanum</w>
+          <w ana="estlocus0" n="w3">Titanum</w>
           <w n="w4">belli</w>
           <w n="w5">conamina</w>
           <w n="w6">nescit</w>
@@ -767,7 +767,7 @@
         <l met="hexameter" n="l17">
           <w n="w1">Quoi</w>
           <w n="w2">non</w>
-          <w n="w3">Romulidum</w>
+          <w ana="estlocus0" n="w3">Romulidum</w>
           <w n="w4">referuntur</w>
           <w n="w5">proelia</w>
           <pc n="pc">,</pc>
@@ -776,13 +776,13 @@
         </l>
         <l met="hexameter" n="l18">
           <w n="w1">Perfida</w>
-          <w n="w2">Carthago</w>
+          <w ana="estlocus1" n="w2">Carthago</w>
           <w n="w3">deuictaque</w>
-          <w n="w4">Pergama</w>
+          <w ana="estlocus1" n="w4">Pergama</w>
           <w n="w5">flammis</w>
         </l>
         <l met="hexameter" n="l19">
-          <w n="w1">Argolicis</w>
+          <w ana="estlocus0" n="w1">Argolicis</w>
           <w n="w2">et</w>
           <w n="w3">si</w>
           <w n="w4">qua</w>
@@ -793,7 +793,7 @@
         </l>
         <l met="hexameter" n="l20">
           <w n="w1">Sed</w>
-          <w n="w2">Furiis</w>
+          <w ana="estlocus0" n="w2">Furiis</w>
           <w n="w3">commota</w>
           <w n="w4">canam</w>
           <w n="w5">noua</w>
@@ -818,16 +818,16 @@
           <w n="w4">obiectu</w>
           <w n="w5">rabidae</w>
           <w n="w6">spelunca</w>
-          <w n="w7">Maleae</w>
+          <w ana="estlocus1" n="w7">Maleae</w>
           <pc n="pc">,</pc>
         </l>
         <l met="hexameter" n="l23">
-          <w n="w1">Spartano</w>
+          <w ana="estlocus1" n="w1">Spartano</w>
           <w n="w2">praetenta</w>
           <w n="w3">sinu</w>
           <pc n="pc">,</pc>
           <w n="w4">qua</w>
-          <w n="w5">Ditis</w>
+          <w ana="estlocus4" n="w5">Ditis</w>
           <w n="w6">anhelat</w>
         </l>
         <l met="hexameter" n="l24">
@@ -837,21 +837,21 @@
           <w n="w4">uasto</w>
           <w n="w5">et</w>
           <w n="w6">fremit</w>
-          <w n="w7">Orcus</w>
+          <w ana="estlocus4" n="w7">Orcus</w>
           <w n="w8">hiatu</w>
           <pc n="pc">.</pc>
         </l>
         <l met="hexameter" n="l25">
           <w n="w1">Hac</w>
           <w n="w2">chaos</w>
-          <w n="w3">Alcides</w>
+          <w ana="estlocus0" n="w3">Alcides</w>
           <w n="w4">nigra</w>
           <w n="w5">formidine</w>
           <w n="w6">mersum</w>
         </l>
         <l met="hexameter" n="l26">
           <w n="w1">Inuasit</w>
-          <w n="w2">Stygiique</w>
+          <w ana="estlocus1" n="w2">Stygiique</w>
           <w n="w3">ferox</w>
           <w n="w4">sacraria</w>
           <w n="w5">regni</w>
@@ -859,7 +859,7 @@
         <l met="hexameter" n="l27">
           <w n="w1">Et</w>
           <w n="w2">caligantes</w>
-          <w n="w3">Erebi</w>
+          <w ana="estlocus4" n="w3">Erebi</w>
           <w n="w4">deuenit</w>
           <w n="w5">ad</w>
           <w n="w6">umbras</w>
@@ -874,7 +874,7 @@
           <pc n="pc">,</pc>
           <w n="w6">uos</w>
           <w n="w7">tamen</w>
-          <w n="w8">Orci</w>
+          <w ana="estlocus4" n="w8">Orci</w>
         </l>
         <l met="hexameter" n="l29">
           <w n="w1">Numina</w>
@@ -889,7 +889,7 @@
         <l met="hexameter" n="l30">
           <w n="w1">Panditis</w>
           <w n="w2">et</w>
-          <w n="w3">Phlegeton</w>
+          <w ana="estlocus1" n="w3">Phlegeton</w>
           <w n="w4">quos</w>
           <w n="w5">gurgite</w>
           <w n="w6">lustrat</w>
@@ -899,7 +899,7 @@
         <l met="hexameter" n="l31">
           <w n="w1">Et</w>
           <w n="w2">uos</w>
-          <w n="w3">Tartareae</w>
+          <w ana="estlocus1" n="w3">Tartareae</w>
           <w n="w4">secreta</w>
           <w n="w5">silentia</w>
           <w n="w6">noctis</w>
@@ -908,7 +908,7 @@
           <w n="w1">Adsitis</w>
           <pc n="pc1">:</pc>
           <w n="w2">sequor</w>
-          <w n="w3">Andini</w>
+          <w ana="estlocus1" n="w3">Andini</w>
           <w n="w4">uestigia</w>
           <w n="w5">uatis</w>
           <pc n="pc2">.</pc>
@@ -919,10 +919,10 @@
           <w n="w3">fauces</w>
           <w n="w4">tetri</w>
           <w n="w5">stabulantur</w>
-          <w n="w6">Auerni</w>
+          <w ana="estlocus1" n="w6">Auerni</w>
         </l>
         <l met="hexameter" n="l34">
-          <w n="w1">Centauri</w>
+          <w ana="estlocus0" n="w1">Centauri</w>
           <pc n="pc1">,</pc>
           <w n="w2">gens</w>
           <w n="w3">mixta</w>
@@ -932,9 +932,9 @@
           <pc n="pc2">,</pc>
         </l>
         <l met="hexameter" n="l35">
-          <w n="w1">Scyllaque</w>
+          <w ana="estlocus1" n="w1">Scyllaque</w>
           <pc n="pc1">,</pc>
-          <w n="w2">Circaeis</w>
+          <w ana="estlocus0" n="w2">Circaeis</w>
           <w n="w3">quoi</w>
           <w n="w4">latrant</w>
           <w n="w5">inguina</w>
@@ -951,7 +951,7 @@
           <w n="w6">mouentur</w>
         </l>
         <l met="hexameter" n="l37">
-          <w n="w1">Aegaeone</w>
+          <w ana="estlocus0" n="w1">Aegaeone</w>
           <w n="w2">manus</w>
           <pc n="pc">,</pc>
           <w n="w3">linguisque</w>
@@ -959,7 +959,7 @@
           <w n="w5">instat</w>
         </l>
         <l met="hexameter" n="l38">
-          <w n="w1">Parrhasius</w>
+          <w ana="estlocus1" n="w1">Parrhasius</w>
           <w n="w2">serpens</w>
           <pc n="pc">,</pc>
           <w n="w3">ignisque</w>
@@ -980,7 +980,7 @@
           <w n="w3">globos</w>
           <w n="w4">terno</w>
           <w n="w5">ore</w>
-          <w n="w6">Chimaera</w>
+          <w ana="estlocus1" n="w6">Chimaera</w>
           <pc n="pc">.</pc>
         </l>
         <l met="hexameter" n="l40">
@@ -994,17 +994,17 @@
         <l met="hexameter" n="l41">
           <w n="w1">Exequar</w>
           <pc n="pc">?</pc>
-          <w n="w2">Harpyiaeque</w>
+          <w ana="estlocus0" n="w2">Harpyiaeque</w>
           <w n="w3">et</w>
-          <w n="w4">Phorcidos</w>
+          <w ana="estlocus0" n="w4">Phorcidos</w>
           <w n="w5">umbra</w>
-          <w n="w6">Medusae</w>
+          <w ana="estlocus0" n="w6">Medusae</w>
         </l>
         <l met="hexameter" n="l42">
           <w n="w1">Stant</w>
           <w n="w2">prope</w>
           <pc n="pc1">,</pc>
-          <w n="w3">Gerionesque</w>
+          <w ana="estlocus1" n="w3">Gerionesque</w>
           <w n="w4">triceps</w>
           <w n="w5">procul</w>
           <w n="w6">aufugit</w>
@@ -1024,7 +1024,7 @@
         <l met="hexameter" n="l44">
           <w n="w1">Sternunturque</w>
           <w n="w2">toris</w>
-          <w n="w3">Gemitus</w>
+          <w ana="estlocus0" n="w3">Gemitus</w>
           <pc n="pc">,</pc>
           <w n="w4">infaustaque</w>
           <w n="w5">lugent</w>
@@ -1035,7 +1035,7 @@
           <w n="w2">nec</w>
           <w n="w3">longe</w>
           <w n="w4">fugientia</w>
-          <w n="w5">Gaudia</w>
+          <w ana="estlocus0" n="w5">Gaudia</w>
           <w n="w6">distant</w>
           <pc n="pc2">,</pc>
         </l>
@@ -1068,7 +1068,7 @@
           <w n="w2">Dolor</w>
           <pc n="pc1">,</pc>
           <w n="w3">hic</w>
-          <w n="w4">Metus</w>
+          <w ana="estlocus0" n="w4">Metus</w>
           <pc n="pc2">,</pc>
           <w n="w5">hic</w>
           <w n="w6">immanem</w>
@@ -1087,7 +1087,7 @@
         <l met="hexameter" n="l51">
           <w n="w1">Et</w>
           <w n="w2">miseranda</w>
-          <w n="w3">Fames</w>
+          <w ana="estlocus0" n="w3">Fames</w>
           <w n="w4">humilique</w>
           <w n="w5">infirma</w>
           <w n="w6">grabato</w>
@@ -1104,7 +1104,7 @@
           <w n="w1">Postibus</w>
           <w n="w2">aduersis</w>
           <w n="w3">stimulo</w>
-          <w n="w4">Bellona</w>
+          <w ana="estlocus0" n="w4">Bellona</w>
           <w n="w5">cruento</w>
         </l>
         <l met="hexameter" n="l54">
@@ -1120,7 +1120,7 @@
           <pc n="pc1">,</pc>
           <w n="w2">furibunda</w>
           <w n="w3">ruit</w>
-          <w n="w4">Discordia</w>
+          <w ana="estlocus0" n="w4">Discordia</w>
           <w n="w5">iuxta</w>
           <pc n="pc2">,</pc>
         </l>
@@ -1144,7 +1144,7 @@
         <l met="hexameter" n="l58">
           <w n="w1">Hic</w>
           <w n="w2">subito</w>
-          <w n="w3">Alcides</w>
+          <w ana="estlocus0" n="w3">Alcides</w>
           <w n="w4">nodoso</w>
           <w n="w5">robore</w>
           <w n="w6">circum</w>
@@ -1174,17 +1174,17 @@
           <w n="w6">fert</w>
           <app n="app">
             <rdg n="rdg1" wit="#R1 #Cu">
-              <w n="w1">Acherontis</w>
+              <w ana="estlocus1" n="w1">Acherontis</w>
               <w n="w2">ad</w>
               <w n="w3">amnes</w>
             </rdg>
             <rdg n="rdg2" wit="#Sn">
-              <w n="w1">Acheruntis</w>
+              <w ana="estlocus1" n="w1">Acheruntis</w>
               <w n="w2">ad</w>
               <w n="w3">amnes</w>
             </rdg>
             <rdg n="rdg3" wit="#R2 #Gl">
-              <w n="w1">Acheruntis</w>
+              <w ana="estlocus1" n="w1">Acheruntis</w>
               <w n="w2">ad</w>
               <w n="w3">amnem</w>
             </rdg>
@@ -1194,7 +1194,7 @@
         <l met="hexameter" n="l62">
           <w n="w1">Iamque</w>
           <w n="w2">propinquabat</w>
-          <w n="w3">Stygiae</w>
+          <w ana="estlocus1" n="w3">Stygiae</w>
           <w n="w4">qua</w>
           <w n="w5">portitor</w>
           <w n="w6">undae</w>
@@ -1242,10 +1242,10 @@
         <l met="hexameter" n="l68">
           <app n="app">
             <rdg n="rdg1" wit="#R1 #Cu #Sn">
-              <w n="w">Atrius</w>
+              <w ana="estlocus0" n="w">Atrius</w>
             </rdg>
             <rdg n="rdg2" wit="#R2 #Gl">
-              <w n="w">Furuius</w>
+              <w ana="estlocus0" n="w">Furuius</w>
             </rdg>
           </app>
           <w n="w1">inuoluit</w>
@@ -1292,16 +1292,16 @@
               <!-- možda fotokopija? -->
             </rdg>
             <rdg n="rdg3" wit="#R2 #Gl">
-              <w n="w">Aristaeis</w>
+              <w ana="estlocus0" n="w">Aristaeis</w>
             </rdg>
           </app>
-          <w n="w2">Euro</w>
+          <w ana="estlocus0" n="w2">Euro</w>
           <w n="w3">spirante</w>
-          <w n="w4">Cyrenis</w>
+          <w ana="estlocus0" n="w4">Cyrenis</w>
           <pc n="pc">.</pc>
         </l>
         <l met="hexameter" n="l73">
-          <w n="w1">Alcides</w>
+          <w ana="estlocus0" n="w1">Alcides</w>
           <w n="w2">tenuit</w>
           <w n="w3">uestigia</w>
           <w n="w4">pressa</w>
@@ -1325,18 +1325,18 @@
           <w n="w4">tristi</w>
           <w n="w5">quos</w>
           <w n="w6">miserat</w>
-          <w n="w7">Orco</w>
+          <w ana="estlocus4" n="w7">Orco</w>
           <pc n="pc">:</pc>
         </l>
         <l met="hexameter" n="l76">
           <w n="w1">Agmina</w>
           <w n="w2">praecipue</w>
-          <w n="w3">Centaurica</w>
+          <w ana="estlocus0" n="w3">Centaurica</w>
           <w n="w4">nubigenarum</w>
         </l>
         <l met="hexameter" n="l77">
           <w n="w1">Atque</w>
-          <w n="w2">Pelectronios</w>
+          <w ana="estlocus0" n="w2">Pelectronios</w>
           <app n="app">
             <rdg n="rdg1" wit="#R1 #Cu #Sn">
               <w n="w">laphitas</w>
@@ -1345,11 +1345,11 @@
               <w n="w">lapitas</w>
             </rdg>
             <rdg n="rdg3" wit="#Gl">
-              <w n="w">Lapithas</w>
+              <w ana="estlocus1" n="w">Lapithas</w>
             </rdg>
           </app>
-          <w n="w3">Rhetumque</w>
-          <w n="w4">Pholumque</w>
+          <w ana="estlocus0" n="w3">Rhetumque</w>
+          <w ana="estlocus0" n="w4">Pholumque</w>
         </l>
         <l met="hexameter" n="l78">
           <app n="app">
@@ -1357,7 +1357,7 @@
               <w n="w">Neleumque</w>
             </rdg>
             <rdg n="rdg2" wit="#R2 #Gl">
-              <w n="w">Hylaeumque</w>
+              <w ana="estlocus0" n="w">Hylaeumque</w>
             </rdg>
           </app>
           <w n="w1">datumque</w>
@@ -1369,8 +1369,8 @@
         <l met="hexameter" n="l79">
           <w n="w1">Atque</w>
           <w n="w2">cruentatam</w>
-          <w n="w3">Pharii</w>
-          <w n="w4">Busiridis</w>
+          <w ana="estlocus0" n="w3">Pharii</w>
+          <w ana="estlocus0" n="w4">Busiridis</w>
           <w n="w5">umbram</w>
           <pc n="pc">.</pc>
         </l>
@@ -1379,12 +1379,12 @@
           <w n="w2">te</w>
           <w n="w3">cernit</w>
           <pc n="pc1">,</pc>
-          <w n="w4">Hyla</w>
+          <w ana="estlocus0" n="w4">Hyla</w>
           <w n="w5">puer</w>
           <pc n="pc2">:</pc>
           <pc n="pc3">"</pc>
           <w n="w6">O</w>
-          <w n="w7">Hyla</w>
+          <w ana="estlocus0" n="w7">Hyla</w>
           <pc n="pc4">"</pc>
           <pc n="pc5">,</pc>
           <w n="w8">ipse</w>
@@ -1523,7 +1523,7 @@
             </rdg>
           </app>
           <w n="w2">Patrem</w>
-          <w n="w3">Ganymede</w>
+          <w ana="estlocus0" n="w3">Ganymede</w>
           <w n="w4">potitum</w>
         </l>
         <l met="hexameter" n="l90">
@@ -1544,7 +1544,7 @@
           <w n="w4">demens</w>
           <w n="w5">quos</w>
           <w n="w6">uexerat</w>
-          <w n="w7">Argo</w>
+          <w ana="estlocus0" n="w7">Argo</w>
         </l>
         <l met="hexameter" n="l92">
           <w n="w1">Fatidica</w>
@@ -1560,7 +1560,7 @@
           <w n="w3">fallax</w>
           <w n="w4">mihi</w>
           <w n="w5">dixerat</w>
-          <w n="w6">Orpheus</w>
+          <w ana="estlocus0" n="w6">Orpheus</w>
         </l>
         <l met="hexameter" n="l94">
           <w n="w1">Flumina</w>
@@ -1568,13 +1568,13 @@
           <w n="w3">propter</w>
           <w n="w4">nymphas</w>
           <w n="w5">rapuisse</w>
-          <w n="w6">Napaeas</w>
+          <w ana="estlocus0" n="w6">Napaeas</w>
           <pc n="pc">!</pc>
         </l>
         <l met="hexameter" n="l95">
           <w n="w1">Ipse</w>
           <w n="w2">uelut</w>
-          <w n="w3">Furiis</w>
+          <w ana="estlocus0" n="w3">Furiis</w>
           <w n="w4">praeceps</w>
           <w n="w5">agitatus</w>
           <w n="w6">adibam</w>
@@ -1596,7 +1596,7 @@
           <pc n="pc">.</pc>
           <w n="w4">Mihi</w>
           <w n="w5">per</w>
-          <w n="w6">Styga</w>
+          <w ana="estlocus1" n="w6">Styga</w>
           <w n="w7">cuncti</w>
         </l>
         <l met="hexameter" n="l98">
@@ -1606,7 +1606,7 @@
           <w n="w4">tui</w>
           <pc n="pc">.</pc>
           <w n="w5">Scit</w>
-          <w n="w6">Mysia</w>
+          <w ana="estlocus1" n="w6">Mysia</w>
           <w n="w7">quantum</w>
         </l>
         <l met="hexameter" n="l99">
@@ -1668,14 +1668,14 @@
         <l met="hexameter" n="l104">
           <w n="w1">Quin</w>
           <w n="w2">etiam</w>
-          <w n="w3">Phoebi</w>
+          <w ana="estlocus0" n="w3">Phoebi</w>
           <w n="w4">tripodes</w>
           <w n="w5">inimica</w>
           <w n="w6">canebant</w>
         </l>
         <l met="hexameter" n="l105">
           <w n="w1">Numina</w>
-          <w n="w2">Nayadum</w>
+          <w ana="estlocus0" n="w2">Nayadum</w>
           <w n="w3">te</w>
           <w n="w4">sub</w>
           <w n="w5">sua</w>
@@ -1690,7 +1690,7 @@
           <w n="w4">falso</w>
           <w n="w5">frater</w>
           <w n="w6">delusit</w>
-          <w n="w7">Apollo</w>
+          <w ana="estlocus0" n="w7">Apollo</w>
           <pc n="pc1">!</pc>
           <pc n="pc2">"</pc>
         </l>
@@ -1698,7 +1698,7 @@
           <w n="w1">Tunc</w>
           <w n="w2">tristis</w>
           <w n="w3">laetatus</w>
-          <w n="w4">Hylas</w>
+          <w ana="estlocus0" n="w4">Hylas</w>
           <w n="w5">stetit</w>
           <w n="w6">Hercule</w>
           <w n="w7">uiso</w>
@@ -1731,14 +1731,14 @@
           <pc n="pc3">,</pc>
         </l>
         <l met="hexameter" n="l109">
-          <w n="w1">Alcide</w>
+          <w ana="estlocus0" n="w1">Alcide</w>
           <pc n="pc">,</pc>
           <w n="w2">neque</w>
           <w n="w3">te</w>
           <w n="w4">frater</w>
           <w n="w5">neque</w>
-          <w n="w6">Thracius</w>
-          <w n="w7">Orpheus</w>
+          <w ana="estlocus1" n="w6">Thracius</w>
+          <w ana="estlocus0" n="w7">Orpheus</w>
         </l>
         <note n="note1" place="margin"/>
         <l met="hexameter" n="l110">
@@ -1770,9 +1770,9 @@
           <pc n="pc">:</pc>
         </l>
         <l met="hexameter" n="l113">
-          <w n="w1">Hellespontiacos</w>
+          <w ana="estlocus1" n="w1">Hellespontiacos</w>
           <w n="w2">portus</w>
-          <w n="w3">Argoa</w>
+          <w ana="estlocus0" n="w3">Argoa</w>
           <w n="w4">carina</w>
         </l>
         <l met="hexameter" n="l114">
@@ -1783,7 +1783,7 @@
           <w n="w5">genitis</w>
           <w n="w6">intrarat</w>
           <pc n="pc">,</pc>
-          <w n="w7">Iason</w>
+          <w ana="estlocus0" n="w7">Iason</w>
         </l>
         <l met="hexameter" n="l115">
           <w n="w1">Quos</w>
@@ -1794,12 +1794,12 @@
           <w n="w6">pellem</w>
         </l>
         <l met="hexameter" n="l116">
-          <w n="w1">Colchon</w>
+          <w ana="estlocus1" n="w1">Colchon</w>
           <pc n="pc1">,</pc>
           <w n="w2">et</w>
-          <w n="w3">Oethei</w>
+          <w ana="estlocus1" n="w3">Oethei</w>
           <w n="w4">ducebat</w>
-          <w n="w5">Phasydos</w>
+          <w ana="estlocus1" n="w5">Phasydos</w>
           <w n="w6">undas</w>
           <pc n="pc2">,</pc>
         </l>
@@ -1884,7 +1884,7 @@
           <w n="w1">Candida</w>
           <w n="w2">siccabat</w>
           <w n="w3">madidos</w>
-          <w n="w4">Arethusa</w>
+          <w ana="estlocus1" n="w4">Arethusa</w>
           <w n="w5">capillos</w>
           <pc n="pc">,</pc>
         </l>
@@ -1939,7 +1939,7 @@
           <w n="w5">toto</w>
         </l>
         <l met="hexameter" n="l129">
-          <w n="w1">Nayadas</w>
+          <w ana="estlocus0" n="w1">Nayadas</w>
           <w n="w2">aspicio</w>
           <w n="w3">spumantes</w>
           <w n="w4">ire</w>
@@ -1973,7 +1973,7 @@
           <w n="w6">artus</w>
         </l>
         <l met="hexameter" n="l132">
-          <w n="w1">Pallor</w>
+          <w ana="estlocus0" n="w1">Pallor</w>
           <w n="w2">iit</w>
           <pc n="pc1">,</pc>
           <w n="w3">nox</w>
@@ -2014,7 +2014,7 @@
         <l met="hexameter" n="l135">
           <w n="w1">In</w>
           <w n="w2">caua</w>
-          <w n="w3">Nayadum</w>
+          <w ana="estlocus0" n="w3">Nayadum</w>
           <w n="w4">spumosae</w>
           <w n="w5">Doridos</w>
           <w n="w6">antra</w>
@@ -2033,7 +2033,7 @@
           <pc n="pc3">,</pc>
         </l>
         <l met="hexameter" n="l137">
-          <w n="w1">Alcides</w>
+          <w ana="estlocus0" n="w1">Alcides</w>
           <app n="app">
             <rdg n="rdg1" wit="#R1">
               <w n="w1">ait</w>
@@ -2067,7 +2067,7 @@
           <w n="w1">Non</w>
           <w n="w2">bene</w>
           <w n="w3">in</w>
-          <w n="w4">Alcidae</w>
+          <w ana="estlocus0" n="w4">Alcidae</w>
           <w n="w5">consultae</w>
           <w n="w6">damna</w>
           <app n="app">
@@ -2077,7 +2077,7 @@
             </rdg>
             <rdg n="rdg2" wit="#R2 #Gl">
               <pc n="pc1">,</pc>
-              <w n="w">Napaeae</w>
+              <w ana="estlocus0" n="w">Napaeae</w>
               <pc n="pc2">!</pc>
             </rdg>
           </app>
@@ -2118,7 +2118,7 @@
           <pc n="pc1">,</pc>
           <w n="w3">heu</w>
           <pc n="pc2">,</pc>
-          <w n="w4">Stygias</w>
+          <w ana="estlocus1" n="w4">Stygias</w>
           <w n="w5">detrusus</w>
           <w n="w6">ad</w>
           <w n="w7">undas</w>
@@ -2182,7 +2182,7 @@
               <w n="w3">de</w>
             </rdg>
             <rdg n="rdg2" wit="#R2 #Gl">
-              <w n="w1">Memphitico</w>
+              <w ana="estlocus1" n="w1">Memphitico</w>
               <w n="w2">pingues</w>
               <w n="w3">e</w>
             </rdg>
@@ -2267,11 +2267,11 @@
           <w n="w1">Limina</w>
           <pc n="pc">,</pc>
           <w n="w2">in</w>
-          <w n="w3">Hispanam</w>
-          <w n="w4">Calpen</w>
+          <w ana="estlocus1" n="w3">Hispanam</w>
+          <w ana="estlocus1" n="w4">Calpen</w>
           <w n="w5">qua</w>
           <w n="w6">surgit</w>
-          <w n="w7">Abyla</w>
+          <w ana="estlocus1" n="w7">Abyla</w>
         </l>
         <l met="hexameter" n="l158">
           <w n="w1">Quaque</w>
@@ -2291,12 +2291,12 @@
         </l>
         <l met="hexameter" n="l159">
           <w n="w1">O</w>
-          <w n="w2">Hymenaee</w>
+          <w ana="estlocus0" n="w2">Hymenaee</w>
           <pc n="pc">,</pc>
           <w n="w3">tibi</w>
           <w n="w4">magno</w>
           <w n="w5">pulcherrima</w>
-          <w n="w6">Nereo</w>
+          <w ana="estlocus0" n="w6">Nereo</w>
         </l>
         <l met="hexameter" n="l160">
           <w n="w1">Nupserat</w>
@@ -2316,7 +2316,7 @@
           <w n="w6">lacusque</w>
         </l>
         <l met="hexameter" n="l162">
-          <w n="w1">Nympharumque</w>
+          <w ana="estlocus0" n="w1">Nympharumque</w>
           <w n="w2">chori</w>
           <pc n="pc">,</pc>
           <w n="w3">uasto</w>
@@ -2342,14 +2342,14 @@
           </app>
         </l>
         <l met="hexameter" n="l164">
-          <w n="w1">Protoque</w>
-          <w n="w2">Meliteque</w>
+          <w ana="estlocus0" n="w1">Protoque</w>
+          <w ana="estlocus0" n="w2">Meliteque</w>
           <app n="app1">
             <rdg n="rdg1" wit="#R2">
               <w n="w">Taliaque</w>
             </rdg>
             <rdg n="rdg2" wit="#Gl">
-              <w n="w">Thaliaque</w>
+              <w ana="estlocus0" n="w">Thaliaque</w>
             </rdg>
           </app>
           <app n="app2">
@@ -2360,10 +2360,10 @@
               <w n="w">Doto</w>
             </rdg>
           </app>
-          <w n="w3">Ieraque</w>
+          <w ana="estlocus0" n="w3">Ieraque</w>
         </l>
         <l met="hexameter" n="l165">
-          <w n="w1">Amphitoique</w>
+          <w ana="estlocus4" n="w1">Amphitoique</w>
           <w n="w2">comis</w>
           <w n="w3">in</w>
           <w n="w4">candida</w>
@@ -2373,42 +2373,42 @@
         </l>
         <l met="hexameter" n="l166">
           <w n="w1">Et</w>
-          <w n="w2">Chlymene</w>
+          <w ana="estlocus0" n="w2">Chlymene</w>
           <pc n="pc">,</pc>
           <app n="app">
             <rdg n="rdg1" wit="#R1">
-              <w n="w1">Liminoriaque</w>
+              <w ana="estlocus0" n="w1">Liminoriaque</w>
               <pc n="pc1">,</pc>
-              <w n="w2">Acteique</w>
+              <w ana="estlocus0" n="w2">Acteique</w>
               <pc n="pc2">,</pc>
-              <w n="w3">Spioque</w>
+              <w ana="estlocus0" n="w3">Spioque</w>
               <pc n="pc3">,</pc>
             </rdg>
             <rdg n="rdg2" wit="#R2 #Gl">
-              <w n="w1">Limnoria</w>
+              <w ana="estlocus0" n="w1">Limnoria</w>
               <pc n="pc">,</pc>
-              <w n="w2">Actei</w>
-              <w n="w3">Cymodoceque</w>
+              <w ana="estlocus0" n="w2">Actei</w>
+              <w ana="estlocus0" n="w3">Cymodoceque</w>
             </rdg>
           </app>
         </l>
         <l met="hexameter" n="l167">
           <app n="app">
             <rdg n="rdg1" wit="#R1">
-              <w n="w1">Cymothoe</w>
+              <w ana="estlocus0" n="w1">Cymothoe</w>
               <pc n="pc1">,</pc>
-              <w n="w2">Cymodoceque</w>
+              <w ana="estlocus0" n="w2">Cymodoceque</w>
               <pc n="pc2">,</pc>
             </rdg>
             <rdg n="rdg2" wit="#R2 #Gl">
-              <w n="w1">Cymothoeque</w>
-              <w n="w2">Legaeaque</w>
-              <w n="w3">Spio</w>
+              <w ana="estlocus0" n="w1">Cymothoeque</w>
+              <w ana="estlocus0" n="w2">Legaeaque</w>
+              <w ana="estlocus0" n="w3">Spio</w>
             </rdg>
           </app>
           <w n="w1">et</w>
           <w n="w2">flaua</w>
-          <w n="w3">Orithya</w>
+          <w ana="estlocus0" n="w3">Orithya</w>
           <pc n="pc">,</pc>
         </l>
         <l met="hexameter" n="l168">
@@ -2417,17 +2417,17 @@
           <w n="w3">nec</w>
           <w n="w4">adhuc</w>
           <w n="w5">uitiata</w>
-          <w n="w6">Dianae</w>
+          <w ana="estlocus0" n="w6">Dianae</w>
           <pc n="pc">,</pc>
         </l>
         <l met="hexameter" n="l169">
           <w n="w1">Atque</w>
-          <w n="w2">Thoi</w>
+          <w ana="estlocus0" n="w2">Thoi</w>
           <w n="w3">atque</w>
-          <w n="w4">Amatis</w>
+          <w ana="estlocus0" n="w4">Amatis</w>
           <w n="w5">atque</w>
           <w n="w6">aurea</w>
-          <w n="w7">Gallianira</w>
+          <w ana="estlocus0" n="w7">Gallianira</w>
           <pc n="pc">,</pc>
         </l>
         <l met="hexameter" n="l170">
@@ -2441,7 +2441,7 @@
         <l met="hexameter" n="l171">
           <w n="w1">Inter</w>
           <w n="w2">quas</w>
-          <w n="w3">Protheus</w>
+          <w ana="estlocus0" n="w3">Protheus</w>
           <w n="w4">cythara</w>
           <w n="w5">recinebat</w>
           <w n="w6">eburna</w>
@@ -2457,7 +2457,7 @@
         </l>
         <l met="hexameter" n="l173">
           <w n="w1">Praecipue</w>
-          <w n="w2">Oceani</w>
+          <w ana="estlocus4" n="w2">Oceani</w>
           <w n="w3">thalamos</w>
           <pc n="pc">,</pc>
           <w n="w4">ipsoque</w>
@@ -2515,7 +2515,7 @@
         <l met="hexameter" n="l179">
           <w n="w1">Dignum</w>
           <w n="w2">erit</w>
-          <w n="w3">Oceano</w>
+          <w ana="estlocus4" n="w3">Oceano</w>
           <pc n="pc1">.</pc>
           <w n="w4">Ite</w>
           <pc n="pc2">,</pc>
@@ -2526,7 +2526,7 @@
           <pc n="pc3">,</pc>
         </l>
         <l met="hexameter" n="l180">
-          <w n="w1">Delphinas</w>
+          <w ana="estlocus1" n="w1">Delphinas</w>
           <w n="w2">stimulate</w>
           <w n="w3">uagos</w>
           <pc n="pc">!</pc>
@@ -2587,7 +2587,7 @@
           <w n="w6">nymphae</w>
         </l>
         <l met="hexameter" n="l185">
-          <w n="w1">Alpinis</w>
+          <w ana="estlocus1" n="w1">Alpinis</w>
           <w n="w2">extracta</w>
           <w n="w3">iugis</w>
           <pc n="pc">,</pc>
@@ -2619,7 +2619,7 @@
           <w n="w5">omnes</w>
         </l>
         <l met="hexameter" n="l188">
-          <w n="w1">Oceanus</w>
+          <w ana="estlocus4" n="w1">Oceanus</w>
           <w n="w2">magnoque</w>
           <w n="w3">tubae</w>
           <w n="w4">clangore</w>
@@ -2659,7 +2659,7 @@
           <pc n="pc">.</pc>
         </l>
         <l met="hexameter" n="l193">
-          <w n="w1">Maeraque</w>
+          <w ana="estlocus0" n="w1">Maeraque</w>
           <w n="w2">prima</w>
           <w n="w3">nouos</w>
           <w n="w4">experta</w>
@@ -2669,18 +2669,18 @@
         <l met="hexameter" n="l194">
           <w n="w1">Et</w>
           <w n="w2">cythara</w>
-          <w n="w3">Dianassa</w>
+          <w ana="estlocus0" n="w3">Dianassa</w>
           <w n="w4">sonans</w>
           <w n="w5">miranda</w>
           <w n="w6">tricordi</w>
         </l>
         <l met="hexameter" n="l195">
-          <w n="w1">Apseudisque</w>
-          <w n="w2">Ianiraque</w>
+          <w ana="estlocus0" n="w1">Apseudisque</w>
+          <w ana="estlocus0" n="w2">Ianiraque</w>
           <w n="w3">et</w>
           <w n="w4">hispida</w>
           <w n="w5">corpore</w>
-          <w n="w6">Meni</w>
+          <w ana="estlocus0" n="w6">Meni</w>
           <pc n="pc">,</pc>
         </l>
         <l met="hexameter" n="l196">
@@ -2697,9 +2697,9 @@
           <w n="w2">simul</w>
           <w n="w3">iuuenes</w>
           <pc n="pc">:</pc>
-          <w n="w4">Glaucis</w>
+          <w ana="estlocus0" n="w4">Glaucis</w>
           <w n="w5">nitidisque</w>
-          <w n="w6">Pherusa</w>
+          <w ana="estlocus0" n="w6">Pherusa</w>
         </l>
         <l met="hexameter" n="l198">
           <w n="w1">Conspicienda</w>
@@ -2740,7 +2740,7 @@
           <w n="w5">ponunt</w>
         </l>
         <l met="hexameter" n="l202">
-          <w n="w1">Ambrosiasque</w>
+          <w ana="estlocus0" n="w1">Ambrosiasque</w>
           <w n="w2">dapes</w>
           <pc n="pc1">,</pc>
           <w n="w3">uitreo</w>
@@ -2763,7 +2763,7 @@
           <w n="w4">domibus</w>
           <w n="w5">magnis</w>
           <w n="w6">auis</w>
-          <w n="w7">Inda</w>
+          <w ana="estlocus1" n="w7">Inda</w>
           <w n="w8">puellis</w>
         </l>
         <l met="hexameter" n="l204">
@@ -2810,7 +2810,7 @@
         </l>
         <l met="hexameter" n="l208">
           <w n="w1">Altaque</w>
-          <w n="w2">Arionius</w>
+          <w ana="estlocus0" n="w2">Arionius</w>
           <w n="w3">scindebat</w>
           <w n="w4">caerula</w>
           <w n="w5">delphin</w>
@@ -2821,7 +2821,7 @@
           <pc n="pc">,</pc>
           <w n="w3">uolucri</w>
           <w n="w4">quom</w>
-          <w n="w5">Nerea</w>
+          <w ana="estlocus0" n="w5">Nerea</w>
           <w n="w6">curru</w>
         </l>
         <l met="hexameter" n="l210">
@@ -2859,7 +2859,7 @@
           <w n="w3">propior</w>
           <w n="w4">cupiebat</w>
           <w n="w5">iungere</w>
-          <w n="w6">Nereus</w>
+          <w ana="estlocus0" n="w6">Nereus</w>
         </l>
         <l met="hexameter" n="l212">
           <w n="w1">Atque</w>
@@ -2875,21 +2875,21 @@
           <pc n="pc">,</pc>
           <w n="w3">ueluti</w>
           <w n="w4">trieterica</w>
-          <w n="w5">Bacchae</w>
+          <w ana="estlocus0" n="w5">Bacchae</w>
         </l>
         <l met="hexameter" n="l214">
-          <w n="w1">Orgia</w>
+          <w ana="estlocus0" n="w1">Orgia</w>
           <w n="w2">quom</w>
           <w n="w3">celebrant</w>
           <w n="w4">euantes</w>
           <w n="w5">tygribus</w>
           <pc n="pc1">"</pc>
-          <w n="w6">Euan</w>
+          <w ana="estlocus0" n="w6">Euan</w>
           <pc n="pc2">!</pc>
           <pc n="pc3">"</pc>
         </l>
         <l met="hexameter" n="l215">
-          <w n="w1">Taygetis</w>
+          <w ana="estlocus1" n="w1">Taygetis</w>
           <w n="w2">si</w>
           <w n="w3">quando</w>
           <w n="w4">iugis</w>
@@ -2897,15 +2897,15 @@
           <w n="w6">amantes</w>
         </l>
         <l met="hexameter" n="l216">
-          <w n="w1">Virginibus</w>
+          <w ana="estlocus0" n="w1">Virginibus</w>
           <w n="w2">satyros</w>
           <w n="w3">cupiens</w>
           <w n="w4">miscere</w>
-          <w n="w5">Lacaenis</w>
+          <w ana="estlocus1" n="w5">Lacaenis</w>
           <pc n="pc">.</pc>
         </l>
         <l met="hexameter" n="l217">
-          <w n="w1">Nereidum</w>
+          <w ana="estlocus0" n="w1">Nereidum</w>
           <w n="w2">sic</w>
           <w n="w3">laeta</w>
           <w n="w4">cohors</w>
@@ -2913,7 +2913,7 @@
           <w n="w6">sonantes</w>
         </l>
         <l met="hexameter" n="l218">
-          <w n="w1">Nerea</w>
+          <w ana="estlocus0" n="w1">Nerea</w>
           <w n="w2">delapsi</w>
           <w n="w3">uastum</w>
           <w n="w4">comitantur</w>
@@ -2924,19 +2924,19 @@
           <w n="w1">Immixti</w>
           <w n="w2">nymphis</w>
           <pc n="pc1">:</pc>
-          <w n="w3">Strymon</w>
+          <w ana="estlocus1" n="w3">Strymon</w>
           <pc n="pc2">,</pc>
           <app n="app">
             <rdg n="rdg1" wit="#R1">
-              <w n="w1">Sperchios</w>
+              <w ana="estlocus1" n="w1">Sperchios</w>
               <pc n="pc1">,</pc>
-              <w n="w2">Ilerda</w>
+              <w ana="estlocus1" n="w2">Ilerda</w>
               <pc n="pc2">,</pc>
             </rdg>
             <rdg n="rdg2" wit="#R2 #Gl">
-              <w n="w1">Sperchius</w>
+              <w ana="estlocus1" n="w1">Sperchius</w>
               <w n="w2">et</w>
-              <w n="w3">Arar</w>
+              <w ana="estlocus1" n="w3">Arar</w>
             </rdg>
           </app>
         </l>
@@ -2952,33 +2952,33 @@
               <w n="w">Dilectusque</w>
             </rdg>
           </app>
-          <w n="w1">Lycus</w>
+          <w ana="estlocus1" n="w1">Lycus</w>
           <w n="w2">nymphis</w>
           <w n="w3">et</w>
           <w n="w4">fuluus</w>
-          <w n="w5">Oaxis</w>
+          <w ana="estlocus1" n="w5">Oaxis</w>
         </l>
         <l met="hexameter" n="l221">
           <w n="w1">Et</w>
           <w n="w2">flauus</w>
-          <w n="w3">Tybris</w>
+          <w ana="estlocus1" n="w3">Tybris</w>
           <w n="w4">cornuque</w>
-          <w n="w5">Achelous</w>
+          <w ana="estlocus4" n="w5">Achelous</w>
           <w n="w6">adempto</w>
         </l>
         <l met="hexameter" n="l222">
           <w n="w1">Et</w>
           <w n="w2">septemgeminus</w>
           <w n="w3">secreto</w>
-          <w n="w4">Nilus</w>
+          <w ana="estlocus1" n="w4">Nilus</w>
           <w n="w5">ab</w>
           <w n="w6">ortu</w>
         </l>
         <l met="hexameter" n="l223">
           <w n="w1">Auratoque</w>
-          <w n="w2">Tagus</w>
+          <w ana="estlocus1" n="w2">Tagus</w>
           <w n="w3">uultu</w>
-          <w n="w4">Rhodanusque</w>
+          <w ana="estlocus1" n="w4">Rhodanusque</w>
           <w n="w5">bicornis</w>
           <pc n="pc">,</pc>
         </l>
@@ -3000,48 +3000,48 @@
           <w n="w4">uolucres</w>
         </l>
         <l met="hexameter" n="l225">
-          <w n="w1">Dalmaticus</w>
-          <w n="w2">Naron</w>
+          <w ana="estlocus1" n="w1">Dalmaticus</w>
+          <w ana="estlocus1" n="w2">Naron</w>
           <pc n="pc1">,</pc>
-          <w n="w3">Phasis</w>
-          <w n="w4">Phrygiusque</w>
-          <w n="w5">Caycus</w>
+          <w ana="estlocus1" n="w3">Phasis</w>
+          <w ana="estlocus1" n="w4">Phrygiusque</w>
+          <w ana="estlocus1" n="w5">Caycus</w>
           <pc n="pc2">,</pc>
         </l>
         <l met="hexameter" n="l226">
           <w n="w1">Laurifer</w>
-          <w n="w2">Eurotas</w>
+          <w ana="estlocus1" n="w2">Eurotas</w>
           <w n="w3">et</w>
           <w n="w4">nigro</w>
           <w n="w5">excussus</w>
           <w n="w6">ab</w>
-          <w n="w7">Orco</w>
+          <w ana="estlocus4" n="w7">Orco</w>
         </l>
         <l met="hexameter" n="l227">
           <w n="w1">Corniger</w>
-          <w n="w2">Eridanus</w>
+          <w ana="estlocus1" n="w2">Eridanus</w>
           <pc n="pc1">,</pc>
-          <w n="w3">Liparis</w>
+          <w ana="estlocus1" n="w3">Liparis</w>
           <pc n="pc2">,</pc>
-          <w n="w4">Moedusque</w>
-          <w n="w5">Nyphates</w>
+          <w ana="estlocus1" n="w4">Moedusque</w>
+          <w ana="estlocus1" n="w5">Nyphates</w>
         </l>
         <l met="hexameter" n="l228">
-          <w n="w1">Smyrneusque</w>
-          <w n="w2">Meles</w>
+          <w ana="estlocus1" n="w1">Smyrneusque</w>
+          <w ana="estlocus1" n="w2">Meles</w>
           <w n="w3">et</w>
           <w n="w4">multo</w>
-          <w n="w5">Marte</w>
+          <w ana="estlocus0" n="w5">Marte</w>
           <w n="w6">notatus</w>
         </l>
         <l met="hexameter" n="l229">
-          <w n="w1">Ister</w>
+          <w ana="estlocus1" n="w1">Ister</w>
           <w n="w2">et</w>
-          <w n="w3">Illyrico</w>
+          <w ana="estlocus1" n="w3">Illyrico</w>
           <w n="w4">ueniens</w>
           <w n="w5">a</w>
           <w n="w6">littore</w>
-          <w n="w7">Narbon</w>
+          <w ana="estlocus1" n="w7">Narbon</w>
           <pc n="pc">.</pc>
         </l>
         <l met="hexameter" n="l230">
@@ -3154,7 +3154,7 @@
               <w n="w">amplectitur</w>
             </rdg>
           </app>
-          <w n="w3">Amphitrite</w>
+          <w ana="estlocus4" n="w3">Amphitrite</w>
         </l>
         <l met="hexameter" n="l239">
           <w n="w1">Nascunturque</w>
@@ -3196,7 +3196,7 @@
           <w n="w7">agros</w>
         </l>
         <l met="hexameter" n="l243">
-          <w n="w1">Pastorumque</w>
+          <w ana="estlocus0" n="w1">Pastorumque</w>
           <w n="w2">greges</w>
           <w n="w3">per</w>
           <w n="w4">pascua</w>
@@ -3216,7 +3216,7 @@
           <w n="w8">toto</w>
         </l>
         <l met="hexameter" n="l245">
-          <w n="w1">Plurima</w>
+          <w ana="estlocus0" n="w1">Plurima</w>
           <w n="w2">sint</w>
           <w n="w3">passim</w>
           <w n="w4">uiuis</w>
@@ -3249,7 +3249,7 @@
           <pc n="pc">"</pc>
         </l>
         <l met="hexameter" n="l249">
-          <w n="w1">Alcides</w>
+          <w ana="estlocus0" n="w1">Alcides</w>
           <w n="w2">imo</w>
           <w n="w3">suspiria</w>
           <w n="w4">corde</w>
@@ -3286,7 +3286,7 @@
           <w n="w3">sese</w>
           <w n="w4">quod</w>
           <w n="w5">saeuo</w>
-          <w n="w6">Acheronte</w>
+          <w ana="estlocus1" n="w6">Acheronte</w>
           <w n="w7">manebat</w>
         </l>
         <l met="hexameter" n="l254">
@@ -3312,7 +3312,7 @@
           <w n="w1">At</w>
           <w n="w2">multum</w>
           <w n="w3">miserandus</w>
-          <w n="w4">Hylas</w>
+          <w ana="estlocus0" n="w4">Hylas</w>
           <w n="w5">male</w>
           <w n="w6">cognita</w>
           <w n="w7">ponti</w>
@@ -3336,11 +3336,11 @@
         <l met="hexameter" n="l259">
           <pc n="pc1">"</pc>
           <w n="w1">Foelix</w>
-          <w n="w2">Troianus</w>
-          <w n="w3">Phrygia</w>
+          <w ana="estlocus1" n="w2">Troianus</w>
+          <w ana="estlocus1" n="w3">Phrygia</w>
           <w n="w4">uenator</w>
           <w n="w5">ab</w>
-          <w n="w6">Ida</w>
+          <w ana="estlocus1" n="w6">Ida</w>
           <pc n="pc2">"</pc>
         </l>
         <l met="hexameter" n="l260">
@@ -3353,7 +3353,7 @@
           <w n="w5">raptus</w>
           <pc n="pc3">,</pc>
           <w n="w6">quoi</w>
-          <w n="w7">Dardana</w>
+          <w ana="estlocus1" n="w7">Dardana</w>
           <w n="w8">pubes</w>
         </l>
         <l met="hexameter" n="l261">
@@ -3370,14 +3370,14 @@
           <w n="w1">Foelix</w>
           <w n="w2">ille</w>
           <w n="w3">puer</w>
-          <w n="w4">Phrygiis</w>
+          <w ana="estlocus1" n="w4">Phrygiis</w>
           <w n="w5">in</w>
           <w n="w6">montibus</w>
-          <w n="w7">Atys</w>
+          <w ana="estlocus0" n="w7">Atys</w>
           <pc n="pc">,</pc>
         </l>
         <l met="hexameter" n="l263">
-          <w n="w1">Cymbala</w>
+          <w ana="estlocus0" n="w1">Cymbala</w>
           <w n="w2">quoi</w>
           <w n="w3">tollunt</w>
           <w n="w4">moestas</w>
@@ -3387,11 +3387,11 @@
         <l met="hexameter" n="l264">
           <w n="w1">Atque</w>
           <w n="w2">leues</w>
-          <w n="w3">Gallae</w>
+          <w ana="estlocus1" n="w3">Gallae</w>
           <w n="w4">et</w>
           <w n="w5">furibundae</w>
           <w n="w6">sacra</w>
-          <w n="w7">Cybelles</w>
+          <w ana="estlocus0" n="w7">Cybelles</w>
           <pc n="pc">.</pc>
         </l>
         <l met="hexameter" n="l265">
@@ -3414,7 +3414,7 @@
           <pc n="pc2">-</pc>
           <pc n="pc3">-</pc>
           <pc n="pc4">-</pc>
-          <w n="w4">Stygias</w>
+          <w ana="estlocus1" n="w4">Stygias</w>
           <w n="w5">inhumatus</w>
           <w n="w6">arenas</w>
         </l>
@@ -3470,10 +3470,10 @@
           <w n="w3">pulchras</w>
           <w n="w4">prodest</w>
           <w n="w5">uidisse</w>
-          <w n="w6">Napaeas</w>
+          <w ana="estlocus0" n="w6">Napaeas</w>
         </l>
         <l met="hexameter" n="l271">
-          <w n="w1">Nereidumque</w>
+          <w ana="estlocus0" n="w1">Nereidumque</w>
           <w n="w2">choros</w>
           <w n="w3">et</w>
           <w n="w4">Doridos</w>
@@ -3484,7 +3484,7 @@
         <l met="hexameter" n="l272">
           <w n="w1">Hoc</w>
           <w n="w2">currum</w>
-          <w n="w3">Nerei</w>
+          <w ana="estlocus0" n="w3">Nerei</w>
           <pc n="pc1">,</pc>
           <app n="app">
             <rdg n="rdg1" wit="#R1 #R2 #Gl">
@@ -3511,7 +3511,7 @@
           <w n="w6">tenentem</w>
         </l>
         <l met="hexameter" n="l274">
-          <w n="w1">Oceanum</w>
+          <w ana="estlocus4" n="w1">Oceanum</w>
           <w n="w2">terras</w>
           <w n="w3">magnis</w>
           <w n="w4">discumbere</w>
@@ -3520,7 +3520,7 @@
         <l met="hexameter" n="l275">
           <w n="w1">Regna</w>
           <w n="w2">per</w>
-          <w n="w3">Aethiopum</w>
+          <w ana="estlocus1" n="w3">Aethiopum</w>
           <pc n="pc1">.</pc>
           <pc n="pc2">-</pc>
           <pc n="pc3">-</pc>
@@ -3535,7 +3535,7 @@
           <w n="w3">pulchra</w>
           <w n="w4">cum</w>
           <w n="w5">coniuge</w>
-          <w n="w6">Nereus</w>
+          <w ana="estlocus0" n="w6">Nereus</w>
           <pc n="pc">,</pc>
         </l>
         <note n="note4" place="margin"/>
@@ -3562,14 +3562,14 @@
           <w n="w1">Quae</w>
           <w n="w2">magnum</w>
           <w n="w3">uexere</w>
-          <w n="w4">Iouem</w>
+          <w ana="estlocus0" n="w4">Iouem</w>
           <w n="w5">rerumque</w>
           <w n="w6">parentem</w>
         </l>
         <l met="hexameter" n="l280">
-          <w n="w1">Oceanum</w>
+          <w ana="estlocus4" n="w1">Oceanum</w>
           <w n="w2">mentemque</w>
-          <w n="w3">Iouis</w>
+          <w ana="estlocus0" n="w3">Iouis</w>
           <w n="w4">cum</w>
           <w n="w5">coniuge</w>
           <w n="w6">saeua</w>
@@ -3577,14 +3577,14 @@
         </l>
         <l met="hexameter" n="l281">
           <w n="w1">Quae</w>
-          <w n="w2">Tethym</w>
+          <w ana="estlocus0" n="w2">Tethym</w>
           <w n="w3">et</w>
-          <w n="w4">Neptunum</w>
+          <w ana="estlocus0" n="w4">Neptunum</w>
           <w n="w5">et</w>
           <w n="w6">te</w>
           <pc n="pc1">,</pc>
-          <w n="w7">Tritonia</w>
-          <w n="w8">Pallas</w>
+          <w ana="estlocus0" n="w7">Tritonia</w>
+          <w ana="estlocus0" n="w8">Pallas</w>
           <pc n="pc2">,</pc>
         </l>
         <l met="hexameter" n="l282">
@@ -3601,7 +3601,7 @@
           <w n="w1">Quae</w>
           <w n="w2">prolem</w>
           <pc n="pc1">,</pc>
-          <w n="w3">Latona</w>
+          <w ana="estlocus4" n="w3">Latona</w>
           <pc n="pc2">,</pc>
           <w n="w4">tuam</w>
           <w n="w5">stridente</w>
@@ -3615,15 +3615,15 @@
           <w n="w3">Et</w>
           <w n="w4">te</w>
           <pc n="pc2">,</pc>
-          <w n="w5">Gradive</w>
+          <w ana="estlocus0" n="w5">Gradive</w>
           <pc n="pc3">,</pc>
           <w n="w6">tulerunt</w>
         </l>
         <l met="hexameter" n="l285">
-          <w n="w1">Thraces</w>
+          <w ana="estlocus1" n="w1">Thraces</w>
           <w n="w2">equi</w>
           <w n="w3">et</w>
-          <w n="w4">Veneris</w>
+          <w ana="estlocus0" n="w4">Veneris</w>
           <w n="w5">niuei</w>
           <w n="w6">pascuntur</w>
           <w n="w7">olores</w>
@@ -3646,21 +3646,21 @@
           <w n="w3">adfugiens</w>
           <app n="app">
             <rdg n="rdg1" wit="#Sn">
-              <w n="w">Erebum</w>
+              <w ana="estlocus4" n="w">Erebum</w>
             </rdg>
             <rdg n="rdg2" wit="#R1 #R2 #Gl">
-              <w n="w">Orcum</w>
+              <w ana="estlocus4" n="w">Orcum</w>
             </rdg>
           </app>
           <pc n="pc2">,</pc>
-          <w n="w4">Phanetis</w>
+          <w ana="estlocus0" n="w4">Phanetis</w>
           <w n="w5">amores</w>
           <pc n="pc3">;</pc>
         </l>
         <l met="hexameter" n="l288">
           <w n="w1">Et</w>
           <w n="w2">picti</w>
-          <w n="w3">Bromii</w>
+          <w ana="estlocus0" n="w3">Bromii</w>
           <w n="w4">lynces</w>
           <w n="w5">et</w>
           <w n="w6">plaustra</w>
@@ -3668,11 +3668,11 @@
           <pc n="pc">,</pc>
         </l>
         <l met="hexameter" n="l289">
-          <w n="w1">Alma</w>
+          <w ana="estlocus0" n="w1">Alma</w>
           <w n="w2">quibus</w>
           <w n="w3">uehitur</w>
           <w n="w4">diuum</w>
-          <w n="w5">Berecynthia</w>
+          <w ana="estlocus4" n="w5">Berecynthia</w>
           <w n="w6">mater</w>
           <pc n="pc">.</pc>
         </l>
@@ -3682,12 +3682,12 @@
               <w n="w1">Et</w>
               <w n="w2">te</w>
               <w n="w3">flaua</w>
-              <w n="w4">Ceres</w>
+              <w ana="estlocus0" n="w4">Ceres</w>
             </rdg>
             <rdg n="rdg2" wit="#R2 #Gl">
               <w n="w1">Teque</w>
               <pc n="pc1">,</pc>
-              <w n="w2">Ceres</w>
+              <w ana="estlocus0" n="w2">Ceres</w>
               <w n="w3">o</w>
               <w n="w4">diua</w>
               <pc n="pc2">,</pc>
@@ -3704,7 +3704,7 @@
           <w n="w3">te</w>
           <w n="w4">gelidi</w>
           <pc n="pc1">,</pc>
-          <w n="w5">Saturne</w>
+          <w ana="estlocus0" n="w5">Saturne</w>
           <pc n="pc2">,</pc>
           <w n="w6">iugales</w>
           <pc n="pc3">.</pc>
@@ -3722,7 +3722,7 @@
             </rdg>
           </app>
           <w n="w4">talaribus</w>
-          <w n="w5">Arcas</w>
+          <w ana="estlocus1" n="w5">Arcas</w>
           <pc n="pc">,</pc>
         </l>
         <l met="hexameter" n="l293">
@@ -3744,10 +3744,10 @@
         <l met="hexameter" n="l295">
           <w n="w1">Qua</w>
           <w n="w2">regit</w>
-          <w n="w3">Elysium</w>
+          <w ana="estlocus1" n="w3">Elysium</w>
           <pc n="pc">,</pc>
           <w n="w4">qua</w>
-          <w n="w5">Tartara</w>
+          <w ana="estlocus1" n="w5">Tartara</w>
           <w n="w6">quaque</w>
           <app n="app">
             <rdg n="rdg1" wit="#R1">
@@ -3760,13 +3760,13 @@
           </app>
         </l>
         <l met="hexameter" n="l296">
-          <w n="w1">Fas</w>
-          <w n="w2">Phlegetonte</w>
+          <w ana="estlocus0" n="w1">Fas</w>
+          <w ana="estlocus1" n="w2">Phlegetonte</w>
           <w n="w3">tenet</w>
           <w n="w4">placidoque</w>
           <w n="w5">in</w>
           <w n="w6">flumine</w>
-          <w n="w7">Laethes</w>
+          <w ana="estlocus1" n="w7">Laethes</w>
         </l>
         <l met="hexameter" n="l297">
           <w n="w1">Elicit</w>
@@ -3785,7 +3785,7 @@
             </rdg>
           </app>
           <w n="w5">impius</w>
-          <w n="w6">Arcas</w>
+          <w ana="estlocus1" n="w6">Arcas</w>
           <pc n="pc2">.</pc>
         </l>
         <l met="hexameter" n="l298">
@@ -3824,7 +3824,7 @@
           <w n="w6">almam</w>
         </l>
         <l met="hexameter" n="l301">
-          <w n="w1">Plurima</w>
+          <w ana="estlocus0" n="w1">Plurima</w>
           <w n="w2">laetanti</w>
           <w n="w3">testatus</w>
           <w n="w4">gaudia</w>
@@ -3900,7 +3900,7 @@
         </l>
         <l met="hexameter" n="l310">
           <w n="w1">Horrificans</w>
-          <w n="w2">Boreas</w>
+          <w ana="estlocus0" n="w2">Boreas</w>
           <w n="w3">gelidae</w>
           <w n="w4">sub</w>
           <w n="w5">uirginis</w>
@@ -3940,7 +3940,7 @@
           <w n="w2">petunt</w>
           <w n="w3">alii</w>
           <w n="w4">bipatentis</w>
-          <w n="w5">Olympi</w>
+          <w ana="estlocus1" n="w5">Olympi</w>
           <pc n="pc">,</pc>
         </l>
         <l met="hexameter" n="l315">
@@ -3949,7 +3949,7 @@
           <w n="w3">aurato</w>
           <w n="w4">pandebat</w>
           <w n="w5">limine</w>
-          <w n="w6">Cancer</w>
+          <w ana="estlocus0" n="w6">Cancer</w>
         </l>
         <l met="hexameter" n="l316">
           <w n="w1">Moenia</w>
@@ -3994,8 +3994,8 @@
         <head n="head">
           <w n="w1">IACOBI</w>
           <w n="w2">BONI</w>
-          <w n="w3">RACVSAEI</w>
-          <w n="w4">CHRISTI</w>
+          <w ana="estlocus1" n="w3">RACVSAEI</w>
+          <w ana="estlocus0" n="w4">CHRISTI</w>
           <w n="w5">SVB</w>
           <w n="w6">FIGVRA</w>
           <w n="w7">HERCVLIS</w>
@@ -4013,7 +4013,7 @@
           <pc n="pc">"</pc>
           <w n="w1">Postera</w>
           <w n="w2">ab</w>
-          <w n="w3">Eoo</w>
+          <w ana="estlocus1" n="w3">Eoo</w>
           <w n="w4">roseis</w>
           <w n="w5">inuecta</w>
           <w n="w6">quadrigis</w>
@@ -4022,14 +4022,14 @@
           <w n="w1">Te</w>
           <w n="w2">croceis</w>
           <pc n="pc1">,</pc>
-          <w n="w3">Titone</w>
+          <w ana="estlocus0" n="w3">Titone</w>
           <pc n="pc2">,</pc>
           <w n="w4">toris</w>
-          <w n="w5">Aurora</w>
+          <w ana="estlocus0" n="w5">Aurora</w>
           <w n="w6">reliquit</w>
         </l>
         <l met="hexameter" n="l3">
-          <w n="w1">Solque</w>
+          <w ana="estlocus1" n="w1">Solque</w>
           <w n="w2">recedentes</w>
           <w n="w3">radiis</w>
           <w n="w4">dispescuit</w>
@@ -4038,7 +4038,7 @@
         <l met="hexameter" n="l4">
           <w n="w1">Atraque</w>
           <w n="w2">nigrantes</w>
-          <w n="w3">Erebo</w>
+          <w ana="estlocus4" n="w3">Erebo</w>
           <w n="w4">nox</w>
           <w n="w5">intulit</w>
           <w n="w6">alas</w>
@@ -4053,8 +4053,8 @@
           <w n="w6">creator</w>
         </l>
         <l met="hexameter" n="l6">
-          <w n="w1">Oceanus</w>
-          <w n="w2">Scythico</w>
+          <w ana="estlocus4" n="w1">Oceanus</w>
+          <w ana="estlocus1" n="w2">Scythico</w>
           <w n="w3">balaenis</w>
           <w n="w4">aequore</w>
           <w n="w5">iunctis</w>
@@ -4092,7 +4092,7 @@
           <w n="w4">querelam</w>
         </l>
         <l met="hexameter" n="l10">
-          <w n="w1">Castorides</w>
+          <w ana="estlocus0" n="w1">Castorides</w>
           <pc n="pc1">,</pc>
           <w n="w2">uox</w>
           <w n="w3">illa</w>
@@ -4159,7 +4159,7 @@
           <w n="w5">cete</w>
         </l>
         <l met="hexameter" n="l17">
-          <w n="w1">Phocarumque</w>
+          <w ana="estlocus0" n="w1">Phocarumque</w>
           <w n="w2">greges</w>
           <w n="w3">magnarum</w>
           <w n="w4">et</w>
@@ -4191,7 +4191,7 @@
           <w n="w7">imo</w>
         </l>
         <l met="hexameter" n="l21">
-          <w n="w1">Orbe</w>
+          <w ana="estlocus4" n="w1">Orbe</w>
           <w n="w2">trahens</w>
           <pc n="pc1">,</pc>
           <w n="w3">causa</w>
@@ -4203,14 +4203,14 @@
           <pc n="pc2">:</pc>
         </l>
         <l met="hexameter" n="l22">
-          <w n="w1">Balaenae</w>
+          <w ana="estlocus0" n="w1">Balaenae</w>
           <w n="w2">saeuis</w>
           <w n="w3">infestabantur</w>
           <w n="w4">ab</w>
           <w n="w5">orcis</w>
         </l>
         <l met="hexameter" n="l23">
-          <w n="w1">Oceanoque</w>
+          <w ana="estlocus4" n="w1">Oceanoque</w>
           <w n="w2">fuga</w>
           <w n="w3">pulsae</w>
           <w n="w4">maria</w>
@@ -4246,7 +4246,7 @@
           <w n="w6">altas</w>
         </l>
         <l met="hexameter" n="l27">
-          <w n="w1">Orcadas</w>
+          <w ana="estlocus1" n="w1">Orcadas</w>
           <w n="w2">et</w>
           <w n="w3">magnos</w>
           <w n="w4">rapiat</w>
@@ -4288,7 +4288,7 @@
         </l>
         <l met="hexameter" n="l31">
           <w n="w1">Dicas</w>
-          <w n="w2">Aeoliis</w>
+          <w ana="estlocus0" n="w2">Aeoliis</w>
           <w n="w3">fluctus</w>
           <w n="w4">eferuere</w>
           <w n="w5">uentis</w>
@@ -4297,8 +4297,8 @@
           <w n="w1">Quum</w>
           <w n="w2">Notus</w>
           <w n="w3">aut</w>
-          <w n="w4">Aquilo</w>
-          <w n="w5">Neptunia</w>
+          <w ana="estlocus0" n="w4">Aquilo</w>
+          <w ana="estlocus0" n="w5">Neptunia</w>
           <w n="w6">concutit</w>
           <w n="w7">arua</w>
           <pc n="pc">.</pc>
@@ -4385,7 +4385,7 @@
         <l met="hexameter" n="l41">
           <w n="w1">Tum</w>
           <w n="w2">pater</w>
-          <w n="w3">Oceanus</w>
+          <w ana="estlocus4" n="w3">Oceanus</w>
           <w n="w4">casum</w>
           <w n="w5">miseratus</w>
           <app n="app">
@@ -4412,13 +4412,13 @@
           <w n="w2">membris</w>
           <w n="w3">animam</w>
           <w n="w4">insaturabilis</w>
-          <w n="w5">Orcus</w>
+          <w ana="estlocus4" n="w5">Orcus</w>
         </l>
         <l met="hexameter" n="l44">
           <w n="w1">Deuorat</w>
           <pc n="pc">;</pc>
           <w n="w2">haec</w>
-          <w n="w3">Stygiis</w>
+          <w ana="estlocus1" n="w3">Stygiis</w>
           <w n="w4">centum</w>
           <w n="w5">damnata</w>
           <w n="w6">per</w>
@@ -4448,10 +4448,10 @@
         </l>
         <l met="hexameter" n="l47">
           <w n="w1">Obtestor</w>
-          <w n="w2">Phoebi</w>
+          <w ana="estlocus0" n="w2">Phoebi</w>
           <w n="w3">et</w>
-          <w n="w4">Dircaei</w>
-          <w n="w5">Amphionis</w>
+          <w ana="estlocus1" n="w4">Dircaei</w>
+          <w ana="estlocus0" n="w5">Amphionis</w>
           <w n="w6">urbem</w>
           <pc n="pc">,</pc>
         </l>
@@ -4482,7 +4482,7 @@
           </app>
         </l>
         <l met="hexameter" n="l50">
-          <w n="w1">Manibus</w>
+          <w ana="estlocus0" n="w1">Manibus</w>
           <w n="w2">inferiasque</w>
           <w n="w3">meis</w>
           <w n="w4">atque</w>
@@ -4520,10 +4520,10 @@
               <w n="w">flegetonta</w>
             </rdg>
             <rdg n="rdg2" wit="#Sn">
-              <w n="w">Phlegethonta</w>
+              <w ana="estlocus1" n="w">Phlegethonta</w>
             </rdg>
             <rdg n="rdg3" wit="#R2 #Gl">
-              <w n="w">Phlegetonta</w>
+              <w ana="estlocus1" n="w">Phlegetonta</w>
             </rdg>
           </app>
           <w n="w3">domas</w>
@@ -4553,7 +4553,7 @@
         <l met="hexameter" n="l56">
           <w n="w1">Talia</w>
           <w n="w2">fatus</w>
-          <w n="w3">Hylas</w>
+          <w ana="estlocus0" n="w3">Hylas</w>
           <w n="w4">ac</w>
           <w n="w5">talia</w>
           <w n="w6">clauiger</w>
@@ -4610,13 +4610,13 @@
           <pc n="pc">,</pc>
           <w n="w4">foret</w>
           <w n="w5">alter</w>
-          <w n="w6">Olympo</w>
+          <w ana="estlocus1" n="w6">Olympo</w>
         </l>
         <l met="hexameter" n="l62">
-          <w n="w1">Iuppiter</w>
-          <w n="w2">Alcides</w>
+          <w ana="estlocus0" n="w1">Iuppiter</w>
+          <w ana="estlocus0" n="w2">Alcides</w>
           <pc n="pc1">,</pc>
-          <w n="w3">Saturnia</w>
+          <w ana="estlocus1" n="w3">Saturnia</w>
           <w n="w4">regna</w>
           <w n="w5">redirent</w>
           <pc n="pc2">.</pc>
@@ -4626,7 +4626,7 @@
           <w n="w2">si</w>
           <w n="w3">uictorem</w>
           <w n="w4">spoliis</w>
-          <w n="w5">Acherontis</w>
+          <w ana="estlocus1" n="w5">Acherontis</w>
           <w n="w6">iniqui</w>
         </l>
         <l met="hexameter" n="l64">
@@ -4653,8 +4653,8 @@
           <pc n="pc">:</pc>
           <w n="w2">uolucrem</w>
           <w n="w3">mihi</w>
-          <w n="w4">Iuppiter</w>
-          <w n="w5">Arcada</w>
+          <w ana="estlocus0" n="w4">Iuppiter</w>
+          <w ana="estlocus1" n="w5">Arcada</w>
           <w n="w6">caelo</w>
         </l>
         <l met="hexameter" n="l67">
@@ -4664,7 +4664,7 @@
           <w n="w3">linguae</w>
           <w n="w4">qui</w>
           <w n="w5">fulmine</w>
-          <w n="w6">Ditem</w>
+          <w ana="estlocus4" n="w6">Ditem</w>
         </l>
         <l met="hexameter" n="l68">
           <w n="w1">Transferat</w>
@@ -4682,7 +4682,7 @@
           <w n="w1">His</w>
           <w n="w2">dictis</w>
           <w n="w3">gauisus</w>
-          <w n="w4">Hylas</w>
+          <w ana="estlocus0" n="w4">Hylas</w>
           <w n="w5">magnamque</w>
           <w n="w6">recoepit</w>
         </l>
@@ -4702,8 +4702,8 @@
         </l>
         <l met="hexameter" n="l71">
           <w n="w1">Proripit</w>
-          <w n="w2">Alcides</w>
-          <w n="w3">Stygiae</w>
+          <w ana="estlocus0" n="w2">Alcides</w>
+          <w ana="estlocus1" n="w3">Stygiae</w>
           <w n="w4">se</w>
           <w n="w5">ad</w>
           <w n="w6">stagna</w>
@@ -4714,7 +4714,7 @@
           <w n="w1">Quem</w>
           <w n="w2">simul</w>
           <w n="w3">atque</w>
-          <w n="w4">Charon</w>
+          <w ana="estlocus0" n="w4">Charon</w>
           <w n="w5">uiridi</w>
           <w n="w6">prospexit</w>
           <w n="w7">ab</w>
@@ -4844,7 +4844,7 @@
         <l met="hexameter" n="l85">
           <w n="w1">Sed</w>
           <w n="w2">si</w>
-          <w n="w3">Persephones</w>
+          <w ana="estlocus0" n="w3">Persephones</w>
           <w n="w4">rutilantis</w>
           <w n="w5">uirga</w>
           <w n="w6">metalli</w>
@@ -4864,24 +4864,24 @@
           <w n="w2">et</w>
           <w n="w3">ad</w>
           <w n="w4">dominam</w>
-          <w n="w5">Ditis</w>
+          <w ana="estlocus4" n="w5">Ditis</w>
           <w n="w6">sua</w>
           <w n="w7">munera</w>
           <w n="w8">ferre</w>
           <pc n="pc">.</pc>
         </l>
         <l met="hexameter" n="l88">
-          <w n="w1">Orphea</w>
+          <w ana="estlocus0" n="w1">Orphea</w>
           <w n="w2">nam</w>
           <w n="w3">memini</w>
           <pc n="pc">,</pc>
           <w n="w4">quem</w>
           <w n="w5">candida</w>
-          <w n="w6">Calliopea</w>
+          <w ana="estlocus0" n="w6">Calliopea</w>
         </l>
         <l met="hexameter" n="l89">
           <w n="w1">Edidit</w>
-          <w n="w2">Oeagro</w>
+          <w ana="estlocus0" n="w2">Oeagro</w>
           <w n="w3">conceptum</w>
           <w n="w4">flumine</w>
           <pc n="pc">,</pc>
@@ -4929,7 +4929,7 @@
           <w n="w6">ipsis</w>
         </l>
         <l met="hexameter" n="l95">
-          <w n="w1">Cyllenis</w>
+          <w ana="estlocus1" n="w1">Cyllenis</w>
           <w n="w2">fidibus</w>
           <w n="w3">uoces</w>
           <w n="w4">imitata</w>
@@ -4944,7 +4944,7 @@
           <w n="w5">raptam</w>
         </l>
         <l met="hexameter" n="l97">
-          <w n="w1">Euridicen</w>
+          <w ana="estlocus0" n="w1">Euridicen</w>
           <pc n="pc">:</pc>
           <w n="w2">chaos</w>
           <w n="w3">antiquum</w>
@@ -4955,7 +4955,7 @@
           <w n="w1">Semina</w>
           <pc n="pc1">,</pc>
           <w n="w2">quae</w>
-          <w n="w3">Phlegeton</w>
+          <w ana="estlocus1" n="w3">Phlegeton</w>
           <w n="w4">dias</w>
           <w n="w5">produxit</w>
           <w n="w6">in</w>
@@ -4963,8 +4963,8 @@
           <pc n="pc2">,</pc>
         </l>
         <l met="hexameter" n="l99">
-          <w n="w1">Germanosque</w>
-          <w n="w2">Ioues</w>
+          <w ana="estlocus1" n="w1">Germanosque</w>
+          <w ana="estlocus0" n="w2">Ioues</w>
           <w n="w3">diuisaque</w>
           <w n="w4">regna</w>
           <w n="w5">canebat</w>
@@ -4975,8 +4975,8 @@
           <w n="w2">dum</w>
           <w n="w3">cantu</w>
           <w n="w4">celebrat</w>
-          <w n="w5">Rhodopeius</w>
-          <w n="w6">Orpheus</w>
+          <w ana="estlocus1" n="w5">Rhodopeius</w>
+          <w ana="estlocus0" n="w6">Orpheus</w>
           <pc n="pc">,</pc>
         </l>
         <l met="hexameter" n="l101">
@@ -4990,7 +4990,7 @@
         <l met="hexameter" n="l102">
           <w n="w1">Tractus</w>
           <w n="w2">et</w>
-          <w n="w3">Aeolides</w>
+          <w ana="estlocus0" n="w3">Aeolides</w>
           <w n="w4">dura</w>
           <w n="w5">cum</w>
           <w n="w6">caute</w>
@@ -4998,16 +4998,16 @@
         </l>
         <l met="hexameter" n="l103">
           <w n="w1">Constitit</w>
-          <w n="w2">Ixion</w>
+          <w ana="estlocus0" n="w2">Ixion</w>
           <pc n="pc">,</pc>
           <w n="w3">pertusas</w>
           <w n="w4">fontibus</w>
           <w n="w5">urnas</w>
         </l>
         <l met="hexameter" n="l104">
-          <w n="w1">Bellides</w>
+          <w ana="estlocus0" n="w1">Bellides</w>
           <w n="w2">implerunt</w>
-          <w n="w3">Acheronque</w>
+          <w ana="estlocus1" n="w3">Acheronque</w>
           <w n="w4">obmutuit</w>
           <w n="w5">undis</w>
           <pc n="pc">.</pc>
@@ -5018,18 +5018,18 @@
           <w n="w3">infernus</w>
           <w n="w4">blanda</w>
           <w n="w5">dulcedine</w>
-          <w n="w6">Pluto</w>
+          <w ana="estlocus0" n="w6">Pluto</w>
         </l>
         <l met="hexameter" n="l106">
           <w n="w1">Restituit</w>
           <w n="w2">manes</w>
           <w n="w3">abreptae</w>
           <w n="w4">coniugis</w>
-          <w n="w5">Orpheo</w>
+          <w ana="estlocus0" n="w5">Orpheo</w>
           <pc n="pc">,</pc>
         </l>
         <l met="hexameter" n="l107">
-          <w n="w1">Orpheus</w>
+          <w ana="estlocus0" n="w1">Orpheus</w>
           <w n="w2">et</w>
           <w n="w3">superas</w>
           <w n="w4">remeauit</w>
@@ -5044,16 +5044,16 @@
           <w n="w2">contra</w>
           <w n="w3">breuibus</w>
           <w n="w4">fatur</w>
-          <w n="w5">Thyrintius</w>
+          <w ana="estlocus1" n="w5">Thyrintius</w>
           <w n="w6">heros</w>
           <pc n="pc">:</pc>
         </l>
         <l met="hexameter" n="l109">
           <pc n="pc">"</pc>
-          <w n="w1">Thracius</w>
+          <w ana="estlocus1" n="w1">Thracius</w>
           <w n="w2">ad</w>
           <w n="w3">sedes</w>
-          <w n="w4">Erebi</w>
+          <w ana="estlocus4" n="w4">Erebi</w>
           <w n="w5">descendere</w>
           <w n="w6">uates</w>
         </l>
@@ -5066,7 +5066,7 @@
           <w n="w6">profundos</w>
         </l>
         <l met="hexameter" n="l111">
-          <w n="w1">Garrulitate</w>
+          <w ana="estlocus0" n="w1">Garrulitate</w>
           <w n="w2">lyrae</w>
           <w n="w3">fretus</w>
           <w n="w4">cantuque</w>
@@ -5084,39 +5084,39 @@
           <w n="w8">non</w>
         </l>
         <l met="hexameter" n="l113">
-          <w n="w1">Fas</w>
+          <w ana="estlocus0" n="w1">Fas</w>
           <w n="w2">mihi</w>
           <w n="w3">sit</w>
           <w n="w4">patrui</w>
           <w n="w5">sedes</w>
           <w n="w6">inuisere</w>
-          <w n="w7">Ditis</w>
+          <w ana="estlocus4" n="w7">Ditis</w>
           <pc n="pc1">?</pc>
           <pc n="pc2">!</pc>
         </l>
         <l met="hexameter" n="l114">
-          <w n="w1">Iuppiter</w>
+          <w ana="estlocus0" n="w1">Iuppiter</w>
           <w n="w2">ipse</w>
           <w n="w3">mihi</w>
           <w n="w4">genitor</w>
           <pc n="pc">,</pc>
           <w n="w5">me</w>
-          <w n="w6">Iuno</w>
+          <w ana="estlocus0" n="w6">Iuno</w>
           <w n="w7">nouerca</w>
         </l>
         <l met="hexameter" n="l115">
           <w n="w1">Iussit</w>
           <w n="w2">adire</w>
           <w n="w3">domos</w>
-          <w n="w4">Erebi</w>
-          <w n="w5">Stygiamque</w>
+          <w ana="estlocus4" n="w4">Erebi</w>
+          <w ana="estlocus1" n="w5">Stygiamque</w>
           <w n="w6">paludem</w>
         </l>
         <l met="hexameter" n="l116">
           <w n="w1">Transulcare</w>
           <w n="w2">rati</w>
           <w n="w3">magnam</w>
-          <w n="w4">Plutonis</w>
+          <w ana="estlocus0" n="w4">Plutonis</w>
           <w n="w5">ad</w>
           <w n="w6">arcem</w>
           <pc n="pc">.</pc>
@@ -5136,7 +5136,7 @@
           <w n="w2">compago</w>
           <pc n="pc1">,</pc>
           <w n="w3">sic</w>
-          <w n="w4">Marti</w>
+          <w ana="estlocus0" n="w4">Marti</w>
           <w n="w5">ferreus</w>
           <w n="w6">ensis</w>
           <pc n="pc2">,</pc>
@@ -5144,24 +5144,24 @@
         <l met="hexameter" n="l119">
           <w n="w1">Tela</w>
           <w n="w2">trisulca</w>
-          <w n="w3">Ioui</w>
+          <w ana="estlocus0" n="w3">Ioui</w>
           <pc n="pc1">,</pc>
-          <w n="w4">Neptuno</w>
+          <w ana="estlocus0" n="w4">Neptuno</w>
           <w n="w5">fuscina</w>
           <pc n="pc2">,</pc>
-          <w n="w6">Phoebo</w>
+          <w ana="estlocus0" n="w6">Phoebo</w>
         </l>
         <l met="hexameter" n="l120">
-          <w n="w1">Corytus</w>
+          <w ana="estlocus0" n="w1">Corytus</w>
           <w n="w2">calamique</w>
           <w n="w3">leues</w>
           <w n="w4">et</w>
           <w n="w5">thyrsus</w>
-          <w n="w6">Iaccho</w>
+          <w ana="estlocus0" n="w6">Iaccho</w>
           <pc n="pc">;</pc>
         </l>
         <l met="hexameter" n="l121">
-          <w n="w1">Mercurio</w>
+          <w ana="estlocus0" n="w1">Mercurio</w>
           <w n="w2">sic</w>
           <w n="w3">uirga</w>
           <w n="w4">datur</w>
@@ -5171,11 +5171,11 @@
           <w n="w7">tridentem</w>
         </l>
         <l met="hexameter" n="l122">
-          <w n="w1">Pluto</w>
+          <w ana="estlocus0" n="w1">Pluto</w>
           <w n="w2">tenet</w>
           <w n="w3">gestatque</w>
           <w n="w4">suam</w>
-          <w n="w5">Diana</w>
+          <w ana="estlocus0" n="w5">Diana</w>
           <w n="w6">pharetram</w>
           <pc n="pc">?</pc>
         </l>
@@ -5189,7 +5189,7 @@
           <pc n="pc2">-</pc>
           <pc n="pc3">-</pc>
           <pc n="pc4">-</pc>
-          <w n="w6">Proserpina</w>
+          <w ana="estlocus0" n="w6">Proserpina</w>
           <w n="w7">quondam</w>
         </l>
         <l met="hexameter" n="l124">
@@ -5199,7 +5199,7 @@
           <w n="w4">ipsa</w>
           <w n="w5">sibi</w>
           <w n="w6">sub</w>
-          <w n="w7">Tartara</w>
+          <w ana="estlocus1" n="w7">Tartara</w>
           <w n="w8">munus</w>
         </l>
         <l met="hexameter" n="l125">
@@ -5296,7 +5296,7 @@
           <w n="w6">carinam</w>
         </l>
         <l met="hexameter" n="l134">
-          <w n="w1">Amphitryoniades</w>
+          <w ana="estlocus0" n="w1">Amphitryoniades</w>
           <pc n="pc">.</pc>
           <w n="w2">Tum</w>
           <w n="w3">lubrica</w>
@@ -5321,7 +5321,7 @@
           <pc n="pc">.</pc>
         </l>
         <l met="hexameter" n="l137">
-          <w n="w1">Alcides</w>
+          <w ana="estlocus0" n="w1">Alcides</w>
           <w n="w2">postquam</w>
           <w n="w3">ripa</w>
           <w n="w4">ulteriore</w>
@@ -5356,7 +5356,7 @@
           <w n="w6">tyranni</w>
         </l>
         <l met="hexameter" n="l141">
-          <w n="w1">Tartarei</w>
+          <w ana="estlocus1" n="w1">Tartarei</w>
           <pc n="pc">:</pc>
           <w n="w2">hanc</w>
           <w n="w3">longo</w>
@@ -5407,7 +5407,7 @@
               <w n="w">regis</w>
             </rdg>
             <rdg n="rdg2" wit="#R1 #R2 #Gl">
-              <w n="w">Ditis</w>
+              <w ana="estlocus4" n="w">Ditis</w>
             </rdg>
           </app>
         </l>
@@ -5420,7 +5420,7 @@
           <w n="w6">triformis</w>
         </l>
         <l met="hexameter" n="l147">
-          <w n="w1">Cerberus</w>
+          <w ana="estlocus0" n="w1">Cerberus</w>
           <pc n="pc">:</pc>
           <w n="w2">humano</w>
           <w n="w3">depastus</w>
@@ -5452,7 +5452,7 @@
         </l>
         <l met="hexameter" n="l149">
           <w n="w1">Quo</w>
-          <w n="w2">Stygias</w>
+          <w ana="estlocus1" n="w2">Stygias</w>
           <w n="w3">prostratus</w>
           <w n="w4">aquas</w>
           <w n="w5">custodit</w>
@@ -5544,14 +5544,14 @@
         <l met="hexameter" n="l159">
           <w n="w1">Indomitus</w>
           <w n="w2">stetit</w>
-          <w n="w3">Alcides</w>
+          <w ana="estlocus0" n="w3">Alcides</w>
           <w n="w4">formidinis</w>
           <w n="w5">expers</w>
         </l>
         <l met="hexameter" n="l160">
           <w n="w1">Nudatumque</w>
           <w n="w2">clepit</w>
-          <w n="w3">Nemeaeo</w>
+          <w ana="estlocus1" n="w3">Nemeaeo</w>
           <w n="w4">tegmine</w>
           <w n="w5">corpus</w>
         </l>
@@ -5596,13 +5596,13 @@
           <w n="w4">petit</w>
           <w n="w5">alta</w>
           <w n="w6">sedilia</w>
-          <w n="w7">Ditis</w>
+          <w ana="estlocus4" n="w7">Ditis</w>
           <pc n="pc">.</pc>
         </l>
         <l met="hexameter" n="l166">
           <w n="w1">Vt</w>
           <w n="w2">quum</w>
-          <w n="w3">Chaonius</w>
+          <w ana="estlocus1" n="w3">Chaonius</w>
           <w n="w4">quondam</w>
           <w n="w5">latrator</w>
           <w n="w6">euntis</w>
@@ -5638,7 +5638,7 @@
           <w n="w2">rabiem</w>
           <w n="w3">timidae</w>
           <w n="w4">domitare</w>
-          <w n="w5">Lyciscae</w>
+          <w ana="estlocus0" n="w5">Lyciscae</w>
           <pc n="pc">,</pc>
         </l>
         <l met="hexameter" n="l171">
@@ -5655,7 +5655,7 @@
           <w n="w2">premitur</w>
           <w n="w3">fugiens</w>
           <w n="w4">uicinaque</w>
-          <w n="w5">Cerberus</w>
+          <w ana="estlocus0" n="w5">Cerberus</w>
           <w n="w6">horret</w>
         </l>
         <l met="hexameter" n="l173">
@@ -5670,7 +5670,7 @@
         <l met="hexameter" n="l174">
           <w n="w1">Iam</w>
           <w n="w2">penes</w>
-          <w n="w3">Alcides</w>
+          <w ana="estlocus0" n="w3">Alcides</w>
           <w n="w4">aderat</w>
           <pc n="pc">,</pc>
           <w n="w5">iam</w>
@@ -5688,10 +5688,10 @@
         </l>
         <l met="hexameter" n="l176">
           <w n="w1">Quum</w>
-          <w n="w2">Iouis</w>
+          <w ana="estlocus0" n="w2">Iouis</w>
           <w n="w3">ante</w>
           <w n="w4">thronum</w>
-          <w n="w5">Stygii</w>
+          <w ana="estlocus1" n="w5">Stygii</w>
           <w n="w6">collabitur</w>
           <w n="w7">atque</w>
         </l>
@@ -5713,7 +5713,7 @@
           <w n="w6">atris</w>
         </l>
         <l met="hexameter" n="l179">
-          <w n="w1">Amphitryoniades</w>
+          <w ana="estlocus0" n="w1">Amphitryoniades</w>
           <w n="w2">spiris</w>
           <w n="w3">immanibus</w>
           <w n="w4">omnemque</w>
@@ -5721,11 +5721,11 @@
         <l met="hexameter" n="l180">
           <w n="w1">Implicat</w>
           <pc n="pc">,</pc>
-          <w n="w2">Assacheus</w>
+          <w ana="estlocus0" n="w2">Assacheus</w>
           <w n="w3">ueluti</w>
           <w n="w4">draco</w>
           <w n="w5">sanguine</w>
-          <w n="w6">Maurum</w>
+          <w ana="estlocus1" n="w6">Maurum</w>
         </l>
         <l met="hexameter" n="l181">
           <w n="w1">Quum</w>
@@ -5759,7 +5759,7 @@
           <w n="w4">custos</w>
           <w n="w5">ex</w>
           <w n="w6">arce</w>
-          <w n="w7">Megaera</w>
+          <w ana="estlocus0" n="w7">Megaera</w>
         </l>
         <note n="note" place="margin"/>
         <l met="hexameter" n="l185">
@@ -5779,12 +5779,12 @@
         </l>
         <l met="hexameter" n="l186">
           <w n="w1">Et</w>
-          <w n="w2">Stygias</w>
+          <w ana="estlocus1" n="w2">Stygias</w>
           <w n="w3">seruare</w>
           <w n="w4">domos</w>
           <w n="w5">dedit</w>
           <w n="w6">arbiter</w>
-          <w n="w7">Orci</w>
+          <w ana="estlocus4" n="w7">Orci</w>
           <pc n="pc">.</pc>
         </l>
         <l met="hexameter" n="l187">
@@ -5797,7 +5797,7 @@
         </l>
         <l met="hexameter" n="l188">
           <w n="w1">Pressa</w>
-          <w n="w2">Acheronte</w>
+          <w ana="estlocus1" n="w2">Acheronte</w>
           <w n="w3">truci</w>
           <pc n="pc">,</pc>
           <w n="w4">quae</w>
@@ -5826,7 +5826,7 @@
         <l met="hexameter" n="l191">
           <w n="w1">Inflauit</w>
           <pc n="pc">,</pc>
-          <w n="w2">Stygii</w>
+          <w ana="estlocus1" n="w2">Stygii</w>
           <w n="w3">quo</w>
           <w n="w4">protinus</w>
           <w n="w5">ardua</w>
@@ -5843,7 +5843,7 @@
         <l met="hexameter" n="l193">
           <w n="w1">Sensit</w>
           <w n="w2">et</w>
-          <w n="w3">Elysium</w>
+          <w ana="estlocus1" n="w3">Elysium</w>
           <w n="w4">longe</w>
           <w n="w5">nemus</w>
           <pc n="pc">,</pc>
@@ -5872,7 +5872,7 @@
           <w n="w2">et</w>
           <w n="w3">subito</w>
           <w n="w4">stimulat</w>
-          <w n="w5">Bellona</w>
+          <w ana="estlocus0" n="w5">Bellona</w>
           <w n="w6">tumultu</w>
         </l>
         <l met="hexameter" n="l197">
@@ -5885,13 +5885,13 @@
           <w n="w6">bidentes</w>
         </l>
         <l met="hexameter" n="l198">
-          <w n="w1">Vulcano</w>
+          <w ana="estlocus0" n="w1">Vulcano</w>
           <w n="w2">candente</w>
           <w n="w3">ferunt</w>
           <pc n="pc">,</pc>
           <w n="w4">qua</w>
           <w n="w5">buccina</w>
-          <w n="w6">Martem</w>
+          <w ana="estlocus0" n="w6">Martem</w>
         </l>
         <l met="hexameter" n="l199">
           <w n="w1">Increpuit</w>
@@ -5904,18 +5904,18 @@
           <w n="w7">rursus</w>
         </l>
         <l met="hexameter" n="l200">
-          <w n="w1">Pluto</w>
+          <w ana="estlocus0" n="w1">Pluto</w>
           <w n="w2">gerat</w>
           <w n="w3">uetitisque</w>
           <w n="w4">petat</w>
           <w n="w5">procursibus</w>
-          <w n="w6">Aetnam</w>
+          <w ana="estlocus1" n="w6">Aetnam</w>
           <pc n="pc">.</pc>
         </l>
         <l met="hexameter" n="l201">
           <w n="w1">At</w>
           <w n="w2">non</w>
-          <w n="w3">Alcides</w>
+          <w ana="estlocus0" n="w3">Alcides</w>
           <w n="w4">ullis</w>
           <w n="w5">perterrita</w>
           <w n="w6">monstris</w>
@@ -5925,19 +5925,19 @@
           <w n="w2">turbabat</w>
           <pc n="pc">,</pc>
           <w n="w3">ueluti</w>
-          <w n="w4">Cantabria</w>
+          <w ana="estlocus1" n="w4">Cantabria</w>
           <w n="w5">cautes</w>
         </l>
         <l met="hexameter" n="l203">
           <w n="w1">Nil</w>
           <w n="w2">timet</w>
-          <w n="w3">Aeolias</w>
+          <w ana="estlocus0" n="w3">Aeolias</w>
           <w n="w4">hyemes</w>
           <w n="w5">aestumque</w>
           <w n="w6">minacis</w>
         </l>
         <l met="hexameter" n="l204">
-          <w n="w1">Oceani</w>
+          <w ana="estlocus4" n="w1">Oceani</w>
           <pc n="pc">,</pc>
           <w n="w2">scopulis</w>
           <w n="w3">sed</w>
@@ -5950,7 +5950,7 @@
           <w n="w2">in</w>
           <w n="w3">mediis</w>
           <pc n="pc">,</pc>
-          <w n="w4">Magnes</w>
+          <w ana="estlocus0" n="w4">Magnes</w>
           <w n="w5">et</w>
           <w n="w6">concaua</w>
           <w n="w7">circum</w>
@@ -5983,7 +5983,7 @@
         </l>
         <l met="hexameter" n="l209">
           <w n="w1">Alta</w>
-          <w n="w2">Cleonei</w>
+          <w ana="estlocus0" n="w2">Cleonei</w>
           <w n="w3">fulserunt</w>
           <w n="w4">terga</w>
           <w n="w5">leonis</w>
@@ -6036,7 +6036,7 @@
           <w n="w7">regna</w>
         </l>
         <l met="hexameter" n="l215">
-          <w n="w1">Persephones</w>
+          <w ana="estlocus0" n="w1">Persephones</w>
           <pc n="pc">.</pc>
           <w n="w2">Quare</w>
           <w n="w3">infestum</w>
@@ -6049,7 +6049,7 @@
           <pc n="pc1">,</pc>
           <w n="w2">magni</w>
           <w n="w3">timuerunt</w>
-          <w n="w4">Herculis</w>
+          <w ana="estlocus0" n="w4">Herculis</w>
           <w n="w5">iras</w>
           <pc n="pc2">.</pc>
         </l>
@@ -6150,7 +6150,7 @@
           <w n="w3">bellorum</w>
           <w n="w4">comites</w>
           <pc n="pc2">,</pc>
-          <w n="w5">Erebi</w>
+          <w ana="estlocus4" n="w5">Erebi</w>
           <w n="w6">effera</w>
           <w n="w7">proles</w>
           <pc n="pc3">,</pc>
@@ -6181,7 +6181,7 @@
           <pc n="pc">,</pc>
           <w n="w5">qui</w>
           <w n="w6">bella</w>
-          <w n="w7">Typhaeum</w>
+          <w ana="estlocus0" n="w7">Typhaeum</w>
         </l>
         <l met="hexameter" n="l231">
           <w n="w1">Vana</w>
@@ -6191,19 +6191,19 @@
           <w n="w5">alto</w>
         </l>
         <l met="hexameter" n="l232">
-          <w n="w1">Inarimes</w>
+          <w ana="estlocus1" n="w1">Inarimes</w>
           <w n="w2">quique</w>
-          <w n="w3">Enceladum</w>
+          <w ana="estlocus0" n="w3">Enceladum</w>
           <w n="w4">subiecimus</w>
-          <w n="w5">Aetnae</w>
+          <w ana="estlocus1" n="w5">Aetnae</w>
         </l>
         <l met="hexameter" n="l233">
           <w n="w1">Atque</w>
           <w n="w2">tot</w>
           <w n="w3">anguipedes</w>
-          <w n="w4">Phlegraea</w>
+          <w ana="estlocus1" n="w4">Phlegraea</w>
           <w n="w5">ualle</w>
-          <w n="w6">Gigantas</w>
+          <w ana="estlocus0" n="w6">Gigantas</w>
         </l>
         <l met="hexameter" n="l234">
           <w n="w1">Fulmine</w>
@@ -6211,7 +6211,7 @@
           <w n="w3">excussa</w>
           <w n="w4">lapsos</w>
           <w n="w5">obtriuimus</w>
-          <w n="w6">Ossa</w>
+          <w ana="estlocus1" n="w6">Ossa</w>
           <pc n="pc">.</pc>
         </l>
         <l met="hexameter" n="l235">
@@ -6265,7 +6265,7 @@
           <w n="w1">Si</w>
           <w n="w2">referet</w>
           <w n="w3">superae</w>
-          <w n="w4">Iunoni</w>
+          <w ana="estlocus0" n="w4">Iunoni</w>
           <w n="w5">inuisa</w>
           <w n="w6">propago</w>
           <pc n="pc">.</pc>
@@ -6273,7 +6273,7 @@
         <l met="hexameter" n="l240">
           <w n="w1">Scilicet</w>
           <w n="w2">ignaui</w>
-          <w n="w3">Stygia</w>
+          <w ana="estlocus1" n="w3">Stygia</w>
           <w n="w4">torpebimus</w>
           <w n="w5">aula</w>
         </l>
@@ -6293,7 +6293,7 @@
           <w n="w3">hinc</w>
           <w n="w4">audax</w>
           <w n="w5">nostrae</w>
-          <w n="w6">Iunonis</w>
+          <w ana="estlocus0" n="w6">Iunonis</w>
           <w n="w7">adulter</w>
         </l>
         <l met="hexameter" n="l243">
@@ -6308,7 +6308,7 @@
           <w n="w1">Aequorei</w>
           <w n="w2">quanquam</w>
           <w n="w3">fuerit</w>
-          <w n="w4">Iouis</w>
+          <w ana="estlocus0" n="w4">Iouis</w>
           <w n="w5">inclyta</w>
           <w n="w6">proles</w>
           <pc n="pc">.</pc>
@@ -6321,7 +6321,7 @@
           <w n="w5">prior</w>
           <w n="w6">neu</w>
           <w n="w7">clarus</w>
-          <w n="w8">Auerni</w>
+          <w ana="estlocus1" n="w8">Auerni</w>
         </l>
         <l met="hexameter" n="l246">
           <w n="w1">Conculcetur</w>
@@ -6357,11 +6357,11 @@
           <w n="w3">aetherium</w>
           <w n="w4">subter</w>
           <w n="w5">nascuntur</w>
-          <w n="w6">Olympum</w>
+          <w ana="estlocus1" n="w6">Olympum</w>
           <pc n="pc">!</pc>
         </l>
         <l met="hexameter" n="l250">
-          <w n="w1">Laus</w>
+          <w ana="estlocus0" n="w1">Laus</w>
           <w n="w2">acri</w>
           <w n="w3">rapienda</w>
           <w n="w4">uiro</w>
@@ -6411,7 +6411,7 @@
           <w n="w1">Luctus</w>
           <w n="w2">et</w>
           <w n="w3">algificus</w>
-          <w n="w4">Pallor</w>
+          <w ana="estlocus0" n="w4">Pallor</w>
           <pc n="pc">,</pc>
           <w n="w5">Dolor</w>
           <w n="w6">improbus</w>
@@ -6429,14 +6429,14 @@
         <l met="hexameter" n="l257">
           <w n="w1">Sed</w>
           <w n="w2">neque</w>
-          <w n="w3">Cocyti</w>
+          <w ana="estlocus1" n="w3">Cocyti</w>
           <w n="w4">nox</w>
           <w n="w5">importuna</w>
           <w n="w6">nec</w>
-          <w n="w7">Orci</w>
+          <w ana="estlocus4" n="w7">Orci</w>
         </l>
         <l met="hexameter" n="l258">
-          <w n="w1">Ianitor</w>
+          <w ana="estlocus0" n="w1">Ianitor</w>
           <w n="w2">et</w>
           <w n="w3">moesto</w>
           <w n="w4">mors</w>
@@ -6464,7 +6464,7 @@
           <w n="w7">fortis</w>
         </l>
         <l met="hexameter" n="l261">
-          <w n="w1">Amphitryoniades</w>
+          <w ana="estlocus0" n="w1">Amphitryoniades</w>
           <w n="w2">aequo</w>
           <w n="w3">sub</w>
           <w n="w4">corde</w>
@@ -6487,19 +6487,19 @@
           <w n="w4">quo</w>
           <w n="w5">cingitur</w>
           <w n="w6">orbibus</w>
-          <w n="w7">Orcus</w>
+          <w ana="estlocus4" n="w7">Orcus</w>
         </l>
         <l met="hexameter" n="l264">
           <w n="w1">Clamosumque</w>
           <w n="w2">forum</w>
           <w n="w3">nigram</w>
           <w n="w4">stat</w>
-          <w n="w5">Ditis</w>
+          <w ana="estlocus4" n="w5">Ditis</w>
           <w n="w6">ad</w>
           <w n="w7">aulam</w>
         </l>
         <l met="hexameter" n="l265">
-          <w n="w1">Gnosius</w>
+          <w ana="estlocus1" n="w1">Gnosius</w>
           <w n="w2">et</w>
           <w n="w3">residens</w>
           <w n="w4">celsa</w>
@@ -6521,7 +6521,7 @@
         <l met="hexameter" n="l267">
           <w n="w1">Hic</w>
           <w n="w2">quoque</w>
-          <w n="w3">Pirithoi</w>
+          <w ana="estlocus0" n="w3">Pirithoi</w>
           <w n="w4">sese</w>
           <w n="w5">obuia</w>
           <w n="w6">protulit</w>
@@ -6536,12 +6536,12 @@
           <w n="w5">loqui</w>
           <pc n="pc1">:</pc>
           <pc n="pc2">"</pc>
-          <w n="w6">Iouis</w>
+          <w ana="estlocus0" n="w6">Iouis</w>
           <w n="w7">alta</w>
           <w n="w8">propago</w>
         </l>
         <l met="hexameter" n="l269">
-          <w n="w1">Alcide</w>
+          <w ana="estlocus0" n="w1">Alcide</w>
           <pc n="pc">,</pc>
           <w n="w2">qui</w>
           <w n="w3">cuncta</w>
@@ -6566,7 +6566,7 @@
           <w n="w4">superi</w>
           <w n="w5">praedicere</w>
           <w n="w6">posset</w>
-          <w n="w7">Olympi</w>
+          <w ana="estlocus1" n="w7">Olympi</w>
           <pc n="pc">,</pc>
         </l>
         <l met="hexameter" n="l272">
@@ -6596,7 +6596,7 @@
           <w n="w3">defensor</w>
           <w n="w4">ades</w>
           <w n="w5">tutellaque</w>
-          <w n="w6">Theseo</w>
+          <w ana="estlocus0" n="w6">Theseo</w>
           <pc n="pc">.</pc>
         </l>
         <l met="hexameter" n="l275">
@@ -6656,9 +6656,9 @@
           <w n="w7">dolebat</w>
         </l>
         <l met="hexameter" n="l281">
-          <w n="w1">Thaesea</w>
+          <w ana="estlocus0" n="w1">Thaesea</w>
           <w n="w2">quom</w>
-          <w n="w3">Stygiae</w>
+          <w ana="estlocus1" n="w3">Stygiae</w>
           <w n="w4">uinctum</w>
           <w n="w5">duxere</w>
           <w n="w6">cateruae</w>
@@ -6676,7 +6676,7 @@
         <l met="hexameter" n="l283">
           <w n="w1">Me</w>
           <w n="w2">quoque</w>
-          <w n="w3">Gnosiaci</w>
+          <w ana="estlocus1" n="w3">Gnosiaci</w>
           <w n="w4">qui</w>
           <w n="w5">quaesitoris</w>
           <w n="w6">acerbum</w>
@@ -6702,9 +6702,9 @@
         </l>
         <l met="hexameter" n="l286">
           <w n="w1">Eripe</w>
-          <w n="w2">Tartareis</w>
+          <w ana="estlocus1" n="w2">Tartareis</w>
           <w n="w3">miserandum</w>
-          <w n="w4">Thaesea</w>
+          <w ana="estlocus0" n="w4">Thaesea</w>
           <w n="w5">uinclis</w>
           <pc n="pc">!</pc>
         </l>
@@ -6746,7 +6746,7 @@
           <w n="w3">aetherium</w>
           <w n="w4">tecum</w>
           <w n="w5">sublimis</w>
-          <w n="w6">Olympum</w>
+          <w ana="estlocus1" n="w6">Olympum</w>
           <pc n="pc1">.</pc>
           <pc n="pc2">"</pc>
         </l>
@@ -6777,11 +6777,11 @@
           <w n="w3">uirtus</w>
           <w n="w4">subit</w>
           <w n="w5">aemula</w>
-          <w n="w6">Thaesei</w>
+          <w ana="estlocus0" n="w6">Thaesei</w>
           <pc n="pc2">,</pc>
         </l>
         <l met="hexameter" n="l294">
-          <w n="w1">Thermodontiaca</w>
+          <w ana="estlocus0" n="w1">Thermodontiaca</w>
           <w n="w2">quocum</w>
           <w n="w3">pro</w>
           <w n="w4">coniuge</w>
@@ -6792,7 +6792,7 @@
           <w n="w2">et</w>
           <w n="w3">inuictis</w>
           <w n="w4">spoliauit</w>
-          <w n="w5">Amazonas</w>
+          <w ana="estlocus0" n="w5">Amazonas</w>
           <w n="w6">armis</w>
           <pc n="pc">.</pc>
         </l>
@@ -6824,7 +6824,7 @@
           <w n="w4">nec</w>
           <w n="w5">me</w>
           <w n="w6">crassator</w>
-          <w n="w7">Auernus</w>
+          <w ana="estlocus1" n="w7">Auernus</w>
         </l>
         <l met="hexameter" n="l299">
           <w n="w1">Terruit</w>
@@ -6843,7 +6843,7 @@
           <w n="w3">squallent</w>
           <w n="w4">quo</w>
           <w n="w5">languida</w>
-          <w n="w6">Thesei</w>
+          <w ana="estlocus0" n="w6">Thesei</w>
         </l>
         <l met="hexameter" n="l301">
           <w n="w1">Membra</w>
@@ -6871,7 +6871,7 @@
         </l>
         <l met="hexameter" n="l303">
           <w n="w1">Cingitur</w>
-          <w n="w2">Orcus</w>
+          <w ana="estlocus4" n="w2">Orcus</w>
           <w n="w3">inops</w>
           <pc n="pc1">,</pc>
           <w n="w4">quid</w>
@@ -6883,18 +6883,18 @@
         </l>
         <l met="hexameter" n="l304">
           <w n="w1">Quoi</w>
-          <w n="w2">Phlegyae</w>
+          <w ana="estlocus1" n="w2">Phlegyae</w>
           <w n="w3">genus</w>
           <w n="w4">inuiso</w>
           <w n="w5">de</w>
           <w n="w6">sanguine</w>
-          <w n="w7">Martis</w>
+          <w ana="estlocus0" n="w7">Martis</w>
           <pc n="pc">:</pc>
         </l>
         <l met="hexameter" n="l305">
           <pc n="pc">"</pc>
           <w n="w1">Tristia</w>
-          <w n="w2">Persephones</w>
+          <w ana="estlocus0" n="w2">Persephones</w>
           <w n="w3">clauduntur</w>
           <w n="w4">regna</w>
           <w n="w5">noueno</w>
@@ -6984,7 +6984,7 @@
         </l>
         <l met="hexameter" n="l316">
           <w n="w1">Peruigil</w>
-          <w n="w2">Alecto</w>
+          <w ana="estlocus0" n="w2">Alecto</w>
           <w n="w3">semper</w>
           <w n="w4">custodit</w>
           <pc n="pc">,</pc>
@@ -6992,7 +6992,7 @@
           <w n="w6">illas</w>
         </l>
         <l met="hexameter" n="l317">
-          <w n="w1">Belli</w>
+          <w ana="estlocus0" n="w1">Belli</w>
           <w n="w2">feruor</w>
           <w n="w3">adhuc</w>
           <w n="w4">mutilat</w>
@@ -7002,7 +7002,7 @@
           <w n="w7">orbis</w>
         </l>
         <l met="hexameter" n="l318">
-          <w n="w1">Idalio</w>
+          <w ana="estlocus1" n="w1">Idalio</w>
           <w n="w2">saltu</w>
           <pc n="pc1">:</pc>
           <w n="w3">hic</w>
@@ -7038,7 +7038,7 @@
           <w n="w6">rependit</w>
         </l>
         <l met="hexameter" n="l322">
-          <w n="w1">Libera</w>
+          <w ana="estlocus0" n="w1">Libera</w>
           <pc n="pc">,</pc>
           <w n="w2">corporeo</w>
           <w n="w3">quibus</w>
@@ -7093,7 +7093,7 @@
         <l met="hexameter" n="l327">
           <w n="w1">Quosque</w>
           <w n="w2">nouercales</w>
-          <w n="w3">Lucina</w>
+          <w ana="estlocus0" n="w3">Lucina</w>
           <w n="w4">excoepit</w>
           <w n="w5">in</w>
           <w n="w6">ulnas</w>
@@ -7119,7 +7119,7 @@
           <w n="w1">Funera</w>
           <pc n="pc1">,</pc>
           <w n="w2">crudeles</w>
-          <w n="w3">Parcas</w>
+          <w ana="estlocus0" n="w3">Parcas</w>
           <w n="w4">matrumque</w>
           <w n="w5">hymenaeos</w>
           <pc n="pc2">.</pc>
@@ -7128,13 +7128,13 @@
         <l met="hexameter" n="l331">
           <pc n="pc1">"</pc>
           <w n="w1">Rex</w>
-          <w n="w2">Lapitum</w>
+          <w ana="estlocus1" n="w2">Lapitum</w>
           <pc n="pc2">,</pc>
           <w n="w3">armisoni</w>
           <w n="w4">proles</w>
           <w n="w5">a</w>
           <w n="w6">sanguine</w>
-          <w n="w7">Martis</w>
+          <w ana="estlocus0" n="w7">Martis</w>
           <pc n="pc3">,</pc>
         </l>
         <l met="hexameter" n="l332">
@@ -7157,7 +7157,7 @@
         </l>
         <l met="hexameter" n="l334">
           <w n="w1">Tantane</w>
-          <w n="w2">Tartareum</w>
+          <w ana="estlocus1" n="w2">Tartareum</w>
           <w n="w3">tenet</w>
           <w n="w4">inclaementia</w>
           <w n="w5">regem</w>
@@ -7216,8 +7216,8 @@
         <head n="head">
           <w n="w1">IACOBI</w>
           <w n="w2">BONI</w>
-          <w n="w3">RACVSAEI</w>
-          <w n="w4">CHRISTI</w>
+          <w ana="estlocus1" n="w3">RACVSAEI</w>
+          <w ana="estlocus0" n="w4">CHRISTI</w>
           <w n="w5">SVB</w>
           <w n="w6">FIGVRA</w>
           <w n="w7">HERCVLIS</w>
@@ -7237,11 +7237,11 @@
           <w n="w2">architenens</w>
           <w n="w3">excelsi</w>
           <w n="w4">rector</w>
-          <w n="w5">Olympi</w>
+          <w ana="estlocus1" n="w5">Olympi</w>
           <pc n="pc2">,</pc>
         </l>
         <l met="hexameter" n="l2">
-          <w n="w1">Libera</w>
+          <w ana="estlocus0" n="w1">Libera</w>
           <w n="w2">causa</w>
           <pc n="pc1">,</pc>
           <w n="w3">deus</w>
@@ -7356,7 +7356,7 @@
           <w n="w4">caligantem</w>
           <w n="w5">alter</w>
           <w n="w6">ad</w>
-          <w n="w7">Orcum</w>
+          <w ana="estlocus4" n="w7">Orcum</w>
           <pc n="pc2">.</pc>
         </l>
         <l met="hexameter" n="l14">
@@ -7412,7 +7412,7 @@
           <w n="w3">a</w>
           <w n="w4">summo</w>
           <w n="w5">auertit</w>
-          <w n="w6">Olympo</w>
+          <w ana="estlocus1" n="w6">Olympo</w>
         </l>
         <l met="hexameter" n="l20">
           <w n="w1">Aut</w>
@@ -7469,7 +7469,7 @@
           <w n="w2">ex</w>
           <w n="w3">atro</w>
           <w n="w4">sontes</w>
-          <w n="w5">Acheronte</w>
+          <w ana="estlocus1" n="w5">Acheronte</w>
           <w n="w6">satelles</w>
         </l>
         <l met="hexameter" n="l26">
@@ -7590,7 +7590,7 @@
         <l met="hexameter" n="l38">
           <w n="w1">Tramitibus</w>
           <w n="w2">uariis</w>
-          <w n="w3">Stygios</w>
+          <w ana="estlocus1" n="w3">Stygios</w>
           <w n="w4">merguntur</w>
           <w n="w5">in</w>
           <w n="w6">ignes</w>
@@ -7626,20 +7626,20 @@
           <w n="w8">umbras</w>
         </l>
         <l met="hexameter" n="l42">
-          <w n="w1">Plutonis</w>
+          <w ana="estlocus0" n="w1">Plutonis</w>
           <w n="w2">domus</w>
           <w n="w3">et</w>
           <w n="w4">summi</w>
-          <w n="w5">Iouis</w>
+          <w ana="estlocus0" n="w5">Iouis</w>
           <w n="w6">alta</w>
           <w n="w7">potestas</w>
           <pc n="pc">,</pc>
         </l>
         <l met="hexameter" n="l43">
-          <w n="w1">Dictaei</w>
+          <w ana="estlocus4" n="w1">Dictaei</w>
           <w n="w2">fratres</w>
           <w n="w3">saeuas</w>
-          <w n="w4">Acherontis</w>
+          <w ana="estlocus1" n="w4">Acherontis</w>
           <w n="w5">habenas</w>
         </l>
         <l met="hexameter" n="l44">
@@ -7648,7 +7648,7 @@
           <w n="w3">umbrarum</w>
           <w n="w4">atque</w>
           <w n="w5">impia</w>
-          <w n="w6">Ditis</w>
+          <w ana="estlocus4" n="w6">Ditis</w>
         </l>
         <l met="hexameter" n="l45">
           <w n="w1">Iussa</w>
@@ -7661,21 +7661,21 @@
           <pc n="pc">.</pc>
         </l>
         <l met="hexameter" n="l46">
-          <w n="w1">Aeacus</w>
-          <w n="w2">Europae</w>
+          <w ana="estlocus0" n="w1">Aeacus</w>
+          <w ana="estlocus1" n="w2">Europae</w>
           <w n="w3">gentes</w>
           <pc n="pc">,</pc>
-          <w n="w4">Rhadamantus</w>
-          <w n="w5">Eoas</w>
+          <w ana="estlocus0" n="w4">Rhadamantus</w>
+          <w ana="estlocus1" n="w5">Eoas</w>
         </l>
         <l met="hexameter" n="l47">
           <w n="w1">Iudicat</w>
           <w n="w2">atque</w>
-          <w n="w3">Asiam</w>
+          <w ana="estlocus1" n="w3">Asiam</w>
           <w n="w4">magnam</w>
           <pc n="pc">,</pc>
           <w n="w5">peccataque</w>
-          <w n="w6">Minos</w>
+          <w ana="estlocus0" n="w6">Minos</w>
         </l>
         <l met="hexameter" n="l48">
           <w n="w1">Cuncta</w>
@@ -7725,7 +7725,7 @@
           <w n="w3">equos</w>
           <pc n="pc">.</pc>
           <w n="w4">Pete</w>
-          <w n="w5">Thaesea</w>
+          <w ana="estlocus0" n="w5">Thaesea</w>
           <w n="w6">mecum</w>
         </l>
         <l met="hexameter" n="l54">
@@ -7786,7 +7786,7 @@
         <l met="hexameter" n="l60">
           <w n="w1">Quum</w>
           <w n="w2">glomerant</w>
-          <w n="w3">Euri</w>
+          <w ana="estlocus0" n="w3">Euri</w>
           <w n="w4">pluuia</w>
           <w n="w5">impendente</w>
           <w n="w6">sub</w>
@@ -7823,16 +7823,16 @@
           <w n="w2">quae</w>
           <w n="w3">castra</w>
           <w n="w4">uomit</w>
-          <w n="w5">Phlegeton</w>
+          <w ana="estlocus1" n="w5">Phlegeton</w>
           <pc n="pc">,</pc>
           <w n="w6">quod</w>
-          <w n="w7">Tartarus</w>
+          <w ana="estlocus1" n="w7">Tartarus</w>
           <w n="w8">agmen</w>
         </l>
         <l met="hexameter" n="l65">
           <w n="w1">Ructat</w>
           <w n="w2">in</w>
-          <w n="w3">Alciden</w>
+          <w ana="estlocus0" n="w3">Alciden</w>
           <pc n="pc1">,</pc>
           <w n="w4">en</w>
           <w n="w5">quas</w>
@@ -7844,10 +7844,10 @@
         <l met="hexameter" n="l66">
           <pc n="pc1">"</pc>
           <w n="w1">O</w>
-          <w n="w2">Phlegyda</w>
+          <w ana="estlocus1" n="w2">Phlegyda</w>
           <pc n="pc2">"</pc>
           <pc n="pc3">,</pc>
-          <w n="w3">Alcides</w>
+          <w ana="estlocus0" n="w3">Alcides</w>
           <w n="w4">inquit</w>
           <pc n="pc4">,</pc>
           <pc n="pc5">"</pc>
@@ -7860,14 +7860,14 @@
         </l>
         <l met="hexameter" n="l67">
           <w n="w1">Exin</w>
-          <w n="w2">Gorgoneis</w>
+          <w ana="estlocus0" n="w2">Gorgoneis</w>
           <w n="w3">serpentibus</w>
           <w n="w4">hirta</w>
-          <w n="w5">Megaera</w>
+          <w ana="estlocus0" n="w5">Megaera</w>
         </l>
         <l met="hexameter" n="l68">
           <w n="w1">Et</w>
-          <w n="w2">Stygiae</w>
+          <w ana="estlocus1" n="w2">Stygiae</w>
           <w n="w3">dant</w>
           <w n="w4">signa</w>
           <w n="w5">canes</w>
@@ -7884,12 +7884,12 @@
           <w n="w4">tanta</w>
           <w n="w5">lues</w>
           <w n="w6">inuaserit</w>
-          <w n="w7">Orcum</w>
+          <w ana="estlocus4" n="w7">Orcum</w>
         </l>
         <l met="hexameter" n="l70">
-          <w n="w1">Diua</w>
+          <w ana="estlocus0" n="w1">Diua</w>
           <w n="w2">mihi</w>
-          <w n="w3">Pimplea</w>
+          <w ana="estlocus4" n="w3">Pimplea</w>
           <w n="w4">refer</w>
           <pc n="pc1">!</pc>
           <pc n="pc2">-</pc>
@@ -7897,7 +7897,7 @@
           <pc n="pc4">-</pc>
           <w n="w5">Dux</w>
           <w n="w6">agmine</w>
-          <w n="w7">Pluto</w>
+          <w ana="estlocus0" n="w7">Pluto</w>
         </l>
         <l met="hexameter" n="l71">
           <w n="w1">Primus</w>
@@ -7918,7 +7918,7 @@
         </l>
         <l met="hexameter" n="l73">
           <w n="w1">Tempora</w>
-          <w n="w2">Tartareis</w>
+          <w ana="estlocus1" n="w2">Tartareis</w>
           <w n="w3">ardentque</w>
           <w n="w4">in</w>
           <w n="w5">uertice</w>
@@ -7929,7 +7929,7 @@
           <w n="w1">Proximus</w>
           <w n="w2">it</w>
           <w n="w3">iuxtaque</w>
-          <w n="w4">Satan</w>
+          <w ana="estlocus0" n="w4">Satan</w>
           <pc n="pc">,</pc>
           <w n="w5">quo</w>
           <w n="w6">nulla</w>
@@ -7948,7 +7948,7 @@
         <l met="hexameter" n="l76">
           <w n="w1">Mille</w>
           <w n="w2">deos</w>
-          <w n="w3">Acherontis</w>
+          <w ana="estlocus1" n="w3">Acherontis</w>
           <w n="w4">agit</w>
           <pc n="pc">.</pc>
           <w n="w5">Hinc</w>
@@ -7956,7 +7956,7 @@
           <w n="w7">instat</w>
         </l>
         <l met="hexameter" n="l77">
-          <w n="w1">Laeuiathan</w>
+          <w ana="estlocus1" n="w1">Laeuiathan</w>
           <pc n="pc">,</pc>
           <w n="w2">crines</w>
           <w n="w3">flauos</w>
@@ -7964,7 +7964,7 @@
           <w n="w5">pulchrae</w>
         </l>
         <l met="hexameter" n="l78">
-          <w n="w1">Virginis</w>
+          <w ana="estlocus0" n="w1">Virginis</w>
           <w n="w2">ora</w>
           <w n="w3">gerens</w>
           <w n="w4">et</w>
@@ -7979,7 +7979,7 @@
           <w n="w3">similis</w>
           <pc n="pc">.</pc>
           <w n="w4">Prope</w>
-          <w n="w5">Mammona</w>
+          <w ana="estlocus0" n="w5">Mammona</w>
           <w n="w6">curru</w>
         </l>
         <l met="hexameter" n="l80">
@@ -7993,7 +7993,7 @@
         </l>
         <l met="hexameter" n="l81">
           <w n="w1">It</w>
-          <w n="w2">Fortuna</w>
+          <w ana="estlocus0" n="w2">Fortuna</w>
           <w n="w3">comes</w>
           <pc n="pc">,</pc>
           <w n="w4">fert</w>
@@ -8011,12 +8011,12 @@
           <pc n="pc">.</pc>
         </l>
         <l met="hexameter" n="l83">
-          <w n="w1">Bellial</w>
+          <w ana="estlocus0" n="w1">Bellial</w>
           <w n="w2">effrenusque</w>
           <w n="w3">ruunt</w>
           <w n="w4">et</w>
           <w n="w5">bellua</w>
-          <w n="w6">Beaemoth</w>
+          <w ana="estlocus0" n="w6">Beaemoth</w>
           <pc n="pc">.</pc>
         </l>
         <l met="hexameter" n="l84">
@@ -8041,17 +8041,17 @@
           <w n="w7">regis</w>
         </l>
         <l met="hexameter" n="l86">
-          <w n="w1">Aetherii</w>
+          <w ana="estlocus0" n="w1">Aetherii</w>
           <pc n="pc1">,</pc>
           <w n="w2">diuos</w>
           <w n="w3">summo</w>
           <w n="w4">formauit</w>
-          <w n="w5">Olympo</w>
+          <w ana="estlocus1" n="w5">Olympo</w>
           <pc n="pc2">.</pc>
         </l>
         <l met="hexameter" n="l87">
           <w n="w1">Nondum</w>
-          <w n="w2">Luna</w>
+          <w ana="estlocus4" n="w2">Luna</w>
           <w n="w3">nothos</w>
           <w n="w4">agitabat</w>
           <w n="w5">candida</w>
@@ -8063,16 +8063,16 @@
           <w n="w3">fulsere</w>
           <w n="w4">poli</w>
           <w n="w5">nec</w>
-          <w n="w6">Apolline</w>
+          <w ana="estlocus0" n="w6">Apolline</w>
           <w n="w7">pulchro</w>
           <pc n="pc">:</pc>
         </l>
         <l met="hexameter" n="l89">
-          <w n="w1">Puniceo</w>
+          <w ana="estlocus1" n="w1">Puniceo</w>
           <w n="w2">ille</w>
-          <w n="w3">Satan</w>
+          <w ana="estlocus0" n="w3">Satan</w>
           <w n="w4">surgebat</w>
-          <w n="w5">Lucifer</w>
+          <w ana="estlocus0" n="w5">Lucifer</w>
           <w n="w6">ortu</w>
           <pc n="pc">.</pc>
         </l>
@@ -8104,7 +8104,7 @@
           <pc n="pc">,</pc>
           <w n="w6">quo</w>
           <w n="w7">maior</w>
-          <w n="w8">Olympo</w>
+          <w ana="estlocus1" n="w8">Olympo</w>
         </l>
         <l met="hexameter" n="l93">
           <w n="w1">Non</w>
@@ -8120,7 +8120,7 @@
           <w n="w1">Conditus</w>
           <w n="w2">aetheria</w>
           <w n="w3">tunc</w>
-          <w n="w4">Iuppiter</w>
+          <w ana="estlocus0" n="w4">Iuppiter</w>
           <w n="w5">arce</w>
           <w n="w6">latebat</w>
         </l>
@@ -8170,7 +8170,7 @@
           <pc n="pc">.</pc>
         </l>
         <l met="hexameter" n="l100">
-          <w n="w1">Lucifer</w>
+          <w ana="estlocus0" n="w1">Lucifer</w>
           <w n="w2">interea</w>
           <pc n="pc1">,</pc>
           <w n="w3">quod</w>
@@ -8203,7 +8203,7 @@
           <w n="w2">egomet</w>
           <w n="w3">sedesque</w>
           <w n="w4">meas</w>
-          <w n="w5">Aquilone</w>
+          <w ana="estlocus0" n="w5">Aquilone</w>
           <w n="w6">subacto</w>
         </l>
         <l met="hexameter" n="l104">
@@ -8212,7 +8212,7 @@
           <w n="w3">astra</w>
           <w n="w4">deoque</w>
           <w n="w5">aequabor</w>
-          <w n="w6">Olympi</w>
+          <w ana="estlocus1" n="w6">Olympi</w>
           <pc n="pc1">.</pc>
           <pc n="pc2">"</pc>
         </l>
@@ -8241,7 +8241,7 @@
           <pc n="pc">,</pc>
           <w n="w5">ceu</w>
           <w n="w6">lucida</w>
-          <w n="w7">Phoebe</w>
+          <w ana="estlocus0" n="w7">Phoebe</w>
         </l>
         <l met="hexameter" n="l108">
           <w n="w1">De</w>
@@ -8267,7 +8267,7 @@
           <w n="w2">labantur</w>
           <pc n="pc">.</pc>
           <w n="w3">Sic</w>
-          <w n="w4">Lucifer</w>
+          <w ana="estlocus0" n="w4">Lucifer</w>
           <w n="w5">aethere</w>
           <w n="w6">summo</w>
         </l>
@@ -8276,7 +8276,7 @@
           <w n="w2">per</w>
           <w n="w3">tenuem</w>
           <w n="w4">praeceps</w>
-          <w n="w5">Acheronta</w>
+          <w ana="estlocus1" n="w5">Acheronta</w>
           <w n="w6">sub</w>
           <w n="w7">imum</w>
         </l>
@@ -8295,7 +8295,7 @@
           <w n="w4">tenet</w>
           <pc n="pc">,</pc>
           <w n="w5">quos</w>
-          <w n="w6">Orcus</w>
+          <w ana="estlocus4" n="w6">Orcus</w>
           <w n="w7">et</w>
           <w n="w8">aer</w>
         </l>
@@ -8313,14 +8313,14 @@
         <l met="hexameter" n="l115">
           <w n="w1">Postquam</w>
           <w n="w2">autem</w>
-          <w n="w3">Stygii</w>
+          <w ana="estlocus1" n="w3">Stygii</w>
           <w n="w4">tempestas</w>
           <w n="w5">atra</w>
           <w n="w6">tyranni</w>
         </l>
         <l met="hexameter" n="l116">
           <w n="w1">Astitit</w>
-          <w n="w2">Alciden</w>
+          <w ana="estlocus0" n="w2">Alciden</w>
           <w n="w3">propius</w>
           <pc n="pc">,</pc>
           <w n="w4">riget</w>
@@ -8357,10 +8357,10 @@
         </l>
         <l met="hexameter" n="l120">
           <w n="w1">Qualis</w>
-          <w n="w2">Apollineo</w>
-          <w n="w3">Perrhebi</w>
+          <w ana="estlocus0" n="w2">Apollineo</w>
+          <w ana="estlocus1" n="w3">Perrhebi</w>
           <w n="w4">uertice</w>
-          <w n="w5">Pindi</w>
+          <w ana="estlocus1" n="w5">Pindi</w>
         </l>
         <l met="hexameter" n="l121">
           <w n="w1">Quum</w>
@@ -8368,13 +8368,13 @@
           <w n="w3">descendit</w>
           <w n="w4">poturus</w>
           <w n="w5">flumina</w>
-          <w n="w6">Nesti</w>
+          <w ana="estlocus1" n="w6">Nesti</w>
         </l>
         <l met="hexameter" n="l122">
           <w n="w1">Seu</w>
           <w n="w2">fontes</w>
           <pc n="pc1">,</pc>
-          <w n="w3">Acheloe</w>
+          <w ana="estlocus4" n="w3">Acheloe</w>
           <pc n="pc2">,</pc>
           <w n="w4">tuos</w>
           <pc n="pc3">,</pc>
@@ -8385,7 +8385,7 @@
         <l met="hexameter" n="l123">
           <w n="w1">Bellaces</w>
           <w n="w2">inferre</w>
-          <w n="w3">Getas</w>
+          <w ana="estlocus1" n="w3">Getas</w>
           <pc n="pc1">,</pc>
           <w n="w4">fremit</w>
           <w n="w5">arduus</w>
@@ -8435,7 +8435,7 @@
           <w n="w7">Tonantis</w>
         </l>
         <l met="hexameter" n="l128">
-          <w n="w1">Dis</w>
+          <w ana="estlocus4" n="w1">Dis</w>
           <w n="w2">pater</w>
           <pc n="pc">,</pc>
           <w n="w3">ignitis</w>
@@ -8445,11 +8445,11 @@
           <w n="w7">alta</w>
         </l>
         <l met="hexameter" n="l129">
-          <w n="w1">Taenara</w>
+          <w ana="estlocus1" n="w1">Taenara</w>
           <w n="w2">et</w>
-          <w n="w3">Aetnaeis</w>
+          <w ana="estlocus1" n="w3">Aetnaeis</w>
           <w n="w4">torrens</w>
-          <w n="w5">Vulcanus</w>
+          <w ana="estlocus4" n="w5">Vulcanus</w>
           <w n="w6">ab</w>
           <w n="w7">antris</w>
           <pc n="pc">,</pc>
@@ -8551,9 +8551,9 @@
         <l met="hexameter" n="l141">
           <w n="w1">Et</w>
           <w n="w2">uidet</w>
-          <w n="w3">Alcmenae</w>
+          <w ana="estlocus0" n="w3">Alcmenae</w>
           <w n="w4">et</w>
-          <w n="w5">Iouis</w>
+          <w ana="estlocus0" n="w5">Iouis</w>
           <w n="w6">omnipotentis</w>
           <w n="w7">alumnum</w>
         </l>
@@ -8564,7 +8564,7 @@
           <w n="w4">mediisque</w>
           <w n="w5">ex</w>
           <w n="w6">ignibus</w>
-          <w n="w7">Orci</w>
+          <w ana="estlocus4" n="w7">Orci</w>
         </l>
         <l met="hexameter" n="l143">
           <w n="w1">Tergeminum</w>
@@ -8574,7 +8574,7 @@
           <w n="w5">cateruas</w>
         </l>
         <l met="hexameter" n="l144">
-          <w n="w1">Tartareas</w>
+          <w ana="estlocus1" n="w1">Tartareas</w>
           <w n="w2">audere</w>
           <w n="w3">et</w>
           <w n="w4">contra</w>
@@ -8586,7 +8586,7 @@
           <w n="w1">Tunc</w>
           <w n="w2">ambage</w>
           <w n="w3">noua</w>
-          <w n="w4">Stygii</w>
+          <w ana="estlocus1" n="w4">Stygii</w>
           <w n="w5">timor</w>
           <w n="w6">iraque</w>
           <w n="w7">mentem</w>
@@ -8603,7 +8603,7 @@
         <l met="hexameter" n="l147">
           <w n="w1">Seu</w>
           <w n="w2">durum</w>
-          <w n="w3">Mauortis</w>
+          <w ana="estlocus0" n="w3">Mauortis</w>
           <w n="w4">opus</w>
           <pc n="pc">,</pc>
           <w n="w5">certamen</w>
@@ -8626,10 +8626,10 @@
           <w n="w6">robur</w>
         </l>
         <l met="hexameter" n="l150">
-          <w n="w1">Alcidae</w>
+          <w ana="estlocus0" n="w1">Alcidae</w>
           <w n="w2">magni</w>
           <pc n="pc">,</pc>
-          <w n="w3">Diti</w>
+          <w ana="estlocus4" n="w3">Diti</w>
           <w n="w4">quoque</w>
           <w n="w5">cognita</w>
           <w n="w6">summi</w>
@@ -8637,14 +8637,14 @@
         <l met="hexameter" n="l151">
           <w n="w1">Progenies</w>
           <w n="w2">inuicta</w>
-          <w n="w3">Iouis</w>
+          <w ana="estlocus0" n="w3">Iouis</w>
           <pc n="pc">,</pc>
           <w n="w4">quem</w>
-          <w n="w5">Iuppiter</w>
+          <w ana="estlocus0" n="w5">Iuppiter</w>
           <w n="w6">alto</w>
         </l>
         <l met="hexameter" n="l152">
-          <w n="w1">Aethere</w>
+          <w ana="estlocus0" n="w1">Aethere</w>
           <w n="w2">caelitibus</w>
           <w n="w3">praedixerat</w>
           <w n="w4">unius</w>
@@ -8658,7 +8658,7 @@
           <w n="w5">polique</w>
         </l>
         <l met="hexameter" n="l154">
-          <w n="w1">Infernaeque</w>
+          <w ana="estlocus1" n="w1">Infernaeque</w>
           <w n="w2">domus</w>
           <pc n="pc">,</pc>
           <w n="w3">quo</w>
@@ -8674,22 +8674,22 @@
           <w n="w4">dii</w>
           <w n="w5">sub</w>
           <w n="w6">lumen</w>
-          <w n="w7">Olympi</w>
+          <w ana="estlocus1" n="w7">Olympi</w>
           <pc n="pc">.</pc>
         </l>
         <l met="hexameter" n="l156">
           <w n="w1">Praeterea</w>
-          <w n="w2">Pylium</w>
+          <w ana="estlocus4" n="w2">Pylium</w>
           <w n="w3">nec</w>
           <w n="w4">adhuc</w>
           <w n="w5">aboleuerat</w>
           <w n="w6">ulcus</w>
         </l>
         <l met="hexameter" n="l157">
-          <w n="w1">Nestoreaeque</w>
+          <w ana="estlocus0" n="w1">Nestoreaeque</w>
           <w n="w2">memor</w>
           <w n="w3">fuerat</w>
-          <w n="w4">Saturnius</w>
+          <w ana="estlocus0" n="w4">Saturnius</w>
           <w n="w5">aulae</w>
           <pc n="pc">;</pc>
         </l>
@@ -8704,7 +8704,7 @@
           <w n="w8">natis</w>
         </l>
         <l met="hexameter" n="l159">
-          <w n="w1">Nelidae</w>
+          <w ana="estlocus0" n="w1">Nelidae</w>
           <w n="w2">auxilium</w>
           <w n="w3">ferret</w>
           <pc n="pc">,</pc>
@@ -8713,10 +8713,10 @@
           <w n="w6">iram</w>
         </l>
         <l met="hexameter" n="l160">
-          <w n="w1">Herculis</w>
+          <w ana="estlocus0" n="w1">Herculis</w>
           <w n="w2">aufugit</w>
           <w n="w3">moestas</w>
-          <w n="w4">Acherontis</w>
+          <w ana="estlocus1" n="w4">Acherontis</w>
           <w n="w5">in</w>
           <w n="w6">aedes</w>
           <pc n="pc">.</pc>
@@ -8761,14 +8761,14 @@
           <w n="w1">Tu</w>
           <w n="w2">genitor</w>
           <pc n="pc2">,</pc>
-          <w n="w3">Saturne</w>
+          <w ana="estlocus0" n="w3">Saturne</w>
           <pc n="pc3">,</pc>
           <w n="w4">mihi</w>
           <pc n="pc4">,</pc>
           <w n="w5">tu</w>
           <pc n="pc5">,</pc>
           <w n="w6">regia</w>
-          <w n="w7">Iuno</w>
+          <w ana="estlocus0" n="w7">Iuno</w>
           <pc n="pc6">,</pc>
         </l>
         <l met="hexameter" n="l166">
@@ -8788,7 +8788,7 @@
           <w n="w2">mater</w>
           <w n="w3">tu</w>
           <pc n="pc1">,</pc>
-          <w n="w4">Rhea</w>
+          <w ana="estlocus0" n="w4">Rhea</w>
           <pc n="pc2">,</pc>
           <w n="w5">mihi</w>
           <pc n="pc3">,</pc>
@@ -8800,7 +8800,7 @@
         <l met="hexameter" n="l168">
           <w n="w1">Non</w>
           <w n="w2">equidem</w>
-          <w n="w3">Antheus</w>
+          <w ana="estlocus0" n="w3">Antheus</w>
           <pc n="pc1">,</pc>
           <w n="w4">non</w>
           <w n="w5">armentalis</w>
@@ -8812,13 +8812,13 @@
           <w n="w2">hymenaeei</w>
           <w n="w3">turpis</w>
           <w n="w4">bellator</w>
-          <w n="w5">Iacchi</w>
+          <w ana="estlocus0" n="w5">Iacchi</w>
           <pc n="pc">,</pc>
         </l>
         <l met="hexameter" n="l170">
           <w n="w1">Nec</w>
-          <w n="w2">Tegeaeus</w>
-          <w n="w3">Aper</w>
+          <w ana="estlocus1" n="w2">Tegeaeus</w>
+          <w ana="estlocus0" n="w3">Aper</w>
           <pc n="pc">,</pc>
           <w n="w4">nec</w>
           <w n="w5">quos</w>
@@ -8852,7 +8852,7 @@
           <pc n="pc">.</pc>
           <w n="w5">Non</w>
           <w n="w6">protinus</w>
-          <w n="w7">Orco</w>
+          <w ana="estlocus4" n="w7">Orco</w>
         </l>
         <l met="hexameter" n="l174">
           <w n="w1">Mortali</w>
@@ -8913,7 +8913,7 @@
           <w n="w9">unguem</w>
         </l>
         <l met="hexameter" n="l180">
-          <w n="w1">Iuppiter</w>
+          <w ana="estlocus0" n="w1">Iuppiter</w>
           <pc n="pc1">,</pc>
           <w n="w2">interdum</w>
           <w n="w3">licuit</w>
@@ -8925,7 +8925,7 @@
         <l met="hexameter" n="l181">
           <w n="w1">Nam</w>
           <w n="w2">regina</w>
-          <w n="w3">Sami</w>
+          <w ana="estlocus1" n="w3">Sami</w>
           <w n="w4">partu</w>
           <w n="w5">sub</w>
           <w n="w6">uentre</w>
@@ -8935,7 +8935,7 @@
           <w n="w1">Talibus</w>
           <w n="w2">eductum</w>
           <w n="w3">fatis</w>
-          <w n="w4">Eurysthea</w>
+          <w ana="estlocus0" n="w4">Eurysthea</w>
           <w n="w5">tinxit</w>
           <pc n="pc">.</pc>
         </l>
@@ -8964,7 +8964,7 @@
         <l met="hexameter" n="l185">
           <w n="w1">Te</w>
           <w n="w2">quoque</w>
-          <w n="w3">Bistonio</w>
+          <w ana="estlocus1" n="w3">Bistonio</w>
           <w n="w4">qui</w>
           <w n="w5">quadrupedante</w>
           <w n="w6">superbis</w>
@@ -8972,15 +8972,15 @@
         </l>
         <l met="hexameter" n="l186">
           <w n="w1">Armipotens</w>
-          <w n="w2">Gradiue</w>
+          <w ana="estlocus0" n="w2">Gradiue</w>
           <w n="w3">pater</w>
           <pc n="pc">,</pc>
-          <w n="w4">Diomedis</w>
+          <w ana="estlocus0" n="w4">Diomedis</w>
           <w n="w5">acuta</w>
         </l>
         <l met="hexameter" n="l187">
           <w n="w1">Cuspide</w>
-          <w n="w2">Pergameis</w>
+          <w ana="estlocus1" n="w2">Pergameis</w>
           <w n="w3">perfodit</w>
           <w n="w4">lancea</w>
           <w n="w5">campis</w>
@@ -8997,7 +8997,7 @@
           <pc n="pc">,</pc>
         </l>
         <l met="hexameter" n="l189">
-          <w n="w1">Cypria</w>
+          <w ana="estlocus4" n="w1">Cypria</w>
           <w n="w2">diua</w>
           <pc n="pc1">,</pc>
           <w n="w3">geris</w>
@@ -9013,7 +9013,7 @@
           <w n="w2">ubi</w>
           <w n="w3">desierat</w>
           <pc n="pc">,</pc>
-          <w n="w4">Furiis</w>
+          <w ana="estlocus0" n="w4">Furiis</w>
           <w n="w5">atque</w>
           <w n="w6">acribus</w>
           <w n="w7">iris</w>
@@ -9021,7 +9021,7 @@
         <l met="hexameter" n="l191">
           <w n="w1">Ardescunt</w>
           <w n="w2">animi</w>
-          <w n="w3">Ditis</w>
+          <w ana="estlocus4" n="w3">Ditis</w>
           <pc n="pc">,</pc>
           <w n="w4">procul</w>
           <w n="w5">exulat</w>
@@ -9048,14 +9048,14 @@
         </l>
         <l met="hexameter" n="l194">
           <w n="w1">Quantus</w>
-          <w n="w2">Olympus</w>
+          <w ana="estlocus1" n="w2">Olympus</w>
           <pc n="pc1">,</pc>
-          <w n="w3">Athos</w>
+          <w ana="estlocus1" n="w3">Athos</w>
           <w n="w4">quantus</w>
           <pc n="pc2">,</pc>
           <w n="w5">uel</w>
           <w n="w6">nubifer</w>
-          <w n="w7">Atlas</w>
+          <w ana="estlocus4" n="w7">Atlas</w>
         </l>
         <l met="hexameter" n="l195">
           <w n="w1">Quantus</w>
@@ -9069,20 +9069,20 @@
         </l>
         <l met="hexameter" n="l196">
           <w n="w1">Quantaque</w>
-          <w n="w2">Caucasei</w>
+          <w ana="estlocus1" n="w2">Caucasei</w>
           <w n="w3">dorsi</w>
           <w n="w4">iuga</w>
           <pc n="pc">,</pc>
           <w n="w5">quanta</w>
-          <w n="w6">Pachinni</w>
+          <w ana="estlocus1" n="w6">Pachinni</w>
         </l>
         <l met="hexameter" n="l197">
           <w n="w1">Et</w>
           <w n="w2">quantis</w>
-          <w n="w3">Idaea</w>
+          <w ana="estlocus1" n="w3">Idaea</w>
           <w n="w4">iugis</w>
           <w n="w5">se</w>
-          <w n="w6">Gargara</w>
+          <w ana="estlocus1" n="w6">Gargara</w>
           <w n="w7">tollunt</w>
         </l>
         <l met="hexameter" n="l198">
@@ -9090,7 +9090,7 @@
           <w n="w2">tridentiferi</w>
           <w n="w3">facies</w>
           <w n="w4">erat</w>
-          <w n="w5">Aidonei</w>
+          <w ana="estlocus1" n="w5">Aidonei</w>
           <pc n="pc">.</pc>
         </l>
         <l met="hexameter" n="l199">
@@ -9124,7 +9124,7 @@
         </l>
         <l met="hexameter" n="l202">
           <w n="w1">Verbera</w>
-          <w n="w2">Tisiphone</w>
+          <w ana="estlocus0" n="w2">Tisiphone</w>
           <pc n="pc1">,</pc>
           <w n="w3">tacitae</w>
           <w n="w4">stant</w>
@@ -9133,7 +9133,7 @@
           <pc n="pc2">.</pc>
         </l>
         <l met="hexameter" n="l203">
-          <w n="w1">Styx</w>
+          <w ana="estlocus1" n="w1">Styx</w>
           <w n="w2">tacet</w>
           <w n="w3">atra</w>
           <w n="w4">palus</w>
@@ -9144,7 +9144,7 @@
         </l>
         <l met="hexameter" n="l204">
           <w n="w1">Pallentes</w>
-          <w n="w2">Acherontis</w>
+          <w ana="estlocus1" n="w2">Acherontis</w>
           <w n="w3">aquae</w>
           <pc n="pc">,</pc>
           <w n="w4">silet</w>
@@ -9155,7 +9155,7 @@
           <w n="w1">Et</w>
           <w n="w2">ripis</w>
           <pc n="pc1">,</pc>
-          <w n="w3">Cocyte</w>
+          <w ana="estlocus1" n="w3">Cocyte</w>
           <pc n="pc2">,</pc>
           <w n="w4">tuis</w>
           <w n="w5">graue</w>
@@ -9166,7 +9166,7 @@
         <l met="hexameter" n="l206">
           <w n="w1">Deinde</w>
           <w n="w2">deos</w>
-          <w n="w3">Erebi</w>
+          <w ana="estlocus4" n="w3">Erebi</w>
           <w n="w4">precibus</w>
           <w n="w5">compellat</w>
           <w n="w6">amicis</w>
@@ -9180,7 +9180,7 @@
           <pc n="pc2">,</pc>
           <w n="w4">uacua</w>
           <w n="w5">qui</w>
-          <w n="w6">Gorgonis</w>
+          <w ana="estlocus0" n="w6">Gorgonis</w>
           <w n="w7">aluo</w>
         </l>
         <l met="hexameter" n="l208">
@@ -9202,7 +9202,7 @@
           <w n="w3">res</w>
           <w n="w4">prima</w>
           <pc n="pc2">,</pc>
-          <w n="w5">Chaos</w>
+          <w ana="estlocus4" n="w5">Chaos</w>
           <pc n="pc3">,</pc>
           <w n="w6">quae</w>
           <w n="w7">rite</w>
@@ -9232,7 +9232,7 @@
           <w n="w1">Cultor</w>
           <w n="w2">siluarum</w>
           <w n="w3">et</w>
-          <w n="w4">Martis</w>
+          <w ana="estlocus0" n="w4">Martis</w>
           <w n="w5">lymphator</w>
           <w n="w6">anheli</w>
           <pc n="pc">,</pc>
@@ -9241,7 +9241,7 @@
           <w n="w1">Magna</w>
           <w n="w2">parens</w>
           <pc n="pc1">,</pc>
-          <w n="w3">Erebum</w>
+          <w ana="estlocus4" n="w3">Erebum</w>
           <w n="w4">medio</w>
           <w n="w5">quae</w>
           <w n="w6">claudis</w>
@@ -9251,7 +9251,7 @@
         </l>
         <l met="hexameter" n="l214">
           <w n="w1">Et</w>
-          <w n="w2">Phlegeton</w>
+          <w ana="estlocus1" n="w2">Phlegeton</w>
           <w n="w3">et</w>
           <w n="w4">Nox</w>
           <pc n="pc1">,</pc>
@@ -9312,7 +9312,7 @@
           <w n="w1">Haec</w>
           <w n="w2">ait</w>
           <pc n="pc">.</pc>
-          <w n="w3">Alcides</w>
+          <w ana="estlocus0" n="w3">Alcides</w>
           <w n="w4">iam</w>
           <w n="w5">dudum</w>
           <w n="w6">inuadere</w>
@@ -9321,7 +9321,7 @@
         <l met="hexameter" n="l220">
           <w n="w1">Gestit</w>
           <pc n="pc">,</pc>
-          <w n="w2">Cerbereos</w>
+          <w ana="estlocus0" n="w2">Cerbereos</w>
           <w n="w3">et</w>
           <w n="w4">nexibus</w>
           <w n="w5">implicat</w>
@@ -9380,7 +9380,7 @@
         </l>
         <l met="hexameter" n="l226">
           <w n="w1">Bellipotens</w>
-          <w n="w2">Tritonis</w>
+          <w ana="estlocus0" n="w2">Tritonis</w>
           <w n="w3">hera</w>
           <pc n="pc1">,</pc>
           <w n="w4">intemerata</w>
@@ -9388,7 +9388,7 @@
           <pc n="pc2">,</pc>
         </l>
         <l met="hexameter" n="l227">
-          <w n="w1">Solque</w>
+          <w ana="estlocus1" n="w1">Solque</w>
           <w n="w2">dator</w>
           <w n="w3">lucis</w>
           <pc n="pc1">,</pc>
@@ -9403,15 +9403,15 @@
           <w n="w2">quoque</w>
           <w n="w3">uocales</w>
           <w n="w4">magni</w>
-          <w n="w5">Syrenes</w>
-          <w n="w6">Olympi</w>
+          <w ana="estlocus0" n="w5">Syrenes</w>
+          <w ana="estlocus1" n="w6">Olympi</w>
           <pc n="pc">,</pc>
         </l>
         <l met="hexameter" n="l229">
           <w n="w1">Vatibus</w>
           <w n="w2">aetherios</w>
           <pc n="pc1">,</pc>
-          <w n="w3">Musae</w>
+          <w ana="estlocus0" n="w3">Musae</w>
           <pc n="pc2">,</pc>
           <w n="w4">quae</w>
           <w n="w5">infunditis</w>
@@ -9477,7 +9477,7 @@
         </l>
         <l met="hexameter" n="l236">
           <w n="w1">Inuadunt</w>
-          <w n="w2">Martem</w>
+          <w ana="estlocus0" n="w2">Martem</w>
           <pc n="pc">,</pc>
           <w n="w3">crebris</w>
           <w n="w4">sonat</w>
@@ -9485,7 +9485,7 @@
           <w n="w6">omnis</w>
         </l>
         <l met="hexameter" n="l237">
-          <w n="w1">Tartarus</w>
+          <w ana="estlocus1" n="w1">Tartarus</w>
           <w n="w2">et</w>
           <w n="w3">tonitru</w>
           <w n="w4">longe</w>
@@ -9495,12 +9495,12 @@
           <pc n="pc">.</pc>
         </l>
         <l met="hexameter" n="l238">
-          <w n="w1">Alcides</w>
+          <w ana="estlocus0" n="w1">Alcides</w>
           <w n="w2">multa</w>
           <w n="w3">pollens</w>
           <w n="w4">ui</w>
           <w n="w5">et</w>
-          <w n="w6">Palladis</w>
+          <w ana="estlocus0" n="w6">Palladis</w>
           <w n="w7">arte</w>
         </l>
         <l met="hexameter" n="l239">
@@ -9511,7 +9511,7 @@
           <w n="w5">sinistrum</w>
         </l>
         <l met="hexameter" n="l240">
-          <w n="w1">Ditis</w>
+          <w ana="estlocus4" n="w1">Ditis</w>
           <w n="w2">ad</w>
           <w n="w3">insultum</w>
           <w n="w4">telique</w>
@@ -9520,7 +9520,7 @@
           <pc n="pc">.</pc>
         </l>
         <l met="hexameter" n="l241">
-          <w n="w1">Dis</w>
+          <w ana="estlocus4" n="w1">Dis</w>
           <w n="w2">impune</w>
           <w n="w3">putans</w>
           <w n="w4">ad</w>
@@ -9529,7 +9529,7 @@
           <w n="w7">artus</w>
         </l>
         <l met="hexameter" n="l242">
-          <w n="w1">Marte</w>
+          <w ana="estlocus0" n="w1">Marte</w>
           <w n="w2">furens</w>
           <w n="w3">totoque</w>
           <w n="w4">intorquet</w>
@@ -9554,7 +9554,7 @@
           <w n="w4">domus</w>
           <w n="w5">atra</w>
           <w n="w6">resultat</w>
-          <w n="w7">Auerni</w>
+          <w ana="estlocus1" n="w7">Auerni</w>
           <pc n="pc">.</pc>
         </l>
         <l met="hexameter" n="l245">
@@ -9582,7 +9582,7 @@
           <w n="w5">ceu</w>
           <w n="w6">fulmen</w>
           <w n="w7">et</w>
-          <w n="w8">Orcum</w>
+          <w ana="estlocus4" n="w8">Orcum</w>
         </l>
         <l met="hexameter" n="l248">
           <w n="w1">Assequitur</w>
@@ -9605,12 +9605,12 @@
           <w n="w2">graui</w>
           <w n="w3">nutantem</w>
           <w n="w4">uulnere</w>
-          <w n="w5">Ditem</w>
+          <w ana="estlocus4" n="w5">Ditem</w>
         </l>
         <l met="hexameter" n="l251">
           <w n="w1">Aegrescuntque</w>
           <w n="w2">acti</w>
-          <w n="w3">Furiis</w>
+          <w ana="estlocus0" n="w3">Furiis</w>
           <w n="w4">mussantque</w>
           <w n="w5">dolore</w>
         </l>
@@ -9627,7 +9627,7 @@
           <w n="w1">Daemonas</w>
           <w n="w2">ut</w>
           <w n="w3">cunctos</w>
-          <w n="w4">Mars</w>
+          <w ana="estlocus0" n="w4">Mars</w>
           <w n="w5">experiatur</w>
           <w n="w6">ad</w>
           <w n="w7">unum</w>
@@ -9635,12 +9635,12 @@
         </l>
         <l met="hexameter" n="l254">
           <w n="w1">Respondit</w>
-          <w n="w2">Pluto</w>
+          <w ana="estlocus0" n="w2">Pluto</w>
           <pc n="pc1">:</pc>
           <pc n="pc2">"</pc>
           <w n="w3">Magni</w>
           <w n="w4">uis</w>
-          <w n="w5">Herculis</w>
+          <w ana="estlocus0" n="w5">Herculis</w>
           <w n="w6">ingens</w>
         </l>
         <l met="hexameter" n="l255">
@@ -9661,12 +9661,12 @@
           <w n="w4">uobis</w>
           <pc n="pc">:</pc>
           <w n="w5">date</w>
-          <w n="w6">Thaesea</w>
+          <w ana="estlocus0" n="w6">Thaesea</w>
           <w n="w7">magnum</w>
         </l>
         <l met="hexameter" n="l257">
           <w n="w1">Insuper</w>
-          <w n="w2">Alcidae</w>
+          <w ana="estlocus0" n="w2">Alcidae</w>
           <w n="w3">tantoque</w>
           <w n="w4">absistite</w>
           <w n="w5">monstro</w>
@@ -9679,17 +9679,17 @@
           <w n="w4">discedat</w>
           <w n="w5">pestis</w>
           <w n="w6">ab</w>
-          <w n="w7">Orco</w>
+          <w ana="estlocus4" n="w7">Orco</w>
           <pc n="pc1">!</pc>
           <pc n="pc2">"</pc>
         </l>
         <l met="hexameter" n="l259">
           <w n="w1">Ac</w>
           <w n="w2">uelut</w>
-          <w n="w3">Assyrios</w>
+          <w ana="estlocus1" n="w3">Assyrios</w>
           <w n="w4">saltus</w>
           <w n="w5">aut</w>
-          <w n="w6">Syrtica</w>
+          <w ana="estlocus1" n="w6">Syrtica</w>
           <w n="w7">linquens</w>
         </l>
         <l met="hexameter" n="l260">
@@ -9698,7 +9698,7 @@
           <w n="w3">siluasue</w>
           <w n="w4">procul</w>
           <w n="w5">cristatus</w>
-          <w n="w6">Eoas</w>
+          <w ana="estlocus1" n="w6">Eoas</w>
           <pc n="pc">,</pc>
         </l>
         <l met="hexameter" n="l261">
@@ -9707,7 +9707,7 @@
           <w n="w3">undantem</w>
           <w n="w4">flammis</w>
           <w n="w5">ardentibus</w>
-          <w n="w6">Aetnam</w>
+          <w ana="estlocus1" n="w6">Aetnam</w>
           <pc n="pc">,</pc>
         </l>
         <l met="hexameter" n="l262">
@@ -9724,8 +9724,8 @@
           <w n="w2">et</w>
           <w n="w3">in</w>
           <w n="w4">uastum</w>
-          <w n="w5">Polyphaemi</w>
-          <w n="w6">Cyclopis</w>
+          <w ana="estlocus0" n="w5">Polyphaemi</w>
+          <w ana="estlocus0" n="w6">Cyclopis</w>
           <w n="w7">antrum</w>
         </l>
         <l met="hexameter" n="l264">
@@ -9749,9 +9749,9 @@
         <l met="hexameter" n="l266">
           <w n="w1">Obuius</w>
           <w n="w2">at</w>
-          <w n="w3">Cyclops</w>
+          <w ana="estlocus0" n="w3">Cyclops</w>
           <w n="w4">trunco</w>
-          <w n="w5">Polyphaemus</w>
+          <w ana="estlocus0" n="w5">Polyphaemus</w>
           <w n="w6">obusto</w>
         </l>
         <l met="hexameter" n="l267">
@@ -9763,7 +9763,7 @@
           <w n="w5">draconis</w>
         </l>
         <l met="hexameter" n="l268">
-          <w n="w1">Taurum</w>
+          <w ana="estlocus0" n="w1">Taurum</w>
           <w n="w2">linquat</w>
           <w n="w3">humi</w>
           <w n="w4">saeuumque</w>
@@ -9790,15 +9790,15 @@
           <w n="w4">taurum</w>
           <pc n="pc">.</pc>
           <w n="w5">Sic</w>
-          <w n="w6">Thaesea</w>
+          <w ana="estlocus0" n="w6">Thaesea</w>
           <w n="w7">forti</w>
         </l>
         <l met="hexameter" n="l271">
-          <w n="w1">Amphitryoniadae</w>
+          <w ana="estlocus0" n="w1">Amphitryoniadae</w>
           <w n="w2">pro</w>
           <w n="w3">munere</w>
           <w n="w4">tradidit</w>
-          <w n="w5">Orcus</w>
+          <w ana="estlocus4" n="w5">Orcus</w>
           <pc n="pc">.</pc>
         </l>
         <l met="hexameter" n="l272">
@@ -9807,7 +9807,7 @@
           <w n="w3">horrendum</w>
           <w n="w4">et</w>
           <w n="w5">fauces</w>
-          <w n="w6">Phlegetontis</w>
+          <w ana="estlocus1" n="w6">Phlegetontis</w>
           <w n="w7">anheli</w>
         </l>
         <l met="hexameter" n="l273">
@@ -9817,7 +9817,7 @@
           <w n="w4">et</w>
           <w n="w5">munere</w>
           <w n="w6">laetus</w>
-          <w n="w7">Auerni</w>
+          <w ana="estlocus1" n="w7">Auerni</w>
           <pc n="pc">,</pc>
         </l>
         <l met="hexameter" n="l274">
@@ -9837,7 +9837,7 @@
           <w n="w4">facilis</w>
           <pc n="pc">.</pc>
           <w n="w5">Tunc</w>
-          <w n="w6">Cerberus</w>
+          <w ana="estlocus0" n="w6">Cerberus</w>
           <w n="w7">auras</w>
         </l>
         <l met="hexameter" n="l276">
@@ -9868,7 +9868,7 @@
           <w n="w1">Triplex</w>
           <w n="w2">ergo</w>
           <w n="w3">caput</w>
-          <w n="w4">Stygias</w>
+          <w ana="estlocus1" n="w4">Stygias</w>
           <w n="w5">auersus</w>
           <w n="w6">ad</w>
           <w n="w7">umbras</w>
@@ -9905,7 +9905,7 @@
         <l met="hexameter" n="l283">
           <w n="w1">Quum</w>
           <w n="w2">uero</w>
-          <w n="w3">Alcides</w>
+          <w ana="estlocus0" n="w3">Alcides</w>
           <w n="w4">iucundas</w>
           <w n="w5">luminis</w>
           <w n="w6">oras</w>
@@ -9930,7 +9930,7 @@
         </l>
         <l met="hexameter" n="l286">
           <pc n="pc1">"</pc>
-          <w n="w1">Alme</w>
+          <w ana="estlocus0" n="w1">Alme</w>
           <w n="w2">pater</w>
           <w n="w3">mundi</w>
           <pc n="pc2">,</pc>
@@ -9944,7 +9944,7 @@
           <w n="w1">Cuncta</w>
           <pc n="pc1">,</pc>
           <w n="w2">ratis</w>
-          <w n="w3">Parcae</w>
+          <w ana="estlocus0" n="w3">Parcae</w>
           <w n="w4">quae</w>
           <w n="w5">uoluunt</w>
           <w n="w6">stamina</w>
@@ -9956,7 +9956,7 @@
           <w n="w2">tua</w>
           <w n="w3">progenies</w>
           <w n="w4">sacraria</w>
-          <w n="w5">Ditis</w>
+          <w ana="estlocus4" n="w5">Ditis</w>
           <w n="w6">auari</w>
         </l>
         <l met="hexameter" n="l289">
@@ -9964,7 +9964,7 @@
           <w n="w2">uictrixque</w>
           <w n="w3">ferum</w>
           <w n="w4">spoliauit</w>
-          <w n="w5">Auernum</w>
+          <w ana="estlocus1" n="w5">Auernum</w>
           <pc n="pc">,</pc>
         </l>
         <l met="hexameter" n="l290">
@@ -9977,7 +9977,7 @@
           <w n="w7">esset</w>
         </l>
         <l met="hexameter" n="l291">
-          <w n="w1">Alcides</w>
+          <w ana="estlocus0" n="w1">Alcides</w>
           <pc n="pc1">,</pc>
           <w n="w2">in</w>
           <w n="w3">quo</w>
@@ -9994,7 +9994,7 @@
           <w n="w4">grates</w>
           <w n="w5">tibi</w>
           <pc n="pc1">,</pc>
-          <w n="w6">Iuppiter</w>
+          <w ana="estlocus0" n="w6">Iuppiter</w>
           <pc n="pc2">,</pc>
           <w n="w7">auctor</w>
         </l>
@@ -10002,7 +10002,7 @@
           <w n="w1">Victoris</w>
           <w n="w2">contra</w>
           <w n="w3">uires</w>
-          <w n="w4">Iunonis</w>
+          <w ana="estlocus0" n="w4">Iunonis</w>
           <w n="w5">iniquas</w>
           <pc n="pc1">.</pc>
           <pc n="pc2">"</pc>
@@ -10025,7 +10025,7 @@
           <w n="w6">recta</w>
         </l>
         <l met="hexameter" n="l296">
-          <w n="w1">Aethiopas</w>
+          <w ana="estlocus1" n="w1">Aethiopas</w>
           <w n="w2">duplices</w>
           <w n="w3">axemque</w>
           <w n="w4">uidebat</w>
@@ -10035,7 +10035,7 @@
         <l met="hexameter" n="l297">
           <w n="w1">Tum</w>
           <w n="w2">deus</w>
-          <w n="w3">Alcides</w>
+          <w ana="estlocus0" n="w3">Alcides</w>
           <w n="w4">ob</w>
           <w n="w5">durum</w>
           <w n="w6">iter</w>
@@ -10124,19 +10124,19 @@
         </l>
         <l met="hexameter" n="l307">
           <w n="w1">Qua</w>
-          <w n="w2">Methymnaeus</w>
+          <w ana="estlocus1" n="w2">Methymnaeus</w>
           <w n="w3">donaria</w>
           <w n="w4">liquit</w>
-          <w n="w5">Arion</w>
+          <w ana="estlocus0" n="w5">Arion</w>
           <pc n="pc">:</pc>
         </l>
         <l met="hexameter" n="l308">
           <w n="w1">Hic</w>
-          <w n="w2">Ephyrea</w>
+          <w ana="estlocus1" n="w2">Ephyrea</w>
           <w n="w3">ratis</w>
-          <w n="w4">Calabro</w>
+          <w ana="estlocus1" n="w4">Calabro</w>
           <w n="w5">resoluta</w>
-          <w n="w6">Tarento</w>
+          <w ana="estlocus1" n="w6">Tarento</w>
         </l>
         <l met="hexameter" n="l309">
           <w n="w1">Vela</w>
@@ -10161,7 +10161,7 @@
           <pc n="pc1">,</pc>
           <w n="w2">supplex</w>
           <w n="w3">fundebat</w>
-          <w n="w4">Lesbius</w>
+          <w ana="estlocus1" n="w4">Lesbius</w>
           <w n="w5">aurum</w>
           <pc n="pc2">.</pc>
         </l>
@@ -10169,13 +10169,13 @@
           <w n="w1">Hinc</w>
           <w n="w2">media</w>
           <w n="w3">puppi</w>
-          <w n="w4">Thyrio</w>
+          <w ana="estlocus1" n="w4">Thyrio</w>
           <w n="w5">stans</w>
           <w n="w6">lucidus</w>
           <w n="w7">ostro</w>
         </l>
         <l met="hexameter" n="l313">
-          <w n="w1">Orthrya</w>
+          <w ana="estlocus0" n="w1">Orthrya</w>
           <w n="w2">dicebat</w>
           <w n="w3">diuino</w>
           <w n="w4">carmina</w>
@@ -10224,10 +10224,10 @@
         <l met="hexameter" n="l319">
           <w n="w1">Hoc</w>
           <w n="w2">et</w>
-          <w n="w3">Neritium</w>
+          <w ana="estlocus0" n="w3">Neritium</w>
           <w n="w4">cantu</w>
           <w n="w5">sopisset</w>
-          <w n="w6">Vlixem</w>
+          <w ana="estlocus0" n="w6">Vlixem</w>
         </l>
         <l met="hexameter" n="l320">
           <w n="w1">Traxissetque</w>
@@ -10260,7 +10260,7 @@
           <w n="w2">cum</w>
           <w n="w3">docto</w>
           <w n="w4">certaret</w>
-          <w n="w5">Apolline</w>
+          <w ana="estlocus0" n="w5">Apolline</w>
           <w n="w6">tutus</w>
           <pc n="pc">.</pc>
         </l>
@@ -10284,14 +10284,14 @@
           <w n="w1">Parte</w>
           <w n="w2">alia</w>
           <w n="w3">ueniens</w>
-          <w n="w4">Ephyreas</w>
+          <w ana="estlocus1" n="w4">Ephyreas</w>
           <w n="w5">laetus</w>
           <w n="w6">ad</w>
           <w n="w7">arces</w>
         </l>
         <l met="hexameter" n="l327">
-          <w n="w1">Mira</w>
-          <w n="w2">Corinthiaco</w>
+          <w ana="estlocus0" n="w1">Mira</w>
+          <w ana="estlocus1" n="w2">Corinthiaco</w>
           <w n="w3">narrabat</w>
           <w n="w4">facta</w>
           <w n="w5">tyranno</w>
@@ -10311,7 +10311,7 @@
           <w n="w2">et</w>
           <w n="w3">incolumem</w>
           <w n="w4">mirantur</w>
-          <w n="w5">Ariona</w>
+          <w ana="estlocus0" n="w5">Ariona</w>
           <w n="w6">nautae</w>
         </l>
         <l met="hexameter" n="l330">
@@ -10336,12 +10336,12 @@
         <l met="hexameter" n="l332">
           <w n="w1">Ecce</w>
           <w n="w2">coronati</w>
-          <w n="w3">Phoebeis</w>
+          <w ana="estlocus0" n="w3">Phoebeis</w>
           <w n="w4">frondibus</w>
           <w n="w5">adsunt</w>
         </l>
         <l met="hexameter" n="l333">
-          <w n="w1">Indigenae</w>
+          <w ana="estlocus0" n="w1">Indigenae</w>
           <pc n="pc">,</pc>
           <w n="w2">qui</w>
           <w n="w3">facta</w>
@@ -10351,7 +10351,7 @@
           <w n="w7">laudes</w>
         </l>
         <l met="hexameter" n="l334">
-          <w n="w1">Herculeas</w>
+          <w ana="estlocus0" n="w1">Herculeas</w>
           <w n="w2">super</w>
           <w n="w3">astra</w>
           <w n="w4">ferunt</w>
@@ -10375,12 +10375,12 @@
           <pc n="pc1">,</pc>
           <w n="w3">taurum</w>
           <pc n="pc2">,</pc>
-          <w n="w4">Stymphalidas</w>
+          <w ana="estlocus1" n="w4">Stymphalidas</w>
           <pc n="pc3">,</pc>
           <w n="w5">hortos</w>
         </l>
         <l met="hexameter" n="l337">
-          <w n="w1">Hesperidum</w>
+          <w ana="estlocus1" n="w1">Hesperidum</w>
           <pc n="pc1">:</pc>
           <pc n="pc2">"</pc>
           <w n="w2">Tu</w>
@@ -10388,33 +10388,33 @@
           <pc n="pc3">,</pc>
           <w n="w4">inuicte</w>
           <pc n="pc4">,</pc>
-          <w n="w5">Gigantes</w>
+          <w ana="estlocus0" n="w5">Gigantes</w>
         </l>
         <l met="hexameter" n="l338">
           <w n="w1">Deiicis</w>
           <pc n="pc1">,</pc>
           <w n="w2">euertis</w>
-          <w n="w3">Troiam</w>
+          <w ana="estlocus1" n="w3">Troiam</w>
           <pc n="pc2">,</pc>
           <w n="w4">tu</w>
-          <w n="w5">Albionas</w>
+          <w ana="estlocus0" n="w5">Albionas</w>
           <w n="w6">imbre</w>
         </l>
         <l met="hexameter" n="l339">
           <w n="w1">Ad</w>
-          <w n="w2">Rhodani</w>
+          <w ana="estlocus1" n="w2">Rhodani</w>
           <w n="w3">ripas</w>
           <w n="w4">sternis</w>
-          <w n="w5">Nessumque</w>
+          <w ana="estlocus1" n="w5">Nessumque</w>
           <w n="w6">latronemque</w>
         </l>
         <l met="hexameter" n="l340">
           <w n="w1">Acer</w>
-          <w n="w2">Auentinum</w>
+          <w ana="estlocus1" n="w2">Auentinum</w>
           <pc n="pc1">,</pc>
           <w n="w3">tu</w>
           <w n="w4">templa</w>
-          <w n="w5">Lacinia</w>
+          <w ana="estlocus1" n="w5">Lacinia</w>
           <w n="w6">condis</w>
           <pc n="pc2">.</pc>
         </l>
@@ -10427,7 +10427,7 @@
           <w n="w6">tenentem</w>
         </l>
         <l met="hexameter" n="l342">
-          <w n="w1">Atlas</w>
+          <w ana="estlocus4" n="w1">Atlas</w>
           <w n="w2">obstupuit</w>
           <pc n="pc">,</pc>
           <w n="w3">te</w>
@@ -10439,24 +10439,24 @@
           <w n="w1">Contremuit</w>
           <w n="w2">percussa</w>
           <w n="w3">soror</w>
-          <w n="w4">Iouis</w>
+          <w ana="estlocus0" n="w4">Iouis</w>
           <pc n="pc">.</pc>
           <w n="w5">Elicis</w>
           <w n="w6">umbram</w>
         </l>
         <l met="hexameter" n="l344">
           <w n="w1">Coniugis</w>
-          <w n="w2">Admeti</w>
+          <w ana="estlocus0" n="w2">Admeti</w>
           <w n="w3">furuis</w>
           <w n="w4">e</w>
           <w n="w5">sedibus</w>
-          <w n="w6">Orci</w>
+          <w ana="estlocus4" n="w6">Orci</w>
         </l>
         <l met="hexameter" n="l345">
           <w n="w1">Aequoreoque</w>
           <w n="w2">rapis</w>
           <w n="w3">tu</w>
-          <w n="w4">Laomedontida</w>
+          <w ana="estlocus1" n="w4">Laomedontida</w>
           <w n="w5">monstro</w>
           <pc n="pc1">.</pc>
           <pc n="pc2">"</pc>
@@ -10478,14 +10478,14 @@
           <w n="w3">iam</w>
           <w n="w4">reticet</w>
           <w n="w5">lassi</w>
-          <w n="w6">Cyllenia</w>
-          <w n="w7">Phoebi</w>
+          <w ana="estlocus1" n="w6">Cyllenia</w>
+          <w ana="estlocus0" n="w7">Phoebi</w>
           <pc n="pc">.</pc>
         </l>
         <l met="hexameter" n="l348">
           <w n="w1">Soluite</w>
           <pc n="pc1">,</pc>
-          <w n="w2">Pierides</w>
+          <w ana="estlocus0" n="w2">Pierides</w>
           <pc n="pc2">,</pc>
           <w n="w3">choreas</w>
           <w n="w4">et</w>
@@ -10493,7 +10493,7 @@
           <w n="w6">fontes</w>
         </l>
         <l met="hexameter" n="l349">
-          <w n="w1">Bellerophonteos</w>
+          <w ana="estlocus0" n="w1">Bellerophonteos</w>
           <pc n="pc1">:</pc>
           <w n="w2">uestris</w>
           <w n="w3">sat</w>
@@ -10508,22 +10508,22 @@
         <rdg n="rdg1" wit="#R1 #Cu #Sn #R2">
           <div n="div" type="epigramma" met="elegiacum">
             <head n="head">
-              <w n="w1">Philippi</w>
-              <w n="w2">Beroaldi</w>
+              <w ana="estlocus0" n="w1">Philippi</w>
+              <w ana="estlocus0" n="w2">Beroaldi</w>
               <w n="w3">Hexasticon</w>
               <pc n="pc">.</pc>
             </head>
             <l n="l1">
               <w n="w1">Viribus</w>
-              <w n="w2">Alcides</w>
+              <w ana="estlocus0" n="w2">Alcides</w>
               <w n="w3">superas</w>
               <w n="w4">educit</w>
               <w n="w5">ad</w>
               <w n="w6">auras</w>
             </l>
             <l n="l2">
-              <w n="w1">Inferna</w>
-              <w n="w2">Stygium</w>
+              <w ana="estlocus1" n="w1">Inferna</w>
+              <w ana="estlocus1" n="w2">Stygium</w>
               <w n="w3">de</w>
               <w n="w4">regione</w>
               <w n="w5">canem</w>
@@ -10531,7 +10531,7 @@
             </l>
             <l n="l3">
               <w n="w1">Versibus</w>
-              <w n="w2">Herculeae</w>
+              <w ana="estlocus0" n="w2">Herculeae</w>
               <w n="w3">par</w>
               <w n="w4">est</w>
               <w n="w5">Iacobus</w>
@@ -10548,7 +10548,7 @@
               <pc n="pc2">.</pc>
             </l>
             <l n="l5">
-              <w n="w1">Aetherios</w>
+              <w ana="estlocus0" n="w1">Aetherios</w>
               <w n="w2">illi</w>
               <w n="w3">cultus</w>
               <w n="w4">benefacta</w>
