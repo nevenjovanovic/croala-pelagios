@@ -67,9 +67,8 @@ declare
 
   </tr>
 	</thead>
-  <tbody>
-  
-  </tbody>
+  <!-- function here -->
+{ cite:listlemmata() }
   </table>
   
      </div>

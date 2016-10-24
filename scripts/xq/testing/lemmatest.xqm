@@ -35,6 +35,7 @@ declare %unit:test function test:citeurn-croala-latlexent() {
 };
 
 (: are we displaying a page at basex/cp/cp-lemmata :)
+(: is there a function in the croalacite.xqm module? :)
 (: is there a table with CITE latlexent URNs? :)
 (: can the table be sorted? :)
 (: can we retrieve a specific entry from the table? :)
@@ -42,4 +43,9 @@ declare %unit:test function test:citeurn-croala-latlexent() {
 declare %unit:test function test:cp-lemmata-exists (){
   let $doc := doc("http://croala.ffzg.unizg.hr/basex/cp/cp-lemmata")
   return unit:assert($doc//*:blockquote/*:div/*:table[@id="lemmata" and @class="table-striped  table-hover table-centered tablesorter"]/*:tbody/*:tr/*:td)
+};
+
+declare %unit:test function test:cite-lemmmata-exists(){
+  for $r in cite:listlemmata()
+  return unit:assert($r//*:tr[parent::*:tbody]/*:td)
 };

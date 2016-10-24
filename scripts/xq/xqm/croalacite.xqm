@@ -128,3 +128,20 @@ declare function cite:input-field($id, $r){
       }
     }
 };
+
+declare function cite:listlemmata(){
+for $r in collection("cp-cite-lemmata")//record
+  let $citeurn := $r/entry[3]
+  let $word := $r/entry[2]
+  let $lemma := $r/entry[4]
+  let $lemmaurn := $r/entry[5]
+  return
+  element tbody {
+    element tr {
+      element td { $citeurn/string() },
+      element td { $word/string() },
+      element td { $lemma/string() },
+      element td { $lemmaurn/string() }
+    }
+  }
+};
