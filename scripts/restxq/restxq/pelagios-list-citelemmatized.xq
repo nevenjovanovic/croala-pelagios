@@ -77,10 +77,6 @@ declare
      </div>
 <hr/>
 { croala:footerserver() }
-<script src='/basex/static/dist/js/tablesort.min.js'></script>
-<script>
-  new Tablesort(document.getElementById('lemmata'));
-</script>
 </body>
 </html>
 };
