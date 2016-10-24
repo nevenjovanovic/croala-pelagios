@@ -57,7 +57,7 @@ declare
 <div class="container-fluid">
 <blockquote class="croala">
 	<div class="table-responsive">
-<table id="lemmata" class="table-striped  table-hover table-centered sort">
+<table id="lemmata" class="table-striped  table-hover table-centered">
 	<thead>
 	<tr>
   <th>Annotationis CITE URN</th>
@@ -77,7 +77,10 @@ declare
      </div>
 <hr/>
 { croala:footerserver() }
-
+<script src='/basex/static/dist/js/tablesort.min.js'></script>
+<script>
+  new Tablesort(document.getElementById('lemmata'));
+</script>
 </body>
 </html>
 };
