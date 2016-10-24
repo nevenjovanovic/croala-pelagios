@@ -18,7 +18,7 @@ declare function cite:htmlheadtsorter($title, $content, $keywords) {
 <link rel="stylesheet" type="text/css" href="/basex/static/dist/css/basexc.css"/>
 <script src='/basex/static/dist/js/tablesort.min.js'></script>
 <script>
-  new Tablesort(document.getElementById('table-id'));
+  new Tablesort(document.getElementById('sort'));
 </script>
 </head>
 
