@@ -33,7 +33,7 @@ declare function cite:urn-exists($urn){
     else  "URN deest in collectionibus nostris."
     
   else if (starts-with($urn, "urn:cite:croala:latlexent.") or starts-with($urn, "urn:cite:perseus:latlexent.")) then
-    if ((collection("cp-latlexent"), collection("cp-croala-latlexents"))//record[entry[1]=$urn]) then (collection("cp-latlexent"), collection("cp-croala-latlexents"))//record[entry[1]=$urn]/entry[2]
+    if (collection("cp-latlexents")//record[entry[1]=$urn]) then collection("cp-latlexents")//record[entry[1]=$urn]/entry[2]
     else "URN deest in collectionibus nostris."
   else if ($urn=()) then "URN deest in collectionibus nostris."
   else "URN deest in collectionibus nostris."
@@ -49,7 +49,7 @@ declare function cite:geturn($urn) {
       }
     },
     element tbody {
-let $dbs := (collection("cp-latlexent"), collection("cp-latmorph"), collection("cp-croala-latlexents"))
+let $dbs := (collection("cp-latlexents"), collection("cp-latmorph"))
 for $r in $dbs//record
 let $id := generate-id($r)
 where $r/entry[1][string()=$urn]
@@ -63,7 +63,7 @@ return element tr {
 };
 
 declare function cite:queryname ($q) {
-  let $dbs := (collection("cp-latlexent"), collection("cp-croala-latlexents"))
+  let $dbs := (collection("cp-latlexents"))
   let $list := $dbs//record
   let $result := $list[entry[2][matches(string(), '^' || $q )]]
   return if ($result) then
