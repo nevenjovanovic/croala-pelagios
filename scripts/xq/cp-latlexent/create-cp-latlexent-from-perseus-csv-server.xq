@@ -2,4 +2,4 @@
 (: On our development server :)
 let $i := file:read-text("/home/croala/croala-pelagios/csv/inventory_import.csv")
 let $csv := csv:parse($i)
-return db:create("cp-latlexent", $csv, "latlexent")
+return db:create("cp-latlexents", $csv, "latlexent", map {'ftindex' : true() , 'autooptimize' : true() , 'intparse' : true() })
