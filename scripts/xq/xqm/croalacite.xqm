@@ -16,9 +16,9 @@ declare function cite:htmlheadtsorter($title, $content, $keywords) {
 <link rel="icon" href="/basex/static/gfx/favicon.ico" type="image/x-icon" />
 <link rel="stylesheet" type="text/css" href="/basex/static/dist/css/bootstrap.min.css"/>
 <link rel="stylesheet" type="text/css" href="/basex/static/dist/css/basexc.css"/>
-<script type="text/javascript" src="/basex/static/dist/js/jquery-3.1.1.min.js"></script> 
-<script type="text/javascript" src="/basex/static/dist/js/jquery.tablesorter.min.js"></script> 
-<script type="text/javascript" src="/basex/static/dist/js/ts2.js"></script> 
+<script type="text/javascript" src="dist/js/jquery-3.1.1.min.js"></script> 
+<script type="text/javascript" src="dist/js/jquery.tablesorter.min.js"></script> 
+<script type="text/javascript" src="dist/js/ts2.js"></script> 
 </head>
 
 };
