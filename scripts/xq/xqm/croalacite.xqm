@@ -2,6 +2,27 @@ module namespace cite = "http://croala.ffzg.unizg.hr/cite";
 import module namespace functx = "http://www.functx.com" at "functx.xqm";
 declare namespace ti = "http://chs.harvard.edu/xmlns/cts";
 
+(: helper function for header, with meta :)
+declare function cite:htmlheadtsorter($title, $content, $keywords) {
+  (: return html template to be filled with title :)
+  (: title should be declared as variable in xq :)
+
+<head><title> { $title } </title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="keywords" content="{ $keywords }"/>
+<meta name="description" content="{$content}"/>
+<meta name="revised" content="{ current-date()}"/>
+<meta name="author" content="Neven Jovanović, CroALa" />
+<link rel="icon" href="/basex/static/gfx/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" type="text/css" href="/basex/static/dist/css/bootstrap.min.css"/>
+<link rel="stylesheet" type="text/css" href="/basex/static/dist/css/basexc.css"/>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script> 
+<script type="text/javascript" src="/basex/static/dist/js/jquery.tablesorter.js"></script> 
+</head>
+
+};
+
+
 declare function cite:validate-cts($cts){
   let $result :=
     if (matches($cts, "urn:cts:croala:[a-z0-9.\-]+:[a-z0-9.\-]+$")) then true()

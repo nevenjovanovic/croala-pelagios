@@ -41,5 +41,5 @@ declare %unit:test function test:citeurn-croala-latlexent() {
 
 declare %unit:test function test:cp-lemmata-exists (){
   let $doc := doc("http://croala.ffzg.unizg.hr/basex/cp/cp-lemmata")
-  return unit:assert($doc)
+  return unit:assert($doc//*:blockquote/*:div/*:table[@id="lemmata" and @class="table-striped  table-hover table-centered tablesorter"]/*:tbody/*:tr/*:td)
 };

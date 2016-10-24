@@ -37,7 +37,7 @@ declare
   (: HTML template starts here :)
 
 <html>
-{ vit:htmlheadserver($title, $content, $keywords) }
+{ cite:htmlheadtsorter($title, $content, $keywords) }
 <body text="#000000">
 
 <div class="jumbotron">
@@ -57,13 +57,13 @@ declare
 <div class="container-fluid">
 <blockquote class="croala">
 	<div class="table-responsive">
-<table class="table-striped  table-hover table-centered">
+<table id="lemmata" class="table-striped  table-hover table-centered tablesorter">
 	<thead>
 	<tr>
-  <td>Annotationis CITE URN</td>
-  <td>Verbum</td>
-  <td>Lemma</td>
-  <td>Lemmatis CITE URN</td>
+  <th>Annotationis CITE URN</th>
+  <th>Verbum</th>
+  <th>Lemma</th>
+  <th>Lemmatis CITE URN</th>
 
   </tr>
 	</thead>
@@ -78,7 +78,13 @@ declare
      </div>
 <hr/>
 { croala:footerserver() }
-
+<script>
+$(document).ready(function() 
+    { 
+        $("#lemmata").tablesorter(); 
+    } 
+); 
+</script>
 </body>
 </html>
 };
