@@ -57,7 +57,7 @@ declare
 <div class="container-fluid">
 <blockquote class="croala">
 	<div class="table-responsive">
-<table id="lemmata" class="table-striped  table-hover table-centered ">
+<table id="lemmata" class="table-striped  table-hover table-centered sort">
 	<thead>
 	<tr>
   <td>Annotationis CITE URN</td>
