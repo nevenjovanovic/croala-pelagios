@@ -78,7 +78,6 @@ declare
 <hr/>
 { croala:footerserver() }
 
-<script type="text/javascript" src="/basex/static/dist/js/ts2.js"></script> 
 </body>
 </html>
 };
