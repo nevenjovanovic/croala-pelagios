@@ -57,13 +57,13 @@ declare
 <div class="container-fluid">
 <blockquote class="croala">
 	<div class="table-responsive">
-<table id="lemmata" class="tablesorter">
+<table id="lemmata" class="table-striped  table-hover table-centered ">
 	<thead>
 	<tr>
-  <th>Annotationis CITE URN</th>
-  <th>Verbum</th>
-  <th>Lemma</th>
-  <th>Lemmatis CITE URN</th>
+  <td>Annotationis CITE URN</td>
+  <td>Verbum</td>
+  <td>Lemma</td>
+  <td>Lemmatis CITE URN</td>
 
   </tr>
 	</thead>
