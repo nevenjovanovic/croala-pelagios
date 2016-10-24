@@ -2,7 +2,7 @@ SET INTPARSE true; SET CHOP false; SET FTINDEX true; SET UPDINDEX true; SET AUTO
 RUN /home/croala/croala-pelagios/scripts/xq/cp-latlexent/create-cp-latlexent-from-perseus-csv-server.xq
 RUN /home/croala/croala-pelagios/scripts/xq/cp-latlexent/add-croala-to-cp-latlexents-server.xq
 CREATE BACKUP cp-latlexents
-RUN /home/croala/croala-pelagios/scripts/xq/cp-latlexent/cp-create-cite-lemmata-server.xq
+RUN /home/croala/croala-pelagios/scripts/xq/cp-db/cp-create-cite-lemmata-server.xq
 CREATE BACKUP cp-cite-lemmata
 RUN /home/croala/croala-pelagios/scripts/xq/cp-latlexent/create-cp-latmorph-from-csv-server.xq
 CREATE BACKUP cp-latmorph
