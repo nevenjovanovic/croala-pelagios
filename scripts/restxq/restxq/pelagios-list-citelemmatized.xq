@@ -78,13 +78,8 @@ declare
      </div>
 <hr/>
 { croala:footerserver() }
-<script>
-$(document).ready(function() 
-    { 
-        $("#lemmata").tablesorter(); 
-    } 
-); 
-</script>
+
+<script type="text/javascript" src="/basex/static/dist/js/ts2.js"></script> 
 </body>
 </html>
 };
