@@ -18,14 +18,11 @@ __root="$(cd "$(dirname "${__dir}")" && pwd)" # <-- change this as it depends on
 arg1="${1:-}"
 
 DIRECTORY=$1
-if [ -d "$DIRECTORY" ]; then
-   rclone sync remote:croala-pelagios ${DIRECTORY}
-   echo "Syncing remote directory croala-pelagios to ${DIRECTORY}..."
-fi
+
 
 for file in `ls ${DIRECTORY}cp-croala-latlexents-novi.xlsx`;
 do newname=$(basename ${file%.*}).csv
-xlsx2csv -i -s1 ${file} ${2}${newname}
+xlsx2csv -i -s 1 --dateformat="%Y-%m-%d" ${file} ${2}${newname}
 echo "File ${newname} converted to csv."
 done
 
