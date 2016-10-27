@@ -3,7 +3,7 @@ declare function local:e($e){
 };
 for $file in file:children("/home/neven/Documents/xlscsv")
 let $csv := file:read-text($file)
-for $parsed in csv:parse($csv, map { 'header': true() })//record[not(CTS_URN="CTS URN") and not(ANNOTATOR_INITIALS="ANNOTATOR")]
+for $parsed in csv:parse($csv, map { 'header': true() })//record[not(CTS_URN="CTS URN") and not(ANNOTATOR_INITIALS="ANNOTATOR") and not(LEMMA_CITE_URN="LEMMA CITE URN") and not(matches(LEMMA, "\*"))]
 let $cts := local:e($parsed/CTS_URN)
 let $word := local:e($parsed/Nomen)
 let $lemmacite := local:e($parsed/LEMMA_CITE_URN)
