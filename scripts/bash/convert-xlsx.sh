@@ -3,6 +3,7 @@
 # (use the first sheet everywhere)
 # depends on: rclone, xlsx2csv
 # Usage: convert-xslx.sh DIRNAME/ OUTPUTDIRNAME/
+# for using find, see http://superuser.com/questions/715007/ls-with-glob-not-working-in-a-bash-script
 # 2016/10/27
 
 set -o errexit
@@ -25,8 +26,10 @@ if [ -d "$DIRECTORY" ]; then
 fi
 
 for file in $(find "${DIRECTORY}" -regextype posix-awk -regex ".*-morphologia.xlsx")
-do newname=$(basename ${file%.*}).csv
-xlsx2csv -i -s1 ${file} ${2}${newname}
-echo "File ${2}${newname} created or updated."
+do
+    modified=`date -r ${file}`
+    newname=$(basename ${file%.*}).csv
+    xlsx2csv -i -s1 ${file} ${2}${newname}
+    echo "File ${2}${newname} updated to the version last modified on ${modified}."
 done
 

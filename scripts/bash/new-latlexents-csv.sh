@@ -20,9 +20,11 @@ arg1="${1:-}"
 DIRECTORY=$1
 
 
-for file in `ls ${DIRECTORY}cp-croala-latlexents-novi.xlsx`;
-do newname=$(basename ${file%.*}).csv
-xlsx2csv -i -s 1 --dateformat="%Y-%m-%d" ${file} ${2}${newname}
-echo "File ${newname} converted to csv."
+for file in $(find "${DIRECTORY}cp-croala-latlexents-novi.xlsx")
+do
+    modified=`date -r ${file}`
+    newname=$(basename ${file%.*}).csv
+    xlsx2csv -i -s 1 --dateformat="%Y-%m-%d" ${file} ${2}${newname}
+    echo "File ${2}${newname} updated to the version last modified on ${modified}."
 done
 
