@@ -1,5 +1,6 @@
 module namespace test = 'http://basex.org/modules/xqunit-tests';
 import module namespace cite = "http://croala.ffzg.unizg.hr/cite" at '../xqm/croalacite.xqm';
+import module namespace cp = 'http://croala.ffzg.unizg.hr/croalapelagios' at '../xqm/croalapelagios.xqm';
 
 (: check whether necessary dbs are present :)
 
@@ -67,19 +68,15 @@ declare %unit:test function test:urn-exists() {
 declare %unit:test function test:retrieve-citeurn() {
   let $urn := "urn:cite:perseus:latlexent.lex7232.1"
   let $label := "Roma"
-  let $definition := "Rome, the mother city"
-  return unit:assert-equals(
-    for $tr in cite:geturn($urn)//tbody[parent::table]/tr[td[1]/string()[.=$urn]]
-    return $tr/td/string(), ($urn, $label, $definition))
+  return unit:assert(cite:geturn($urn)//tbody/tr[td[1]/input/@value=$urn]/td[2][text()=$label])
 };
 
 declare %unit:test function test:retrieve-citeurnmorph() {
   let $urn := "urn:cite:croala:latmorph.morph.143.1"
-  let $label := "n-s---nnc"
+  let $label := "a-s---nnc"
   let $definition := "adiectivum, singularis, neutrum, nominativus, comparativus"
-  return unit:assert-equals(
-    for $tr in cite:geturn($urn)//tbody[parent::table]/tr[td[1]/string()[.=$urn]]
-    return $tr/td/string(), ($urn, $label, $definition))
+  return unit:assert(
+    cite:geturn($urn)//tbody[parent::table]/tr[td[1]/input/@value=$urn]/td[2][.=$label])
 };
 
 declare %unit:test function test:citeurn-croala-latlexent() {
@@ -87,8 +84,8 @@ declare %unit:test function test:citeurn-croala-latlexent() {
   let $label := "Bossina"
   let $definition := "Name of a state in East-Central Europe, Bosnia (Bosna)."
   return unit:assert-equals(
-    for $tr in cite:geturn($urn)//tbody[parent::table]/tr[td[1]/string()[.=$urn]]
-    return $tr/td/string(), ($urn, $label, $definition))
+    for $tr in cite:geturn($urn)//tbody[parent::table]/tr[td[1]/input[@value=$urn]]
+    return $tr/td[2]/string(), $label)
 };
 
 declare %unit:test function test:retrieve-citeurn-thead() {
@@ -97,7 +94,7 @@ declare %unit:test function test:retrieve-citeurn-thead() {
   let $label := "Name"
   let $definition := "Short definition"
   return unit:assert-equals(
-    for $tr in cite:geturn($urn)//thead[parent::table]/tr[1]
+    let $tr := cite:geturn($urn)//thead[parent::table]/tr
     return $tr/td/string(), ($urnhead, $label, $definition))
 };
 
@@ -106,8 +103,8 @@ declare %unit:test function test:ask-name() {
   let $label := "Roma"
   let $definition := "Rome, the mother city"
   return unit:assert-equals(
-    for $tr in cite:queryname($label)//tbody[parent::table]/tr[td[1]/string()[.=$urn]]
-    return $tr/td/string(), ($urn, $label, $definition))
+    for $tr in cite:queryname($label)//tbody[parent::table]/tr[td[1]/input[@value=$urn]]
+    return $tr/td[2]/string(), $label)
 };
 
 declare %unit:test function test:ask-name-thead() {
@@ -126,6 +123,11 @@ declare %unit:test function test:name-croala-latlexent() {
   let $label := "Dacicum"
   let $definition := "Name of the province Dacia."
   return unit:assert-equals(
-    for $tr in cite:queryname($label)//tbody[parent::table]/tr[td[1]/string()[.=$urn]]
-    return $tr/td/string(), ($urn, $label, $definition))
+    for $tr in cite:queryname($label)//tbody[parent::table]/tr[td[1]/input[@value=$urn]]
+    return $tr/td[3]/string(), $definition)
+};
+
+declare %unit:test function test:openctsurn () {
+  let $ctsadr := "urn:cts:croala:crije02.croala292491.croala-lat2w:body.div1.div1.l196.w3"
+  return unit:assert(cp:openurn ($ctsadr))
 };
