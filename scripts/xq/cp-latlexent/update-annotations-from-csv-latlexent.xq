@@ -4,8 +4,9 @@ declare function local:e($e){
 declare function local:check($a, $b) {
   if ($a/text()=$b) then local:e($a) else "ERROR!"
 };
-for $file in file:children("/home/neven/Documents/xlscsv")
-let $csv := file:read-text($file)
+for $file in file:children("/home/neven/rad/croalapelagiosxml/csv")
+let $file2 := matches($file, "-morphologia.csv")
+let $csv := file:read-text($file2)
 for $parsed in csv:parse($csv, map { 'header': true() })//record[not(CTS_URN="CTS URN") and not(ANNOTATOR_INITIALS="ANNOTATOR") and not(LEMMA_CITE_URN="LEMMA CITE URN") and not(matches(LEMMA, "\*"))]
 let $cts := local:e($parsed/CTS_URN)
 let $word2 := data(collection("cp-cts-urns")//w[@n=$parsed/CTS_URN/string()])
