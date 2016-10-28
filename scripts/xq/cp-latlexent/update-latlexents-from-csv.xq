@@ -4,7 +4,7 @@ declare function local:e($e){
 declare function local:check($a, $b) {
   if ($a/text()=$b) then local:e($a) else "ERROR!"
 };
-let $csv := file:read-text("/home/neven/Documents/llents/cp-croala-latlexents-novi.csv")
+let $csv := file:read-text("/home/neven/rad/croalapelagiosxml/oznaceno/cp-croala-latlexents-novi.csv")
 let $result := element csv {
 for $parsed in csv:parse($csv, map { 'header': true() })//record
 let $cite := local:e($parsed/CITE_URN)
