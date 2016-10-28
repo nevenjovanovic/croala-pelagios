@@ -31,13 +31,14 @@ return cp:prettycts($ctsadr, $word)
 
 (: from a CTS URN retrieve text in s parent element :)
 declare function cp:openurn ($ctsadr) {
-let $w := db:open("cp-placename-idx")//*:w[@n=$ctsadr]
+let $w := db:open("cp-cts-urns")//*:w[@n=$ctsadr]
 let $word := $w/text()
 let $pre := data($w/@xml:id)
-let $text := data(db:open-id("cp", $pre)/parent::*:s)
+let $text := data(db:open-id("cp-2-texts", $pre)/parent::*)
 let $settext := normalize-space($text)
 return cp:prettyp($settext, $ctsadr, $word)
 };
+
 (: make node quickly :)
 declare function cp:td($node) {
   element td {
