@@ -22,13 +22,18 @@ let $cts2 := $parsed/CTS_URN/string()
 let $citemorphcts := local:e(collection("cp-cite-urns")//w[@n=$cts2]/@citeurn/string())
 let $word := local:e($parsed/Nomen)
 let $citemorph := local:e($parsed/MORPH_CITE_URN)
+let $morphcode := local:e(
+  collection("cp-latmorph")//record[entry[1]=$citemorph]/entry[3]
+)
 let $annotator := local:e(
   map:get($ann, $parsed/ANNOTATOR_INITIALS)
 )
 let $datecreated := local:e(current-date())
 return element record { 
-$citemorphcts ,
+$cts ,
 $word,
+$citemorphcts ,
+$morphcode ,
 $citemorph,
 $annotator,
 element entry {},
