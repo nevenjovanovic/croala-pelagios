@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # convert-xslx.sh: convert a number of .xslx files into csv
 # (use the first sheet everywhere)
+# depends on: rclone, xlsx2csv
 # Usage: convert-xslx.sh DIRNAME/ OUTPUTDIRNAME/
 # 2016/10/27
 
@@ -19,13 +20,13 @@ arg1="${1:-}"
 
 DIRECTORY=$1
 if [ -d "$DIRECTORY" ]; then
-   rclone sync remote:croala-pelagios ${DIRECTORY}
    echo "Syncing remote directory croala-pelagios to ${DIRECTORY}..."
+   rclone sync remote:croala-pelagios ${DIRECTORY}
 fi
 
-for file in `ls ${DIRECTORY}*-morphologia.xlsx`;
+for file in $(find "${DIRECTORY}" -regextype posix-awk -regex ".*-morphologia.xlsx")
 do newname=$(basename ${file%.*}).csv
 xlsx2csv -i -s1 ${file} ${2}${newname}
-echo "File ${newname} converted to csv."
+echo "File ${2}${newname} created or updated."
 done
 
