@@ -131,3 +131,8 @@ declare %unit:test function test:openctsurn () {
   let $ctsadr := "urn:cts:croala:crije02.croala292491.croala-lat2w:body.div1.div1.l196.w3"
   return unit:assert(cp:openurn ($ctsadr))
 };
+
+declare %unit:test function test:openctsurn-fail () {
+  let $ctsadr := "urn:cts:croala:crije02.croala292491.croala-lat2w:body.div1.div1.l196"
+  return unit:assert(cp:openurn ($ctsadr))
+};
