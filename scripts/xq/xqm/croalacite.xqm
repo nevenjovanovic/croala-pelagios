@@ -143,3 +143,21 @@ for $r in collection("cp-cite-lemmata")//record
     }
   }
 };
+
+declare function cite:getmorphanno() {
+  element csv {
+  let $c := collection("cp-cite-morphs")
+  for $r in $c//record
+  return $r
+}
+};
+
+declare function cite:getmorphtable($csv) {
+  element tbody {
+    element tr {
+      element td {
+        
+      }
+    }
+  }
+};
