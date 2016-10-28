@@ -50,7 +50,7 @@ declare
 <p>Redi ad <a href="http://croala.ffzg.unizg.hr/basex/cp/list">CTS URN indiculum</a>.</p>
 </div>
 <div class="col-md-6">
-{croala:infodb('cp')}
+{croala:infodb('cp-2-texts')}
 </div>
 </div>
 </div>
