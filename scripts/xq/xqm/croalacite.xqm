@@ -135,7 +135,7 @@ return $r
 
 declare function cite:listlemmata($records){
   element tbody {
-for $r in $records//record
+for $r in $records//record[not(entry[3][.=""])]
   let $cts := data($r/entry[1])
   let $citeurn := cp:prettycitebody(data($r/entry[3]) , $cts, "ctsp/")
   let $word := data($r/entry[2])

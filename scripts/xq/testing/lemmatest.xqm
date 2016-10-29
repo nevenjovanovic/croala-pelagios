@@ -42,10 +42,10 @@ declare %unit:test function test:citeurn-croala-latlexent() {
 
 declare %unit:test function test:cp-lemmata-exists (){
   let $doc := doc("http://croala.ffzg.unizg.hr/basex/cp/cp-lemmata")
-  return unit:assert($doc//blockquote/div/table[@id="lemmata" and @class="table-striped  table-hover table-centered"]/tbody/tr[551][parent::tbody and td[1]/a/@href]/td[6][text()])
+  return unit:assert($doc//blockquote/div/table[@id="lemmata" and @class="table-striped  table-hover table-centered"]/tbody/tr[492][parent::tbody and td[1]/a/@href]/td[6][text()])
 };
 
 declare %unit:test function test:cite-lemmmata-exists(){
   let $r := cite:getlemmata()
-  return unit:assert(cite:listlemmata($r)//tr[551][parent::tbody and td[1]/a/@href]/td[6][text()])
+  return unit:assert(cite:listlemmata($r)//tr[492][parent::tbody and td[1]/a/@href]/td[6][text()])
 };
