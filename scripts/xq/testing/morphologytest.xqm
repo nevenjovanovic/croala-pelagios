@@ -50,30 +50,30 @@ declare %unit:test function test:link-to-cite() {
   )
 };
 
-(: There is a page at croala.ffzg.unizg.basex/cp/cp-morph :)
+(: There is a page at croala.ffzg.unizg.basex/cp/cp-morphs :)
 
 declare %unit:test function test:open-cpmorph-url() {
-  let $url := "http://croala.ffzg.unizg.hr/basex/cp/cp-morph"
+  let $url := "http://croala.ffzg.unizg.hr/basex/cp/cp-morphs"
   return unit:assert(
     doc($url)
   )
 };
 
-(: On the page there is a table with a "cp-morph" id :)
+(: On the page there is a table with a "cp-morphs" id :)
 
 declare %unit:test function test:find-cpmorph-url-table() {
-  let $url := "http://croala.ffzg.unizg.hr/basex/cp/cp-morph"
+  let $url := "http://croala.ffzg.unizg.hr/basex/cp/cp-morphs"
   return unit:assert(
-    doc($url)//table[@id="cp-morph"]
+    doc($url)//table[@id="cp-morphs"]
   )
 };
 
 (: In the table there is a row with certain values :)
 declare %unit:test function test:find-cpmorph-url-row() {
-  let $url := "http://croala.ffzg.unizg.hr/basex/cp/cp-morph"
+  let $url := "http://croala.ffzg.unizg.hr/basex/cp/cp-morphs"
   let $citeurn := "nomen, singularis, femininum, accusativus"
   let $link := "http://croala.ffzg.unizg.hr/basex/cite/urn:cite:croala:latmorph.morph.1.1"
   return unit:assert(
-    doc($url)//table[@id="cp-morph"]/tbody/tr/td[3]/a[@href=$link and text()=$citeurn]
+    doc($url)//table[@id="cp-morphs"]/tbody/tr/td[3]/a[@href=$link and text()=$citeurn]
   )
 };
