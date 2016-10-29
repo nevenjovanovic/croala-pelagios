@@ -1,7 +1,6 @@
 RUN /home/croala/croala-pelagios/scripts/xq/cp-cts-index-placename-into-db.xq
 CREATE BACKUP cp-cts-urns
-RUN /home/croala/croala-pelagios/scripts/xq/cp-db/cp-createctscontexts.xq
-CREATE BACKUP cp-cts-contexts
+
 RUN /home/croala/croala-pelagios/scripts/xq/cp-latlexent/create-cp-latlexent-from-perseus-csv-server.xq
 RUN /home/croala/croala-pelagios/scripts/xq/cp-latlexent/add-croala-to-cp-latlexents-server.xq
 CREATE BACKUP cp-latlexents
