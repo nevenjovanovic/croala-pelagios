@@ -1,5 +1,6 @@
 module namespace cite = "http://croala.ffzg.unizg.hr/cite";
 import module namespace functx = "http://www.functx.com" at "functx.xqm";
+import module namespace cp = 'http://croala.ffzg.unizg.hr/croalapelagios' at "croalapelagios.xqm";
 declare namespace ti = "http://chs.harvard.edu/xmlns/cts";
 
 (: helper function for header, with meta :)
@@ -154,10 +155,21 @@ declare function cite:getmorphanno() {
 
 declare function cite:getmorphtable($csv) {
   element tbody {
+    for $r in $csv//record
+    let $cts := data($r/entry[1])
+    let $citeurn := cp:prettycitebody(data($r/entry[3]) , $cts, "ctsp/")
+    let $word := data($r/entry[2])
+    let $citemorph := data($r/entry[5])
+    let $desc := cp:prettycitebody(data($r/entry[4]), $citemorph , "cite/")
+    where not($desc="")
+    order by $desc , $word
+    return
     element tr {
+        $citeurn,
       element td {
-        
-      }
+        $word
+      },
+        $desc
     }
   }
 };
