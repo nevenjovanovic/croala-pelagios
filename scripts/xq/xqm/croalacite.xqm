@@ -128,19 +128,31 @@ declare function cite:input-field($id, $r){
     }
 };
 
-declare function cite:listlemmata(){
-for $r in collection("cp-cite-lemmata")//record
-  let $citeurn := $r/entry[3]
-  let $word := $r/entry[2]
-  let $lemma := $r/entry[4]
-  let $lemmaurn := $r/entry[5]
-  return
+declare function cite:getlemmata(){
+for $r in collection("cp-cite-lemmata")//csv
+return $r
+};
+
+declare function cite:listlemmata($records){
   element tbody {
+for $r in $records//record
+  let $cts := data($r/entry[1])
+  let $citeurn := cp:prettycitebody(data($r/entry[3]) , $cts, "ctsp/")
+  let $word := data($r/entry[2])
+  let $lemma := data($r/entry[4])
+  let $lemmaurn := cp:prettycitebody(data($r/entry[5]), data($r/entry[5]) , "cite/")
+  let $annotator := data($r/entry[6])
+  let $annotatorlink := cp:prettylink($annotator, $annotator, "http://")
+  let $datecreated := data($r/entry[8])
+  order by $lemma
+  return
     element tr {
-      element td { $citeurn/string() },
-      element td { $word/string() },
-      element td { $lemma/string() },
-      element td { $lemmaurn/string() }
+      $citeurn,
+      element td { $word },
+      element td { $lemma },
+      $lemmaurn ,
+      $annotatorlink ,
+      element td { $datecreated }
     }
   }
 };

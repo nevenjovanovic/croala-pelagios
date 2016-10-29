@@ -18,7 +18,7 @@ declare %unit:test function test:retrieve-citeurn() {
 
 declare %unit:test function test:retrieve-citeurnmorph() {
   let $urn := "urn:cite:croala:latmorph.morph.143.1"
-  let $label := "n-s---nnc"
+  let $label := "a-s---nnc"
   let $definition := "adiectivum, singularis, neutrum, nominativus, comparativus"
   return unit:assert-equals(
     for $tr in cite:geturn($urn)//tbody[parent::table]/tr[td[1][input/@value=$urn]]
@@ -42,10 +42,10 @@ declare %unit:test function test:citeurn-croala-latlexent() {
 
 declare %unit:test function test:cp-lemmata-exists (){
   let $doc := doc("http://croala.ffzg.unizg.hr/basex/cp/cp-lemmata")
-  return unit:assert($doc//*:blockquote/*:div/*:table[@id="lemmata" and @class="table-striped  table-hover table-centered tablesorter"]/*:tbody/*:tr/*:td)
+  return unit:assert($doc//blockquote/div/table[@id="lemmata" and @class="table-striped  table-hover table-centered"]/tbody/tr[551][parent::tbody and td[1]/a/@href]/td[6][text()])
 };
 
 declare %unit:test function test:cite-lemmmata-exists(){
-  for $r in cite:listlemmata()
-  return unit:assert($r//*:tr[parent::*:tbody]/*:td)
+  let $r := cite:getlemmata()
+  return unit:assert(cite:listlemmata($r)//tr[551][parent::tbody and td[1]/a/@href]/td[6][text()])
 };

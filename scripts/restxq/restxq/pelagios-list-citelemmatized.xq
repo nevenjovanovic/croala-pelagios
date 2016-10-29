@@ -64,11 +64,13 @@ declare
   <th>Verbum</th>
   <th>Lemma</th>
   <th>Lemmatis CITE URN</th>
+  <th>Annotavit</th>
+  <th>Quo die</th>
 
   </tr>
 	</thead>
   <!-- function here -->
-{ cite:listlemmata() }
+{ cite:listlemmata(cite:getlemmata()) }
   </table>
   
      </div>

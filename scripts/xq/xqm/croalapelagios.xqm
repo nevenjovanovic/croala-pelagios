@@ -20,6 +20,14 @@ declare function cp:prettycts($ctsadr, $word) {
     element td { $word }
 }
 };
+
+declare function cp:prettylink($link, $word, $prefix) {
+    element td { 
+    element a { 
+    attribute href { $prefix || $link } , 
+    $word } }
+};
+
 (: list all CTS URNs :)
 declare function cp:listurn () {
   for $address in db:open("cp-placename-idx")//*:w
