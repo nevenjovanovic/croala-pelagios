@@ -2005,7 +2005,7 @@
     <entry>urn:cts:croala:crije02.croala292491.croala-lat2w:body.div1.div2.l119.w3</entry>
     <entry>Echioniis</entry>
     <entry>urn:cite:croala:loci.ana.13640</entry>
-    <entry>adiectivum, pluralis, femininum, dativus, positivus</entry>
+    <entry>adiectivum, pluralis, femininum, dativus, positivus, superlativus</entry>
     <entry>urn:cite:croala:latmorph.morph.47.1</entry>
     <entry>orcid.org/0000-0002-2135-6343</entry>
     <entry/>
@@ -2401,7 +2401,7 @@
     <entry>urn:cts:croala:crije02.croala292491.croala-lat2w:body.div1.div4.l16.w3</entry>
     <entry>Hetruscis</entry>
     <entry>urn:cite:croala:loci.ana.19498</entry>
-    <entry>adiectivum, pluralis, femininum, dativus, positivus</entry>
+    <entry>adiectivum, pluralis, femininum, dativus, positivus, superlativus</entry>
     <entry>urn:cite:croala:latmorph.morph.47.1</entry>
     <entry>orcid.org/0000-0002-2135-6343</entry>
     <entry/>
@@ -2525,17 +2525,6 @@
     <entry>nomen, singularis, masculinum, nominativus</entry>
     <entry>urn:cite:croala:latmorph.morph.13.1</entry>
     <entry>orcid.org/0000-0002-2135-6343</entry>
-    <entry/>
-    <entry>2016-10-28+02:00</entry>
-    <entry/>
-  </record>
-  <record>
-    <entry>urn:cts:croala:bunic02.croala1761880.croala-lat2w:front.app2.rdg2.div.head.app.rdg1.w8</entry>
-    <entry>Neapolitano</entry>
-    <entry>urn:cite:croala:loci.ana.967754</entry>
-    <entry/>
-    <entry>urn:cite:croala:latlextent.lext89173.1</entry>
-    <entry>orcid.org/0000-0001-5515-6545</entry>
     <entry/>
     <entry>2016-10-28+02:00</entry>
     <entry/>
@@ -2816,17 +2805,6 @@
     <entry/>
   </record>
   <record>
-    <entry>urn:cts:croala:bunic02.croala1761880.croala-lat2w:body.div1.l97.w6</entry>
-    <entry>Styga</entry>
-    <entry>urn:cite:croala:loci.ana.972338</entry>
-    <entry/>
-    <entry/>
-    <entry>orcid.org/0000-0001-5515-6545</entry>
-    <entry/>
-    <entry>2016-10-28+02:00</entry>
-    <entry/>
-  </record>
-  <record>
     <entry>urn:cts:croala:bunic02.croala1761880.croala-lat2w:body.div1.l98.w6</entry>
     <entry>Mysia</entry>
     <entry>urn:cite:croala:loci.ana.972375</entry>
@@ -2898,17 +2876,6 @@
     <entry>urn:cite:croala:loci.ana.974189</entry>
     <entry>adiectivum, pluralis, femininum, accusativus, positivus</entry>
     <entry>urn:cite:croala:latmorph.morph.41.1</entry>
-    <entry>orcid.org/0000-0001-5515-6545</entry>
-    <entry/>
-    <entry>2016-10-28+02:00</entry>
-    <entry/>
-  </record>
-  <record>
-    <entry>urn:cts:croala:bunic02.croala1761880.croala-lat2w:body.div1.l149.app.rdg2.w1</entry>
-    <entry>Memphitico</entry>
-    <entry>urn:cite:croala:loci.ana.974423</entry>
-    <entry/>
-    <entry/>
     <entry>orcid.org/0000-0001-5515-6545</entry>
     <entry/>
     <entry>2016-10-28+02:00</entry>
@@ -3008,28 +2975,6 @@
     <entry>urn:cite:croala:loci.ana.976887</entry>
     <entry>adiectivum, pluralis, neutrum, ablativus, positivus</entry>
     <entry>urn:cite:croala:latmorph.morph.80.1</entry>
-    <entry>orcid.org/0000-0001-5515-6545</entry>
-    <entry/>
-    <entry>2016-10-28+02:00</entry>
-    <entry/>
-  </record>
-  <record>
-    <entry>urn:cts:croala:bunic02.croala1761880.croala-lat2w:body.div1.l216.w5</entry>
-    <entry>Lacaenis</entry>
-    <entry>urn:cite:croala:loci.ana.976932</entry>
-    <entry/>
-    <entry/>
-    <entry>orcid.org/0000-0001-5515-6545</entry>
-    <entry/>
-    <entry>2016-10-28+02:00</entry>
-    <entry/>
-  </record>
-  <record>
-    <entry>urn:cts:croala:bunic02.croala1761880.croala-lat2w:body.div1.l219.w3</entry>
-    <entry>Strymon</entry>
-    <entry>urn:cite:croala:loci.ana.977015</entry>
-    <entry/>
-    <entry/>
     <entry>orcid.org/0000-0001-5515-6545</entry>
     <entry/>
     <entry>2016-10-28+02:00</entry>
@@ -3993,17 +3938,6 @@
     <entry/>
   </record>
   <record>
-    <entry>urn:cts:croala:bunic02.croala1761880.croala-lat2w:body.div2.l257.w3</entry>
-    <entry>Cocyti</entry>
-    <entry>urn:cite:croala:loci.ana.989645</entry>
-    <entry/>
-    <entry/>
-    <entry>orcid.org/0000-0001-5515-6545</entry>
-    <entry/>
-    <entry>2016-10-28+02:00</entry>
-    <entry/>
-  </record>
-  <record>
     <entry>urn:cts:croala:bunic02.croala1761880.croala-lat2w:body.div2.l257.w7</entry>
     <entry>Orci</entry>
     <entry>urn:cite:croala:loci.ana.989661</entry>
@@ -4741,407 +4675,11 @@
     <entry/>
   </record>
   <record>
-    <entry>urn:cts:croala:bunic02.croala1761880.croala-lat2w:body.div3.l237.w1</entry>
-    <entry>Tartarus</entry>
-    <entry>urn:cite:croala:loci.ana.1000908</entry>
-    <entry/>
-    <entry/>
-    <entry>orcid.org/0000-0001-5515-6545</entry>
-    <entry/>
-    <entry>2016-10-28+02:00</entry>
-    <entry/>
-  </record>
-  <record>
-    <entry>urn:cts:croala:bunic02.croala1761880.croala-lat2w:body.div3.l240.w1</entry>
-    <entry>Ditis</entry>
-    <entry>urn:cite:croala:loci.ana.1001003</entry>
-    <entry/>
-    <entry/>
-    <entry>orcid.org/0000-0001-5515-6545</entry>
-    <entry/>
-    <entry>2016-10-28+02:00</entry>
-    <entry/>
-  </record>
-  <record>
-    <entry>urn:cts:croala:bunic02.croala1761880.croala-lat2w:body.div3.l241.w1</entry>
-    <entry>Dis</entry>
-    <entry>urn:cite:croala:loci.ana.1001036</entry>
-    <entry/>
-    <entry/>
-    <entry>orcid.org/0000-0001-5515-6545</entry>
-    <entry/>
-    <entry>2016-10-28+02:00</entry>
-    <entry/>
-  </record>
-  <record>
-    <entry>urn:cts:croala:bunic02.croala1761880.croala-lat2w:body.div3.l244.w7</entry>
-    <entry>Auerni</entry>
-    <entry>urn:cite:croala:loci.ana.1001163</entry>
-    <entry/>
-    <entry/>
-    <entry>orcid.org/0000-0001-5515-6545</entry>
-    <entry/>
-    <entry>2016-10-28+02:00</entry>
-    <entry/>
-  </record>
-  <record>
-    <entry>urn:cts:croala:bunic02.croala1761880.croala-lat2w:body.div3.l247.w8</entry>
-    <entry>Orcum</entry>
-    <entry>urn:cite:croala:loci.ana.1001266</entry>
-    <entry/>
-    <entry/>
-    <entry>orcid.org/0000-0001-5515-6545</entry>
-    <entry/>
-    <entry>2016-10-28+02:00</entry>
-    <entry/>
-  </record>
-  <record>
-    <entry>urn:cts:croala:bunic02.croala1761880.croala-lat2w:body.div3.l250.w5</entry>
-    <entry>Ditem</entry>
-    <entry>urn:cite:croala:loci.ana.1001349</entry>
-    <entry/>
-    <entry/>
-    <entry>orcid.org/0000-0001-5515-6545</entry>
-    <entry/>
-    <entry>2016-10-28+02:00</entry>
-    <entry/>
-  </record>
-  <record>
-    <entry>urn:cts:croala:bunic02.croala1761880.croala-lat2w:body.div3.l258.w7</entry>
-    <entry>Orco</entry>
-    <entry>urn:cite:croala:loci.ana.1001621</entry>
-    <entry/>
-    <entry/>
-    <entry>orcid.org/0000-0001-5515-6545</entry>
-    <entry/>
-    <entry>2016-10-28+02:00</entry>
-    <entry/>
-  </record>
-  <record>
-    <entry>urn:cts:croala:bunic02.croala1761880.croala-lat2w:body.div3.l259.w3</entry>
-    <entry>Assyrios</entry>
-    <entry>urn:cite:croala:loci.ana.1001646</entry>
-    <entry/>
-    <entry/>
-    <entry>orcid.org/0000-0001-5515-6545</entry>
-    <entry/>
-    <entry>2016-10-28+02:00</entry>
-    <entry/>
-  </record>
-  <record>
-    <entry>urn:cts:croala:bunic02.croala1761880.croala-lat2w:body.div3.l259.w6</entry>
-    <entry>Syrtica</entry>
-    <entry>urn:cite:croala:loci.ana.1001658</entry>
-    <entry/>
-    <entry/>
-    <entry>orcid.org/0000-0001-5515-6545</entry>
-    <entry/>
-    <entry>2016-10-28+02:00</entry>
-    <entry/>
-  </record>
-  <record>
-    <entry>urn:cts:croala:bunic02.croala1761880.croala-lat2w:body.div3.l260.w6</entry>
-    <entry>Eoas</entry>
-    <entry>urn:cite:croala:loci.ana.1001691</entry>
-    <entry/>
-    <entry/>
-    <entry>orcid.org/0000-0001-5515-6545</entry>
-    <entry/>
-    <entry>2016-10-28+02:00</entry>
-    <entry/>
-  </record>
-  <record>
-    <entry>urn:cts:croala:bunic02.croala1761880.croala-lat2w:body.div3.l261.w6</entry>
-    <entry>Aetnam</entry>
-    <entry>urn:cite:croala:loci.ana.1001724</entry>
-    <entry/>
-    <entry/>
-    <entry>orcid.org/0000-0001-5515-6545</entry>
-    <entry/>
-    <entry>2016-10-28+02:00</entry>
-    <entry/>
-  </record>
-  <record>
-    <entry>urn:cts:croala:bunic02.croala1761880.croala-lat2w:body.div3.l271.w5</entry>
-    <entry>Orcus</entry>
-    <entry>urn:cite:croala:loci.ana.1002058</entry>
-    <entry/>
-    <entry/>
-    <entry>orcid.org/0000-0001-5515-6545</entry>
-    <entry/>
-    <entry>2016-10-28+02:00</entry>
-    <entry/>
-  </record>
-  <record>
-    <entry>urn:cts:croala:bunic02.croala1761880.croala-lat2w:body.div3.l272.w6</entry>
-    <entry>Phlegetontis</entry>
-    <entry>urn:cite:croala:loci.ana.1002091</entry>
-    <entry/>
-    <entry/>
-    <entry>orcid.org/0000-0001-5515-6545</entry>
-    <entry/>
-    <entry>2016-10-28+02:00</entry>
-    <entry/>
-  </record>
-  <record>
-    <entry>urn:cts:croala:bunic02.croala1761880.croala-lat2w:body.div3.l273.w7</entry>
-    <entry>Auerni</entry>
-    <entry>urn:cite:croala:loci.ana.1002128</entry>
-    <entry/>
-    <entry/>
-    <entry>orcid.org/0000-0001-5515-6545</entry>
-    <entry/>
-    <entry>2016-10-28+02:00</entry>
-    <entry/>
-  </record>
-  <record>
     <entry>urn:cts:croala:bunic02.croala1761880.croala-lat2w:body.div3.l279.w4</entry>
     <entry>Stygias</entry>
     <entry>urn:cite:croala:loci.ana.1002314</entry>
     <entry>adiectivum, pluralis, femininum, accusativus, positivus</entry>
     <entry>urn:cite:croala:latmorph.morph.41.1</entry>
-    <entry>orcid.org/0000-0001-5515-6545</entry>
-    <entry/>
-    <entry>2016-10-28+02:00</entry>
-    <entry/>
-  </record>
-  <record>
-    <entry>urn:cts:croala:bunic02.croala1761880.croala-lat2w:body.div3.l288.w5</entry>
-    <entry>Ditis</entry>
-    <entry>urn:cite:croala:loci.ana.1002639</entry>
-    <entry/>
-    <entry/>
-    <entry>orcid.org/0000-0001-5515-6545</entry>
-    <entry/>
-    <entry>2016-10-28+02:00</entry>
-    <entry/>
-  </record>
-  <record>
-    <entry>urn:cts:croala:bunic02.croala1761880.croala-lat2w:body.div3.l289.w5</entry>
-    <entry>Auernum</entry>
-    <entry>urn:cite:croala:loci.ana.1002668</entry>
-    <entry/>
-    <entry/>
-    <entry>orcid.org/0000-0001-5515-6545</entry>
-    <entry/>
-    <entry>2016-10-28+02:00</entry>
-    <entry/>
-  </record>
-  <record>
-    <entry>urn:cts:croala:bunic02.croala1761880.croala-lat2w:body.div3.l296.w1</entry>
-    <entry>Aethiopas</entry>
-    <entry>urn:cite:croala:loci.ana.1002891</entry>
-    <entry/>
-    <entry/>
-    <entry>orcid.org/0000-0001-5515-6545</entry>
-    <entry/>
-    <entry>2016-10-28+02:00</entry>
-    <entry/>
-  </record>
-  <record>
-    <entry>urn:cts:croala:bunic02.croala1761880.croala-lat2w:body.div3.l307.w2</entry>
-    <entry>Methymnaeus</entry>
-    <entry>urn:cite:croala:loci.ana.1003254</entry>
-    <entry/>
-    <entry/>
-    <entry>orcid.org/0000-0001-5515-6545</entry>
-    <entry/>
-    <entry>2016-10-28+02:00</entry>
-    <entry/>
-  </record>
-  <record>
-    <entry>urn:cts:croala:bunic02.croala1761880.croala-lat2w:body.div3.l308.w2</entry>
-    <entry>Ephyrea</entry>
-    <entry>urn:cite:croala:loci.ana.1003283</entry>
-    <entry/>
-    <entry/>
-    <entry>orcid.org/0000-0001-5515-6545</entry>
-    <entry/>
-    <entry>2016-10-28+02:00</entry>
-    <entry/>
-  </record>
-  <record>
-    <entry>urn:cts:croala:bunic02.croala1761880.croala-lat2w:body.div3.l308.w4</entry>
-    <entry>Calabro</entry>
-    <entry>urn:cite:croala:loci.ana.1003291</entry>
-    <entry/>
-    <entry/>
-    <entry>orcid.org/0000-0001-5515-6545</entry>
-    <entry/>
-    <entry>2016-10-28+02:00</entry>
-    <entry/>
-  </record>
-  <record>
-    <entry>urn:cts:croala:bunic02.croala1761880.croala-lat2w:body.div3.l308.w6</entry>
-    <entry>Tarento</entry>
-    <entry>urn:cite:croala:loci.ana.1003299</entry>
-    <entry/>
-    <entry/>
-    <entry>orcid.org/0000-0001-5515-6545</entry>
-    <entry/>
-    <entry>2016-10-28+02:00</entry>
-    <entry/>
-  </record>
-  <record>
-    <entry>urn:cts:croala:bunic02.croala1761880.croala-lat2w:body.div3.l311.w4</entry>
-    <entry>Lesbius</entry>
-    <entry>urn:cite:croala:loci.ana.1003390</entry>
-    <entry/>
-    <entry/>
-    <entry>orcid.org/0000-0001-5515-6545</entry>
-    <entry/>
-    <entry>2016-10-28+02:00</entry>
-    <entry/>
-  </record>
-  <record>
-    <entry>urn:cts:croala:bunic02.croala1761880.croala-lat2w:body.div3.l312.w4</entry>
-    <entry>Thyrio</entry>
-    <entry>urn:cite:croala:loci.ana.1003419</entry>
-    <entry/>
-    <entry/>
-    <entry>orcid.org/0000-0001-5515-6545</entry>
-    <entry/>
-    <entry>2016-10-28+02:00</entry>
-    <entry/>
-  </record>
-  <record>
-    <entry>urn:cts:croala:bunic02.croala1761880.croala-lat2w:body.div3.l326.w4</entry>
-    <entry>Ephyreas</entry>
-    <entry>urn:cite:croala:loci.ana.1003837</entry>
-    <entry/>
-    <entry/>
-    <entry>orcid.org/0000-0001-5515-6545</entry>
-    <entry/>
-    <entry>2016-10-28+02:00</entry>
-    <entry/>
-  </record>
-  <record>
-    <entry>urn:cts:croala:bunic02.croala1761880.croala-lat2w:body.div3.l327.w2</entry>
-    <entry>Corinthiaco</entry>
-    <entry>urn:cite:croala:loci.ana.1003862</entry>
-    <entry/>
-    <entry/>
-    <entry>orcid.org/0000-0001-5515-6545</entry>
-    <entry/>
-    <entry>2016-10-28+02:00</entry>
-    <entry/>
-  </record>
-  <record>
-    <entry>urn:cts:croala:bunic02.croala1761880.croala-lat2w:body.div3.l336.w4</entry>
-    <entry>Stymphalidas</entry>
-    <entry>urn:cite:croala:loci.ana.1004171</entry>
-    <entry/>
-    <entry/>
-    <entry>orcid.org/0000-0001-5515-6545</entry>
-    <entry/>
-    <entry>2016-10-28+02:00</entry>
-    <entry/>
-  </record>
-  <record>
-    <entry>urn:cts:croala:bunic02.croala1761880.croala-lat2w:body.div3.l337.w1</entry>
-    <entry>Hesperidum</entry>
-    <entry>urn:cite:croala:loci.ana.1004188</entry>
-    <entry/>
-    <entry/>
-    <entry>orcid.org/0000-0001-5515-6545</entry>
-    <entry/>
-    <entry>2016-10-28+02:00</entry>
-    <entry/>
-  </record>
-  <record>
-    <entry>urn:cts:croala:bunic02.croala1761880.croala-lat2w:body.div3.l338.w3</entry>
-    <entry>Troiam</entry>
-    <entry>urn:cite:croala:loci.ana.1004241</entry>
-    <entry/>
-    <entry/>
-    <entry>orcid.org/0000-0001-5515-6545</entry>
-    <entry/>
-    <entry>2016-10-28+02:00</entry>
-    <entry/>
-  </record>
-  <record>
-    <entry>urn:cts:croala:bunic02.croala1761880.croala-lat2w:body.div3.l339.w2</entry>
-    <entry>Rhodani</entry>
-    <entry>urn:cite:croala:loci.ana.1004270</entry>
-    <entry/>
-    <entry/>
-    <entry>orcid.org/0000-0001-5515-6545</entry>
-    <entry/>
-    <entry>2016-10-28+02:00</entry>
-    <entry/>
-  </record>
-  <record>
-    <entry>urn:cts:croala:bunic02.croala1761880.croala-lat2w:body.div3.l339.w5</entry>
-    <entry>Nessumque</entry>
-    <entry>urn:cite:croala:loci.ana.1004282</entry>
-    <entry/>
-    <entry/>
-    <entry>orcid.org/0000-0001-5515-6545</entry>
-    <entry/>
-    <entry>2016-10-28+02:00</entry>
-    <entry/>
-  </record>
-  <record>
-    <entry>urn:cts:croala:bunic02.croala1761880.croala-lat2w:body.div3.l340.w2</entry>
-    <entry>Auentinum</entry>
-    <entry>urn:cite:croala:loci.ana.1004299</entry>
-    <entry/>
-    <entry/>
-    <entry>orcid.org/0000-0001-5515-6545</entry>
-    <entry/>
-    <entry>2016-10-28+02:00</entry>
-    <entry/>
-  </record>
-  <record>
-    <entry>urn:cts:croala:bunic02.croala1761880.croala-lat2w:body.div3.l340.w5</entry>
-    <entry>Lacinia</entry>
-    <entry>urn:cite:croala:loci.ana.1004315</entry>
-    <entry/>
-    <entry/>
-    <entry>orcid.org/0000-0001-5515-6545</entry>
-    <entry/>
-    <entry>2016-10-28+02:00</entry>
-    <entry/>
-  </record>
-  <record>
-    <entry>urn:cts:croala:bunic02.croala1761880.croala-lat2w:body.div3.l342.w1</entry>
-    <entry>Atlas</entry>
-    <entry>urn:cite:croala:loci.ana.1004361</entry>
-    <entry/>
-    <entry/>
-    <entry>orcid.org/0000-0001-5515-6545</entry>
-    <entry/>
-    <entry>2016-10-28+02:00</entry>
-    <entry/>
-  </record>
-  <record>
-    <entry>urn:cts:croala:bunic02.croala1761880.croala-lat2w:body.div3.l344.w6</entry>
-    <entry>Orci</entry>
-    <entry>urn:cite:croala:loci.ana.1004447</entry>
-    <entry/>
-    <entry/>
-    <entry>orcid.org/0000-0001-5515-6545</entry>
-    <entry/>
-    <entry>2016-10-28+02:00</entry>
-    <entry/>
-  </record>
-  <record>
-    <entry>urn:cts:croala:bunic02.croala1761880.croala-lat2w:body.div3.l345.w4</entry>
-    <entry>Laomedontida</entry>
-    <entry>urn:cite:croala:loci.ana.1004468</entry>
-    <entry/>
-    <entry/>
-    <entry>orcid.org/0000-0001-5515-6545</entry>
-    <entry/>
-    <entry>2016-10-28+02:00</entry>
-    <entry/>
-  </record>
-  <record>
-    <entry>urn:cts:croala:bunic02.croala1761880.croala-lat2w:body.div3.l347.w6</entry>
-    <entry>Cyllenia</entry>
-    <entry>urn:cite:croala:loci.ana.1004550</entry>
-    <entry/>
-    <entry/>
     <entry>orcid.org/0000-0001-5515-6545</entry>
     <entry/>
     <entry>2016-10-28+02:00</entry>
