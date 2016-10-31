@@ -13,20 +13,11 @@
     <g fill="white" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="scale(1.7998,1.7998) translate(-491,424)" stroke="white">
       <rect x="491" width="1778" height="1209" y="-424" clip-path="url(#clipPath2)" stroke="none"/>
     </g>
-    <g fill="rgb(0,255,204)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1.7998,0,0,1.7998,-883.6895,763.1046)" stroke="rgb(0,255,204)">
-      <rect x="495.8348" width="938.7621" height="50.5625" y="-192.2208" clip-path="url(#clipPath2)" stroke="none"/>
-    </g>
-    <g font-size="40px" stroke-linecap="butt" transform="matrix(1.7998,0,0,1.7998,-883.6895,763.1046)" text-rendering="geometricPrecision" font-family="'Droid Sans Mono'" shape-rendering="geometricPrecision" stroke-miterlimit="1.45">
-      <text x="784.4914" xml:space="preserve" y="-153.0919" clip-path="url(#clipPath2)" stroke="none">CITE URN phrase:urbes Asiae</text>
-    </g>
-    <g stroke-linecap="butt" transform="matrix(1.7998,0,0,1.7998,-883.6895,763.1046)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" stroke-dasharray="24,8" stroke-width="4" stroke-miterlimit="1.45">
-      <rect x="495.8348" y="-192.2208" clip-path="url(#clipPath2)" fill="none" width="938.7621" rx="4" ry="4" height="818.8481"/>
-    </g>
     <g fill="rgb(255,255,51)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1.7998,0,0,1.7998,-883.6895,763.1046)" stroke="rgb(255,255,51)">
       <rect x="607.1818" width="1657.6562" height="52.8906" y="-419.1641" clip-path="url(#clipPath2)" stroke="none"/>
     </g>
-    <g font-size="42px" stroke-linecap="butt" transform="matrix(1.7998,0,0,1.7998,-883.6895,763.1046)" text-rendering="geometricPrecision" font-family="'Droid Sans Mono'" shape-rendering="geometricPrecision" stroke-miterlimit="1.45">
-      <text x="1783.9601" xml:space="preserve" y="-378.1787" clip-path="url(#clipPath2)" stroke="none">CITE URN word:Asiae</text>
+    <g font-size="42px" stroke-linecap="butt" transform="matrix(1.7998,0,0,1.7998,-883.6895,763.1046)" text-rendering="geometricPrecision" font-family="'Droid Sans Mono'" shape-rendering="geometricPrecision" font-weight="bold" stroke-miterlimit="1.45">
+      <text x="1739.9298" xml:space="preserve" y="-378.1787" clip-path="url(#clipPath2)" stroke="none">CITE URN note:Asiae</text>
     </g>
     <g stroke-linecap="butt" transform="matrix(1.7998,0,0,1.7998,-883.6895,763.1046)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" stroke-dasharray="24,8" stroke-width="4" stroke-miterlimit="1.45">
       <rect x="607.1818" y="-419.1641" clip-path="url(#clipPath2)" fill="none" width="1657.6562" rx="4" ry="4" height="1199.4375"/>
@@ -62,6 +53,15 @@
       <ellipse rx="305.5862" fill="none" ry="153.9282" clip-path="url(#clipPath2)" cx="1008.1776" cy="273.1987"/>
       <text x="804.1443" font-size="40px" y="263.7651" clip-path="url(#clipPath2)" font-family="'Droid Sans Mono'" stroke="none" xml:space="preserve">linked open data </text>
       <text x="756.1365" font-size="40px" y="310.3276" clip-path="url(#clipPath2)" font-family="'Droid Sans Mono'" stroke="none" xml:space="preserve">for thing:urbes Asiae</text>
+    </g>
+    <g fill="rgb(0,255,204)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1.7998,0,0,1.7998,-883.6895,763.1046)" stroke="rgb(0,255,204)">
+      <rect x="495.8348" width="938.7621" height="50.5625" y="-192.2208" clip-path="url(#clipPath2)" stroke="none"/>
+    </g>
+    <g font-size="40px" stroke-linecap="butt" transform="matrix(1.7998,0,0,1.7998,-883.6895,763.1046)" text-rendering="geometricPrecision" font-family="'Droid Sans Mono'" shape-rendering="geometricPrecision" stroke-miterlimit="1.45">
+      <text x="784.4914" xml:space="preserve" y="-153.0919" clip-path="url(#clipPath2)" stroke="none">CITE URN phrase:urbes Asiae</text>
+    </g>
+    <g stroke-linecap="butt" transform="matrix(1.7998,0,0,1.7998,-883.6895,763.1046)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" stroke-dasharray="24,8" stroke-width="4" stroke-miterlimit="1.45">
+      <rect x="495.8348" y="-192.2208" clip-path="url(#clipPath2)" fill="none" width="938.7621" rx="4" ry="4" height="818.8481"/>
     </g>
   </g>
 </svg>
