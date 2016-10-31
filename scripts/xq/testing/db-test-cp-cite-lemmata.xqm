@@ -36,3 +36,10 @@ declare %unit:test function test:entry-date () {
   let $date := try { xs:date($r/string()) } catch  * { "Nije datum!" }
   return unit:assert-equals($date, xs:date($r/string()))
 };
+
+(: do we have an equal count of rows locally and on server? :)
+declare %unit:test function test:local-web () {
+  let $r := count(collection("cp-cite-lemmata")//record)
+  let $w := count(doc("http://croala.ffzg.unizg.hr/basex/cp/cp-lemmata")//table[@id="lemmata"]/tbody/tr)
+  return unit:assert-equals($r, $w)
+};
