@@ -24,7 +24,7 @@ for file in $(find "${DIRECTORY}cp-croala-latlexents-novi.xlsx")
 do
     modified=`date -r ${file}`
     newname=$(basename ${file%.*}).csv
-    xlsx2csv -i -s 1 --dateformat="%Y-%m-%d" ${file} ${2}${newname}
+    libreoffice --headless --convert-to csv --outdir ${2} ${file} 
     echo "File ${2}${newname} updated to the version last modified on ${modified}."
 done
 
