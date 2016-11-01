@@ -25,6 +25,6 @@ return element record {
 }
 }
 for $r in $result//record
-let $db := db:open("cp-latlexents", "cp-croala-latlexents.xml")//csv
-where $r[entry[6][not(text()="orcid.org/0000-0002-9119-399X")]]
-return insert node $r as last into $db
+let $db := db:open("cp-latlexents", "cp-croala-latlexents.xml")//csv/record
+where $r[entry[1][not(text()=$db/entry[1]/text())]]
+return insert node $r as last into $db/..
