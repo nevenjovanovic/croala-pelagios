@@ -136,3 +136,11 @@ declare %unit:test function test:openctsurn-fail () {
   let $ctsadr := "urn:cts:croala:crije02.croala292491.croala-lat2w:body.div1.div1.l196"
   return unit:assert(cp:openurn ($ctsadr))
 };
+
+(: for each record in cp-cts-urns, return node in cp-2-texts; compare text() with td2/text() :)
+declare %unit:test function test:open-each-cts () {
+  for $c in collection("cp-cts-urns")//w
+  let $ctsadr := $c/@n
+  let $text := $c/text()
+  return unit:assert-equals(cp:openurn ($ctsadr)//td[2]/text(), $text)
+};
