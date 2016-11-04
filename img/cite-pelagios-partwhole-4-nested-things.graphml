@@ -20,37 +20,7 @@
         <y:ProxyAutoBoundsNode>
           <y:Realizers active="0">
             <y:GroupNode>
-              <y:Geometry height="818.8481227306692" width="938.7620682061886" x="495.8348237943826" y="-192.22080668314786"/>
-              <y:Fill hasColor="false" transparent="false"/>
-              <y:BorderStyle color="#000000" type="dashed" width="4.0"/>
-              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#00FFCC" borderDistance="0.0" fontFamily="Droid Sans Mono" fontSize="40" fontStyle="plain" hasLineColor="false" height="50.5625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="938.7620682061886" x="0.0" y="0.0">CITE URN phrase:urbes Asiae</y:NodeLabel>
-              <y:Shape type="roundrectangle"/>
-              <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
-              <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-              <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
-            </y:GroupNode>
-            <y:GroupNode>
-              <y:Geometry height="50.0" width="50.0" x="0.0" y="60.0"/>
-              <y:Fill color="#F5F5F5" transparent="false"/>
-              <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="65.201171875" x="-7.6005859375" y="0.0">Folder 1</y:NodeLabel>
-              <y:Shape type="roundrectangle"/>
-              <y:State closed="true" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
-              <y:Insets bottom="5" bottomF="5.0" left="5" leftF="5.0" right="5" rightF="5.0" top="5" topF="5.0"/>
-              <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
-            </y:GroupNode>
-          </y:Realizers>
-        </y:ProxyAutoBoundsNode>
-      </data>
-      <graph edgedefault="directed" id="n0:"/>
-    </node>
-    <node id="n1" yfiles.foldertype="group">
-      <data key="d4"/>
-      <data key="d6">
-        <y:ProxyAutoBoundsNode>
-          <y:Realizers active="0">
-            <y:GroupNode>
-              <y:Geometry height="1199.4374999999998" width="1657.6562499999995" x="607.1817986845989" y="-419.1640793517839"/>
+              <y:Geometry height="1079.6874999999998" width="1657.6562499999995" x="607.1817986845989" y="-299.4140793517839"/>
               <y:Fill hasColor="false" transparent="false"/>
               <y:BorderStyle color="#000000" type="dashed" width="4.0"/>
               <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#FFFF33" borderDistance="0.0" fontFamily="Droid Sans Mono" fontSize="42" fontStyle="bold" hasLineColor="false" height="52.890625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="1657.6562499999995" x="0.0" y="0.0">CITE URN note:Asiae</y:NodeLabel>
@@ -72,62 +42,75 @@
           </y:Realizers>
         </y:ProxyAutoBoundsNode>
       </data>
-      <graph edgedefault="directed" id="n1:">
-        <node id="n1::n0">
+      <graph edgedefault="directed" id="n0:">
+        <node id="n0::n0">
           <data key="d6">
             <y:ShapeNode>
               <y:Geometry height="996.7968749999998" width="1627.6562499999995" x="622.1817986845989" y="-231.52345435178393"/>
               <y:Fill color="#00CCCC" transparent="false"/>
               <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Droid Sans Mono" fontSize="48" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="115.75" horizontalTextPosition="center" iconTextGap="4" modelName="eight_pos" modelPosition="n" textColor="#000000" verticalTextPosition="bottom" visible="true" width="601.609375" x="513.0234374999997" y="-119.75">CITE URN thing:Asia
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Droid Sans Mono" fontSize="48" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="171.625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#FFFF00" verticalTextPosition="bottom" visible="true" width="548.0078125" x="539.8242187499997" y="4.0">
+CITE URN thing:Asia
 whole:Asia</y:NodeLabel>
               <y:Shape type="ellipse"/>
             </y:ShapeNode>
           </data>
         </node>
-        <node id="n1::n1">
+        <node id="n0::n1">
           <data key="d6">
             <y:ShapeNode>
-              <y:Geometry height="570.1384819878471" width="741.9915093315974" x="1464.5968920005712" y="-5.651492546228411"/>
+              <y:Geometry height="570.1384819878471" width="741.9915093315974" x="1464.5968920005712" y="19.537663122413818"/>
               <y:Fill color="#FFCCCC" transparent="false"/>
               <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Droid Sans Mono" fontSize="48" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="115.75" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="464.875" x="138.5582546657988" y="227.19424099392347">linked open data
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Droid Sans Mono" fontSize="48" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="115.75" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="407.3125" x="167.3395046657988" y="227.19424099392347">linked open data
 for thing:Asia</y:NodeLabel>
               <y:Shape type="ellipse"/>
             </y:ShapeNode>
           </data>
         </node>
-        <node id="n1::n2">
+        <node id="n0::n2">
           <data key="d6">
             <y:ShapeNode>
-              <y:Geometry height="570.1384819878471" width="741.9915093315974" x="637.1817986845989" y="-11.87054094032564"/>
+              <y:Geometry height="570.1384819878471" width="741.9915093315974" x="637.1817986845989" y="13.31861472831659"/>
               <y:Fill color="#FFCC00" transparent="false"/>
               <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="node_width" fontFamily="Droid Sans Mono" fontSize="46" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="111.09375" horizontalTextPosition="center" iconTextGap="4" modelName="eight_pos" modelPosition="n" textColor="#000000" verticalTextPosition="bottom" visible="true" width="741.9915093315974" x="0.0" y="-115.09375">CITE URN thing:urbes Asiae
+              <y:NodeLabel alignment="center" autoSizePolicy="node_width" fontFamily="Droid Sans Mono" fontSize="46" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="111.09375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="741.9915093315974" x="0.0" y="229.5223659939236">CITE URN thing:urbes Asiae
 partOf whole:Asia</y:NodeLabel>
               <y:Shape type="ellipse"/>
             </y:ShapeNode>
           </data>
         </node>
-        <node id="n1::n3">
-          <data key="d6">
-            <y:ShapeNode>
-              <y:Geometry height="307.8564453125" width="611.172336154514" x="702.5913852731405" y="119.27047739734789"/>
-              <y:Fill color="#FFCCCC" transparent="false"/>
-              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Droid Sans Mono" fontSize="40" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="97.125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="508.08203125" x="51.54515245225707" y="105.36572265625003">linked open data 
-for thing:urbes Asiae<y:LabelModel>
-                  <y:SmartNodeLabelModel distance="4.0"/>
-                </y:LabelModel>
-                <y:ModelParameter>
-                  <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-                </y:ModelParameter>
-              </y:NodeLabel>
-              <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-          </data>
-        </node>
       </graph>
+    </node>
+    <node id="n1" yfiles.foldertype="group">
+      <data key="d4"/>
+      <data key="d6">
+        <y:ProxyAutoBoundsNode>
+          <y:Realizers active="0">
+            <y:GroupNode>
+              <y:Geometry height="645.60232392409" width="855.9037499548365" x="565.5111368693832" y="-55.92617881382904"/>
+              <y:Fill hasColor="false" transparent="false"/>
+              <y:BorderStyle color="#000000" type="dashed" width="4.0"/>
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#00FFCC" borderDistance="0.0" fontFamily="Droid Sans Mono" fontSize="40" fontStyle="plain" hasLineColor="false" height="50.5625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="855.9037499548365" x="0.0" y="0.0">CITE URN phrase:urbes Asiae</y:NodeLabel>
+              <y:Shape type="roundrectangle"/>
+              <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
+              <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+              <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+            </y:GroupNode>
+            <y:GroupNode>
+              <y:Geometry height="50.0" width="50.0" x="0.0" y="60.0"/>
+              <y:Fill color="#F5F5F5" transparent="false"/>
+              <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="65.201171875" x="-7.6005859375" y="0.0">Folder 1</y:NodeLabel>
+              <y:Shape type="roundrectangle"/>
+              <y:State closed="true" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
+              <y:Insets bottom="5" bottomF="5.0" left="5" leftF="5.0" right="5" rightF="5.0" top="5" topF="5.0"/>
+              <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+            </y:GroupNode>
+          </y:Realizers>
+        </y:ProxyAutoBoundsNode>
+      </data>
+      <graph edgedefault="directed" id="n1:"/>
     </node>
   </graph>
   <data key="d7">
