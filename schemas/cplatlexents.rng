@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar 
+    xmlns="http://relaxng.org/ns/structure/1.0"
+    xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+    datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+    <start>
+        <element name="list">
+            <zeroOrMore>
+                <element name="record">
+                    <element name="lemma"><data type="string">
+                        <param name="pattern">[A-Z']+</param>
+                    </data></element>
+                    <element name="uri">
+                        <attribute name="citeid">
+                            <data type="ID"/>
+                        </attribute>
+                        <attribute name="citeuri">
+                        <data type="anyURI">
+                            <param name="pattern">urn:cite:croala:latlexent.</param>
+                        </data>
+                        </attribute>
+                        <text/>
+                    </element>
+                    
+                    <element name="creator">
+                        <optional>
+                            <data type="anyURI">
+                                <param name="pattern">http://orcid.org/.+</param>
+                            </data>
+                        </optional>
+                    </element>
+                    <element name="datecreated"><optional><data type="date"/></optional></element>
+                </element>
+            </zeroOrMore>
+        </element>
+    </start>
+</grammar>

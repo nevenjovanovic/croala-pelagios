@@ -1,4 +1,4 @@
-SET INTPARSE true; SET CHOP false; SET FTINDEX true; SET UPDINDEX true; SET AUTOOPTIMIZE true
-RUN /home/neven/rad/croala-pelagios/scripts/xq/cp-latlexent/create-cp-latlexent-from-perseus-csv.xq
-RUN /home/neven/rad/croala-pelagios/scripts/xq/cp-latlexent/add-croala-to-cp-latlexents.xq
+SET INTPARSE true; SET FTINDEX true; SET UPDINDEX true; SET AUTOOPTIMIZE true
+CREATE BACKUP cp-latlexents
+CREATE DB cp-latlexents /home/neven/rad/croala-pelagios/csv/croala-latlexents-2.xml
 CREATE BACKUP cp-latlexents
