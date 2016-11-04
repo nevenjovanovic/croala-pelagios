@@ -56,7 +56,7 @@ declare
 <div class="container-fluid">
 <blockquote class="croala">
 	
-	{cp:listciteplaces()}
+	{cp:listciteplaces($lemma)}
   
   
 </blockquote>
