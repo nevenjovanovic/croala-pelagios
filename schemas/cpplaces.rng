@@ -23,6 +23,7 @@
                             <param name="pattern">urn:cite:croala:loci.</param>
                         </data>
                         </attribute>
+                        <data type="int"/>
                     </element>
                     
                     <element name="creator"><data type="anyURI">
