@@ -1,5 +1,23 @@
 (: XQuery module for CroALa-Pelagios :)
 module namespace cp = 'http://croala.ffzg.unizg.hr/croalapelagios';
+
+declare function cp:input-field2($id, $r){
+  element input { 
+      attribute size { "45"},
+      attribute id { $id },
+      attribute value { $r } } , 
+    element button { 
+      attribute class { "btn" } ,
+      attribute aria-label { "Recordare!"},
+      attribute data-clipboard-target { "#" || $id },
+      element span { 
+        attribute class { "glyphicon glyphicon-copy"},
+        attribute aria-hidden {"true"},
+        attribute aria-label { "Recordare!" }
+      }
+    }
+};
+
 (: pretty printing of text :)
 declare function cp:prettyp($settext, $ctsadr, $word) {
   element tr {
@@ -162,7 +180,7 @@ return
 return $citeurn
 };
 
-declare function cp:listciteplaces(){
+declare function cp:listciteplaces($lemma){
   (: display all available CITE URNs for places :)
 (: relies on the cp-loci db :)
 let $citeurn := element div {
@@ -172,27 +190,29 @@ let $citeurn := element div {
     element thead {
       element tr {
         element td { "CITE Body URN"},
-        element td { "Place Reference"},
+        element td { "Latin Lemma"},
         element td { "Place Referred To"},
-        element td { "Note Created By"},
-        element td { "Note Last Modified On"}
+        element td { "URI"}
       }
     },
     element tbody {
 let $idx := collection("cp-loci")
-for $r in $idx//w
-let $citebodyurn := data($r/citebody)
-let $placeref := data($r/uri)
-let $placereflabel := data($r/label)
-let $creator := data($r/creator)
-order by $placereflabel
+for $r in $idx//record[matches(nomen/text(), $lemma)]
+let $lemma := element td { data($r/nomen) }
+let $citevalue := $r/citebody/@citeuri/string() || $r/citebody/@citeid/string()
+let $id := generate-id($r)
+let $citebodyurn := element td { cp:input-field2($id, $citevalue) }
+let $placeref := element td { 
+element a {
+  attribute href { data($r/uri) } , replace(data($r/uri), "http://", "") } }
+let $placereflabel := element td { data($r/label) }
+order by $lemma
 return 
     element tr { 
-  element td { $citebodyurn },
-  element td { $placereflabel } ,
-  element td { $placeref },
-  element td { element a { attribute href {$creator}, replace($creator, 'http://' , '')} },
-  element td { db:info("cp-loci")//databaseproperties/timestamp/string() }
+    $citebodyurn ,
+    $lemma ,
+    $placereflabel ,
+    $placeref
 }
 }}
 }
