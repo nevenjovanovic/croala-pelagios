@@ -19,7 +19,9 @@
                             <param name="pattern">urn:cite:croala:latlexent.</param>
                         </data>
                         </attribute>
-                        <text/>
+                        <data type="string">
+                            <param name="pattern">urn:cite:croala:latlexent.lex[0-9]+</param>
+                        </data>
                     </element>
                     
                     <element name="creator">
