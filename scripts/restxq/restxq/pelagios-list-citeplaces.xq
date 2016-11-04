@@ -31,7 +31,7 @@ declare
   %output:doctype-system(
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
 )
-  function page:cplistciteplacesurn()
+  function page:cplistciteplacesurn($lemma)
 {
   (: HTML template starts here :)
 
