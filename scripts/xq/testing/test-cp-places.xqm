@@ -52,10 +52,20 @@ return
   unit:assert-equals($status, "newer")
 };
 
-(: is the cp-loci on server older than cp-loci locally? :)
+
 
 (: do we have a page at citelocus/ZZZZZ? :)
 
+declare %unit:test function test:citelocus-page-exists (){
+  let $doc := doc("http://croala.ffzg.unizg.hr/basex/citelocus/ZZZZZ")
+  return unit:assert($doc)
+};
+
 (: do we have a tbody/tr/td result at citelocus/Mediolan? :)
+
+declare %unit:test function test:citelocus-table-exists (){
+  let $doc := doc("http://croala.ffzg.unizg.hr/basex/citelocus/Mediolan")
+  return unit:assert($doc//table/tbody/tr/td)
+};
 
 (: do we have a input field at citelocus/Mediolan? :)
