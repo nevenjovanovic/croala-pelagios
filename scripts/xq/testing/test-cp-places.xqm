@@ -58,7 +58,7 @@ return
 
 declare %unit:test function test:citelocus-page-exists (){
   let $doc := doc("http://croala.ffzg.unizg.hr/basex/citelocus/ZZZZZ")
-  return unit:assert($doc)
+  return unit:assert($doc//table/tbody/tr/td)
 };
 
 (: do we have a tbody/tr/td result at citelocus/Mediolan? :)

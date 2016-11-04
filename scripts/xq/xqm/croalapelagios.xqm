@@ -197,8 +197,10 @@ let $citeurn := element div {
       }
     },
     element tbody {
-let $idx := collection("cp-loci")
-for $r in $idx//record[matches(nomen/text(), $lemma)]
+     
+let $idx := collection("cp-loci")//record[matches(nomen/text(), $lemma)]
+return if ($idx) then
+for $r in $idx
 let $lemma := element td { data($r/nomen) }
 let $citeid := replace($r/citebody/@citeid/string(), "locid", "")
 let $citevalue := element td { $r/citebody/@citeuri/string() || $r/citebody/@citeid/string() }
@@ -216,6 +218,10 @@ return
     $lemma ,
     $placereflabel ,
     $placeref
+}
+
+else element tr { 
+element td { "Lemma deest in collectionibus nostris." }
 }
 }}
 }
