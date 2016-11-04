@@ -3,7 +3,7 @@ module namespace cp = 'http://croala.ffzg.unizg.hr/croalapelagios';
 
 declare function cp:input-field2($id, $r){
   element input { 
-      attribute size { "45"},
+      attribute size { "15"},
       attribute id { $id },
       attribute value { $r } } , 
     element button { 
