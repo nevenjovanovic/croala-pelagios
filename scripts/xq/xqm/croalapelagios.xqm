@@ -190,6 +190,7 @@ let $citeurn := element div {
     element thead {
       element tr {
         element td { "CITE Body URN"},
+        element td { "CITE ID Part"},
         element td { "Latin Lemma"},
         element td { "Place Referred To"},
         element td { "URI"}
@@ -199,9 +200,10 @@ let $citeurn := element div {
 let $idx := collection("cp-loci")
 for $r in $idx//record[matches(nomen/text(), $lemma)]
 let $lemma := element td { data($r/nomen) }
-let $citevalue := $r/citebody/@citeuri/string() || $r/citebody/@citeid/string()
+let $citeid := replace($r/citebody/@citeid/string(), "locid", "")
+let $citevalue := element td { $r/citebody/@citeuri/string() || $r/citebody/@citeid/string() }
 let $id := generate-id($r)
-let $citebodyurn := element td { cp:input-field2($id, $citevalue) }
+let $citebodyurn := element td { cp:input-field2($id, $citeid) }
 let $placeref := element td { 
 element a {
   attribute href { data($r/uri) } , replace(data($r/uri), "http://", "") } }
@@ -209,6 +211,7 @@ let $placereflabel := element td { data($r/label) }
 order by $lemma
 return 
     element tr { 
+    $citevalue ,
     $citebodyurn ,
     $lemma ,
     $placereflabel ,
