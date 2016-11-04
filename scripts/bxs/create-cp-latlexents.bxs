@@ -1,4 +1,4 @@
 SET INTPARSE true; SET FTINDEX true; SET UPDINDEX true; SET AUTOOPTIMIZE true
 CREATE BACKUP cp-latlexents
-CREATE DB cp-latlexents /home/neven/rad/croala-pelagios/csv/croala-latlexents-2.xml
+CREATE DB cp-latlexents https://github.com/nevenjovanovic/croala-pelagios/raw/master/csv/croala-latlexents-2.xml
 CREATE BACKUP cp-latlexents
