@@ -3,552 +3,552 @@
     <nomen>Mediolanum</nomen>
     <label>Milano</label>
     <uri>http://pleiades.stoa.org/places/383706</uri>
-    <citebody>urn:cite:croala:loci.id.loc12214</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid12214"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Imola</nomen>
     <label>Imola</label>
     <uri>http://pleiades.stoa.org/places/393424</uri>
-    <citebody>urn:cite:croala:loci.id.loc12653</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid12653"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Bosti</nomen>
     <label>Bosco Marengo</label>
     <uri>http://www.wikidata.org/wiki/Q17283</uri>
-    <citebody>urn:cite:croala:loci.id.loc12776</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid12776"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>diui Gregorii templum</nomen>
     <label>San Gregorio Magno al Celio (chiesa, Roma)</label>
     <uri>http://www.wikidata.org/wiki/Q748459</uri>
-    <citebody>urn:cite:croala:loci.id.loc14869</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid14869"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Taruixium</nomen>
     <label>Treviso</label>
     <uri>http://pleiades.stoa.org/places/393503</uri>
-    <citebody>urn:cite:croala:loci.id.loc14928</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid14928"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Taruixii maior basilica</nomen>
     <label>Duomo di Treviso</label>
     <uri>http://www.wikidata.org/wiki/Q51149</uri>
-    <citebody>urn:cite:croala:loci.id.loc14933</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid14933"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Ambrosii monasterium</nomen>
     <label>Basilica di Sant'Ambrogio, Milano</label>
     <uri>http://www.wikidata.org/wiki/Q1071570</uri>
-    <citebody>urn:cite:croala:loci.id.loc14996</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid14996"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Maioli fanum</nomen>
     <label>San Maiolo (Pavia)</label>
     <uri>http://thesaurus.cerl.org/record/cnc00020580</uri>
-    <citebody>urn:cite:croala:loci.id.loc15143</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid15143"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>sacra apostolorum aedes</nomen>
     <label>Santi Apostoli (basilica, Roma)</label>
     <uri>http://www.wikidata.org/wiki/Q1515300</uri>
-    <citebody>urn:cite:croala:loci.id.loc15525</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid15525"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Liguria</nomen>
     <label>Liguria</label>
     <uri>http://pleiades.stoa.org/places/383698</uri>
-    <citebody>urn:cite:croala:loci.id.loc2372</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid02372"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Saona</nomen>
     <label>Savona</label>
     <uri>http://pleiades.stoa.org/places/383770</uri>
-    <citebody>urn:cite:croala:loci.id.loc2382</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid02382"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Senae</nomen>
     <label>Siena</label>
     <uri>http://pleiades.stoa.org/places/413293</uri>
-    <citebody>urn:cite:croala:loci.id.loc3151</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid03151"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Vicheria</nomen>
     <label>Voghera</label>
     <uri>http://www.wikidata.org/wiki/Q39981</uri>
-    <citebody>urn:cite:croala:loci.id.loc4108</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid04108"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Papia</nomen>
     <label>Ticino Pavia</label>
     <uri>http://pleiades.stoa.org/places/383798</uri>
-    <citebody>urn:cite:croala:loci.id.loc4145</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid04145"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Patavium</nomen>
     <label>Padova</label>
     <uri>http://pleiades.stoa.org/places/393473</uri>
-    <citebody>urn:cite:croala:loci.id.loc4158</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid04158"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Venetiae</nomen>
     <label>Venezia</label>
     <uri>http://www.wikidata.org/wiki/Q641</uri>
-    <citebody>urn:cite:croala:loci.id.loc4171</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid04171"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Bononia</nomen>
     <label>Bologna</label>
     <uri>http://pleiades.stoa.org/places/206975</uri>
-    <citebody>urn:cite:croala:loci.id.loc4180</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid04180"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Perusium</nomen>
     <label>Perugia</label>
     <uri>http://pleiades.stoa.org/places/413248</uri>
-    <citebody>urn:cite:croala:loci.id.loc4189</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid04189"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Ferraria</nomen>
     <label>Ferrara</label>
     <uri>http://pleiades.stoa.org/places/471923</uri>
-    <citebody>urn:cite:croala:loci.id.loc4207</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid04207"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Italia</nomen>
     <label>Italia</label>
     <uri>http://pleiades.stoa.org/places/1052</uri>
-    <citebody>urn:cite:croala:loci.id.loc4240</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid04240"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Sanctus Sixtus</nomen>
     <label>San Sisto Vecchio (Roma)</label>
     <uri>http://www.wikidata.org/wiki/Q2736770</uri>
-    <citebody>urn:cite:croala:loci.id.loc435</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid00435"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Modrusium</nomen>
     <label>Modruš</label>
     <uri>http://www.wikidata.org/wiki/Q958041</uri>
-    <citebody>urn:cite:croala:loci.id.loc473</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid00473"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Roma</nomen>
     <label>Roma</label>
     <uri>http://pleiades.stoa.org/places/423025</uri>
-    <citebody>urn:cite:croala:loci.id.loc5214</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid05214"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Hungaria</nomen>
     <label>Kingdom of Hungary</label>
     <uri>http://www.wikidata.org/wiki/Q171150</uri>
-    <citebody>urn:cite:croala:loci.id.loc22082</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid22082"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Praga</nomen>
     <label>Prague</label>
     <uri>http://www.wikidata.org/wiki/Q1085</uri>
-    <citebody>urn:cite:croala:loci.id.loc23841</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid23841"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Vienna</nomen>
     <label>Vienna</label>
     <uri>http://www.wikidata.org/wiki/Q1741</uri>
-    <citebody>urn:cite:croala:loci.id.loc25611</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid25611"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Noricum</nomen>
     <label>Noricum</label>
     <uri>http://pleiades.stoa.org/places/981538</uri>
-    <citebody>urn:cite:croala:loci.id.loc26324</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid26324"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Carnicum</nomen>
     <label>Carniola</label>
     <uri>http://www.wikidata.org/wiki/Q193474</uri>
-    <citebody>urn:cite:croala:loci.id.loc26333</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid26333"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Europa</nomen>
     <label>Europe</label>
     <uri>http://www.wikidata.org/wiki/Q46</uri>
-    <citebody>urn:cite:croala:loci.id.loc26446</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid26446"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Austria</nomen>
     <label>Austria</label>
     <uri>http://www.wikidata.org/wiki/Q40</uri>
-    <citebody>urn:cite:croala:loci.id.loc26716</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid26716"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Alba Regia</nomen>
     <label>Székesfehérvár</label>
     <uri>http://www.wikidata.org/wiki/Q130212</uri>
-    <citebody>urn:cite:croala:loci.id.loc27429</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid27429"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Alemania</nomen>
     <label>Holy Roman Empire</label>
     <uri>http://www.wikidata.org/wiki/Q12548</uri>
-    <citebody>urn:cite:croala:loci.id.loc29072</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid29072"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Buda</nomen>
     <label>Buda</label>
     <uri>http://www.wikidata.org/wiki/Q193478</uri>
-    <citebody>urn:cite:croala:loci.id.loc30189</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid30189"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Dacicum</nomen>
     <label>Dacia</label>
     <uri>http://pleiades.stoa.org/places/207065</uri>
-    <citebody>urn:cite:croala:loci.id.loc32295</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid32295"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Rhacusa</nomen>
     <label>Dubrovnik</label>
     <uri>http://www.wikidata.org/wiki/Q1722</uri>
-    <citebody>urn:cite:croala:loci.id.loc34308</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid34308"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Dalmatia</nomen>
     <label>Dalmatia</label>
     <uri>http://pleiades.stoa.org/places/197240</uri>
-    <citebody>urn:cite:croala:loci.id.loc34329</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid34329"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Rhacosium</nomen>
     <label>Rákos-mező</label>
     <uri>http://www.wikidata.org/wiki/Q1252407</uri>
-    <citebody>urn:cite:croala:loci.id.loc35118</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid35118"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Pestum</nomen>
     <label>Pest</label>
     <uri>http://www.wikidata.org/wiki/Q210205</uri>
-    <citebody>urn:cite:croala:loci.id.loc35195</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid35195"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Danubius</nomen>
     <label>Danuvius/Istros/Hister fl.</label>
     <uri>http://pleiades.stoa.org/places/226577</uri>
-    <citebody>urn:cite:croala:loci.id.loc35245</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid35245"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Adriaticum mare</nomen>
     <label>(H)Adriaticum/Superum Mare</label>
     <uri>http://pleiades.stoa.org/places/1004</uri>
-    <citebody>urn:cite:croala:loci.id.loc35575</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid35575"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Pontus Euxinus</nomen>
     <label>Pontus Euxinus</label>
     <uri>http://pleiades.stoa.org/places/1224</uri>
-    <citebody>urn:cite:croala:loci.id.loc35658</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid35658"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Dravus</nomen>
     <label>Dravus (river)</label>
     <uri>http://pleiades.stoa.org/places/197253</uri>
-    <citebody>urn:cite:croala:loci.id.loc36171</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid36171"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Thracia</nomen>
     <label>Thracia</label>
     <uri>http://pleiades.stoa.org/places/501638</uri>
-    <citebody>urn:cite:croala:loci.id.loc36748</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid36748"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Macedonia</nomen>
     <label>Macedonia</label>
     <uri>http://pleiades.stoa.org/places/491656</uri>
-    <citebody>urn:cite:croala:loci.id.loc36771</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid36771"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Illyricum</nomen>
     <label>Illyricum</label>
     <uri>http://pleiades.stoa.org/places/481865</uri>
-    <citebody>urn:cite:croala:loci.id.loc36788</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid36788"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Pannonia</nomen>
     <label>Pannonia</label>
     <uri>http://pleiades.stoa.org/places/197425</uri>
-    <citebody>urn:cite:croala:loci.id.loc36801</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid36801"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Vistula</nomen>
     <label>Vistula (river)</label>
     <uri>http://pleiades.stoa.org/places/20639</uri>
-    <citebody>urn:cite:croala:loci.id.loc37754</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid37754"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Albis</nomen>
     <label>Albis fl.</label>
     <uri>http://pleiades.stoa.org/places/98909</uri>
-    <citebody>urn:cite:croala:loci.id.loc37775</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid37775"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Rhaxia</nomen>
     <label>Serbia</label>
     <uri>http://www.wikidata.org/wiki/Q403</uri>
-    <citebody>urn:cite:croala:loci.id.loc37963</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid37963"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Rhipaei</nomen>
     <label>Rhipaei montes</label>
     <uri>http://www.wikidata.org/wiki/Q20552181</uri>
-    <citebody>urn:cite:croala:loci.id.loc38013</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid38013"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Asia</nomen>
     <label>Asia</label>
     <uri>http://pleiades.stoa.org/places/981509</uri>
-    <citebody>urn:cite:croala:loci.id.loc38242</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid38242"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Rha</nomen>
     <label>Rha/Attila (river)</label>
     <uri>http://pleiades.stoa.org/places/834296</uri>
-    <citebody>urn:cite:croala:loci.id.loc38255</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid38255"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Moschovia</nomen>
     <label>Moscow</label>
     <uri>http://www.wikidata.org/wiki/Q649</uri>
-    <citebody>urn:cite:croala:loci.id.loc38340</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid38340"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Scythia</nomen>
     <label>Scythia</label>
     <uri>http://pleiades.stoa.org/places/991379</uri>
-    <citebody>urn:cite:croala:loci.id.loc38403</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid38403"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Pontus Euxinus</nomen>
     <label>Caspium/Hyrcanium Mare</label>
     <uri>http://pleiades.stoa.org/places/884130</uri>
-    <citebody>urn:cite:croala:loci.id.loc38424</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid38424"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Tanais</nomen>
     <label>Tanais (river)</label>
     <uri>http://pleiades.stoa.org/places/825398</uri>
-    <citebody>urn:cite:croala:loci.id.loc41314</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid41314"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Latium</nomen>
     <label>Latium</label>
     <uri>http://pleiades.stoa.org/places/432900</uri>
-    <citebody>urn:cite:croala:loci.id.loc42340</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid42340"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Polonia</nomen>
     <label>Poland</label>
     <uri>http://www.wikidata.org/wiki/Q36</uri>
-    <citebody>urn:cite:croala:loci.id.loc45266</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid45266"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Bohemia</nomen>
     <label>Bohemia</label>
     <uri>http://www.wikidata.org/wiki/Q39193</uri>
-    <citebody>urn:cite:croala:loci.id.loc50557</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid50557"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Valdanus</nomen>
     <label>Una</label>
     <uri>http://www.wikidata.org/wiki/Q212927</uri>
-    <citebody>urn:cite:croala:loci.id.loc61489</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid61489"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Drinus</nomen>
     <label>Dreinos fl.</label>
     <uri>http://pleiades.stoa.org/places/207097</uri>
-    <citebody>urn:cite:croala:loci.id.loc61527</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid61527"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Bossina</nomen>
     <label>Bosnia</label>
     <uri>http://www.wikidata.org/wiki/Q188736</uri>
-    <citebody>urn:cite:croala:loci.id.loc61578</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid61578"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Iaiza</nomen>
     <label>Jajce</label>
     <uri>http://www.wikidata.org/wiki/Q258429</uri>
-    <citebody>urn:cite:croala:loci.id.loc62244</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid62244"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Rhodus</nomen>
     <label>Rhodos (island)</label>
     <uri>http://pleiades.stoa.org/places/590031</uri>
-    <citebody>urn:cite:croala:loci.id.loc63462</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid63462"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Lycia</nomen>
     <label>Lykia</label>
     <uri>http://pleiades.stoa.org/places/1001914</uri>
-    <citebody>urn:cite:croala:loci.id.loc63467</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid63467"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Scarvisius</nomen>
     <label>Sárvíz</label>
     <uri>http://www.wikidata.org/wiki/Q1315093</uri>
-    <citebody>urn:cite:croala:loci.id.loc64462</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid64462"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Batha</nomen>
     <label>Báta</label>
     <uri>http://www.wikidata.org/wiki/Q853601</uri>
-    <citebody>urn:cite:croala:loci.id.loc67890</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid67890"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Visegradum</nomen>
     <label>Vyšehrad</label>
     <uri>http://www.wikidata.org/wiki/Q616334</uri>
-    <citebody>urn:cite:croala:loci.id.loc77221</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid77221"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
   <record>
     <nomen>Strigonium</nomen>
     <label>Esztergom</label>
     <uri>http://www.wikidata.org/wiki/Q171353</uri>
-    <citebody>urn:cite:croala:loci.id.loc89171</citebody>
+    <citebody citeuri="urn:cite:croala:loci." citeid="locid89171"/>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
-    <datecreated>2016-09-03T18:13:50Z</datecreated>
+    <datecreated>2016-09-03</datecreated>
   </record>
 </list>
