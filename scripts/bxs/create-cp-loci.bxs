@@ -1,0 +1,4 @@
+SET INTPARSE true; SET CHOP false; SET FTINDEX true; SET UPDINDEX true; SET AUTOOPTIMIZE true
+CREATE BACKUP cp-loci
+CREATE DB cp-loci https://github.com/nevenjovanovic/croala-pelagios/raw/master/csv/cpplaces.xml
+CREATE BACKUP cp-loci
