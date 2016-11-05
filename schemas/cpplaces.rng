@@ -7,6 +7,11 @@
         <element name="list">
             <zeroOrMore>
                 <element name="record">
+                    <attribute name="citeid">
+                        <data type="ID">
+                            <param name="pattern">locid[0-9]+</param>
+                        </data>
+                    </attribute>
                     <element name="nomen"><text/></element>
                     <element name="label"><text/></element>
                     <element name="uri">
@@ -15,11 +20,6 @@
                         </data>
                     </element>
                     <element name="citebody">
-                        <attribute name="citeid">
-                            <data type="ID">
-                                <param name="pattern">locid[0-9]+</param>
-                            </data>
-                        </attribute>
                         <attribute name="citeurn">
                             <data type="anyURI">
                                 <param name="pattern">urn:cite:croala:loci.locid[0-9]{5}</param>
