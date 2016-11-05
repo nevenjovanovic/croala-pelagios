@@ -12,12 +12,9 @@
                     </data></element>
                     <element name="uri">
                         <attribute name="citeid">
-                            <data type="ID"/>
-                        </attribute>
-                        <attribute name="citeuri">
-                        <data type="anyURI">
-                            <param name="pattern">urn:cite:croala:latlexent.</param>
-                        </data>
+                            <data type="ID">
+                                <param name="pattern">lex[0-9]+</param>
+                            </data>
                         </attribute>
                         <data type="string">
                             <param name="pattern">urn:cite:croala:latlexent.lex[0-9]+</param>
