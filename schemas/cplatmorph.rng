@@ -7,12 +7,12 @@
         <element name="list">
             <zeroOrMore>
                 <element name="record">
+                    <attribute name="citeid">
+                        <data type="ID">
+                            <param name="pattern">morph[0-9]+</param>
+                        </data>
+                    </attribute>
                     <element name="morphcode">
-                        <attribute name="citeid">
-                            <data type="ID">
-                                <param name="pattern">morph[0-9]+</param>
-                            </data>
-                        </attribute>
                         <attribute name="citeurn">
                             <data type="anyURI">
                                 <param name="pattern">urn:cite:croala:latmorph.morph[0-9]+\.[0-9]</param>

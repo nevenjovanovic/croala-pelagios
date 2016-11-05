@@ -1,1594 +1,1594 @@
 <list>
-  <record>
-    <morphcode citeid="morph1" citeurn="urn:cite:croala:latmorph.morph1.1">n-s---fa-</morphcode>
+  <record citeid="morph1">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph1.1">n-s---fa-</morphcode>
     <label>nomen, singularis, femininum, accusativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph2" citeurn="urn:cite:croala:latmorph.morph2.1">n-s---fb-</morphcode>
+  <record citeid="morph2">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph2.1">n-s---fb-</morphcode>
     <label>nomen, singularis, femininum, ablativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph3" citeurn="urn:cite:croala:latmorph.morph3.1">n-s---fd-</morphcode>
+  <record citeid="morph3">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph3.1">n-s---fd-</morphcode>
     <label>nomen, singularis, femininum, dativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4" citeurn="urn:cite:croala:latmorph.morph4.1">n-s---fg-</morphcode>
+  <record citeid="morph4">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4.1">n-s---fg-</morphcode>
     <label>nomen, singularis, femininum, genitivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph5" citeurn="urn:cite:croala:latmorph.morph5.1">n-s---fl-</morphcode>
+  <record citeid="morph5">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph5.1">n-s---fl-</morphcode>
     <label>nomen, singularis, femininum, locativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph6" citeurn="urn:cite:croala:latmorph.morph6.1">n-s---fn-</morphcode>
+  <record citeid="morph6">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph6.1">n-s---fn-</morphcode>
     <label>nomen, singularis, femininum, nominativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph7" citeurn="urn:cite:croala:latmorph.morph7.1">n-s---fv-</morphcode>
+  <record citeid="morph7">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph7.1">n-s---fv-</morphcode>
     <label>nomen, singularis, femininum, vocativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph8" citeurn="urn:cite:croala:latmorph.morph8.1">n-s---ma-</morphcode>
+  <record citeid="morph8">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph8.1">n-s---ma-</morphcode>
     <label>nomen, singularis, masculinum, accusativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph9" citeurn="urn:cite:croala:latmorph.morph9.1">n-s---mb-</morphcode>
+  <record citeid="morph9">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph9.1">n-s---mb-</morphcode>
     <label>nomen, singularis, masculinum, ablativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph10" citeurn="urn:cite:croala:latmorph.morph10.1">n-s---md-</morphcode>
+  <record citeid="morph10">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph10.1">n-s---md-</morphcode>
     <label>nomen, singularis, masculinum, dativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph11" citeurn="urn:cite:croala:latmorph.morph11.1">n-s---mg-</morphcode>
+  <record citeid="morph11">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph11.1">n-s---mg-</morphcode>
     <label>nomen, singularis, masculinum, genitivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph12" citeurn="urn:cite:croala:latmorph.morph12.1">n-s---ml-</morphcode>
+  <record citeid="morph12">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph12.1">n-s---ml-</morphcode>
     <label>nomen, singularis, masculinum, locativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph13" citeurn="urn:cite:croala:latmorph.morph13.1">n-s---mn-</morphcode>
+  <record citeid="morph13">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph13.1">n-s---mn-</morphcode>
     <label>nomen, singularis, masculinum, nominativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph14" citeurn="urn:cite:croala:latmorph.morph14.1">n-s---mv-</morphcode>
+  <record citeid="morph14">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph14.1">n-s---mv-</morphcode>
     <label>nomen, singularis, masculinum, vocativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph15" citeurn="urn:cite:croala:latmorph.morph15.1">n-s---na-</morphcode>
+  <record citeid="morph15">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph15.1">n-s---na-</morphcode>
     <label>nomen, singularis, neutrum, accusativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph16" citeurn="urn:cite:croala:latmorph.morph16.1">n-s---nb-</morphcode>
+  <record citeid="morph16">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph16.1">n-s---nb-</morphcode>
     <label>nomen, singularis, neutrum, ablativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph17" citeurn="urn:cite:croala:latmorph.morph17.1">n-s---nd-</morphcode>
+  <record citeid="morph17">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph17.1">n-s---nd-</morphcode>
     <label>nomen, singularis, neutrum, dativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph18" citeurn="urn:cite:croala:latmorph.morph18.1">n-s---ng-</morphcode>
+  <record citeid="morph18">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph18.1">n-s---ng-</morphcode>
     <label>nomen, singularis, neutrum, genitivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph19" citeurn="urn:cite:croala:latmorph.morph19.1">n-s---nn-</morphcode>
+  <record citeid="morph19">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph19.1">n-s---nn-</morphcode>
     <label>nomen, singularis, neutrum, nominativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph20" citeurn="urn:cite:croala:latmorph.morph20.1">n-s---nv-</morphcode>
+  <record citeid="morph20">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph20.1">n-s---nv-</morphcode>
     <label>nomen, singularis, neutrum, vocativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph21" citeurn="urn:cite:croala:latmorph.morph21.1">n-p---fa-</morphcode>
+  <record citeid="morph21">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph21.1">n-p---fa-</morphcode>
     <label>nomen, pluralis, femininum, accusativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph22" citeurn="urn:cite:croala:latmorph.morph22.1">n-p---fb-</morphcode>
+  <record citeid="morph22">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph22.1">n-p---fb-</morphcode>
     <label>nomen, pluralis, femininum, ablativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph23" citeurn="urn:cite:croala:latmorph.morph23.1">n-p---fd-</morphcode>
+  <record citeid="morph23">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph23.1">n-p---fd-</morphcode>
     <label>nomen, pluralis, femininum, dativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph24" citeurn="urn:cite:croala:latmorph.morph24.1">n-p---fg-</morphcode>
+  <record citeid="morph24">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph24.1">n-p---fg-</morphcode>
     <label>nomen, pluralis, femininum, genitivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph25" citeurn="urn:cite:croala:latmorph.morph25.1">n-p---fn-</morphcode>
+  <record citeid="morph25">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph25.1">n-p---fn-</morphcode>
     <label>nomen, pluralis, femininum, nominativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph26" citeurn="urn:cite:croala:latmorph.morph26.1">n-p---fv-</morphcode>
+  <record citeid="morph26">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph26.1">n-p---fv-</morphcode>
     <label>nomen, pluralis, femininum, vocativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph27" citeurn="urn:cite:croala:latmorph.morph27.1">n-p---ma-</morphcode>
+  <record citeid="morph27">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph27.1">n-p---ma-</morphcode>
     <label>nomen, pluralis, masculinum, accusativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph28" citeurn="urn:cite:croala:latmorph.morph28.1">n-p---mb-</morphcode>
+  <record citeid="morph28">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph28.1">n-p---mb-</morphcode>
     <label>nomen, pluralis, masculinum, ablativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph29" citeurn="urn:cite:croala:latmorph.morph29.1">n-p---md-</morphcode>
+  <record citeid="morph29">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph29.1">n-p---md-</morphcode>
     <label>nomen, pluralis, masculinum, dativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph30" citeurn="urn:cite:croala:latmorph.morph30.1">n-p---mg-</morphcode>
+  <record citeid="morph30">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph30.1">n-p---mg-</morphcode>
     <label>nomen, pluralis, masculinum, genitivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph31" citeurn="urn:cite:croala:latmorph.morph31.1">n-p---mn-</morphcode>
+  <record citeid="morph31">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph31.1">n-p---mn-</morphcode>
     <label>nomen, pluralis, masculinum, nominativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph32" citeurn="urn:cite:croala:latmorph.morph32.1">n-p---mv-</morphcode>
+  <record citeid="morph32">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph32.1">n-p---mv-</morphcode>
     <label>nomen, pluralis, masculinum, vocativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph33" citeurn="urn:cite:croala:latmorph.morph33.1">n-p---na-</morphcode>
+  <record citeid="morph33">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph33.1">n-p---na-</morphcode>
     <label>nomen, pluralis, neutrum, accusativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph34" citeurn="urn:cite:croala:latmorph.morph34.1">n-p---nb-</morphcode>
+  <record citeid="morph34">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph34.1">n-p---nb-</morphcode>
     <label>nomen, pluralis, neutrum, ablativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph35" citeurn="urn:cite:croala:latmorph.morph35.1">n-p---nd-</morphcode>
+  <record citeid="morph35">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph35.1">n-p---nd-</morphcode>
     <label>nomen, pluralis, neutrum, dativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph36" citeurn="urn:cite:croala:latmorph.morph36.1">n-p---ng-</morphcode>
+  <record citeid="morph36">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph36.1">n-p---ng-</morphcode>
     <label>nomen, pluralis, neutrum, genitivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph37" citeurn="urn:cite:croala:latmorph.morph37.1">n-p---nn-</morphcode>
+  <record citeid="morph37">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph37.1">n-p---nn-</morphcode>
     <label>nomen, pluralis, neutrum, nominativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph38" citeurn="urn:cite:croala:latmorph.morph38.1">n-p---nv-</morphcode>
+  <record citeid="morph38">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph38.1">n-p---nv-</morphcode>
     <label>nomen, pluralis, neutrum, vocativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph40" citeurn="urn:cite:croala:latmorph.morph40.1">a-p---fac</morphcode>
+  <record citeid="morph40">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph40.1">a-p---fac</morphcode>
     <label>adiectivum, pluralis, femininum, accusativus, comparativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph41" citeurn="urn:cite:croala:latmorph.morph41.1">a-p---fap</morphcode>
+  <record citeid="morph41">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph41.1">a-p---fap</morphcode>
     <label>adiectivum, pluralis, femininum, accusativus, positivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph42" citeurn="urn:cite:croala:latmorph.morph42.1">a-p---fas</morphcode>
+  <record citeid="morph42">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph42.1">a-p---fas</morphcode>
     <label>adiectivum, pluralis, femininum, accusativus, superlativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph43" citeurn="urn:cite:croala:latmorph.morph43.1">a-p---fbc</morphcode>
+  <record citeid="morph43">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph43.1">a-p---fbc</morphcode>
     <label>adiectivum, pluralis, femininum, ablativus, comparativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph44" citeurn="urn:cite:croala:latmorph.morph44.1">a-p---fbp</morphcode>
+  <record citeid="morph44">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph44.1">a-p---fbp</morphcode>
     <label>adiectivum, pluralis, femininum, ablativus, positivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph45" citeurn="urn:cite:croala:latmorph.morph45.1">a-p---fbs</morphcode>
+  <record citeid="morph45">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph45.1">a-p---fbs</morphcode>
     <label>adiectivum, pluralis, femininum, ablativus, superlativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph46" citeurn="urn:cite:croala:latmorph.morph46.1">a-p---fdc</morphcode>
+  <record citeid="morph46">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph46.1">a-p---fdc</morphcode>
     <label>adiectivum, pluralis, femininum, dativus, comparativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph47" citeurn="urn:cite:croala:latmorph.morph47.1">a-p---fdp</morphcode>
+  <record citeid="morph47">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph47.1">a-p---fdp</morphcode>
     <label>adiectivum, pluralis, femininum, dativus, positivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph48" citeurn="urn:cite:croala:latmorph.morph48.1">a-p---fds</morphcode>
+  <record citeid="morph48">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph48.1">a-p---fds</morphcode>
     <label>adiectivum, pluralis, femininum, dativus, superlativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph49" citeurn="urn:cite:croala:latmorph.morph49.1">a-p---fgc</morphcode>
+  <record citeid="morph49">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph49.1">a-p---fgc</morphcode>
     <label>adiectivum, pluralis, femininum, genitivus, comparativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph50" citeurn="urn:cite:croala:latmorph.morph50.1">a-p---fgp</morphcode>
+  <record citeid="morph50">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph50.1">a-p---fgp</morphcode>
     <label>adiectivum, pluralis, femininum, genitivus, positivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph51" citeurn="urn:cite:croala:latmorph.morph51.1">a-p---fgs</morphcode>
+  <record citeid="morph51">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph51.1">a-p---fgs</morphcode>
     <label>adiectivum, pluralis, femininum, genitivus, superlativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph52" citeurn="urn:cite:croala:latmorph.morph52.1">a-p---fnc</morphcode>
+  <record citeid="morph52">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph52.1">a-p---fnc</morphcode>
     <label>adiectivum, pluralis, femininum, nominativus, comparativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph53" citeurn="urn:cite:croala:latmorph.morph53.1">a-p---fnp</morphcode>
+  <record citeid="morph53">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph53.1">a-p---fnp</morphcode>
     <label>adiectivum, pluralis, femininum, nominativus, positivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph54" citeurn="urn:cite:croala:latmorph.morph54.1">a-p---fns</morphcode>
+  <record citeid="morph54">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph54.1">a-p---fns</morphcode>
     <label>adiectivum, pluralis, femininum, nominativus, superlativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph55" citeurn="urn:cite:croala:latmorph.morph55.1">a-p---fvc</morphcode>
+  <record citeid="morph55">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph55.1">a-p---fvc</morphcode>
     <label>adiectivum, pluralis, femininum, vocativus, comparativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph56" citeurn="urn:cite:croala:latmorph.morph56.1">a-p---fvp</morphcode>
+  <record citeid="morph56">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph56.1">a-p---fvp</morphcode>
     <label>adiectivum, pluralis, femininum, vocativus, positivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph57" citeurn="urn:cite:croala:latmorph.morph57.1">a-p---fvs</morphcode>
+  <record citeid="morph57">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph57.1">a-p---fvs</morphcode>
     <label>adiectivum, pluralis, femininum, vocativus, superlativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph58" citeurn="urn:cite:croala:latmorph.morph58.1">a-p---mac</morphcode>
+  <record citeid="morph58">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph58.1">a-p---mac</morphcode>
     <label>adiectivum, pluralis, masculinum, accusativus, comparativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph59" citeurn="urn:cite:croala:latmorph.morph59.1">a-p---map</morphcode>
+  <record citeid="morph59">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph59.1">a-p---map</morphcode>
     <label>adiectivum, pluralis, masculinum, accusativus, positivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph60" citeurn="urn:cite:croala:latmorph.morph60.1">a-p---mas</morphcode>
+  <record citeid="morph60">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph60.1">a-p---mas</morphcode>
     <label>adiectivum, pluralis, masculinum, accusativus, superlativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph61" citeurn="urn:cite:croala:latmorph.morph61.1">a-p---mbc</morphcode>
+  <record citeid="morph61">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph61.1">a-p---mbc</morphcode>
     <label>adiectivum, pluralis, masculinum, ablativus, comparativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph62" citeurn="urn:cite:croala:latmorph.morph62.1">a-p---mbp</morphcode>
+  <record citeid="morph62">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph62.1">a-p---mbp</morphcode>
     <label>adiectivum, pluralis, masculinum, ablativus, positivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph63" citeurn="urn:cite:croala:latmorph.morph63.1">a-p---mbs</morphcode>
+  <record citeid="morph63">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph63.1">a-p---mbs</morphcode>
     <label>adiectivum, pluralis, masculinum, ablativus, superlativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph64" citeurn="urn:cite:croala:latmorph.morph64.1">a-p---mdc</morphcode>
+  <record citeid="morph64">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph64.1">a-p---mdc</morphcode>
     <label>adiectivum, pluralis, masculinum, dativus, comparativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph65" citeurn="urn:cite:croala:latmorph.morph65.1">a-p---mdp</morphcode>
+  <record citeid="morph65">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph65.1">a-p---mdp</morphcode>
     <label>adiectivum, pluralis, masculinum, dativus, positivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph66" citeurn="urn:cite:croala:latmorph.morph66.1">a-p---mds</morphcode>
+  <record citeid="morph66">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph66.1">a-p---mds</morphcode>
     <label>adiectivum, pluralis, masculinum, dativus, superlativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph67" citeurn="urn:cite:croala:latmorph.morph67.1">a-p---mgc</morphcode>
+  <record citeid="morph67">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph67.1">a-p---mgc</morphcode>
     <label>adiectivum, pluralis, masculinum, genitivus, comparativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph68" citeurn="urn:cite:croala:latmorph.morph68.1">a-p---mgp</morphcode>
+  <record citeid="morph68">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph68.1">a-p---mgp</morphcode>
     <label>adiectivum, pluralis, masculinum, genitivus, positivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph69" citeurn="urn:cite:croala:latmorph.morph69.1">a-p---mgs</morphcode>
+  <record citeid="morph69">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph69.1">a-p---mgs</morphcode>
     <label>adiectivum, pluralis, masculinum, genitivus, superlativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph70" citeurn="urn:cite:croala:latmorph.morph70.1">a-p---mnc</morphcode>
+  <record citeid="morph70">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph70.1">a-p---mnc</morphcode>
     <label>adiectivum, pluralis, masculinum, nominativus, comparativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph71" citeurn="urn:cite:croala:latmorph.morph71.1">a-p---mnp</morphcode>
+  <record citeid="morph71">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph71.1">a-p---mnp</morphcode>
     <label>adiectivum, pluralis, masculinum, nominativus, positivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph72" citeurn="urn:cite:croala:latmorph.morph72.1">a-p---mns</morphcode>
+  <record citeid="morph72">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph72.1">a-p---mns</morphcode>
     <label>adiectivum, pluralis, masculinum, nominativus, superlativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph73" citeurn="urn:cite:croala:latmorph.morph73.1">a-p---mvc</morphcode>
+  <record citeid="morph73">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph73.1">a-p---mvc</morphcode>
     <label>adiectivum, pluralis, masculinum, vocativus, comparativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph74" citeurn="urn:cite:croala:latmorph.morph74.1">a-p---mvp</morphcode>
+  <record citeid="morph74">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph74.1">a-p---mvp</morphcode>
     <label>adiectivum, pluralis, masculinum, vocativus, positivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph75" citeurn="urn:cite:croala:latmorph.morph75.1">a-p---mvs</morphcode>
+  <record citeid="morph75">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph75.1">a-p---mvs</morphcode>
     <label>adiectivum, pluralis, masculinum, vocativus, superlativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph76" citeurn="urn:cite:croala:latmorph.morph76.1">a-p---nac</morphcode>
+  <record citeid="morph76">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph76.1">a-p---nac</morphcode>
     <label>adiectivum, pluralis, neutrum, accusativus, comparativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph77" citeurn="urn:cite:croala:latmorph.morph77.1">a-p---nap</morphcode>
+  <record citeid="morph77">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph77.1">a-p---nap</morphcode>
     <label>adiectivum, pluralis, neutrum, accusativus, positivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph78" citeurn="urn:cite:croala:latmorph.morph78.1">a-p---nas</morphcode>
+  <record citeid="morph78">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph78.1">a-p---nas</morphcode>
     <label>adiectivum, pluralis, neutrum, accusativus, superlativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph79" citeurn="urn:cite:croala:latmorph.morph79.1">a-p---nbc</morphcode>
+  <record citeid="morph79">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph79.1">a-p---nbc</morphcode>
     <label>adiectivum, pluralis, neutrum, ablativus, comparativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph80" citeurn="urn:cite:croala:latmorph.morph80.1">a-p---nbp</morphcode>
+  <record citeid="morph80">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph80.1">a-p---nbp</morphcode>
     <label>adiectivum, pluralis, neutrum, ablativus, positivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph81" citeurn="urn:cite:croala:latmorph.morph81.1">a-p---nbs</morphcode>
+  <record citeid="morph81">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph81.1">a-p---nbs</morphcode>
     <label>adiectivum, pluralis, neutrum, ablativus, superlativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph82" citeurn="urn:cite:croala:latmorph.morph82.1">a-p---ngc</morphcode>
+  <record citeid="morph82">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph82.1">a-p---ngc</morphcode>
     <label>adiectivum, pluralis, neutrum, genitivus, comparativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph83" citeurn="urn:cite:croala:latmorph.morph83.1">a-p---ngp</morphcode>
+  <record citeid="morph83">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph83.1">a-p---ngp</morphcode>
     <label>adiectivum, pluralis, neutrum, genitivus, positivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph84" citeurn="urn:cite:croala:latmorph.morph84.1">a-p---ngs</morphcode>
+  <record citeid="morph84">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph84.1">a-p---ngs</morphcode>
     <label>adiectivum, pluralis, neutrum, genitivus, superlativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph85" citeurn="urn:cite:croala:latmorph.morph85.1">a-p---ndc</morphcode>
+  <record citeid="morph85">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph85.1">a-p---ndc</morphcode>
     <label>adiectivum, pluralis, neutrum, dativus, comparativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph86" citeurn="urn:cite:croala:latmorph.morph86.1">a-p---ndp</morphcode>
+  <record citeid="morph86">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph86.1">a-p---ndp</morphcode>
     <label>adiectivum, pluralis, neutrum, dativus, positivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph87" citeurn="urn:cite:croala:latmorph.morph87.1">a-p---nds</morphcode>
+  <record citeid="morph87">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph87.1">a-p---nds</morphcode>
     <label>adiectivum, pluralis, neutrum, dativus, superlativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph88" citeurn="urn:cite:croala:latmorph.morph88.1">a-p---nnc</morphcode>
+  <record citeid="morph88">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph88.1">a-p---nnc</morphcode>
     <label>adiectivum, pluralis, neutrum, nominativus, comparativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph89" citeurn="urn:cite:croala:latmorph.morph89.1">a-p---nnp</morphcode>
+  <record citeid="morph89">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph89.1">a-p---nnp</morphcode>
     <label>adiectivum, pluralis, neutrum, nominativus, positivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph90" citeurn="urn:cite:croala:latmorph.morph90.1">a-p---nns</morphcode>
+  <record citeid="morph90">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph90.1">a-p---nns</morphcode>
     <label>adiectivum, pluralis, neutrum, nominativus, superlativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph91" citeurn="urn:cite:croala:latmorph.morph91.1">a-p---nvc</morphcode>
+  <record citeid="morph91">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph91.1">a-p---nvc</morphcode>
     <label>adiectivum, pluralis, neutrum, vocativus, comparativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph92" citeurn="urn:cite:croala:latmorph.morph92.1">a-p---nvp</morphcode>
+  <record citeid="morph92">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph92.1">a-p---nvp</morphcode>
     <label>adiectivum, pluralis, neutrum, vocativus, positivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph93" citeurn="urn:cite:croala:latmorph.morph93.1">a-p---nvs</morphcode>
+  <record citeid="morph93">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph93.1">a-p---nvs</morphcode>
     <label>adiectivum, pluralis, neutrum, vocativus, superlativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph95" citeurn="urn:cite:croala:latmorph.morph95.1">a-s---fac</morphcode>
+  <record citeid="morph95">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph95.1">a-s---fac</morphcode>
     <label>adiectivum, singularis, femininum, accusativus, comparativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph96" citeurn="urn:cite:croala:latmorph.morph96.1">a-s---fap</morphcode>
+  <record citeid="morph96">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph96.1">a-s---fap</morphcode>
     <label>adiectivum, singularis, femininum, accusativus, positivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph97" citeurn="urn:cite:croala:latmorph.morph97.1">a-s---fas</morphcode>
+  <record citeid="morph97">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph97.1">a-s---fas</morphcode>
     <label>adiectivum, singularis, femininum, accusativus, superlativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph98" citeurn="urn:cite:croala:latmorph.morph98.1">a-s---fbc</morphcode>
+  <record citeid="morph98">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph98.1">a-s---fbc</morphcode>
     <label>adiectivum, singularis, femininum, ablativus, comparativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph99" citeurn="urn:cite:croala:latmorph.morph99.1">a-s---fbp</morphcode>
+  <record citeid="morph99">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph99.1">a-s---fbp</morphcode>
     <label>adiectivum, singularis, femininum, ablativus, positivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph100" citeurn="urn:cite:croala:latmorph.morph100.1">a-s---fbs</morphcode>
+  <record citeid="morph100">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph100.1">a-s---fbs</morphcode>
     <label>adiectivum, singularis, femininum, ablativus, superlativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph101" citeurn="urn:cite:croala:latmorph.morph101.1">a-s---fdc</morphcode>
+  <record citeid="morph101">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph101.1">a-s---fdc</morphcode>
     <label>adiectivum, singularis, femininum, dativus, comparativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph102" citeurn="urn:cite:croala:latmorph.morph102.1">a-s---fdp</morphcode>
+  <record citeid="morph102">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph102.1">a-s---fdp</morphcode>
     <label>adiectivum, singularis, femininum, dativus, positivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph103" citeurn="urn:cite:croala:latmorph.morph103.1">a-s---fds</morphcode>
+  <record citeid="morph103">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph103.1">a-s---fds</morphcode>
     <label>adiectivum, singularis, femininum, dativus, superlativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph104" citeurn="urn:cite:croala:latmorph.morph104.1">a-s---fgc</morphcode>
+  <record citeid="morph104">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph104.1">a-s---fgc</morphcode>
     <label>adiectivum, singularis, femininum, genitivus, comparativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph105" citeurn="urn:cite:croala:latmorph.morph105.1">a-s---fgp</morphcode>
+  <record citeid="morph105">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph105.1">a-s---fgp</morphcode>
     <label>adiectivum, singularis, femininum, genitivus, positivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph106" citeurn="urn:cite:croala:latmorph.morph106.1">a-s---fgs</morphcode>
+  <record citeid="morph106">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph106.1">a-s---fgs</morphcode>
     <label>adiectivum, singularis, femininum, genitivus, superlativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph107" citeurn="urn:cite:croala:latmorph.morph107.1">a-s---fnc</morphcode>
+  <record citeid="morph107">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph107.1">a-s---fnc</morphcode>
     <label>adiectivum, singularis, femininum, nominativus, comparativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph108" citeurn="urn:cite:croala:latmorph.morph108.1">a-s---fnp</morphcode>
+  <record citeid="morph108">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph108.1">a-s---fnp</morphcode>
     <label>adiectivum, singularis, femininum, nominativus, positivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph109" citeurn="urn:cite:croala:latmorph.morph109.1">a-s---fns</morphcode>
+  <record citeid="morph109">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph109.1">a-s---fns</morphcode>
     <label>adiectivum, singularis, femininum, nominativus, superlativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph110" citeurn="urn:cite:croala:latmorph.morph110.1">a-s---fvc</morphcode>
+  <record citeid="morph110">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph110.1">a-s---fvc</morphcode>
     <label>adiectivum, singularis, femininum, vocativus, comparativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph111" citeurn="urn:cite:croala:latmorph.morph111.1">a-s---fvp</morphcode>
+  <record citeid="morph111">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph111.1">a-s---fvp</morphcode>
     <label>adiectivum, singularis, femininum, vocativus, positivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph112" citeurn="urn:cite:croala:latmorph.morph112.1">a-s---fvs</morphcode>
+  <record citeid="morph112">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph112.1">a-s---fvs</morphcode>
     <label>adiectivum, singularis, femininum, vocativus, superlativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph113" citeurn="urn:cite:croala:latmorph.morph113.1">a-s---mac</morphcode>
+  <record citeid="morph113">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph113.1">a-s---mac</morphcode>
     <label>adiectivum, singularis, masculinum, accusativus, comparativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph114" citeurn="urn:cite:croala:latmorph.morph114.1">a-s---map</morphcode>
+  <record citeid="morph114">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph114.1">a-s---map</morphcode>
     <label>adiectivum, singularis, masculinum, accusativus, positivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph115" citeurn="urn:cite:croala:latmorph.morph115.1">a-s---mas</morphcode>
+  <record citeid="morph115">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph115.1">a-s---mas</morphcode>
     <label>adiectivum, singularis, masculinum, accusativus, superlativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph116" citeurn="urn:cite:croala:latmorph.morph116.1">a-s---mbc</morphcode>
+  <record citeid="morph116">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph116.1">a-s---mbc</morphcode>
     <label>adiectivum, singularis, masculinum, ablativus, comparativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph117" citeurn="urn:cite:croala:latmorph.morph117.1">a-s---mbp</morphcode>
+  <record citeid="morph117">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph117.1">a-s---mbp</morphcode>
     <label>adiectivum, singularis, masculinum, ablativus, positivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph118" citeurn="urn:cite:croala:latmorph.morph118.1">a-s---mbs</morphcode>
+  <record citeid="morph118">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph118.1">a-s---mbs</morphcode>
     <label>adiectivum, singularis, masculinum, ablativus, superlativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph119" citeurn="urn:cite:croala:latmorph.morph119.1">a-s---mdc</morphcode>
+  <record citeid="morph119">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph119.1">a-s---mdc</morphcode>
     <label>adiectivum, singularis, masculinum, dativus, comparativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph120" citeurn="urn:cite:croala:latmorph.morph120.1">a-s---mdp</morphcode>
+  <record citeid="morph120">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph120.1">a-s---mdp</morphcode>
     <label>adiectivum, singularis, masculinum, dativus, positivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph121" citeurn="urn:cite:croala:latmorph.morph121.1">a-s---mds</morphcode>
+  <record citeid="morph121">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph121.1">a-s---mds</morphcode>
     <label>adiectivum, singularis, masculinum, dativus, superlativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph122" citeurn="urn:cite:croala:latmorph.morph122.1">a-s---mgc</morphcode>
+  <record citeid="morph122">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph122.1">a-s---mgc</morphcode>
     <label>adiectivum, singularis, masculinum, genitivus, comparativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph123" citeurn="urn:cite:croala:latmorph.morph123.1">a-s---mgp</morphcode>
+  <record citeid="morph123">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph123.1">a-s---mgp</morphcode>
     <label>adiectivum, singularis, masculinum, genitivus, positivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph124" citeurn="urn:cite:croala:latmorph.morph124.1">a-s---mgs</morphcode>
+  <record citeid="morph124">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph124.1">a-s---mgs</morphcode>
     <label>adiectivum, singularis, masculinum, genitivus, superlativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph125" citeurn="urn:cite:croala:latmorph.morph125.1">a-s---mnc</morphcode>
+  <record citeid="morph125">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph125.1">a-s---mnc</morphcode>
     <label>adiectivum, singularis, masculinum, nominativus, comparativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph126" citeurn="urn:cite:croala:latmorph.morph126.1">a-s---mnp</morphcode>
+  <record citeid="morph126">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph126.1">a-s---mnp</morphcode>
     <label>adiectivum, singularis, masculinum, nominativus, positivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph127" citeurn="urn:cite:croala:latmorph.morph127.1">a-s---mns</morphcode>
+  <record citeid="morph127">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph127.1">a-s---mns</morphcode>
     <label>adiectivum, singularis, masculinum, nominativus, superlativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph128" citeurn="urn:cite:croala:latmorph.morph128.1">a-s---mvc</morphcode>
+  <record citeid="morph128">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph128.1">a-s---mvc</morphcode>
     <label>adiectivum, singularis, masculinum, vocativus, comparativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph129" citeurn="urn:cite:croala:latmorph.morph129.1">a-s---mvp</morphcode>
+  <record citeid="morph129">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph129.1">a-s---mvp</morphcode>
     <label>adiectivum, singularis, masculinum, vocativus, positivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph130" citeurn="urn:cite:croala:latmorph.morph130.1">a-s---mvs</morphcode>
+  <record citeid="morph130">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph130.1">a-s---mvs</morphcode>
     <label>adiectivum, singularis, masculinum, vocativus, superlativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph131" citeurn="urn:cite:croala:latmorph.morph131.1">a-s---nac</morphcode>
+  <record citeid="morph131">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph131.1">a-s---nac</morphcode>
     <label>adiectivum, singularis, neutrum, accusativus, comparativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph132" citeurn="urn:cite:croala:latmorph.morph132.1">a-s---nap</morphcode>
+  <record citeid="morph132">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph132.1">a-s---nap</morphcode>
     <label>adiectivum, singularis, neutrum, accusativus, positivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph133" citeurn="urn:cite:croala:latmorph.morph133.1">a-s---nas</morphcode>
+  <record citeid="morph133">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph133.1">a-s---nas</morphcode>
     <label>adiectivum, singularis, neutrum, accusativus, superlativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph134" citeurn="urn:cite:croala:latmorph.morph134.1">a-s---nbc</morphcode>
+  <record citeid="morph134">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph134.1">a-s---nbc</morphcode>
     <label>adiectivum, singularis, neutrum, ablativus, comparativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph135" citeurn="urn:cite:croala:latmorph.morph135.1">a-s---nbp</morphcode>
+  <record citeid="morph135">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph135.1">a-s---nbp</morphcode>
     <label>adiectivum, singularis, neutrum, ablativus, positivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph136" citeurn="urn:cite:croala:latmorph.morph136.1">a-s---nbs</morphcode>
+  <record citeid="morph136">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph136.1">a-s---nbs</morphcode>
     <label>adiectivum, singularis, neutrum, ablativus, superlativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph137" citeurn="urn:cite:croala:latmorph.morph137.1">a-s---ngc</morphcode>
+  <record citeid="morph137">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph137.1">a-s---ngc</morphcode>
     <label>adiectivum, singularis, neutrum, genitivus, comparativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph138" citeurn="urn:cite:croala:latmorph.morph138.1">a-s---ngp</morphcode>
+  <record citeid="morph138">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph138.1">a-s---ngp</morphcode>
     <label>adiectivum, singularis, neutrum, genitivus, positivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph139" citeurn="urn:cite:croala:latmorph.morph139.1">a-s---ngs</morphcode>
+  <record citeid="morph139">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph139.1">a-s---ngs</morphcode>
     <label>adiectivum, singularis, neutrum, genitivus, superlativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph140" citeurn="urn:cite:croala:latmorph.morph140.1">a-s---ndc</morphcode>
+  <record citeid="morph140">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph140.1">a-s---ndc</morphcode>
     <label>adiectivum, singularis, neutrum, dativus, comparativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph141" citeurn="urn:cite:croala:latmorph.morph141.1">a-s---ndp</morphcode>
+  <record citeid="morph141">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph141.1">a-s---ndp</morphcode>
     <label>adiectivum, singularis, neutrum, dativus, positivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph142" citeurn="urn:cite:croala:latmorph.morph142.1">a-s---nds</morphcode>
+  <record citeid="morph142">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph142.1">a-s---nds</morphcode>
     <label>adiectivum, singularis, neutrum, dativus, superlativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph143" citeurn="urn:cite:croala:latmorph.morph143.1">a-s---nnc</morphcode>
+  <record citeid="morph143">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph143.1">a-s---nnc</morphcode>
     <label>adiectivum, singularis, neutrum, nominativus, comparativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph144" citeurn="urn:cite:croala:latmorph.morph144.1">a-s---nnp</morphcode>
+  <record citeid="morph144">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph144.1">a-s---nnp</morphcode>
     <label>adiectivum, singularis, neutrum, nominativus, positivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph145" citeurn="urn:cite:croala:latmorph.morph145.1">a-s---nns</morphcode>
+  <record citeid="morph145">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph145.1">a-s---nns</morphcode>
     <label>adiectivum, singularis, neutrum, nominativus, superlativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph146" citeurn="urn:cite:croala:latmorph.morph146.1">a-s---nvc</morphcode>
+  <record citeid="morph146">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph146.1">a-s---nvc</morphcode>
     <label>adiectivum, singularis, neutrum, vocativus, comparativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph147" citeurn="urn:cite:croala:latmorph.morph147.1">a-s---nvp</morphcode>
+  <record citeid="morph147">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph147.1">a-s---nvp</morphcode>
     <label>adiectivum, singularis, neutrum, vocativus, positivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph148" citeurn="urn:cite:croala:latmorph.morph148.1">a-s---nvs</morphcode>
+  <record citeid="morph148">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph148.1">a-s---nvs</morphcode>
     <label>adiectivum, singularis, neutrum, vocativus, superlativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph149" citeurn="urn:cite:croala:latmorph.morph149.1">c--------</morphcode>
+  <record citeid="morph149">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph149.1">c--------</morphcode>
     <label>coniunctio</label>
   </record>
-  <record>
-    <morphcode citeid="morph150" citeurn="urn:cite:croala:latmorph.morph150.1">r--------</morphcode>
+  <record citeid="morph150">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph150.1">r--------</morphcode>
     <label>praepositio</label>
   </record>
-  <record>
-    <morphcode citeid="morph151" citeurn="urn:cite:croala:latmorph.morph151.1">m--------</morphcode>
+  <record citeid="morph151">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph151.1">m--------</morphcode>
     <label>numerus</label>
   </record>
-  <record>
-    <morphcode citeid="morph152" citeurn="urn:cite:croala:latmorph.morph152.1">p-p---fa-</morphcode>
+  <record citeid="morph152">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph152.1">p-p---fa-</morphcode>
     <label>pronomen, pluralis, femininum, accusativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph153" citeurn="urn:cite:croala:latmorph.morph153.1">p-p---fb-</morphcode>
+  <record citeid="morph153">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph153.1">p-p---fb-</morphcode>
     <label>pronomen, pluralis, femininum, ablativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph154" citeurn="urn:cite:croala:latmorph.morph154.1">p-p---fd-</morphcode>
+  <record citeid="morph154">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph154.1">p-p---fd-</morphcode>
     <label>pronomen, pluralis, femininum, dativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph155" citeurn="urn:cite:croala:latmorph.morph155.1">p-p---fg-</morphcode>
+  <record citeid="morph155">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph155.1">p-p---fg-</morphcode>
     <label>pronomen, pluralis, femininum, genitivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph156" citeurn="urn:cite:croala:latmorph.morph156.1">p-p---fn-</morphcode>
+  <record citeid="morph156">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph156.1">p-p---fn-</morphcode>
     <label>pronomen, pluralis, femininum, nominativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph157" citeurn="urn:cite:croala:latmorph.morph157.1">p-p---fv-</morphcode>
+  <record citeid="morph157">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph157.1">p-p---fv-</morphcode>
     <label>pronomen, pluralis, femininum, vocativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph158" citeurn="urn:cite:croala:latmorph.morph158.1">p-p---ma-</morphcode>
+  <record citeid="morph158">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph158.1">p-p---ma-</morphcode>
     <label>pronomen, pluralis, masculinum, accusativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph159" citeurn="urn:cite:croala:latmorph.morph159.1">p-p---mb-</morphcode>
+  <record citeid="morph159">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph159.1">p-p---mb-</morphcode>
     <label>pronomen, pluralis, masculinum, ablativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph160" citeurn="urn:cite:croala:latmorph.morph160.1">p-p---md-</morphcode>
+  <record citeid="morph160">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph160.1">p-p---md-</morphcode>
     <label>pronomen, pluralis, masculinum, dativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph161" citeurn="urn:cite:croala:latmorph.morph161.1">p-p---mg-</morphcode>
+  <record citeid="morph161">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph161.1">p-p---mg-</morphcode>
     <label>pronomen, pluralis, masculinum, genitivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph162" citeurn="urn:cite:croala:latmorph.morph162.1">p-p---mn-</morphcode>
+  <record citeid="morph162">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph162.1">p-p---mn-</morphcode>
     <label>pronomen, pluralis, masculinum, nominativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph163" citeurn="urn:cite:croala:latmorph.morph163.1">p-p---na-</morphcode>
+  <record citeid="morph163">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph163.1">p-p---na-</morphcode>
     <label>pronomen, pluralis, neutrum, accusativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph164" citeurn="urn:cite:croala:latmorph.morph164.1">p-p---nb-</morphcode>
+  <record citeid="morph164">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph164.1">p-p---nb-</morphcode>
     <label>pronomen, pluralis, neutrum, ablativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph165" citeurn="urn:cite:croala:latmorph.morph165.1">p-p---nd-</morphcode>
+  <record citeid="morph165">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph165.1">p-p---nd-</morphcode>
     <label>pronomen, pluralis, neutrum, dativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph166" citeurn="urn:cite:croala:latmorph.morph166.1">p-p---ng-</morphcode>
+  <record citeid="morph166">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph166.1">p-p---ng-</morphcode>
     <label>pronomen, pluralis, neutrum, genitivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph167" citeurn="urn:cite:croala:latmorph.morph167.1">p-p---nn-</morphcode>
+  <record citeid="morph167">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph167.1">p-p---nn-</morphcode>
     <label>pronomen, pluralis, neutrum, nominativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph168" citeurn="urn:cite:croala:latmorph.morph168.1">p-s---fa-</morphcode>
+  <record citeid="morph168">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph168.1">p-s---fa-</morphcode>
     <label>pronomen, singularis, femininum, accusativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph169" citeurn="urn:cite:croala:latmorph.morph169.1">p-s---fb-</morphcode>
+  <record citeid="morph169">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph169.1">p-s---fb-</morphcode>
     <label>pronomen, singularis, femininum, ablativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph170" citeurn="urn:cite:croala:latmorph.morph170.1">p-s---fd-</morphcode>
+  <record citeid="morph170">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph170.1">p-s---fd-</morphcode>
     <label>pronomen, singularis, femininum, dativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph171" citeurn="urn:cite:croala:latmorph.morph171.1">p-s---fg-</morphcode>
+  <record citeid="morph171">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph171.1">p-s---fg-</morphcode>
     <label>pronomen, singularis, femininum, genitivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph172" citeurn="urn:cite:croala:latmorph.morph172.1">p-s---fn-</morphcode>
+  <record citeid="morph172">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph172.1">p-s---fn-</morphcode>
     <label>pronomen, singularis, femininum, nominativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph173" citeurn="urn:cite:croala:latmorph.morph173.1">p-s---fv-</morphcode>
+  <record citeid="morph173">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph173.1">p-s---fv-</morphcode>
     <label>pronomen, singularis, femininum, vocativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph174" citeurn="urn:cite:croala:latmorph.morph174.1">p-s---ma-</morphcode>
+  <record citeid="morph174">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph174.1">p-s---ma-</morphcode>
     <label>pronomen, singularis, masculinum, accusativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph175" citeurn="urn:cite:croala:latmorph.morph175.1">p-s---mb-</morphcode>
+  <record citeid="morph175">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph175.1">p-s---mb-</morphcode>
     <label>pronomen, singularis, masculinum, ablativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph176" citeurn="urn:cite:croala:latmorph.morph176.1">p-s---md-</morphcode>
+  <record citeid="morph176">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph176.1">p-s---md-</morphcode>
     <label>pronomen, singularis, masculinum, dativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph177" citeurn="urn:cite:croala:latmorph.morph177.1">p-s---mg-</morphcode>
+  <record citeid="morph177">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph177.1">p-s---mg-</morphcode>
     <label>pronomen, singularis, masculinum, genitivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph178" citeurn="urn:cite:croala:latmorph.morph178.1">p-s---mn-</morphcode>
+  <record citeid="morph178">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph178.1">p-s---mn-</morphcode>
     <label>pronomen, singularis, masculinum, nominativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph179" citeurn="urn:cite:croala:latmorph.morph179.1">p-s---mv-</morphcode>
+  <record citeid="morph179">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph179.1">p-s---mv-</morphcode>
     <label>pronomen, singularis, masculinum, vocativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph180" citeurn="urn:cite:croala:latmorph.morph180.1">p-s---na-</morphcode>
+  <record citeid="morph180">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph180.1">p-s---na-</morphcode>
     <label>pronomen, singularis, neutrum, accusativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph181" citeurn="urn:cite:croala:latmorph.morph181.1">p-s---nb-</morphcode>
+  <record citeid="morph181">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph181.1">p-s---nb-</morphcode>
     <label>pronomen, singularis, neutrum, ablativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph182" citeurn="urn:cite:croala:latmorph.morph182.1">p-s---nd-</morphcode>
+  <record citeid="morph182">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph182.1">p-s---nd-</morphcode>
     <label>pronomen, singularis, neutrum, dativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph183" citeurn="urn:cite:croala:latmorph.morph183.1">p-s---ng-</morphcode>
+  <record citeid="morph183">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph183.1">p-s---ng-</morphcode>
     <label>pronomen, singularis, neutrum, genitivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph184" citeurn="urn:cite:croala:latmorph.morph184.1">p-s---nn-</morphcode>
+  <record citeid="morph184">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph184.1">p-s---nn-</morphcode>
     <label>pronomen, singularis, neutrum, nominativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857057" citeurn="urn:cite:croala:latmorph.morph4857057.1">v-sppamn-</morphcode>
+  <record citeid="morph4857057">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857057.1">v-sppamn-</morphcode>
     <label>participium, praesens activum, singularis, masculinum, nominativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857061" citeurn="urn:cite:croala:latmorph.morph4857061.1">v-sppamg-</morphcode>
+  <record citeid="morph4857061">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857061.1">v-sppamg-</morphcode>
     <label>participium, praesens activum, singularis, masculinum, genitivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857065" citeurn="urn:cite:croala:latmorph.morph4857065.1">v-sppamd-</morphcode>
+  <record citeid="morph4857065">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857065.1">v-sppamd-</morphcode>
     <label>participium, praesens activum, singularis, masculinum, dativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857069" citeurn="urn:cite:croala:latmorph.morph4857069.1">v-sppama-</morphcode>
+  <record citeid="morph4857069">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857069.1">v-sppama-</morphcode>
     <label>participium, praesens activum, singularis, masculinum, accusativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857073" citeurn="urn:cite:croala:latmorph.morph4857073.1">v-sppamv-</morphcode>
+  <record citeid="morph4857073">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857073.1">v-sppamv-</morphcode>
     <label>participium, praesens activum, singularis, masculinum, vocativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857077" citeurn="urn:cite:croala:latmorph.morph4857077.1">v-sppamb-</morphcode>
+  <record citeid="morph4857077">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857077.1">v-sppamb-</morphcode>
     <label>participium, praesens activum, singularis, masculinum, ablativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857081" citeurn="urn:cite:croala:latmorph.morph4857081.1">v-sppafn-</morphcode>
+  <record citeid="morph4857081">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857081.1">v-sppafn-</morphcode>
     <label>participium, praesens activum, singularis, femininum, nominativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857085" citeurn="urn:cite:croala:latmorph.morph4857085.1">v-sppafg-</morphcode>
+  <record citeid="morph4857085">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857085.1">v-sppafg-</morphcode>
     <label>participium, praesens activum, singularis, femininum, genitivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857089" citeurn="urn:cite:croala:latmorph.morph4857089.1">v-sppafd-</morphcode>
+  <record citeid="morph4857089">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857089.1">v-sppafd-</morphcode>
     <label>participium, praesens activum, singularis, femininum, dativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857093" citeurn="urn:cite:croala:latmorph.morph4857093.1">v-sppafa-</morphcode>
+  <record citeid="morph4857093">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857093.1">v-sppafa-</morphcode>
     <label>participium, praesens activum, singularis, femininum, accusativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857097" citeurn="urn:cite:croala:latmorph.morph4857097.1">v-sppafv-</morphcode>
+  <record citeid="morph4857097">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857097.1">v-sppafv-</morphcode>
     <label>participium, praesens activum, singularis, femininum, vocativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857101" citeurn="urn:cite:croala:latmorph.morph4857101.1">v-sppafb-</morphcode>
+  <record citeid="morph4857101">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857101.1">v-sppafb-</morphcode>
     <label>participium, praesens activum, singularis, femininum, ablativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857105" citeurn="urn:cite:croala:latmorph.morph4857105.1">v-sppann-</morphcode>
+  <record citeid="morph4857105">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857105.1">v-sppann-</morphcode>
     <label>participium, praesens activum, singularis, neutrum, nominativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857109" citeurn="urn:cite:croala:latmorph.morph4857109.1">v-sppang-</morphcode>
+  <record citeid="morph4857109">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857109.1">v-sppang-</morphcode>
     <label>participium, praesens activum, singularis, neutrum, genitivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857113" citeurn="urn:cite:croala:latmorph.morph4857113.1">v-sppand-</morphcode>
+  <record citeid="morph4857113">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857113.1">v-sppand-</morphcode>
     <label>participium, praesens activum, singularis, neutrum, dativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857117" citeurn="urn:cite:croala:latmorph.morph4857117.1">v-sppana-</morphcode>
+  <record citeid="morph4857117">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857117.1">v-sppana-</morphcode>
     <label>participium, praesens activum, singularis, neutrum, accusativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857121" citeurn="urn:cite:croala:latmorph.morph4857121.1">v-sppanv-</morphcode>
+  <record citeid="morph4857121">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857121.1">v-sppanv-</morphcode>
     <label>participium, praesens activum, singularis, neutrum, vocativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857125" citeurn="urn:cite:croala:latmorph.morph4857125.1">v-sppanb-</morphcode>
+  <record citeid="morph4857125">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857125.1">v-sppanb-</morphcode>
     <label>participium, praesens activum, singularis, neutrum, ablativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857129" citeurn="urn:cite:croala:latmorph.morph4857129.1">v-pppamn-</morphcode>
+  <record citeid="morph4857129">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857129.1">v-pppamn-</morphcode>
     <label>participium, praesens activum, pluralis, masculinum, nominativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857133" citeurn="urn:cite:croala:latmorph.morph4857133.1">v-pppamg-</morphcode>
+  <record citeid="morph4857133">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857133.1">v-pppamg-</morphcode>
     <label>participium, praesens activum, pluralis, masculinum, genitivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857137" citeurn="urn:cite:croala:latmorph.morph4857137.1">v-pppamd-</morphcode>
+  <record citeid="morph4857137">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857137.1">v-pppamd-</morphcode>
     <label>participium, praesens activum, pluralis, masculinum, dativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857141" citeurn="urn:cite:croala:latmorph.morph4857141.1">v-pppama-</morphcode>
+  <record citeid="morph4857141">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857141.1">v-pppama-</morphcode>
     <label>participium, praesens activum, pluralis, masculinum, accusativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857145" citeurn="urn:cite:croala:latmorph.morph4857145.1">v-pppamv-</morphcode>
+  <record citeid="morph4857145">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857145.1">v-pppamv-</morphcode>
     <label>participium, praesens activum, pluralis, masculinum, vocativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857149" citeurn="urn:cite:croala:latmorph.morph4857149.1">v-pppamb-</morphcode>
+  <record citeid="morph4857149">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857149.1">v-pppamb-</morphcode>
     <label>participium, praesens activum, pluralis, masculinum, ablativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857153" citeurn="urn:cite:croala:latmorph.morph4857153.1">v-pppafn-</morphcode>
+  <record citeid="morph4857153">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857153.1">v-pppafn-</morphcode>
     <label>participium, praesens activum, pluralis, femininum, nominativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857157" citeurn="urn:cite:croala:latmorph.morph4857157.1">v-pppafg-</morphcode>
+  <record citeid="morph4857157">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857157.1">v-pppafg-</morphcode>
     <label>participium, praesens activum, pluralis, femininum, genitivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857161" citeurn="urn:cite:croala:latmorph.morph4857161.1">v-pppafd-</morphcode>
+  <record citeid="morph4857161">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857161.1">v-pppafd-</morphcode>
     <label>participium, praesens activum, pluralis, femininum, dativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857165" citeurn="urn:cite:croala:latmorph.morph4857165.1">v-pppafa-</morphcode>
+  <record citeid="morph4857165">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857165.1">v-pppafa-</morphcode>
     <label>participium, praesens activum, pluralis, femininum, accusativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857169" citeurn="urn:cite:croala:latmorph.morph4857169.1">v-pppafv-</morphcode>
+  <record citeid="morph4857169">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857169.1">v-pppafv-</morphcode>
     <label>participium, praesens activum, pluralis, femininum, vocativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857173" citeurn="urn:cite:croala:latmorph.morph4857173.1">v-pppafb-</morphcode>
+  <record citeid="morph4857173">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857173.1">v-pppafb-</morphcode>
     <label>participium, praesens activum, pluralis, femininum, ablativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857177" citeurn="urn:cite:croala:latmorph.morph4857177.1">v-pppann-</morphcode>
+  <record citeid="morph4857177">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857177.1">v-pppann-</morphcode>
     <label>participium, praesens activum, pluralis, neutrum, nominativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857181" citeurn="urn:cite:croala:latmorph.morph4857181.1">v-pppang-</morphcode>
+  <record citeid="morph4857181">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857181.1">v-pppang-</morphcode>
     <label>participium, praesens activum, pluralis, neutrum, genitivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857185" citeurn="urn:cite:croala:latmorph.morph4857185.1">v-pppand-</morphcode>
+  <record citeid="morph4857185">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857185.1">v-pppand-</morphcode>
     <label>participium, praesens activum, pluralis, neutrum, dativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857189" citeurn="urn:cite:croala:latmorph.morph4857189.1">v-pppana-</morphcode>
+  <record citeid="morph4857189">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857189.1">v-pppana-</morphcode>
     <label>participium, praesens activum, pluralis, neutrum, accusativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857193" citeurn="urn:cite:croala:latmorph.morph4857193.1">v-pppanv-</morphcode>
+  <record citeid="morph4857193">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857193.1">v-pppanv-</morphcode>
     <label>participium, praesens activum, pluralis, neutrum, vocativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857197" citeurn="urn:cite:croala:latmorph.morph4857197.1">v-pppanb-</morphcode>
+  <record citeid="morph4857197">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857197.1">v-pppanb-</morphcode>
     <label>participium, praesens activum, pluralis, neutrum, ablativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857201" citeurn="urn:cite:croala:latmorph.morph4857201.1">v-sppdmn-</morphcode>
+  <record citeid="morph4857201">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857201.1">v-sppdmn-</morphcode>
     <label>participium, praesens deponens, singularis, masculinum, nominativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857205" citeurn="urn:cite:croala:latmorph.morph4857205.1">v-sppdmg-</morphcode>
+  <record citeid="morph4857205">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857205.1">v-sppdmg-</morphcode>
     <label>participium, praesens deponens, singularis, masculinum, genitivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857209" citeurn="urn:cite:croala:latmorph.morph4857209.1">v-sppdmd-</morphcode>
+  <record citeid="morph4857209">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857209.1">v-sppdmd-</morphcode>
     <label>participium, praesens deponens, singularis, masculinum, dativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857213" citeurn="urn:cite:croala:latmorph.morph4857213.1">v-sppdma-</morphcode>
+  <record citeid="morph4857213">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857213.1">v-sppdma-</morphcode>
     <label>participium, praesens deponens, singularis, masculinum, accusativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857217" citeurn="urn:cite:croala:latmorph.morph4857217.1">v-sppdmv-</morphcode>
+  <record citeid="morph4857217">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857217.1">v-sppdmv-</morphcode>
     <label>participium, praesens deponens, singularis, masculinum, vocativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857221" citeurn="urn:cite:croala:latmorph.morph4857221.1">v-sppdmb-</morphcode>
+  <record citeid="morph4857221">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857221.1">v-sppdmb-</morphcode>
     <label>participium, praesens deponens, singularis, masculinum, ablativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857225" citeurn="urn:cite:croala:latmorph.morph4857225.1">v-sppdfn-</morphcode>
+  <record citeid="morph4857225">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857225.1">v-sppdfn-</morphcode>
     <label>participium, praesens deponens, singularis, femininum, nominativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857229" citeurn="urn:cite:croala:latmorph.morph4857229.1">v-sppdfg-</morphcode>
+  <record citeid="morph4857229">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857229.1">v-sppdfg-</morphcode>
     <label>participium, praesens deponens, singularis, femininum, genitivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857233" citeurn="urn:cite:croala:latmorph.morph4857233.1">v-sppdfd-</morphcode>
+  <record citeid="morph4857233">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857233.1">v-sppdfd-</morphcode>
     <label>participium, praesens deponens, singularis, femininum, dativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857237" citeurn="urn:cite:croala:latmorph.morph4857237.1">v-sppdfa-</morphcode>
+  <record citeid="morph4857237">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857237.1">v-sppdfa-</morphcode>
     <label>participium, praesens deponens, singularis, femininum, accusativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857241" citeurn="urn:cite:croala:latmorph.morph4857241.1">v-sppdfv-</morphcode>
+  <record citeid="morph4857241">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857241.1">v-sppdfv-</morphcode>
     <label>participium, praesens deponens, singularis, femininum, vocativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857245" citeurn="urn:cite:croala:latmorph.morph4857245.1">v-sppdfb-</morphcode>
+  <record citeid="morph4857245">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857245.1">v-sppdfb-</morphcode>
     <label>participium, praesens deponens, singularis, femininum, ablativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857249" citeurn="urn:cite:croala:latmorph.morph4857249.1">v-sppdnn-</morphcode>
+  <record citeid="morph4857249">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857249.1">v-sppdnn-</morphcode>
     <label>participium, praesens deponens, singularis, neutrum, nominativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857253" citeurn="urn:cite:croala:latmorph.morph4857253.1">v-sppdng-</morphcode>
+  <record citeid="morph4857253">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857253.1">v-sppdng-</morphcode>
     <label>participium, praesens deponens, singularis, neutrum, genitivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857257" citeurn="urn:cite:croala:latmorph.morph4857257.1">v-sppdnd-</morphcode>
+  <record citeid="morph4857257">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857257.1">v-sppdnd-</morphcode>
     <label>participium, praesens deponens, singularis, neutrum, dativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857261" citeurn="urn:cite:croala:latmorph.morph4857261.1">v-sppdna-</morphcode>
+  <record citeid="morph4857261">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857261.1">v-sppdna-</morphcode>
     <label>participium, praesens deponens, singularis, neutrum, accusativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857265" citeurn="urn:cite:croala:latmorph.morph4857265.1">v-sppdnv-</morphcode>
+  <record citeid="morph4857265">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857265.1">v-sppdnv-</morphcode>
     <label>participium, praesens deponens, singularis, neutrum, vocativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857269" citeurn="urn:cite:croala:latmorph.morph4857269.1">v-sppdnb-</morphcode>
+  <record citeid="morph4857269">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857269.1">v-sppdnb-</morphcode>
     <label>participium, praesens deponens, singularis, neutrum, ablativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857273" citeurn="urn:cite:croala:latmorph.morph4857273.1">v-pppdmn-</morphcode>
+  <record citeid="morph4857273">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857273.1">v-pppdmn-</morphcode>
     <label>participium, praesens deponens, pluralis, masculinum, nominativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857277" citeurn="urn:cite:croala:latmorph.morph4857277.1">v-pppdmg-</morphcode>
+  <record citeid="morph4857277">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857277.1">v-pppdmg-</morphcode>
     <label>participium, praesens deponens, pluralis, masculinum, genitivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857281" citeurn="urn:cite:croala:latmorph.morph4857281.1">v-pppdmd-</morphcode>
+  <record citeid="morph4857281">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857281.1">v-pppdmd-</morphcode>
     <label>participium, praesens deponens, pluralis, masculinum, dativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857285" citeurn="urn:cite:croala:latmorph.morph4857285.1">v-pppdma-</morphcode>
+  <record citeid="morph4857285">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857285.1">v-pppdma-</morphcode>
     <label>participium, praesens deponens, pluralis, masculinum, accusativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857289" citeurn="urn:cite:croala:latmorph.morph4857289.1">v-pppdmv-</morphcode>
+  <record citeid="morph4857289">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857289.1">v-pppdmv-</morphcode>
     <label>participium, praesens deponens, pluralis, masculinum, vocativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857293" citeurn="urn:cite:croala:latmorph.morph4857293.1">v-pppdmb-</morphcode>
+  <record citeid="morph4857293">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857293.1">v-pppdmb-</morphcode>
     <label>participium, praesens deponens, pluralis, masculinum, ablativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857297" citeurn="urn:cite:croala:latmorph.morph4857297.1">v-pppdfn-</morphcode>
+  <record citeid="morph4857297">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857297.1">v-pppdfn-</morphcode>
     <label>participium, praesens deponens, pluralis, femininum, nominativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857301" citeurn="urn:cite:croala:latmorph.morph4857301.1">v-pppdfg-</morphcode>
+  <record citeid="morph4857301">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857301.1">v-pppdfg-</morphcode>
     <label>participium, praesens deponens, pluralis, femininum, genitivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857305" citeurn="urn:cite:croala:latmorph.morph4857305.1">v-pppdfd-</morphcode>
+  <record citeid="morph4857305">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857305.1">v-pppdfd-</morphcode>
     <label>participium, praesens deponens, pluralis, femininum, dativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857309" citeurn="urn:cite:croala:latmorph.morph4857309.1">v-pppdfa-</morphcode>
+  <record citeid="morph4857309">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857309.1">v-pppdfa-</morphcode>
     <label>participium, praesens deponens, pluralis, femininum, accusativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857313" citeurn="urn:cite:croala:latmorph.morph4857313.1">v-pppdfv-</morphcode>
+  <record citeid="morph4857313">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857313.1">v-pppdfv-</morphcode>
     <label>participium, praesens deponens, pluralis, femininum, vocativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857317" citeurn="urn:cite:croala:latmorph.morph4857317.1">v-pppdfb-</morphcode>
+  <record citeid="morph4857317">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857317.1">v-pppdfb-</morphcode>
     <label>participium, praesens deponens, pluralis, femininum, ablativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857321" citeurn="urn:cite:croala:latmorph.morph4857321.1">v-pppdnn-</morphcode>
+  <record citeid="morph4857321">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857321.1">v-pppdnn-</morphcode>
     <label>participium, praesens deponens, pluralis, neutrum, nominativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857325" citeurn="urn:cite:croala:latmorph.morph4857325.1">v-pppdng-</morphcode>
+  <record citeid="morph4857325">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857325.1">v-pppdng-</morphcode>
     <label>participium, praesens deponens, pluralis, neutrum, genitivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857329" citeurn="urn:cite:croala:latmorph.morph4857329.1">v-pppdnd-</morphcode>
+  <record citeid="morph4857329">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857329.1">v-pppdnd-</morphcode>
     <label>participium, praesens deponens, pluralis, neutrum, dativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857333" citeurn="urn:cite:croala:latmorph.morph4857333.1">v-pppdna-</morphcode>
+  <record citeid="morph4857333">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857333.1">v-pppdna-</morphcode>
     <label>participium, praesens deponens, pluralis, neutrum, accusativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857337" citeurn="urn:cite:croala:latmorph.morph4857337.1">v-pppdnv-</morphcode>
+  <record citeid="morph4857337">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857337.1">v-pppdnv-</morphcode>
     <label>participium, praesens deponens, pluralis, neutrum, vocativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857341" citeurn="urn:cite:croala:latmorph.morph4857341.1">v-pppdnb-</morphcode>
+  <record citeid="morph4857341">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857341.1">v-pppdnb-</morphcode>
     <label>participium, praesens deponens, pluralis, neutrum, ablativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857345" citeurn="urn:cite:croala:latmorph.morph4857345.1">v-srpdmn-</morphcode>
+  <record citeid="morph4857345">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857345.1">v-srpdmn-</morphcode>
     <label>participium, perfectum deponens, singularis, masculinum, nominativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857349" citeurn="urn:cite:croala:latmorph.morph4857349.1">v-srpdmg-</morphcode>
+  <record citeid="morph4857349">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857349.1">v-srpdmg-</morphcode>
     <label>participium, perfectum deponens, singularis, masculinum, genitivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857353" citeurn="urn:cite:croala:latmorph.morph4857353.1">v-srpdmd-</morphcode>
+  <record citeid="morph4857353">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857353.1">v-srpdmd-</morphcode>
     <label>participium, perfectum deponens, singularis, masculinum, dativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857357" citeurn="urn:cite:croala:latmorph.morph4857357.1">v-srpdma-</morphcode>
+  <record citeid="morph4857357">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857357.1">v-srpdma-</morphcode>
     <label>participium, perfectum deponens, singularis, masculinum, accusativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857361" citeurn="urn:cite:croala:latmorph.morph4857361.1">v-srpdmv-</morphcode>
+  <record citeid="morph4857361">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857361.1">v-srpdmv-</morphcode>
     <label>participium, perfectum deponens, singularis, masculinum, vocativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857365" citeurn="urn:cite:croala:latmorph.morph4857365.1">v-srpdmb-</morphcode>
+  <record citeid="morph4857365">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857365.1">v-srpdmb-</morphcode>
     <label>participium, perfectum deponens, singularis, masculinum, ablativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857369" citeurn="urn:cite:croala:latmorph.morph4857369.1">v-srpdfn-</morphcode>
+  <record citeid="morph4857369">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857369.1">v-srpdfn-</morphcode>
     <label>participium, perfectum deponens, singularis, femininum, nominativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857373" citeurn="urn:cite:croala:latmorph.morph4857373.1">v-srpdfg-</morphcode>
+  <record citeid="morph4857373">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857373.1">v-srpdfg-</morphcode>
     <label>participium, perfectum deponens, singularis, femininum, genitivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857377" citeurn="urn:cite:croala:latmorph.morph4857377.1">v-srpdfd-</morphcode>
+  <record citeid="morph4857377">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857377.1">v-srpdfd-</morphcode>
     <label>participium, perfectum deponens, singularis, femininum, dativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857381" citeurn="urn:cite:croala:latmorph.morph4857381.1">v-srpdfa-</morphcode>
+  <record citeid="morph4857381">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857381.1">v-srpdfa-</morphcode>
     <label>participium, perfectum deponens, singularis, femininum, accusativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857385" citeurn="urn:cite:croala:latmorph.morph4857385.1">v-srpdfv-</morphcode>
+  <record citeid="morph4857385">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857385.1">v-srpdfv-</morphcode>
     <label>participium, perfectum deponens, singularis, femininum, vocativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857389" citeurn="urn:cite:croala:latmorph.morph4857389.1">v-srpdfb-</morphcode>
+  <record citeid="morph4857389">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857389.1">v-srpdfb-</morphcode>
     <label>participium, perfectum deponens, singularis, femininum, ablativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857393" citeurn="urn:cite:croala:latmorph.morph4857393.1">v-srpdnn-</morphcode>
+  <record citeid="morph4857393">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857393.1">v-srpdnn-</morphcode>
     <label>participium, perfectum deponens, singularis, neutrum, nominativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857397" citeurn="urn:cite:croala:latmorph.morph4857397.1">v-srpdng-</morphcode>
+  <record citeid="morph4857397">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857397.1">v-srpdng-</morphcode>
     <label>participium, perfectum deponens, singularis, neutrum, genitivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857401" citeurn="urn:cite:croala:latmorph.morph4857401.1">v-srpdnd-</morphcode>
+  <record citeid="morph4857401">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857401.1">v-srpdnd-</morphcode>
     <label>participium, perfectum deponens, singularis, neutrum, dativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857405" citeurn="urn:cite:croala:latmorph.morph4857405.1">v-srpdna-</morphcode>
+  <record citeid="morph4857405">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857405.1">v-srpdna-</morphcode>
     <label>participium, perfectum deponens, singularis, neutrum, accusativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857409" citeurn="urn:cite:croala:latmorph.morph4857409.1">v-srpdnv-</morphcode>
+  <record citeid="morph4857409">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857409.1">v-srpdnv-</morphcode>
     <label>participium, perfectum deponens, singularis, neutrum, vocativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857413" citeurn="urn:cite:croala:latmorph.morph4857413.1">v-srpdnb-</morphcode>
+  <record citeid="morph4857413">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857413.1">v-srpdnb-</morphcode>
     <label>participium, perfectum deponens, singularis, neutrum, ablativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857417" citeurn="urn:cite:croala:latmorph.morph4857417.1">v-prpdmn-</morphcode>
+  <record citeid="morph4857417">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857417.1">v-prpdmn-</morphcode>
     <label>participium, perfectum deponens, pluralis, masculinum, nominativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857421" citeurn="urn:cite:croala:latmorph.morph4857421.1">v-prpdmg-</morphcode>
+  <record citeid="morph4857421">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857421.1">v-prpdmg-</morphcode>
     <label>participium, perfectum deponens, pluralis, masculinum, genitivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857425" citeurn="urn:cite:croala:latmorph.morph4857425.1">v-prpdmd-</morphcode>
+  <record citeid="morph4857425">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857425.1">v-prpdmd-</morphcode>
     <label>participium, perfectum deponens, pluralis, masculinum, dativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857429" citeurn="urn:cite:croala:latmorph.morph4857429.1">v-prpdma-</morphcode>
+  <record citeid="morph4857429">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857429.1">v-prpdma-</morphcode>
     <label>participium, perfectum deponens, pluralis, masculinum, accusativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857433" citeurn="urn:cite:croala:latmorph.morph4857433.1">v-prpdmv-</morphcode>
+  <record citeid="morph4857433">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857433.1">v-prpdmv-</morphcode>
     <label>participium, perfectum deponens, pluralis, masculinum, vocativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857437" citeurn="urn:cite:croala:latmorph.morph4857437.1">v-prpdmb-</morphcode>
+  <record citeid="morph4857437">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857437.1">v-prpdmb-</morphcode>
     <label>participium, perfectum deponens, pluralis, masculinum, ablativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857441" citeurn="urn:cite:croala:latmorph.morph4857441.1">v-prpdfn-</morphcode>
+  <record citeid="morph4857441">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857441.1">v-prpdfn-</morphcode>
     <label>participium, perfectum deponens, pluralis, femininum, nominativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857445" citeurn="urn:cite:croala:latmorph.morph4857445.1">v-prpdfg-</morphcode>
+  <record citeid="morph4857445">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857445.1">v-prpdfg-</morphcode>
     <label>participium, perfectum deponens, pluralis, femininum, genitivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857449" citeurn="urn:cite:croala:latmorph.morph4857449.1">v-prpdfd-</morphcode>
+  <record citeid="morph4857449">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857449.1">v-prpdfd-</morphcode>
     <label>participium, perfectum deponens, pluralis, femininum, dativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857453" citeurn="urn:cite:croala:latmorph.morph4857453.1">v-prpdfa-</morphcode>
+  <record citeid="morph4857453">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857453.1">v-prpdfa-</morphcode>
     <label>participium, perfectum deponens, pluralis, femininum, accusativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857457" citeurn="urn:cite:croala:latmorph.morph4857457.1">v-prpdfv-</morphcode>
+  <record citeid="morph4857457">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857457.1">v-prpdfv-</morphcode>
     <label>participium, perfectum deponens, pluralis, femininum, vocativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857461" citeurn="urn:cite:croala:latmorph.morph4857461.1">v-prpdfb-</morphcode>
+  <record citeid="morph4857461">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857461.1">v-prpdfb-</morphcode>
     <label>participium, perfectum deponens, pluralis, femininum, ablativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857465" citeurn="urn:cite:croala:latmorph.morph4857465.1">v-prpdnn-</morphcode>
+  <record citeid="morph4857465">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857465.1">v-prpdnn-</morphcode>
     <label>participium, perfectum deponens, pluralis, neutrum, nominativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857469" citeurn="urn:cite:croala:latmorph.morph4857469.1">v-prpdng-</morphcode>
+  <record citeid="morph4857469">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857469.1">v-prpdng-</morphcode>
     <label>participium, perfectum deponens, pluralis, neutrum, genitivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857473" citeurn="urn:cite:croala:latmorph.morph4857473.1">v-prpdnd-</morphcode>
+  <record citeid="morph4857473">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857473.1">v-prpdnd-</morphcode>
     <label>participium, perfectum deponens, pluralis, neutrum, dativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857477" citeurn="urn:cite:croala:latmorph.morph4857477.1">v-prpdna-</morphcode>
+  <record citeid="morph4857477">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857477.1">v-prpdna-</morphcode>
     <label>participium, perfectum deponens, pluralis, neutrum, accusativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857481" citeurn="urn:cite:croala:latmorph.morph4857481.1">v-prpdnv-</morphcode>
+  <record citeid="morph4857481">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857481.1">v-prpdnv-</morphcode>
     <label>participium, perfectum deponens, pluralis, neutrum, vocativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857485" citeurn="urn:cite:croala:latmorph.morph4857485.1">v-prpdnb-</morphcode>
+  <record citeid="morph4857485">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857485.1">v-prpdnb-</morphcode>
     <label>participium, perfectum deponens, pluralis, neutrum, ablativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857489" citeurn="urn:cite:croala:latmorph.morph4857489.1">v-srppmn-</morphcode>
+  <record citeid="morph4857489">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857489.1">v-srppmn-</morphcode>
     <label>participium, perfectum passivum, singularis, masculinum, nominativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857493" citeurn="urn:cite:croala:latmorph.morph4857493.1">v-srppmg-</morphcode>
+  <record citeid="morph4857493">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857493.1">v-srppmg-</morphcode>
     <label>participium, perfectum passivum, singularis, masculinum, genitivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857497" citeurn="urn:cite:croala:latmorph.morph4857497.1">v-srppmd-</morphcode>
+  <record citeid="morph4857497">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857497.1">v-srppmd-</morphcode>
     <label>participium, perfectum passivum, singularis, masculinum, dativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857501" citeurn="urn:cite:croala:latmorph.morph4857501.1">v-srppma-</morphcode>
+  <record citeid="morph4857501">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857501.1">v-srppma-</morphcode>
     <label>participium, perfectum passivum, singularis, masculinum, accusativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857505" citeurn="urn:cite:croala:latmorph.morph4857505.1">v-srppmv-</morphcode>
+  <record citeid="morph4857505">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857505.1">v-srppmv-</morphcode>
     <label>participium, perfectum passivum, singularis, masculinum, vocativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857509" citeurn="urn:cite:croala:latmorph.morph4857509.1">v-srppmb-</morphcode>
+  <record citeid="morph4857509">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857509.1">v-srppmb-</morphcode>
     <label>participium, perfectum passivum, singularis, masculinum, ablativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857513" citeurn="urn:cite:croala:latmorph.morph4857513.1">v-srppfn-</morphcode>
+  <record citeid="morph4857513">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857513.1">v-srppfn-</morphcode>
     <label>participium, perfectum passivum, singularis, femininum, nominativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857517" citeurn="urn:cite:croala:latmorph.morph4857517.1">v-srppfg-</morphcode>
+  <record citeid="morph4857517">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857517.1">v-srppfg-</morphcode>
     <label>participium, perfectum passivum, singularis, femininum, genitivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857521" citeurn="urn:cite:croala:latmorph.morph4857521.1">v-srppfd-</morphcode>
+  <record citeid="morph4857521">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857521.1">v-srppfd-</morphcode>
     <label>participium, perfectum passivum, singularis, femininum, dativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857525" citeurn="urn:cite:croala:latmorph.morph4857525.1">v-srppfa-</morphcode>
+  <record citeid="morph4857525">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857525.1">v-srppfa-</morphcode>
     <label>participium, perfectum passivum, singularis, femininum, accusativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857529" citeurn="urn:cite:croala:latmorph.morph4857529.1">v-srppfv-</morphcode>
+  <record citeid="morph4857529">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857529.1">v-srppfv-</morphcode>
     <label>participium, perfectum passivum, singularis, femininum, vocativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857533" citeurn="urn:cite:croala:latmorph.morph4857533.1">v-srppfb-</morphcode>
+  <record citeid="morph4857533">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857533.1">v-srppfb-</morphcode>
     <label>participium, perfectum passivum, singularis, femininum, ablativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857537" citeurn="urn:cite:croala:latmorph.morph4857537.1">v-srppnn-</morphcode>
+  <record citeid="morph4857537">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857537.1">v-srppnn-</morphcode>
     <label>participium, perfectum passivum, singularis, neutrum, nominativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857541" citeurn="urn:cite:croala:latmorph.morph4857541.1">v-srppng-</morphcode>
+  <record citeid="morph4857541">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857541.1">v-srppng-</morphcode>
     <label>participium, perfectum passivum, singularis, neutrum, genitivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857545" citeurn="urn:cite:croala:latmorph.morph4857545.1">v-srppnd-</morphcode>
+  <record citeid="morph4857545">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857545.1">v-srppnd-</morphcode>
     <label>participium, perfectum passivum, singularis, neutrum, dativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857549" citeurn="urn:cite:croala:latmorph.morph4857549.1">v-srppna-</morphcode>
+  <record citeid="morph4857549">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857549.1">v-srppna-</morphcode>
     <label>participium, perfectum passivum, singularis, neutrum, accusativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857553" citeurn="urn:cite:croala:latmorph.morph4857553.1">v-srppnv-</morphcode>
+  <record citeid="morph4857553">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857553.1">v-srppnv-</morphcode>
     <label>participium, perfectum passivum, singularis, neutrum, vocativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857557" citeurn="urn:cite:croala:latmorph.morph4857557.1">v-srppnb-</morphcode>
+  <record citeid="morph4857557">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857557.1">v-srppnb-</morphcode>
     <label>participium, perfectum passivum, singularis, neutrum, ablativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857561" citeurn="urn:cite:croala:latmorph.morph4857561.1">v-prppmn-</morphcode>
+  <record citeid="morph4857561">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857561.1">v-prppmn-</morphcode>
     <label>participium, perfectum passivum, pluralis, masculinum, nominativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857565" citeurn="urn:cite:croala:latmorph.morph4857565.1">v-prppmg-</morphcode>
+  <record citeid="morph4857565">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857565.1">v-prppmg-</morphcode>
     <label>participium, perfectum passivum, pluralis, masculinum, genitivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857569" citeurn="urn:cite:croala:latmorph.morph4857569.1">v-prppmd-</morphcode>
+  <record citeid="morph4857569">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857569.1">v-prppmd-</morphcode>
     <label>participium, perfectum passivum, pluralis, masculinum, dativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857573" citeurn="urn:cite:croala:latmorph.morph4857573.1">v-prppma-</morphcode>
+  <record citeid="morph4857573">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857573.1">v-prppma-</morphcode>
     <label>participium, perfectum passivum, pluralis, masculinum, accusativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857577" citeurn="urn:cite:croala:latmorph.morph4857577.1">v-prppmv-</morphcode>
+  <record citeid="morph4857577">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857577.1">v-prppmv-</morphcode>
     <label>participium, perfectum passivum, pluralis, masculinum, vocativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857581" citeurn="urn:cite:croala:latmorph.morph4857581.1">v-prppmb-</morphcode>
+  <record citeid="morph4857581">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857581.1">v-prppmb-</morphcode>
     <label>participium, perfectum passivum, pluralis, masculinum, ablativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857585" citeurn="urn:cite:croala:latmorph.morph4857585.1">v-prppfn-</morphcode>
+  <record citeid="morph4857585">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857585.1">v-prppfn-</morphcode>
     <label>participium, perfectum passivum, pluralis, femininum, nominativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857589" citeurn="urn:cite:croala:latmorph.morph4857589.1">v-prppfg-</morphcode>
+  <record citeid="morph4857589">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857589.1">v-prppfg-</morphcode>
     <label>participium, perfectum passivum, pluralis, femininum, genitivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857593" citeurn="urn:cite:croala:latmorph.morph4857593.1">v-prppfd-</morphcode>
+  <record citeid="morph4857593">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857593.1">v-prppfd-</morphcode>
     <label>participium, perfectum passivum, pluralis, femininum, dativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857597" citeurn="urn:cite:croala:latmorph.morph4857597.1">v-prppfa-</morphcode>
+  <record citeid="morph4857597">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857597.1">v-prppfa-</morphcode>
     <label>participium, perfectum passivum, pluralis, femininum, accusativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857601" citeurn="urn:cite:croala:latmorph.morph4857601.1">v-prppfv-</morphcode>
+  <record citeid="morph4857601">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857601.1">v-prppfv-</morphcode>
     <label>participium, perfectum passivum, pluralis, femininum, vocativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857605" citeurn="urn:cite:croala:latmorph.morph4857605.1">v-prppfb-</morphcode>
+  <record citeid="morph4857605">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857605.1">v-prppfb-</morphcode>
     <label>participium, perfectum passivum, pluralis, femininum, ablativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857609" citeurn="urn:cite:croala:latmorph.morph4857609.1">v-prppnn-</morphcode>
+  <record citeid="morph4857609">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857609.1">v-prppnn-</morphcode>
     <label>participium, perfectum passivum, pluralis, neutrum, nominativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857613" citeurn="urn:cite:croala:latmorph.morph4857613.1">v-prppng-</morphcode>
+  <record citeid="morph4857613">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857613.1">v-prppng-</morphcode>
     <label>participium, perfectum passivum, pluralis, neutrum, genitivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857617" citeurn="urn:cite:croala:latmorph.morph4857617.1">v-prppnd-</morphcode>
+  <record citeid="morph4857617">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857617.1">v-prppnd-</morphcode>
     <label>participium, perfectum passivum, pluralis, neutrum, dativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857621" citeurn="urn:cite:croala:latmorph.morph4857621.1">v-prppna-</morphcode>
+  <record citeid="morph4857621">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857621.1">v-prppna-</morphcode>
     <label>participium, perfectum passivum, pluralis, neutrum, accusativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857625" citeurn="urn:cite:croala:latmorph.morph4857625.1">v-prppnv-</morphcode>
+  <record citeid="morph4857625">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857625.1">v-prppnv-</morphcode>
     <label>participium, perfectum passivum, pluralis, neutrum, vocativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857629" citeurn="urn:cite:croala:latmorph.morph4857629.1">v-prppnb-</morphcode>
+  <record citeid="morph4857629">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857629.1">v-prppnb-</morphcode>
     <label>participium, perfectum passivum, pluralis, neutrum, ablativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857633" citeurn="urn:cite:croala:latmorph.morph4857633.1">v-sfpamn-</morphcode>
+  <record citeid="morph4857633">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857633.1">v-sfpamn-</morphcode>
     <label>participium, futurum activum, singularis, masculinum, nominativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857637" citeurn="urn:cite:croala:latmorph.morph4857637.1">v-sfpamg-</morphcode>
+  <record citeid="morph4857637">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857637.1">v-sfpamg-</morphcode>
     <label>participium, futurum activum, singularis, masculinum, genitivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857641" citeurn="urn:cite:croala:latmorph.morph4857641.1">v-sfpamd-</morphcode>
+  <record citeid="morph4857641">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857641.1">v-sfpamd-</morphcode>
     <label>participium, futurum activum, singularis, masculinum, dativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857645" citeurn="urn:cite:croala:latmorph.morph4857645.1">v-sfpama-</morphcode>
+  <record citeid="morph4857645">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857645.1">v-sfpama-</morphcode>
     <label>participium, futurum activum, singularis, masculinum, accusativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857649" citeurn="urn:cite:croala:latmorph.morph4857649.1">v-sfpamv-</morphcode>
+  <record citeid="morph4857649">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857649.1">v-sfpamv-</morphcode>
     <label>participium, futurum activum, singularis, masculinum, vocativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857653" citeurn="urn:cite:croala:latmorph.morph4857653.1">v-sfpamb-</morphcode>
+  <record citeid="morph4857653">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857653.1">v-sfpamb-</morphcode>
     <label>participium, futurum activum, singularis, masculinum, ablativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857657" citeurn="urn:cite:croala:latmorph.morph4857657.1">v-sfpafn-</morphcode>
+  <record citeid="morph4857657">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857657.1">v-sfpafn-</morphcode>
     <label>participium, futurum activum, singularis, femininum, nominativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857661" citeurn="urn:cite:croala:latmorph.morph4857661.1">v-sfpafg-</morphcode>
+  <record citeid="morph4857661">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857661.1">v-sfpafg-</morphcode>
     <label>participium, futurum activum, singularis, femininum, genitivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857665" citeurn="urn:cite:croala:latmorph.morph4857665.1">v-sfpafd-</morphcode>
+  <record citeid="morph4857665">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857665.1">v-sfpafd-</morphcode>
     <label>participium, futurum activum, singularis, femininum, dativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857669" citeurn="urn:cite:croala:latmorph.morph4857669.1">v-sfpafa-</morphcode>
+  <record citeid="morph4857669">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857669.1">v-sfpafa-</morphcode>
     <label>participium, futurum activum, singularis, femininum, accusativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857673" citeurn="urn:cite:croala:latmorph.morph4857673.1">v-sfpafv-</morphcode>
+  <record citeid="morph4857673">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857673.1">v-sfpafv-</morphcode>
     <label>participium, futurum activum, singularis, femininum, vocativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857677" citeurn="urn:cite:croala:latmorph.morph4857677.1">v-sfpafb-</morphcode>
+  <record citeid="morph4857677">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857677.1">v-sfpafb-</morphcode>
     <label>participium, futurum activum, singularis, femininum, ablativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857681" citeurn="urn:cite:croala:latmorph.morph4857681.1">v-sfpann-</morphcode>
+  <record citeid="morph4857681">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857681.1">v-sfpann-</morphcode>
     <label>participium, futurum activum, singularis, neutrum, nominativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857685" citeurn="urn:cite:croala:latmorph.morph4857685.1">v-sfpang-</morphcode>
+  <record citeid="morph4857685">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857685.1">v-sfpang-</morphcode>
     <label>participium, futurum activum, singularis, neutrum, genitivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857689" citeurn="urn:cite:croala:latmorph.morph4857689.1">v-sfpand-</morphcode>
+  <record citeid="morph4857689">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857689.1">v-sfpand-</morphcode>
     <label>participium, futurum activum, singularis, neutrum, dativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857693" citeurn="urn:cite:croala:latmorph.morph4857693.1">v-sfpana-</morphcode>
+  <record citeid="morph4857693">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857693.1">v-sfpana-</morphcode>
     <label>participium, futurum activum, singularis, neutrum, accusativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857697" citeurn="urn:cite:croala:latmorph.morph4857697.1">v-sfpanv-</morphcode>
+  <record citeid="morph4857697">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857697.1">v-sfpanv-</morphcode>
     <label>participium, futurum activum, singularis, neutrum, vocativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857701" citeurn="urn:cite:croala:latmorph.morph4857701.1">v-sfpanb-</morphcode>
+  <record citeid="morph4857701">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857701.1">v-sfpanb-</morphcode>
     <label>participium, futurum activum, singularis, neutrum, ablativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857705" citeurn="urn:cite:croala:latmorph.morph4857705.1">v-pfpamn-</morphcode>
+  <record citeid="morph4857705">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857705.1">v-pfpamn-</morphcode>
     <label>participium, futurum activum, pluralis, masculinum, nominativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857709" citeurn="urn:cite:croala:latmorph.morph4857709.1">v-pfpamg-</morphcode>
+  <record citeid="morph4857709">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857709.1">v-pfpamg-</morphcode>
     <label>participium, futurum activum, pluralis, masculinum, genitivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857713" citeurn="urn:cite:croala:latmorph.morph4857713.1">v-pfpamd-</morphcode>
+  <record citeid="morph4857713">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857713.1">v-pfpamd-</morphcode>
     <label>participium, futurum activum, pluralis, masculinum, dativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857717" citeurn="urn:cite:croala:latmorph.morph4857717.1">v-pfpama-</morphcode>
+  <record citeid="morph4857717">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857717.1">v-pfpama-</morphcode>
     <label>participium, futurum activum, pluralis, masculinum, accusativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857721" citeurn="urn:cite:croala:latmorph.morph4857721.1">v-pfpamv-</morphcode>
+  <record citeid="morph4857721">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857721.1">v-pfpamv-</morphcode>
     <label>participium, futurum activum, pluralis, masculinum, vocativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857725" citeurn="urn:cite:croala:latmorph.morph4857725.1">v-pfpamb-</morphcode>
+  <record citeid="morph4857725">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857725.1">v-pfpamb-</morphcode>
     <label>participium, futurum activum, pluralis, masculinum, ablativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857729" citeurn="urn:cite:croala:latmorph.morph4857729.1">v-pfpafn-</morphcode>
+  <record citeid="morph4857729">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857729.1">v-pfpafn-</morphcode>
     <label>participium, futurum activum, pluralis, femininum, nominativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857733" citeurn="urn:cite:croala:latmorph.morph4857733.1">v-pfpafg-</morphcode>
+  <record citeid="morph4857733">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857733.1">v-pfpafg-</morphcode>
     <label>participium, futurum activum, pluralis, femininum, genitivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857737" citeurn="urn:cite:croala:latmorph.morph4857737.1">v-pfpafd-</morphcode>
+  <record citeid="morph4857737">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857737.1">v-pfpafd-</morphcode>
     <label>participium, futurum activum, pluralis, femininum, dativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857741" citeurn="urn:cite:croala:latmorph.morph4857741.1">v-pfpafa-</morphcode>
+  <record citeid="morph4857741">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857741.1">v-pfpafa-</morphcode>
     <label>participium, futurum activum, pluralis, femininum, accusativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857745" citeurn="urn:cite:croala:latmorph.morph4857745.1">v-pfpafv-</morphcode>
+  <record citeid="morph4857745">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857745.1">v-pfpafv-</morphcode>
     <label>participium, futurum activum, pluralis, femininum, vocativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857749" citeurn="urn:cite:croala:latmorph.morph4857749.1">v-pfpafb-</morphcode>
+  <record citeid="morph4857749">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857749.1">v-pfpafb-</morphcode>
     <label>participium, futurum activum, pluralis, femininum, ablativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857753" citeurn="urn:cite:croala:latmorph.morph4857753.1">v-pfpann-</morphcode>
+  <record citeid="morph4857753">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857753.1">v-pfpann-</morphcode>
     <label>participium, futurum activum, pluralis, neutrum, nominativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857757" citeurn="urn:cite:croala:latmorph.morph4857757.1">v-pfpang-</morphcode>
+  <record citeid="morph4857757">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857757.1">v-pfpang-</morphcode>
     <label>participium, futurum activum, pluralis, neutrum, genitivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857761" citeurn="urn:cite:croala:latmorph.morph4857761.1">v-pfpand-</morphcode>
+  <record citeid="morph4857761">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857761.1">v-pfpand-</morphcode>
     <label>participium, futurum activum, pluralis, neutrum, dativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857765" citeurn="urn:cite:croala:latmorph.morph4857765.1">v-pfpana-</morphcode>
+  <record citeid="morph4857765">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857765.1">v-pfpana-</morphcode>
     <label>participium, futurum activum, pluralis, neutrum, accusativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857769" citeurn="urn:cite:croala:latmorph.morph4857769.1">v-pfpanv-</morphcode>
+  <record citeid="morph4857769">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857769.1">v-pfpanv-</morphcode>
     <label>participium, futurum activum, pluralis, neutrum, vocativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857773" citeurn="urn:cite:croala:latmorph.morph4857773.1">v-pfpanb-</morphcode>
+  <record citeid="morph4857773">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857773.1">v-pfpanb-</morphcode>
     <label>participium, futurum activum, pluralis, neutrum, ablativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857777" citeurn="urn:cite:croala:latmorph.morph4857777.1">v-sfpdmn-</morphcode>
+  <record citeid="morph4857777">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857777.1">v-sfpdmn-</morphcode>
     <label>participium, futurum deponens, singularis, masculinum, nominativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857781" citeurn="urn:cite:croala:latmorph.morph4857781.1">v-sfpdmg-</morphcode>
+  <record citeid="morph4857781">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857781.1">v-sfpdmg-</morphcode>
     <label>participium, futurum deponens, singularis, masculinum, genitivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857785" citeurn="urn:cite:croala:latmorph.morph4857785.1">v-sfpdmd-</morphcode>
+  <record citeid="morph4857785">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857785.1">v-sfpdmd-</morphcode>
     <label>participium, futurum deponens, singularis, masculinum, dativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857789" citeurn="urn:cite:croala:latmorph.morph4857789.1">v-sfpdma-</morphcode>
+  <record citeid="morph4857789">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857789.1">v-sfpdma-</morphcode>
     <label>participium, futurum deponens, singularis, masculinum, accusativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857793" citeurn="urn:cite:croala:latmorph.morph4857793.1">v-sfpdmv-</morphcode>
+  <record citeid="morph4857793">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857793.1">v-sfpdmv-</morphcode>
     <label>participium, futurum deponens, singularis, masculinum, vocativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857797" citeurn="urn:cite:croala:latmorph.morph4857797.1">v-sfpdmb-</morphcode>
+  <record citeid="morph4857797">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857797.1">v-sfpdmb-</morphcode>
     <label>participium, futurum deponens, singularis, masculinum, ablativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857801" citeurn="urn:cite:croala:latmorph.morph4857801.1">v-sfpdfn-</morphcode>
+  <record citeid="morph4857801">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857801.1">v-sfpdfn-</morphcode>
     <label>participium, futurum deponens, singularis, femininum, nominativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857805" citeurn="urn:cite:croala:latmorph.morph4857805.1">v-sfpdfg-</morphcode>
+  <record citeid="morph4857805">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857805.1">v-sfpdfg-</morphcode>
     <label>participium, futurum deponens, singularis, femininum, genitivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857809" citeurn="urn:cite:croala:latmorph.morph4857809.1">v-sfpdfd-</morphcode>
+  <record citeid="morph4857809">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857809.1">v-sfpdfd-</morphcode>
     <label>participium, futurum deponens, singularis, femininum, dativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857813" citeurn="urn:cite:croala:latmorph.morph4857813.1">v-sfpdfa-</morphcode>
+  <record citeid="morph4857813">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857813.1">v-sfpdfa-</morphcode>
     <label>participium, futurum deponens, singularis, femininum, accusativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857817" citeurn="urn:cite:croala:latmorph.morph4857817.1">v-sfpdfv-</morphcode>
+  <record citeid="morph4857817">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857817.1">v-sfpdfv-</morphcode>
     <label>participium, futurum deponens, singularis, femininum, vocativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857821" citeurn="urn:cite:croala:latmorph.morph4857821.1">v-sfpdfb-</morphcode>
+  <record citeid="morph4857821">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857821.1">v-sfpdfb-</morphcode>
     <label>participium, futurum deponens, singularis, femininum, ablativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857825" citeurn="urn:cite:croala:latmorph.morph4857825.1">v-sfpdnn-</morphcode>
+  <record citeid="morph4857825">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857825.1">v-sfpdnn-</morphcode>
     <label>participium, futurum deponens, singularis, neutrum, nominativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857829" citeurn="urn:cite:croala:latmorph.morph4857829.1">v-sfpdng-</morphcode>
+  <record citeid="morph4857829">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857829.1">v-sfpdng-</morphcode>
     <label>participium, futurum deponens, singularis, neutrum, genitivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857833" citeurn="urn:cite:croala:latmorph.morph4857833.1">v-sfpdnd-</morphcode>
+  <record citeid="morph4857833">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857833.1">v-sfpdnd-</morphcode>
     <label>participium, futurum deponens, singularis, neutrum, dativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857837" citeurn="urn:cite:croala:latmorph.morph4857837.1">v-sfpdna-</morphcode>
+  <record citeid="morph4857837">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857837.1">v-sfpdna-</morphcode>
     <label>participium, futurum deponens, singularis, neutrum, accusativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857841" citeurn="urn:cite:croala:latmorph.morph4857841.1">v-sfpdnv-</morphcode>
+  <record citeid="morph4857841">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857841.1">v-sfpdnv-</morphcode>
     <label>participium, futurum deponens, singularis, neutrum, vocativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857845" citeurn="urn:cite:croala:latmorph.morph4857845.1">v-sfpdnb-</morphcode>
+  <record citeid="morph4857845">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857845.1">v-sfpdnb-</morphcode>
     <label>participium, futurum deponens, singularis, neutrum, ablativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857849" citeurn="urn:cite:croala:latmorph.morph4857849.1">v-pfpdmn-</morphcode>
+  <record citeid="morph4857849">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857849.1">v-pfpdmn-</morphcode>
     <label>participium, futurum deponens, pluralis, masculinum, nominativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857853" citeurn="urn:cite:croala:latmorph.morph4857853.1">v-pfpdmg-</morphcode>
+  <record citeid="morph4857853">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857853.1">v-pfpdmg-</morphcode>
     <label>participium, futurum deponens, pluralis, masculinum, genitivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857857" citeurn="urn:cite:croala:latmorph.morph4857857.1">v-pfpdmd-</morphcode>
+  <record citeid="morph4857857">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857857.1">v-pfpdmd-</morphcode>
     <label>participium, futurum deponens, pluralis, masculinum, dativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857861" citeurn="urn:cite:croala:latmorph.morph4857861.1">v-pfpdma-</morphcode>
+  <record citeid="morph4857861">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857861.1">v-pfpdma-</morphcode>
     <label>participium, futurum deponens, pluralis, masculinum, accusativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857865" citeurn="urn:cite:croala:latmorph.morph4857865.1">v-pfpdmv-</morphcode>
+  <record citeid="morph4857865">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857865.1">v-pfpdmv-</morphcode>
     <label>participium, futurum deponens, pluralis, masculinum, vocativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857869" citeurn="urn:cite:croala:latmorph.morph4857869.1">v-pfpdmb-</morphcode>
+  <record citeid="morph4857869">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857869.1">v-pfpdmb-</morphcode>
     <label>participium, futurum deponens, pluralis, masculinum, ablativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857873" citeurn="urn:cite:croala:latmorph.morph4857873.1">v-pfpdfn-</morphcode>
+  <record citeid="morph4857873">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857873.1">v-pfpdfn-</morphcode>
     <label>participium, futurum deponens, pluralis, femininum, nominativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857877" citeurn="urn:cite:croala:latmorph.morph4857877.1">v-pfpdfg-</morphcode>
+  <record citeid="morph4857877">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857877.1">v-pfpdfg-</morphcode>
     <label>participium, futurum deponens, pluralis, femininum, genitivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857881" citeurn="urn:cite:croala:latmorph.morph4857881.1">v-pfpdfd-</morphcode>
+  <record citeid="morph4857881">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857881.1">v-pfpdfd-</morphcode>
     <label>participium, futurum deponens, pluralis, femininum, dativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857885" citeurn="urn:cite:croala:latmorph.morph4857885.1">v-pfpdfa-</morphcode>
+  <record citeid="morph4857885">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857885.1">v-pfpdfa-</morphcode>
     <label>participium, futurum deponens, pluralis, femininum, accusativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857889" citeurn="urn:cite:croala:latmorph.morph4857889.1">v-pfpdfv-</morphcode>
+  <record citeid="morph4857889">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857889.1">v-pfpdfv-</morphcode>
     <label>participium, futurum deponens, pluralis, femininum, vocativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857893" citeurn="urn:cite:croala:latmorph.morph4857893.1">v-pfpdfb-</morphcode>
+  <record citeid="morph4857893">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857893.1">v-pfpdfb-</morphcode>
     <label>participium, futurum deponens, pluralis, femininum, ablativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857897" citeurn="urn:cite:croala:latmorph.morph4857897.1">v-pfpdnn-</morphcode>
+  <record citeid="morph4857897">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857897.1">v-pfpdnn-</morphcode>
     <label>participium, futurum deponens, pluralis, neutrum, nominativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857901" citeurn="urn:cite:croala:latmorph.morph4857901.1">v-pfpdng-</morphcode>
+  <record citeid="morph4857901">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857901.1">v-pfpdng-</morphcode>
     <label>participium, futurum deponens, pluralis, neutrum, genitivus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857905" citeurn="urn:cite:croala:latmorph.morph4857905.1">v-pfpdnd-</morphcode>
+  <record citeid="morph4857905">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857905.1">v-pfpdnd-</morphcode>
     <label>participium, futurum deponens, pluralis, neutrum, dativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857909" citeurn="urn:cite:croala:latmorph.morph4857909.1">v-pfpdna-</morphcode>
+  <record citeid="morph4857909">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857909.1">v-pfpdna-</morphcode>
     <label>participium, futurum deponens, pluralis, neutrum, accusativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857913" citeurn="urn:cite:croala:latmorph.morph4857913.1">v-pfpdnv-</morphcode>
+  <record citeid="morph4857913">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857913.1">v-pfpdnv-</morphcode>
     <label>participium, futurum deponens, pluralis, neutrum, vocativus</label>
   </record>
-  <record>
-    <morphcode citeid="morph4857917" citeurn="urn:cite:croala:latmorph.morph4857917.1">v-pfpdnb-</morphcode>
+  <record citeid="morph4857917">
+    <morphcode citeurn="urn:cite:croala:latmorph.morph4857917.1">v-pfpdnb-</morphcode>
     <label>participium, futurum deponens, pluralis, neutrum, ablativus</label>
   </record>
 </list>
