@@ -10,7 +10,7 @@ declare %unit:test function test:db-cp-loci-local () {
 
 declare %unit:test function test:cp-loci-local-valid () {
   for $doc in db:open('cp-loci')
-  let $result := validate:rng-report($doc, '/home/neven/rad/croala-pelagios/schemas/cpplaces.rng')
+  let $result := validate:rng-report($doc, 'https://github.com/nevenjovanovic/croala-pelagios/raw/master/schemas/cpplaces.rng')
   let $expected := <report>
   <status>valid</status>
 </report>
@@ -18,11 +18,12 @@ return
   unit:assert-equals($result, $expected)
 };
 
-(: do we have a croala-pelagios/csv/cpplaces.xml file? :)
+(: do we have a croala-pelagios/csv/cpplaces.xml file in the Github repo? :)
 (: does it validate with cpplaces.rng? :)
-declare %unit:test function test:cp-file-local-validates () {
-  for $doc in doc("/home/neven/rad/croala-pelagios/csv/cpplaces.xml")
-  let $result := validate:rng-report($doc, '/home/neven/rad/croala-pelagios/schemas/cpplaces.rng')
+declare %unit:test function test:cp-file-validates () {
+  let $fileuri := substring-before(file:base-dir(), 'scripts/') || "csv/cpplaces.xml"
+  for $doc in doc($fileuri)
+  let $result := validate:rng-report($doc, 'https://github.com/nevenjovanovic/croala-pelagios/raw/master/schemas/cpplaces.rng')
   let $expected := <report>
   <status>valid</status>
 </report>
@@ -34,7 +35,8 @@ return
 
 (: is the cp-loci db younger than the cpplaces.xml file? :)
 declare %unit:test function test:db-is-uptodate () {
-  let $filedate := file:last-modified("/home/neven/rad/croala-pelagios/csv/cpplaces.xml")
+  let $fileuri := substring-before(file:base-dir(), 'scripts/') || "csv/cpplaces.xml"
+  let $filedate := file:last-modified($fileuri)
   let $dbdate := db:info("cp-loci")//databaseproperties/timestamp/string()
   let $status := if (xs:dateTime($dbdate) lt xs:dateTime($filedate)) then "older" else "newer"
 return 
