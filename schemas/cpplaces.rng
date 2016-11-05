@@ -16,12 +16,14 @@
                     </element>
                     <element name="citebody">
                         <attribute name="citeid">
-                            <data type="ID"/>
+                            <data type="ID">
+                                <param name="pattern">locid[0-9]+</param>
+                            </data>
                         </attribute>
-                        <attribute name="citeuri">
-                        <data type="anyURI">
-                            <param name="pattern">urn:cite:croala:loci.</param>
-                        </data>
+                        <attribute name="citeurn">
+                            <data type="anyURI">
+                                <param name="pattern">urn:cite:croala:loci.locid[0-9]{5}</param>
+                            </data>
                         </attribute>
                         <data type="int"/>
                     </element>
