@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar 
+    xmlns="http://relaxng.org/ns/structure/1.0"
+    xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+    datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+    <start>
+        <element name="list">
+            <zeroOrMore>
+                <element name="record">
+                    <element name="morphcode">
+                        <attribute name="citeid">
+                            <data type="ID">
+                                <param name="pattern">morph[0-9]+\.[0-9]</param>
+                            </data>
+                        </attribute>
+                        <attribute name="citeurn">
+                            <data type="anyURI">
+                                <param name="pattern">urn:cite:croala:latmorph.morph[0-9]+\.[0-9]</param>
+                            </data>
+                        </attribute>
+                        <data type="string">
+                            <param name="pattern">[anrmpcv][a-z\-1-3]+</param>
+                        </data>
+                    </element>
+                    <element name="label">
+                        <data type="string">
+                            <param name="pattern">[a-z, ]+</param>
+                        </data>
+                    </element>
+                </element>
+            </zeroOrMore>
+        </element>
+    </start>
+</grammar>
