@@ -7,20 +7,20 @@
         <element name="list">
             <zeroOrMore>
                 <element name="record">
-                    <element name="lemma"><data type="string">
-                        <param name="pattern">[A-Z']+</param>
-                    </data></element>
-                    <element name="uri">
-                        <attribute name="citeid">
-                            <data type="ID">
-                                <param name="pattern">lex[0-9]+</param>
+                    <attribute name="citeid">
+                        <data type="ID">
+                            <param name="pattern">lex[0-9]+</param>
+                        </data>
+                    </attribute>
+                    <element name="lemma">
+                        <attribute name="citeurn">
+                            <data type="string">
+                                <param name="pattern">urn:cite:croala:latlexent.lex[0-9]+</param>
                             </data>
                         </attribute>
                         <data type="string">
-                            <param name="pattern">urn:cite:croala:latlexent.lex[0-9]+</param>
-                        </data>
-                    </element>
-                    
+                        <param name="pattern">[A-Z']+</param>
+                    </data></element>
                     <element name="creator">
                         <optional>
                             <data type="anyURI">
