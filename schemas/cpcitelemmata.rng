@@ -13,6 +13,11 @@
                         </data>
                     </attribute>
                     <element name="seg">
+                        <attribute name="citeurn">
+                            <data type="anyURI">
+                                <param name="pattern">urn:cite:croala:loci.ana[0-9.]+</param>
+                            </data>
+                        </attribute>
                         <attribute name="cts">
                             <data type="anyURI">
                                 <param name="pattern">urn:cts:croala:[a-zA-Z0-9.:\-]+</param>
