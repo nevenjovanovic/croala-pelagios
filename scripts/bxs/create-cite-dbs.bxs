@@ -13,7 +13,7 @@ CREATE BACKUP cp-cite-urns
 CREATE DB cp-cite-morphs /home/croala/croala-pelagios/csv/cp-morphs-annotations.xml
 CREATE BACKUP cp-cite-morphs
 
-CREATE DB cp-cite-lemmata /home/croala/croala-pelagios/csv/cite-lemmata.xml
+CREATE DB cp-cite-lemmata https://github.com/nevenjovanovic/croala-pelagios/raw/master/csv/cite-lemmata.xml
 CREATE BACKUP cp-cite-lemmata
 
 CREATE DB cp-latmorph /home/croala/croala-pelagios/csv/latmorph.xml
