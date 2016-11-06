@@ -20,6 +20,13 @@
                             <param name="pattern">urn:cts:croala:[a-zA-Z0-9.:\-]+</param>
                         </data>
                     </attribute>
+                    <optional>
+                        <attribute name="ana">
+                            <data type="string">
+                                <param name="pattern">estlocus.</param>
+                            </data>
+                        </attribute>
+                    </optional>
                     <data type="string">
                         <param name="pattern">\S+</param>
                     </data>
