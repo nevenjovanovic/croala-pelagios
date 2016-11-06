@@ -22,9 +22,7 @@
                     </attribute>
                     <optional>
                         <attribute name="ana">
-                            <data type="string">
-                                <param name="pattern">estlocus.</param>
-                            </data>
+                            <data type="string"/>
                         </attribute>
                     </optional>
                     <data type="string">
