@@ -2,6 +2,7 @@ let $dbvalidation := map {
   'cp-latlexents' :  'https://github.com/nevenjovanovic/croala-pelagios/raw/master/schemas/cplatlexents.rng',
   'cp-latmorph' : 'https://github.com/nevenjovanovic/croala-pelagios/raw/master/schemas/cplatmorph.rng',
   'cp-loci' : 'https://github.com/nevenjovanovic/croala-pelagios/raw/master/schemas/cpplaces.rng',
+  'cp-aetates' : 'https://github.com/nevenjovanovic/croala-pelagios/raw/master/schemas/cpperiods.rng',
   'cp-cite-lemmata' : 'https://github.com/nevenjovanovic/croala-pelagios/raw/master/schemas/cpcitelemmata.rng',
   'cp-cite-urns' : 'https://github.com/nevenjovanovic/croala-pelagios/raw/master/schemas/cpciteurns.rng',
   'cp-cts-urns' :  'https://github.com/nevenjovanovic/croala-pelagios/raw/master/schemas/cpctsurns.rng',
