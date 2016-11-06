@@ -2,7 +2,7 @@ module namespace test = 'http://basex.org/modules/xqunit-tests';
 
 (: Are there seven entries in each record? :)
 declare %unit:test function test:seven-entries () {
-  for $r in db:open("cp-latlexents","perseus-latlexents")//record
+  for $r in db:open("cp-latlexents")//record
   return unit:assert-equals(count($r/entry[last()]/preceding-sibling::entry), 6)
 };
 
