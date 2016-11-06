@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar 
+    xmlns="http://relaxng.org/ns/structure/1.0"
+    xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+    datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+    <start>
+        <element name="list">
+            <zeroOrMore>
+                <element name="record">
+                    <attribute name="xml:id">
+                        <data type="ID">
+                            <param name="pattern">locid[0-9]+</param>
+                        </data>
+                    </attribute>
+                    <element name="locus">
+                        <attribute name="citeurn">
+                            <data type="anyURI">
+                                <param name="pattern">urn:cite:croala:loci.locid[0-9]+</param>
+                            </data>
+                        </attribute>
+                    </element>
+                    <element name="notes">
+                        <zeroOrMore>
+                    <element name="note">
+                        <attribute name="citeurn">
+                            <data type="anyURI">
+                                <param name="pattern">urn:cite:croala:loci.ana[0-9]+</param>
+                            </data>
+                        </attribute>
+                    </element>
+                        </zeroOrMore>
+                    </element>
+                    <element name="creator">
+                        <optional>
+                            <data type="anyURI">
+                                <param name="pattern">http://orcid.org/.+</param>
+                            </data>
+                        </optional>
+                    </element>
+                    <element name="datecreated"><optional><data type="date"/></optional></element>
+                </element>
+            </zeroOrMore>
+        </element>
+    </start>
+</grammar>
