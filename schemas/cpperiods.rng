@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar 
+    xmlns="http://relaxng.org/ns/structure/1.0"
+    xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+    datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+    <start>
+        <element name="list">
+            <zeroOrMore>
+                <element name="record">
+                    <attribute name="xml:id">
+                        <data type="ID">
+                            <param name="pattern">aetas[0-9]+</param>
+                        </data>
+                    </attribute>
+                    <element name="label"><text/></element>
+                    
+                    <element name="citebody">
+                        <attribute name="citeurn">
+                            <data type="anyURI">
+                                <param name="pattern">urn:cite:croala:loci.aetas[0-9]+</param>
+                            </data>
+                        </attribute>
+                        <data type="int"/>
+                    </element>
+                    <element name="uri">
+                        <data type="anyURI">
+                            <param name="pattern">http://.+</param>
+                        </data>
+                    </element>
+                    <element name="creator"><data type="anyURI">
+                        <param name="pattern">http://orcid.org/.+</param>
+                    </data></element>
+                    <element name="datecreated"><data type="date"/></element>
+                </element>
+            </zeroOrMore>
+        </element>
+    </start>
+</grammar>
