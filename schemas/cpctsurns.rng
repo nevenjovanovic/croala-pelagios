@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar 
+    xmlns="http://relaxng.org/ns/structure/1.0"
+    xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+    datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+    <start>
+        <element name="wlist">
+            <zeroOrMore>
+                <element name="w">
+                    <attribute name="xml:id">
+                        <data type="integer"/>
+                    </attribute>
+                    <attribute name="n">
+                        <data type="anyURI">
+                            <param name="pattern">urn:cts:croala:[a-zA-Z0-9.:\-]+</param>
+                        </data>
+                    </attribute>
+                    <attribute name="aex">
+                        <data type="anyURI">
+                            <param name="pattern">urn:cts:croala:[a-zA-Z0-9.:\-]+</param>
+                        </data>
+                    </attribute>
+                    <data type="string">
+                        <param name="pattern">\S+</param>
+                    </data>
+                </element>
+            </zeroOrMore>
+        </element>
+    </start>
+</grammar>
