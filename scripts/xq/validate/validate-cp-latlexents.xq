@@ -5,7 +5,8 @@ let $dbvalidation := map {
   'cp-cite-lemmata' : 'https://github.com/nevenjovanovic/croala-pelagios/raw/master/schemas/cpcitelemmata.rng',
   'cp-cite-urns' : 'https://github.com/nevenjovanovic/croala-pelagios/raw/master/schemas/cpciteurns.rng',
   'cp-cts-urns' :  'https://github.com/nevenjovanovic/croala-pelagios/raw/master/schemas/cpctsurns.rng',
-  'cp-cite-morphs':  'https://github.com/nevenjovanovic/croala-pelagios/raw/master/schemas/cpcitemorphs.rng'
+  'cp-cite-morphs':  'https://github.com/nevenjovanovic/croala-pelagios/raw/master/schemas/cpcitemorphs.rng',
+  'cp-cite-loci' : 'https://github.com/nevenjovanovic/croala-pelagios/raw/master/schemas/cpciteloci.rng'
 }
 for $dbname in map:keys($dbvalidation)
 for $doc in db:open($dbname)
