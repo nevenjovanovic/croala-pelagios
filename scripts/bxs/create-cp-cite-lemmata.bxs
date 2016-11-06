@@ -1,4 +1,3 @@
 SET INTPARSE true; SET FTINDEX true; SET UPDINDEX true; SET AUTOOPTIMIZE true
-CREATE BACKUP cp-loci
 CREATE DB cp-cite-lemmata https://github.com/nevenjovanovic/croala-pelagios/raw/master/csv/cite-lemmata.xml
 CREATE BACKUP cp-cite-lemmata
