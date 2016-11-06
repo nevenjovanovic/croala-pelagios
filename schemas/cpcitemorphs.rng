@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar 
+    xmlns="http://relaxng.org/ns/structure/1.0"
+    xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+    datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+    <start>
+        <element name="list">
+            <zeroOrMore>
+                <element name="record">
+                    <attribute name="citeid">
+                        <data type="ID">
+                            <param name="pattern">ana[0-9]+</param>
+                        </data>
+                    </attribute>
+                    <element name="seg">
+                        <attribute name="citeurn">
+                            <data type="anyURI">
+                                <param name="pattern">urn:cite:croala:loci.ana[0-9.]+</param>
+                            </data>
+                        </attribute>
+                        <attribute name="cts">
+                            <data type="anyURI">
+                                <param name="pattern">urn:cts:croala:[a-zA-Z0-9.:\-]+</param>
+                            </data>
+                        </attribute>
+                        <data type="string">
+                            <param name="pattern">\w+</param>
+                        </data>
+                    </element>
+                    <element name="morph">
+                        <attribute name="citeurn">
+                            <data type="anyURI">
+                                <param name="pattern">urn:cite:croala:latmorph.morph[0-9.]+</param>
+                            </data>
+                        </attribute>
+                        <data type="string">
+                            <param name="pattern">[a-z, ]+</param>
+                        </data>
+                    </element>
+                    <element name="creator">
+                        <optional>
+                            <data type="anyURI">
+                                <param name="pattern">http://orcid.org/.+</param>
+                            </data>
+                        </optional>
+                    </element>
+                    <element name="datecreated"><optional><data type="date"/></optional></element>
+                </element>
+            </zeroOrMore>
+        </element>
+    </start>
+</grammar>
