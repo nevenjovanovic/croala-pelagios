@@ -1,6 +1,7 @@
 (: import new estlocus annotations :)
 (: test whether they match with old ones :)
-let $csvs := ("/home/neven/Repos/croala-pelagios/csv/bunic-deraptucerberi-loci.csv", "/home/neven/Repos/croala-pelagios/csv/tubero-commentarii-loci.csv", "/home/neven/Repos/croala-pelagios/csv/crijevic-carmina-loci.csv", "/home/neven/Repos/croala-pelagios/csv/marulic-carmina-loci.csv")
+(: docs should be pulled from Github :)
+let $csvs := ("/home/neven/Repos/croala-pelagios/csv/bunic-deraptucerberi-loci.csv", "/home/neven/Repos/croala-pelagios/csv/tubero-commentarii-loci.csv", "/home/neven/Repos/croala-pelagios/csv/crijevic-carmina-loci.csv", "/home/neven/Repos/croala-pelagios/csv/marulic-carmina-loci.csv" )
 let $source :=
 for $c in $csvs
 let $csv := file:read-text($c)
