@@ -203,7 +203,7 @@ return if ($idx) then
 for $r in $idx
 let $lemma := element td { data($r/nomen) }
 let $citeid := replace($r/citebody/@citeid/string(), "locid", "")
-let $citevalue := element td { $r/citebody/@citeuri/string() || $r/citebody/@citeid/string() }
+let $citevalue := element td { $r/citebody/@citeurn/string() || $r/citebody/@citeid/string() }
 let $id := generate-id($r)
 let $citebodyurn := element td { cp:input-field2($id, $citeid) }
 let $placeref := element td { 
