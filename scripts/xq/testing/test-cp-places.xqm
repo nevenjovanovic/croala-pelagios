@@ -38,20 +38,19 @@ declare %unit:test function test:db-is-uptodate () {
   let $fileuri := substring-before(file:base-dir(), 'scripts/') || "csv/cpplaces.xml"
   let $filedate := file:last-modified($fileuri)
   let $dbdate := db:info("cp-loci")//databaseproperties/timestamp/string()
-  let $status := if (xs:dateTime($dbdate) lt xs:dateTime($filedate)) then "older" else "newer"
+  let $status := if (xs:dateTime($dbdate) lt xs:dateTime($filedate)) then "db older than file" else "db newer than file"
 return 
-  unit:assert-equals($status, "newer")
+  unit:assert-equals($status, "db newer than file")
 };
 
 (: do we have a cp-loci database on server? :)
 (: is it up to date? :)
 declare %unit:test function test:cp-loci-online () {
-  let $r := count(collection("cp-latlexents")//record)
   let $onlinedate := fetch:text("http://pelagios:nemojdasezezassamnom@croala.ffzg.unizg.hr/basex/rest?query=db:info('cp-loci')//resourceproperties/timestamp/string()")
   let $dbdate := db:info("cp-loci")//resourceproperties/inputdate/string()
-  let $status := if (xs:dateTime($onlinedate) lt xs:dateTime($dbdate)) then "older" else "newer"
+  let $status := if (xs:dateTime($onlinedate) lt xs:dateTime($dbdate)) then "online older" else "online newer"
 return 
-  unit:assert-equals($status, "newer")
+  unit:assert-equals($status, "online newer")
 };
 
 
