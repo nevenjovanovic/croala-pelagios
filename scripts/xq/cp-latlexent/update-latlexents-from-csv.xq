@@ -1,30 +1,25 @@
-declare function local:e($e){
-  element entry { data($e) }
+declare function local:e($e, $name){
+  element { $name } { data($e) }
 };
-declare function local:check($a, $b) {
-  if ($a/text()=$b) then local:e($a) else "ERROR!"
-};
-let $csv := file:read-text("/home/neven/rad/croalapelagiosxml/oznaceno/cp-croala-latlexents-novi.csv")
+
+let $csv := fetch:text("https://github.com/nevenjovanovic/croala-pelagios/raw/master/csv/latlexents/cp-croala-latlexents-novi.csv")
 let $result := element csv {
 for $parsed in csv:parse($csv, map { 'header': true() })//record
-let $cite := local:e($parsed/CITE_URN)
-let $lemma := local:e($parsed/Latin_lemma)
-let $shortdef := local:e($parsed/Short_description)
+let $urn := replace($parsed/CITE_URN, "\.1$", "")
+let $citeid := substring-after($urn, "urn:cite:croala:latlexent.")
+let $citeidattr := attribute citeid { $citeid }
+let $cite := attribute citeurn { $urn }
+let $lemma := element lemma { $cite, upper-case($parsed/Latin_lemma/string()) }
 let $createdby := $parsed/Created_by
 let $createdon := $parsed/Created_on
 return element record {
-  $cite ,
+  $citeidattr, 
   $lemma ,
-  $shortdef ,
-  element entry {"proposed"},
-  element entry {},
-  local:e(normalize-space(replace($createdby, 'http://', ''))) ,
-  element entry {},
-  local:e($createdon),
-  element entry {}
+  local:e(normalize-space($createdby), "creator") ,
+  local:e($createdon, "datecreated")
 }
 }
 for $r in $result//record
-let $db := db:open("cp-latlexents", "cp-croala-latlexents.xml")//csv/record
-where $r[entry[1][not(text()=$db/entry[1]/text())]]
-return insert node $r as last into $db/..
+ let $db := db:open("cp-latlexents")//list/record/lemma/text()
+where $r[lemma[not(text()=$db)]]
+return insert node $r as last into $db/ancestor::list
