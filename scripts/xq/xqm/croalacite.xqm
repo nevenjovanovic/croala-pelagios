@@ -85,14 +85,13 @@ return element tr {
 declare function cite:queryname ($q) {
   let $dbs := (collection("cp-latlexents"))
   let $list := $dbs//record
-  let $result := $list[entry[2][matches(string(), '^' || $q )]]
+  let $result := $list[lemma[matches(string(), '^' || upper-case($q) )]]
   return if ($result) then
   element table {
     element thead {
       element tr {
         element td { "URN"},
-        element td { "Name"},
-        element td { "Short definition"}
+        element td { "Verbum"}
       }
     },
     element tbody {
@@ -103,8 +102,7 @@ return element tr {
   element td { 
     cite:input-field($id, $r)
     },
-  element td { $r/entry[2]/string() },
-  element td { $r/entry[3]/string() }
+  element td { $r/lemma/string() }
 }
 }
 }
@@ -115,7 +113,7 @@ declare function cite:input-field($id, $r){
   element input { 
       attribute size { "45"},
       attribute id { $id },
-      attribute value { $r/entry[1]/string() } } , 
+      attribute value { $r/lemma/@citeurn/string() } } , 
     element button { 
       attribute class { "btn" } ,
       attribute aria-label { "Recordare!"},
