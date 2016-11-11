@@ -71,12 +71,13 @@ declare function cite:geturn($urn) {
     element tbody {
 let $dbs := (collection("cp-latlexents"), collection("cp-latmorph"))
 for $r in $dbs//record
+let $name := ("morphcode", "lemma")
+let $name2 := ("lemma", "label")
 let $id := generate-id($r)
-where $r/entry[1][string()=$urn]
+where $r/*[name()=$name and @citeurn=$urn]
 return element tr {
   element td { cite:input-field($id, $r) },
-  element td { $r/entry[2]/string() },
-  element td { $r/entry[3]/string() }
+  element td { $r/*[name()=$name2]/string() }
 }
 }
 }
@@ -113,7 +114,7 @@ declare function cite:input-field($id, $r){
   element input { 
       attribute size { "45"},
       attribute id { $id },
-      attribute value { $r/lemma/@citeurn/string() } } , 
+      attribute value { $r/*[name()=("lemma", "morphcode")]/@citeurn/string() } } , 
     element button { 
       attribute class { "btn" } ,
       attribute aria-label { "Recordare!"},
