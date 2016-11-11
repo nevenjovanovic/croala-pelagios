@@ -51,7 +51,7 @@ declare
 <p>Iconem <span class="glyphicon glyphicon-copy" aria-hidden="true"></span> preme ut CITE URN notetur.</p>
 </div>
 <div class="col-md-6">
-{croala:infodb('cp-citebody')}
+{croala:infodb('cp-latlexents')}
 </div>
 </div>
 </div>

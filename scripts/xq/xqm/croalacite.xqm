@@ -83,7 +83,7 @@ return element tr {
 };
 
 declare function cite:queryname ($q) {
-  let $dbs := (collection("cp-latlexents"))
+  let $dbs := collection("cp-latlexents")
   let $list := $dbs//record
   let $result := $list[lemma[matches(string(), '^' || upper-case($q) )]]
   return if ($result) then
