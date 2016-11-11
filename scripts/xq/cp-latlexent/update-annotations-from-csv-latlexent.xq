@@ -46,4 +46,5 @@ $datecreated
 (: remove errors from result :)
 return copy $n := $result
 modify delete node $n//record[err]
-return $n
+(: return validate:rng-report($n, 'https://github.com/nevenjovanovic/croala-pelagios/raw/master/schemas/cpcitelemmata.rng') :)
+return file:write("/home/neven/Repos/croala-pelagios/csv/cite-lemmata.xml", $n)
