@@ -64,8 +64,7 @@ declare function cite:geturn($urn) {
     element thead {
       element tr {
         element td { "URN"},
-        element td { "Name"},
-        element td { "Short definition"}
+        element td { "Name"}
       }
     },
     element tbody {
