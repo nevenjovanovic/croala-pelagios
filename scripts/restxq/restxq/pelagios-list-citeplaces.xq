@@ -64,7 +64,7 @@ declare
      </div>
 <hr/>
 { croala:footerserver() }
-
+<script type="text/javascript" src="/basex/static/dist/js/clipboard2.js"></script>
 </body>
 </html>
 };
