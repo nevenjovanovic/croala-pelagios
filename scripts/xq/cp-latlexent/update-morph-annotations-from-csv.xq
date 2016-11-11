@@ -46,4 +46,5 @@ $annotator,
 $datecreated
 }
 }
-return $result
+(: return validate:rng-report($result, 'https://github.com/nevenjovanovic/croala-pelagios/raw/master/schemas/cpcitemorphs.rng') :)
+return file:write("/home/neven/Repos/croala-pelagios/csv/cite-morphs2.xml", $result)
