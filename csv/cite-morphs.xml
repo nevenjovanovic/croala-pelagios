@@ -2737,7 +2737,7 @@
   </record>
   <record citeid="ana14879">
     <seg cts="urn:cts:croala:nikolamodr01.croala1394919.croala-lat2loci:body1.p16.s2.w11" citeurn="urn:cite:croala:loci.ana14879">templum</seg>
-    <morph citeurn="urn:cite:croala:latmorph.morph19.1"/>
+    <morph citeurn="urn:cite:croala:latmorph.morph19.1">nomen, singularis, neutrum, nominativus</morph>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-10-28</datecreated>
   </record>
@@ -2773,7 +2773,7 @@
   </record>
   <record citeid="ana15001">
     <seg cts="urn:cts:croala:nikolamodr01.croala1394919.croala-lat2loci:body1.p16.s2.w37" citeurn="urn:cite:croala:loci.ana15001">monasterium</seg>
-    <morph citeurn="urn:cite:croala:latmorph.morph19.1"/>
+    <morph citeurn="urn:cite:croala:latmorph.morph19.1">nomen, singularis, neutrum, nominativus</morph>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-10-28</datecreated>
   </record>
@@ -2791,7 +2791,7 @@
   </record>
   <record citeid="ana15148">
     <seg cts="urn:cts:croala:nikolamodr01.croala1394919.croala-lat2loci:body1.p16.s3.w4" citeurn="urn:cite:croala:loci.ana15148">fanum</seg>
-    <morph citeurn="urn:cite:croala:latmorph.morph19.1"/>
+    <morph citeurn="urn:cite:croala:latmorph.morph19.1">nomen, singularis, neutrum, nominativus</morph>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-10-28</datecreated>
   </record>
@@ -2977,7 +2977,7 @@
   </record>
   <record citeid="ana1065404">
     <seg cts="urn:cts:croala:marul01.croala754085.croala-lat2w:group.text3.body.div3.l4.w3" citeurn="urn:cite:croala:loci.ana1065404">Castaliis</seg>
-    <morph citeurn="urn:cite:croala:latmorph.morph44.1*"/>
+    <morph citeurn="urn:cite:croala:latmorph.morph44.1">adiectivum, pluralis, femininum, ablativus, positivus</morph>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-10-28</datecreated>
   </record>
