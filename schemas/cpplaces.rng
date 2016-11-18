@@ -16,7 +16,7 @@
                     <element name="label"><text/></element>
                     <element name="uri">
                         <data type="anyURI">
-                            <param name="pattern">http://.+</param>
+                            <param name="pattern">https*://.+</param>
                         </data>
                     </element>
                     <element name="citebody">
