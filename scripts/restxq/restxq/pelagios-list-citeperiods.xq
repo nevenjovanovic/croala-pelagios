@@ -18,7 +18,7 @@ declare variable $keywords := "Neo-Latin literature, CTS / CITE architecture, Pe
  : This function returns an XML response message.
  :)
 declare
-  %rest:path("cp/citeperiods")
+  %rest:path("cp-aetates")
   %output:method(
   "xhtml"
 )
@@ -31,7 +31,7 @@ declare
   %output:doctype-system(
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
 )
-  function page:croalapelagioslistciteperiodsurn()
+  function page:croalapellistaetates()
 {
   (: HTML template starts here :)
 

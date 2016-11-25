@@ -55,18 +55,9 @@ return
 
 
 
-(: do we have a page at citelocus/ZZZZZ? :)
+(: do we have a page at cp-aetates? :)
 
-declare %unit:test function test:citelocus-page-exists (){
-  let $doc := doc("http://croala.ffzg.unizg.hr/basex/citeaetas/ZZZZZ")
-  return unit:assert($doc//table/tbody/tr/td[1][.="Lemma deest in collectionibus nostris."])
+declare %unit:test function test:cpaetaetes-page-exists (){
+  let $doc := doc("http://croala.ffzg.unizg.hr/basex/cp-aetates")
+  return unit:assert($doc//table/tbody/tr/td[1])
 };
-
-(: do we have a tbody/tr/td result at citelocus/Mediolan? :)
-
-declare %unit:test function test:citeaetas-table-exists (){
-  let $doc := doc("http://croala.ffzg.unizg.hr/basex/citeaetas/Medieval")
-  return unit:assert($doc//table/tbody/tr/td)
-};
-
-(: do we have a input field at citelocus/Mediolan? :)
