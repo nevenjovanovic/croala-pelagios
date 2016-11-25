@@ -1,2762 +1,2450 @@
 <list>
-  <record>
+  <record citeid="locid00435">
     <nomen>Sanctus Sixtus</nomen>
     <label>San Sisto Vecchio (Roma)</label>
     <uri>http://www.wikidata.org/wiki/Q2736770</uri>
-    <citebody>00435</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid00435">00435</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid00473">
     <nomen>Modrusium</nomen>
     <label>Modruš</label>
     <uri>http://www.wikidata.org/wiki/Q958041</uri>
-    <citebody>00473</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid00473">00473</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid02372">
     <nomen>Liguria</nomen>
     <label>Liguria</label>
     <uri>http://pleiades.stoa.org/places/383698</uri>
-    <citebody>02372</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid02372">02372</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid02382">
     <nomen>Saona</nomen>
     <label>Savona</label>
     <uri>http://pleiades.stoa.org/places/383770</uri>
-    <citebody>02382</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid02382">02382</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid03151">
     <nomen>Senae</nomen>
     <label>Siena</label>
     <uri>http://pleiades.stoa.org/places/413293</uri>
-    <citebody>03151</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid03151">03151</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid04108">
     <nomen>Vicheria</nomen>
     <label>Voghera</label>
     <uri>http://www.wikidata.org/wiki/Q39981</uri>
-    <citebody>04108</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid04108">04108</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid04145">
     <nomen>Papia</nomen>
     <label>Ticino Pavia</label>
     <uri>http://pleiades.stoa.org/places/383798</uri>
-    <citebody>04145</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid04145">04145</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid04158">
     <nomen>Patavium</nomen>
     <label>Padova</label>
     <uri>http://pleiades.stoa.org/places/393473</uri>
-    <citebody>04158</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid04158">04158</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid04171">
     <nomen>Venetiae</nomen>
     <label>Venezia</label>
     <uri>http://www.wikidata.org/wiki/Q641</uri>
-    <citebody>04171</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid04171">04171</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid04180">
     <nomen>Bononia</nomen>
     <label>Bologna</label>
     <uri>http://pleiades.stoa.org/places/206975</uri>
-    <citebody>04180</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid04180">04180</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid04189">
     <nomen>Perusium</nomen>
     <label>Perugia</label>
     <uri>http://pleiades.stoa.org/places/413248</uri>
-    <citebody>04189</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid04189">04189</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid04207">
     <nomen>Ferraria</nomen>
     <label>Ferrara</label>
     <uri>http://pleiades.stoa.org/places/471923</uri>
-    <citebody>04207</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid04207">04207</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid04240">
     <nomen>Italia</nomen>
     <label>Italia</label>
     <uri>http://pleiades.stoa.org/places/1052</uri>
-    <citebody>04240</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid04240">04240</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid05214">
     <nomen>Roma</nomen>
     <label>Roma</label>
     <uri>http://pleiades.stoa.org/places/423025</uri>
-    <citebody>05214</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid05214">05214</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid12214">
     <nomen>Mediolanum</nomen>
     <label>Milano</label>
     <uri>http://pleiades.stoa.org/places/383706</uri>
-    <citebody>12214</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid12214">12214</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid12653">
     <nomen>Imola</nomen>
     <label>Imola</label>
     <uri>http://pleiades.stoa.org/places/393424</uri>
-    <citebody>12653</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid12653">12653</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid12776">
     <nomen>Bosti</nomen>
     <label>Bosco Marengo</label>
     <uri>http://www.wikidata.org/wiki/Q17283</uri>
-    <citebody>12776</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid12776">12776</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid14869">
     <nomen>diui Gregorii templum</nomen>
     <label>San Gregorio Magno al Celio (chiesa, Roma)</label>
     <uri>http://www.wikidata.org/wiki/Q748459</uri>
-    <citebody>14869</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid14869">14869</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid14928">
     <nomen>Taruixium</nomen>
     <label>Treviso</label>
     <uri>http://pleiades.stoa.org/places/393503</uri>
-    <citebody>14928</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid14928">14928</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid14933">
     <nomen>Taruixii maior basilica</nomen>
     <label>Duomo di Treviso</label>
     <uri>http://www.wikidata.org/wiki/Q51149</uri>
-    <citebody>14933</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid14933">14933</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid14996">
     <nomen>Ambrosii monasterium</nomen>
     <label>Basilica di Sant'Ambrogio, Milano</label>
     <uri>http://www.wikidata.org/wiki/Q1071570</uri>
-    <citebody>14996</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid14996">14996</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid15143">
     <nomen>Maioli fanum</nomen>
     <label>San Maiolo (Pavia)</label>
     <uri>http://thesaurus.cerl.org/record/cnc00020580</uri>
-    <citebody>15143</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid15143">15143</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid15525">
     <nomen>sacra apostolorum aedes</nomen>
     <label>Santi Apostoli (basilica, Roma)</label>
     <uri>http://www.wikidata.org/wiki/Q1515300</uri>
-    <citebody>15525</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid15525">15525</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid22082">
     <nomen>Hungaria</nomen>
     <label>Kingdom of Hungary</label>
     <uri>http://www.wikidata.org/wiki/Q171150</uri>
-    <citebody>22082</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid22082">22082</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid23841">
     <nomen>Praga</nomen>
     <label>Prague</label>
     <uri>http://www.wikidata.org/wiki/Q1085</uri>
-    <citebody>23841</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid23841">23841</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid25611">
     <nomen>Vienna</nomen>
     <label>Vienna</label>
     <uri>http://www.wikidata.org/wiki/Q1741</uri>
-    <citebody>25611</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid25611">25611</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid26324">
     <nomen>Noricum</nomen>
     <label>Noricum</label>
     <uri>http://pleiades.stoa.org/places/981538</uri>
-    <citebody>26324</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid26324">26324</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid26333">
     <nomen>Carnicum</nomen>
     <label>Carniola</label>
     <uri>http://www.wikidata.org/wiki/Q193474</uri>
-    <citebody>26333</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid26333">26333</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid26446">
     <nomen>Europa</nomen>
     <label>Europe</label>
     <uri>http://www.wikidata.org/wiki/Q46</uri>
-    <citebody>26446</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid26446">26446</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid26716">
     <nomen>Austria</nomen>
     <label>Austria</label>
     <uri>http://www.wikidata.org/wiki/Q40</uri>
-    <citebody>26716</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid26716">26716</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid27429">
     <nomen>Alba Regia</nomen>
     <label>Székesfehérvár</label>
     <uri>http://www.wikidata.org/wiki/Q130212</uri>
-    <citebody>27429</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid27429">27429</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid29072">
     <nomen>Alemania</nomen>
     <label>Holy Roman Empire</label>
     <uri>http://www.wikidata.org/wiki/Q12548</uri>
-    <citebody>29072</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid29072">29072</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid30189">
     <nomen>Buda</nomen>
     <label>Buda</label>
     <uri>http://www.wikidata.org/wiki/Q193478</uri>
-    <citebody>30189</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid30189">30189</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid32295">
     <nomen>Dacicum</nomen>
     <label>Dacia</label>
     <uri>http://pleiades.stoa.org/places/207065</uri>
-    <citebody>32295</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid32295">32295</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid34308">
     <nomen>Rhacusa</nomen>
     <label>Dubrovnik</label>
     <uri>http://www.wikidata.org/wiki/Q1722</uri>
-    <citebody>34308</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid34308">34308</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid34329">
     <nomen>Dalmatia</nomen>
     <label>Dalmatia</label>
     <uri>http://pleiades.stoa.org/places/197240</uri>
-    <citebody>34329</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid34329">34329</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid35118">
     <nomen>Rhacosium</nomen>
     <label>Rákos-mező</label>
     <uri>http://www.wikidata.org/wiki/Q1252407</uri>
-    <citebody>35118</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid35118">35118</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid35195">
     <nomen>Pestum</nomen>
     <label>Pest</label>
     <uri>http://www.wikidata.org/wiki/Q210205</uri>
-    <citebody>35195</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid35195">35195</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid35245">
     <nomen>Danubius</nomen>
     <label>Danuvius/Istros/Hister fl.</label>
     <uri>http://pleiades.stoa.org/places/226577</uri>
-    <citebody>35245</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid35245">35245</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid35575">
     <nomen>Adriaticum mare</nomen>
     <label>(H)Adriaticum/Superum Mare</label>
     <uri>http://pleiades.stoa.org/places/1004</uri>
-    <citebody>35575</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid35575">35575</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid35658">
     <nomen>Pontus Euxinus</nomen>
     <label>Pontus Euxinus</label>
     <uri>http://pleiades.stoa.org/places/1224</uri>
-    <citebody>35658</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid35658">35658</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
-    <nomen>Creta </nomen>
+  <record citeid="locid35822">
+    <nomen>Creta</nomen>
     <label>Creta (island)</label>
     <uri>https://pleiades.stoa.org/places/589748</uri>
-    <citebody>35822</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid35822">35822</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid36171">
     <nomen>Dravus</nomen>
     <label>Dravus (river)</label>
     <uri>http://pleiades.stoa.org/places/197253</uri>
-    <citebody>36171</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid36171">36171</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid36748">
     <nomen>Thracia</nomen>
     <label>Thracia</label>
     <uri>http://pleiades.stoa.org/places/501638</uri>
-    <citebody>36748</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid36748">36748</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid36771">
     <nomen>Macedonia</nomen>
     <label>Macedonia</label>
     <uri>http://pleiades.stoa.org/places/491656</uri>
-    <citebody>36771</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid36771">36771</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid36788">
     <nomen>Illyricum</nomen>
     <label>Illyricum</label>
     <uri>http://pleiades.stoa.org/places/481865</uri>
-    <citebody>36788</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid36788">36788</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid36801">
     <nomen>Pannonia</nomen>
     <label>Pannonia</label>
     <uri>http://pleiades.stoa.org/places/197425</uri>
-    <citebody>36801</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid36801">36801</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid37754">
     <nomen>Vistula</nomen>
     <label>Vistula (river)</label>
     <uri>http://pleiades.stoa.org/places/20639</uri>
-    <citebody>37754</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid37754">37754</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid37775">
     <nomen>Albis</nomen>
     <label>Albis fl.</label>
     <uri>http://pleiades.stoa.org/places/98909</uri>
-    <citebody>37775</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid37775">37775</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid37963">
     <nomen>Rhaxia</nomen>
     <label>Serbia</label>
     <uri>http://www.wikidata.org/wiki/Q403</uri>
-    <citebody>37963</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid37963">37963</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid38013">
     <nomen>Rhipaei</nomen>
     <label>Rhipaei montes</label>
     <uri>http://www.wikidata.org/wiki/Q20552181</uri>
-    <citebody>38013</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38013">38013</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid38242">
     <nomen>Asia</nomen>
     <label>Asia</label>
     <uri>http://pleiades.stoa.org/places/981509</uri>
-    <citebody>38242</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38242">38242</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid38255">
     <nomen>Rha</nomen>
     <label>Rha/Attila (river)</label>
     <uri>http://pleiades.stoa.org/places/834296</uri>
-    <citebody>38255</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38255">38255</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid38340">
     <nomen>Moschovia</nomen>
     <label>Moscow</label>
     <uri>http://www.wikidata.org/wiki/Q649</uri>
-    <citebody>38340</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38340">38340</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid38403">
     <nomen>Scythia</nomen>
     <label>Scythia</label>
     <uri>http://pleiades.stoa.org/places/991379</uri>
-    <citebody>38403</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38403">38403</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid38424">
     <nomen>Pontus Euxinus</nomen>
     <label>Caspium/Hyrcanium Mare</label>
     <uri>http://pleiades.stoa.org/places/884130</uri>
-    <citebody>38424</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38424">38424</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid38500">
     <nomen>Idaeus</nomen>
     <label>Ida M.</label>
     <uri>https://pleiades.stoa.org/places/550592</uri>
-    <citebody>38500</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38500">38500</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-11-08</datecreated>
   </record>
-  <record>
+  <record citeid="locid38501">
     <nomen>Sithonius</nomen>
     <label>Sithone</label>
     <uri>https://pleiades.stoa.org/places/507462</uri>
-    <citebody>38501</citebody>
-    <creator>http://orcid.org/0000-0002-0438-6049 </creator>
+    <citebody citeurn="urn:cite:croala:loci.locid38501">38501</citebody>
+    <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-09</datecreated>
   </record>
-  <record>
+  <record citeid="locid38502">
     <nomen>Cyllenius</nomen>
     <label>Kyllene M.</label>
     <uri>https://pleiades.stoa.org/places/570391</uri>
-    <citebody>38502</citebody>
-    <creator>http://orcid.org/0000-0002-0438-6049 </creator>
+    <citebody citeurn="urn:cite:croala:loci.locid38502">38502</citebody>
+    <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-09</datecreated>
   </record>
-  <record>
+  <record citeid="locid38503">
     <nomen>Thebae</nomen>
-    <label>Thebai/Thebae </label>
+    <label>Thebai/Thebae</label>
     <uri>https://pleiades.stoa.org/places/541138</uri>
-    <citebody>38503</citebody>
-    <creator>http://orcid.org/0000-0002-0438-6049 </creator>
+    <citebody citeurn="urn:cite:croala:loci.locid38503">38503</citebody>
+    <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-09</datecreated>
   </record>
-  <record>
+  <record citeid="locid38504">
     <nomen>Cephisus</nomen>
-    <label>Cephisus fl. </label>
+    <label>Cephisus fl.</label>
     <uri>https://pleiades.stoa.org/places/550592</uri>
-    <citebody>38504</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38504">38504</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
-    <nomen>Olympus</nomen>
+  <record citeid="locid38505">
+    <nomen>Olympus**</nomen>
     <label>sky (celestial dome)</label>
     <uri>https://www.wikidata.org/wiki/Q527</uri>
-    <citebody>38505</citebody>
-    <creator>http://orcid.org/0000-0002-0438-6049 </creator>
+    <citebody citeurn="urn:cite:croala:loci.locid38505">38505</citebody>
+    <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-09</datecreated>
   </record>
-  <record>
+  <record citeid="locid38506">
     <nomen>Peneius</nomen>
     <label>Alphe(i)os (river)</label>
     <uri>https://pleiades.stoa.org/places/570067</uri>
-    <citebody>38506</citebody>
-    <creator>http://orcid.org/0000-0002-0438-6049 </creator>
+    <citebody citeurn="urn:cite:croala:loci.locid38506">38506</citebody>
+    <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-09</datecreated>
   </record>
-  <record>
+  <record citeid="locid38507">
     <nomen>Castalia</nomen>
     <label>Castalian spring</label>
     <uri>https://pleiades.stoa.org/places/203037083</uri>
-    <citebody>38507</citebody>
-    <creator>http://orcid.org/0000-0002-0438-6049 </creator>
+    <citebody citeurn="urn:cite:croala:loci.locid38507">38507</citebody>
+    <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-09</datecreated>
   </record>
-  <record>
+  <record citeid="locid38508">
     <nomen>Chiron</nomen>
     <label>Skeironiakai Petrai</label>
     <uri>https://pleiades.stoa.org/places/573517</uri>
-    <citebody>38508</citebody>
-    <creator>http://orcid.org/0000-0002-0438-6049 </creator>
+    <citebody citeurn="urn:cite:croala:loci.locid38508">38508</citebody>
+    <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-09</datecreated>
   </record>
-  <record>
+  <record citeid="locid38509">
     <nomen>Atticus</nomen>
     <label>Attica</label>
     <uri>https://pleiades.stoa.org/places/579888</uri>
-    <citebody>38509</citebody>
-    <creator>http://orcid.org/0000-0002-0438-6049 </creator>
+    <citebody citeurn="urn:cite:croala:loci.locid38509">38509</citebody>
+    <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-09</datecreated>
   </record>
-  <record>
+  <record citeid="locid38510">
     <nomen>Labyrinthus</nomen>
     <label>Labyrinth</label>
     <uri>https://www.wikidata.org/wiki/Q48963</uri>
-    <citebody>38510</citebody>
-    <creator>http://orcid.org/0000-0002-0438-6049 </creator>
+    <citebody citeurn="urn:cite:croala:loci.locid38510">38510</citebody>
+    <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-09</datecreated>
   </record>
-  <record>
+  <record citeid="locid38511">
     <nomen>Icarius</nomen>
     <label>Ikarion Mare</label>
     <uri>https://pleiades.stoa.org/places/599668</uri>
-    <citebody>38511</citebody>
-    <creator>http://orcid.org/0000-0002-0438-6049 </creator>
+    <citebody citeurn="urn:cite:croala:loci.locid38511">38511</citebody>
+    <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-09</datecreated>
   </record>
-  <record>
+  <record citeid="locid38512">
     <nomen>Cynthus</nomen>
-    <label>Kynthos M. </label>
+    <label>Kynthos M.</label>
     <uri>https://pleiades.stoa.org/places/599740</uri>
-    <citebody>38512</citebody>
-    <creator>http://orcid.org/0000-0002-0438-6049 </creator>
+    <citebody citeurn="urn:cite:croala:loci.locid38512">38512</citebody>
+    <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-09</datecreated>
   </record>
-  <record>
+  <record citeid="locid38513">
     <nomen>Herebus</nomen>
-    <label>Erebus</label>
+    <label>Erebus*</label>
     <uri>https://www.wikidata.org/wiki/Q131122</uri>
-    <citebody>38513</citebody>
-    <creator>http://orcid.org/0000-0002-0438-6049 </creator>
+    <citebody citeurn="urn:cite:croala:loci.locid38513">38513</citebody>
+    <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-09</datecreated>
   </record>
-  <record>
+  <record citeid="locid38514">
     <nomen>Padus</nomen>
     <label>Padus/Eridanus (river)</label>
     <uri>https://pleiades.stoa.org/places/393469</uri>
-    <citebody>38514</citebody>
-    <creator>http://orcid.org/0000-0002-0438-6049 </creator>
+    <citebody citeurn="urn:cite:croala:loci.locid38514">38514</citebody>
+    <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-09</datecreated>
   </record>
-  <record>
+  <record citeid="locid38515">
     <nomen>Parthenope</nomen>
     <label>Parthenope/Neapolis</label>
     <uri>https://pleiades.stoa.org/places/433014</uri>
-    <citebody>38515</citebody>
-    <creator>http://orcid.org/0000-0002-0438-6049 </creator>
+    <citebody citeurn="urn:cite:croala:loci.locid38515">38515</citebody>
+    <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-09</datecreated>
   </record>
-  <record>
+  <record citeid="locid38516">
     <nomen>Vallis Surda</nomen>
     <label>Nečujam</label>
     <uri>https://www.wikidata.org/wiki/Q1878124</uri>
-    <citebody>38516</citebody>
-    <creator>http://orcid.org/0000-0002-0438-6049 </creator>
+    <citebody citeurn="urn:cite:croala:loci.locid38516">38516</citebody>
+    <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-09</datecreated>
   </record>
-  <record>
+  <record citeid="locid38517">
     <nomen>Spalatum</nomen>
     <label>Spalatum</label>
     <uri>https://pleiades.stoa.org/places/197524</uri>
-    <citebody>38517</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38517">38517</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid38518">
     <nomen>Turcae</nomen>
     <label>Ottoman Empire</label>
     <uri>https://www.wikidata.org/wiki/Q12560</uri>
-    <citebody>38518</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38518">38518</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid38519">
     <nomen>Pierius</nomen>
     <label>Pierian Mountains</label>
     <uri>https://www.wikidata.org/wiki/Q1991030</uri>
-    <citebody>38519</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38519">38519</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid38520">
     <nomen>Aonia</nomen>
     <label>Aonia</label>
     <uri>https://www.wikidata.org/wiki/Q1618363</uri>
-    <citebody>38520</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38520">38520</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
-    <nomen>Oceanus</nomen>
+  <record citeid="locid38521">
+    <nomen>Oceanus**</nomen>
     <label>ocean</label>
     <uri>https://www.wikidata.org/wiki/Q9430</uri>
-    <citebody>38521</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38521">38521</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid38524">
     <nomen>Hesperides</nomen>
     <label>Hesperidum Horti</label>
     <uri>https://pleiades.stoa.org/places/278614﻿</uri>
-    <citebody>38524</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38524">38524</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid38525">
     <nomen>Achelous</nomen>
     <label>Achelous (river)</label>
     <uri>https://pleiades.stoa.org/places/530768</uri>
-    <citebody>38525</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38525">38525</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid38526">
     <nomen>Oechalia</nomen>
     <label>Oechalia</label>
     <uri>https://www.wikidata.org/wiki/Q3594069</uri>
-    <citebody>38526</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38526">38526</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid38527">
     <nomen>Nemeaeus</nomen>
     <label>Nemea</label>
     <uri>https://pleiades.stoa.org/places/570504</uri>
-    <citebody>38527</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38527">38527</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid38528">
     <nomen>Erymantheus</nomen>
     <label>Erymanthos M.</label>
     <uri>https://pleiades.stoa.org/places/570238</uri>
-    <citebody>38528</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38528">38528</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid38529">
     <nomen>Stymphalis</nomen>
     <label>Stymphalos</label>
     <uri>https://www.wikidata.org/wiki/Q2359730</uri>
-    <citebody>38529</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38529">38529</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid38530">
     <nomen>Tragurinus</nomen>
     <label>Tragurium</label>
     <uri>https://pleiades.stoa.org/places/197555</uri>
-    <citebody>38530</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38530">38530</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid38531">
     <nomen>Ariminensis</nomen>
     <label>Ariminum</label>
     <uri>https://pleiades.stoa.org/places/393379</uri>
-    <citebody>38531</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38531">38531</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid38532">
     <nomen>Phlegraeus</nomen>
     <label>Pallene/Phlegra</label>
     <uri>https://pleiades.stoa.org/places/491682</uri>
-    <citebody>38532</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38532">38532</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid38533">
     <nomen>Methymna</nomen>
     <label>Methymna</label>
     <uri>https://pleiades.stoa.org/places/550738</uri>
-    <citebody>38533</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38533">38533</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid38534">
     <nomen>Cyrrha</nomen>
     <label>Cyrrhus/Hagioupolis</label>
     <uri>https://pleiades.stoa.org/places/658446</uri>
-    <citebody>38534</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38534">38534</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid38535">
     <nomen>Nysa</nomen>
     <label>Nysa</label>
     <uri>https://www.wikidata.org/wiki/Q1238530</uri>
-    <citebody>38535</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38535">38535</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid38536">
     <nomen>Siculus</nomen>
     <label>Sicilia (island)</label>
     <uri>https://pleiades.stoa.org/places/462492</uri>
-    <citebody>38536</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38536">38536</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid38537">
     <nomen>Pharos</nomen>
     <label>Pharus Ins.</label>
     <uri>https://pleiades.stoa.org/places/197434</uri>
-    <citebody>38537</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38537">38537</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid38538">
     <nomen>Pisae</nomen>
     <label>Pisae</label>
     <uri>https://pleiades.stoa.org/places/403253</uri>
-    <citebody>38538</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38538">38538</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid38539">
     <nomen>Florentinus</nomen>
     <label>Florentia</label>
     <uri>https://pleiades.stoa.org/places/413138</uri>
-    <citebody>38539</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38539">38539</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid38540">
     <nomen>India</nomen>
     <label>India</label>
     <uri>https://pleiades.stoa.org/places/50004</uri>
-    <citebody>38540</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38540">38540</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid38541">
     <nomen>Indus</nomen>
     <label>Indus/Sinthos/Phison (river)</label>
     <uri>https://pleiades.stoa.org/places/59851</uri>
-    <citebody>38541</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38541">38541</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid38542">
     <nomen>Ithacensis</nomen>
     <label>Ithaca Ins.</label>
     <uri>https://pleiades.stoa.org/places/530906</uri>
-    <citebody>38542</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38542">38542</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid38543">
     <nomen>Germanus</nomen>
     <label>Holy Roman Empire</label>
     <uri>https://www.wikidata.org/wiki/Q12548</uri>
-    <citebody>38543</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38543">38543</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid38544">
     <nomen>Hispania</nomen>
     <label>Spanish Empire</label>
     <uri>https://www.wikidata.org/wiki/Q80702</uri>
-    <citebody>38544</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38544">38544</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid38545">
     <nomen>Gallus</nomen>
     <label>Kingdom of France</label>
     <uri>https://www.wikidata.org/wiki/Q70972</uri>
-    <citebody>38545</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38545">38545</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid38546">
     <nomen>Tiberinus</nomen>
     <label>Tiberis (river</label>
     <uri>https://pleiades.stoa.org/places/423080</uri>
-    <citebody>38546</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38546">38546</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid38547">
     <nomen>Lybicus</nomen>
     <label>Libycum Mare</label>
     <uri>https://pleiades.stoa.org/places/716590</uri>
-    <citebody>38547</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38547">38547</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid38548">
     <nomen>Aquinas</nomen>
     <label>Aquinum</label>
     <uri>https://pleiades.stoa.org/places/432695</uri>
-    <citebody>38548</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38548">38548</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid38549">
     <nomen>Helicon</nomen>
     <label>Helicon M.</label>
     <uri>https://pleiades.stoa.org/places/540808</uri>
-    <citebody>38549</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38549">38549</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid38550">
     <nomen>Tempe</nomen>
     <label>Tempe</label>
     <uri>https://pleiades.stoa.org/places/541131</uri>
-    <citebody>38550</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38550">38550</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid38552">
     <nomen>Tigris</nomen>
     <label>Tigris/Diglitus (river)</label>
     <uri>https://pleiades.stoa.org/places/912964</uri>
-    <citebody>38552</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38552">38552</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid38553">
     <nomen>Graecia</nomen>
-    <label>Ancient Greece</label>
+    <label>Ancient Greece*</label>
     <uri>https://www.wikidata.org/wiki/Q11772</uri>
-    <citebody>38553</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38553">38553</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid38554">
     <nomen>Phlegethonteus</nomen>
     <label>Phlegethon</label>
     <uri>https://www.wikidata.org/wiki/Q868738</uri>
-    <citebody>38554</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38554">38554</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid38555">
     <nomen>Tyrius</nomen>
     <label>Tyrus/Col. Septimia Severa</label>
     <uri>https://pleiades.stoa.org/places/678437</uri>
-    <citebody>38555</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38555">38555</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid38556">
     <nomen>Samnites</nomen>
     <label>Samnium</label>
     <uri>https://pleiades.stoa.org/places/433078</uri>
-    <citebody>38556</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38556">38556</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid38557">
     <nomen>Hippocrene</nomen>
     <label>Hippocrene</label>
     <uri>https://www.wikidata.org/wiki/Q195848</uri>
-    <citebody>38557</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38557">38557</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid38558">
     <nomen>Gaetulia</nomen>
     <label>Getulia</label>
     <uri>https://www.wikidata.org/wiki/Q10289365</uri>
-    <citebody>38558</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38558">38558</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid38559">
     <nomen>Hyrcania</nomen>
     <label>Varkana/Hyrcania/Gurgan</label>
     <uri>https://pleiades.stoa.org/places/942333</uri>
-    <citebody>38559</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38559">38559</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
-    <nomen>Gargaphius</nomen>
+  <record citeid="locid38560">
+    <nomen>Gargaphia**</nomen>
     <label>Gargaphia</label>
     <uri>https://pleiades.stoa.org/places/543709</uri>
-    <citebody>38560</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38560">38560</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid38561">
     <nomen>Pergama</nomen>
     <label>Ilium/Troia</label>
     <uri>https://pleiades.stoa.org/places/550595</uri>
-    <citebody>38561</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38561">38561</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid38562">
     <nomen>Tartara</nomen>
     <label>Tartarus</label>
     <uri>https://www.wikidata.org/wiki/Q101322</uri>
-    <citebody>38562</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38562">38562</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid38563">
     <nomen>Erythraeus</nomen>
     <label>Persicus Sinus/Erythr(ae)um Mare</label>
     <uri>https://pleiades.stoa.org/places/29713</uri>
-    <citebody>38563</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38563">38563</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
-    <nomen>Orcus</nomen>
+  <record citeid="locid38564">
+    <nomen>Orcus***</nomen>
     <label>underworld</label>
     <uri>https://www.wikidata.org/wiki/Q154365</uri>
-    <citebody>38564</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38564">38564</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid38565">
     <nomen>Myrrha</nomen>
     <label>Naulochon/Smyrna/Palaia Smyrna</label>
     <uri>https://pleiades.stoa.org/places/550771</uri>
-    <citebody>38565</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38565">38565</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid38566">
     <nomen>Hierosolyma</nomen>
-    <label>Ierusalem/Hierosolyma/Col. Aelia Capitolina </label>
+    <label>Ierusalem/Hierosolyma/Col. Aelia Capitolina</label>
     <uri>https://pleiades.stoa.org/places/687928</uri>
-    <citebody>38566</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38566">38566</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid38567">
     <nomen>Lydda</nomen>
     <label>Lydda/Diospolis/Georgioupolis</label>
     <uri>https://pleiades.stoa.org/places/687953</uri>
-    <citebody>38567</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38567">38567</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid38568">
     <nomen>Joppe</nomen>
     <label>Ioppe</label>
     <uri>https://pleiades.stoa.org/places/687931</uri>
-    <citebody>38568</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38568">38568</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid38569">
     <nomen>Caesarea</nomen>
     <label>Stratonos Pyrgos/ Caesarea</label>
     <uri>https://pleiades.stoa.org/places/678401</uri>
-    <citebody>38569</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38569">38569</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid38570">
     <nomen>Babylonia</nomen>
     <label>Babylonia</label>
     <uri>https://pleiades.stoa.org/places/912816</uri>
-    <citebody>38570</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38570">38570</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
-    <nomen>Senaria</nomen>
+  <record citeid="locid38571">
+    <nomen>Senaria***</nomen>
     <label>Suanir/Senair</label>
     <uri>http://croala.ffzg.unizg.hr/basex/places/18112016</uri>
-    <citebody>38571</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38571">38571</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid38572">
     <nomen>Media</nomen>
     <label>Media</label>
     <uri>https://www.wikidata.org/wiki/Q15657154</uri>
-    <citebody>38572</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38572">38572</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid38573">
     <nomen>Euphrates</nomen>
     <label>Euphrates</label>
     <uri>https://pleiades.stoa.org/places/912849</uri>
-    <citebody>38573</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38573">38573</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid38575">
     <nomen>Persis</nomen>
     <label>Persia</label>
     <uri>https://www.wikidata.org/wiki/Q17132693</uri>
-    <citebody>38575</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38575">38575</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid38576">
     <nomen>Judaea</nomen>
     <label>Judea</label>
     <uri>https://www.wikidata.org/wiki/Q1003997</uri>
-    <citebody>38576</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38576">38576</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid38577">
     <nomen>Cyprus</nomen>
     <label>Cyprus (island)</label>
     <uri>http://pleiades.stoa.org/places/707498</uri>
-    <citebody>38577</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38577">38577</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid38578">
     <nomen>Giscalis</nomen>
     <label>Gischala</label>
     <uri>https://pleiades.stoa.org/places/678165</uri>
-    <citebody>38578</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38578">38578</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid38579">
     <nomen>Salamis</nomen>
     <label>Salamis (island)</label>
     <uri>https://pleiades.stoa.org/places/580101</uri>
-    <citebody>38579</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38579">38579</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid38580">
     <nomen>Tarsus</nomen>
     <label>Tarsus/Antiochia ad Cydnum</label>
     <uri>https://pleiades.stoa.org/places/648789</uri>
-    <citebody>38580</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38580">38580</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid38581">
     <nomen>Antiochus</nomen>
     <label>Antiochia/Theoupolis</label>
     <uri>https://pleiades.stoa.org/places/658381</uri>
-    <citebody>38581</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38581">38581</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid38582">
     <nomen>Lystra</nomen>
     <label>Lystra/ Col. Iulia Felix Gemina</label>
     <uri>https://pleiades.stoa.org/places/648699</uri>
-    <citebody>38582</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38582">38582</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid38583">
     <nomen>Patrae</nomen>
     <label>Patra(e)</label>
     <uri>https://pleiades.stoa.org/places/570567</uri>
-    <citebody>38583</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38583">38583</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid38584">
     <nomen>Achaia</nomen>
     <label>Achaea</label>
     <uri>https://www.wikidata.org/wiki/Q204772</uri>
-    <citebody>38584</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38584">38584</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid38585">
     <nomen>Hieropolis</nomen>
     <label>Hierapolis</label>
     <uri>https://pleiades.stoa.org/places/638860</uri>
-    <citebody>38585</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38585">38585</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid38586">
     <nomen>Armenia</nomen>
     <label>Armenia</label>
     <uri>https://pleiades.stoa.org/places/874350</uri>
-    <citebody>38586</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38586">38586</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid38587">
     <nomen>Albanum</nomen>
     <label>Albanopolis</label>
     <uri>https://pleiades.stoa.org/places/481711</uri>
-    <citebody>38587</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38587">38587</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid38588">
     <nomen>Lycaonia</nomen>
     <label>Lycaonia</label>
     <uri>https://pleiades.stoa.org/places/648698</uri>
-    <citebody>38588</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38588">38588</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
-    <nomen>Hispania</nomen>
+  <record citeid="locid38589">
+    <nomen>Hispania*</nomen>
     <label>Hispania</label>
     <uri>https://www.wikidata.org/wiki/Q186513</uri>
-    <citebody>38589</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38589">38589</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid38590">
     <nomen>Ephesus</nomen>
     <label>Ephesus/Arsinoe(ia)</label>
     <uri>https://pleiades.stoa.org/places/599612</uri>
-    <citebody>38590</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38590">38590</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid38591">
     <nomen>Diana</nomen>
     <label>Temple of Artemis</label>
     <uri>https://www.wikidata.org/wiki/Q43018</uri>
-    <citebody>38591</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38591">38591</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid38592">
     <nomen>Patmos</nomen>
     <label>Patmos (island)</label>
     <uri>https://pleiades.stoa.org/places/599872</uri>
-    <citebody>38592</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38592">38592</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid38593">
     <nomen>Edessa</nomen>
     <label>Edessa/Antiochia ad Callirhoem</label>
     <uri>https://pleiades.stoa.org/places/658457</uri>
-    <citebody>38593</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38593">38593</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
-    <nomen>Nadabar</nomen>
+  <record citeid="locid38594">
+    <nomen>Nadabar***</nomen>
     <label>Naddabar or Naddaver: Unkown place in Asia Minor (Ethiopia), place of purported martyrdom of St. Matthew</label>
     <uri>http://croala.ffzg.unizg.hr/basex/places/18112017</uri>
-    <citebody>38594</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38594">38594</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid38595">
     <nomen>Syria</nomen>
     <label>Syria</label>
     <uri>https://pleiades.stoa.org/places/1306</uri>
-    <citebody>38595</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38595">38595</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid38596">
     <nomen>Etruria</nomen>
     <label>Tuscany(Toscana)</label>
     <uri>https://www.wikidata.org/wiki/Q1273</uri>
-    <citebody>38596</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38596">38596</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid38597">
     <nomen>Arnus</nomen>
     <label>Arnus (river)</label>
     <uri>https://pleiades.stoa.org/places/403181</uri>
-    <citebody>38597</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38597">38597</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
-    <nomen>Salmacis</nomen>
+  <record citeid="locid38598">
+    <nomen>Salmacis***</nomen>
     <label>Salmacis (Σαλμακίς), fons in Caria apud Halicarnassum</label>
     <uri>http://croala.ffzg.unizg.hr/basex/places/18112018</uri>
-    <citebody>38598</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38598">38598</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-13</datecreated>
   </record>
-  <record>
+  <record citeid="locid38599">
     <nomen>Hyblaeus</nomen>
     <label>Hyblaei Colles</label>
     <uri>https://pleiades.stoa.org/places/462253</uri>
-    <citebody>38599</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38599">38599</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-13</datecreated>
   </record>
-  <record>
-    <nomen>Eurus</nomen>
+  <record citeid="locid38600">
+    <nomen>Eurus***</nomen>
     <label>Southeast wind, one of eight directions</label>
     <uri>http://www.iconclass.org/rkd/26C124/</uri>
-    <citebody>38600</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38600">38600</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-13</datecreated>
   </record>
-  <record>
+  <record citeid="locid38601">
     <nomen>Treveris</nomen>
     <label>Trier</label>
     <uri>https://www.wikidata.org/wiki/Q3138</uri>
-    <citebody>38601</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid38601">38601</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-14</datecreated>
   </record>
-  <record>
+  <record citeid="locid41314">
     <nomen>Tanais</nomen>
     <label>Tanais (river)</label>
     <uri>http://pleiades.stoa.org/places/825398</uri>
-    <citebody>41314</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid41314">41314</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid42340">
     <nomen>Latium</nomen>
     <label>Latium</label>
     <uri>http://pleiades.stoa.org/places/432900</uri>
-    <citebody>42340</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid42340">42340</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid45266">
     <nomen>Polonia</nomen>
     <label>Poland</label>
     <uri>http://www.wikidata.org/wiki/Q36</uri>
-    <citebody>45266</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid45266">45266</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid45300">
     <nomen>Eous</nomen>
     <label>Orient</label>
     <uri>https://www.wikidata.org/wiki/Q205653</uri>
-    <citebody>45300</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid45300">45300</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-11-08</datecreated>
   </record>
-  <record>
+  <record citeid="locid45301">
     <nomen>Idumaeus</nomen>
     <label>Idumaea</label>
     <uri>https://pleiades.stoa.org/places/687927</uri>
-    <citebody>45301</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid45301">45301</citebody>
     <creator>http://orcid.org/0000-0002-2135-6343</creator>
     <datecreated>2016-11-14</datecreated>
   </record>
-  <record>
+  <record citeid="locid45302">
     <nomen>Bactra</nomen>
     <label>Bactra</label>
     <uri>https://pleiades.stoa.org/places/961886</uri>
-    <citebody>45302</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid45302">45302</citebody>
     <creator>http://orcid.org/0000-0002-2135-6343</creator>
     <datecreated>2016-11-14</datecreated>
   </record>
-  <record>
+  <record citeid="locid45303">
     <nomen>Aurora</nomen>
     <label>Aurora</label>
     <uri>https://www.wikidata.org/wiki/Q178831</uri>
-    <citebody>45303</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid45303">45303</citebody>
     <creator>http://orcid.org/0000-0002-2135-6343</creator>
     <datecreated>2016-11-14</datecreated>
   </record>
-  <record>
+  <record citeid="locid45304">
     <nomen>Bethlemum</nomen>
     <label>Bethlehem</label>
     <uri>http://pleiades.stoa.org/places/687856</uri>
-    <citebody>45304</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid45304">45304</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-14</datecreated>
   </record>
-  <record>
+  <record citeid="locid50557">
     <nomen>Bohemia</nomen>
     <label>Bohemia</label>
     <uri>http://www.wikidata.org/wiki/Q39193</uri>
-    <citebody>50557</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50557">50557</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid50600">
     <nomen>Abyla</nomen>
     <label>Abila M.</label>
     <uri>https://pleiades.stoa.org/places/275577</uri>
-    <citebody>50600</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50600">50600</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-11-08</datecreated>
   </record>
-  <record>
+  <record citeid="locid50601">
     <nomen>Achelous</nomen>
     <label>Achelous</label>
     <uri>https://pleiades.stoa.org/places/530768</uri>
-    <citebody>50601</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50601">50601</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid50602">
     <nomen>Acheron</nomen>
     <label>Acheron</label>
     <uri>https://www.wikidata.org/wiki/Q191087</uri>
-    <citebody>50602</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50602">50602</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid50603">
     <nomen>Aethiopus</nomen>
     <label>Aethiopia</label>
     <uri>https://pleiades.stoa.org/places/334481</uri>
-    <citebody>50603</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50603">50603</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid50604">
     <nomen>Aetna</nomen>
     <label>Aetna</label>
     <uri>https://pleiades.stoa.org/places/462077</uri>
-    <citebody>50604</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50604">50604</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid50605">
     <nomen>Acheruns</nomen>
     <label>Acheron</label>
     <uri>https://www.wikidata.org/wiki/Q191087</uri>
-    <citebody>50605</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50605">50605</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid50606">
     <nomen>Aetnaeus</nomen>
     <label>Aetna</label>
     <uri>https://pleiades.stoa.org/places/462077</uri>
-    <citebody>50606</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50606">50606</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid50607">
     <nomen>Alpinus</nomen>
     <label>Alps</label>
     <uri>https://www.wikidata.org/wiki/Q1286</uri>
-    <citebody>50607</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50607">50607</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid50608">
     <nomen>Andinus</nomen>
     <label>Andes</label>
     <uri>https://pleiades.stoa.org/places/383570</uri>
-    <citebody>50608</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50608">50608</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid50609">
     <nomen>Arar</nomen>
     <label>Arar</label>
     <uri>https://pleiades.stoa.org/places/167652</uri>
-    <citebody>50609</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50609">50609</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid50610">
     <nomen>Assyrius</nomen>
     <label>Assyria</label>
     <uri>https://pleiades.stoa.org/places/844869</uri>
-    <citebody>50610</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50610">50610</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid50611">
     <nomen>Athos</nomen>
     <label>Athos</label>
     <uri>https://pleiades.stoa.org/places/501366</uri>
-    <citebody>50611</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50611">50611</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid50612">
     <nomen>Atlas</nomen>
     <label>Atlas</label>
     <uri>https://pleiades.stoa.org/places/846</uri>
-    <citebody>50612</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50612">50612</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid50613">
     <nomen>Aventinus</nomen>
     <label>Aventinus</label>
     <uri>https://pleiades.stoa.org/places/865014139</uri>
-    <citebody>50613</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50613">50613</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid50614">
     <nomen>Avernus</nomen>
     <label>Avernus</label>
     <uri>https://pleiades.stoa.org/places/432712</uri>
-    <citebody>50614</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50614">50614</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid50615">
     <nomen>Berecynthius</nomen>
     <label>Berecyntius Tractus</label>
     <uri>https://pleiades.stoa.org/places/609502</uri>
-    <citebody>50615</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50615">50615</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid50616">
     <nomen>Calaber</nomen>
     <label>Calabria</label>
     <uri>https://pleiades.stoa.org/places/236397</uri>
-    <citebody>50616</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50616">50616</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid50617">
     <nomen>Calpe</nomen>
     <label>Calpe</label>
     <uri>https://pleiades.stoa.org/places/256063</uri>
-    <citebody>50617</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50617">50617</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid50618">
     <nomen>Cantabria</nomen>
     <label>Cantabricus Oceanus</label>
     <uri>https://pleiades.stoa.org/places/236376</uri>
-    <citebody>50618</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50618">50618</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid50619">
     <nomen>Carthago</nomen>
     <label>Carthago</label>
     <uri>https://pleiades.stoa.org/places/314921</uri>
-    <citebody>50619</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50619">50619</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid50620">
     <nomen>Caucasus</nomen>
     <label>Caucasus</label>
     <uri>https://pleiades.stoa.org/places/863766</uri>
-    <citebody>50620</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50620">50620</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid50621">
     <nomen>Caycus</nomen>
     <label>Caicus</label>
     <uri>https://pleiades.stoa.org/places/550491</uri>
-    <citebody>50621</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50621">50621</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid50622">
     <nomen>Chaonius</nomen>
     <label>Chaonia</label>
     <uri>https://pleiades.stoa.org/places/481787</uri>
-    <citebody>50622</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50622">50622</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid50623">
     <nomen>Cocytus</nomen>
     <label>Cocytus</label>
     <uri>https://www.wikidata.org/wiki/Q939218</uri>
-    <citebody>50623</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50623">50623</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid50624">
     <nomen>Colchis</nomen>
     <label>Colchis</label>
     <uri>http://pleiades.stoa.org/places/874432</uri>
-    <citebody>50624</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50624">50624</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid50625">
     <nomen>Corinthiacus</nomen>
     <label>Corinthia</label>
     <uri>https://pleiades.stoa.org/places/570180</uri>
-    <citebody>50625</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50625">50625</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid50626">
     <nomen>Cyllenius</nomen>
     <label>Kyllene</label>
     <uri>https://pleiades.stoa.org/places/570391</uri>
-    <citebody>50626</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50626">50626</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
-    <nomen/>
-    <label/>
-    <uri/>
-    <citebody/>
-    <creator/>
-    <datecreated/>
+  <record citeid="locid50627">
+    <nomen>Cylene</nomen>
+    <label>Kyllene</label>
+    <uri>https://pleiades.stoa.org/places/570391</uri>
+    <citebody citeurn="urn:cite:croala:loci.locid50627">50627</citebody>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid50628">
     <nomen>Cynthus</nomen>
     <label>Kynthos</label>
     <uri>https://pleiades.stoa.org/places/599741</uri>
-    <citebody>50628</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50628">50628</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid50629">
     <nomen>Cyprius</nomen>
     <label>Cyprus</label>
     <uri>https://pleiades.stoa.org/places/707498</uri>
-    <citebody>50629</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50629">50629</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid50630">
     <nomen>Dalmaticus</nomen>
     <label>Dalmatia</label>
     <uri>https://pleiades.stoa.org/places/197240</uri>
-    <citebody>50630</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50630">50630</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid50631">
     <nomen>Dardanus</nomen>
     <label>Dardania</label>
     <uri>https://pleiades.stoa.org/places/991367</uri>
-    <citebody>50631</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50631">50631</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid50632">
     <nomen>Dictaeus</nomen>
     <label>Dikte</label>
     <uri>https://pleiades.stoa.org/places/589759</uri>
-    <citebody>50632</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50632">50632</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50633">
     <nomen>Dis</nomen>
     <label>Pluto</label>
     <uri>https://www.wikidata.org/wiki/Q152262</uri>
-    <citebody>50633</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50633">50633</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid50634">
     <nomen>Elysium</nomen>
     <label>Elysium</label>
     <uri>https://www.wikidata.org/wiki/Q157128</uri>
-    <citebody>50634</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50634">50634</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid50635">
     <nomen>Ephyreus</nomen>
     <label>Ephyra</label>
     <uri>https://pleiades.stoa.org/places/540886</uri>
-    <citebody>50635</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50635">50635</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid50636">
     <nomen>Erebus</nomen>
     <label>Erebus</label>
     <uri>https://www.wikidata.org/wiki/Q131122</uri>
-    <citebody>50636</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50636">50636</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid50637">
     <nomen>Eridanus</nomen>
     <label>Eridanus</label>
     <uri>https://pleiades.stoa.org/places/393469</uri>
-    <citebody>50637</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50637">50637</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid50638">
     <nomen>Eurotas</nomen>
     <label>Eurotas</label>
     <uri>https://pleiades.stoa.org/places/570248</uri>
-    <citebody>50638</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50638">50638</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-10</datecreated>
   </record>
-  <record>
+  <record citeid="locid50639">
     <nomen>Gargara</nomen>
     <label>Gargara</label>
     <uri>https://pleiades.stoa.org/places/550545</uri>
-    <citebody>50639</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50639">50639</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50640">
     <nomen>Getae</nomen>
     <label>Getae</label>
     <uri>https://pleiades.stoa.org/places/216817</uri>
-    <citebody>50640</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50640">50640</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50641">
     <nomen>Gnosiacus</nomen>
     <label>Knosos</label>
     <uri>https://pleiades.stoa.org/places/589872</uri>
-    <citebody>50641</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50641">50641</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
-    <nomen/>
-    <label/>
-    <uri/>
-    <citebody/>
-    <creator/>
-    <datecreated>2016-11-22</datecreated>
+  <record citeid="locid50642">
+    <nomen>Gnosius</nomen>
+    <label>Knosos</label>
+    <uri>https://pleiades.stoa.org/places/589872</uri>
+    <citebody citeurn="urn:cite:croala:loci.locid50642">50642</citebody>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50643">
     <nomen>Helicon</nomen>
     <label>Helicon</label>
     <uri>https://pleiades.stoa.org/places/540808</uri>
-    <citebody>50643</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50643">50643</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50644">
     <nomen>Helespontiacus</nomen>
     <label>Hellespontus</label>
     <uri>https://pleiades.stoa.org/places/501434</uri>
-    <citebody>50644</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50644">50644</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50645">
     <nomen>Hispanus</nomen>
     <label>Hispania</label>
     <uri>https://pleiades.stoa.org/places/1027</uri>
-    <citebody>50645</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50645">50645</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50646">
     <nomen>Ida</nomen>
     <label>Ida</label>
     <uri>https://pleiades.stoa.org/places/550592</uri>
-    <citebody>50646</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50646">50646</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
-    <nomen/>
-    <label/>
-    <uri/>
-    <citebody/>
-    <creator/>
-    <datecreated>2016-11-22</datecreated>
+  <record citeid="locid50647">
+    <nomen>Idaeus</nomen>
+    <label>Ida</label>
+    <uri>https://pleiades.stoa.org/places/550592</uri>
+    <citebody citeurn="urn:cite:croala:loci.locid50647">50647</citebody>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50648">
     <nomen>Idalium</nomen>
     <label>Idalion</label>
     <uri>https://pleiades.stoa.org/places/707519</uri>
-    <citebody>50648</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50648">50648</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50649">
     <nomen>Ilerda</nomen>
     <label>Ilerda</label>
     <uri>https://pleiades.stoa.org/places/246431</uri>
-    <citebody>50649</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50649">50649</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50650">
     <nomen>Illyricus</nomen>
     <label>Illyria</label>
     <uri>https://www.wikidata.org/wiki/Q32047</uri>
-    <citebody>50650</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50650">50650</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50651">
     <nomen>Inarime</nomen>
     <label>Inarime</label>
     <uri>https://pleiades.stoa.org/places/432648</uri>
-    <citebody>50651</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50651">50651</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50652">
     <nomen>Indus</nomen>
     <label>India</label>
     <uri>https://pleiades.stoa.org/places/50004</uri>
-    <citebody>50652</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50652">50652</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50653">
     <nomen>Ister</nomen>
     <label>Hister</label>
     <uri>https://pleiades.stoa.org/places/226577</uri>
-    <citebody>50653</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50653">50653</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50654">
     <nomen>Lacaena</nomen>
     <label>Lacedaemon</label>
     <uri>https://pleiades.stoa.org/places/570406</uri>
-    <citebody>50654</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50654">50654</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50655">
     <nomen>Lacinia</nomen>
     <label>Lacinium</label>
     <uri>https://pleiades.stoa.org/places/452356</uri>
-    <citebody>50655</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50655">50655</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50656">
     <nomen>Laethe</nomen>
     <label>Lethe</label>
     <uri>https://www.wikidata.org/wiki/Q161096</uri>
-    <citebody>50656</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50656">50656</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50657">
     <nomen>Lesbius</nomen>
     <label>Lesbos</label>
     <uri>https://pleiades.stoa.org/places/550696</uri>
-    <citebody>50657</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50657">50657</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50658">
     <nomen>Liparis</nomen>
     <label>Liparis</label>
     <uri>https://pleiades.stoa.org/places/648697</uri>
-    <citebody>50658</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50658">50658</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50659">
     <nomen>Luna</nomen>
     <label>Moon</label>
     <uri>https://www.wikidata.org/wiki/Q405</uri>
-    <citebody>50659</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50659">50659</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50660">
     <nomen>Lycus</nomen>
     <label>Lycus</label>
     <uri>https://pleiades.stoa.org/places/638967</uri>
-    <citebody>50660</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50660">50660</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50661">
     <nomen>Malea</nomen>
     <label>Malea</label>
     <uri>https://pleiades.stoa.org/places/570455</uri>
-    <citebody>50661</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50661">50661</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50662">
     <nomen>Maurum</nomen>
     <label>Mauretania</label>
     <uri>https://www.wikidata.org/wiki/Q309272</uri>
-    <citebody>50662</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50662">50662</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50663">
     <nomen>Meles</nomen>
     <label>Meles</label>
     <uri>https://pleiades.stoa.org/places/550729</uri>
-    <citebody>50663</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50663">50663</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50664">
     <nomen>Memphiticus</nomen>
     <label>Memphis</label>
     <uri>https://pleiades.stoa.org/places/736963</uri>
-    <citebody>50664</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50664">50664</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50665">
     <nomen>Methymnaeus</nomen>
     <label>Methymna</label>
     <uri>https://pleiades.stoa.org/places/550738</uri>
-    <citebody>50665</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50665">50665</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50666">
     <nomen>Mycenaeus</nomen>
     <label>Mycenae</label>
     <uri>http://pleiades.stoa.org/places/570491</uri>
-    <citebody>50666</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50666">50666</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50667">
     <nomen>Mycia</nomen>
     <label>Mycia</label>
     <uri>https://pleiades.stoa.org/places/550710</uri>
-    <citebody>50667</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50667">50667</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50668">
     <nomen>Narbo</nomen>
     <label>Narbon</label>
     <uri>https://pleiades.stoa.org/places/246199</uri>
-    <citebody>50668</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50668">50668</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50669">
     <nomen>Naro</nomen>
     <label>Naro</label>
     <uri>https://pleiades.stoa.org/places/197399</uri>
-    <citebody>50669</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50669">50669</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50670">
     <nomen>Neapolitanus</nomen>
     <label>Neapolis</label>
     <uri>https://pleiades.stoa.org/places/471977</uri>
-    <citebody>50670</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50670">50670</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50671">
     <nomen>Nemeaeus</nomen>
     <label>Nemea</label>
     <uri>https://pleiades.stoa.org/places/570504</uri>
-    <citebody>50671</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50671">50671</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50672">
     <nomen>Nessus</nomen>
     <label>Nestos</label>
     <uri>https://pleiades.stoa.org/places/501524</uri>
-    <citebody>50672</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50672">50672</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
-    <nomen/>
-    <label/>
-    <uri/>
-    <citebody/>
-    <creator/>
-    <datecreated>2016-11-22</datecreated>
+  <record citeid="locid50673">
+    <nomen>Nestus</nomen>
+    <label>Nestos</label>
+    <uri>https://pleiades.stoa.org/places/501524</uri>
+    <citebody citeurn="urn:cite:croala:loci.locid50673">50673</citebody>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50674">
     <nomen>Nilus</nomen>
     <label>Nilus</label>
     <uri>http://pleiades.stoa.org/places/727172</uri>
-    <citebody>50674</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50674">50674</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50675">
     <nomen>Niphates</nomen>
     <label>Niphates</label>
     <uri>https://pleiades.stoa.org/places/874622</uri>
-    <citebody>50675</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50675">50675</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50676">
     <nomen>Oaxes</nomen>
     <label>Oaxes</label>
     <uri>https://www.wikidata.org/wiki/Q19818727</uri>
-    <citebody>50676</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50676">50676</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50677">
     <nomen>Oceanus</nomen>
     <label>Oceanus</label>
     <uri>https://www.wikidata.org/wiki/Q161419</uri>
-    <citebody>50677</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50677">50677</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50678">
     <nomen>Oechalicus</nomen>
     <label>Oichalia</label>
     <uri>https://pleiades.stoa.org/places/540970</uri>
-    <citebody>50678</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50678">50678</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50679">
     <nomen>Olympus</nomen>
     <label>Olympus</label>
     <uri>https://pleiades.stoa.org/places/491677</uri>
-    <citebody>50679</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50679">50679</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50680">
     <nomen>Orcades</nomen>
     <label>Orcades</label>
     <uri>https://pleiades.stoa.org/places/89261</uri>
-    <citebody>50680</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50680">50680</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50681">
     <nomen>Orcus</nomen>
     <label>Orcus</label>
     <uri>https://www.wikidata.org/wiki/Q860314</uri>
-    <citebody>50681</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50681">50681</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50682">
     <nomen>Ossa</nomen>
     <label>Ossa</label>
     <uri>http://pleiades.stoa.org/places/540993</uri>
-    <citebody>50682</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50682">50682</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50683">
     <nomen>Pachynum</nomen>
     <label>Pachynum</label>
     <uri>https://pleiades.stoa.org/places/462405</uri>
-    <citebody>50683</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50683">50683</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50684">
     <nomen>Paphius</nomen>
     <label>Paphos</label>
     <uri>https://pleiades.stoa.org/places/707596</uri>
-    <citebody>50684</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50684">50684</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50685">
     <nomen>Parrhasia</nomen>
     <label>Parrasia</label>
     <uri>https://pleiades.stoa.org/places/570564</uri>
-    <citebody>50685</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50685">50685</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50686">
     <nomen>Patareus</nomen>
     <label>Patara</label>
     <uri>https://pleiades.stoa.org/places/639042</uri>
-    <citebody>50686</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50686">50686</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50687">
     <nomen>Pergama</nomen>
     <label>Pergama</label>
     <uri>https://pleiades.stoa.org/places/536121</uri>
-    <citebody>50687</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50687">50687</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50688">
     <nomen>Pergameus</nomen>
     <label>Pegama</label>
     <uri>https://pleiades.stoa.org/places/536121</uri>
-    <citebody>50688</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50688">50688</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50689">
     <nomen>Perrhebi</nomen>
     <label>Perraibia</label>
     <uri>https://pleiades.stoa.org/places/491689</uri>
-    <citebody>50689</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50689">50689</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50690">
     <nomen>Phasis</nomen>
     <label>Phasis</label>
     <uri>https://pleiades.stoa.org/places/874645</uri>
-    <citebody>50690</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50690">50690</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50691">
     <nomen>Phlegethon</nomen>
     <label>Phlegethon</label>
     <uri>https://www.wikidata.org/wiki/Q868738</uri>
-    <citebody>50691</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50691">50691</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50692">
     <nomen>Phlegraeus</nomen>
     <label>Phlegra</label>
     <uri>https://pleiades.stoa.org/places/491682</uri>
-    <citebody>50692</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50692">50692</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50693">
     <nomen>Phrygius</nomen>
     <label>Phrygia</label>
     <uri>https://pleiades.stoa.org/places/609502</uri>
-    <citebody>50693</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50693">50693</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50694">
     <nomen>Pimpleus</nomen>
     <label>Pimpleia</label>
     <uri>https://pleiades.stoa.org/places/491697</uri>
-    <citebody>50694</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50694">50694</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50695">
     <nomen>Pindus</nomen>
     <label>Pindus</label>
     <uri>https://pleiades.stoa.org/places/541062</uri>
-    <citebody>50695</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50695">50695</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50696">
     <nomen>Pylius</nomen>
     <label>Pylos</label>
     <uri>https://pleiades.stoa.org/places/570640</uri>
-    <citebody>50696</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50696">50696</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50697">
     <nomen>Rhodanus</nomen>
     <label>Rhodanus</label>
     <uri>https://pleiades.stoa.org/places/148168</uri>
-    <citebody>50697</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50697">50697</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50698">
     <nomen>Rhodopeius</nomen>
     <label>Rhodope</label>
     <uri>https://pleiades.stoa.org/places/501592</uri>
-    <citebody>50698</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50698">50698</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50699">
     <nomen>Samus</nomen>
     <label>Samos</label>
     <uri>https://pleiades.stoa.org/places/599926</uri>
-    <citebody>50699</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50699">50699</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50700">
     <nomen>Scylla</nomen>
     <label>Scylla</label>
     <uri>https://pleiades.stoa.org/places/452436</uri>
-    <citebody>50700</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50700">50700</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50701">
     <nomen>Scythicus</nomen>
     <label>Scythia</label>
     <uri>https://pleiades.stoa.org/places/1273</uri>
-    <citebody>50701</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50701">50701</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50702">
     <nomen>Smyrneus</nomen>
     <label>Smyrna</label>
     <uri>https://pleiades.stoa.org/places/550771</uri>
-    <citebody>50702</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50702">50702</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50703">
     <nomen>Spartanus</nomen>
     <label>Sparta</label>
     <uri>https://pleiades.stoa.org/places/570685</uri>
-    <citebody>50703</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50703">50703</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50704">
     <nomen>Spercheos</nomen>
     <label>Spercheios</label>
     <uri>http://pleiades.stoa.org/places/541112</uri>
-    <citebody>50704</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50704">50704</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50705">
     <nomen>Strymon</nomen>
     <label>Strymon</label>
     <uri>https://pleiades.stoa.org/places/501629</uri>
-    <citebody>50705</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50705">50705</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50706">
     <nomen>Styx</nomen>
     <label>Styx</label>
     <uri>https://www.wikidata.org/wiki/Q542758</uri>
-    <citebody>50706</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50706">50706</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
-    <nomen/>
-    <label/>
-    <uri/>
-    <citebody/>
-    <creator/>
-    <datecreated>2016-11-22</datecreated>
+  <record citeid="locid50707">
+    <nomen>Stygius</nomen>
+    <label>Styx</label>
+    <uri>https://www.wikidata.org/wiki/Q542758</uri>
+    <citebody citeurn="urn:cite:croala:loci.locid50707">50707</citebody>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50708">
     <nomen>Stymphalis</nomen>
     <label>Stymphalos</label>
     <uri>https://pleiades.stoa.org/places/570696</uri>
-    <citebody>50708</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50708">50708</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50709">
     <nomen>Syrticus</nomen>
     <label>Syrtica</label>
     <uri>https://pleiades.stoa.org/places/364017</uri>
-    <citebody>50709</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50709">50709</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50710">
     <nomen>Taenarum</nomen>
     <label>Tainaron</label>
     <uri>https://pleiades.stoa.org/places/570703</uri>
-    <citebody>50710</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50710">50710</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
-    <nomen/>
-    <label/>
-    <uri/>
-    <citebody/>
-    <creator/>
-    <datecreated/>
+  <record citeid="locid50711">
+    <nomen>Taenarius</nomen>
+    <label>Tainaron</label>
+    <uri>https://pleiades.stoa.org/places/570703</uri>
+    <citebody citeurn="urn:cite:croala:loci.locid50711">50711</citebody>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50712">
     <nomen>Tagus</nomen>
     <label>Tagus</label>
     <uri>https://pleiades.stoa.org/places/256463</uri>
-    <citebody>50712</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50712">50712</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50713">
     <nomen>Tarentum</nomen>
     <label>Tarentum</label>
     <uri>https://pleiades.stoa.org/places/442810</uri>
-    <citebody>50713</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50713">50713</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50714">
     <nomen>Tartarus</nomen>
     <label>Tartarus</label>
     <uri>https://www.wikidata.org/wiki/Q101322</uri>
-    <citebody>50714</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50714">50714</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
-    <nomen/>
-    <label/>
-    <uri/>
-    <citebody/>
-    <creator/>
-    <datecreated/>
+  <record citeid="locid50715">
+    <nomen>Tartareus</nomen>
+    <label>Tartarus</label>
+    <uri>https://www.wikidata.org/wiki/Q101322</uri>
+    <citebody citeurn="urn:cite:croala:loci.locid50715">50715</citebody>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50716">
     <nomen>Taygetus</nomen>
     <label>Taygetus</label>
     <uri>https://pleiades.stoa.org/places/570706</uri>
-    <citebody>50716</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50716">50716</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50717">
     <nomen>Tegeaeus</nomen>
     <label>Tegea</label>
     <uri>https://pleiades.stoa.org/places/570707</uri>
-    <citebody>50717</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50717">50717</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50718">
     <nomen>Thrax</nomen>
     <label>Thracia</label>
     <uri>https://pleiades.stoa.org/places/992078</uri>
-    <citebody>50718</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50718">50718</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
-    <nomen/>
-    <label/>
-    <uri/>
-    <citebody/>
-    <creator/>
-    <datecreated/>
+  <record citeid="locid50719">
+    <nomen>Thracius</nomen>
+    <label>Thracia</label>
+    <uri>https://pleiades.stoa.org/places/992078</uri>
+    <citebody citeurn="urn:cite:croala:loci.locid50719">50719</citebody>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50720">
     <nomen>Thymbraeus</nomen>
     <label>Thymbria</label>
     <uri>https://pleiades.stoa.org/places/606374</uri>
-    <citebody>50720</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50720">50720</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50721">
     <nomen>Tirynthius</nomen>
     <label>Tiryns</label>
     <uri>https://pleiades.stoa.org/places/570740</uri>
-    <citebody>50721</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50721">50721</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50722">
     <nomen>Thyreum</nomen>
     <label>Thyrius</label>
     <uri>https://pleiades.stoa.org/places/152525</uri>
-    <citebody>50722</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50722">50722</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50723">
     <nomen>Troia</nomen>
     <label>Troia</label>
     <uri>https://pleiades.stoa.org/places/550595</uri>
-    <citebody>50723</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50723">50723</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
-    <nomen/>
-    <label/>
-    <uri/>
-    <citebody/>
-    <creator/>
-    <datecreated/>
+  <record citeid="locid50724">
+    <nomen>Troianus</nomen>
+    <label>Troia</label>
+    <uri>https://pleiades.stoa.org/places/550595</uri>
+    <citebody citeurn="urn:cite:croala:loci.locid50724">50724</citebody>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid50725">
     <nomen>Tybris</nomen>
     <label>Tiberis</label>
     <uri>https://pleiades.stoa.org/places/423080</uri>
-    <citebody>50725</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid50725">50725</citebody>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-11</datecreated>
   </record>
-  <record>
+  <record citeid="locid61489">
     <nomen>Valdanus</nomen>
     <label>Una</label>
     <uri>http://www.wikidata.org/wiki/Q212927</uri>
-    <citebody>61489</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid61489">61489</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid61527">
     <nomen>Drinus</nomen>
     <label>Dreinos fl.</label>
     <uri>http://pleiades.stoa.org/places/207097</uri>
-    <citebody>61527</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid61527">61527</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid61578">
     <nomen>Bossina</nomen>
     <label>Bosnia</label>
     <uri>http://www.wikidata.org/wiki/Q188736</uri>
-    <citebody>61578</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid61578">61578</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid62244">
     <nomen>Iaiza</nomen>
     <label>Jajce</label>
     <uri>http://www.wikidata.org/wiki/Q258429</uri>
-    <citebody>62244</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid62244">62244</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid63462">
     <nomen>Rhodus</nomen>
     <label>Rhodos (island)</label>
     <uri>http://pleiades.stoa.org/places/590031</uri>
-    <citebody>63462</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid63462">63462</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid63467">
     <nomen>Lycia</nomen>
     <label>Lykia</label>
     <uri>http://pleiades.stoa.org/places/1001914</uri>
-    <citebody>63467</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid63467">63467</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid64462">
     <nomen>Scarvisius</nomen>
     <label>Sárvíz</label>
     <uri>http://www.wikidata.org/wiki/Q1315093</uri>
-    <citebody>64462</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid64462">64462</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid67890">
     <nomen>Batha</nomen>
     <label>Báta</label>
     <uri>http://www.wikidata.org/wiki/Q853601</uri>
-    <citebody>67890</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid67890">67890</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid67900">
     <nomen>Abdua</nomen>
     <label>Addua (river)</label>
     <uri>https://pleiades.stoa.org/places/383543</uri>
-    <citebody>67900</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid67900">67900</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-11-08</datecreated>
   </record>
-  <record>
+  <record citeid="locid67901">
     <nomen>Colocienses</nomen>
-    <label>Kalocsa </label>
+    <label>Kalocsa</label>
     <uri>https://www.wikidata.org/wiki/Q679249</uri>
-    <citebody>67901</citebody>
-    <creator>http://orcid.org/0000-0003-1457-7081 </creator>
+    <citebody citeurn="urn:cite:croala:loci.locid67901">67901</citebody>
+    <creator>http://orcid.org/0000-0003-1457-7081</creator>
     <datecreated>2016-11-15</datecreated>
   </record>
-  <record>
-    <nomen>Nova urbs</nomen>
+  <record citeid="locid67902">
+    <nomen>Nouus</nomen>
     <label>Wiener Neustadt</label>
     <uri>https://www.wikidata.org/wiki/Q131612</uri>
-    <citebody>67902</citebody>
-    <creator>http://orcid.org/0000-0003-1457-7081 </creator>
+    <citebody citeurn="urn:cite:croala:loci.locid67902">67902</citebody>
+    <creator>http://orcid.org/0000-0003-1457-7081</creator>
     <datecreated>2016-11-17</datecreated>
   </record>
-  <record>
+  <record citeid="locid67903">
     <nomen>Geticus</nomen>
     <label>Romania</label>
     <uri>https://www.wikidata.org/wiki/Q218</uri>
-    <citebody>67903</citebody>
-    <creator>http://orcid.org/0000-0003-1457-7081 </creator>
+    <citebody citeurn="urn:cite:croala:loci.locid67903">67903</citebody>
+    <creator>http://orcid.org/0000-0003-1457-7081</creator>
     <datecreated>2016-11-17</datecreated>
   </record>
-  <record>
-    <nomen>Romanum, Imperium</nomen>
+  <record citeid="locid67904">
+    <nomen>Romanus</nomen>
     <label>Roman Empire</label>
     <uri>https://www.wikidata.org/wiki/Q2277</uri>
-    <citebody>67904</citebody>
-    <creator>http://orcid.org/0000-0003-1457-7081 </creator>
+    <citebody citeurn="urn:cite:croala:loci.locid67904">67904</citebody>
+    <creator>http://orcid.org/0000-0003-1457-7081</creator>
     <datecreated>2016-11-17</datecreated>
   </record>
-  <record>
+  <record citeid="locid67905">
     <nomen>Neapolitanus</nomen>
     <label>Kingdom of Naples</label>
     <uri>https://www.wikidata.org/wiki/Q173065</uri>
-    <citebody>67905</citebody>
-    <creator>http://orcid.org/0000-0003-1457-7081 </creator>
+    <citebody citeurn="urn:cite:croala:loci.locid67905">67905</citebody>
+    <creator>http://orcid.org/0000-0003-1457-7081</creator>
     <datecreated>2016-11-17</datecreated>
   </record>
-  <record>
+  <record citeid="locid77221">
     <nomen>Visegradum</nomen>
     <label>Vyšehrad</label>
     <uri>http://www.wikidata.org/wiki/Q616334</uri>
-    <citebody>77221</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid77221">77221</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid89171">
     <nomen>Strigonium</nomen>
     <label>Esztergom</label>
     <uri>http://www.wikidata.org/wiki/Q171353</uri>
-    <citebody>89171</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid89171">89171</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
-  <record>
+  <record citeid="locid89172">
     <nomen>Ariminum</nomen>
     <label>Ariminum (Rimini)</label>
     <uri>https://pleiades.stoa.org/places/393379</uri>
-    <citebody>89172</citebody>
+    <citebody citeurn="urn:cite:croala:loci.locid89172">89172</citebody>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-11-18</datecreated>
-  </record>
-  <record>
-    <nomen>Carnia</nomen>
-    <label>Carnia</label>
-    <uri>https://www.wikidata.org/wiki/Q369765</uri>
-    <citebody>67906</citebody>
-    <creator>http://orcid.org/0000-0003-1457-7081 </creator>
-    <datecreated>2016-11-19</datecreated>
-  </record>
-  <record>
-    <nomen>Bohemi</nomen>
-    <label>Kingdom of Bohemia</label>
-    <uri>https://www.wikidata.org/wiki/Q42585</uri>
-    <citebody>67907</citebody>
-    <creator>http://orcid.org/0000-0003-1457-7081 </creator>
-    <datecreated>2016-11-19</datecreated>
-  </record>
-  <record>
-    <nomen>Poloni </nomen>
-    <label>Kingdom of Poland</label>
-    <uri>https://www.wikidata.org/wiki/Q400952</uri>
-    <citebody>67908</citebody>
-    <creator>http://orcid.org/0000-0003-1457-7081 </creator>
-    <datecreated>2016-11-19</datecreated>
-  </record>
-  <record>
-    <nomen>Moesiae</nomen>
-    <label>Moesiae</label>
-    <uri>https://pleiades.stoa.org/places/992077</uri>
-    <citebody>67909</citebody>
-    <creator>http://orcid.org/0000-0003-1457-7081 </creator>
-    <datecreated>2016-11-20</datecreated>
-  </record>
-  <record>
-    <nomen>Glacialis oceanus</nomen>
-    <label>Arctic Ocean</label>
-    <uri>https://www.wikidata.org/wiki/Q788</uri>
-    <citebody>67910</citebody>
-    <creator>http://orcid.org/0000-0003-1457-7081 </creator>
-    <datecreated>2016-11-20</datecreated>
-  </record>
-  <record>
-    <nomen>Imperium Romanum orientale</nomen>
-    <label>Byzantine Empire</label>
-    <uri>https://www.wikidata.org/wiki/Q12544</uri>
-    <citebody>67911</citebody>
-    <creator>http://orcid.org/0000-0003-1457-7081 </creator>
-    <datecreated>2016-11-20</datecreated>
-  </record>
-  <record>
-    <nomen>Asia</nomen>
-    <label>Asia</label>
-    <uri>https://www.wikidata.org/wiki/Q48</uri>
-    <citebody>67913</citebody>
-    <creator>http://orcid.org/0000-0003-1457-7081 </creator>
-    <datecreated>2016-11-20</datecreated>
-  </record>
-  <record>
-    <nomen>Transilvania</nomen>
-    <label>Transylvania </label>
-    <uri>https://www.wikidata.org/wiki/Q39473</uri>
-    <citebody>67912</citebody>
-    <creator>http://orcid.org/0000-0003-1457-7081 </creator>
-    <datecreated>2016-11-20</datecreated>
-  </record>
-  <record>
-    <nomen>Britannicus oceanus</nomen>
-    <label>Britannicum Mare </label>
-    <uri>https://pleiades.stoa.org/places/20420</uri>
-    <citebody>67914</citebody>
-    <creator>http://orcid.org/0000-0003-1457-7081 </creator>
-    <datecreated>2016-11-20</datecreated>
-  </record>
-  <record>
-    <nomen>Alemannia</nomen>
-    <label>Germany</label>
-    <uri>https://www.wikidata.org/wiki/Q183</uri>
-    <citebody>67915</citebody>
-    <creator>http://orcid.org/0000-0003-1457-7081 </creator>
-    <datecreated>2016-11-21</datecreated>
-  </record>
-  <record>
-    <nomen>Sarmatia</nomen>
-    <label>Sarmatae</label>
-    <uri>https://pleiades.stoa.org/places/226752</uri>
-    <citebody>67916</citebody>
-    <creator>http://orcid.org/0000-0003-1457-7081 </creator>
-    <datecreated>2016-11-21</datecreated>
-  </record>
-  <record>
-    <nomen>Sarmaticus oceanus</nomen>
-    <label>Sarmaticus oceanus</label>
-    <uri>https://pleiades.stoa.org/places/20594</uri>
-    <citebody>67917</citebody>
-    <creator>http://orcid.org/0000-0003-1457-7081 </creator>
-    <datecreated>2016-11-21</datecreated>
-  </record>
-  <record>
-    <nomen>Belgium</nomen>
-    <label>Belgium</label>
-    <uri>https://www.wikidata.org/wiki/Q31</uri>
-    <citebody>67918</citebody>
-    <creator>http://orcid.org/0000-0003-1457-7081 </creator>
-    <datecreated>2016-11-21</datecreated>
-  </record>
-  <record>
-    <nomen>Gallia Belgica</nomen>
-    <label>Gallia Belgica</label>
-    <uri>https://www.wikidata.org/wiki/Q206443</uri>
-    <citebody>67919</citebody>
-    <creator>http://orcid.org/0000-0003-1457-7081 </creator>
-    <datecreated>2016-11-21</datecreated>
-  </record>
-  <record>
-    <nomen>Varadinum</nomen>
-    <label>Oradea, Nagyvárad</label>
-    <uri>https://www.wikidata.org/wiki/Q93358</uri>
-    <citebody>67920</citebody>
-    <creator>http://orcid.org/0000-0003-1457-7081 </creator>
-    <datecreated>2016-11-21</datecreated>
-  </record>
-  <record>
-    <nomen>Circumistranae regiones</nomen>
-    <label>Podunavlje</label>
-    <uri>https://www.wikidata.org/wiki/Q1269285</uri>
-    <citebody>67921</citebody>
-    <creator>http://orcid.org/0000-0003-1457-7081 </creator>
-    <datecreated>2016-11-21</datecreated>
-  </record>
-  <record>
-    <nomen>Budensis regia</nomen>
-    <label>Buda Castle</label>
-    <uri>https://www.wikidata.org/wiki/Q46313</uri>
-    <citebody>67922</citebody>
-    <creator>http://orcid.org/0000-0003-1457-7081 </creator>
-    <datecreated>2016-11-21</datecreated>
-  </record>
-  <record>
-    <nomen>Sepusium</nomen>
-    <label>Spiš </label>
-    <uri>https://www.wikidata.org/wiki/Q205530</uri>
-    <citebody>67923</citebody>
-    <creator>http://orcid.org/0000-0003-1457-7081 </creator>
-    <datecreated>2016-11-21</datecreated>
-  </record>
-  <record>
-    <nomen>Quinque ecclesiae</nomen>
-    <label>Pécs </label>
-    <uri>https://www.wikidata.org/wiki/Q45779</uri>
-    <citebody>67924</citebody>
-    <creator>http://orcid.org/0000-0003-1457-7081 </creator>
-    <datecreated>2016-11-21</datecreated>
-  </record>
-  <record>
-    <nomen>Auranea </nomen>
-    <label>Stari grad Vrana</label>
-    <uri>https://www.wikidata.org/wiki/Q12627804</uri>
-    <citebody>67925</citebody>
-    <creator>http://orcid.org/0000-0003-1457-7081 </creator>
-    <datecreated>2016-11-22</datecreated>
-  </record>
-  <record>
-    <nomen>Pelusiense monasterium</nomen>
-    <label>Pilis Abbey</label>
-    <uri>https://www.wikidata.org/wiki/Q18129381</uri>
-    <citebody>67926</citebody>
-    <creator>http://orcid.org/0000-0003-1457-7081 </creator>
-    <datecreated>2016-11-22</datecreated>
-  </record>
-  <record>
-    <nomen>Tribunium</nomen>
-    <label>Trebinje</label>
-    <uri>https://www.wikidata.org/wiki/Q690052</uri>
-    <citebody>67927</citebody>
-    <creator>http://orcid.org/0000-0003-1457-7081 </creator>
-    <datecreated>2016-11-22</datecreated>
-  </record>
-  <record>
-    <nomen>Agria</nomen>
-    <label>Eger</label>
-    <uri>https://www.wikidata.org/wiki/Q167109</uri>
-    <citebody>67928</citebody>
-    <creator>http://orcid.org/0000-0003-1457-7081 </creator>
-    <datecreated>2016-11-23</datecreated>
-  </record>
-  <record>
-    <nomen>Bosphorus</nomen>
-    <label>Bosporus</label>
-    <uri>https://pleiades.stoa.org/places/520977</uri>
-    <citebody>67929</citebody>
-    <creator>http://orcid.org/0000-0003-1457-7081 </creator>
-    <datecreated>2016-11-23</datecreated>
-  </record>
-  <record>
-    <nomen>Balathon</nomen>
-    <label>Lake Balaton</label>
-    <uri>https://www.wikidata.org/wiki/Q6383</uri>
-    <citebody>67930</citebody>
-    <creator>http://orcid.org/0000-0003-1457-7081 </creator>
-    <datecreated>2016-11-23</datecreated>
-  </record>
-  <record>
-    <nomen>Cenadium</nomen>
-    <label>Cenad</label>
-    <uri>https://www.wikidata.org/wiki/Q946757</uri>
-    <citebody>67931</citebody>
-    <creator>http://orcid.org/0000-0003-1457-7081 </creator>
-    <datecreated>2016-11-23</datecreated>
-  </record>
-  <record>
-    <nomen>Ragusa</nomen>
-    <label>Ragusa</label>
-    <uri>https://www.wikidata.org/wiki/Q13674</uri>
-    <citebody>67932</citebody>
-    <creator>http://orcid.org/0000-0003-1457-7081 </creator>
-    <datecreated>2016-11-23</datecreated>
-  </record>
-  <record>
-    <nomen>Apulia</nomen>
-    <label>Apulia</label>
-    <uri>https://www.wikidata.org/wiki/Q1447</uri>
-    <citebody>67933</citebody>
-    <creator>http://orcid.org/0000-0003-1457-7081 </creator>
-    <datecreated>2016-11-23</datecreated>
-  </record>
-  <record>
-    <nomen>Albius</nomen>
-    <label>Mala Kapela</label>
-    <uri>https://www.wikidata.org/wiki/Q2166811</uri>
-    <citebody>67934</citebody>
-    <creator>http://orcid.org/0000-0003-1457-7081 </creator>
-    <datecreated>2016-11-24</datecreated>
-  </record>
-  <record>
-    <nomen>Amasia</nomen>
-    <label>Amasya</label>
-    <uri>https://www.wikidata.org/wiki/Q170532</uri>
-    <citebody>67935</citebody>
-    <creator>http://orcid.org/0000-0003-1457-7081 </creator>
-    <datecreated>2016-11-24</datecreated>
-  </record>
-  <record>
-    <nomen>Bithynia</nomen>
-    <label>Bithynia</label>
-    <uri>https://pleiades.stoa.org/places/511189</uri>
-    <citebody>67936</citebody>
-    <creator>http://orcid.org/0000-0003-1457-7081 </creator>
-    <datecreated>2016-11-24</datecreated>
-  </record>
-  <record>
-    <nomen>Halicarnassus</nomen>
-    <label>Halicarnassus</label>
-    <uri>https://www.wikidata.org/wiki/Q5843680</uri>
-    <citebody>67937</citebody>
-    <creator>http://orcid.org/0000-0003-1457-7081 </creator>
-    <datecreated>2016-11-24</datecreated>
-  </record>
-  <record>
-    <nomen>Albania</nomen>
-    <label>Albania (Caucasian Albania)</label>
-    <uri>https://pleiades.stoa.org/places/863731</uri>
-    <citebody>67938</citebody>
-    <creator>http://orcid.org/0000-0003-1457-7081 </creator>
-    <datecreated>2016-11-24</datecreated>
-  </record>
-  <record>
-    <nomen>Armenia Maior</nomen>
-    <label>Armenia Maior</label>
-    <uri>https://pleiades.stoa.org/places/863747</uri>
-    <citebody>67939</citebody>
-    <creator>http://orcid.org/0000-0003-1457-7081 </creator>
-    <datecreated>2016-11-24</datecreated>
-  </record>
-  <record>
-    <nomen>Callipolis</nomen>
-    <label>Gelibolu</label>
-    <uri>https://www.wikidata.org/wiki/Q216907</uri>
-    <citebody>67940</citebody>
-    <creator>http://orcid.org/0000-0003-1457-7081 </creator>
-    <datecreated>2016-11-24</datecreated>
-  </record>
-  <record>
-    <nomen>Hadrianopolis</nomen>
-    <label>Edirne</label>
-    <uri>https://www.wikidata.org/wiki/Q43387</uri>
-    <citebody>67941</citebody>
-    <creator>http://orcid.org/0000-0003-1457-7081 </creator>
-    <datecreated>2016-11-24</datecreated>
-  </record>
-  <record>
-    <nomen>Aegaeum mare</nomen>
-    <label>Aegaeum mare</label>
-    <uri>https://pleiades.stoa.org/places/560221</uri>
-    <citebody>67942</citebody>
-    <creator>http://orcid.org/0000-0003-1457-7081 </creator>
-    <datecreated>2016-11-24</datecreated>
-  </record>
-  <record>
-    <nomen>Haemus</nomen>
-    <label>Haemus M[ons]</label>
-    <uri>https://pleiades.stoa.org/places/216830</uri>
-    <citebody>67943</citebody>
-    <creator>http://orcid.org/0000-0003-1457-7081 </creator>
-    <datecreated>2016-11-24</datecreated>
-  </record>
-  <record>
-    <nomen>Arpispolis</nomen>
-    <label>Tatarbunary </label>
-    <uri>https://www.wikidata.org/wiki/Q545923</uri>
-    <citebody>67944</citebody>
-    <creator>http://orcid.org/0000-0003-1457-7081 </creator>
-    <datecreated>2016-11-24</datecreated>
   </record>
 </list>
