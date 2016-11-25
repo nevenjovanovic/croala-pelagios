@@ -1,35 +1,35 @@
 <list>
-  <record xml:id="aetas1101">
+  <record xml:id="aetas01101">
     <label>Biblical mythology 1: from Creation (Adam), to the Flood, to Abraham</label>
-    <citebody citeurn="urn:cite:croala:loci.aetas1101">1101</citebody>
+    <citebody citeurn="urn:cite:croala:loci.aetas01101">01101</citebody>
     <uri>http://croala.ffzg.unizg.hr/basex/aetates/urn:cite:croala:aetates.aetas1101</uri>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-11-25</datecreated>
   </record>
-  <record xml:id="aetas1102">
+  <record xml:id="aetas01102">
     <label>Biblical mythology 2: Abraham, Isaac and Jacob</label>
-    <citebody citeurn="urn:cite:croala:loci.aetas1102">1102</citebody>
+    <citebody citeurn="urn:cite:croala:loci.aetas01102">01102</citebody>
     <uri>http://croala.ffzg.unizg.hr/basex/aetates/urn:cite:croala:aetates.aetas1101</uri>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-11-25</datecreated>
   </record>
-  <record xml:id="aetas1103">
+  <record xml:id="aetas01103">
     <label>Biblical mythology 3: Israel in Egypt</label>
-    <citebody citeurn="urn:cite:croala:loci.aetas1103">1103</citebody>
+    <citebody citeurn="urn:cite:croala:loci.aetas01103">01103</citebody>
     <uri>http://croala.ffzg.unizg.hr/basex/aetates/urn:cite:croala:aetates.aetas1102</uri>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-21</datecreated>
   </record>
-  <record xml:id="aetas1104">
+  <record xml:id="aetas01104">
     <label>Biblical mythology 4: Exodus to Solomon</label>
-    <citebody citeurn="urn:cite:croala:loci.aetas1104">1104</citebody>
+    <citebody citeurn="urn:cite:croala:loci.aetas01104">01104</citebody>
     <uri>http://croala.ffzg.unizg.hr/basex/aetates/urn:cite:croala:aetates.aetas1103</uri>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-21</datecreated>
   </record>
-  <record xml:id="aetas1105">
+  <record xml:id="aetas01105">
     <label>Biblical mythology 5: from the foundation of the Temple in Solomon's fourth year to its destruction</label>
-    <citebody citeurn="urn:cite:croala:loci.aetas1105">1105</citebody>
+    <citebody citeurn="urn:cite:croala:loci.aetas01105">01105</citebody>
     <uri>http://croala.ffzg.unizg.hr/basex/aetates/urn:cite:croala:aetates.aetas1104</uri>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-21</datecreated>
