@@ -21,7 +21,7 @@ return
 (: do we have a croala-pelagios/csv/cpplaces.xml file in the Github repo? :)
 (: does it validate with cpplaces.rng? :)
 declare %unit:test function test:cp-file-validates () {
-  let $fileuri := substring-before(file:base-dir(), 'scripts/') || "csv/cpperiods.xml"
+  let $fileuri := substring-before(file:base-dir(), 'scripts/') || "csv/aetates/cpperiods.xml"
   for $doc in doc($fileuri)
   let $result := validate:rng-report($doc, 'https://github.com/nevenjovanovic/croala-pelagios/raw/master/schemas/cpperiods.rng')
   let $expected := <report>
@@ -35,7 +35,7 @@ return
 
 (: is the cp-loci db younger than the cpplaces.xml file? :)
 declare %unit:test function test:db-is-uptodate () {
-  let $fileuri := substring-before(file:base-dir(), 'scripts/') || "csv/cpperiods.xml"
+  let $fileuri := substring-before(file:base-dir(), 'scripts/') || "csv/aetates/cpperiods.xml"
   let $filedate := file:last-modified($fileuri)
   let $dbdate := db:info("cp-aetates")//databaseproperties/timestamp/string()
   let $status := if (xs:dateTime($dbdate) lt xs:dateTime($filedate)) then "db older than file" else "db newer than file"
