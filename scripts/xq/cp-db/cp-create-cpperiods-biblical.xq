@@ -1,6 +1,6 @@
 (: pull CSV from Github repo, create XML source for the cp-loci db:)
-let $file := fetch:text("https://github.com/nevenjovanovic/croala-pelagios/raw/master/csv/croala-aetates-bibl-myth.csv")
+let $file := fetch:text("https://github.com/nevenjovanovic/croala-pelagios/raw/master/csv/aetates/croala-aetates-bibl-myth.csv")
 let $csv := csv:parse($file, map { 'header': true() })//record
 let $list := element list { $csv }
-return file:write("/home/neven/rad/croala-pelagios/csv/bibl-myth-periods1.xml", $list)
+return file:write("/home/neven/rad/croala-pelagios/csv/aetates/bibl-myth-periods1.xml", $list)
 (: return $list :)
