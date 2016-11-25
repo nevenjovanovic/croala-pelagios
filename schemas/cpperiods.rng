@@ -9,7 +9,7 @@
                 <element name="record">
                     <attribute name="xml:id">
                         <data type="ID">
-                            <param name="pattern">aetas[0-9]+</param>
+                            <param name="pattern">aetas[0-9]{5}</param>
                         </data>
                     </attribute>
                     <element name="label"><text/></element>
