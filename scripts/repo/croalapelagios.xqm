@@ -252,16 +252,12 @@ let $id := generate-id($r)
 let $citebodyurn2 := element td { cp:input-field2($id, $citebodyurn) }
 let $placeref := data($r/uri)
 let $placereflabel := data($r/label)
-let $creator := data($r/creator)
-let $datecreated := data($r/datecreated)
 order by $placereflabel
 return 
     element tr { 
    $citebodyurn2 ,
   element td { $placereflabel } ,
-  element td { element a { attribute href {$placeref}, replace($placeref, 'http://' , '')} },
-  element td { element a { attribute href {$creator}, replace($creator, 'http://' , '')} },
-  element td { $datecreated }
+  element td { element a { attribute href {$placeref}, replace($placeref, 'http://' , '')} }
 }
 }}
 }
