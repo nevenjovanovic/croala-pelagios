@@ -239,9 +239,7 @@ let $citeurn := element div {
       element tr {
         element th { "CITE URN"},
         element th { "Period Reference"},
-        element th { "Period Referred To"},
-        element th { "Note Created By"},
-        element th { "Last Modified On"}
+        element th { "Period Referred To"}
       }
     },
     element tbody {
