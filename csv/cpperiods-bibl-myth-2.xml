@@ -1,0 +1,37 @@
+<list>
+  <record xml:id="aetas1101">
+    <label>Biblical mythology 1: from Creation (Adam), to the Flood, to Abraham</label>
+    <citebody citeurn="urn:cite:croala:loci.aetas1101">1101</citebody>
+    <uri>http://croala.ffzg.unizg.hr/basex/aetates/urn:cite:croala:aetates.aetas1101</uri>
+    <creator>http://orcid.org/0000-0002-9119-399X</creator>
+    <datecreated>2016-11-25</datecreated>
+  </record>
+  <record xml:id="aetas1102">
+    <label>Biblical mythology 2: Abraham, Isaac and Jacob</label>
+    <citebody citeurn="urn:cite:croala:loci.aetas1102">1102</citebody>
+    <uri>http://croala.ffzg.unizg.hr/basex/aetates/urn:cite:croala:aetates.aetas1101</uri>
+    <creator>http://orcid.org/0000-0002-9119-399X</creator>
+    <datecreated>2016-11-25</datecreated>
+  </record>
+  <record xml:id="aetas9903">
+    <label>Biblical mythology 3: Israel in Egypt</label>
+    <citebody citeurn="urn:cite:croala:loci.aetas9903">9903</citebody>
+    <uri>http://croala.ffzg.unizg.hr/basex/aetates/urn:cite:croala:aetates.aetas9902</uri>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-11-21</datecreated>
+  </record>
+  <record xml:id="aetas9904">
+    <label>Biblical mythology 4: Exodus to Solomon</label>
+    <citebody citeurn="urn:cite:croala:loci.aetas9904">9904</citebody>
+    <uri>http://croala.ffzg.unizg.hr/basex/aetates/urn:cite:croala:aetates.aetas9903</uri>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-11-21</datecreated>
+  </record>
+  <record xml:id="aetas9905">
+    <label>Biblical mythology 5: from the foundation of the Temple in Solomon's fourth year to its destruction</label>
+    <citebody citeurn="urn:cite:croala:loci.aetas9905">9905</citebody>
+    <uri>http://croala.ffzg.unizg.hr/basex/aetates/urn:cite:croala:aetates.aetas9904</uri>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-11-21</datecreated>
+  </record>
+</list>
