@@ -237,17 +237,19 @@ let $citeurn := element div {
     attribute class {"table-striped  table-hover table-centered"},
     element thead {
       element tr {
-        element td { "CITE Body URN"},
-        element td { "Period Reference"},
-        element td { "Period Referred To"},
-        element td { "Note Created By"},
-        element td { "Note Last Modified On"}
+        element th { "CITE URN"},
+        element th { "Period Reference"},
+        element th { "Period Referred To"},
+        element th { "Note Created By"},
+        element th { "Last Modified On"}
       }
     },
     element tbody {
 let $idx := collection("cp-aetates")
 for $r in $idx//record
-let $citebodyurn := data($r/citebody)
+let $citebodyurn := data($r/citebody/@citeurn)
+let $id := generate-id($r)
+let $citebodyurn2 := element td { cp:input-field2($id, $citebodyurn) }
 let $placeref := data($r/uri)
 let $placereflabel := data($r/label)
 let $creator := data($r/creator)
@@ -255,9 +257,9 @@ let $datecreated := data($r/datecreated)
 order by $placereflabel
 return 
     element tr { 
-  element td { $citebodyurn },
+   $citebodyurn2 ,
   element td { $placereflabel } ,
-  element td { $placeref },
+  element td { element a { attribute href {$placeref}, replace($placeref, 'http://' , '')} },
   element td { element a { attribute href {$creator}, replace($creator, 'http://' , '')} },
   element td { $datecreated }
 }

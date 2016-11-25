@@ -61,3 +61,15 @@ declare %unit:test function test:cpaetaetes-page-exists (){
   let $doc := doc("http://croala.ffzg.unizg.hr/basex/cp-aetates")
   return unit:assert($doc//table/tbody/tr/td[1])
 };
+
+(: does the urn field have a input element ? :)
+
+declare %unit:test function test:cpaetates-link-uri (){
+  let $doc := doc("http://croala.ffzg.unizg.hr/basex/cp-aetates")
+  return unit:assert($doc//table/tbody/tr/td[3]/a[@href])
+};
+
+declare %unit:test function test:cpaetates-input (){
+  let $doc := doc("http://croala.ffzg.unizg.hr/basex/cp-aetates")
+  return unit:assert($doc//table/tbody/tr/td[1]/input)
+};
