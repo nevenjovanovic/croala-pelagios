@@ -10,7 +10,7 @@ let $doc := doc("/home/neven/rad/croala-pelagios/csv/myth-periods1.xml")
   return element record { 
   $citeidattr,
   $r/label ,
-  element citebody { $citeurn , $r/citebody/text() } ,
+  element citebody { $citeurn , substring-after($r/citebody/text(), "aetas") } ,
   $r/uri ,
   $r/creator ,
   $r/datecreated
