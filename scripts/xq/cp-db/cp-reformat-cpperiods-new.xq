@@ -2,7 +2,7 @@ declare variable $dbvalidation := map {
   'cp-loci' : 'https://github.com/nevenjovanovic/croala-pelagios/raw/master/schemas/cpplaces.rng'
 };
 let $result := element list {
-let $doc := doc("/home/neven/rad/croala-pelagios/csv/myth-periods1.xml")
+let $doc := doc("https://github.com/nevenjovanovic/croala-pelagios/raw/master/csv/myth-periods1.xml")
     for $r in $doc//record
   let $citeno := $r/citebody/string()
   let $citeidattr := attribute xml:id { $citeno }
