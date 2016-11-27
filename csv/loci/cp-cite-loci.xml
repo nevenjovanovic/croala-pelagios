@@ -1865,6 +1865,84 @@
     <ctsurn>urn:cts:croala:crije02.croala292491.croala-lat2w:body.div3.div10.l18.w3</ctsurn>
     <creator>http://orcid.org/0000-0002-2135-6343</creator>
   </record>
+  <record xml:id="ana088630">
+    <citeurn>urn:cite:croala:loci.ana088630</citeurn>
+    <citelocus>urn:cite:croala:loci.locid45317</citelocus>
+    <ctsurn>urn:cts:croala:crije02.croala292491.croala-lat2w:body.div3.div10.l5.w5</ctsurn>
+    <creator>http://orcid.org/0000-0002-2135-6343</creator>
+  </record>
+  <record xml:id="ana088658">
+    <citeurn>urn:cite:croala:loci.ana088658</citeurn>
+    <citelocus>urn:cite:croala:loci.locid32295</citelocus>
+    <ctsurn>urn:cts:croala:crije02.croala292491.croala-lat2w:body.div3.div10.l6.w4</ctsurn>
+    <creator>http://orcid.org/0000-0002-2135-6343</creator>
+  </record>
+  <record xml:id="ana088694">
+    <citeurn>urn:cite:croala:loci.ana088694</citeurn>
+    <citelocus>urn:cite:croala:loci.locid45318</citelocus>
+    <ctsurn>urn:cts:croala:crije02.croala292491.croala-lat2w:body.div3.div10.l7.w5</ctsurn>
+    <creator>http://orcid.org/0000-0002-2135-6343</creator>
+  </record>
+  <record xml:id="ana088702">
+    <citeurn>urn:cite:croala:loci.ana088702</citeurn>
+    <citelocus>urn:cite:croala:loci.locid35822</citelocus>
+    <ctsurn>urn:cts:croala:crije02.croala292491.croala-lat2w:body.div3.div10.l7.w6</ctsurn>
+    <creator>http://orcid.org/0000-0002-2135-6343</creator>
+  </record>
+  <record xml:id="ana090286">
+    <citeurn>urn:cite:croala:loci.ana090286</citeurn>
+    <citelocus>urn:cite:croala:loci.locid50632</citelocus>
+    <ctsurn>urn:cts:croala:crije02.croala292491.croala-lat2w:body.div3.div11.l32.w2</ctsurn>
+    <creator>http://orcid.org/0000-0002-2135-6343</creator>
+  </record>
+  <record xml:id="ana090314">
+    <citeurn>urn:cite:croala:loci.ana090314</citeurn>
+    <citelocus>urn:cite:croala:loci.locid45319</citelocus>
+    <ctsurn>urn:cts:croala:crije02.croala292491.croala-lat2w:body.div3.div11.l33.w2</ctsurn>
+    <creator>http://orcid.org/0000-0002-2135-6343</creator>
+  </record>
+  <record xml:id="ana090342">
+    <citeurn>urn:cite:croala:loci.ana090342</citeurn>
+    <citelocus>urn:cite:croala:loci.locid45320</citelocus>
+    <ctsurn>urn:cts:croala:crije02.croala292491.croala-lat2w:body.div3.div11.l34.w2</ctsurn>
+    <creator>http://orcid.org/0000-0002-2135-6343</creator>
+  </record>
+  <record xml:id="ana089395">
+    <citeurn>urn:cite:croala:loci.ana089395</citeurn>
+    <citelocus>urn:cite:croala:loci.locid04207</citelocus>
+    <ctsurn>urn:cts:croala:crije02.croala292491.croala-lat2w:body.div3.div11.l5.w4</ctsurn>
+    <creator>http://orcid.org/0000-0002-2135-6343</creator>
+  </record>
+  <record xml:id="ana092520">
+    <citeurn>urn:cite:croala:loci.ana092520</citeurn>
+    <citelocus>urn:cite:croala:loci.locid04240</citelocus>
+    <ctsurn>urn:cts:croala:crije02.croala292491.croala-lat2w:body.div3.div15.l16.w2</ctsurn>
+    <creator>http://orcid.org/0000-0002-2135-6343</creator>
+  </record>
+  <record xml:id="ana094331">
+    <citeurn>urn:cite:croala:loci.ana094331</citeurn>
+    <citelocus>urn:cite:croala:loci.locid50603</citelocus>
+    <ctsurn>urn:cts:croala:crije02.croala292491.croala-lat2w:body.div3.div16.l27.w1</ctsurn>
+    <creator>http://orcid.org/0000-0002-2135-6343</creator>
+  </record>
+  <record xml:id="ana094487">
+    <citeurn>urn:cite:croala:loci.ana094487</citeurn>
+    <citelocus>urn:cite:croala:loci.locid45321</citelocus>
+    <ctsurn>urn:cts:croala:crije02.croala292491.croala-lat2w:body.div3.div16.l32.w2</ctsurn>
+    <creator>http://orcid.org/0000-0002-2135-6343</creator>
+  </record>
+  <record xml:id="ana095060">
+    <citeurn>urn:cite:croala:loci.ana095060</citeurn>
+    <citelocus>urn:cite:croala:loci.locid04240</citelocus>
+    <ctsurn>urn:cts:croala:crije02.croala292491.croala-lat2w:body.div3.div17.l15.w3</ctsurn>
+    <creator>http://orcid.org/0000-0002-2135-6343</creator>
+  </record>
+  <record xml:id="ana095665">
+    <citeurn>urn:cite:croala:loci.ana095665</citeurn>
+    <citelocus>urn:cite:croala:loci.locid45309</citelocus>
+    <ctsurn>urn:cts:croala:crije02.croala292491.croala-lat2w:body.div3.div18.l2.w5</ctsurn>
+    <creator>http://orcid.org/0000-0002-2135-6343</creator>
+  </record>
   <record xml:id="ana1058394">
     <citeurn>urn:cite:croala:loci.ana1058394</citeurn>
     <citelocus>urn:cite:croala:loci.locid38500</citelocus>
@@ -2961,7 +3039,7 @@
     <citeurn>urn:cite:croala:loci.ana1106755</citeurn>
     <citelocus>urn:cite:croala:loci.locid38589</citelocus>
     <ctsurn>urn:cts:croala:marul01.croala754085.croala-lat2w:group.text8.body.div5.div5.l19.w5</ctsurn>
-    <creator/>
+    <creator>http://orcid.org/0000-0002-0438-6049</creator>
   </record>
   <record xml:id="ana1106350">
     <citeurn>urn:cite:croala:loci.ana1106350</citeurn>
@@ -3579,6 +3657,12 @@
     <citeurn>urn:cite:croala:loci.ana307637</citeurn>
     <citelocus>urn:cite:croala:loci.locid35658</citelocus>
     <ctsurn>urn:cts:croala:crije01.croala789994.croala-lat2w:body1.div1.div6.p2.s2.w9</ctsurn>
+    <creator>http://orcid.org/0000-0003-1457-7081</creator>
+  </record>
+  <record xml:id="ana308111">
+    <citeurn>urn:cite:croala:loci.ana308111</citeurn>
+    <citelocus>urn:cite:croala:loci.locid34329</citelocus>
+    <ctsurn>urn:cts:croala:crije01.croala789994.croala-lat2w:body1.div1.div6.p2.s6.w2</ctsurn>
     <creator>http://orcid.org/0000-0003-1457-7081</creator>
   </record>
   <record xml:id="ana308116">
@@ -7143,6 +7227,12 @@
     <citeurn>urn:cite:croala:loci.ana530748</citeurn>
     <citelocus>urn:cite:croala:loci.locid67944</citelocus>
     <ctsurn>urn:cts:croala:crije01.croala789994.croala-lat2w:body1.div6.div12.p8.s2.w10</ctsurn>
+    <creator>http://orcid.org/0000-0003-1457-7081</creator>
+  </record>
+  <record xml:id="ana530815">
+    <citeurn>urn:cite:croala:loci.ana530815</citeurn>
+    <citelocus>urn:cite:croala:loci.locid38403</citelocus>
+    <ctsurn>urn:cts:croala:crije01.croala789994.croala-lat2w:body1.div6.div12.p8.s2.w24</ctsurn>
     <creator>http://orcid.org/0000-0003-1457-7081</creator>
   </record>
   <record xml:id="ana531170">
