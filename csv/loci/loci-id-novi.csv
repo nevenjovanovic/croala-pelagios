@@ -50,7 +50,7 @@ Vistula,Vistula (river),http://pleiades.stoa.org/places/20639,37754,http://orcid
 Albis,Albis fl.,http://pleiades.stoa.org/places/98909,37775,http://orcid.org/0000-0002-9119-399X,2016-09-03
 Rhaxia,Serbia,http://www.wikidata.org/wiki/Q403,37963,http://orcid.org/0000-0002-9119-399X,2016-09-03
 Rhipaei,Rhipaei montes,http://www.wikidata.org/wiki/Q20552181,38013,http://orcid.org/0000-0002-9119-399X,2016-09-03
-Asia,Asia,http://pleiades.stoa.org/places/981509,38242,http://orcid.org/0000-0002-9119-399X,2016-09-03
+Asia Minor,Asia Minor,http://pleiades.stoa.org/places/981509,38242,http://orcid.org/0000-0002-9119-399X,2016-11-27
 Rha,Rha/Attila (river),http://pleiades.stoa.org/places/834296,38255,http://orcid.org/0000-0002-9119-399X,2016-09-03
 Moschovia,Moscow,http://www.wikidata.org/wiki/Q649,38340,http://orcid.org/0000-0002-9119-399X,2016-09-03
 Scythia,Scythia,http://pleiades.stoa.org/places/991379,38403,http://orcid.org/0000-0002-9119-399X,2016-09-03
@@ -111,7 +111,7 @@ Tyrius,Tyrus/Col. Septimia Severa,https://pleiades.stoa.org/places/678437,38555,
 Samnites,Samnium,https://pleiades.stoa.org/places/433078,38556,http://orcid.org/0000-0002-0438-6049,2016-11-11
 Hippocrene,Hippocrene,https://www.wikidata.org/wiki/Q195848,38557,http://orcid.org/0000-0002-0438-6049,2016-11-11
 Gaetulia,Getulia,https://www.wikidata.org/wiki/Q10289365,38558,http://orcid.org/0000-0002-0438-6049,2016-11-11
-Hyrcania,Varkana/Hyrcania/Gurgan,https://pleiades.stoa.org/places/942333,38559,http://orcid.org/0000-0002-0438-6049,2016-11-11
+Hyrcanus,Varkana/Hyrcania/Gurgan,https://pleiades.stoa.org/places/942333,38559,http://orcid.org/0000-0002-0438-6049,2016-11-11
 Gargaphius,Gargaphia,https://pleiades.stoa.org/places/543709,38560,http://orcid.org/0000-0002-0438-6049,2016-11-11
 Pergama,Ilium/Troia,https://pleiades.stoa.org/places/550595,38561,http://orcid.org/0000-0002-0438-6049,2016-11-11
 Tartara,Tartarus,https://www.wikidata.org/wiki/Q101322,38562,http://orcid.org/0000-0002-0438-6049,2016-11-11
@@ -156,7 +156,7 @@ Treveris,Trier,https://www.wikidata.org/wiki/Q3138,38601,http://orcid.org/0000-0
 Tanais,Tanais (river),http://pleiades.stoa.org/places/825398,41314,http://orcid.org/0000-0002-9119-399X,2016-09-03
 Latium,Latium,http://pleiades.stoa.org/places/432900,42340,http://orcid.org/0000-0002-9119-399X,2016-09-03
 Polonia,Poland,http://www.wikidata.org/wiki/Q36,45266,http://orcid.org/0000-0002-9119-399X,2016-09-03
-Eous,Orient,https://www.wikidata.org/wiki/Q205653,45300,http://orcid.org/0000-0002-9119-399X,2016-11-08
+Eous,Orient,https://www.wikidata.org/wiki/Q205653,00003,http://orcid.org/0000-0002-9119-399X,2016-11-08
 Idumaeus,Idumaea,https://pleiades.stoa.org/places/687927,45301,http://orcid.org/0000-0002-2135-6343,2016-11-14
 Bactra,Bactra,https://pleiades.stoa.org/places/961886,45302,http://orcid.org/0000-0002-2135-6343,2016-11-14
 Aurora,Aurora,https://www.wikidata.org/wiki/Q178831,45303,http://orcid.org/0000-0002-2135-6343,2016-11-14
@@ -344,3 +344,39 @@ Hadrianopolis,Edirne,https://www.wikidata.org/wiki/Q43387,67941,http://orcid.org
 Aegaeum mare,Aegaeum mare,https://pleiades.stoa.org/places/560221,67942,http://orcid.org/0000-0003-1457-7081 ,2016-11-24
 Haemus,Haemus M[ons],https://pleiades.stoa.org/places/216830,67943,http://orcid.org/0000-0003-1457-7081 ,2016-11-24
 Arpispolis,Tatarbunary ,https://www.wikidata.org/wiki/Q545923,67944,http://orcid.org/0000-0003-1457-7081 ,2016-11-24
+Nandor Alba,Belgrade,https://www.wikidata.org/wiki/Q3711,67945,http://orcid.org/0000-0003-1457-7081 ,2016-11-25
+Aegyptus,Aegyptus ,https://pleiades.stoa.org/places/981503,67946,http://orcid.org/0000-0003-1457-7081 ,2016-11-25
+Aetolia,Aetolia,https://pleiades.stoa.org/places/540591,67947,http://orcid.org/0000-0003-1457-7081 ,2016-11-25
+Jordanes,Jordan (river),https://pleiades.stoa.org/places/687932,45305,http://orcid.org/0000-0002-2135-6343,2016-11-26
+Borysthenes,Dnieper (river),https://pleiades.stoa.org/places/226544,45306,http://orcid.org/0000-0002-2135-6343,2016-11-26
+Alpes,Alps (mountains),https://pleiades.stoa.org/places/783,45307,http://orcid.org/0000-0002-2135-6343,2016-11-26
+Epidaurum,Epidaurum,https://pleiades.stoa.org/places/197263,45308,http://orcid.org/0000-0002-2135-6343,2016-11-26
+Canopus,Canopus,https://pleiades.stoa.org/places/727097,45309,http://orcid.org/0000-0002-2135-6343,2016-11-26
+Hydaspes,Hydaspes (river),https://pleiades.stoa.org/places/59837,45310,http://orcid.org/0000-0002-2135-6343,2016-11-26
+Araxes,Araxes (river),https://pleiades.stoa.org/places/884118,45311,http://orcid.org/0000-0002-2135-6343,2016-11-26
+Aquileia,Aquileia,https://pleiades.stoa.org/places/187290,45312,http://orcid.org/0000-0002-2135-6343,2016-11-26
+Ionium,The Ionian Sea,https://pleiades.stoa.org/places/1046,45313,http://orcid.org/0000-0002-2135-6343,2016-11-26
+Hymettus,Hymettos (mountain),https://pleiades.stoa.org/places/579955,45314,http://orcid.org/0000-0002-2135-6343,2016-11-26
+Falernus ager,Ager Falernus,https://pleiades.stoa.org/places/432828,45315,http://orcid.org/0000-0002-2135-6343,2016-11-26
+Appenninus,Apennine Mountains,https://pleiades.stoa.org/places/815,45316,http://orcid.org/0000-0002-2135-6343,2016-11-26
+Germania,Germania,https://pleiades.stoa.org/places/20468,45317,http://orcid.org/0000-0002-2135-6343,2016-11-27
+Africa,Africa,https://pleiades.stoa.org/places/775,45318,http://orcid.org/0000-0002-2135-6343,2016-11-27
+Venus,Venus (planet),https://www.wikidata.org/wiki/Q313,45319,http://orcid.org/0000-0002-2135-6343,2016-11-27
+Coma Berenices,Coma Berenices,https://www.wikidata.org/wiki/Q9285,45320,http://orcid.org/0000-0002-2135-6343,2016-11-27
+Corcyra,Corcyra (island),https://pleiades.stoa.org/places/530835,45321,http://orcid.org/0000-0002-2135-6343,2016-11-27
+Ursa Major,Ursa Major,https://www.wikidata.org/wiki/Q8918,45322,http://orcid.org/0000-0002-2135-6343,2016-11-27
+Ursa Minor,Ursa Minor,https://www.wikidata.org/wiki/Q10478,45323,http://orcid.org/0000-0002-2135-6343,2016-11-27
+Thessalia,Thessaly,https://pleiades.stoa.org/places/1332,45324,http://orcid.org/0000-0002-2135-6343,2016-11-27
+Charybdis,Charybdis,https://pleiades.stoa.org/places/462157,45325,http://orcid.org/0000-0002-2135-6343,2016-11-27
+Symplegades,Symplegades (islands),https://pleiades.stoa.org/places/521160,45326,http://orcid.org/0000-0002-2135-6343,2016-11-27
+Ceraunia,Ceraunii,https://pleiades.stoa.org/places/481785,45327,http://orcid.org/0000-0002-2135-6343,2016-11-27
+Ismarus,Ismarus,https://pleiades.stoa.org/places/507409,45328,http://orcid.org/0000-0002-2135-6343,2016-11-27
+Garganus,Garganus (mountain),https://pleiades.stoa.org/places/442596,45329,http://orcid.org/0000-0002-2135-6343,2016-11-27
+Capreae,Capri (island),https://pleiades.stoa.org/places/432752,45330,http://orcid.org/0000-0002-2135-6343,2016-11-27
+Baiae,Baiae,https://pleiades.stoa.org/places/432716,45331,http://orcid.org/0000-0002-2135-6343,2016-11-27
+Britannia,Britannia,https://pleiades.stoa.org/places/991321,45332,http://orcid.org/0000-0002-2135-6343,2016-11-27
+Antillia,Antillia (phantom island),https://www.wikidata.org/wiki/Q576922,45333,http://orcid.org/0000-0002-2135-6343,2016-11-27
+Cyrenae,Cyrene,https://pleiades.stoa.org/places/373778,45334,http://orcid.org/0000-0002-2135-6343,2016-11-27
+Delphi,Delphi,https://pleiades.stoa.org/places/540726,45335,http://orcid.org/0000-0002-2135-6343,2016-11-27
+Cythera,Cythera (island),https://pleiades.stoa.org/places/570186,45336,http://orcid.org/0000-0002-2135-6343,2016-11-27
+Caledonia,Caledonia,https://pleiades.stoa.org/places/89132,45337,http://orcid.org/0000-0002-2135-6343,2016-11-27
