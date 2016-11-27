@@ -1,6 +1,24 @@
 (: XQuery module for CroALa-Pelagios :)
 module namespace cp = 'http://croala.ffzg.unizg.hr/croalapelagios';
 
+declare variable $cp:ann := map {
+  "ZS" : "http://orcid.org/0000-0003-1457-7081",
+  "NJ" : "http://orcid.org/0000-0002-9119-399X",
+  "AS" : "http://orcid.org/0000-0001-5515-6545",
+  "NČ" : "http://orcid.org/0000-0002-0438-6049",
+  "AŽ" : "http://orcid.org/0000-0002-2135-6343"
+};
+
+declare function cp:makeelement($e, $name){
+  element {$name} { data($e) }
+};
+
+declare function cp:annotator ($parsed) { 
+  cp:makeelement(
+  map:get($cp:ann, $parsed/ANNOTATOR_INITIALS), "creator"
+)
+};
+
 declare function cp:input-field2($id, $r){
   element input { 
       attribute size { "15"},
