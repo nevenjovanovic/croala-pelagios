@@ -6,6 +6,9 @@ declare variable $cp:ann := map {
   "NJ" : "http://orcid.org/0000-0002-9119-399X",
   "AS" : "http://orcid.org/0000-0001-5515-6545",
   "NČ" : "http://orcid.org/0000-0002-0438-6049",
+  "NJ/NČ" : "http://orcid.org/0000-0002-0438-6049",
+  "AS/NČ" : "http://orcid.org/0000-0002-0438-6049",
+  "CROALA/NČ" : "http://orcid.org/0000-0002-0438-6049",
   "AŽ" : "http://orcid.org/0000-0002-2135-6343"
 };
 
@@ -15,7 +18,7 @@ declare function cp:makeelement($e, $name){
 
 declare function cp:annotator ($parsed) { 
   cp:makeelement(
-  map:get($cp:ann, $parsed/ANNOTATOR_INITIALS), "creator"
+  map:get($cp:ann, upper-case($parsed/ANNOTATOR_INITIALS)), "creator"
 )
 };
 
