@@ -3,7 +3,7 @@ declare variable $dbvalidation := map {
 };
 let $fileuri := substring-before(file:base-dir(), 'scripts/') || "csv/cpplaces2.xml"
 let $resulturi := substring-before(file:base-dir(), 'scripts/') || "csv/cpplaces.xml"
-let$result := element list {
+let $result := element list {
 let $doc := doc($fileuri)
   for $r in $doc//record
   let $citeno := $r/citebody/string()
@@ -21,5 +21,8 @@ let $doc := doc($fileuri)
   }
   else()
 }
-return file:write($resulturi, $result)
-(: return validate:rng-report($result, map:get($dbvalidation, "cp-loci")) :)
+return if (validate:rng-report($result, map:get($dbvalidation, "cp-loci"))=<report>
+  <status>valid</status>
+</report>) 
+then file:write($resulturi, $result) 
+else validate:rng-report($result, map:get($dbvalidation, "cp-loci"))
