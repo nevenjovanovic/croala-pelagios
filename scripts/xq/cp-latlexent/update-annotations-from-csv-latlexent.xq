@@ -1,16 +1,11 @@
-declare function local:e($e, $name){
-  element {$name} { data($e) }
-};
+import module namespace cp = 'http://croala.ffzg.unizg.hr/croalapelagios' at '../../repo/croalapelagios.xqm';
+
+
 declare function local:check($a, $name, $b) {
-  if ($a/text()=$b) then local:e($a, $name) else element err { $a , ": ERROR!" }
+  if ($a/text()=$b) then cp:makeelement($a, $name) else element err { $a , ": ERROR!" }
 };
-declare variable $ann := map {
-  "ZS" : "http://orcid.org/0000-0003-1457-7081",
-  "NJ" : "http://orcid.org/0000-0002-9119-399X",
-  "AS" : "http://orcid.org/0000-0001-5515-6545",
-  "NČ" : "http://orcid.org/0000-0002-0438-6049",
-  "AŽ" : "http://orcid.org/0000-0002-2135-6343"
-};
+declare variable $path := substring-before(file:base-dir(), 'scripts/') || "csv/cite-lemmata.xml"
+;
 
 let $result := element list {
   (: get csv from remote (Github repo) :)
@@ -31,10 +26,8 @@ let $word := local:check($parsed/Nomen, $word2, "lemma")
 let $lemmalabel := $parsed/LEMMA/string()
 let $lemma2 := collection("cp-latlexents")//record[lemma/text()=upper-case($lemmalabel)]
 let $lemmacite := $lemma2/lemma/@citeurn
-let $annotator := local:e(
-  map:get($ann, $parsed/ANNOTATOR_INITIALS), "creator"
-)
-let $datecreated := local:e(format-date(current-date(), "[Y0001]-[M01]-[D01]"), "datecreated")
+let $annotator := cp:annotator($parsed)
+let $datecreated := cp:makeelement(format-date(current-date(), "[Y0001]-[M01]-[D01]"), "datecreated")
 return element record { 
 $citeid ,
 element seg { $citeurn , $cts, $citelabel } , 
@@ -46,5 +39,6 @@ $datecreated
 (: remove errors from result :)
 return copy $n := $result
 modify delete node $n//record[err]
-(: return validate:rng-report($n, 'https://github.com/nevenjovanovic/croala-pelagios/raw/master/schemas/cpcitelemmata.rng') :)
-return file:write("/home/neven/Repos/croala-pelagios/csv/cite-lemmata.xml", $n)
+(: return validate:rng-report($n, 'https://github.com/nevenjovanovic/croala-pelagios/raw/master/schemas/cpcitelemmata.rng')
+ :)
+return file:write($path, $n)
