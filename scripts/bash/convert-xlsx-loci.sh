@@ -25,7 +25,7 @@ if [ -d "$DIRECTORY" ]; then
    rclone sync remote:croala-pelagios ${DIRECTORY}
 fi
 
-for file in $(find "${DIRECTORY}" -regextype posix-awk -regex ".*-loci.xlsx")
+for file in $(find "${DIRECTORY}" -regextype posix-awk -regex ".*-loci-id.xlsx")
 do
     modified=`date -r ${file}`
     newname=$(basename ${file%.*}).csv
