@@ -20,7 +20,31 @@ return
 
 (: does it point at appropriate segments of texts? :)
 
+declare %unit:test function test:cp-ana-point(){
+  let $result := element r {
+for $r in db:open("cp-cite-loci")//record
+let $citeurn := $r/citeurn/string()
+let $citeindex := db:open("cp-cite-urns")//w[@citeurn=$citeurn]
+return if (not($citeindex)) then element error { $r }
+else ()
+}
+
+return unit:assert-equals(count($result//error), 0)
+};
+
 (: does it point at appropriate places? :)
+
+declare %unit:test function test:cp-cts-point(){
+  let $result := element r {
+for $r in db:open("cp-cite-loci")//record
+let $ctsurn := $r/ctsurn/string()
+let $ctsindex := db:open("cp-cts-urns")//w[@n=$ctsurn]
+return if (not($ctsindex)) then element error { $r }
+else ()
+}
+
+return unit:assert-equals(count($result//error), 0)
+};
 
 (: do we have a croala-pelagios/csv/loci/cp-cite-loci.xml file in the Github repo? :)
 (: does it validate with cpplaces.rng? :)
@@ -39,7 +63,7 @@ return
 
 (: is the cp-cite-loci db newer than the cpplaces.xml file? :)
 declare %unit:test function test:db-is-uptodate () {
-  let $fileuri := substring-before(file:base-dir(), 'scripts/') || "csv/loci/cite-loci.xml"
+  let $fileuri := substring-before(file:base-dir(), 'scripts/') || "csv/loci/cp-cite-loci.xml"
   let $filedate := file:last-modified($fileuri)
   let $dbdate := db:info("cp-cite-loci")//databaseproperties/timestamp/string()
   let $status := if (xs:dateTime($dbdate) lt xs:dateTime($filedate)) then "db older than file" else "db newer than file"
