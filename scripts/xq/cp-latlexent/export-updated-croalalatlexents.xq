@@ -1,3 +1,3 @@
-let $fileuri := substring-before(file:base-dir(), 'scripts/') || "csv/latlexents/cp-croala-latlexents.xml"
-let $db := db:open("cp-latlexents", "cp-croala-latlexents.xml")//csv
+let $fileuri := substring-before(file:base-dir(), 'scripts/') || "csv/latlexents/croala-latlexents-2.xml"
+let $db := db:open("cp-latlexents")//list
 return file:write($fileuri, $db)
