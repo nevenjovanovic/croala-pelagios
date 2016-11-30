@@ -1,10 +1,10 @@
 (: import new estlocus annotations :)
 (: test whether they match with old ones :)
-(: docs should be pulled from Github :)
-let $csvs := ("/home/neven/Repos/croala-pelagios/csv/bunic-deraptucerberi-loci.csv", "/home/neven/Repos/croala-pelagios/csv/tubero-commentarii-loci.csv", "/home/neven/Repos/croala-pelagios/csv/crijevic-carmina-loci.csv", "/home/neven/Repos/croala-pelagios/csv/marulic-carmina-loci.csv" )
+(: csv files are pulled from Github :)
+let $csvs := ("https://github.com/nevenjovanovic/croala-pelagios/raw/master/csv/loci/bunic-deraptucerberi-loci.csv", "https://github.com/nevenjovanovic/croala-pelagios/raw/master/csv/loci/tubero-commentarii-loci.csv", "https://github.com/nevenjovanovic/croala-pelagios/raw/master/csv/loci/crijevic-carmina-loci.csv", "https://github.com/nevenjovanovic/croala-pelagios/raw/master/csv/loci/marulic-carmina-loci.csv" )
 let $source :=
 for $c in $csvs
-let $csv := file:read-text($c)
+let $csv := fetch:text($c)
 return csv:parse($csv, map { 'header': true() })
 for $e in $source//record
 let $estlocus := attribute ana { $e/estLocus/string() }
