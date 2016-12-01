@@ -44,7 +44,7 @@ declare
 <p>Locus in <a href="http://croala.ffzg.unizg.hr">CroALa</a> sub specie <a href="http://commons.pelagios.org/">Pelagii</a>, { current-date() }.</p>
 <p><a href="http://orcid.org/0000-0002-9119-399X">Neven Jovanović</a></p>
 <p>Types of place denotations in selected Croatian Latin texts.</p>
-<p><b>Codes</b>: est locus 0 = not a place; est locus 1 = definitely a place; est locus 2 = part of a multi-word expression denoting place; est locus 3 = rhetorical (figurative) denotation of place; est locus 4 = a complex case; est locus X = requires further work.</p>
+
 <p>Function name: {rest:uri()}.</p>
 </div>
 <div class="col-md-6">
@@ -57,6 +57,7 @@ declare
 <div class="table-responsive">
 { cp:estlocus_tot(db:open("cp-2-texts"), "corpus")  }
 </div>
+<p><b>Codes</b>: est locus 0 = not a place; est locus 1 = definitely a place; est locus 2 = part of a multi-word expression denoting place; est locus 3 = rhetorical (figurative) denotation of place; est locus 4 = a complex case; est locus X = requires further work.</p>
 </blockquote>
      <p/>
      </div>
