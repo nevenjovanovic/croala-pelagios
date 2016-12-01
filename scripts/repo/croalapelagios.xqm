@@ -30,6 +30,23 @@ declare function cp:htmlheadserver($title, $content, $keywords) {
 
 };
 
+(: helper function - footer :)
+declare function cp:footerserver () {
+let $f := <footer class="footer">
+<div class="container">
+<h3> </h3>
+<h1 class="text-center"><span class="glyphicon glyphicon-leaf" aria-hidden="true"></span> <a href="http://croala.ffzg.unizg.hr">CroALa et</a> Pelagios</h1>
+<div class="row"> 
+<div  class="col-md-6">
+<p class="text-center"><a href="http://www.ffzg.unizg.hr"><img src="/basex/static/gfx/ffzghrlogo.png"/> Filozofski fakultet</a> Sveučilišta u Zagrebu</p> 
+</div>
+
+<div  class="col-md-6">
+<p class="text-center"> <a href="http://commons.pelagios.org/"><img src="/basex/static/gfx/pelagiosini.png" width="60"/></a></p></div></div>
+</div>
+</footer>
+return $f
+};
 
 declare function cp:makeelement($e, $name){
   element {$name} { data($e) }

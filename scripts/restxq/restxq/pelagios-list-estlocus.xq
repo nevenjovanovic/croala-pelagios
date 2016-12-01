@@ -3,8 +3,6 @@
 import module namespace rest = "http://exquery.org/ns/restxq";
 import module namespace croala = "http://www.ffzg.unizg.hr/klafil/croala" at "../../repo/croala.xqm";
 import module namespace cp = "http://croala.ffzg.unizg.hr/croalapelagios" at "../../repo/croalapelagios.xqm";
-import module namespace vit = "http://croala.ffzg.unizg.hr/vit" at "../../repo/vitezovic.xqm";
-
 
 declare namespace page = 'http://basex.org/examples/web-page';
 
@@ -36,7 +34,7 @@ declare
   (: HTML template starts here :)
 
 <html>
-{ vit:htmlheadserver($title, $content, $keywords) }
+{ cp:htmlheadserver($title, $content, $keywords) }
 <body text="#000000">
 
 <div class="jumbotron">
@@ -61,7 +59,7 @@ cp:estlocus_tot(db:open("cp-2-texts"), "corpus")
      <p/>
      </div>
 <hr/>
-{ croala:footerserver() }
+{ cp:footerserver() }
 
 </body>
 </html>
