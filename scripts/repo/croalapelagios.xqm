@@ -40,7 +40,7 @@ let $f := <footer class="footer">
 <div class="row"> 
 <div  class="col-md-6">
 <h3 class="text-center"><a href="http://www.ffzg.unizg.hr"><img src="/basex/static/gfx/ffzghrlogo.png"/> Filozofski fakultet</a> Sveučilišta u Zagrebu</h3> 
-<p><i class="fa fa-github fa-lg"></i>
+<p class="text-center"><i class="fa fa-github fa-lg"></i>
             <span class="network-name">Github</span>: <a href="https://github.com/nevenjovanovic/croala-pelagios">croala-pelagios</a></p>
 </div>
 
