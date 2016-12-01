@@ -42,7 +42,7 @@ let $f := <footer class="footer">
 </div>
 
 <div  class="col-md-6">
-<p class="text-center"> <a href="http://commons.pelagios.org/"><img src="/basex/static/gfx/pelagiosini.png" width="60"/></a></p></div></div>
+<p class="text-center"> <a href="http://commons.pelagios.org/"><img src="/basex/static/gfx/pelagiosini.png"/></a></p></div></div>
 </div>
 </footer>
 return $f
