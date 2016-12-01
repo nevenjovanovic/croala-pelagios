@@ -329,7 +329,8 @@ declare function cp:estlocus_grand_tot($set) {
 
 declare function cp:estlocus_tot($set, $urn) {
   element table {
-    attribute class {"table"},
+    attribute class {"table-striped  table-hover table-centered"},
+    attribute id { "estlocus" },
     element thead {
       element tr {
         element th { "ESTLOCUS"},
