@@ -111,6 +111,10 @@ blockquote l {
     display:block;
 }
 
+caption {
+caption-side: bottom;
+}
+
 .jumbotron {
     margin-bottom: 0px;
     background-image: url(../../gfx/dalmatia.jpg);
