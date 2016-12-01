@@ -12,6 +12,25 @@ declare variable $cp:ann := map {
   "AŽ" : "http://orcid.org/0000-0002-2135-6343"
 };
 
+(: helper function for header, with meta :)
+declare function cp:htmlheadserver($title, $content, $keywords) {
+  (: return html template to be filled with title :)
+  (: title should be declared as variable in xq :)
+
+<head><title> { $title } </title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="keywords" content="{ $keywords }"/>
+<meta name="description" content="{$content}"/>
+<meta name="revised" content="{ current-date()}"/>
+<meta name="author" content="Neven Jovanović, CroALa / Pelagios" />
+<link rel="icon" href="/basex/static/gfx/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" type="text/css" href="/basex/static/dist/css/bootstrap.min.css"/>
+<link rel="stylesheet" type="text/css" href="/basex/static/dist/css/cp.css"/>
+</head>
+
+};
+
+
 declare function cp:makeelement($e, $name){
   element {$name} { data($e) }
 };
