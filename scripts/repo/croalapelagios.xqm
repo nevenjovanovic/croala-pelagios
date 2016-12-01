@@ -282,3 +282,42 @@ return
 }
 return $citeurn
 };
+
+declare function cp:estlocus_grand_tot($set) {
+  let $all_estlocus := $set//*:w[matches(@ana,"^estlocus")]
+  return element tr { 
+  element th { "ALL VALUES"},
+  element th { count($all_estlocus) }
+}
+};
+
+declare function cp:estlocus_tot($set, $urn) {
+  element table {
+    element thead {
+      element tr {
+        element th { "ESTLOCUS"},
+        element th { "TOTAL IN CORPUS"}
+      },
+      cp:estlocus_grand_tot($set)
+    },
+    element tbody {
+      for $count in $set//*:w[matches(@ana,"^estlocus")]
+      let $estlocus := $count/@ana
+      group by $estlocus
+      order by $estlocus
+      return element tr {
+        element td { replace($estlocus, "estlocus", "est locus ") },
+        cp:prettylink($estlocus, count($count), "http://croala.ffzg.unizg.hr/basex/cp-loci/" || $urn || "/")
+      }
+    }
+  }
+};
+
+declare function cp:estlocus_xml_totals(){
+  for $doc in db:open("cp-2-texts")//*:TEI[descendant::*:w[matches(@ana,"estlocus")]]
+  let $urn := $doc//*:text/@xml:base/string()
+  let $path := db:path($doc)
+  return element div {
+  element h1 { $urn } , cp:estlocus_tot(db:open("cp-2-texts", $path), $urn)
+}
+};
