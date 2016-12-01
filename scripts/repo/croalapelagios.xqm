@@ -322,6 +322,7 @@ return $citeurn
 declare function cp:estlocus_grand_tot($set) {
   let $all_estlocus := $set//*:w[matches(@ana,"^estlocus")]
   return element tr { 
+  attribute class { "success"},
   element td { "ALL VALUES"},
   element td { count($all_estlocus) }
 }
