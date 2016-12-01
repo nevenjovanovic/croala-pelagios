@@ -26,6 +26,7 @@ declare function cp:htmlheadserver($title, $content, $keywords) {
 <link rel="icon" href="/basex/static/gfx/favicon.ico" type="image/x-icon" />
 <link rel="stylesheet" type="text/css" href="/basex/static/dist/css/bootstrap.min.css"/>
 <link rel="stylesheet" type="text/css" href="/basex/static/dist/css/cp.css"/>
+<link rel="stylesheet" type="text/css" href="/basex/static/dist/font-awesome-4.7.0/css/font-awesome.min.css"/>
 </head>
 
 };
@@ -38,7 +39,9 @@ let $f := <footer class="footer">
 <h1 class="text-center"><span class="glyphicon glyphicon-leaf" aria-hidden="true"></span> <a href="http://croala.ffzg.unizg.hr">CroALa et</a> Pelagios</h1>
 <div class="row"> 
 <div  class="col-md-6">
-<p class="text-center"><a href="http://www.ffzg.unizg.hr"><img src="/basex/static/gfx/ffzghrlogo.png"/> Filozofski fakultet</a> Sveučilišta u Zagrebu</p> 
+<h1 class="text-center"><a href="http://www.ffzg.unizg.hr"><img src="/basex/static/gfx/ffzghrlogo.png"/> Filozofski fakultet</a> Sveučilišta u Zagrebu</h1> 
+<p><i class="fa fa-github fa-lg"></i>
+            <span class="network-name">Github</span>: <a href="https://github.com/nevenjovanovic/croala-pelagios">croala-pelagios</a></p>
 </div>
 
 <div  class="col-md-6">
