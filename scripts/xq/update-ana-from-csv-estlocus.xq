@@ -10,10 +10,9 @@ for $e in $source//record
 let $estlocus := attribute ana { $e/estLocus/string() }
 let $urn := "urn:cts:croala:" || $e/URN/string()
 let $idx := collection("cp-cts-urns")//w[@n=$urn]
-return if (xs:integer($idx/@xml:id)) then 
-  if (db:open-id("cp-2-texts", $idx/@xml:id)/@ana) then 
-  replace value of node db:open-id("cp-2-texts", $idx/@xml:id)/@ana with $estlocus/string()
-  else if (db:open-id("cp-2-texts", $idx/@xml:id)) 
-  then insert node $estlocus into db:open-id("cp-2-texts", $idx/@xml:id)
-  else()
+let $text_loc := if ($idx) then db:open-id("cp-2-texts", $idx/@xml:id) else()
+return if ($text_loc) then 
+  if ($text_loc/@ana) then 
+  replace value of node $text_loc/@ana with $estlocus/string()
+  else insert node $estlocus into $text_loc
 else()
