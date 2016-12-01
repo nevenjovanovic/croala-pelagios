@@ -1,5 +1,6 @@
 <ti:textgroup xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:croala:crije02">
   <ti:groupname xml:lang="hrv">
-    <persName xmlns="http://www.tei-c.org/ns/1.0" xml:lang="hrv">Crijević, Ilija</persName>
+    <persName xmlns="http://www.tei-c.org/ns/1.0" xml:lang="hrv">Crijević, Ilija</persName>, Dubrovnik, 1463-1520
+    <persName xmlns="http://www.tei-c.org/ns/1.0" xml:lang="lat">Cervinus, Aelius Lampridius</persName>
   </ti:groupname>
 </ti:textgroup>

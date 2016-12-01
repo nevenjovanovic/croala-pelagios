@@ -1,5 +1,6 @@
 <ti:textgroup xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:croala:crije01">
   <ti:groupname xml:lang="hrv">
-    <persName xmlns="http://www.tei-c.org/ns/1.0" xml:lang="hrv">Crijević Tuberon, Ludovik</persName>
+    <persName xmlns="http://www.tei-c.org/ns/1.0" xml:lang="hrv">Crijević Tuberon, Ludovik</persName>,  Dubrovnik, 1458-1527
+    <persName xmlns="http://www.tei-c.org/ns/1.0" xml:lang="lat">Cervarius Tubero, Ludovicus</persName>
   </ti:groupname>
 </ti:textgroup>
