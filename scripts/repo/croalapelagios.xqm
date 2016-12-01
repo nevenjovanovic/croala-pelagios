@@ -39,7 +39,7 @@ let $f := <footer class="footer">
 <h1 class="text-center"><span class="glyphicon glyphicon-leaf" aria-hidden="true"></span> <a href="http://croala.ffzg.unizg.hr">CroALa et</a> Pelagios</h1>
 <div class="row"> 
 <div  class="col-md-6">
-<h1 class="text-center"><a href="http://www.ffzg.unizg.hr"><img src="/basex/static/gfx/ffzghrlogo.png"/> Filozofski fakultet</a> Sveučilišta u Zagrebu</h1> 
+<h3 class="text-center"><a href="http://www.ffzg.unizg.hr"><img src="/basex/static/gfx/ffzghrlogo.png"/> Filozofski fakultet</a> Sveučilišta u Zagrebu</h3> 
 <p><i class="fa fa-github fa-lg"></i>
             <span class="network-name">Github</span>: <a href="https://github.com/nevenjovanovic/croala-pelagios">croala-pelagios</a></p>
 </div>
