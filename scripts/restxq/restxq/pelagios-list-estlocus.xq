@@ -57,7 +57,7 @@ declare
 <div class="table-responsive">
 { cp:estlocus_tot(db:open("cp-2-texts"), "corpus")  }
 </div>
-<p><b>Codes</b>: est locus 0 = not a place; est locus 1 = definitely a place; est locus 2 = part of a multi-word expression denoting place; est locus 3 = rhetorical (figurative) denotation of place; est locus 4 = a complex case; est locus X = requires further work.</p>
+
 </blockquote>
      <p/>
      </div>
