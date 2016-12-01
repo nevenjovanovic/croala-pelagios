@@ -54,7 +54,9 @@ declare
 </div>
 <div class="container-fluid">
 <blockquote class="croala">
+<div class="table-responsive">
 { cp:estlocus_tot(db:open("cp-2-texts"), "corpus")  }
+</div>
 </blockquote>
      <p/>
      </div>
