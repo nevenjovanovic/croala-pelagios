@@ -332,7 +332,7 @@ declare function cp:estlocus_tot($set, $urn) {
     attribute class {"table-striped  table-hover table-centered"},
     attribute id { "estlocus" },
     element caption {
-      element b { "Codes" } , ": est locus 0 = not a place; est locus 1 = definitely a place; est locus 2 = part of a multi-word expression denoting place; est locus 3 = rhetorical (figurative) denotation of place; est locus 4 = a complex case; est locus X = requires further work."
+      element b { "Codes" } , ": 0 = not a place; 1 = definitely a place; 2 = part of a multi-word expression denoting place; 3 = rhetorical (figurative) reference; 4 = a complex case; X = requires further work."
     },
     element thead {
       element tr {
