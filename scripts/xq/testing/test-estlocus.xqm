@@ -32,6 +32,10 @@ declare %unit:test function test:db-cp-cts-totals-link () {
 
 (: do we have a page with totals of estlocus? :)
 
+declare %unit:test function test:estlocus-page(){
+  unit:assert(doc("http://croala.ffzg.unizg.hr/basex/cp-estlocus-omnes"))
+};
+
 (: does the page have an explanation of estlocus values? :)
 
 (: do we have a page with totals of estlocus by works? :)

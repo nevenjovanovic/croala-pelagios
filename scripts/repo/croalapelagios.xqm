@@ -293,6 +293,7 @@ declare function cp:estlocus_grand_tot($set) {
 
 declare function cp:estlocus_tot($set, $urn) {
   element table {
+    attribute class {"table"},
     element thead {
       element tr {
         element th { "ESTLOCUS"},
@@ -318,6 +319,8 @@ declare function cp:estlocus_xml_totals(){
   let $urn := $doc//*:text/@xml:base/string()
   let $path := db:path($doc)
   return element div {
-  element h1 { $urn } , cp:estlocus_tot(db:open("cp-2-texts", $path), $urn)
+    attribute class {"table-responsive"},
+  element h1 { $urn } , 
+  cp:estlocus_tot(db:open("cp-2-texts", $path), $urn)
 }
 };
