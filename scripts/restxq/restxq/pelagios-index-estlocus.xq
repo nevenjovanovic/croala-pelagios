@@ -6,7 +6,7 @@ import module namespace cp = "http://croala.ffzg.unizg.hr/croalapelagios" at "..
 
 declare namespace page = 'http://basex.org/examples/web-page';
 
-declare variable $title := 'CroALa: locorum denotationes cuiusdam speciei';
+declare variable $title := 'CroALa: locorum denotationes certae speciei';
 declare variable $content := "Display assertions of specific category of place denotations, in the whole CroALa Pelagios corpus or in a specific document.";
 declare variable $keywords := "Neo-Latin literature, CTS / CITE architecture, Pelagios historical places, gazetteer, literary analysis, scholarly edition, analytical exemplar, place name, URN";
 
