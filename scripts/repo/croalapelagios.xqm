@@ -323,7 +323,7 @@ return $citeurn
 };
 
 declare function cp:estlocus_grand_tot($set) {
-  let $all_estlocus := $set//*:w[matches(@ana,"^estlocus")]
+  let $all_estlocus := $set//*[matches(@ana,"^estlocus")]
   return element tr { 
   attribute class { "success"},
   element td { "ALL VALUES"},
@@ -347,7 +347,7 @@ declare function cp:estlocus_tot($set, $urn) {
     },
     element tbody {
       cp:estlocus_grand_tot($set),
-      for $count in $set//*:w[matches(@ana,"^estlocus")]
+      for $count in $set//*[matches(@ana,"^estlocus")]
       let $estlocus := $count/@ana
       group by $estlocus
       order by $estlocus

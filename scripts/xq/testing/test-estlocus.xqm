@@ -28,6 +28,10 @@ declare %unit:test function test:db-cp-cts-totals-link () {
 
 (: do we have a function returning totals of estlocus by work? :)
 
+declare %unit:test function test:estlocus-by-doc(){
+  unit:assert(cp:estlocus_xml_totals())
+};
+
 (: do we have a function returning index of CTS URNs with estlocus values? :)
 
 (: do we have a page with totals of estlocus? :)
@@ -56,7 +60,12 @@ return
   unit:assert-equals($status, "online newer")
 };
 
-(: does the page have an explanation of estlocus values? :)
+(: do we have a function returning index of an estlocus category? :)
 
-(: do we have a page with totals of estlocus by works? :)
 
+
+(: is the estlocus category index page online? :)
+
+declare %unit:test function test:estlocus-index-page(){
+  unit:assert(doc("http://croala.ffzg.unizg.hr/basex/cp-loci/corpus/estlocus0"))
+};
