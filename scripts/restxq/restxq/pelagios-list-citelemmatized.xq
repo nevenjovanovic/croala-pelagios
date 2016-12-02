@@ -9,11 +9,9 @@ import module namespace cite = "http://croala.ffzg.unizg.hr/cite" at "../../repo
 
 declare namespace page = 'http://basex.org/examples/web-page';
 
-declare variable $title := 'CITE URN indiculi; lemmata verborum in CroALa';
-declare variable $content := "Display available CITE URNs of lemmatized words from our texts.";
+declare variable $title := 'Lemmata verborum in CroALa';
+declare variable $content := "Display available lemmas and CITE URNs of annotated words from our texts.";
 declare variable $keywords := "Neo-Latin literature, CTS / CITE architecture, Pelagios historical places, gazetteer, literary analysis, scholarly edition, analytical exemplar, place name, URN, lemmatization, lemma";
-
-
 
 (:~
  : This function returns an XML response message.
@@ -37,16 +35,16 @@ declare
   (: HTML template starts here :)
 
 <html>
-{ cite:htmlheadtsorter($title, $content, $keywords) }
+{ cp:htmlheadserver($title, $content, $keywords) }
 <body text="#000000">
 
 <div class="jumbotron">
 <h1><span class="glyphicon glyphicon-th" aria-hidden="true"></span>{ $title }</h1>
 <div class="container-fluid">
 <div class="col-md-6">
-<p>Locus in <a href="http://croala.ffzg.unizg.hr">CroALa</a> sub specie <a href="http://commons.pelagios.org/">Pelagii</a>, { current-date() }.</p>
-<p><a href="http://orcid.org/0000-0002-9119-399X">Neven Jovanović</a></p>
-<p>Indiculi CITE URN verborum lemmatibus notatorum.</p>
+<p>Index locorum in <a href="http://croala.ffzg.unizg.hr">CroALa</a> sub specie <a href="http://commons.pelagios.org/">Pelagii</a>, { current-date() }.</p>
+<p><a href="http://orcid.org/0000-0002-9119-399X">Neven Jovanović</a> and the <a href="https://github.com/nevenjovanovic/croala-pelagios/wiki#the-team">CroALa-Pelagios team</a>.</p>
+<p>Lemmatized words and their CITE URN addresses.</p>
 <p>Functio nominatur: {rest:uri()}.</p>
 </div>
 <div class="col-md-6">

@@ -127,21 +127,21 @@ declare function cite:input-field($id, $r){
 };
 
 declare function cite:getlemmata(){
-for $r in collection("cp-cite-lemmata")//csv
+for $r in collection("cp-cite-lemmata")//list
 return $r
 };
 
 declare function cite:listlemmata($records){
   element tbody {
-for $r in $records//record[not(entry[3][.=""])]
-  let $cts := data($r/entry[1])
-  let $citeurn := cp:prettycitebody(data($r/entry[3]) , $cts, "ctsp/")
-  let $word := data($r/entry[2])
-  let $lemma := data($r/entry[4])
-  let $lemmaurn := cp:prettycitebody(data($r/entry[5]), data($r/entry[5]) , "cite/")
-  let $annotator := data($r/entry[6])
-  let $annotatorlink := cp:prettylink($annotator, $annotator, "http://")
-  let $datecreated := data($r/entry[8])
+for $r in $records//record
+  let $cts := data($r/seg/@cts)
+  let $citeurn := cp:prettycitebody($cts , $cts, "ctsp/")
+  let $word := data($r/seg)
+  let $lemma := data($r/lemma)
+  let $lemmaurn := cp:prettycitebody(data($r/lemma/@citeurn), data($r/lemma/@citeurn) , "cite/")
+  let $annotator := data($r/creator)
+  let $annotatorlink := cp:prettylink($annotator, replace($annotator, "http://", ""), "")
+  let $datecreated := data($r/datecreated)
   order by $lemma
   return
     element tr {
