@@ -40,6 +40,12 @@ declare %unit:test function test:estlocus-page(){
   unit:assert(doc("http://croala.ffzg.unizg.hr/basex/cp-estlocus-omnes"))
 };
 
+(: do we have a page with counts of estlocus by document? :)
+
+declare %unit:test function test:estlocus-page-doc(){
+  unit:assert(doc("http://croala.ffzg.unizg.hr/basex/cp-estlocus-opera"))
+};
+
 (: is the texts db on server up to date? :)
 
 declare %unit:test function test:cp-texts-online () {
@@ -62,7 +68,13 @@ return
 
 (: do we have a function returning index of an estlocus category? :)
 
+declare %unit:test function test:db-estlocus-index-local () {
+  unit:assert(cp:estlocus_index("urn:cts:croala:bunic02.croala1761880.croala-lat2w","estlocus1"))
+};
 
+declare %unit:test function test:db-estlocus-index-local-all () {
+  unit:assert(cp:estlocus_index("corpus","estlocus1"))
+};
 
 (: is the estlocus category index page online? :)
 

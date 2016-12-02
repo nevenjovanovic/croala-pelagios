@@ -93,7 +93,7 @@ declare function cp:prettycts($ctsadr, $word) {
   element tr {
     element td { 
     element a { 
-    attribute href { "http://croala.ffzg.unizg.hr/basex/cts/" || $ctsadr } , 
+    attribute href { "http://croala.ffzg.unizg.hr/basex/ctsp/" || $ctsadr } , 
     $ctsadr } },
     element td { $word }
 }
@@ -367,5 +367,32 @@ declare function cp:estlocus_xml_totals(){
     attribute class {"table-responsive"},
   element h1 { $urn } , 
   cp:estlocus_tot(db:open("cp-2-texts", $path), $urn)
+}
+};
+
+declare function cp:estlocus_index($cts_urn, $value){
+  element table {
+    attribute class {"table-striped  table-hover table-centered"},
+    attribute id { $value },
+    element caption { $cts_urn } ,
+  element thead {
+    element tr {
+      element th { "CTS URN"},
+      element th { "Word"}
+    }
+  },
+  element tbody {
+    let $set := if ($cts_urn="corpus") then db:open("cp-cts-urns")//*:w[@ana=$value]
+    else if (starts-with($cts_urn, "urn:cts:croala")) then db:open("cp-cts-urns")//*:w[starts-with(@n, $cts_urn) and @ana=$value]
+    else element b { "URN deest in collectionibus nostris." }
+  for $w in $set
+  let $word := if ($w/string()) then $w/string() else ()
+  let $cts_urn_seg := if ($w/@n) then $w/@n/string() else ()
+  return if ($cts_urn_seg) then
+  cp:prettycts($cts_urn_seg, $word)
+  else element tr {
+    element td { $word }
+  }
+}
 }
 };
