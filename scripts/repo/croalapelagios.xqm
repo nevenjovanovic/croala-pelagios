@@ -396,3 +396,35 @@ declare function cp:estlocus_index($cts_urn, $value){
 }
 }
 };
+
+declare function cp:group_lemmata($set){
+  element table {
+    attribute class {"table-striped  table-hover table-centered"},
+    attribute id { "lemmata" },
+    element caption { $set } ,
+  element thead {
+    element tr {
+      element th { "Lemma"},
+      element th { "Occurrences"}
+    }
+  },
+  element tbody {
+    let $result_set := if ($set="corpus") then db:open("cp-cite-lemmata")//*:record
+    else if (starts-with($set, "urn:cts:croala")) then db:open("cp-cite-lemmata")//*:record[starts-with(seg/@cts, $set)]
+    else element b { "CITE URN deest in collectionibus nostris." }
+  return if ($result_set/lemma) then
+  for $r in $result_set  
+  let $lemma := $r/lemma
+  let $lemma_cite := $r/lemma/@citeurn/string()
+  group by $lemma
+  order by $lemma
+  return element tr {
+    element td { $lemma },
+    element td { cp:prettylink(distinct-values($lemma_cite), count($r), "http://croala.ffzg.unizg.hr/basex/cite/")}
+  }
+  else element tr{
+    element td { $result_set }
+  }
+}
+}
+};

@@ -18,3 +18,14 @@ return
   unit:assert-equals($status, "online newer")
 };
 
+(: do we have a function returning list of lemmata in the corpus and count of occurrences? :)
+
+declare %unit:test function test:cp-grouplemmata-local () {
+  unit:assert(cp:group_lemmata("corpus")//tbody[parent::table]/tr/td[2]/a/@href)
+};
+
+(: is the list of all lemmata online? :)
+
+(: do we have a function returning list of lemmata and occurrences for individual documents? :)
+
+(: is the list of all lemmata in document online? :)
