@@ -5,8 +5,6 @@ import module namespace rest = "http://exquery.org/ns/restxq";
 import module namespace croala = "http://www.ffzg.unizg.hr/klafil/croala" at "../../repo/croala.xqm";
 import module namespace cp = "http://croala.ffzg.unizg.hr/croalapelagios" at "../../repo/croalapelagios.xqm";
 import module namespace cite = "http://croala.ffzg.unizg.hr/cite" at "../../repo/croalacite.xqm";
-import module namespace functx = "http://www.functx.com" at "../../repo/functx.xqm";
-
 
 declare namespace page = 'http://basex.org/examples/web-page';
 
