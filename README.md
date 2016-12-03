@@ -4,7 +4,7 @@ A project supported by a [Pelagios Commons resource development grant](http://co
 
 Using the CITE Architecture, a number of analytical exemplars of the CroALa texts, and elements from different formal ontologies, a set of place name references in the text will be semantically annotated. The annotations will be reviewed and published according to the [Pelagios guidelines for interconnection](https://github.com/pelagios/pelagios-cookbook/wiki).
 
-![Map of Dalmatia, Croatia and surroundings, XV century](img/pelagiosini.png)
+![Map of Dalmatia, Croatia and surroundings, XV century](img/dalmatia-mini.png)
 
 ## PI
 
