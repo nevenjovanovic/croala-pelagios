@@ -26,6 +26,26 @@ declare %unit:test function test:cp-grouplemmata-local () {
 
 (: is the list of all lemmata online? :)
 
+declare %unit:test function test:cp-grouplemmata-online () {
+  let $doc := doc("http://croala.ffzg.unizg.hr/basex/cp-cite-lemmata/corpus")
+  return unit:assert($doc//tbody[parent::table]/tr/td[2]/a/@href)
+};
+
+(: does it work for a single document? :)
+
+declare %unit:test function test:cp-grouplemmata-online-doc () {
+  let $doc := doc("http://croala.ffzg.unizg.hr/basex/cp-cite-lemmata/urn:cts:croala:crije01.croala789994.croala-lat2w")
+  return unit:assert($doc//tbody[parent::table]/tr/td[2]/a/@href)
+};
+
+(: does it return a message for an non-existent URN? :)
+
+declare %unit:test function test:cp-grouplemmata-online-error () {
+  let $doc := doc("http://croala.ffzg.unizg.hr/basex/cp-cite-lemmata/ZZZZZZZ")
+  return unit:assert($doc//tbody[parent::table]/tr/td/b/text())
+};
+
+
 (: do we have a function returning list of lemmata and occurrences for individual documents? :)
 
 (: is the list of all lemmata in document online? :)
