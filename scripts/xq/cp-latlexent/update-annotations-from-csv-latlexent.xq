@@ -11,7 +11,7 @@ let $result := element list {
   (: get csv from remote (Github repo) :)
 for $file in ("https://github.com/nevenjovanovic/croala-pelagios/raw/master/csv/morph/bunic-loci-morphologia.csv", "https://github.com/nevenjovanovic/croala-pelagios/raw/master/csv/morph/crijevic-loci-morphologia.csv", "https://github.com/nevenjovanovic/croala-pelagios/raw/master/csv/morph/marulic-loci-morphologia.csv", "https://github.com/nevenjovanovic/croala-pelagios/raw/master/csv/morph/tubero-loci-morphologia.csv")
 let $csv := fetch:text($file)
-for $parsed in csv:parse($csv, map { 'header': true() })//record[not(CTS_URN="CTS URN") and not(ANNOTATOR_INITIALS="ANNOTATOR") and not(LEMMA_CITE_URN="LEMMA CITE URN") and not(matches(LEMMA, "\*")) and not(matches(LEMMA_CITE_URN, "\*"))]
+for $parsed in csv:parse($csv, map { 'header': true() })//record[not(CTS_URN="CTS URN") and not(ANNOTATOR_INITIALS="ANNOTATOR") and not(matches(LEMMA, "\*"))]
 
 let $cts2 := $parsed/CTS_URN/string()
 let $cite2 := collection("cp-cite-urns")//w[@n=$cts2]
@@ -37,8 +37,7 @@ $datecreated
  }
 }
 (: remove errors from result :)
-return copy $n := $result
-modify delete node $n//record[err]
-(: return validate:rng-report($n, 'https://github.com/nevenjovanovic/croala-pelagios/raw/master/schemas/cpcitelemmata.rng')
- :)
-return file:write($path, $n)
+(: return copy $n := $result
+modify delete node $n//record[err] :)
+(: return count(validate:rng-report($result, 'https://github.com/nevenjovanovic/croala-pelagios/raw/master/schemas/cpcitelemmata.rng')//message) :)
+return $result
