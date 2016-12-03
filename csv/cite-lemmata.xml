@@ -5059,7 +5059,7 @@
   </record>
   <record citeid="ana308266">
     <seg citeurn="urn:cite:croala:loci.ana308266" cts="urn:cts:croala:crije01.croala789994.croala-lat2w:body1.div1.div6.p2.s7.w9">Transistrani</seg>
-    <lemma citeurn="urn:cite:croala:latlexent.lex50131">Transistrani</lemma>
+    <lemma citeurn="urn:cite:croala:latlexent.lex50116">Transistranus</lemma>
     <creator>http://orcid.org/0000-0003-1457-7081</creator>
     <datecreated>2016-12-03</datecreated>
   </record>
@@ -5089,7 +5089,7 @@
   </record>
   <record citeid="ana308660">
     <seg citeurn="urn:cite:croala:loci.ana308660" cts="urn:cts:croala:crije01.croala789994.croala-lat2w:body1.div1.div6.p3.s2.w8">Romanis</seg>
-    <lemma citeurn="urn:cite:croala:latlexent.lex50134">Romani</lemma>
+    <lemma citeurn="urn:cite:croala:latlexent.lex515439618">Romanus</lemma>
     <creator>http://orcid.org/0000-0003-1457-7081</creator>
     <datecreated>2016-12-03</datecreated>
   </record>
@@ -5173,7 +5173,7 @@
   </record>
   <record citeid="ana309078">
     <seg citeurn="urn:cite:croala:loci.ana309078" cts="urn:cts:croala:crije01.croala789994.croala-lat2w:body1.div1.div6.p3.s4.w22">Dalmatas</seg>
-    <lemma citeurn="urn:cite:croala:latlexent.lex50138">Dalmatas</lemma>
+    <lemma citeurn="urn:cite:croala:latlexent.lex515413872">Dalmatae</lemma>
     <creator>http://orcid.org/0000-0003-1457-7081</creator>
     <datecreated>2016-12-03</datecreated>
   </record>
@@ -5797,7 +5797,7 @@
   </record>
   <record citeid="ana325619">
     <seg citeurn="urn:cite:croala:loci.ana325619" cts="urn:cts:croala:crije01.croala789994.croala-lat2w:body1.div1.div11.p2.s1.w40">Varadinensium</seg>
-    <lemma citeurn="urn:cite:croala:latlexent.lex50164">Varadinenses</lemma>
+    <lemma citeurn="urn:cite:croala:latlexent.lex50204">Varadinensis</lemma>
     <creator>http://orcid.org/0000-0003-1457-7081</creator>
     <datecreated>2016-12-03</datecreated>
   </record>
@@ -5941,13 +5941,13 @@
   </record>
   <record citeid="ana333705">
     <seg citeurn="urn:cite:croala:loci.ana333705" cts="urn:cts:croala:crije01.croala789994.croala-lat2w:body1.div1.div14.p3.s2.w26">Bossinensium</seg>
-    <lemma citeurn="urn:cite:croala:latlexent.lex50172">Bossinenses</lemma>
+    <lemma citeurn="urn:cite:croala:latlexent.lex50174">Bossinensis</lemma>
     <creator>http://orcid.org/0000-0003-1457-7081</creator>
     <datecreated>2016-12-03</datecreated>
   </record>
   <record citeid="ana333968">
     <seg citeurn="urn:cite:croala:loci.ana333968" cts="urn:cts:croala:crije01.croala789994.croala-lat2w:body1.div1.div14.p3.s3.w6">Bossinensium</seg>
-    <lemma citeurn="urn:cite:croala:latlexent.lex50172">Bossinenses</lemma>
+    <lemma citeurn="urn:cite:croala:latlexent.lex50174">Bossinensis</lemma>
     <creator>http://orcid.org/0000-0003-1457-7081</creator>
     <datecreated>2016-12-03</datecreated>
   </record>
@@ -6025,7 +6025,7 @@
   </record>
   <record citeid="ana335683">
     <seg citeurn="urn:cite:croala:loci.ana335683" cts="urn:cts:croala:crije01.croala789994.croala-lat2w:body1.div1.div15.p2.s1.w24">Varadinensium</seg>
-    <lemma citeurn="urn:cite:croala:latlexent.lex50164">Varadinenses</lemma>
+    <lemma citeurn="urn:cite:croala:latlexent.lex50204">Varadinensis</lemma>
     <creator>http://orcid.org/0000-0003-1457-7081</creator>
     <datecreated>2016-12-03</datecreated>
   </record>
@@ -6127,7 +6127,7 @@
   </record>
   <record citeid="ana338332">
     <seg citeurn="urn:cite:croala:loci.ana338332" cts="urn:cts:croala:crije01.croala789994.croala-lat2w:body1.div1.div16.p3.s1.w46">Rhacusani</seg>
-    <lemma citeurn="urn:cite:croala:latlexent.lex50186">Rhacusani</lemma>
+    <lemma citeurn="urn:cite:croala:latlexent.lex50145">Rhacusanus</lemma>
     <creator>http://orcid.org/0000-0003-1457-7081</creator>
     <datecreated>2016-12-03</datecreated>
   </record>
@@ -6439,7 +6439,7 @@
   </record>
   <record citeid="ana351221">
     <seg citeurn="urn:cite:croala:loci.ana351221" cts="urn:cts:croala:crije01.croala789994.croala-lat2w:body1.div2.div3.p1.s2.w5">Varadinensium</seg>
-    <lemma citeurn="urn:cite:croala:latlexent.lex50164">Varadinenses</lemma>
+    <lemma citeurn="urn:cite:croala:latlexent.lex50204">Varadinensis</lemma>
     <creator>http://orcid.org/0000-0003-1457-7081</creator>
     <datecreated>2016-12-03</datecreated>
   </record>
