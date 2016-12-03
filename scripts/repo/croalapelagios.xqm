@@ -467,3 +467,25 @@ return cp:count_lemma_all($d)
 }
 }
 };
+
+declare function cp:index_lemmata($cts, $cite_urn){
+  element h3 { $cts || ": " || db:open("cp-latlexents")//record/lemma[@citeurn=$cite_urn]/string() },
+  element table {
+    attribute class {"table-striped  table-hover table-centered"},
+    attribute id { "list_occurrences" },
+    element caption { $cite_urn || ": " || db:open("cp-latlexents")//record/lemma[@citeurn=$cite_urn]/string() } ,
+  element thead {
+    element tr {
+      element th { "Occurrence" },
+      element th { "CTS URN"}
+    }
+  },
+  element tbody {
+  for $r in db:open("cp-cite-lemmata")//record[starts-with(seg/@cts,$cts) and lemma/@citeurn=$cite_urn]
+  return element tr {
+    element td { $r/seg/string()},
+    cp:prettylink( $r/seg/@cts/string(), $r/seg/@cts/string(), "http://croala.ffzg.unizg.hr/basex/ctsp" )
+  }
+}
+}
+};

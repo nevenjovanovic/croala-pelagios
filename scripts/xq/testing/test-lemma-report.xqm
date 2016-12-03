@@ -45,7 +45,16 @@ declare %unit:test function test:cp-grouplemmata-online-error () {
   return unit:assert($doc//tbody[parent::table]/tr/td/b/text())
 };
 
+(: do we have a function returning count of lemmata, count of lemmatized words for the corpus and for each document? :)
+
+
+(: do we have the function for counts online? :)
+
 
 (: do we have a function returning list of lemmata and occurrences for individual documents? :)
+
+declare %unit:test function test:cp-indexlemmata-local () {
+  unit:assert(cp:index_lemmata("urn:cts:croala:bunic02.croala1761880.croala-lat2w","urn:cite:croala:latlexent.lex515444058")//tbody[parent::table]/tr/td[2]/a/@href)
+};
 
 (: is the list of all lemmata in document online? :)
