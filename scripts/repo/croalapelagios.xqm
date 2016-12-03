@@ -419,8 +419,8 @@ declare function cp:group_lemmata($set){
   group by $lemma
   order by $lemma
   return element tr {
-    element td { $lemma },
-    cp:prettylink(distinct-values($lemma_cite), count($r), "http://croala.ffzg.unizg.hr/basex/cite/")}
+    cp:prettylink(distinct-values($lemma_cite), $lemma, "http://croala.ffzg.unizg.hr/basex/cite/"),
+    cp:prettylink($set || "/" || distinct-values($lemma_cite), count($r), "http://croala.ffzg.unizg.hr/basex/cpciteindex/")}
   else element tr{
     element td { $result_set }
   }
