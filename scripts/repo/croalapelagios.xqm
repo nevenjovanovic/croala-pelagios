@@ -1,5 +1,6 @@
 (: XQuery module for CroALa-Pelagios :)
 module namespace cp = 'http://croala.ffzg.unizg.hr/croalapelagios';
+import module namespace functx = "http://www.functx.com" at "functx.xqm";
 
 declare variable $cp:ann := map {
   "ZS" : "http://orcid.org/0000-0003-1457-7081",
@@ -88,7 +89,7 @@ declare function cp:prettyp($settext, $ctsadr, $word) {
 }
 }
 };
-(: pretty printing of CTS URN list :)
+(: pretty printing of CTS URN list with link :)
 declare function cp:prettycts($ctsadr, $word) {
   element tr {
     element td { 
@@ -424,6 +425,45 @@ declare function cp:group_lemmata($set){
   else element tr{
     element td { $result_set }
   }
+}
+}
+};
+
+(: return counts of lemmata and lemmatized words :)
+
+declare function cp:count_lemma_all($cts){
+  let $set := if ($cts="corpus") then db:open("cp-cite-lemmata")//record[lemma] else if (starts-with($cts, "urn:cts:croala:")) then db:open("cp-cite-lemmata")//record[lemma and starts-with(seg/@cts, $cts)] else element b { "CTS URN abest in collectionibus nostris" }
+let $r := $set
+let $lemmatized_count := count($r)
+let $lemma_count := count(distinct-values($r/lemma/@citeurn))
+return element tr {
+  cp:prettylink($cts, $cts, "http://croala.ffzg.unizg.hr/basex/cp-cite-lemmata/" ),
+  element td { if ($lemma_count=0) then $r else $lemma_count },
+  element td { if ($lemma_count=0) then "" else $lemmatized_count },
+  element td { if ($lemma_count=0) then "" else format-number($lemmatized_count div $lemma_count, ".00") }
+}
+};
+
+(: display counts of lemmata for corpus and all docs :)
+
+declare function cp:count-lemmata(){
+  element table {
+    attribute class {"table-striped  table-hover table-centered"},
+    attribute id { "lemmata" },
+    element caption { "Counts of lemmata in the whole corpus and in individual documents." } ,
+  element thead {
+    element th { "Document"},
+    element th { "Lemmata"},
+    element th { "Lemmatized words"},
+    element th { "Average frequency of lemmata"}
+  },
+  element tbody {
+  let $doc_urns := distinct-values(
+for $cts in db:open("cp-cite-lemmata")//record/seg/@cts
+let $base := functx:substring-before-last($cts, ":")
+return $base )
+for $d in ("corpus" , $doc_urns )
+return cp:count_lemma_all($d)
 }
 }
 };
