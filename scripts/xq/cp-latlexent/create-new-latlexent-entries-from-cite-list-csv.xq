@@ -5,6 +5,7 @@ let $lemmalist :=
 for $r in $doc//record[lemma[not(@citeurn)]]
 let $lemma := upper-case($r/lemma/string())
 return distinct-values($lemma)
+let $csv := element csv {
 for $l at $pos in $lemmalist
 let $id := 50105 + $pos
 let $citeid := "lex" || $id
@@ -20,3 +21,5 @@ return element record {
   },
   $datecreated
 }
+}
+return csv:serialize($csv)

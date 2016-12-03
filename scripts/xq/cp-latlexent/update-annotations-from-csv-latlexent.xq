@@ -39,5 +39,5 @@ $datecreated
 (: remove errors from result :)
 (: return copy $n := $result
 modify delete node $n//record[err] :)
-(: return count(validate:rng-report($result, 'https://github.com/nevenjovanovic/croala-pelagios/raw/master/schemas/cpcitelemmata.rng')//message) :)
-return $result
+(:return count(validate:rng-report($result, 'https://github.com/nevenjovanovic/croala-pelagios/raw/master/schemas/cpcitelemmata.rng')//message) :)
+return file:write($path,$result)

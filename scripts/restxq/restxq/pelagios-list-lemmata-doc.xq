@@ -64,7 +64,7 @@ declare
      <p/>
      </div>
 <hr/>
-{ croala:footerserver() }
+{ cp:footerserver() }
 </body>
 </html>
 };
