@@ -11345,4 +11345,268 @@
     <creator>http://orcid.org/0000-0003-1457-7081</creator>
     <datecreated>2016-12-03</datecreated>
   </record>
+  <record citeid="ana435">
+    <seg citeurn="urn:cite:croala:loci.ana435" cts="urn:cts:croala:nikolamodr01.croala1394919.croala-lat2loci:body1.head1.s1.w9">sancti</seg>
+    <lemma citeurn="urn:cite:croala:latlexent.lex515661432">SANCTUS</lemma>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-12-03</datecreated>
+  </record>
+  <record citeid="ana440">
+    <seg citeurn="urn:cite:croala:loci.ana440" cts="urn:cts:croala:nikolamodr01.croala1394919.croala-lat2loci:body1.head1.s1.name10">Sixti</seg>
+    <lemma citeurn="urn:cite:croala:latlexent.lex515706042">SIXTUS</lemma>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-12-03</datecreated>
+  </record>
+  <record citeid="ana2161">
+    <seg citeurn="urn:cite:croala:loci.ana2161" cts="urn:cts:croala:nikolamodr01.croala1394919.croala-lat2loci:body1.p2.s1.w10">sancti</seg>
+    <lemma citeurn="urn:cite:croala:latlexent.lex515661432">SANCTUS</lemma>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-12-03</datecreated>
+  </record>
+  <record citeid="ana2166">
+    <seg citeurn="urn:cite:croala:loci.ana2166" cts="urn:cts:croala:nikolamodr01.croala1394919.croala-lat2loci:body1.p2.s1.name11">Sixti</seg>
+    <lemma citeurn="urn:cite:croala:latlexent.lex515706042">SIXTUS</lemma>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-12-03</datecreated>
+  </record>
+  <record citeid="ana2371">
+    <seg citeurn="urn:cite:croala:loci.ana2371" cts="urn:cts:croala:nikolamodr01.croala1394919.croala-lat2loci:body1.p2.s1.placeName55">Ligurum</seg>
+    <lemma citeurn="urn:cite:croala:latlexent.lex515424552">LIGURES</lemma>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-12-03</datecreated>
+  </record>
+  <record citeid="ana2376">
+    <seg citeurn="urn:cite:croala:loci.ana2376" cts="urn:cts:croala:nikolamodr01.croala1394919.croala-lat2loci:body1.p2.s1.w56">oppido</seg>
+    <lemma citeurn="urn:cite:croala:latlexent.lex515612184">OPPIDUM</lemma>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-12-03</datecreated>
+  </record>
+  <record citeid="ana2381">
+    <seg citeurn="urn:cite:croala:loci.ana2381" cts="urn:cts:croala:nikolamodr01.croala1394919.croala-lat2loci:body1.p2.s1.placeName57">Saona</seg>
+    <lemma citeurn="urn:cite:croala:latlexent.lex515706048">SAONA</lemma>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-12-03</datecreated>
+  </record>
+  <record citeid="ana3138">
+    <seg citeurn="urn:cite:croala:loci.ana3138" cts="urn:cts:croala:nikolamodr01.croala1394919.croala-lat2loci:body1.p3.s3.placeName24">Senis</seg>
+    <lemma citeurn="urn:cite:croala:latlexent.lex515706060">SENAE</lemma>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-12-03</datecreated>
+  </record>
+  <record citeid="ana4095">
+    <seg citeurn="urn:cite:croala:loci.ana4095" cts="urn:cts:croala:nikolamodr01.croala1394919.croala-lat2loci:body1.p3.s10.placeName8">Vicheriae</seg>
+    <lemma citeurn="urn:cite:croala:latlexent.lex515706102">VICHERIA</lemma>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-12-03</datecreated>
+  </record>
+  <record citeid="ana4132">
+    <seg citeurn="urn:cite:croala:loci.ana4132" cts="urn:cts:croala:nikolamodr01.croala1394919.croala-lat2loci:body1.p3.s10.placeName16">Ticinium</seg>
+    <lemma citeurn="urn:cite:croala:latlexent.lex515706072">TICINIUM</lemma>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-12-03</datecreated>
+  </record>
+  <record citeid="ana4145">
+    <seg citeurn="urn:cite:croala:loci.ana4145" cts="urn:cts:croala:nikolamodr01.croala1394919.croala-lat2loci:body1.p3.s10.placeName18">Patauium</seg>
+    <lemma citeurn="urn:cite:croala:latlexent.lex515434470">PATAVIUM</lemma>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-12-03</datecreated>
+  </record>
+  <record citeid="ana4158">
+    <seg citeurn="urn:cite:croala:loci.ana4158" cts="urn:cts:croala:nikolamodr01.croala1394919.croala-lat2loci:body1.p3.s10.placeName20">Venetias</seg>
+    <lemma citeurn="urn:cite:croala:latlexent.lex515706090">VENETIAE</lemma>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-12-03</datecreated>
+  </record>
+  <record citeid="ana4167">
+    <seg citeurn="urn:cite:croala:loci.ana4167" cts="urn:cts:croala:nikolamodr01.croala1394919.croala-lat2loci:body1.p3.s10.placeName21">Bononiam</seg>
+    <lemma citeurn="urn:cite:croala:latlexent.lex515406828">BONONIA</lemma>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-12-03</datecreated>
+  </record>
+  <record citeid="ana4176">
+    <seg citeurn="urn:cite:croala:loci.ana4176" cts="urn:cts:croala:nikolamodr01.croala1394919.croala-lat2loci:body1.p3.s10.placeName22">Perusium</seg>
+    <lemma citeurn="urn:cite:croala:latlexent.lex515705988">PERUSIUM</lemma>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-12-03</datecreated>
+  </record>
+  <record citeid="ana4185">
+    <seg citeurn="urn:cite:croala:loci.ana4185" cts="urn:cts:croala:nikolamodr01.croala1394919.croala-lat2loci:body1.p3.s10.placeName23">Senam</seg>
+    <lemma citeurn="urn:cite:croala:latlexent.lex515441676">SENA</lemma>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-12-03</datecreated>
+  </record>
+  <record citeid="ana4194">
+    <seg citeurn="urn:cite:croala:loci.ana4194" cts="urn:cts:croala:nikolamodr01.croala1394919.croala-lat2loci:body1.p3.s10.placeName24">Ferrariamque</seg>
+    <lemma citeurn="urn:cite:croala:latlexent.lex515539464">FERRARIA</lemma>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-12-03</datecreated>
+  </record>
+  <record citeid="ana4227">
+    <seg citeurn="urn:cite:croala:loci.ana4227" cts="urn:cts:croala:nikolamodr01.croala1394919.croala-lat2loci:body1.p3.s10.placeName31">Italiae</seg>
+    <lemma citeurn="urn:cite:croala:latlexent.lex515422278">ITALIA</lemma>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-12-03</datecreated>
+  </record>
+  <record citeid="ana4232">
+    <seg citeurn="urn:cite:croala:loci.ana4232" cts="urn:cts:croala:nikolamodr01.croala1394919.croala-lat2loci:body1.p3.s10.w32">gymnasiis</seg>
+    <lemma citeurn="urn:cite:croala:latlexent.lex515419020">GYMNASIUM</lemma>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-12-03</datecreated>
+  </record>
+  <record citeid="ana5201">
+    <seg citeurn="urn:cite:croala:loci.ana5201" cts="urn:cts:croala:nikolamodr01.croala1394919.croala-lat2loci:body1.p3.s17.placeName11">Romam</seg>
+    <lemma citeurn="urn:cite:croala:latlexent.lex515439612">ROMA</lemma>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-12-03</datecreated>
+  </record>
+  <record citeid="ana5586">
+    <seg citeurn="urn:cite:croala:loci.ana5586" cts="urn:cts:croala:nikolamodr01.croala1394919.croala-lat2loci:body1.p3.s19.placeName21">Romam</seg>
+    <lemma citeurn="urn:cite:croala:latlexent.lex515439612">ROMA</lemma>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-12-03</datecreated>
+  </record>
+  <record citeid="ana10579">
+    <seg citeurn="urn:cite:croala:loci.ana10579" cts="urn:cts:croala:nikolamodr01.croala1394919.croala-lat2loci:body1.p10.s2.placeName10">Italiae</seg>
+    <lemma citeurn="urn:cite:croala:latlexent.lex515422278">ITALIA</lemma>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-12-03</datecreated>
+  </record>
+  <record citeid="ana11052">
+    <seg citeurn="urn:cite:croala:loci.ana11052" cts="urn:cts:croala:nikolamodr01.croala1394919.croala-lat2loci:body1.p10.s6.placeName36">Italiae</seg>
+    <lemma citeurn="urn:cite:croala:latlexent.lex515422278">ITALIA</lemma>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-12-03</datecreated>
+  </record>
+  <record citeid="ana12177">
+    <seg citeurn="urn:cite:croala:loci.ana12177" cts="urn:cts:croala:nikolamodr01.croala1394919.croala-lat2loci:body1.p12.s2.placeName22">Mediolani</seg>
+    <lemma citeurn="urn:cite:croala:latlexent.lex515427102">MEDIOLANUM</lemma>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-12-03</datecreated>
+  </record>
+  <record citeid="ana12306">
+    <seg citeurn="urn:cite:croala:loci.ana12306" cts="urn:cts:croala:nikolamodr01.croala1394919.croala-lat2loci:body1.p12.s4.placeName3">Imolam</seg>
+    <lemma citeurn="urn:cite:croala:latlexent.lex515705946">IMOLA</lemma>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-12-03</datecreated>
+  </record>
+  <record citeid="ana12615">
+    <seg citeurn="urn:cite:croala:loci.ana12615" cts="urn:cts:croala:nikolamodr01.croala1394919.croala-lat2loci:body1.p13.s2.placeName5">Imolae</seg>
+    <lemma citeurn="urn:cite:croala:latlexent.lex515705946">IMOLA</lemma>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-12-03</datecreated>
+  </record>
+  <record citeid="ana12736">
+    <seg citeurn="urn:cite:croala:loci.ana12736" cts="urn:cts:croala:nikolamodr01.croala1394919.croala-lat2loci:body1.p13.s3.placeName9">Bosti</seg>
+    <lemma citeurn="urn:cite:croala:latlexent.lex515705868">BOSTI</lemma>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-12-03</datecreated>
+  </record>
+  <record citeid="ana12817">
+    <seg citeurn="urn:cite:croala:loci.ana12817" cts="urn:cts:croala:nikolamodr01.croala1394919.croala-lat2loci:body1.p13.s3.placeName27">Imolam</seg>
+    <lemma citeurn="urn:cite:croala:latlexent.lex515705946">IMOLA</lemma>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-12-03</datecreated>
+  </record>
+  <record citeid="ana14814">
+    <seg citeurn="urn:cite:croala:loci.ana14814" cts="urn:cts:croala:nikolamodr01.croala1394919.croala-lat2loci:body1.p16.s2.placeName7">Romana</seg>
+    <lemma citeurn="urn:cite:croala:latlexent.lex515439618">ROMANUS</lemma>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-12-03</datecreated>
+  </record>
+  <record citeid="ana14819">
+    <seg citeurn="urn:cite:croala:loci.ana14819" cts="urn:cts:croala:nikolamodr01.croala1394919.croala-lat2loci:body1.p16.s2.w8">urbe</seg>
+    <lemma citeurn="urn:cite:croala:latlexent.lex515697576">URBS</lemma>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-12-03</datecreated>
+  </record>
+  <record citeid="ana14824">
+    <seg citeurn="urn:cite:croala:loci.ana14824" cts="urn:cts:croala:nikolamodr01.croala1394919.croala-lat2loci:body1.p16.s2.w9">diui</seg>
+    <lemma citeurn="urn:cite:croala:latlexent.lex515521428">DIVUS</lemma>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-12-03</datecreated>
+  </record>
+  <record citeid="ana14829">
+    <seg citeurn="urn:cite:croala:loci.ana14829" cts="urn:cts:croala:nikolamodr01.croala1394919.croala-lat2loci:body1.p16.s2.name10">Gregorii</seg>
+    <lemma citeurn="urn:cite:croala:latlexent.lex515706636">GREGORIUS</lemma>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-12-03</datecreated>
+  </record>
+  <record citeid="ana14834">
+    <seg citeurn="urn:cite:croala:loci.ana14834" cts="urn:cts:croala:nikolamodr01.croala1394919.croala-lat2loci:body1.p16.s2.w11">templum</seg>
+    <lemma citeurn="urn:cite:croala:latlexent.lex515687328">TEMPLUM</lemma>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-12-03</datecreated>
+  </record>
+  <record citeid="ana14883">
+    <seg citeurn="urn:cite:croala:loci.ana14883" cts="urn:cts:croala:nikolamodr01.croala1394919.croala-lat2loci:body1.p16.s2.placeName22">Taruixii</seg>
+    <lemma citeurn="urn:cite:croala:latlexent.lex515706078">TARUIXIUM</lemma>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-12-03</datecreated>
+  </record>
+  <record citeid="ana14888">
+    <seg citeurn="urn:cite:croala:loci.ana14888" cts="urn:cts:croala:nikolamodr01.croala1394919.croala-lat2loci:body1.p16.s2.w23">maior</seg>
+    <lemma citeurn="urn:cite:croala:latlexent.lex515426022">MAGNUS</lemma>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-12-03</datecreated>
+  </record>
+  <record citeid="ana14893">
+    <seg citeurn="urn:cite:croala:loci.ana14893" cts="urn:cts:croala:nikolamodr01.croala1394919.croala-lat2loci:body1.p16.s2.w24">basilica</seg>
+    <lemma citeurn="urn:cite:croala:latlexent.lex515473680">BASILICA</lemma>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-12-03</datecreated>
+  </record>
+  <record citeid="ana14946">
+    <seg citeurn="urn:cite:croala:loci.ana14946" cts="urn:cts:croala:nikolamodr01.croala1394919.croala-lat2loci:body1.p16.s2.placeName35">Mediolani</seg>
+    <lemma citeurn="urn:cite:croala:latlexent.lex515427102">MEDIOLANUM</lemma>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-12-03</datecreated>
+  </record>
+  <record citeid="ana14951">
+    <seg citeurn="urn:cite:croala:loci.ana14951" cts="urn:cts:croala:nikolamodr01.croala1394919.croala-lat2loci:body1.p16.s2.name36">Ambrosii</seg>
+    <lemma citeurn="urn:cite:croala:latlexent.lex515401386">AMBROSIUS</lemma>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-12-03</datecreated>
+  </record>
+  <record citeid="ana14956">
+    <seg citeurn="urn:cite:croala:loci.ana14956" cts="urn:cts:croala:nikolamodr01.croala1394919.croala-lat2loci:body1.p16.s2.w37">monasterium</seg>
+    <lemma citeurn="urn:cite:croala:latlexent.lex515596692">MONASTERIUM</lemma>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-12-03</datecreated>
+  </record>
+  <record citeid="ana15093">
+    <seg citeurn="urn:cite:croala:loci.ana15093" cts="urn:cts:croala:nikolamodr01.croala1394919.croala-lat2loci:body1.p16.s3.placeName2">Papiae</seg>
+    <lemma citeurn="urn:cite:croala:latlexent.lex515434044">PAPIA</lemma>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-12-03</datecreated>
+  </record>
+  <record citeid="ana15098">
+    <seg citeurn="urn:cite:croala:loci.ana15098" cts="urn:cts:croala:nikolamodr01.croala1394919.croala-lat2loci:body1.p16.s3.name3">Maioli</seg>
+    <lemma citeurn="urn:cite:croala:latlexent.lex515706036">MAIOLUS</lemma>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-12-03</datecreated>
+  </record>
+  <record citeid="ana15103">
+    <seg citeurn="urn:cite:croala:loci.ana15103" cts="urn:cts:croala:nikolamodr01.croala1394919.croala-lat2loci:body1.p16.s3.w4">fanum</seg>
+    <lemma citeurn="urn:cite:croala:latlexent.lex515416914">FANUM</lemma>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-12-03</datecreated>
+  </record>
+  <record citeid="ana15488">
+    <seg citeurn="urn:cite:croala:loci.ana15488" cts="urn:cts:croala:nikolamodr01.croala1394919.croala-lat2loci:body1.p16.s5.w3">sacra</seg>
+    <lemma citeurn="urn:cite:croala:latlexent.lex515659896">SACER</lemma>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-12-03</datecreated>
+  </record>
+  <record citeid="ana15493">
+    <seg citeurn="urn:cite:croala:loci.ana15493" cts="urn:cts:croala:nikolamodr01.croala1394919.croala-lat2loci:body1.p16.s5.w4">apostolorum</seg>
+    <lemma citeurn="urn:cite:croala:latlexent.lex515465688">APOSTOLUS</lemma>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-12-03</datecreated>
+  </record>
+  <record citeid="ana15498">
+    <seg citeurn="urn:cite:croala:loci.ana15498" cts="urn:cts:croala:nikolamodr01.croala1394919.croala-lat2loci:body1.p16.s5.w5">aedes</seg>
+    <lemma citeurn="urn:cite:croala:latlexent.lex515457012">AEDES</lemma>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-12-03</datecreated>
+  </record>
 </list>
