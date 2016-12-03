@@ -19,7 +19,7 @@
                             </data>
                         </attribute>
                         <data type="string">
-                        <param name="pattern">[A-Z']+</param>
+                            <param name="pattern">[\w']+</param>
                     </data></element>
                     <element name="creator">
                         <optional>
