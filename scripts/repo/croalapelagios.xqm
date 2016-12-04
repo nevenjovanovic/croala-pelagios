@@ -555,7 +555,7 @@ declare function cp:loci-id-index($cts){
   let $place_record := db:open("cp-loci")//record[citebody/@citeurn=$place]
   let $place_label := $place_record/label
   let $place_uri := $place_record/uri
-  let $occurrences := db:open("cp-cite-loci")//record[citelocus=$place]
+  let $occurrences := db:open("cp-cite-loci")//record[citelocus=$place and starts-with(ctsurn, $cts)]
   let $count_occurrences := count($occurrences)
   let $list_cts := $occurrences/ctsurn
   return if (count($list_places) <= 1) then 
