@@ -534,5 +534,8 @@ declare function cp:count_places($corpus) {
 
 declare function cp:report_count_places(){
   for $d in cp:list_corpus(db:open("cp-cite-loci")//record/ctsurn)
-  return cp:count_places($d)
+  return element div { 
+  attribute class { "table-responsive" } ,
+  cp:count_places($d)
+} , element hr {}
 };

@@ -52,12 +52,12 @@ declare
 </div>
 <div class="container-fluid">
 <blockquote class="croala">
-  <div class="table-responsive">
+
   { cp:report_count_places() }
-  </div>
+
 </blockquote>
 <p/>
-     </div>
+</div>
 <hr/>
 { cp:footerserver() }
 
