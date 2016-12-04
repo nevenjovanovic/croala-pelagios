@@ -60,6 +60,11 @@ tbody.cp-loci-index > tr > td:first-child > a {
     text-decoration: none;
 }
 
+tbody.cp-loci-index > tr > td:last-child > a {
+    color: #859900;
+    text-decoration: none;
+}
+
  /* unvisited link */
 th > a:link {
     color:  #fdf6e3;
