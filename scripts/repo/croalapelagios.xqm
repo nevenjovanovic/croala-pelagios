@@ -100,6 +100,13 @@ declare function cp:prettycts($ctsadr, $word) {
 }
 };
 
+declare function cp:simple_link($link, $word){
+  element a {
+    attribute href { $link },
+    $word
+  }
+};
+
 declare function cp:prettylink($link, $word, $prefix) {
     element td { 
     element a { 
@@ -527,7 +534,7 @@ declare function cp:count_places($corpus) {
   },
   element tr {
     element td { "Mentions of places" },
-    cp:prettylink( $corpus, $total, "http://croala.ffzg.unizg.hr/basex/cp-cite-loci/" )
+    element td { $total }
   }
 } }
 };
@@ -537,5 +544,43 @@ declare function cp:report_count_places(){
   return element div { 
   attribute class { "table-responsive" } ,
   cp:count_places($d)
+}
+};
+
+declare function cp:loci-id-index($cts){
+  let $list_places := if ($cts="corpus") then db:open("cp-cite-loci")//record/citelocus 
+  else if (starts-with($cts, "urn:cts:croala")) then db:open("cp-cite-loci")//record[starts-with(ctsurn, $cts)]/citelocus 
+  else element b { "CTS URN abest in collectionibus nostris."}
+  for $place in distinct-values($list_places)
+  let $place_record := db:open("cp-loci")//record[citebody/@citeurn=$place]
+  let $place_label := $place_record/label
+  let $place_uri := $place_record/uri
+  let $occurrences := db:open("cp-cite-loci")//record[citelocus=$place]
+  let $count_occurrences := count($occurrences)
+  let $list_cts := $occurrences/ctsurn
+  return if (count($list_places) <= 1) then 
+  element table {
+  element tbody {
+    element tr { 
+    element td { $place }
+  }
+} }
+ else 
+ element div {
+   attribute class {"table-responsive"},
+ element table {
+    attribute class {"table-striped  table-hover table-centered"},
+  element caption { $cts },
+  element thead {
+    element tr {
+      element th { if ($place_label) then cp:simple_link($place_uri , $place_label/string()) else "NOMEN LOCI DEEST" },
+      element th { cp:simple_link("http://croala.ffzg.unizg.hr/basex/cite/" || $place , $place) }
+    }
+  },
+  element tbody { 
+  element td { $count_occurrences },
+  element td { for $c in $list_cts return cp:simple_link("http://croala.ffzg.unizg.hr/basex/ctsp/" || $c , functx:substring-after-last($c, ":")) }
+}
+}
 }
 };
