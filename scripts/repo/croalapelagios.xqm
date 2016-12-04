@@ -529,7 +529,7 @@ declare function cp:count_places($corpus) {
     element td { "Mentions of places" },
     cp:prettylink( $corpus, $total, "http://croala.ffzg.unizg.hr/basex/cp-cite-loci/" )
   }
-} } , element p {}
+} }
 };
 
 declare function cp:report_count_places(){

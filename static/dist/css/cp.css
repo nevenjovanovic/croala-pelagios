@@ -59,6 +59,15 @@ tbody tr:nth-child(odd){
 	background-color: #ddd;
 }
 
+thead th {
+        padding-right: 0.5em;
+	padding-left: 0.5em;
+	margin-right: 0.5em;
+	margin-left: 0.5em;
+	padding-top: 0.25em;
+	padding-bottom: 0.25em;
+}
+
 thead td, thead th, div.thead {
 	background-color: maroon;
 	color: white;
@@ -70,8 +79,9 @@ background-color: #EEC591;
 nom.p {
 background-color: #FCE6C9;
 }
-.table { display: table;
-                table-layout: fixed;
+.table {
+    display: table;
+    table-layout: fixed;
                 } 
 .table-centered
 {
@@ -195,6 +205,10 @@ div > opener {
 }
 div > code {
   white-space: normal;
+}
+
+div.table-responsive {
+    margin-bottom: 3em;
 }
 
 seg > s {
