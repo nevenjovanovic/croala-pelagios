@@ -55,8 +55,24 @@ td.latty {
 	color: maroon;
 	}
 
-th > a {
-    color: #fdf6e3;
+ /* unvisited link */
+th > a:link {
+    color:  #fdf6e3;
+}
+
+/* visited link */
+th > a:visited {
+    color: #b58900;
+}
+
+/* mouse over link */
+th > a:hover {
+    color: #cb4b16;
+}
+
+/* selected link */
+th > a:active {
+    color: #2aa198;
 }
 
 tbody tr:nth-child(odd){
@@ -127,6 +143,10 @@ blockquote l {
 
 caption {
 caption-side: bottom;
+}
+
+caption.heading {
+caption-side: top;
 }
 
 .jumbotron {
@@ -223,7 +243,7 @@ color:#586e75;
 table > caption {
 font-size: large;
 padding: 0.25em;
-color:#d33682;
+color:maroon;
 background-color: #fdf6e3;
 }
 
