@@ -1,7 +1,7 @@
 import module namespace cp = 'http://croala.ffzg.unizg.hr/croalapelagios' at '../../repo/croalapelagios.xqm';
 
 let $result := element list {
-let $locid := ("https://github.com/nevenjovanovic/croala-pelagios/raw/master/csv/loci/bunic-loci-id.csv", "https://github.com/nevenjovanovic/croala-pelagios/raw/master/csv/loci/crijevic-loci-id.csv", "https://github.com/nevenjovanovic/croala-pelagios/raw/master/csv/loci/marulic-loci-id.csv", "https://github.com/nevenjovanovic/croala-pelagios/raw/master/csv/loci/tubero-loci-id.csv")
+let $locid := ("https://github.com/nevenjovanovic/croala-pelagios/raw/master/csv/loci/bunic-loci-id.csv", "https://github.com/nevenjovanovic/croala-pelagios/raw/master/csv/loci/crijevic-loci-id.csv", "https://github.com/nevenjovanovic/croala-pelagios/raw/master/csv/loci/marulic-loci-id.csv", "https://github.com/nevenjovanovic/croala-pelagios/raw/master/csv/loci/tubero-loci-id.csv","https://github.com/nevenjovanovic/croala-pelagios/raw/master/csv/loci/modruski-loci-id.csv")
 for $l in $locid
 let $csv := fetch:text($l)
 for $r in csv:parse($csv, map { 'header': true() })//record
