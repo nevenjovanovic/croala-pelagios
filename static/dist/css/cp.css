@@ -55,6 +55,10 @@ td.latty {
 	color: maroon;
 	}
 
+th > a {
+    color: #fdf6e3;
+}
+
 tbody tr:nth-child(odd){
 	background-color: #ddd;
 }
