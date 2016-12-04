@@ -55,7 +55,7 @@ td.latty {
 	color: maroon;
 }
 
-tbody.cp-loci-index > tr > td[1] > a {
+tbody.cp-loci-index > tr > td:first-child > a {
     color: maroon;
     text-decoration: none;
 }
