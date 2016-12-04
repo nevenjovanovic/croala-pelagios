@@ -36,16 +36,16 @@ declare
   (: HTML template starts here :)
 
 <html>
-{ vit:htmlheadserver($title, $content, $keywords) }
+{ cp:htmlheadserver($title, $content, $keywords) }
 <body text="#000000">
 
 <div class="jumbotron">
 <h1><span class="glyphicon glyphicon-th" aria-hidden="true"></span>{ $title }</h1>
 <div class="container-fluid">
 <div class="col-md-6">
-<p>Locus in <a href="http://croala.ffzg.unizg.hr">CroALa</a> sub specie <a href="http://commons.pelagios.org/">Pelagii</a>, { current-date() }.</p>
-<p><a href="http://orcid.org/0000-0002-9119-399X">Neven Jovanović</a></p>
-<p>URN indiculi CITE: loca in collectione.</p>
+<p>Index locorum in <a href="http://croala.ffzg.unizg.hr">CroALa</a> sub specie <a href="http://commons.pelagios.org/">Pelagii</a>, { current-date() }.</p>
+<p><a href="http://orcid.org/0000-0002-9119-399X">Neven Jovanović</a> and the <a href="https://github.com/nevenjovanovic/croala-pelagios/wiki#the-team">CroALa-Pelagios team</a>.</p>
+<p>CITE URN indiculi: loca in collectione.</p>
 <p>Functio nominatur: {rest:uri()}.</p>
 </div>
 <div class="col-md-6">
@@ -55,15 +55,12 @@ declare
 </div>
 <div class="container-fluid">
 <blockquote class="croala">
-	
-	{cp:listciteplaces($lemma)}
-  
-  
+ {cp:listciteplaces($lemma)} 
 </blockquote>
      <p/>
      </div>
 <hr/>
-{ croala:footerserver() }
+{ cp:footerserver() }
 <script type="text/javascript" src="/basex/static/dist/js/clipboard2.js"></script>
 </body>
 </html>
