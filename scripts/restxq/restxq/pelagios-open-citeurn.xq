@@ -11,8 +11,6 @@ declare variable $title := 'Commentum loci in CroALa';
 declare variable $content := "Annotation for a place name, identified by a CITE URN.";
 declare variable $keywords := "Neo-Latin literature, CTS / CITE architecture, Pelagios historical places, gazetteer, literary analysis, scholarly edition, analytical exemplar";
 
-
-
 (:~
  : This function returns an XML response message.
  :)
@@ -55,25 +53,14 @@ declare
 </div>
 <div class="container-fluid">
 <blockquote class="croala">
-	
-{  
-if (starts-with($urn, "urn:cite:croala:loci" )) 
-then cp:openciteurn($urn)
-else if (starts-with($urn, "urn:cite:perseus:latlexent") 
-        or starts-with($urn, "urn:cite:croala:latmorph") 
-        or starts-with($urn, "urn:cite:croala:latlexent")) 
-    then cite:geturn($urn)
-    else cite:queryname($urn) 
-   
-}
-  
+
+{ cp:open_citeurn($urn) }
+
 </blockquote>
      <p/>
      </div>
 <hr/>
 { cp:footerserver() }
-
-<script type="text/javascript" src="/basex/static/dist/js/clipboard2.js"></script>
 </body>
 </html>
 };
