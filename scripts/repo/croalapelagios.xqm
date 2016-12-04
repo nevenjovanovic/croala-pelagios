@@ -560,29 +560,15 @@ declare function cp:loci-id-index($cts){
   let $list_cts := $occurrences/ctsurn
   order by $place_label
   return if (count($list_places) <= 1) then 
-  element table {
-  element tbody {
     element tr { 
     element td { $place }
   }
-} }
  else 
- element div {
-   attribute class {"table-responsive"},
- element table {
-    attribute class {"table-striped  table-hover table-centered"},
-  element caption { 
-  attribute class {"heading"}, $cts },
-  element thead {
+ 
     element tr {
-      element th { if ($place_label) then cp:simple_link($place_uri , $place_label/string()) else "NOMEN LOCI DEEST" },
-      element th { cp:simple_link("http://croala.ffzg.unizg.hr/basex/cite/" || $place , $place) }
-    }
-  },
-  element tbody { 
+      element td { if ($place_label) then cp:simple_link($place_uri , $place_label/string()) else "NOMEN LOCI DEEST" },
+      element td { cp:simple_link("http://croala.ffzg.unizg.hr/basex/cite/" || $place , $place) }, 
   element td { $count_occurrences },
   element td { for $c in $list_cts return cp:simple_link("http://croala.ffzg.unizg.hr/basex/ctsp/" || $c , functx:substring-after-last($c, ":")) }
-}
-}
 }
 };

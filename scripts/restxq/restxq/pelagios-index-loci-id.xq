@@ -53,7 +53,28 @@ declare
 <div class="container-fluid">
 <blockquote class="croala">
 
-  { cp:loci-id-index($urn) }
+  { 
+  element div {
+    attribute class {"table-responsive"},
+  element table {
+    attribute class {"table-striped  table-hover table-centered"},
+    element caption {
+      attribute class {"heading"},
+      $urn
+    },
+  element thead {
+    element tr {
+      element th { "Place name" },
+      element th { "Place CITE URN"},
+      element th { "Occurrences"},
+      element th { "CTS URN list"}
+    }
+  },
+  element tbody {
+  cp:loci-id-index($urn)
+}
+} 
+} }
 
 </blockquote>
 <p/>
