@@ -558,6 +558,7 @@ declare function cp:loci-id-index($cts){
   let $occurrences := if ($cts="corpus") then db:open("cp-cite-loci")//record[citelocus=$place] else if (starts-with($cts, "urn:cts:croala:")) then db:open("cp-cite-loci")//record[citelocus=$place and starts-with(ctsurn, $cts)] else ()
   let $count_occurrences := count($occurrences)
   let $list_cts := $occurrences/ctsurn
+  order by $place_label
   return if (count($list_places) <= 1) then 
   element table {
   element tbody {
