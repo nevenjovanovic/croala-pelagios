@@ -570,7 +570,8 @@ declare function cp:loci-id-index($cts){
    attribute class {"table-responsive"},
  element table {
     attribute class {"table-striped  table-hover table-centered"},
-  element caption { $cts },
+  element caption { 
+  attribute class {"heading"}, $cts },
   element thead {
     element tr {
       element th { if ($place_label) then cp:simple_link($place_uri , $place_label/string()) else "NOMEN LOCI DEEST" },
