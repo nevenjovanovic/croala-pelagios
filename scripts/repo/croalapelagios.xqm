@@ -107,6 +107,16 @@ declare function cp:prettylink($link, $word, $prefix) {
     $word } }
 };
 
+(: helper function - list of all documents with place annotations :)
+
+declare function cp:list_corpus($cts_set){
+  let $doc_urns := distinct-values(
+  for $cts in $cts_set
+  let $base := functx:substring-before-last($cts, ":")
+  return $base )
+  return ("corpus" , $doc_urns )
+};
+
 (: list all CTS URNs :)
 declare function cp:listurn () {
   for $address in db:open("cp-placename-idx")//*:w
@@ -458,11 +468,8 @@ declare function cp:count-lemmata(){
     element th { "Average frequency of lemmata"}
   },
   element tbody {
-  let $doc_urns := distinct-values(
-for $cts in db:open("cp-cite-lemmata")//record/seg/@cts
-let $base := functx:substring-before-last($cts, ":")
-return $base )
-for $d in ("corpus" , $doc_urns )
+  
+for $d in cp:list_corpus(db:open("cp-cite-lemmata")//record/seg/@cts)
 return cp:count_lemma_all($d)
 }
 }
@@ -488,4 +495,44 @@ declare function cp:index_lemmata($cts, $cite_urn){
   }
 }
 }
+};
+
+(: return count of places identified in corpus and in each document :)
+declare function cp:count_places($corpus) {
+  let $count_places := if ($corpus="corpus") then db:open("cp-cite-loci")//record/citelocus 
+  else if (starts-with($corpus, "urn:cts:croala")) then db:open("cp-cite-loci")//record[starts-with(ctsurn, $corpus)]/citelocus 
+  else element b { "CTS URN abest in collectionibus nostris."}
+  let $total := count($count_places)
+  let $distinct := count(distinct-values($count_places))
+  return if ($total <= 1) then 
+  element table {
+  element tbody {
+    element tr { 
+    element td { $count_places }
+  }
+} }
+ else 
+ element table {
+    attribute class {"table-striped  table-hover table-centered"},
+  element thead {
+    element tr {
+      element th { $corpus },
+      element th {}
+    }
+  },
+  element tbody {
+  element tr {
+    element td { "Identified places" },
+    cp:prettylink( $corpus, $distinct, "http://croala.ffzg.unizg.hr/basex/cp-loci-id/" )
+  },
+  element tr {
+    element td { "Mentions of places" },
+    cp:prettylink( $corpus, $total, "http://croala.ffzg.unizg.hr/basex/cp-cite-loci/" )
+  }
+} }
+};
+
+declare function cp:report_count_places(){
+  for $d in cp:list_corpus(db:open("cp-cite-loci")//record/ctsurn)
+  return cp:count_places($d)
 };
