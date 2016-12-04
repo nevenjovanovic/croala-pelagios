@@ -24,7 +24,7 @@
                     </element>
                     <element name="ctsurn">
                         <data type="anyURI">
-                            <param name="pattern">urn:cts:croala:[a-z0-9.:\-]+</param>
+                            <param name="pattern">urn:cts:croala:[a-zA-Z0-9.:\-]+</param>
                         </data>
                     </element>
                     <element name="creator">
