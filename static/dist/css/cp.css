@@ -53,7 +53,12 @@ td.croala {
 	
 td.latty {
 	color: maroon;
-	}
+}
+
+tbody.cp-loci-index > tr > td[1] > a {
+    color: maroon;
+    text-decoration: none;
+}
 
  /* unvisited link */
 th > a:link {

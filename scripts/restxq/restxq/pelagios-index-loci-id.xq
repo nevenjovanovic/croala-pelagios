@@ -71,6 +71,7 @@ declare
     }
   },
   element tbody {
+    attribute class { "cp-loci-index"},
   cp:loci-id-index($urn)
 }
 } 
