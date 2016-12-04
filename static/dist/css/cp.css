@@ -58,21 +58,25 @@ td.latty {
  /* unvisited link */
 th > a:link {
     color:  #fdf6e3;
+    text-decoration: none;
 }
 
 /* visited link */
 th > a:visited {
     color: #b58900;
+    text-decoration: none;
 }
 
 /* mouse over link */
 th > a:hover {
     color: #cb4b16;
+    text-decoration: none;
 }
 
 /* selected link */
 th > a:active {
     color: #2aa198;
+    text-decoration: none;
 }
 
 tbody tr:nth-child(odd){
