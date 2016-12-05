@@ -88,10 +88,11 @@ declare function cite:queryname ($q) {
   let $result := $list[lemma[matches(string(), '^' || upper-case($q) )]]
   return if ($result) then
   element table {
+    attribute class {"table-striped  table-hover table-centered"},
     element thead {
       element tr {
-        element td { "URN"},
-        element td { "Verbum"}
+        element th { "URN"},
+        element th { "Verbum"}
       }
     },
     element tbody {
@@ -106,7 +107,7 @@ return element tr {
 }
 }
 }
-else element p { "Nomen deest in collectionibus nostris." }
+else element table { cp:deest() }
 };
 
 declare function cite:input-field($id, $r){

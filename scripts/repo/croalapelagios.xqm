@@ -562,11 +562,11 @@ return element div {
     attribute class {"table-striped  table-hover table-centered"},
     element thead {
       element tr {
-        element td { "CITE Body URN"},
-        element td { "Latin Place Name"},
-        element td { "Standard Place Name"},
-        element td { "Note Created By"},
-        element td { "Created On"}
+        element th { "CITE Body URN"},
+        element th { "Latin Place Name"},
+        element th { "Standard Place Name"},
+        element th { "Note Created By"},
+        element th { "Created On"}
       }
     },
     element tbody {
