@@ -65,12 +65,12 @@ tbody.cp-loci-index > tr > td:last-child > a {
     text-decoration: none;
 }
 
-tr.table-success a {
+tr.table-success a , td.cts a {
     color: #859900;
     text-decoration: none;
 }
 
-tr.table-success a:hover {
+tr.table-success a:hover , td.cts a:hover {
     color: #cb4b16;
     text-decoration: none;
 }
