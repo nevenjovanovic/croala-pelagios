@@ -1,0 +1,3 @@
+SET INTPARSE true; SET FTINDEX true; SET UPDINDEX true; SET AUTOOPTIMIZE true
+CREATE DB cp-cite-aetates https://github.com/nevenjovanovic/croala-pelagios/raw/master/csv/aetates/cp-cite-aetates.xml
+CREATE BACKUP cp-cite-aetates
