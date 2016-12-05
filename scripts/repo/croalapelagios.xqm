@@ -617,7 +617,7 @@ declare function cp:opencite_aetas($urn) {
   if (starts-with($urn, "urn:cite:croala:loci.aetas")) then
   for $r in collection("cp-aetates")//record[citebody/@citeurn=$urn]
   let $aetas_uri := $r/uri
-  let $aetas_set := db:open("cp-cite-aetates")//record[lemma/@citeurn=$urn]
+  let $aetas_set := db:open("cp-cite-aetates")//record[citeaetas=$urn]
   let $aetas_set_count := count($aetas_set)
   return 
   element tr {
