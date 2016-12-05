@@ -70,6 +70,11 @@ tr.table-success a {
     text-decoration: none;
 }
 
+tr.table-success a:hover {
+    color: #cb4b16;
+    text-decoration: none;
+}
+
  /* unvisited link */
 th > a:link {
     color:  #fdf6e3;
