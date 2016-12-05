@@ -563,7 +563,9 @@ declare function cp:openciteurn_ana($urn) {
   let $collections := ("cp-cite-loci", "cp-cite-aetates", "cp-cite-lemmata", "cp-cite-morphs")
   let $cite_set := for $c in $collections return collection($c)//record[citeurn=$urn or seg/@citeurn=$urn]
   
-  let $cts_urn := distinct-values($cite_set//ctsurn)
+  let $cts_urn := (
+    distinct-values($cite_set//ctsurn) ,
+    distinct-values($cite_set//seg/@cts) )
   let $word_form := distinct-values($cite_set//seg)
   let $estlocus := db:open("cp-cts-urns")//w[@n=$cts_urn]
   let $estlocus_value := distinct-values($estlocus/@ana/string())
