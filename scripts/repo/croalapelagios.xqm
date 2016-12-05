@@ -24,9 +24,7 @@ declare function cp:deest(){
 declare function cp:table ($headings, $body){
   element table {
     attribute class {"table-striped  table-hover table-centered"},
-    if ($headings="") then element tbody {
-      $body
-    }
+    if ($headings="") then ()
     else
     element thead {
       element tr {
@@ -568,24 +566,28 @@ declare function cp:openciteurn_ana($urn) {
   let $cts_urn := distinct-values($cite_set//ctsurn)
   let $word_form := distinct-values($cite_set//seg)
   let $estlocus := db:open("cp-cts-urns")//w[@n=$cts_urn]
-  let $estlocus_value := $estlocus/@ana/string()
-  let $cite_set_all := ($cite_set , $estlocus)
+  let $estlocus_value := distinct-values($estlocus/@ana/string())
+  let $cite_set_all := ($cite_set , $estlocus )
   let $cite_set_count := count($cite_set_all)
-  let $tbody2 := for $td in (
-    distinct-values($estlocus_value) , 
-    distinct-values($cite_set//lemma) , 
-    distinct-values($cite_set//morph) , 
-    distinct-values($cite_set//citelocus) , 
-    distinct-values($cite_set//citeaetas)
-  ) return element tr {
-    element td { $td }
-  }
+  let $tbody2 := (
+    $cite_set_all/@ana/string() , 
+    $cite_set_all/lemma , 
+    $cite_set_all/morph , 
+    $cite_set_all/citelocus , 
+    $cite_set_all/citeaetas
+  )
+  
   return element tr {
     element td { $urn },
     element td { $cts_urn  },
     element td { $word_form },
     element td { $cite_set_count },
-    element td { cp:table("", $tbody2 ) }
+    element td { 
+    cp:table ("",
+    for $t in $tbody2
+    return element tr {
+      element td { $t }
+    } ) }
   }
   else cp:deest()
   
