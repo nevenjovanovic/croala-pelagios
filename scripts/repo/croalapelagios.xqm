@@ -556,7 +556,28 @@ declare function cp:loci-id-index($cts){
 (: all annotations connected with a CTS URN :)
 (: the CTS URN becomes its own CITE :)
 declare function cp:openciteurn_ana($urn) {
+  let $tbody :=
+  if (starts-with($urn, "urn:cite:croala:loci.ana")) then
+  let $collections := ("cp-cite-loci", "cp-cite-aetates", "cp-cite-lemmata", "cp-cite-morphs")
+  let $cite_set := for $c in $collections return collection($c)//record[citeurn=$urn or seg/@citeurn=$urn]
   
+  let $cts_urn := distinct-values($cite_set//ctsurn)
+  let $word_form := distinct-values($cite_set//seg)
+  let $estlocus := db:open("cp-cts-urns")//w[@n=$cts_urn]
+  let $estlocus_value := $estlocus/@ana/string()
+  let $cite_set_all := ($cite_set , $estlocus)
+  let $cite_set_count := count($cite_set_all)
+  return element tr {
+    element td { $urn },
+    element td { $cts_urn  },
+    element td { $word_form },
+    element td { $cite_set_count },
+    element td { $estlocus_value , $cite_set//lemma , $cite_set//morph , $cite_set//citelocus , $cite_set//citeaetas }
+  }
+  else cp:deest()
+  
+  let $thead := ("CITE URN", "Number of annotations", "Notes")
+  return cp:table($thead, $tbody)
 };
 
 (: open a CITE URN for a place, display CITE body "content" :)
@@ -652,7 +673,5 @@ declare function cp:open_citeurn($urn){
   else if (starts-with($urn, "urn:cite:croala:latmorph"))  then cp:opencite_morph($urn)
   else if (starts-with($urn, "urn:cite:croala:latlexent")) then cp:opencite_latlexent($urn)
   else if (starts-with($urn, "urn:cite:croala:loci.aetas")) then cp:opencite_aetas($urn)
-  else cp:deest() 
-   
-
+  else cp:deest()
 };
