@@ -570,11 +570,13 @@ declare function cp:openciteurn_ana($urn) {
   let $cite_set_all := ($cite_set , $estlocus )
   let $cite_set_count := count($cite_set_all)
   let $tbody2 := (
-    $cite_set_all/@ana/string() , 
-    $cite_set_all/lemma , 
-    $cite_set_all/morph , 
-    $cite_set_all/citelocus , 
-    $cite_set_all/citeaetas
+    cp:simple_link ( "http://croala.ffzg.unizg.hr/basex/cp-loci/corpus/" || $cite_set_all/@ana/string() , $cite_set_all/@ana/string()) , 
+    cp:simple_link( "http://croala.ffzg.unizg.hr/basex/cite/" || $cite_set_all/lemma/@citeurn , data($cite_set_all/lemma))  , 
+    cp:simple_link( "http://croala.ffzg.unizg.hr/basex/cite/" || $cite_set_all/morph/@citeurn , data($cite_set_all/morph) ) , 
+    for $c in $cite_set_all/citelocus return 
+    cp:simple_link( "http://croala.ffzg.unizg.hr/basex/cite/" || data($c) , collection("cp-loci")//record[citebody/@citeurn=$c]/label/string() ) ,
+    for $a in $cite_set_all/citeaetas return 
+    cp:simple_link( "http://croala.ffzg.unizg.hr/basex/cite/" || data($a) , collection("cp-aetates")//record[citebody/@citeurn=$a]/label/string() )
   )
   
   return element tr {
