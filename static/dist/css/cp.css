@@ -65,6 +65,11 @@ tbody.cp-loci-index > tr > td:last-child > a {
     text-decoration: none;
 }
 
+tr.table-success a {
+    color: #859900;
+    text-decoration: none;
+}
+
  /* unvisited link */
 th > a:link {
     color:  #fdf6e3;
