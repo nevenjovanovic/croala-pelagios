@@ -24,6 +24,10 @@ declare function cp:deest(){
 declare function cp:table ($headings, $body){
   element table {
     attribute class {"table-striped  table-hover table-centered"},
+    if ($headings="") then element tbody {
+      $body
+    }
+    else
     element thead {
       element tr {
         for $h in $headings return element th { $h }
@@ -567,12 +571,15 @@ declare function cp:openciteurn_ana($urn) {
   let $estlocus_value := $estlocus/@ana/string()
   let $cite_set_all := ($cite_set , $estlocus)
   let $cite_set_count := count($cite_set_all)
+  let $tbody2 := for $td in ($estlocus_value , $cite_set//lemma , $cite_set//morph , $cite_set//citelocus , $cite_set//citeaetas) return element tr {
+    element td { $td }
+  }
   return element tr {
     element td { $urn },
     element td { $cts_urn  },
     element td { $word_form },
     element td { $cite_set_count },
-    element td { $estlocus_value , $cite_set//lemma , $cite_set//morph , $cite_set//citelocus , $cite_set//citeaetas }
+    element td { cp:table("", $tbody2 ) }
   }
   else cp:deest()
   
