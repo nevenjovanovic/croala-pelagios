@@ -7,8 +7,8 @@ import module namespace cite = "http://croala.ffzg.unizg.hr/cite" at '../../repo
 
 declare namespace page = 'http://basex.org/examples/web-page';
 
-declare variable $title := 'Commentum loci in CroALa';
-declare variable $content := "Annotation for a place name, identified by a CITE URN.";
+declare variable $title := 'Qualitas loci in CroALa';
+declare variable $content := "An aspect of a place name, identified by a CITE URN, with number of occurrences in the corpus.";
 declare variable $keywords := "Neo-Latin literature, CTS / CITE architecture, Pelagios historical places, gazetteer, literary analysis, scholarly edition, analytical exemplar";
 
 (:~
@@ -44,7 +44,7 @@ declare
 <p><a href="http://orcid.org/0000-0002-9119-399X">Neven Jovanović</a> and the <a href="https://github.com/nevenjovanovic/croala-pelagios/wiki#the-team">CroALa-Pelagios team</a>.</p>
 <p>Locus identificatur ope indiculi CITE URN.</p>
 <p>Functio nominatur: {rest:uri()}.</p>
-<p>Iconem <span class="glyphicon glyphicon-copy" aria-hidden="true"></span> preme ut copiam indiculi CITE URN accipias.</p>
+
 </div>
 <div class="col-md-6">
 {croala:infodb('cp-latlexents')}

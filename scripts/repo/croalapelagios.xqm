@@ -553,6 +553,8 @@ declare function cp:loci-id-index($cts){
 }
 };
 
+(: all annotations connected with a CTS URN :)
+(: the CTS URN becomes its own CITE :)
 declare function cp:openciteurn_ana($urn) {
   
 };
@@ -560,44 +562,35 @@ declare function cp:openciteurn_ana($urn) {
 (: open a CITE URN for a place, display CITE body "content" :)
 declare function cp:openciteurn_locid($citeurn){
   (: for a given CITE URN, display record :)
+  let $tbody :=
    if (starts-with($citeurn, "urn:cite:croala:loci.locid")) then
 let $idx := collection("cp-loci")
 for $r in $idx//record[citebody[@citeurn=$citeurn]]
 let $nomen := $r/nomen
 let $label := $r/label
 let $uri := $r/uri
+let $loci_set := db:open("cp-cite-loci")//record[citelocus=$citeurn]
+let $loci_set_count := count($loci_set)
 let $creator := $r/creator
 let $datecreated := $r/datecreated
-return element div {
-  attribute class {"table-responsive"},
-  element caption { 
-  attribute class { "Heading" } ,
-  "Note for CITE URN " , element b { $citeurn } },
-  element table {
-    attribute class {"table-striped  table-hover table-centered"},
-    element thead {
-      element tr {
-        element th { "CITE Body URN"},
-        element th { "Latin Place Name"},
-        element th { "Standard Place Name"},
-        element th { "Note Created By"},
-        element th { "Created On"}
-      }
-    },
-    element tbody {
-    element tr { 
-  cp:prettylink("", $citeurn, $uri),
+
+return element tr { 
+  element td { $citeurn },
   element td { data($nomen) },
-  element td { data($label) } ,
-  element td { element a { attribute href {$creator}, replace($creator, 'http://' , '')} },
+  cp:prettylink("", data($label), $uri) ,
+  cp:prettylink($citeurn, $loci_set_count, "http://croala.ffzg.unizg.hr/basex/cp-loci-cite/"),
+  element td { element a { attribute href {$creator}, replace($creator, 'https?://' , '')} },
   element td { data($datecreated) }
 }
-}}
-}
+
 else cp:deest()
+let $thead := ("CITE URN", "Place Name (Latin)", "Place Name (Standard)" , "Annotations in corpus" , "Note Created By", "Creation Date")
+return cp:table ( $thead , $tbody)
+
 };
 
 declare function cp:opencite_morph($urn) {
+  let $tbody :=
   if (starts-with($urn, "urn:cite:croala:latmorph.morph")) then
   for $r in collection("cp-latmorph")//record[morphcode/@citeurn=$urn]
   let $morph_set := db:open("cp-cite-morphs")//record[morph/@citeurn=$urn]
@@ -610,9 +603,12 @@ declare function cp:opencite_morph($urn) {
     cp:prettylink($urn , $morph_set_count, "http://croala.ffzg.unizg.hr/basex/cp-morph-cite/" )
   }
   else cp:deest()
+  let $thead := ("CITE URN", "Morphology code", "Morphology configuration" , "Annotations in corpus")
+  return cp:table ( $thead , $tbody)
 };
 
 declare function cp:opencite_latlexent($urn){
+  let $tbody :=
   if (starts-with($urn, "urn:cite:croala:latlexent.lex")) then
   for $r in collection("cp-latlexents")//record[lemma/@citeurn=$urn]
   let $lemma_set := db:open("cp-cite-lemmata")//record[lemma/@citeurn=$urn]
@@ -626,6 +622,8 @@ declare function cp:opencite_latlexent($urn){
     element td { data($r/datecreated) }
   }
   else cp:deest()
+  let $thead := ("CITE URN", "Lemma", "Annotations in corpus" , "Annotator", "Date created")
+  return cp:table ( $thead , $tbody)
 };
 
 declare function cp:opencite_aetas($urn) {
