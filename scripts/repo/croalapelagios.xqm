@@ -581,13 +581,14 @@ declare function cp:openciteurn_ana($urn) {
   
   return element tr {
     element td { $urn },
-    element td { $cts_urn  },
+    element td { for $u in $cts_urn return cp:simple_link("http://croala.ffzg.unizg.hr/basex/ctsp/" || $u , $u )  },
     element td { $word_form },
     element td { $cite_set_count },
     element td { 
     cp:table ("",
     for $t in $tbody2
     return element tr {
+      attribute class { "table-success" },
       element td { $t }
     } ) }
   }
