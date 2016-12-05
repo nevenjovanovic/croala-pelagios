@@ -184,42 +184,6 @@ return element tr {
 return $citelistbody
 };
 
-(: open a CITE URN for a place, display CITE body "content" :)
-declare function cp:openciteurn_locid($citeurn){
-  (: for a given CITE URN, display record :)
-let $idx := collection("cp-loci")
-for $r in $idx//record[citebody[@citeurn=$citeurn]]
-let $nomen := $r/nomen
-let $label := $r/label
-let $uri := $r/uri
-let $creator := $r/creator
-let $datecreated := $r/datecreated
-return element div {
-  attribute class {"table-responsive"},
-  element head { "Note for " , element b { $citeurn } },
-  element table {
-    attribute class {"table-striped  table-hover table-centered"},
-    element thead {
-      element tr {
-        element td { "CITE Body URN"},
-        element td { "Latin Place Name"},
-        element td { "Standard Place Name"},
-        element td { "Note Created By"},
-        element td { "Created On"}
-      }
-    },
-    element tbody {
-    element tr { 
-  cp:prettylink("", $citeurn, $uri),
-  element td { data($nomen) },
-  element td { data($label) } ,
-  element td { element a { attribute href {$creator}, replace($creator, 'http://' , '')} },
-  element td { data($datecreated) }
-}
-}}
-}
-};
-
 declare function cp:listcitebodies(){
   (: for a given CITE URN, display record :)
 (: to be made into cp:openciteurn function :)
@@ -301,9 +265,7 @@ return
     $placeref
 }
 
-else element tr { 
-element td { "Lemma deest in collectionibus nostris." }
-}
+else cp:deest()
 }}
 }
 return $citeurn
@@ -580,6 +542,46 @@ declare function cp:openciteurn_ana($urn) {
   
 };
 
+(: open a CITE URN for a place, display CITE body "content" :)
+declare function cp:openciteurn_locid($citeurn){
+  (: for a given CITE URN, display record :)
+   if (starts-with($citeurn, "urn:cite:croala:loci.locid")) then
+let $idx := collection("cp-loci")
+for $r in $idx//record[citebody[@citeurn=$citeurn]]
+let $nomen := $r/nomen
+let $label := $r/label
+let $uri := $r/uri
+let $creator := $r/creator
+let $datecreated := $r/datecreated
+return element div {
+  attribute class {"table-responsive"},
+  element caption { 
+  attribute class { "Heading" } ,
+  "Note for CITE URN " , element b { $citeurn } },
+  element table {
+    attribute class {"table-striped  table-hover table-centered"},
+    element thead {
+      element tr {
+        element td { "CITE Body URN"},
+        element td { "Latin Place Name"},
+        element td { "Standard Place Name"},
+        element td { "Note Created By"},
+        element td { "Created On"}
+      }
+    },
+    element tbody {
+    element tr { 
+  cp:prettylink("", $citeurn, $uri),
+  element td { data($nomen) },
+  element td { data($label) } ,
+  element td { element a { attribute href {$creator}, replace($creator, 'http://' , '')} },
+  element td { data($datecreated) }
+}
+}}
+}
+else cp:deest()
+};
+
 declare function cp:opencite_morph($urn) {
   if (starts-with($urn, "urn:cite:croala:latmorph.morph")) then
   for $r in collection("cp-latmorph")//record[morphcode/@citeurn=$urn]
@@ -612,17 +614,29 @@ declare function cp:opencite_latlexent($urn){
 };
 
 declare function cp:opencite_aetas($urn) {
-  
+  if (starts-with($urn, "urn:cite:croala:loci.aetas")) then
+  for $r in collection("cp-aetates")//record[citebody/@citeurn=$urn]
+  let $aetas_uri := $r/uri
+  let $aetas_set := db:open("cp-cite-aetates")//record[lemma/@citeurn=$urn]
+  let $aetas_set_count := count($aetas_set)
+  return 
+  element tr {
+    element td { $urn },
+    cp:prettylink("", data($r/label), data($aetas_uri) ),
+    cp:prettylink($urn , $aetas_set_count, "http://croala.ffzg.unizg.hr/basex/cp-aetas-cite/" ),
+    cp:prettylink("", replace(data($r/creator), "https?://", ""), data($r/creator)),
+    element td { data($r/datecreated) }
+  }
+  else cp:deest()
 };
 
 declare function cp:open_citeurn($urn){
-  if (starts-with($urn, "urn:cite:croala:loci.locid" )) 
-  then cp:openciteurn_locid($urn)
+  if (starts-with($urn, "urn:cite:croala:loci.locid" )) then cp:openciteurn_locid($urn)
   else if (starts-with($urn, "urn:cite:croala:loci.ana" )) then cp:openciteurn_ana($urn)
   else if (starts-with($urn, "urn:cite:croala:latmorph"))  then cp:opencite_morph($urn)
   else if (starts-with($urn, "urn:cite:croala:latlexent")) then cp:opencite_latlexent($urn)
   else if (starts-with($urn, "urn:cite:croala:aetas")) then cp:opencite_aetas($urn)
-  else element b { "URN deest in collectionibus nostris." } 
+  else cp:deest() 
    
 
 };
