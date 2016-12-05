@@ -571,7 +571,13 @@ declare function cp:openciteurn_ana($urn) {
   let $estlocus_value := $estlocus/@ana/string()
   let $cite_set_all := ($cite_set , $estlocus)
   let $cite_set_count := count($cite_set_all)
-  let $tbody2 := for $td in ($estlocus_value , $cite_set//lemma , $cite_set//morph , $cite_set//citelocus , $cite_set//citeaetas) return element tr {
+  let $tbody2 := for $td in (
+    distinct-values($estlocus_value) , 
+    distinct-values($cite_set//lemma) , 
+    distinct-values($cite_set//morph) , 
+    distinct-values($cite_set//citelocus) , 
+    distinct-values($cite_set//citeaetas)
+  ) return element tr {
     element td { $td }
   }
   return element tr {
@@ -583,7 +589,7 @@ declare function cp:openciteurn_ana($urn) {
   }
   else cp:deest()
   
-  let $thead := ("CITE URN", "Number of annotations", "Notes")
+  let $thead := ("CITE URN", "CTS URN", "Word form", "Number of annotations", "Notes")
   return cp:table($thead, $tbody)
 };
 
