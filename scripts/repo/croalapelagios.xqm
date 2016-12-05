@@ -20,6 +20,21 @@ declare function cp:deest(){
   }
 };
 
+(: helper function for table :)
+declare function cp:table ($headings, $body){
+  element table {
+    attribute class {"table-striped  table-hover table-centered"},
+    element thead {
+      element tr {
+        for $h in $headings return element th { $h }
+      }
+    },
+    element tbody {
+      $body
+    }
+  }
+};
+
 (: helper function for header, with meta :)
 declare function cp:htmlheadserver($title, $content, $keywords) {
   (: return html template to be filled with title :)
@@ -614,6 +629,7 @@ declare function cp:opencite_latlexent($urn){
 };
 
 declare function cp:opencite_aetas($urn) {
+  let $tbody :=
   if (starts-with($urn, "urn:cite:croala:loci.aetas")) then
   for $r in collection("cp-aetates")//record[citebody/@citeurn=$urn]
   let $aetas_uri := $r/uri
@@ -628,6 +644,8 @@ declare function cp:opencite_aetas($urn) {
     element td { data($r/datecreated) }
   }
   else cp:deest()
+  let $thead := ("CITE URN", "Period", "Annotations in corpus" , "Annotator", "Date created")
+  return cp:table ( $thead , $tbody)
 };
 
 declare function cp:open_citeurn($urn){
@@ -635,7 +653,7 @@ declare function cp:open_citeurn($urn){
   else if (starts-with($urn, "urn:cite:croala:loci.ana" )) then cp:openciteurn_ana($urn)
   else if (starts-with($urn, "urn:cite:croala:latmorph"))  then cp:opencite_morph($urn)
   else if (starts-with($urn, "urn:cite:croala:latlexent")) then cp:opencite_latlexent($urn)
-  else if (starts-with($urn, "urn:cite:croala:aetas")) then cp:opencite_aetas($urn)
+  else if (starts-with($urn, "urn:cite:croala:loci.aetas")) then cp:opencite_aetas($urn)
   else cp:deest() 
    
 
