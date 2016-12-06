@@ -701,12 +701,9 @@ declare function cp:open_citeurn($urn){
 declare function cp:loci_cite($locid_urn){
   if (starts-with($locid_urn, "urn:cite:croala:loci.locid")) then
   for $r in collection("cp-cite-loci")//record[citelocus=$locid_urn]
-  let $fields := ($r/citeurn ,
-    $r/ctsurn
-    )
   return element tr {
-    for $f in $fields
-    return element td { cp:simple_link(data($f), data($f)) },
+    element td { cp:simple_link(data($r/citeurn), data($r/citeurn)) },
+    element td { cp:simple_link(data( $r/ctsurn), data($r/ctsurn)) },
     element td { cp:simple_link(data($r/creator), data($r/creator))}
   }
   else cp:deest()
