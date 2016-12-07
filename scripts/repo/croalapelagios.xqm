@@ -2,6 +2,8 @@
 module namespace cp = 'http://croala.ffzg.unizg.hr/croalapelagios';
 import module namespace functx = "http://www.functx.com" at "functx.xqm";
 
+declare variable $cp:cite_namespace := "http://croala.ffzg.unizg.hr/basex/cite/";
+
 declare variable $cp:ann := map {
   "ZS" : "http://orcid.org/0000-0003-1457-7081",
   "NJ" : "http://orcid.org/0000-0002-9119-399X",
@@ -417,7 +419,7 @@ declare function cp:group_lemmata($set){
   group by $lemma
   order by $lemma
   return element tr {
-    cp:prettylink(distinct-values($lemma_cite), $lemma, "http://croala.ffzg.unizg.hr/basex/cite/"),
+    cp:prettylink(distinct-values($lemma_cite), $lemma, $cp:cite_namespace),
     cp:prettylink($set || "/" || distinct-values($lemma_cite), count($r), "http://croala.ffzg.unizg.hr/basex/cpciteindex/")}
   else element tr{
     element td { $result_set }
@@ -547,7 +549,7 @@ declare function cp:loci-id-index($cts){
  
     element tr {
       element td { if ($place_label) then cp:simple_link($place_uri , $place_label/string()) else "NOMEN LOCI DEEST" },
-      element td { cp:simple_link("http://croala.ffzg.unizg.hr/basex/cite/" || $place , $place) }, 
+      element td { cp:simple_link($cp:cite_namespace || $place , $place) }, 
   element td { $count_occurrences },
   element td { for $c in $list_cts return cp:simple_link("http://croala.ffzg.unizg.hr/basex/ctsp/" || $c , functx:substring-after-last($c, ":")) }
 }
@@ -571,12 +573,12 @@ declare function cp:openciteurn_ana($urn) {
   let $cite_set_count := count($cite_set_all)
   let $tbody2 := (
     cp:simple_link ( "http://croala.ffzg.unizg.hr/basex/cp-loci/corpus/" || $cite_set_all/@ana/string() , $cite_set_all/@ana/string()) , 
-    cp:simple_link( "http://croala.ffzg.unizg.hr/basex/cite/" || $cite_set_all/lemma/@citeurn , data($cite_set_all/lemma))  , 
-    cp:simple_link( "http://croala.ffzg.unizg.hr/basex/cite/" || $cite_set_all/morph/@citeurn , data($cite_set_all/morph) ) , 
+    cp:simple_link( $cp:cite_namespace || $cite_set_all/lemma/@citeurn , data($cite_set_all/lemma))  , 
+    cp:simple_link( $cp:cite_namespace || $cite_set_all/morph/@citeurn , data($cite_set_all/morph) ) , 
     for $c in $cite_set_all/citelocus return 
-    cp:simple_link( "http://croala.ffzg.unizg.hr/basex/cite/" || data($c) , collection("cp-loci")//record[citebody/@citeurn=$c]/label/string() ) ,
+    cp:simple_link( $cp:cite_namespace || data($c) , collection("cp-loci")//record[citebody/@citeurn=$c]/label/string() ) ,
     for $a in $cite_set_all/citeaetas return 
-    cp:simple_link( "http://croala.ffzg.unizg.hr/basex/cite/" || data($a) , collection("cp-aetates")//record[citebody/@citeurn=$a]/label/string() )
+    cp:simple_link( $cp:cite_namespace || data($a) , collection("cp-aetates")//record[citebody/@citeurn=$a]/label/string() )
   )
   
   return element tr {
@@ -698,9 +700,8 @@ declare function cp:open_citeurn($urn){
 
 (: for a CTS, return capitalized lemma as link to the lemma record :)
 declare function cp:lemma_link ($cts) {
-  let $cite_croala := "http://croala.ffzg.unizg.hr/basex/cite/"
   let $lemma := db:open("cp-cite-lemmata")//*:record[seg/@cts=$cts]//lemma
-  return if ($lemma) then cp:simple_link($cite_croala || $lemma/@citeurn , upper-case($lemma))
+  return if ($lemma) then cp:simple_link($cp:cite_namespace || $lemma/@citeurn , upper-case($lemma))
   else cp:deest()
 };
 
@@ -712,7 +713,7 @@ declare function cp:loci_cite($locid_urn){
   for $r in collection("cp-cite-loci")//record[citelocus=$locid_urn]
   let $lemma_record := cp:lemma_link($r/ctsurn)
   return element tr {
-    element td { cp:simple_link("htpp://croala.ffzg.unizg.hr/basex/cite/" || data($r/citeurn), data($r/citeurn)) },
+    element td { cp:simple_link($cp:cite_namespace || data($r/citeurn), data($r/citeurn)) },
     cp:openurn (data( $r/ctsurn))//td ,
     element td { 
     attribute class { "lemma"},
@@ -720,6 +721,6 @@ declare function cp:loci_cite($locid_urn){
     element td { cp:simple_link(data($r/creator), data($r/creator))}
   }
   else cp:deest()
-  let $thead := ("CITE URN", "CTS URN", "Form", "Context" , "Annotation Creator")
+  let $thead := ("CITE URN", "CTS URN", "Form", "Context" , "Lemma" , "Annotation Creator")
   return cp:table($thead , $tbody)
 };
