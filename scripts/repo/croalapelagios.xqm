@@ -729,7 +729,9 @@ declare function cp:loci_cite($locid_urn){
   for $r in collection("cp-cite-loci")//record[citelocus=$locid_urn]
   let $lemma_record := cp:lemma_link($r/ctsurn)
   return element tr {
-    element td { cp:simple_link($cp:cite_namespace || data($r/citeurn), data($r/ctsurn)) },
+    element td { 
+    attribute class { "cts_cite"} ,
+    cp:simple_link($cp:cite_namespace || data($r/citeurn), data($r/ctsurn)) },
     cp:openurn (data( $r/ctsurn))//td[position()>1] ,
     element td { 
     attribute class { "lemma"},

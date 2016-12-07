@@ -51,8 +51,14 @@ td.croala {
 	color: #566D7E;
 	}
 	
-td.latty {
-	color: maroon;
+td.latty , td.cts_cite a {
+    color: maroon;
+    text-decoration: none;
+}
+
+td.cts_cite a:hover {
+    color: #cb4b16;
+    text-decoration: none;
 }
 
 tbody.cp-loci-index > tr > td:first-child > a {
