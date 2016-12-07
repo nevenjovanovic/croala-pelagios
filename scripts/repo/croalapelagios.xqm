@@ -717,7 +717,7 @@ declare function cp:loci_head($locid_urn){
   let $place_label := $r/label
   let $place_uri := $r/uri
   let $count_occur := count(collection("cp-cite-loci")//record[citelocus=$locid_urn])
-  return element h3 { "Place: " , cp:simple_link( data($place_uri) , data($place_label) ) , " - occurrences in corpus: " , xs:string($count_occur) }
+  return element h3 { "Place: " , cp:simple_link( data($place_uri) , data($place_label) ) , " &#8212; Occurrences in corpus: " , xs:string($count_occur) }
   else cp:deest()
   return $tbody
 };
@@ -729,14 +729,14 @@ declare function cp:loci_cite($locid_urn){
   for $r in collection("cp-cite-loci")//record[citelocus=$locid_urn]
   let $lemma_record := cp:lemma_link($r/ctsurn)
   return element tr {
-    element td { cp:simple_link($cp:cite_namespace || data($r/citeurn), data($r/citeurn)) },
-    cp:openurn (data( $r/ctsurn))//td ,
+    element td { cp:simple_link($cp:cite_namespace || data($r/citeurn), data($r/ctsurn)) },
+    cp:openurn (data( $r/ctsurn))//td[position()>1] ,
     element td { 
     attribute class { "lemma"},
     $lemma_record },
     element td { cp:simple_link(data($r/creator), data($r/creator))}
   }
   else cp:deest()
-  let $thead := ("CITE URN", "CTS URN", "Form", "Context" , "Lemma" , "Annotation Creator")
+  let $thead := ("CTS URN", "Form", "Context" , "Lemma" , "Annotation Creator")
   return cp:table($thead , $tbody)
 };
