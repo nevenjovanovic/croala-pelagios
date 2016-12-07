@@ -166,9 +166,7 @@ let $pre := xs:integer($w/@xml:id)
 let $text := data(db:open-id("cp-2-texts", $pre)/parent::*)
 let $settext := normalize-space($text)
 return cp:prettyp($settext, $ctsadr, $word)
-else element tr {
-  element td { "Nodus videtur deesse in indice nostro." }
-}
+else cp:deest()
 };
 
 (: make node quickly :)
@@ -706,10 +704,10 @@ declare function cp:loci_cite($locid_urn){
   for $r in collection("cp-cite-loci")//record[citelocus=$locid_urn]
   return element tr {
     element td { cp:simple_link("htpp://croala.ffzg.unizg.hr/basex/cite/" || data($r/citeurn), data($r/citeurn)) },
-    element td { cp:simple_link("htpp://croala.ffzg.unizg.hr/basex/ctsp/" || data( $r/ctsurn), data($r/ctsurn)) },
+    cp:openurn (data( $r/ctsurn))//td ,
     element td { cp:simple_link(data($r/creator), data($r/creator))}
   }
   else cp:deest()
-  let $thead := ("CITE URN", "CTS URN", "Creator")
+  let $thead := ("CITE URN", "CTS URN", "Form", "Context" , "Annotation Creator")
   return cp:table($thead , $tbody)
 };
