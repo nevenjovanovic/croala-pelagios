@@ -585,7 +585,7 @@ declare function cp:openciteurn_ana($urn) {
     element td { $urn },
     element td { 
     attribute class { "cts"},
-    for $u in $cts_urn return cp:simple_link("http://croala.ffzg.unizg.hr/basex/ctsp/" || $u , $u )  },
+    for $u in distinct-values($cts_urn) return cp:simple_link("http://croala.ffzg.unizg.hr/basex/ctsp/" || $u , $u )  },
     element td { $word_form },
     element td { $cite_set_count },
     element td { 
