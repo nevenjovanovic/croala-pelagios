@@ -598,7 +598,7 @@ declare function cp:openciteurn_ana($urn) {
   }
   else cp:deest()
   
-  let $thead := ("CITE URN", "CTS URN", "Word form", "Number of annotations", "Notes")
+  let $thead := ("CITE URN", "CTS URN", "Word form", "Number of annotations", "Annotations")
   return cp:table($thead, $tbody)
 };
 
