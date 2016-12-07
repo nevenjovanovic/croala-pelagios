@@ -698,12 +698,14 @@ declare function cp:open_citeurn($urn){
   else cp:deest()
 };
 
+(: display all occurrences of a CITE URN locid value :)
+(: URL: cp-loci-cite/{$urn} :)
 declare function cp:loci_cite($locid_urn){
   if (starts-with($locid_urn, "urn:cite:croala:loci.locid")) then
   for $r in collection("cp-cite-loci")//record[citelocus=$locid_urn]
   return element tr {
-    element td { cp:simple_link(data($r/citeurn), data($r/citeurn)) },
-    element td { cp:simple_link(data( $r/ctsurn), data($r/ctsurn)) },
+    element td { cp:simple_link("htpp://croala.ffzg.unizg.hr/basex/cite/" || data($r/citeurn), data($r/citeurn)) },
+    element td { cp:simple_link("htpp://croala.ffzg.unizg.hr/basex/ctsp/" || data( $r/ctsurn), data($r/ctsurn)) },
     element td { cp:simple_link(data($r/creator), data($r/creator))}
   }
   else cp:deest()
