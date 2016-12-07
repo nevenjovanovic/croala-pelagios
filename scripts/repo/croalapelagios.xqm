@@ -736,6 +736,7 @@ declare function cp:loci_cite($locid_urn){
     cp:simple_link($cp:cite_namespace || data($r/citeurn), data($r/ctsurn)) },
     cp:openurn (data( $r/ctsurn))//td[position()>1] ,
     element td {
+      attribute class { "period"},
       if ($period_label) then cp:simple_link( $cp:cite_namespace || $period_record , data($period_label) ) else ()
     },
     element td { 

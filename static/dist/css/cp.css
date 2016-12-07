@@ -49,7 +49,17 @@ td.clausula {
 
 td.croala {
 	color: #566D7E;
-	}
+}
+
+td.period a {
+    color: #2aa198;
+    text-decoration: none;
+}
+
+td.period a:hover {
+    color: #268bd2;
+    text-decoration: none;
+}
 	
 td.latty , td.cts_cite a {
     color: maroon;
