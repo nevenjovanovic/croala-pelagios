@@ -701,6 +701,7 @@ declare function cp:open_citeurn($urn){
 (: display all occurrences of a CITE URN locid value :)
 (: URL: cp-loci-cite/{$urn} :)
 declare function cp:loci_cite($locid_urn){
+  let $tbody :=
   if (starts-with($locid_urn, "urn:cite:croala:loci.locid")) then
   for $r in collection("cp-cite-loci")//record[citelocus=$locid_urn]
   return element tr {
@@ -709,4 +710,6 @@ declare function cp:loci_cite($locid_urn){
     element td { cp:simple_link(data($r/creator), data($r/creator))}
   }
   else cp:deest()
+  let $thead := ("CITE URN", "CTS URN", "Creator")
+  return cp:table($thead , $tbody)
 };
