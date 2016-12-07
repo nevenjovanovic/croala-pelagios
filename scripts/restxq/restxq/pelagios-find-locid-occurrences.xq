@@ -42,7 +42,7 @@ declare
 <div class="col-md-6">
 <p>Index locorum in <a href="http://croala.ffzg.unizg.hr">CroALa</a> sub specie <a href="http://commons.pelagios.org/">Pelagii</a>, { current-date() }.</p>
 <p><a href="http://orcid.org/0000-0002-9119-399X">Neven Jovanović</a> and the <a href="https://github.com/nevenjovanovic/croala-pelagios/wiki#the-team">CroALa-Pelagios team</a>.</p>
-<p>Locus occurrit in collectione.</p>
+<p>Locus { $urn } occurrit in collectione.</p>
 <p>Functio nominatur: {rest:uri()}.</p>
 </div>
 <div class="col-md-6">
