@@ -53,7 +53,7 @@ declare
 <div class="container-fluid">
 <blockquote class="croala">
 
-{ cp:loci_cite($urn) }
+{ cp:loci_head($urn) , cp:loci_cite($urn) }
 
 </blockquote>
      <p/>

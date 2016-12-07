@@ -707,6 +707,22 @@ declare function cp:lemma_link ($cts) {
 
 (: display all occurrences of a CITE URN locid value :)
 (: URL: cp-loci-cite/{$urn} :)
+
+(: 1 - display standard name / with link to source and number of annotated occurrences as table head :)
+
+declare function cp:loci_head($locid_urn){
+  let $tbody :=
+  if (starts-with($locid_urn, "urn:cite:croala:loci.locid")) then
+  for $r in collection("cp-loci")//record[citebody/@citeurn=$locid_urn]
+  let $place_label := $r/label
+  let $place_uri := $r/uri
+  let $count_occur := count(collection("cp-cite-loci")//record[citelocus=$locid_urn])
+  return (cp:simple_link( data($place_uri) , data($place_label) ) , xs:string($count_occur) )
+  else cp:deest()
+  return cp:table($tbody, ())
+};
+
+(: 2 - display list of occurrencees :)
 declare function cp:loci_cite($locid_urn){
   let $tbody :=
   if (starts-with($locid_urn, "urn:cite:croala:loci.locid")) then
