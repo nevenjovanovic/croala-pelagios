@@ -728,17 +728,22 @@ declare function cp:loci_cite($locid_urn){
   if (starts-with($locid_urn, "urn:cite:croala:loci.locid")) then
   for $r in collection("cp-cite-loci")//record[citelocus=$locid_urn]
   let $lemma_record := cp:lemma_link($r/ctsurn)
+  let $period_record := collection("cp-cite-aetates")//record[citeurn=$r/citeurn]/citeaetas
+  let $period_label := collection("cp-aetates")//record[citebody/@citeurn=$period_record]/label
   return element tr {
     element td { 
     attribute class { "cts_cite"} ,
     cp:simple_link($cp:cite_namespace || data($r/citeurn), data($r/ctsurn)) },
     cp:openurn (data( $r/ctsurn))//td[position()>1] ,
+    element td {
+      if ($period_label) then cp:simple_link( $cp:cite_namespace || $period_record , data($period_label) ) else ()
+    },
     element td { 
     attribute class { "lemma"},
     $lemma_record },
-    element td { cp:simple_link(data($r/creator), data($r/creator))}
+    element td { cp:simple_link(data($r/creator), replace(data($r/creator), "https?://", ""))}
   }
   else cp:deest()
-  let $thead := ("CTS URN", "Form", "Context" , "Lemma" , "Annotation Creator")
+  let $thead := ("CTS URN", "Form", "Context" , "Period" , "Lemma" , "Annotation Creator")
   return cp:table($thead , $tbody)
 };
