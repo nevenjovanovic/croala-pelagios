@@ -717,9 +717,9 @@ declare function cp:loci_head($locid_urn){
   let $place_label := $r/label
   let $place_uri := $r/uri
   let $count_occur := count(collection("cp-cite-loci")//record[citelocus=$locid_urn])
-  return (cp:simple_link( data($place_uri) , data($place_label) ) , xs:string($count_occur) )
+  return element h3 { "Place: " , cp:simple_link( data($place_uri) , data($place_label) ) , " - occurrences in corpus: " , xs:string($count_occur) }
   else cp:deest()
-  return cp:table($tbody, ())
+  return $tbody
 };
 
 (: 2 - display list of occurrencees :)
