@@ -696,15 +696,27 @@ declare function cp:open_citeurn($urn){
   else cp:deest()
 };
 
+(: for a CTS, return capitalized lemma as link to the lemma record :)
+declare function cp:lemma_link ($cts) {
+  let $cite_croala := "http://croala.ffzg.unizg.hr/basex/cite/"
+  let $lemma := db:open("cp-cite-lemmata")//*:record[seg/@cts=$cts]//lemma
+  return if ($lemma) then cp:simple_link($cite_croala || $lemma/@citeurn , upper-case($lemma))
+  else cp:deest()
+};
+
 (: display all occurrences of a CITE URN locid value :)
 (: URL: cp-loci-cite/{$urn} :)
 declare function cp:loci_cite($locid_urn){
   let $tbody :=
   if (starts-with($locid_urn, "urn:cite:croala:loci.locid")) then
   for $r in collection("cp-cite-loci")//record[citelocus=$locid_urn]
+  let $lemma_record := cp:lemma_link($r/ctsurn)
   return element tr {
     element td { cp:simple_link("htpp://croala.ffzg.unizg.hr/basex/cite/" || data($r/citeurn), data($r/citeurn)) },
     cp:openurn (data( $r/ctsurn))//td ,
+    element td { 
+    attribute class { "lemma"},
+    $lemma_record },
     element td { cp:simple_link(data($r/creator), data($r/creator))}
   }
   else cp:deest()
