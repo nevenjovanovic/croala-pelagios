@@ -295,11 +295,19 @@ let $citeurn := element div {
   attribute class {"table-responsive"},
   element table {
     attribute class {"table-striped  table-hover table-centered"},
+    element caption {
+      attribute class { "heading"},
+      "Periods recorded: " ,
+      let $r := collection("cp-aetates")//record
+      return count($r)
+    },
     element thead {
       element tr {
-        element th { "CITE URN"},
-        element th { "Period Reference"},
-        element th { "Period Referred To"}
+        element th { 
+        attribute class { "col-md-3" } , 
+        "CITE URN" },
+        element th { "Period Description"},
+        element th { "Period URN"}
       }
     },
     element tbody {

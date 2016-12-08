@@ -12,8 +12,6 @@ declare variable $title := 'CITE URN indiculus: aetates in CroALa';
 declare variable $content := "Display available CITE Object URNs of period identifications.";
 declare variable $keywords := "Neo-Latin literature, CTS / CITE architecture, Pelagios historical places, gazetteer, literary analysis, scholarly edition, analytical exemplar, place name, URN";
 
-
-
 (:~
  : This function returns an XML response message.
  :)
@@ -36,7 +34,7 @@ declare
   (: HTML template starts here :)
 
 <html>
-{ vit:htmlheadserver($title, $content, $keywords) }
+{ cp:htmlheadserver($title, $content, $keywords) }
 <body text="#000000">
 
 <div class="jumbotron">
@@ -44,8 +42,8 @@ declare
 <div class="container-fluid">
 <div class="col-md-6">
 <p>Locus in <a href="http://croala.ffzg.unizg.hr">CroALa</a> sub specie <a href="http://commons.pelagios.org/">Pelagii</a>, { current-date() }.</p>
-<p><a href="http://orcid.org/0000-0002-9119-399X">Neven Jovanović</a></p>
-<p>URN indiculi CITE: aetates in collectione.</p>
+<p><a href="http://orcid.org/0000-0002-9119-399X">Neven Jovanović</a> and the <a href="https://github.com/nevenjovanovic/croala-pelagios/wiki#the-team">CroALa-Pelagios team</a>.</p>
+<p>CITE URN: aetates in collectione.</p>
 <p>Functio nominatur: {rest:uri()}.</p>
 </div>
 <div class="col-md-6">
@@ -55,15 +53,12 @@ declare
 </div>
 <div class="container-fluid">
 <blockquote class="croala">
-	
 	{cp:listciteperiods()}
-  
-  
 </blockquote>
      <p/>
      </div>
 <hr/>
-{ croala:footerserver() }
+{ cp:footerserver() }
 <script type="text/javascript" src="/basex/static/dist/js/clipboard2.js"></script>
 </body>
 </html>
