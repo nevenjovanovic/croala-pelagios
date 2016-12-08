@@ -7,7 +7,7 @@ let $csv := fetch:text($a)
 for $r in csv:parse($csv, map { 'header': true() })//record
 let $cite_aetas := if (number($r/AETATIS_CITE_URN)) then "urn:cite:croala:loci.aetas" || format-number($r/AETATIS_CITE_URN, "99999") else "ERR"
 let $cite_urn := if (number($r/SEQUENCE)) then "urn:cite:croala:loci.ana" || format-number($r/SEQUENCE, "999999") else "ERR"
-where number($r/AETATIS_CITE_URN) and not($r/ANNOTATOR_INITIALS[.="ANNOTATOR"])
+where number($r/AETATIS_CITE_URN) and not($r/ANNOTATOR_INITIALS[.="ANNOTATOR"]) and not($r/ANNOTATOR_INITIALS[.=""])
 return element record { 
 attribute xml:id { substring-after($cite_urn, "croala:loci.")},
 cp:makeelement ($cite_urn, "citeurn"),
