@@ -324,11 +324,11 @@ order by $placereflabel
 return 
     element tr { 
    $citebodyurn2 ,
-  element td { $placereflabel } ,
-  element td { 
+   element td { 
   attribute class { "cts_cite"},
   cp:simple_link($cp:cite_namespace || $cite_urn , $cite_urn ) },
-  element td { element a { attribute href {$placeref}, replace($placeref, 'http://' , '')} }
+  element td { $placereflabel } ,
+  element td { element a { attribute href {$placeref}, replace($placeref, 'https?://' , '')} }
 }
 }}
 }
