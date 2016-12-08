@@ -15,4 +15,5 @@ cp:makeelement( $cite_aetas, "citeaetas") ,
 cp:makeelement($r/CTS_URN, "ctsurn")  , 
 cp:annotator($r) }
 }
-return file:write("/home/neven/rad/croala-pelagios/csv/aetates/cp-cite-aetates.xml", $result)
+  let $fileuri := substring-before(file:base-dir(), 'scripts/') || "csv/aetates/cp-cite-aetates.xml"
+return file:write($fileuri, $result)
