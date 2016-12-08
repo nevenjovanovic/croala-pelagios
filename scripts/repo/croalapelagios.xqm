@@ -304,8 +304,8 @@ let $citeurn := element div {
     element thead {
       element tr {
         element th { 
-        attribute class { "col-md-3" } , 
-        "CITE URN" },
+        attribute class { "col-md-2" } , 
+        "CITE URN Short Id" },
         element th { "Period Description"},
         element th { "Period URN"}
       }
@@ -313,7 +313,7 @@ let $citeurn := element div {
     element tbody {
 let $idx := collection("cp-aetates")
 for $r in $idx//record
-let $citebodyurn := data($r/@xml:id)
+let $citebodyurn := replace(data($r/@xml:id), "aetas", "")
 let $id := generate-id($r)
 let $citebodyurn2 := element td { cp:input-field2($id, $citebodyurn) }
 let $placeref := data($r/uri)
