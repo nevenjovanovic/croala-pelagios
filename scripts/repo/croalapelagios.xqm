@@ -306,6 +306,7 @@ let $citeurn := element div {
         element th { 
         attribute class { "col-md-2" } , 
         "CITE URN Short Id" },
+        element th { "CITE URN"},
         element th { "Period Description"},
         element th { "Period URN"}
       }
@@ -316,6 +317,7 @@ for $r in $idx//record
 let $citebodyurn := replace(data($r/@xml:id), "aetas", "")
 let $id := generate-id($r)
 let $citebodyurn2 := element td { cp:input-field2($id, $citebodyurn) }
+let $cite_urn := data($r/citebody/@citeurn)
 let $placeref := data($r/uri)
 let $placereflabel := data($r/label)
 order by $placereflabel
@@ -323,6 +325,9 @@ return
     element tr { 
    $citebodyurn2 ,
   element td { $placereflabel } ,
+  element td { 
+  attribute class { "cts_cite"},
+  cp:simple_link($cp:cite_namespace || $cite_urn , $cite_urn ) },
   element td { element a { attribute href {$placeref}, replace($placeref, 'http://' , '')} }
 }
 }}
