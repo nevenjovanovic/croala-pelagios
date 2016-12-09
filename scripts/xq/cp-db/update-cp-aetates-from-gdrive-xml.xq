@@ -5,4 +5,4 @@ for $r in $doc//record
 let $r2 := collection("cp-aetates")//record
 return if ($r = $r2) then () else $r
 }
-return insert node $result as last into db:open("cp-aetates","cpperiods.xml")
+return insert node $result into db:open("cp-aetates")

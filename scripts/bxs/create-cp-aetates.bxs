@@ -1,5 +1,4 @@
 SET INTPARSE true; SET FTINDEX true; SET UPDINDEX true; SET AUTOOPTIMIZE true
-CREATE DB cp-aetates https://github.com/nevenjovanovic/croala-pelagios/raw/master/csv/aetates/cpperiods.xml
-XQUERY db:replace("cp-aetates", "cpperiods-myth-2.xml", "https://github.com/nevenjovanovic/croala-pelagios/raw/master/csv/aetates/cpperiods-myth-2.xml")
-XQUERY db:replace("cp-aetates", "cpperiods-bibl-myth-2.xml", "https://github.com/nevenjovanovic/croala-pelagios/raw/master/csv/aetates/cpperiods-bibl-myth-2.xml")
+CREATE DB cp-aetates
+RUN /home/neven/rad/croala-pelagios/scripts/xq/cp-db/update-cp-aetates-from-gdrive-xml.xq
 CREATE BACKUP cp-aetates
