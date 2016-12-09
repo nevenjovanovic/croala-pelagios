@@ -22,6 +22,7 @@
                         </attribute>
                         <data type="int"/>
                     </element>
+                    <optional><element name="description"><text/></element></optional>
                     <element name="uri">
                         <data type="anyURI">
                             <param name="pattern">http://.+</param>

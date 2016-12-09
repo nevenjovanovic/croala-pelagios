@@ -1,70 +1,80 @@
 <list>
   <record xml:id="aetas09901">
-    <label>Classical mythology 1: Chaos; The formation of the earth; Ouranos and Gaia give birth to the Titans</label>
+    <label>Classical mythology 1 (from Chaos to the Titans)</label>
     <citebody citeurn="urn:cite:croala:loci.aetas09901">09901</citebody>
+    <description>Chaos; The formation of the earth; Ouranos and Gaia give birth to the Titans.</description>
     <uri>http://croala.ffzg.unizg.hr/basex/aetates/urn:cite:croala:aetates.aetas09901</uri>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-21</datecreated>
   </record>
   <record xml:id="aetas09902">
-    <label>Classical mythology 2: Chronos overthrows Ouranos; the reign of the Titans; the birth of the Olympian gods</label>
+    <label>Classical mythology 2 (from Chronos to the Olympians)</label>
     <citebody citeurn="urn:cite:croala:loci.aetas09902">09902</citebody>
+    <description>Chronos overthrows Ouranos; the reign of the Titans; the birth of the Olympian gods.</description>
     <uri>http://croala.ffzg.unizg.hr/basex/aetates/urn:cite:croala:aetates.aetas09902</uri>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-21</datecreated>
   </record>
   <record xml:id="aetas09903">
-    <label>Classical mythology 3: Zeus overthrows Chronos; the reign of the Olympians; the first Olympic games; Prometheus gives fire to mankind; Pandora’s box</label>
+    <label>Classical mythology 3 (from Zeus to Pandora)</label>
     <citebody citeurn="urn:cite:croala:loci.aetas09903">09903</citebody>
+    <description>Zeus overthrows Chronos; the reign of the Olympians; the first Olympic games; Prometheus gives fire to mankind; Pandora’s box.</description>
     <uri>http://croala.ffzg.unizg.hr/basex/aetates/urn:cite:croala:aetates.aetas09903</uri>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-21</datecreated>
   </record>
   <record xml:id="aetas09904">
-    <label>Classical mythology 4: Zeus floods the earth; Deucalion and his family survive in an ark; Oedipus kills his father and marries his mother; the twelve labors of Herakles; Orpheus tries to bring back Eurydice from Hades; the 7 against Thebes</label>
+    <label>Classical mythology 4 (from the Flood to the Seven against Thebes)</label>
     <citebody citeurn="urn:cite:croala:loci.aetas09904">09904</citebody>
+    <description>Zeus floods the earth; Deucalion and his family survive in an ark;  Oedipus kills his father and marries his mother; the twelve labors of  Herakles; Orpheus tries to bring back Eurydice from Hades; the Seven against Thebes.</description>
     <uri>http://croala.ffzg.unizg.hr/basex/aetates/urn:cite:croala:aetates.aetas09904</uri>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-21</datecreated>
   </record>
   <record xml:id="aetas09905">
-    <label>Classical mythology 5: The beauty contest; the capture of Helen; the Trojan war; the capture of Troy</label>
+    <label>Classical mythology 5 (from Paris's judgement to the fall of Troy)</label>
     <citebody citeurn="urn:cite:croala:loci.aetas09905">09905</citebody>
+    <description>The beauty contest; the capture of Helen; the Trojan war; the capture of Troy.</description>
     <uri>http://croala.ffzg.unizg.hr/basex/aetates/urn:cite:croala:aetates.aetas09905</uri>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-21</datecreated>
   </record>
   <record xml:id="aetas09906">
-    <label>Classical mythology 6: Odysseus’ journey back to Ithaca; Aeneas’ quest to found Rome</label>
+    <label>Classical mythology 6 (return of Odysseus, quest of Aeneas)</label>
     <citebody citeurn="urn:cite:croala:loci.aetas09906">09906</citebody>
+    <description>Odysseus’ journey back to Ithaca; Aeneas’ quest to found Rome.</description>
     <uri>http://croala.ffzg.unizg.hr/basex/aetates/urn:cite:croala:aetates.aetas09906</uri>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-21</datecreated>
   </record>
   <record xml:id="aetas99999">
-    <label>Indefinite: lasting for an unknown or unstated length of time</label>
+    <label>Indefinite (lasting for an unknown or unstated length of time)</label>
     <citebody citeurn="urn:cite:croala:loci.aetas99999">99999</citebody>
+    <description/>
     <uri>http://croala.ffzg.unizg.hr/basex/aetates/urn:cite:croala:aetates.aetas99999</uri>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-25</datecreated>
   </record>
   <record xml:id="aetas11111">
-    <label>Everlasting: including past, present, and future</label>
+    <label>Everlasting (including past, present, and future)</label>
     <citebody citeurn="urn:cite:croala:loci.aetas11111">11111</citebody>
+    <description/>
     <uri>http://croala.ffzg.unizg.hr/basex/aetates/urn:cite:croala:aetates.aetas11111</uri>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-25</datecreated>
   </record>
   <record xml:id="aetas00000">
-    <label>Outside time: time is irrelevant or unapplicable</label>
+    <label>Outside time (time is irrelevant or unapplicable)</label>
     <citebody citeurn="urn:cite:croala:loci.aetas00000">00000</citebody>
+    <description/>
     <uri>http://croala.ffzg.unizg.hr/basex/aetates/urn:cite:croala:aetates.aetas00000</uri>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-25</datecreated>
   </record>
   <record xml:id="aetas00001">
-    <label>Causal arrow of time: from a certain point in time until now</label>
+    <label>Causal arrow of time (from a certain point in time until now)</label>
     <citebody citeurn="urn:cite:croala:loci.aetas00001">00001</citebody>
+    <description/>
     <uri>http://croala.ffzg.unizg.hr/basex/aetates/urn:cite:croala:aetates.aetas00001</uri>
     <creator>http://orcid.org/0000-0001-5515-6545</creator>
     <datecreated>2016-11-25</datecreated>
@@ -72,6 +82,7 @@
   <record xml:id="aetas67900">
     <label>Medieval (Romania, 800-1820)</label>
     <citebody citeurn="urn:cite:croala:loci.aetas67900">67900</citebody>
+    <description/>
     <uri>http://n2t.net/ark:/99152/p0qhb66dc2g</uri>
     <creator>http://orcid.org/0000-0003-1457-7081</creator>
     <datecreated>2016-11-27</datecreated>
@@ -79,6 +90,7 @@
   <record xml:id="aetas67901">
     <label>Medieval (Italy, 601-1499)</label>
     <citebody citeurn="urn:cite:croala:loci.aetas67901">67901</citebody>
+    <description/>
     <uri>http://n2t.net/ark:/99152/p06v8w4z4ng</uri>
     <creator>http://orcid.org/0000-0003-1457-7081</creator>
     <datecreated>2016-11-27</datecreated>
@@ -86,6 +98,7 @@
   <record xml:id="aetas38010">
     <label>Roman mythology 1: Orcus</label>
     <citebody citeurn="urn:cite:croala:loci.aetas38010">38010</citebody>
+    <description/>
     <uri>http://croala.ffzg.unizg.hr/basex/aetates/urn:cite:croala:aetates.aetas38010</uri>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-29</datecreated>
@@ -93,6 +106,7 @@
   <record xml:id="aetas38001">
     <label>Middle Lydian (Mermnad Dynasty BC 680-547))</label>
     <citebody citeurn="urn:cite:croala:loci.aetas38001">38001</citebody>
+    <description/>
     <uri>http://n2t.net/ark:/99152/p0cmdf9kmfv</uri>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-28</datecreated>
@@ -100,6 +114,7 @@
   <record xml:id="aetas38002">
     <label>Hellenistic (Sicily BC 330-240)</label>
     <citebody citeurn="urn:cite:croala:loci.aetas38002">38002</citebody>
+    <description/>
     <uri>http://n2t.net/ark:/99152/p0s7jn8xtgc</uri>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-29</datecreated>
@@ -107,6 +122,7 @@
   <record xml:id="aetas38009">
     <label>Roman Republican (Italy BC 349- AD 29)</label>
     <citebody citeurn="urn:cite:croala:loci.aetas38009">38009</citebody>
+    <description/>
     <uri>http://n2t.net/ark:/99152/p06v8w4k77h</uri>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-29</datecreated>
@@ -114,6 +130,7 @@
   <record xml:id="aetas38003">
     <label>Empire (Rome BC 30- AD 284)</label>
     <citebody citeurn="urn:cite:croala:loci.aetas38003">38003</citebody>
+    <description/>
     <uri>http://n2t.net/ark:/99152/p06c6g33wp2</uri>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-29</datecreated>
@@ -121,6 +138,7 @@
   <record xml:id="aetas38012">
     <label>Roman Early Empire-Late Antique (BC 30-AD 640)</label>
     <citebody citeurn="urn:cite:croala:loci.aetas38012">38012</citebody>
+    <description/>
     <uri>http://n2t.net/ark:/99152/p03wskdcctk</uri>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-29</datecreated>
@@ -128,6 +146,7 @@
   <record xml:id="aetas38013">
     <label>Roman, early Empire (BC 30-AD 300)</label>
     <citebody citeurn="urn:cite:croala:loci.aetas38013">38013</citebody>
+    <description/>
     <uri>http://n2t.net/ark:/99152/p03wskdxnzf</uri>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-29</datecreated>
@@ -135,6 +154,7 @@
   <record xml:id="aetas38014">
     <label>Early Empire (Spain BC 27- AD 96)</label>
     <citebody citeurn="urn:cite:croala:loci.aetas38014">38014</citebody>
+    <description/>
     <uri>http://n2t.net/ark:/99152/p0z5nvhvv7c</uri>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-30</datecreated>
@@ -142,6 +162,7 @@
   <record xml:id="aetas38008">
     <label>Roman Imperial (Italy AD 31-399)</label>
     <citebody citeurn="urn:cite:croala:loci.aetas38008">38008</citebody>
+    <description/>
     <uri>http://n2t.net/ark:/99152/p06v8w43gnx</uri>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-29</datecreated>
@@ -149,6 +170,7 @@
   <record xml:id="aetas38011">
     <label>Late Antique AD300-640 (Lycia, Albania, Bosnia and Herzegovina, Bulgaria, Croatia, Hungary, Moldova, Serbia, Russia, Ukraine...)</label>
     <citebody citeurn="urn:cite:croala:loci.aetas38011">38011</citebody>
+    <description/>
     <uri>http://n2t.net/ark:/99152/p03wskd6psm</uri>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-29</datecreated>
@@ -156,6 +178,7 @@
   <record xml:id="aetas38007">
     <label>Late Medieval (Europe AD 1050-1500)</label>
     <citebody citeurn="urn:cite:croala:loci.aetas38007">38007</citebody>
+    <description/>
     <uri>http://n2t.net/ark:/99152/p08m57hbmrr</uri>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-29</datecreated>
@@ -163,6 +186,7 @@
   <record xml:id="aetas38000">
     <label>Early Ottoman Empire (AD 1453–1683)</label>
     <citebody citeurn="urn:cite:croala:loci.aetas38000">38000</citebody>
+    <description/>
     <uri>http://n2t.net/ark:/99152/p03wskdf7wk</uri>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-28</datecreated>
@@ -170,6 +194,7 @@
   <record xml:id="aetas38004">
     <label>Neuzeit (Germany, Switzerland, Czech Republic, Liechtenstein, Austria 1500-1849)</label>
     <citebody citeurn="urn:cite:croala:loci.aetas38004">38004</citebody>
+    <description/>
     <uri>http://n2t.net/ark:/99152/p0qhb669pgp</uri>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-29</datecreated>
@@ -177,6 +202,7 @@
   <record xml:id="aetas38005">
     <label>Edad Moderno (AD Spain 1500-1899)</label>
     <citebody citeurn="urn:cite:croala:loci.aetas38005">38005</citebody>
+    <description/>
     <uri>http://n2t.net/ark:/99152/p0qhb66njpn</uri>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-29</datecreated>
@@ -184,6 +210,7 @@
   <record xml:id="aetas38006">
     <label>Renaissance (France AD 1492-1699)</label>
     <citebody citeurn="urn:cite:croala:loci.aetas38006">38006</citebody>
+    <description/>
     <uri>http://n2t.net/ark:/99152/p0qhb66wtf7</uri>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-29</datecreated>
@@ -191,6 +218,7 @@
   <record xml:id="aetas67902">
     <label>Migration Period (Germany, Switzerland, Czech Republic, Liechtenstein, 375-567)</label>
     <citebody citeurn="urn:cite:croala:loci.aetas67902">67902</citebody>
+    <description/>
     <uri>http://n2t.net/ark:/99152/p0qhb66nbgb</uri>
     <creator>http://orcid.org/0000-0003-1457-7081</creator>
     <datecreated>2016-11-29</datecreated>
@@ -198,6 +226,7 @@
   <record xml:id="aetas67903">
     <label>Early Medieval (Romania, 353-900)</label>
     <citebody citeurn="urn:cite:croala:loci.aetas67903">67903</citebody>
+    <description/>
     <uri>http://n2t.net/ark:/99152/p0zj6g8hh8k</uri>
     <creator>http://orcid.org/0000-0003-1457-7081</creator>
     <datecreated>2016-11-30</datecreated>
@@ -205,6 +234,7 @@
   <record xml:id="aetas67904">
     <label>Late Middle Ages (France, 1300-1499)</label>
     <citebody citeurn="urn:cite:croala:loci.aetas67904">67904</citebody>
+    <description/>
     <uri>http://n2t.net/ark:/99152/p0rrjd9gj4g</uri>
     <creator>http://orcid.org/0000-0003-1457-7081</creator>
     <datecreated>2016-11-30</datecreated>
@@ -212,6 +242,7 @@
   <record xml:id="aetas67905">
     <label>Ottoman (Greece, 1453-1820)</label>
     <citebody citeurn="urn:cite:croala:loci.aetas67905">67905</citebody>
+    <description/>
     <uri>http://n2t.net/ark:/99152/p0qhb66sm2q</uri>
     <creator>http://orcid.org/0000-0003-1457-7081</creator>
     <datecreated>2016-11-30</datecreated>
@@ -219,6 +250,7 @@
   <record xml:id="aetas67906">
     <label>Arab period (Turkey, Azerbaian, Iran, Iraq, Georgia, Armenia, Syria, 653-1150)</label>
     <citebody citeurn="urn:cite:croala:loci.aetas67906">67906</citebody>
+    <description/>
     <uri>http://n2t.net/ark:/99152/p0kj6djkj9h</uri>
     <creator>http://orcid.org/0000-0003-1457-7081</creator>
     <datecreated>2016-12-05</datecreated>
@@ -226,8 +258,57 @@
   <record xml:id="aetas67907">
     <label>Early modern period (Europe, 1453-1789)</label>
     <citebody citeurn="urn:cite:croala:loci.aetas67907">67907</citebody>
+    <description/>
     <uri>http://croala.ffzg.unizg.hr/basex/aetates/urn:cite:croala:aetates.aetas67907</uri>
     <creator>http://orcid.org/0000-0003-1457-7081</creator>
     <datecreated>2016-12-05</datecreated>
+  </record>
+  <record xml:id="aetas67908">
+    <label>Late Antiquity (South-Eastern Europe, 284-600)</label>
+    <citebody citeurn="urn:cite:croala:loci.aetas67908">67908</citebody>
+    <description>South-Eastern Europe from Emperor Diocletian to the migrations of Slavic tribes in the Balkans.</description>
+    <uri>http://croala.ffzg.unizg.hr/basex/aetates/urn:cite:croala:aetates.aetas67908</uri>
+    <creator>http://orcid.org/0000-0002-9119-399X</creator>
+    <datecreated>2016-12-09</datecreated>
+  </record>
+  <record xml:id="aetas67909">
+    <label>Middle Ages (South-Eastern Europe, 601-1530)</label>
+    <citebody citeurn="urn:cite:croala:loci.aetas67909">67909</citebody>
+    <description>South-Eastern Europe from Slavic migrations to the beginnings of Habsburg-Ottoman imperial rivalry.</description>
+    <uri>http://croala.ffzg.unizg.hr/basex/aetates/urn:cite:croala:aetates.aetas67909</uri>
+    <creator>http://orcid.org/0000-0002-9119-399X</creator>
+    <datecreated>2016-12-09</datecreated>
+  </record>
+  <record xml:id="aetas67910">
+    <label>Early Middle Ages (South-Eastern Europe, 601-1100)</label>
+    <citebody citeurn="urn:cite:croala:loci.aetas67910">67910</citebody>
+    <description>South-Eastern Europe from Slavic migrations to Hungarian integration of Croatian Kingdom, Crusades and the beginning of the end of Byzantine domination after Manzikert.</description>
+    <uri>http://croala.ffzg.unizg.hr/basex/aetates/urn:cite:croala:aetates.aetas67910</uri>
+    <creator>http://orcid.org/0000-0002-9119-399X</creator>
+    <datecreated>2016-12-09</datecreated>
+  </record>
+  <record xml:id="aetas67911">
+    <label>High Middle Ages (South-Eastern Europe, 1101 - 1420)</label>
+    <citebody citeurn="urn:cite:croala:loci.aetas67911">67911</citebody>
+    <description>South-Eastern Europe from Hungarian integration of Croatian Kingdom, Crusades and the beginning of the end of Byzantine domination after Manzikert to the Venetian conquest of Dalmatia and rise of Murad II to the Ottoman Throne.</description>
+    <uri>http://croala.ffzg.unizg.hr/basex/aetates/urn:cite:croala:aetates.aetas67911</uri>
+    <creator>http://orcid.org/0000-0002-9119-399X</creator>
+    <datecreated>2016-12-09</datecreated>
+  </record>
+  <record xml:id="aetas67912">
+    <label>Late Middle Ages (South-Eastern Europe, 1421 - 1530)</label>
+    <citebody citeurn="urn:cite:croala:loci.aetas67912">67912</citebody>
+    <description>South-Eastern Europe from the Venetian conquest of Dalmatia and rise of Murad II to the Ottoman Throne to the collapse of Hungarian-Croatian kingdom and the integration of what was left into the Habsburg Empire.</description>
+    <uri>http://croala.ffzg.unizg.hr/basex/aetates/urn:cite:croala:aetates.aetas67912</uri>
+    <creator>http://orcid.org/0000-0002-9119-399X</creator>
+    <datecreated>2016-12-09</datecreated>
+  </record>
+  <record xml:id="aetas67913">
+    <label>Early Modern Period (South-Eastern Europe, 1531-1805)</label>
+    <citebody citeurn="urn:cite:croala:loci.aetas67913">67913</citebody>
+    <description>South-Eastern Europe in the age of Habsburg-Ottoman imperial rivalry and relatively stable regional borders.</description>
+    <uri>http://croala.ffzg.unizg.hr/basex/aetates/urn:cite:croala:aetates.aetas67913</uri>
+    <creator>http://orcid.org/0000-0002-9119-399X</creator>
+    <datecreated>2016-12-09</datecreated>
   </record>
 </list>
