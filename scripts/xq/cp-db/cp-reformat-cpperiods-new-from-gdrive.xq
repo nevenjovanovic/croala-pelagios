@@ -11,6 +11,7 @@ let $doc := doc("https://github.com/nevenjovanovic/croala-pelagios/raw/master/cs
   $citeidattr,
   $r/label ,
   element citebody { $citeurn , substring-after($r/citebody/text(), "aetas") } ,
+  element description { $r/Description/text() } ,
   $r/uri ,
   $r/creator ,
   $r/datecreated
