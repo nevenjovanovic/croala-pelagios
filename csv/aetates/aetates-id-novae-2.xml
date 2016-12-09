@@ -388,4 +388,18 @@
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-09-03</datecreated>
   </record>
+  <record xml:id="aetas01101">
+    <label>Biblical mythology 1: from Creation (Adam), to the Flood, to Abraham</label>
+    <citebody citeurn="urn:cite:croala:loci.aetas01101">01101</citebody>
+    <uri>http://croala.ffzg.unizg.hr/basex/aetates/urn:cite:croala:aetates.aetas01101</uri>
+    <creator>http://orcid.org/0000-0002-9119-399X</creator>
+    <datecreated>2016-11-25</datecreated>
+  </record>
+  <record xml:id="aetas01103">
+    <label>Biblical mythology 3: Israel in Egypt</label>
+    <citebody citeurn="urn:cite:croala:loci.aetas01103">01103</citebody>
+    <uri>http://croala.ffzg.unizg.hr/basex/aetates/urn:cite:croala:aetates.aetas01103</uri>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-11-21</datecreated>
+  </record>
 </list>
