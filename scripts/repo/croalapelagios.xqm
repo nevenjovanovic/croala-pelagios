@@ -693,12 +693,13 @@ declare function cp:opencite_aetas($urn) {
   element tr {
     element td { $urn },
     cp:prettylink("", data($r/label), data($aetas_uri) ),
+    element td { data($r/description)},
     cp:prettylink($urn , $aetas_set_count, "http://croala.ffzg.unizg.hr/basex/cp-aetas-cite/" ),
     cp:prettylink("", replace(data($r/creator), "https?://", ""), data($r/creator)),
     element td { data($r/datecreated) }
   }
   else cp:deest()
-  let $thead := ("CITE URN", "Period", "Annotations in corpus" , "Annotator", "Date created")
+  let $thead := ("CITE URN", "Period", "Desc" , "Annotations in corpus" , "Annotator", "Date created")
   return cp:table ( $thead , $tbody)
 };
 
