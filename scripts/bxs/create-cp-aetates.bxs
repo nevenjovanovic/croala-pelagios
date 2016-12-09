@@ -1,4 +1,3 @@
 SET INTPARSE true; SET FTINDEX true; SET UPDINDEX true; SET AUTOOPTIMIZE true
-CREATE DB cp-aetates
-RUN /home/neven/rad/croala-pelagios/scripts/xq/cp-db/update-cp-aetates-from-gdrive-xml.xq
+CREATE DB cp-aetates https://github.com/nevenjovanovic/croala-pelagios/raw/master/csv/aetates/aetates-id-novae-2.xml
 CREATE BACKUP cp-aetates
