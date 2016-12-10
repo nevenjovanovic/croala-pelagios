@@ -234,7 +234,7 @@ return
   element td { $placeref },
   element td { $placereflabel } ,
   element td { $periodref },
-  element td { element a { attribute href {$creator}, replace($creator, 'http://' , '')} },
+  element td { element a { attribute href {$creator}, replace($creator, 'https?://orcid.org/' , '')} },
   element td { file:last-modified("/home/croala/croala-pelagios/csv/modrtub-idx-citebodies.xml") }
 }
 }}
@@ -635,7 +635,7 @@ return element tr {
   element td { data($nomen) },
   cp:prettylink("", data($label), $uri) ,
   cp:prettylink($citeurn, $loci_set_count, "http://croala.ffzg.unizg.hr/basex/cp-loci-cite/"),
-  element td { element a { attribute href {$creator}, replace($creator, 'https?://' , '')} },
+  element td { element a { attribute href {$creator}, replace($creator, 'https?://orcid.org/' , '')} },
   element td { data($datecreated) }
 }
 
@@ -674,11 +674,11 @@ declare function cp:opencite_latlexent($urn){
     element td { $urn },
     element td { data($r/lemma) },
     cp:prettylink($urn , $lemma_set_count, "http://croala.ffzg.unizg.hr/basex/cp-lemma-cite/" ),
-    cp:prettylink("", replace(data($r/creator), "http://", ""), data($r/creator)),
+    cp:prettylink("", replace(data($r/creator), "https?://orcid.org/", ""), data($r/creator)),
     element td { data($r/datecreated) }
   }
   else cp:deest()
-  let $thead := ("CITE URN", "Lemma", "Annotations in corpus" , "Annotator", "Date created")
+  let $thead := ("CITE URN", "Lemma", "In annotations" , "Creator", "Date created")
   return cp:table ( $thead , $tbody)
 };
 
@@ -695,7 +695,7 @@ declare function cp:opencite_aetas($urn) {
     cp:prettylink("", data($r/label), data($aetas_uri) ),
     element td { data($r/description)},
     cp:prettylink($urn , $aetas_set_count, "http://croala.ffzg.unizg.hr/basex/cp-aetas-cite/" ),
-    cp:prettylink("", replace(data($r/creator), "https?://", ""), data($r/creator)),
+    cp:prettylink("", replace(data($r/creator), "https?://orcid.org/", ""), data($r/creator)),
     element td { data($r/datecreated) }
   }
   else cp:deest()
@@ -731,7 +731,7 @@ declare function cp:loci_head($locid_urn){
   let $place_label := $r/label
   let $place_uri := $r/uri
   let $count_occur := count(collection("cp-cite-loci")//record[citelocus=$locid_urn])
-  return element h3 { "Place: " , cp:simple_link( data($place_uri) , data($place_label) ) , " &#8212; Occurrences in corpus: " , xs:string($count_occur) }
+  return element h3 { "Place: " , cp:simple_link( data($place_uri) , data($place_label) ) , " &#8212; In annotations: " , xs:string($count_occur) }
   else cp:deest()
   return $tbody
 };
@@ -756,9 +756,48 @@ declare function cp:loci_cite($locid_urn){
     element td { 
     attribute class { "lemma"},
     $lemma_record },
-    element td { cp:simple_link(data($r/creator), replace(data($r/creator), "https?://", ""))}
+    element td { cp:simple_link(data($r/creator), replace(data($r/creator), "https?://orcid.org/", ""))}
   }
   else cp:deest()
   let $thead := ("CTS URN", "Form", "Context" , "Period" , "Lemma" , "Annotation Creator")
+  return cp:table($thead , $tbody)
+};
+
+declare function cp:aetas_head($aetas_urn){
+  let $tbody :=
+  if (starts-with($aetas_urn, "urn:cite:croala:loci.aetas")) then
+  for $r in collection("cp-aetates")//record[citebody/@citeurn=$aetas_urn]
+  let $aetas_label := $r/label
+  let $aetas_uri := $r/uri
+  let $count_occur := count(collection("cp-cite-aetates")//record[citeaetas=$aetas_urn])
+  return element h3 { "Period: " , cp:simple_link( data($aetas_uri) , data($aetas_label) ) , " &#8212; In annotations:" , xs:string($count_occur) }
+  else cp:deest()
+  return $tbody
+};
+
+(: 2 - display list of annotations :)
+declare function cp:aetates_cite($aetas_urn){
+  let $tbody :=
+  if (starts-with($aetas_urn, "urn:cite:croala:loci.aetas")) then
+  for $r in collection("cp-cite-aetates")//record[citeaetas=$aetas_urn]
+  let $lemma_record := cp:lemma_link($r/ctsurn)
+  let $locus_record := collection("cp-cite-loci")//record[citeurn=$r/citeurn]/citelocus
+  let $locus_label := collection("cp-loci")//record[citebody/@citeurn=$locus_record]/label
+  return element tr {
+    element td { 
+    attribute class { "cts_cite"} ,
+    cp:simple_link($cp:cite_namespace || data($r/citeurn), data($r/ctsurn)) },
+    element td { 
+    attribute class { "lemma"},
+    $lemma_record },
+    element td {
+      attribute class { "period"},
+      if ($locus_label) then cp:simple_link( $cp:cite_namespace || $locus_record , data($locus_label) ) else ()
+    },
+    
+    element td { cp:simple_link(data($r/creator), replace(data($r/creator), "https?://orcid.org/", ""))}
+  }
+  else cp:deest()
+  let $thead := ("CTS URN", "Lemma", "Context" , "Place" , "Annotation Creator")
   return cp:table($thead , $tbody)
 };
