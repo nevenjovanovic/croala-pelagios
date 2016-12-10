@@ -875,7 +875,7 @@ declare function cp:morph_cite($morph_urn){
   if (starts-with($morph_urn, "urn:cite:croala:latmorph.morph")) then
   for $r in collection("cp-cite-morphs")//record[morph/@citeurn=$morph_urn]
   let $lemma_record := collection("cp-cite-lemmata")//record[seg/@citeurn=$r/seg/@citeurn]/lemma/@citeurn
-  let $lemma_label := collection("cp-latlexents")//record[lemma/@citeurn=$lemma_record]
+  let $lemma_label := collection("cp-latlexents")//record[lemma/@citeurn=$lemma_record]/lemma
   
   let $locus_record := collection("cp-cite-loci")//record[ctsurn=$r/seg/@cts]/citelocus
   let $locus_label := collection("cp-loci")//record[citebody/@citeurn=$locus_record]/label
@@ -890,7 +890,7 @@ declare function cp:morph_cite($morph_urn){
     
     element td { 
     attribute class { "lemma"},
-    $lemma_record },
+    cp:simple_link($cp:cite_namespace || $lemma_record , data($lemma_label) ) },
     
     cp:openurn (data( $r/seg/@cts ))//td[3] ,
     
