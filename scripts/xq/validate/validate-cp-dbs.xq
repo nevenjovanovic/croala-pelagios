@@ -16,5 +16,5 @@ let $result := validate:rng-report($doc, map:get($dbvalidation, $dbname))
 let $valid := <report>
   <status>valid</status>
 </report>
-return if ($result=$valid) then format-date(current-date(), "[Y0001]-[M01]-[D01]") || $doc || " in the db " || $dbname || " validates successfully."
-else  format-date(current-date(), "[Y0001]-[M01]-[D01]") || $doc || " in the db " || $dbname || " did not validate. Please inspect!"
+return if ($result=$valid) then format-date(current-date(), "[Y0001]-[M01]-[D01]") ||  " Document " || db:path($doc) || " in the db " || $dbname || " validates successfully."
+else  format-date(current-date(), "[Y0001]-[M01]-[D01]") || " Document " || db:path($doc) || " in the db " || $dbname || " did not validate. Please inspect!"
