@@ -838,7 +838,7 @@ declare function cp:lemma_cite($lemma_urn){
     attribute class { "morph"},
     $morph_record },
     
-    cp:openurn (data( $r/ctsurn))//td[3] ,
+    cp:openurn (data( $r/seg/@cts ))//td[3] ,
     
     element td {
       attribute class { "locus"},
