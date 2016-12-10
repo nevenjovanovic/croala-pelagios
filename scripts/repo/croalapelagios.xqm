@@ -699,7 +699,7 @@ declare function cp:opencite_aetas($urn) {
     element td { data($r/datecreated) }
   }
   else cp:deest()
-  let $thead := ("CITE URN", "Period", "Desc" , "Annotations in corpus" , "Annotator", "Date created")
+  let $thead := ("CITE URN", "Period", "Desc" , "In annotations" , "Creator", "Date created")
   return cp:table ( $thead , $tbody)
 };
 
