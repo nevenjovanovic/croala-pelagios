@@ -787,9 +787,11 @@ declare function cp:aetas_cite($aetas_urn){
     element td { 
     attribute class { "cts_cite"} ,
     cp:simple_link($cp:cite_namespace || data($r/citeurn), data($r/ctsurn)) },
+    
     element td { 
     attribute class { "lemma"},
     $lemma_record },
+    cp:openurn (data( $r/ctsurn))//td[3] ,
     element td {
       attribute class { "period"},
       if ($locus_label) then cp:simple_link( $cp:cite_namespace || $locus_record , data($locus_label) ) else ()
