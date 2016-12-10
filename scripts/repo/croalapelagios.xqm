@@ -856,3 +856,57 @@ declare function cp:lemma_cite($lemma_urn){
   let $thead := ("CTS URN", "Morphology", "Context" , "Place" , "Period" , "Annotation Creator")
   return cp:table($thead , $tbody)
 };
+
+(: title for showing occurrences of morph combination :)
+declare function cp:morph_head($morph_urn){
+  let $tbody :=
+  if (starts-with($morph_urn, "urn:cite:croala:latmorph.morph")) then
+  for $r in collection("cp-latmorph")//record[morphcode/@citeurn=$morph_urn]
+  let $morph_label := $r/label
+  let $count_occur := count(collection("cp-cite-morphs")//record[morph/@citeurn=$morph_urn])
+  return element h3 { "Morphology combination:" , data($morph_label) , "&#8212; In annotations:" , xs:string($count_occur) }
+  else cp:deest()
+  return $tbody
+};
+
+(: 2 - display list of annotations with this morph combination :)
+declare function cp:morph_cite($morph_urn){
+  let $tbody :=
+  if (starts-with($morph_urn, "urn:cite:croala:latmorph.morph")) then
+  for $r in collection("cp-cite-morphs")//record[morph/@citeurn=$morph_urn]
+  let $lemma_record := collection("cp-cite-lemmata")//record[seg/@citeurn=$r/seg/@citeurn]/lemma/@citeurn
+  let $lemma_label := collection("cp-latlexents")//record[lemma/@citeurn=$lemma_record]
+  
+  let $locus_record := collection("cp-cite-loci")//record[ctsurn=$r/seg/@cts]/citelocus
+  let $locus_label := collection("cp-loci")//record[citebody/@citeurn=$locus_record]/label
+  
+  let $period_record := collection("cp-cite-aetates")//record[citeurn=$r/seg/@citeurn]/citeaetas
+  let $period_label := collection("cp-aetates")//record[citebody/@citeurn=$period_record]/label
+  
+  return element tr {
+    element td { 
+    attribute class { "cts_cite"} ,
+    cp:simple_link($cp:cite_namespace || data($r/seg/@citeurn), data($r/seg/@cts)) },
+    
+    element td { 
+    attribute class { "lemma"},
+    $lemma_record },
+    
+    cp:openurn (data( $r/seg/@cts ))//td[3] ,
+    
+    element td {
+      attribute class { "locus"},
+      if ($locus_label) then cp:simple_link( $cp:cite_namespace || $locus_record , data($locus_label) ) else ()
+    },
+    
+    element td {
+      attribute class { "period"},
+      if ($period_label) then cp:simple_link( $cp:cite_namespace || $period_record , data($period_label) ) else ()
+    },
+    
+    element td { cp:simple_link(data($r/creator), replace(data($r/creator), "https?://orcid.org/", ""))}
+  }
+  else cp:deest()
+  let $thead := ("CTS URN", "Lemma", "Context" , "Place" , "Period" , "Annotation Creator")
+  return cp:table($thead , $tbody)
+};
