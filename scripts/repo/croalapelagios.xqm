@@ -776,7 +776,7 @@ declare function cp:aetas_head($aetas_urn){
 };
 
 (: 2 - display list of annotations :)
-declare function cp:aetates_cite($aetas_urn){
+declare function cp:aetas_cite($aetas_urn){
   let $tbody :=
   if (starts-with($aetas_urn, "urn:cite:croala:loci.aetas")) then
   for $r in collection("cp-cite-aetates")//record[citeaetas=$aetas_urn]
