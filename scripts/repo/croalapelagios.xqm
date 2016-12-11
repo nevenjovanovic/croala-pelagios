@@ -519,10 +519,10 @@ declare function cp:count_places($corpus) {
   element thead {
     element tr {
       element th { 
-      attribute class { "col-md-6" },
+      attribute class { "col-md-8" },
       $corpus },
       element th { 
-      attribute class { "col-md-6" },
+      attribute class { "col-md-4" },
       "Current count"}
     }
   },
@@ -980,8 +980,12 @@ declare function cp:count_annotations_table ($annotations) {
   let $db := $a/name()
   let $count := data($a)
   return element tr { 
-  element td { map:get($dbs, $db) || " (" ||  $db || ")" },
-  element td { $count }
+  element td { 
+  attribute class { "col-md-8" },
+  map:get($dbs, $db) || " (" ||  $db || ")" },
+  element td { 
+  attribute class { "col-md-4" },
+  $count }
 }
 let $head := ("Type of record" , "Current count")
 return cp:table ($head, $rows)
