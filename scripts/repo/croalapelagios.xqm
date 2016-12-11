@@ -998,6 +998,10 @@ declare function cp:loca_textus_head($text_urn){
   let $count_place_distinct := count( distinct-values($cts_count/citelocus) )
   let $cts_label := collection("cp-2-texts")//*:edition[@urn=$text_urn]/*:label
   return element h3 { "Text:" , data($cts_label) , "&#8212; Place names:" , $count_place_distinct  , "&#8212; Mentions of place names:" , count($cts_count) }
+  else if ($text_urn="corpus") then
+  let $cts_count := collection("cp-cite-loci")//record
+  let $count_place_distinct := count( distinct-values($cts_count/citelocus) )
+  return element h3 { "Whole corpus &#8212; Place names:" , $count_place_distinct  , "&#8212; Mentions of place names:" , count($cts_count) }
   else cp:deest()
   return $tbody
 };
