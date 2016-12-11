@@ -53,9 +53,9 @@ declare
 <div class="container-fluid">
 <blockquote class="croala">
 <h2>Current counts of entities and annotations in the system</h2>
-{ element h3 { "Entities: " || cp:sum_annotations_db(cp:count_entities_db ())} }
+{ element p { "Entities: " || cp:sum_annotations_db(cp:count_entities_db ())} }
 
-{ element h3 { "Annotations: " || cp:sum_annotations_db(cp:count_annotations_db ()) } }
+{ element p { "Annotations: " || cp:sum_annotations_db(cp:count_annotations_db ()) } }
 
 </blockquote>
 <p/>
