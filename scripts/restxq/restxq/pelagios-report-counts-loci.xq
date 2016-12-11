@@ -50,17 +50,24 @@ declare
 </div>
 </div>
 </div>
-<div class="container-fluid">
+<div class="container-fluid text-center">
 <blockquote class="croala">
 <h2>Current counts of entities and annotations in the system</h2>
-{ element p { "Entities: " || cp:sum_annotations_db(cp:count_entities_db ())} }
+{ element p { "Entities: " , 
+element b { 
+attribute class { "croala" },
+cp:sum_annotations_db(cp:count_entities_db ())}} }
 
-{ element p { "Annotations: " || cp:sum_annotations_db(cp:count_annotations_db ()) } }
+{ element p { "Annotations: ",
+element b { 
+attribute class { "croala" },
+ cp:sum_annotations_db(cp:count_annotations_db ()) } }
+}
 
 </blockquote>
 <p/>
 </div>
-<div class="container-fluid">
+<div class="container-fluid text-center">
 <blockquote class="croala">
 <h2>Entities in the system by category</h2>
 { cp:count_annotations_table ( cp:count_entities_db () )
@@ -68,7 +75,7 @@ declare
 </blockquote>
 <p/>
 </div>
-<div class="container-fluid">
+<div class="container-fluid text-center">
 <blockquote class="croala">
 <h2>Annotations in the system by category</h2>
 { cp:count_annotations_table ( cp:count_annotations_db () )
@@ -76,7 +83,7 @@ declare
 </blockquote>
 <p/>
 </div>
-<div class="container-fluid">
+<div class="container-fluid text-center">
 <blockquote class="croala">
 
   { cp:report_count_places() }

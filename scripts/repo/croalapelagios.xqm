@@ -518,8 +518,12 @@ declare function cp:count_places($corpus) {
     attribute class {"table-striped  table-hover table-centered"},
   element thead {
     element tr {
-      element th { $corpus },
-      element th {}
+      element th { 
+      attribute class { "col-md-6" },
+      $corpus },
+      element th { 
+      attribute class { "col-md-6" },
+      "Current count"}
     }
   },
   element tbody {
@@ -965,7 +969,7 @@ declare function cp:count_annotations_table ($annotations) {
   "cp-loci" : "Places",
   "cp-aetates" : "Periods" ,
   "cp-latlexents" : "Lemmata" ,
-  "cp-latmorphs" : "Morphological configurations",
+  "cp-latmorph" : "Morphological configurations",
   "cp-cite-lemmata" : "Lexical annotations",
   "cp-cite-morphs" : "Morphological annotations" ,
   "cp-cite-loci" : "Toponymical annotations" ,
