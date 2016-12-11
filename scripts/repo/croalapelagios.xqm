@@ -535,10 +535,18 @@ declare function cp:count_places($corpus) {
 };
 
 declare function cp:report_count_places(){
+  element table {
+    element tbody {
   for $d in cp:list_corpus(db:open("cp-cite-loci")//record/ctsurn)
-  return element div { 
+  return element tr {
+    element td {
+  element div { 
   attribute class { "table-responsive" } ,
   cp:count_places($d)
+}
+}
+}
+}
 }
 };
 
@@ -912,18 +920,60 @@ declare function cp:morph_cite($morph_urn){
 };
 
 (: statistics 1 - count annotations / records :)
-(: returns sequence of four numbers - L M Loc Aet :)
+(: returns sequence of five numbers - L M Loc Aet estloc :)
 declare function cp:count_annotations_db (){
+  let $count1 :=
   let $annotations := ("cp-cite-lemmata", "cp-cite-morphs", "cp-cite-loci", "cp-cite-aetates")
 
 for $a in $annotations
 let $count := count(db:open($a)//record)
-return $count
-
+return element { $a } { $count }
+let $count2 := count(db:open("cp-cite-urns")//w[@ana])
+return element counts { $count1 , element cp-cite-urns { $count2 } }
 };
 
 (: statistics 2 - sum of all annotation records :)
 (: input - sequence of numbers :)
 declare function cp:sum_annotations_db($a_counts){
- sum($a_counts)
+ sum(data($a_counts//*))
+};
+
+(: statistics 3 - count all CTS URNs :)
+declare function cp:count_cts (){
+  count(collection("cp-cts-urns")//w[@n])
+};
+
+(: statistics 4 - count places, periods, latlexents , morph forms :)
+
+declare function cp:count_entities_db (){
+  let $count1 :=
+  let $annotations := ("cp-loci", "cp-aetates", "cp-latlexents", "cp-latmorph")
+
+for $a in $annotations
+let $count := count(db:open($a)//record)
+return element { $a } { $count }
+return element counts { $count1 }
+};
+
+declare function cp:count_annotations_table ($annotations) {
+  let $dbs := map { 
+  "cp-loci" : "Places",
+  "cp-aetates" : "Periods" ,
+  "cp-latlexents" : "Lemmata" ,
+  "cp-latmorphs" : "Morphological configurations",
+  "cp-cite-lemmata" : "Lexical annotations",
+  "cp-cite-morphs" : "Morphological annotations" ,
+  "cp-cite-loci" : "Toponymical annotations" ,
+  "cp-cite-aetates" : "Temporal annotations",
+  "cp-cite-urns" : "Qualifying annotations"}
+  let $rows :=
+  for $a in $annotations//*
+  let $db := $a/name()
+  let $count := data($a)
+  return element tr { 
+  element td { map:get($dbs, $db) || " (" ||  $db || ")" },
+  element td { $count }
+}
+let $head := ("Type of record" , "Current count")
+return cp:table ($head, $rows)
 };

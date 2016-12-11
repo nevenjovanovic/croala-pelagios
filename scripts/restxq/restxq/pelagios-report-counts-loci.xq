@@ -41,7 +41,7 @@ declare
 <div class="col-md-6">
 <p>Index locorum in <a href="http://croala.ffzg.unizg.hr">CroALa</a> sub specie <a href="http://commons.pelagios.org/">Pelagii</a>, { current-date() }: locorum numeri.</p>
 <p><a href="http://orcid.org/0000-0002-9119-399X">Neven Jovanović</a> and the <a href="https://github.com/nevenjovanovic/croala-pelagios/wiki#the-team">CroALa-Pelagios team</a>.</p>
-<p>Count of identified places and their occurrences in the whole corpus and in each document.</p>
+<p>Basic statistics of the CroALa index locorum.</p>
 
 <p>Function name: {rest:uri()}.</p>
 </div>
@@ -49,6 +49,32 @@ declare
 {croala:infodb('cp-cite-loci')}
 </div>
 </div>
+</div>
+<div class="container-fluid">
+<blockquote class="croala">
+<h2>Current counts of entities and annotations in the system</h2>
+{ element h3 { "Entities: " || cp:sum_annotations_db(cp:count_entities_db ())} }
+
+{ element h3 { "Annotations: " || cp:sum_annotations_db(cp:count_annotations_db ()) } }
+
+</blockquote>
+<p/>
+</div>
+<div class="container-fluid">
+<blockquote class="croala">
+<h2>Entities in the system by category</h2>
+{ cp:count_annotations_table ( cp:count_entities_db () )
+ }
+</blockquote>
+<p/>
+</div>
+<div class="container-fluid">
+<blockquote class="croala">
+<h2>Annotations in the system by category</h2>
+{ cp:count_annotations_table ( cp:count_annotations_db () )
+ }
+</blockquote>
+<p/>
 </div>
 <div class="container-fluid">
 <blockquote class="croala">
