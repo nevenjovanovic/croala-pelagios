@@ -910,3 +910,20 @@ declare function cp:morph_cite($morph_urn){
   let $thead := ("CTS URN", "Lemma", "Context" , "Place" , "Period" , "Annotation Creator")
   return cp:table($thead , $tbody)
 };
+
+(: statistics 1 - count annotations / records :)
+(: returns sequence of four numbers - L M Loc Aet :)
+declare function cp:count_annotations_db (){
+  let $annotations := ("cp-cite-lemmata", "cp-cite-morphs", "cp-cite-loci", "cp-cite-aetates")
+
+for $a in $annotations
+let $count := count(db:open($a)//record)
+return $count
+
+};
+
+(: statistics 2 - sum of all annotation records :)
+(: input - sequence of numbers :)
+declare function cp:sum_annotations_db($a_counts){
+ sum($a_counts)
+};
