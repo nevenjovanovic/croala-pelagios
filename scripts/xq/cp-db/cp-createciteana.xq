@@ -1,15 +1,26 @@
+import module namespace cp = 'http://croala.ffzg.unizg.hr/croalapelagios' at "../../repo/croalapelagios.xqm";
+import module namespace functx = "http://www.functx.com" at "../../repo/functx.xqm";
+
 (: create CITE URNs from @xml:id :)
 let $citeindex := element list {
-for $cite in collection("cp-cts-urns")//*:w
+for $cite in collection("cp-cts-urns")//*:w[@ana]
 let $cts := $cite/@n
-let $label := $cite/text()
+let $cts_context := cp:openurn($cts)
+let $estlocus := $cite/@ana[matches(., "^estlocus")]
+let $cite_id := attribute xml:id { "ana" || $cite/@xml:id }
 let $citeana := "urn:cite:croala:loci.ana" || $cite/@xml:id
-let $citeaex := replace($cts, "-loci:", "-loci.lexis:")
+let $citeaex_a := functx:substring-before-last($cts, ":")
+let $citeaex_b := functx:substring-after-last($cts, ":")
+let $citeaex := $citeaex_a || "-toponym:" || $citeaex_b
 return element w {
-  $cts,
+  $cite_id ,
   attribute citeurn { $citeana },
+  $cts,
+  $estlocus ,
   attribute citeaex { $citeaex },
-  $label
+  element form { data($cts_context//td[2]) } ,
+  element context { data($cts_context//td[3]) }
 }
 }
 return db:create("cp-cite-urns", $citeindex, "cp-citeurns.xml", map {'ftindex' : true() , 'autooptimize' : true() , 'intparse' : true() })
+(: return $citeindex :)
