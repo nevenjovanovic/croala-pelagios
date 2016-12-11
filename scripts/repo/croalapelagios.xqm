@@ -990,3 +990,14 @@ declare function cp:count_annotations_table ($annotations) {
 let $head := ("Type of record" , "Current count")
 return cp:table ($head, $rows)
 };
+
+declare function cp:loca_textus_head($text_urn){
+  let $tbody :=
+  if (starts-with($text_urn, "urn:cts:croala:")) then
+  let $cts_count := collection("cp-cite-loci")//record[starts-with(ctsurn,$text_urn)]
+  let $count_place_distinct := count( distinct-values($cts_count/citelocus) )
+  let $cts_label := collection("cp-2-texts")//*:edition[@urn=$text_urn]/*:label
+  return element h3 { "Text:" , data($cts_label) , "&#8212; Place names:" , $count_place_distinct  , "&#8212; Mentions of place names:" , count($cts_count) }
+  else cp:deest()
+  return $tbody
+};

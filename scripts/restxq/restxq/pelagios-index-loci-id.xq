@@ -56,6 +56,7 @@ declare
   { 
   element div {
     attribute class {"table-responsive"},
+    cp:loca_textus_head($urn) ,
   element table {
     attribute class {"table-striped  table-hover table-centered"},
     element caption {
