@@ -7,9 +7,9 @@
         <element name="list">
             <zeroOrMore>
                 <element name="w">
-                    <attribute name="n">
-                        <data type="anyURI">
-                            <param name="pattern">urn:cts:croala:[a-zA-Z0-9.:\-]+</param>
+                    <attribute name="xml:id">
+                        <data type="ID">
+                            <param name="pattern">ana[0-9]+</param>
                         </data>
                     </attribute>
                     <attribute name="citeurn">
@@ -17,15 +17,28 @@
                             <param name="pattern">urn:cite:croala:loci.ana[0-9.]+</param>
                         </data>
                     </attribute>
+                    <attribute name="n">
+                        <data type="anyURI">
+                            <param name="pattern">urn:cts:croala:[a-zA-Z0-9.:\-]+</param>
+                        </data>
+                    </attribute>
+                    <attribute name="ana">
+                        <data type="string"/>
+                    </attribute>
                     <attribute name="citeaex">
                         <data type="anyURI">
                             <param name="pattern">urn:cts:croala:[a-zA-Z0-9.:\-]+</param>
                         </data>
                     </attribute>
+                    <element name="form">
                     <data type="string">
                         <param name="pattern">\S+</param>
                     </data>
+                    </element>
+                <element name="context">
+                    <data type="string"/>
                 </element>
+        </element>
             </zeroOrMore>
         </element>
     </start>
