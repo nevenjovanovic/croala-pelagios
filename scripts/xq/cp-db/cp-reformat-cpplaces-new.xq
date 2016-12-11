@@ -1,8 +1,8 @@
 declare variable $dbvalidation := map {
   'cp-loci' : 'https://github.com/nevenjovanovic/croala-pelagios/raw/master/schemas/cpplaces.rng'
 };
-let $fileuri := substring-before(file:base-dir(), 'scripts/') || "csv/cpplaces2.xml"
-let $resulturi := substring-before(file:base-dir(), 'scripts/') || "csv/cpplaces.xml"
+let $fileuri := substring-before(file:base-dir(), 'scripts/') || "csv/loci/cpplaces.xml"
+let $resulturi := substring-before(file:base-dir(), 'scripts/') || "csv/loci/cpplaces2.xml"
 let $result := element list {
 let $doc := doc($fileuri)
   for $r in $doc//record
