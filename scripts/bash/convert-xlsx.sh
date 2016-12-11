@@ -54,7 +54,7 @@ do
 done
 
 # 4. convert place entities to CSV
-for file in $(find "${DIRECTORY}loci-id-novi.xlsx")
+for file in $(find "${DIRECTORY}/loci-id-novi.xlsx")
 do
     modified=`date -r ${file}`
     newname=$(basename ${file%.*}).csv
@@ -63,7 +63,7 @@ do
 done
 
 # 5. convert period entities to CSV
-for file in $(find "${DIRECTORY}aetates-id-novae.xlsx")
+for file in $(find "${DIRECTORY}/aetates-id-novae.xlsx")
 do
     modified=`date -r ${file}`
     newname=$(basename ${file%.*}).csv
@@ -72,7 +72,7 @@ do
 done
 
 # 6. convert lexical entities to CSV
-for file in $(find "${DIRECTORY}cp-croala-latlexents-novi.xlsx")
+for file in $(find "${DIRECTORY}/cp-croala-latlexents-novi.xlsx")
 do
     modified=`date -r ${file}`
     newname=$(basename ${file%.*}).csv
