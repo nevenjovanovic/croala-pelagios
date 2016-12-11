@@ -3,7 +3,7 @@ import module namespace functx = "http://www.functx.com" at "../../repo/functx.x
 
 (: create CITE URNs from @xml:id :)
 let $citeindex := element list {
-for $cite in collection("cp-cts-urns")//*:w[@ana]
+for $cite in collection("cp-cts-urns")//*:w[@ana[matches(., "^estlocus")]]
 let $cts := $cite/@n
 let $cts_context := cp:openurn($cts)
 let $estlocus := $cite/@ana[matches(., "^estlocus")]
