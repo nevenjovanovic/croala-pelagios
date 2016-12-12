@@ -98,7 +98,7 @@
   <record>
     <citebody>aetas38010</citebody>
     <label>Roman mythology 1: Orcus</label>
-    <Description/>
+    <Description>Roman mythology, from the creation of the world to the present day</Description>
     <uri>http://croala.ffzg.unizg.hr/basex/aetates/urn:cite:croala:aetates.aetas38010</uri>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-29</datecreated>
@@ -276,7 +276,8 @@
     <label>Middle Ages (South-Eastern Europe, 601-1530)</label>
     <Description>South-Eastern Europe from Slavic migrations to the beginnings of Habsburg-Ottoman imperial rivalry.</Description>
     <uri>http://croala.ffzg.unizg.hr/basex/aetates/urn:cite:croala:aetates.aetas67909</uri>
-    <creator>http://orcid.org/0000-0002-9119-399X</creator>
+    <creator>http://orcid.org/0000-0002-9119-399X
+</creator>
     <datecreated>2016-12-09</datecreated>
   </record>
   <record>
@@ -289,26 +290,162 @@
   </record>
   <record>
     <citebody>aetas67911</citebody>
-    <label>High Middle Ages (South-Eastern Europe, 1101 - 1420)</label>
-    <Description>South-Eastern Europe from Hungarian integration of Croatian Kingdom, Crusades and the beginning of the end of Byzantine domination after Manzikert to the Venetian conquest of Dalmatia and rise of Murad II to the Ottoman Throne.</Description>
+    <label>High Middle Ages (South-Eastern Europe, 1101 - 1382)</label>
+    <Description>South-Eastern Europe from Hungarian integration of Croatian Kingdom, Crusades and the beginning of the end of Byzantine domination after Manzikert to the death of Hungarian King Louis and the collapse of the Serbian Empire.</Description>
     <uri>http://croala.ffzg.unizg.hr/basex/aetates/urn:cite:croala:aetates.aetas67911</uri>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-12-09</datecreated>
   </record>
   <record>
     <citebody>aetas67912</citebody>
-    <label>Late Middle Ages (South-Eastern Europe, 1421 - 1530)</label>
-    <Description>South-Eastern Europe from the Venetian conquest of Dalmatia and rise of Murad II to the Ottoman Throne to the collapse of Hungarian-Croatian kingdom and the integration of what was left into the Habsburg Empire.</Description>
+    <label>Late Middle Ages (South-Eastern Europe, 1383 - 1541)</label>
+    <Description>South-Eastern Europe from the death of King Louis and the collapse of the Serbian Empire to the Ottoman conquest of Buda and Hungary.</Description>
     <uri>http://croala.ffzg.unizg.hr/basex/aetates/urn:cite:croala:aetates.aetas67912</uri>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-12-09</datecreated>
   </record>
   <record>
     <citebody>aetas67913</citebody>
-    <label>Early Modern Period (South-Eastern Europe, 1531-1805)</label>
+    <label>Early Modern Period (South-Eastern Europe, 1542-1867)</label>
     <Description>South-Eastern Europe in the age of Habsburg-Ottoman imperial rivalry and relatively stable regional borders.</Description>
     <uri>http://croala.ffzg.unizg.hr/basex/aetates/urn:cite:croala:aetates.aetas67913</uri>
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-12-09</datecreated>
+  </record>
+  <record>
+    <citebody>aetas67914</citebody>
+    <label>Early Modern Period I (South-Eastern Europe, 1542-1699)</label>
+    <Description>South-Eastern Europe from the Ottoman conquest of Buda to the Peace of Karlowitz.</Description>
+    <uri>http://croala.ffzg.unizg.hr/basex/aetates/urn:cite:croala:aetates.aetas67914</uri>
+    <creator>http://orcid.org/0000-0002-9119-399X</creator>
+    <datecreated>2016-12-12</datecreated>
+  </record>
+  <record>
+    <citebody>aetas67915</citebody>
+    <label>Early Modern Period II (South-Eastern Europe, 1700-1809)</label>
+    <Description>South-Eastern Europe from the Peace of Karlowitz to Napoleon’s Conquest.</Description>
+    <uri>http://croala.ffzg.unizg.hr/basex/aetates/urn:cite:croala:aetates.aetas67915</uri>
+    <creator>http://orcid.org/0000-0002-9119-399X</creator>
+    <datecreated>2016-12-12</datecreated>
+  </record>
+  <record>
+    <citebody>aetas67916</citebody>
+    <label>Early Modern Period III (South-Eastern Europe, 1810-1867)</label>
+    <Description>South-Eastern Europe from Napoleon’s Conquest to Austro-Hungarian Settlement.</Description>
+    <uri>http://croala.ffzg.unizg.hr/basex/aetates/urn:cite:croala:aetates.aetas67916</uri>
+    <creator>http://orcid.org/0000-0002-9119-399X</creator>
+    <datecreated>2016-12-12</datecreated>
+  </record>
+  <record>
+    <citebody>aetas12214</citebody>
+    <label>Renaissance (Italy less Sicily, Sardinia, Tuscany, Umbria, 1350-1549)</label>
+    <Description/>
+    <uri>http://n2t.net/ark:/99152/p0qhb66pk6z</uri>
+    <creator>http://orcid.org/0000-0002-9119-399X</creator>
+    <datecreated>2016-09-03</datecreated>
+  </record>
+  <record>
+    <citebody>aetas38832</citebody>
+    <label>Empire, 30 B.C.-476 A.D (Rome, -0029-0476)</label>
+    <Description/>
+    <uri>http://n2t.net/ark:/99152/p06c6g33gpw</uri>
+    <creator>http://orcid.org/0000-0002-9119-399X</creator>
+    <datecreated>2016-09-03</datecreated>
+  </record>
+  <record>
+    <citebody>aetas23841</citebody>
+    <label>Late Medieval (Germany, Switzerland, Czech Republic, Liechtenstein, 1250-1499)</label>
+    <Description/>
+    <uri>http://n2t.net/ark:/99152/p0qhb66388g</uri>
+    <creator>http://orcid.org/0000-0002-9119-399X</creator>
+    <datecreated>2016-09-03</datecreated>
+  </record>
+  <record>
+    <citebody>aetas45266</citebody>
+    <label>Post Medieval (Poland, 1250-1499)</label>
+    <Description/>
+    <uri>http://n2t.net/ark:/99152/p0qhb665b9q</uri>
+    <creator>http://orcid.org/0000-0002-9119-399X</creator>
+    <datecreated>2016-09-03</datecreated>
+  </record>
+  <record>
+    <citebody>aetas63462</citebody>
+    <label>Crusader-Ottoman Levant (AD 1099-1750) (Levant, 1099-1750)</label>
+    <Description/>
+    <uri>http://n2t.net/ark:/99152/p03wskd5222</uri>
+    <creator>http://orcid.org/0000-0002-9119-399X</creator>
+    <datecreated>2016-09-03</datecreated>
+  </record>
+  <record>
+    <citebody>aetas38242</citebody>
+    <label>Early Medieval (Hungary, 0885-1300)</label>
+    <Description/>
+    <uri>http://n2t.net/ark:/99152/p0qhb66n9z7</uri>
+    <creator>http://orcid.org/0000-0002-9119-399X</creator>
+    <datecreated>2016-09-03</datecreated>
+  </record>
+  <record>
+    <citebody>aetas25611</citebody>
+    <label>Late Medieval (Austria, 1250-1499)</label>
+    <Description/>
+    <uri>http://n2t.net/ark:/99152/p0qhb66pgtj</uri>
+    <creator>http://orcid.org/0000-0002-9119-399X</creator>
+    <datecreated>2016-09-03</datecreated>
+  </record>
+  <record>
+    <citebody>aetas35575</citebody>
+    <label>Medieval (Europe, 0400-1500)</label>
+    <Description/>
+    <uri>http://n2t.net/ark:/99152/p08m57h8zmq</uri>
+    <creator>http://orcid.org/0000-0002-9119-399X</creator>
+    <datecreated>2016-09-03</datecreated>
+  </record>
+  <record>
+    <citebody>aetas32295</citebody>
+    <label>Roman (Romania, -0106-0274)</label>
+    <Description/>
+    <uri>http://n2t.net/ark:/99152/p0qhb66kqd5</uri>
+    <creator>http://orcid.org/0000-0002-9119-399X</creator>
+    <datecreated>2016-09-03</datecreated>
+  </record>
+  <record>
+    <citebody>aetas37754</citebody>
+    <label>Early Medieval (Poland, 0375-0600)</label>
+    <Description/>
+    <uri>http://n2t.net/ark:/99152/p0zj6g8w7zq</uri>
+    <creator>http://orcid.org/0000-0002-9119-399X</creator>
+    <datecreated>2016-09-03</datecreated>
+  </record>
+  <record>
+    <citebody>aetas37946</citebody>
+    <label>Ottoman (Serbia, 1389-1850)</label>
+    <Description/>
+    <uri>http://n2t.net/ark:/99152/p06v8w485jk</uri>
+    <creator>http://orcid.org/0000-0002-9119-399X</creator>
+    <datecreated>2016-09-03</datecreated>
+  </record>
+  <record>
+    <citebody>aetas01101</citebody>
+    <label>Biblical mythology 1: from Creation (Adam), to the Flood, to Abraham</label>
+    <Description/>
+    <uri>http://croala.ffzg.unizg.hr/basex/aetates/urn:cite:croala:aetates.aetas01101</uri>
+    <creator>http://orcid.org/0000-0002-9119-399X</creator>
+    <datecreated>2016-11-25</datecreated>
+  </record>
+  <record>
+    <citebody>aetas01103</citebody>
+    <label>Biblical mythology 3: Israel in Egypt</label>
+    <Description/>
+    <uri>http://croala.ffzg.unizg.hr/basex/aetates/urn:cite:croala:aetates.aetas01103</uri>
+    <creator>http://orcid.org/0000-0001-5515-6545</creator>
+    <datecreated>2016-11-21</datecreated>
+  </record>
+  <record>
+    <citebody>aetas00473</citebody>
+    <label>Medieval (Hungary, 1301-1525)</label>
+    <Description/>
+    <uri>http://n2t.net/ark:/99152/p0qhb66qqkh</uri>
+    <creator>http://orcid.org/0000-0002-9119-399X</creator>
+    <datecreated>2016-09-03</datecreated>
   </record>
 </list>
