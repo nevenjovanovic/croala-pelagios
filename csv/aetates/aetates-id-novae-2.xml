@@ -311,4 +311,102 @@
     <creator>http://orcid.org/0000-0002-9119-399X</creator>
     <datecreated>2016-12-09</datecreated>
   </record>
+  <record xml:id="aetas12214">
+  <label>Renaissance (Italy less Sicily, Sardinia, Tuscany, Umbria, 1350-1549)</label>
+  <citebody citeurn="urn:cite:croala:loci.aetas12214">12214</citebody>
+  <uri>http://n2t.net/ark:/99152/p0qhb66pk6z</uri>
+  <creator>http://orcid.org/0000-0002-9119-399X</creator>
+  <datecreated>2016-09-03</datecreated>
+</record>
+<record xml:id="aetas38832">
+  <label>Empire, 30 B.C.-476 A.D (Rome, -0029-0476)</label>
+  <citebody citeurn="urn:cite:croala:loci.aetas38832">38832</citebody>
+  <uri>http://n2t.net/ark:/99152/p06c6g33gpw</uri>
+  <creator>http://orcid.org/0000-0002-9119-399X</creator>
+  <datecreated>2016-09-03</datecreated>
+</record>
+<record xml:id="aetas23841">
+  <label>Late Medieval (Germany, Switzerland, Czech Republic, Liechtenstein, 1250-1499)</label>
+  <citebody citeurn="urn:cite:croala:loci.aetas23841">23841</citebody>
+  <uri>http://n2t.net/ark:/99152/p0qhb66388g</uri>
+  <creator>http://orcid.org/0000-0002-9119-399X</creator>
+  <datecreated>2016-09-03</datecreated>
+</record>
+<record xml:id="aetas45266">
+  <label>Post Medieval (Poland, 1250-1499)</label>
+  <citebody citeurn="urn:cite:croala:loci.aetas45266">45266</citebody>
+  <uri>http://n2t.net/ark:/99152/p0qhb665b9q</uri>
+  <creator>http://orcid.org/0000-0002-9119-399X</creator>
+  <datecreated>2016-09-03</datecreated>
+</record>
+<record xml:id="aetas63462">
+  <label>Crusader-Ottoman Levant (AD 1099-1750) (Levant, 1099-1750)</label>
+  <citebody citeurn="urn:cite:croala:loci.aetas63462">63462</citebody>
+  <uri>http://n2t.net/ark:/99152/p03wskd5222</uri>
+  <creator>http://orcid.org/0000-0002-9119-399X</creator>
+  <datecreated>2016-09-03</datecreated>
+</record>
+<record xml:id="aetas38242">
+  <label>Early Medieval (Hungary, 0885-1300)</label>
+  <citebody citeurn="urn:cite:croala:loci.aetas38242">38242</citebody>
+  <uri>http://n2t.net/ark:/99152/p0qhb66n9z7</uri>
+  <creator>http://orcid.org/0000-0002-9119-399X</creator>
+  <datecreated>2016-09-03</datecreated>
+</record>
+<record xml:id="aetas25611">
+  <label>Late Medieval (Austria, 1250-1499)</label>
+  <citebody citeurn="urn:cite:croala:loci.aetas25611">25611</citebody>
+  <uri>http://n2t.net/ark:/99152/p0qhb66pgtj</uri>
+  <creator>http://orcid.org/0000-0002-9119-399X</creator>
+  <datecreated>2016-09-03</datecreated>
+</record>
+<record xml:id="aetas35575">
+  <label>Medieval (Europe, 0400-1500)</label>
+  <citebody citeurn="urn:cite:croala:loci.aetas35575">35575</citebody>
+  <uri>http://n2t.net/ark:/99152/p08m57h8zmq</uri>
+  <creator>http://orcid.org/0000-0002-9119-399X</creator>
+  <datecreated>2016-09-03</datecreated>
+</record>
+<record xml:id="aetas32295">
+  <label>Roman (Romania, -0106-0274)</label>
+  <citebody citeurn="urn:cite:croala:loci.aetas32295">32295</citebody>
+  <uri>http://n2t.net/ark:/99152/p0qhb66kqd5</uri>
+  <creator>http://orcid.org/0000-0002-9119-399X</creator>
+  <datecreated>2016-09-03</datecreated>
+</record>
+<record xml:id="aetas37754">
+  <label>Early Medieval (Poland, 0375-0600)</label>
+  <citebody citeurn="urn:cite:croala:loci.aetas37754">37754</citebody>
+  <uri>http://n2t.net/ark:/99152/p0zj6g8w7zq</uri>
+  <creator>http://orcid.org/0000-0002-9119-399X</creator>
+  <datecreated>2016-09-03</datecreated>
+</record>
+<record xml:id="aetas37946">
+  <label>Ottoman (Serbia, 1389-1850)</label>
+  <citebody citeurn="urn:cite:croala:loci.aetas37946">37946</citebody>
+  <uri>http://n2t.net/ark:/99152/p06v8w485jk</uri>
+  <creator>http://orcid.org/0000-0002-9119-399X</creator>
+  <datecreated>2016-09-03</datecreated>
+</record>
+<record xml:id="aetas01101">
+  <label>Biblical mythology 1: from Creation (Adam), to the Flood, to Abraham</label>
+  <citebody citeurn="urn:cite:croala:loci.aetas01101">01101</citebody>
+  <uri>http://croala.ffzg.unizg.hr/basex/aetates/urn:cite:croala:aetates.aetas01101</uri>
+  <creator>http://orcid.org/0000-0002-9119-399X</creator>
+  <datecreated>2016-11-25</datecreated>
+</record>
+<record xml:id="aetas01103">
+  <label>Biblical mythology 3: Israel in Egypt</label>
+  <citebody citeurn="urn:cite:croala:loci.aetas01103">01103</citebody>
+  <uri>http://croala.ffzg.unizg.hr/basex/aetates/urn:cite:croala:aetates.aetas01103</uri>
+  <creator>http://orcid.org/0000-0001-5515-6545</creator>
+  <datecreated>2016-11-21</datecreated>
+</record>
+<record xml:id="aetas00473">
+  <label>Medieval (Hungary, 1301-1525)</label>
+  <citebody citeurn="urn:cite:croala:loci.aetas473">473</citebody>
+  <uri>http://n2t.net/ark:/99152/p0qhb66qqkh</uri>
+  <creator>http://orcid.org/0000-0002-9119-399X</creator>
+  <datecreated>2016-09-03</datecreated>
+</record>
 </list>
