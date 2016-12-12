@@ -164,10 +164,9 @@ declare function cp:openurn ($ctsadr) {
 let $w := db:open("cp-cts-urns")//*:w[@n=$ctsadr]
 return if ($w) then
 let $word := $w/text()
-let $pre := xs:integer($w/@xml:id)
-let $text := data(db:open-id("cp-2-texts", $pre)/parent::*)
-let $settext := normalize-space($text)
-return cp:prettyp($settext, $ctsadr, $word)
+let $pre := $w/@xml:id
+let $text := if (db:open("cp-cite-urns")//w[@n=$ctsadr]) then data(db:open("cp-cite-urns")//w[@n=$ctsadr]/context) else normalize-space(data(db:open-id("cp-2-texts", $pre)/parent::*))
+return cp:prettyp($text, $ctsadr, $word)
 else cp:deest()
 };
 
