@@ -1045,7 +1045,8 @@
   </record>
   <record>
     <nomen>Erythraeus</nomen>
-    <label>Persicus Sinus/Erythr(ae)um Mare</label>
+    <label>Persicus Sinus/Erythr(ae)um Mare 
+</label>
     <uri>https://pleiades.stoa.org/places/29713</uri>
     <citebody>38563</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
@@ -1316,7 +1317,8 @@
   <record>
     <nomen>Nadabar</nomen>
     <label>Naddabar or Naddaver: Unkown place in Asia Minor (Ethiopia), place of purported martyrdom of St. Matthew</label>
-    <uri>http://croala.ffzg.unizg.hr/basex/places/18112017</uri>
+    <uri>http://croala.ffzg.unizg.hr/basex/places/18112017
+</uri>
     <citebody>38594</citebody>
     <creator>http://orcid.org/0000-0002-0438-6049</creator>
     <datecreated>2016-11-11</datecreated>
