@@ -733,7 +733,16 @@ declare function cp:opencite_estlocus($urn) {
 declare function cp:opencite_aetas_nova($urn) {
   let $aetas := substring-after($urn,"urn:cite:croala:aetates.")
   let $record := collection("cp-aetates")//record[@xml:id=$aetas]
-  return if ($record) then $record else cp:deest()
+  return if ($record) then 
+  cp:table (
+    ("Period") ,
+  ( 
+  element tr { $record//label } ,
+  element tr { $record//description } ,
+  element tr { cp:simple_link( $record//creator , replace($record//creator, "https?://", "") ) } ,
+  element tr { $record//datecreated }  )
+)
+  else cp:deest()
 };
 
 declare function cp:open_citeurn($urn){
