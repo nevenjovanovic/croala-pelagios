@@ -7,6 +7,18 @@
         <element name="list">
             <zeroOrMore>
                 <element name="w">
+                    <attribute name="creator">
+                        <optional>
+                            <data type="anyURI">
+                                <param name="pattern">https?://orcid.org/.+</param>
+                            </data>
+                        </optional>
+                    </attribute>
+                    <attribute name="locusurn">
+                        <data type="anyURI">
+                            <param name="pattern">urn:cite:croala:loci.estlocus[0-9]+</param>
+                        </data>
+                    </attribute>
                     <attribute name="xml:id">
                         <data type="ID">
                             <param name="pattern">ana[0-9]+</param>
