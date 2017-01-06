@@ -2,5 +2,5 @@ XQUERY db:create("cp-2-texts", "/home/croala/croala-pelagios/data/", (), map { '
 CREATE BACKUP cp-2-texts
 SET INTPARSE true; SET CHOP false; SET FTINDEX true; SET UPDINDEX true; SET AUTOOPTIMIZE true
 
-RUN /home/croala/croala-pelagios/scripts/xq/cp-cts-index-placename-into-db.xq
+RUN https://github.com/nevenjovanovic/croala-pelagios/raw/master/scripts/xq/cp-cts-index-placename-into-db.xq
 CREATE BACKUP cp-cts-urns
