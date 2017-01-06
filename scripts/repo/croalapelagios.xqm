@@ -108,7 +108,8 @@ declare function cp:input-field2($id, $r){
 (: pretty printing of text :)
 declare function cp:prettyp($settext, $ctsadr, $word) {
   element tr {
-    element td { element b { $ctsadr } },
+    element td { cp:metadata(
+      functx:substring-before-last($ctsadr, ":")) },
     element td { $word },
     element td {
   replace(replace($settext, ' ([,).:;?!])', '$1'), '([(]) ', '$1')
