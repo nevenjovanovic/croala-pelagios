@@ -737,10 +737,14 @@ declare function cp:opencite_aetas_nova($urn) {
   cp:table (
     ("Period") ,
   ( 
-  element tr { $record//label } ,
-  element tr { $record//description } ,
-  element tr { cp:simple_link( $record//creator , replace($record//creator, "https?://", "") ) } ,
-  element tr { $record//datecreated }  )
+  element tr { 
+  element td { $record//label } } ,
+  element tr { 
+  element td { $record//description } } ,
+  element tr { 
+  element td { cp:simple_link( $record//creator , replace($record//creator, "https?://", "") ) } } ,
+  element tr { 
+  element td { $record//datecreated }  } )
 )
   else cp:deest()
 };
