@@ -117,8 +117,11 @@ declare function cp:prettyp($settext, $ctsadr, $word) {
 }
 };
 (: pretty printing of CTS URN list with link :)
-declare function cp:prettycts($ctsadr, $word) {
+declare function cp:prettycts($citeadr , $ctsadr, $word) {
   element tr {
+    element td {
+      $citeadr
+    },
     element td { 
     element a { 
     attribute href { "http://croala.ffzg.unizg.hr/basex/ctsp/" || $ctsadr } , 
@@ -154,10 +157,11 @@ declare function cp:list_corpus($cts_set){
 (: list all CTS URNs :)
 declare function cp:listurn () {
   for $address in db:open("cp-placename-idx")//*:w
+  let $citeadr := "urn:cite:croala:loci.estlocus" || data($address/@xml:id)
 let $ctsadr := data($address/@n)
 let $word := $address/text()
 order by $word
-return cp:prettycts($ctsadr, $word)
+return cp:prettycts($citeadr , $ctsadr, $word)
 };
 
 (: from a CTS URN retrieve text in s parent element :)
@@ -390,6 +394,7 @@ declare function cp:estlocus_index($cts_urn, $value){
     element caption { $cts_urn } ,
   element thead {
     element tr {
+      element th { "CITE URN"} ,
       element th { "CTS URN"},
       element th { "Word"}
     }
@@ -401,8 +406,9 @@ declare function cp:estlocus_index($cts_urn, $value){
   for $w in $set
   let $word := if ($w/string()) then $w/string() else ()
   let $cts_urn_seg := if ($w/@n) then $w/@n/string() else ()
+  let $cite_urn_seg := if ($w/@xml:id) then "urn:cite:croala:loci.estlocus" || $w/@xml:id/string() else()
   return if ($cts_urn_seg) then
-  cp:prettycts($cts_urn_seg, $word)
+  cp:prettycts($cite_urn_seg , $cts_urn_seg, $word)
   else element tr {
     element td { $word }
   }
