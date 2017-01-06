@@ -740,7 +740,7 @@ declare function cp:opencite_aetas_nova($urn) {
   element tr { 
   element td { $record//description } } ,
   element tr { 
-  element td { "Creator: " || cp:simple_link( $record//creator , replace($record//creator, "https?://", "") ) } } ,
+  element td { "Creator: " , cp:simple_link( $record//creator , replace($record//creator, "https?://", "") ) } } ,
   element tr { 
   element td { "Date created: " || $record//datecreated }  } )
 )
