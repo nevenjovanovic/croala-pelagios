@@ -735,10 +735,8 @@ declare function cp:opencite_aetas_nova($urn) {
   let $record := collection("cp-aetates")//record[@xml:id=$aetas]
   return if ($record) then 
   cp:table (
-    ("Period") ,
+    ( $record//label ) ,
   ( 
-  element tr { 
-  element td { $record//label } } ,
   element tr { 
   element td { $record//description } } ,
   element tr { 
