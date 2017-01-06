@@ -1004,3 +1004,31 @@ declare function cp:loca_textus_head($text_urn){
   else cp:deest()
   return $tbody
 };
+
+(: From CTS TI description, return textgroup / author name for URN :)
+declare function cp:textgroup($urn){
+  let $group := substring-before($urn, ".")
+  let $author := collection("cp-2-texts")//*:textgroup[@urn=$group]
+  return $author//*:groupname/*:persName[1]
+};
+
+(: From CTS TI description, return author, title, edition :)
+declare function cp:metadata($urn){
+  if (collection("cp-2-texts")//*:edition[@urn=$urn]) then
+  for $cts in collection("cp-2-texts")//*:edition[@urn=$urn]
+return cp:table ( "" ,  (
+element tr { 
+attribute class { "table-success"},
+element td { "Author / Group"} ,
+element td { data(cp:textgroup($urn)) } } , 
+element tr { 
+attribute class { "table-success"},
+element td { "Work"} ,
+element td { data($cts/..//*:title) } } , 
+element tr { 
+attribute class { "table-success"},
+element td { "Edition"} ,
+element td { data($cts/*:label) }  } )
+)
+else cp:deest()
+};

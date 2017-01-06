@@ -24,3 +24,10 @@ declare function functx:substring-after-last
             '$1')
    else ''
  } ;
+
+declare function functx:capitalize-first
+  ( $arg as xs:string? )  as xs:string? {
+
+   concat(upper-case(substring($arg,1,1)),
+             substring($arg,2))
+ } ;
