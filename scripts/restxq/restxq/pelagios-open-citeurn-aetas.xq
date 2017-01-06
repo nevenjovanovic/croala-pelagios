@@ -54,7 +54,7 @@ declare
 <div class="container-fluid">
 <blockquote class="croala">
 
-{ $urn }
+{ cp:opencite_aetas_nova($urn) }
 
 </blockquote>
      <p/>

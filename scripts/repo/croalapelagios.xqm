@@ -726,12 +726,24 @@ declare function cp:opencite_aetas($urn) {
   return cp:table ( $thead , $tbody)
 };
 
+declare function cp:opencite_estlocus($urn) {
+  
+};
+
+declare function cp:opencite_aetas_nova($urn) {
+  let $aetas := substring-after($urn,"urn:cite:croala:aetates.")
+  let $record := collection("cp-aetates")//record[@xml:id=$aetas]
+  return if ($record) then $record else cp:deest()
+};
+
 declare function cp:open_citeurn($urn){
   if (starts-with($urn, "urn:cite:croala:loci.locid" )) then cp:openciteurn_locid($urn)
   else if (starts-with($urn, "urn:cite:croala:loci.ana" )) then cp:openciteurn_ana($urn)
   else if (starts-with($urn, "urn:cite:croala:latmorph"))  then cp:opencite_morph($urn)
   else if (starts-with($urn, "urn:cite:croala:latlexent")) then cp:opencite_latlexent($urn)
   else if (starts-with($urn, "urn:cite:croala:loci.aetas")) then cp:opencite_aetas($urn)
+  else if (starts-with($urn, "urn:cite:croala:aetates.aetas")) then cp:opencite_aetas_nova($urn)
+  else if (starts-with($urn, "urn:cite:croala:loci.estlocus")) then cp:opencite_estlocus($urn)
   else cp:deest()
 };
 
