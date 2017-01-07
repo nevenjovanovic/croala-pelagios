@@ -1,2 +1,0 @@
-RUN https://github.com/nevenjovanovic/croala-pelagios/raw/master/scripts/xq/cp-cts-index-placename-into-db.xq
-CREATE BACKUP cp-cts-urns
