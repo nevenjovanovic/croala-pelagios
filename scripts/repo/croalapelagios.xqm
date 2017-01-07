@@ -615,7 +615,7 @@ declare function cp:openciteurn_ana($urn) {
     for $c in $cite_set_all/citelocus return 
     cp:simple_link( $cp:cite_namespace || data($c) , collection("cp-loci")//record[citebody/@citeurn=$c]/label/string() ) ,
     for $a in $cite_set_all/citeaetas return 
-    cp:simple_link( $cp:cite_namespace || data($a) , collection("cp-aetates")//record[citebody/@citeurn=$a]/label )
+    cp:simple_link( $cp:cite_namespace || data($a) , data(collection("cp-aetates")//record[citebody/@citeurn=$a]/label) )
   )
   
   return element tr {
