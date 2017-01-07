@@ -170,7 +170,7 @@ let $w := db:open("cp-cts-urns")//*:w[@n=$ctsadr]
 return if ($w) then
 let $word := $w/text()
 let $pre := $w/@xml:id
-let $text := if (db:open("cp-cite-urns")//w[@n=$ctsadr]) then data(db:open("cp-cite-urns")//w[@n=$ctsadr]/context) else normalize-space(data(db:open-id("cp-2-texts", $pre)/parent::*))
+let $text := if (db:exists("cp-cite-urns") and db:open("cp-cite-urns")//w[@n=$ctsadr]) then data(db:open("cp-cite-urns")//w[@n=$ctsadr]/context) else normalize-space(data(db:open-id("cp-2-texts", $pre)/parent::*))
 return cp:prettyp($text, $ctsadr, $word)
 else cp:deest()
 };
