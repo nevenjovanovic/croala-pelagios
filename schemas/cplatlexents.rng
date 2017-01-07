@@ -24,7 +24,7 @@
                     <element name="creator">
                         <optional>
                             <data type="anyURI">
-                                <param name="pattern">http://orcid.org/.+</param>
+                                <param name="pattern">https?://.+</param>
                             </data>
                         </optional>
                     </element>
