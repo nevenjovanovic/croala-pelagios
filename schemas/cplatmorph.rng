@@ -27,6 +27,14 @@
                             <param name="pattern">[a-z, ]+</param>
                         </data>
                     </element>
+                    <element name="creator">
+                        <optional>
+                            <data type="anyURI">
+                                <param name="pattern">https?://.+</param>
+                            </data>
+                        </optional>
+                    </element>
+                    <element name="datecreated"><optional><data type="date"/></optional></element>
                 </element>
             </zeroOrMore>
         </element>
