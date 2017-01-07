@@ -1,6 +1,5 @@
-XQUERY db:create("cp-2-texts", "/home/croala/croala-pelagios/data/", (), map { 'ftindex': true(), 'chop': false(), 'intparse' : true(), 'autooptimize' : true(), 'updindex' : true() })
+XQUERY let $parent := replace(file:parent(static-base-uri()), 'scripts/bxs/', '') let $path := $parent || "/data/" return db:create("cp-2-texts", $path, (), map { 'ftindex': true(), 'chop': false(), 'intparse' : true(), 'autooptimize' : true(), 'updindex' : true() })
 CREATE BACKUP cp-2-texts
 SET INTPARSE true; SET CHOP false; SET FTINDEX true; SET UPDINDEX true; SET AUTOOPTIMIZE true
-
 RUN https://github.com/nevenjovanovic/croala-pelagios/raw/master/scripts/xq/cp-cts-index-placename-into-db.xq
 CREATE BACKUP cp-cts-urns
