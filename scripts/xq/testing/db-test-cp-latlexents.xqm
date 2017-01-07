@@ -1,31 +1,21 @@
 module namespace test = 'http://basex.org/modules/xqunit-tests';
 
-(: Are there seven entries in each record? :)
-declare %unit:test function test:seven-entries () {
-  for $r in db:open("cp-latlexents")//record
-  return unit:assert-equals(count($r/entry[last()]/preceding-sibling::entry), 6)
-};
+(: does it validate with cpplaces.rng? :)
 
-declare %unit:test function test:nine-entries () {
-  for $r in db:open("cp-latlexents","cp-croala-latlexents.xml")//record
-  return unit:assert-equals(count($r/entry[last()]/preceding-sibling::entry), 8)
-};
-
-(: Does entry 1 start with urn:cts:croala: and is it unique? :)
-(: Does entry 3 start with urn:cite:croala: and is it unique? :)
-(: Does entry 5 start with urn:cite:croala:latmorph.morph. ? :)
-(: Does entry 6 start with orcid.org/ ? :)
-declare %unit:test function test:first-start () {
-  let $r := collection("cp-latlexents")//record
-  let $sum := for $rec in $r/entry[1][starts-with(text(),"urn:cite:")]
-  return count($rec)
-  return unit:assert-equals(sum($sum), count($r))
+declare %unit:test function test:cp-latlexents-local-valid () {
+  for $doc in db:open('cp-latlexents')
+  let $result := validate:rng-report($doc, 'https://github.com/nevenjovanovic/croala-pelagios/raw/master/schemas/cplatlexents.rng')
+  let $expected := <report>
+  <status>valid</status>
+</report>
+return 
+  unit:assert-equals($result, $expected)
 };
 
 (: Test for uniqueness :)
 declare %unit:test function test:unique-cts () {
   let $r := collection("cp-latlexents")//record
-  let $ctsvalues := count(distinct-values($r/entry[1]))
+  let $ctsvalues := count(distinct-values($r/lemma/@citeurn))
   return unit:assert-equals($ctsvalues, count($r))
 };
 
