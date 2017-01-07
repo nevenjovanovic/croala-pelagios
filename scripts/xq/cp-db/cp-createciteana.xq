@@ -23,9 +23,9 @@ return element w {
   $estlocus ,
   attribute citeaex { $citeaex },
   $creator ,
-  element form { data($cts_context//td[2]) } ,
+  element form { data($cite) } ,
   element context { data($cts_context//td[3]) }
 }
 }
-(: return db:create("cp-cite-urns", $citeindex, "cp-citeurns.xml", map {'ftindex' : true() , 'autooptimize' : true() , 'intparse' : true() }) :)
-return $citeindex
+return db:create("cp-cite-urns", $citeindex, "cp-citeurns.xml", map {'ftindex' : true() , 'autooptimize' : true() , 'intparse' : true() })
+(: return $citeindex :)
