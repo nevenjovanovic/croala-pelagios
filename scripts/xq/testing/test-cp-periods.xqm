@@ -66,7 +66,7 @@ declare %unit:test function test:cpaetaetes-page-exists (){
 
 declare %unit:test function test:cpaetates-link-uri (){
   let $doc := doc("http://croala.ffzg.unizg.hr/basex/cp-aetates")
-  return unit:assert($doc//table/tbody/tr/td[3]/a[@href])
+  return unit:assert($doc//table/tbody/tr/td[4]/a[@href])
 };
 
 declare %unit:test function test:cpaetates-input (){
