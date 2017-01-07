@@ -1,20 +1,2 @@
-RUN /home/croala/croala-pelagios/scripts/xq/cp-cts-index-placename-into-db.xq
+RUN https://github.com/nevenjovanovic/croala-pelagios/raw/master/scripts/xq/cp-cts-index-placename-into-db.xq
 CREATE BACKUP cp-cts-urns
-
-RUN /home/croala/croala-pelagios/scripts/xq/cp-latlexent/create-cp-latlexent-from-perseus-csv-server.xq
-RUN /home/croala/croala-pelagios/scripts/xq/cp-latlexent/add-croala-to-cp-latlexents-server.xq
-CREATE BACKUP cp-latlexents
-
-SET INTPARSE true; SET CHOP false; SET FTINDEX true; SET UPDINDEX true; SET AUTOOPTIMIZE true
-
-CREATE DB cp-cite-urns /home/croala/croala-pelagios/csv/cp-citeurns.xml
-CREATE BACKUP cp-cite-urns
-
-CREATE DB cp-cite-morphs /home/croala/croala-pelagios/csv/cp-morphs-annotations.xml
-CREATE BACKUP cp-cite-morphs
-
-CREATE DB cp-cite-lemmata https://github.com/nevenjovanovic/croala-pelagios/raw/master/csv/cite-lemmata.xml
-CREATE BACKUP cp-cite-lemmata
-
-CREATE DB cp-latmorph /home/croala/croala-pelagios/csv/latmorph.xml
-CREATE BACKUP cp-latmorph

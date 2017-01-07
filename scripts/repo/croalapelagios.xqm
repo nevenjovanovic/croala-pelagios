@@ -108,7 +108,8 @@ declare function cp:input-field2($id, $r){
 (: pretty printing of text :)
 declare function cp:prettyp($settext, $ctsadr, $word) {
   element tr {
-    element td { element b { $ctsadr } },
+    element td { cp:metadata(
+      functx:substring-before-last($ctsadr, ":")) },
     element td { $word },
     element td {
   replace(replace($settext, ' ([,).:;?!])', '$1'), '([(]) ', '$1')
@@ -116,8 +117,11 @@ declare function cp:prettyp($settext, $ctsadr, $word) {
 }
 };
 (: pretty printing of CTS URN list with link :)
-declare function cp:prettycts($ctsadr, $word) {
+declare function cp:prettycts($citeadr , $ctsadr, $word) {
   element tr {
+    element td {
+      $citeadr
+    },
     element td { 
     element a { 
     attribute href { "http://croala.ffzg.unizg.hr/basex/ctsp/" || $ctsadr } , 
@@ -153,10 +157,11 @@ declare function cp:list_corpus($cts_set){
 (: list all CTS URNs :)
 declare function cp:listurn () {
   for $address in db:open("cp-placename-idx")//*:w
+  let $citeadr := "urn:cite:croala:loci.estlocus" || data($address/@xml:id)
 let $ctsadr := data($address/@n)
 let $word := $address/text()
 order by $word
-return cp:prettycts($ctsadr, $word)
+return cp:prettycts($citeadr , $ctsadr, $word)
 };
 
 (: from a CTS URN retrieve text in s parent element :)
@@ -389,6 +394,7 @@ declare function cp:estlocus_index($cts_urn, $value){
     element caption { $cts_urn } ,
   element thead {
     element tr {
+      element th { "CITE URN"} ,
       element th { "CTS URN"},
       element th { "Word"}
     }
@@ -400,8 +406,9 @@ declare function cp:estlocus_index($cts_urn, $value){
   for $w in $set
   let $word := if ($w/string()) then $w/string() else ()
   let $cts_urn_seg := if ($w/@n) then $w/@n/string() else ()
+  let $cite_urn_seg := if ($w/@xml:id) then "urn:cite:croala:loci.estlocus" || $w/@xml:id/string() else()
   return if ($cts_urn_seg) then
-  cp:prettycts($cts_urn_seg, $word)
+  cp:prettycts($cite_urn_seg , $cts_urn_seg, $word)
   else element tr {
     element td { $word }
   }
@@ -719,12 +726,35 @@ declare function cp:opencite_aetas($urn) {
   return cp:table ( $thead , $tbody)
 };
 
+declare function cp:opencite_estlocus($urn) {
+  
+};
+
+declare function cp:opencite_aetas_nova($urn) {
+  let $aetas := substring-after($urn,"urn:cite:croala:aetates.")
+  let $record := collection("cp-aetates")//record[@xml:id=$aetas]
+  return if ($record) then 
+  cp:table (
+    ( $record//label ) ,
+  ( 
+  element tr { 
+  element td { $record//description } } ,
+  element tr { 
+  element td { "Creator: " , cp:simple_link( $record//creator , replace($record//creator, "https?://", "") ) } } ,
+  element tr { 
+  element td { "Date created: " || $record//datecreated }  } )
+)
+  else cp:deest()
+};
+
 declare function cp:open_citeurn($urn){
   if (starts-with($urn, "urn:cite:croala:loci.locid" )) then cp:openciteurn_locid($urn)
   else if (starts-with($urn, "urn:cite:croala:loci.ana" )) then cp:openciteurn_ana($urn)
   else if (starts-with($urn, "urn:cite:croala:latmorph"))  then cp:opencite_morph($urn)
   else if (starts-with($urn, "urn:cite:croala:latlexent")) then cp:opencite_latlexent($urn)
   else if (starts-with($urn, "urn:cite:croala:loci.aetas")) then cp:opencite_aetas($urn)
+  else if (starts-with($urn, "urn:cite:croala:aetates.aetas")) then cp:opencite_aetas_nova($urn)
+  else if (starts-with($urn, "urn:cite:croala:loci.estlocus")) then cp:opencite_estlocus($urn)
   else cp:deest()
 };
 
@@ -764,7 +794,7 @@ declare function cp:loci_cite($locid_urn){
     element td { 
     attribute class { "cts_cite"} ,
     cp:simple_link($cp:cite_namespace || data($r/citeurn), data($r/ctsurn)) },
-    cp:openurn (data( $r/ctsurn))//td[position()>1] ,
+    cp:openurn (data( $r/ctsurn))//td[not(parent::tr[@class]) and position()>1] ,
     element td {
       attribute class { "period"},
       if ($period_label) then cp:simple_link( $cp:cite_namespace || $period_record , data($period_label) ) else ()
@@ -1003,4 +1033,32 @@ declare function cp:loca_textus_head($text_urn){
   return element h3 { "Whole corpus &#8212; Place names:" , $count_place_distinct  , "&#8212; Mentions of place names:" , count($cts_count) }
   else cp:deest()
   return $tbody
+};
+
+(: From CTS TI description, return textgroup / author name for URN :)
+declare function cp:textgroup($urn){
+  let $group := substring-before($urn, ".")
+  let $author := collection("cp-2-texts")//*:textgroup[@urn=$group]
+  return $author//*:groupname/*:persName[1]
+};
+
+(: From CTS TI description, return author, title, edition :)
+declare function cp:metadata($urn){
+  if (collection("cp-2-texts")//*:edition[@urn=$urn]) then
+  for $cts in collection("cp-2-texts")//*:edition[@urn=$urn]
+return cp:table ( "" ,  (
+element tr { 
+attribute class { "table-success"},
+element td { "Author / Group"} ,
+element td { data(cp:textgroup($urn)) } } , 
+element tr { 
+attribute class { "table-success"},
+element td { "Work"} ,
+element td { data($cts/..//*:title) } } , 
+element tr { 
+attribute class { "table-success"},
+element td { "Edition"} ,
+element td { data($cts/*:label) }  } )
+)
+else cp:deest()
 };

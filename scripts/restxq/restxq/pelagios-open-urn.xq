@@ -55,7 +55,7 @@ declare
 <table class="table-striped  table-hover table-centered">
 	<thead>
 	<tr>
-  <th>URN</th>
+  <th>Fons</th>
   <th>Nomen</th>
 	<th>Textus</th>
   </tr>
