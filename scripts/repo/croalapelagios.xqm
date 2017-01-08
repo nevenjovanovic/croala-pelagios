@@ -408,7 +408,7 @@ declare function cp:estlocus_index($cts_urn, $value){
   for $w in $set
   let $word := if ($w/string()) then $w/string() else ()
   let $cts_urn_seg := if ($w/@n) then $w/@n/string() else ()
-  let $cite_urn_seg := if ($w/@xml:id) then "urn:cite:croala:loci.estlocus" || $w/@xml:id/string() else "ZZZZZ"
+  let $cite_urn_seg := if ($w/@n) then db:open("cp-cite-urns")//w[@n=$w/@n/string()]/@locusurn/string() else "ZZZZZ"
   let $cite_urn_seg_link := cp:simple_link($cp:cite_namespace || $cite_urn_seg, $cite_urn_seg)
   return if ($cts_urn_seg) then
   cp:prettycts($cite_urn_seg_link , $cts_urn_seg, $word)
