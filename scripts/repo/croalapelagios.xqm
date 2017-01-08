@@ -731,7 +731,9 @@ declare function cp:opencite_aetas($urn) {
 declare function cp:opencite_estlocus($urn) {
   let $id := "ana" || substring-after($urn, "estlocus")
   let $cts := collection("cp-cite-urns")//w[@xml:id=$id]/@n
-  return cp:openurn($cts)
+  let $headings := ("Opus", "Forma", "Contextus")
+  let $tbody := cp:openurn($cts)
+  return cp:table($headings, $tbody)
 };
 
 declare function cp:opencite_aetas_nova($urn) {
