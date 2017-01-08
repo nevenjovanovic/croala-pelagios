@@ -169,7 +169,8 @@ declare function cp:openurn ($ctsadr) {
 let $w := db:open("cp-cts-urns")//*:w[@n=$ctsadr]
 return if ($w) then
 let $pre := $w/@xml:id
-let $citeurn := if (db:exists("cp-cite-loci")) then $cp:cite_namespace || collection("cp-cite-loci")//record[ctsurn=$ctsadr]/citeurn/string() else ()
+let $citeurn := if (db:exists("cp-cite-loci") and collection("cp-cite-loci")//record[ctsurn=$ctsadr]) then $cp:cite_namespace || collection("cp-cite-loci")//record[ctsurn=$ctsadr]/citeurn/string()
+else $cp:cite_namespace || "ZZZZZZ"
 let $word := cp:simple_link($citeurn , $w/text())
 let $text := if (db:exists("cp-cite-urns") and db:open("cp-cite-urns")//w[@n=$ctsadr]) then data(db:open("cp-cite-urns")//w[@n=$ctsadr]/context) else normalize-space(data(db:open-id("cp-2-texts", $pre)/parent::*))
 return cp:prettyp($text, $ctsadr, $word)
@@ -728,7 +729,9 @@ declare function cp:opencite_aetas($urn) {
 };
 
 declare function cp:opencite_estlocus($urn) {
-  
+  let $id := "ana" || substring-after($urn, "estlocus")
+  let $cts := collection("cp-cite-urns")//w[@xml:id=$id]/@n
+  return cp:openurn($cts)
 };
 
 declare function cp:opencite_aetas_nova($urn) {
