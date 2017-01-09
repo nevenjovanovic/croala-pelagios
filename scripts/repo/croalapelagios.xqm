@@ -1079,9 +1079,9 @@ element td { data($cts/*:label) }  } )
 else cp:deest()
 };
 
-declare function cp:estlocus_show_info ($estlocus){
+declare function cp:estlocus_show_info ($urn , $estlocus){
   let $definition := map:get($cp:estlocus_info, $estlocus)
   return element h1 {
-    "Certainty: " || $estlocus || " &#8212; " || $definition
+    "Certainty: " || $estlocus || " &#8212; " || $definition || " &#8212; Occurrences: " || count(cp:estlocus_index($urn,  $estlocus)//tr )
   }
 };

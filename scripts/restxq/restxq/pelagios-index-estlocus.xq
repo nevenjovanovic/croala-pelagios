@@ -53,7 +53,7 @@ declare
 </div>
 </div>
 <div class="container-fluid">
-{ cp:estlocus_show_info ($estlocus) }
+{ cp:estlocus_show_info ($urn , $estlocus) }
 <blockquote class="croala">
 <div class="table-responsive">
 { cp:estlocus_index($urn,  $estlocus)  }
