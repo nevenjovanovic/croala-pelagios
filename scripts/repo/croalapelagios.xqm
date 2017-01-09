@@ -15,6 +15,15 @@ declare variable $cp:ann := map {
   "AŽ" : "http://orcid.org/0000-0002-2135-6343"
 };
 
+declare variable $cp:estlocus_info := map {
+  "estlocus0" : "This is not a reference to a named place.",
+  "estlocus1" : "This is a clear and unambiguous reference to a named place.",
+  "estlocus2" : "This is a part of a multi-word expression referring to a named place.",
+  "estlocus3" : "This is not a place name, but it is used rhetorically to refer to a named place",
+  "estlocus4" : "This is a complex use which should be investigated further.",
+  "estlocusX" : "This is a potential place reference, it has not yet been analysed."
+};
+
 (: helper function - message  :)
 declare function cp:deest(){
   element tr {
@@ -1068,4 +1077,11 @@ element td { "Edition"} ,
 element td { data($cts/*:label) }  } )
 )
 else cp:deest()
+};
+
+declare function cp:estlocus_show_info ($estlocus){
+  let $definition := map:get($cp:estlocus_info, $estlocus)
+  return element h1 {
+    "Certainty: " || $estlocus || " &#8212; " || $definition
+  }
 };
