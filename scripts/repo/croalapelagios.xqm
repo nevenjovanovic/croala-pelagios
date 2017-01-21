@@ -1085,3 +1085,60 @@ declare function cp:estlocus_show_info ($urn , $estlocus){
     "Certainty: " || $estlocus || " &#8212; " || $definition || " &#8212; Occurrences: " || count(cp:estlocus_index($urn,  $estlocus)//tr )
   }
 };
+
+(: For a CITE URN, return label and uri for a place :)
+declare function cp:locus_data($locus) {
+  let $locus_data := collection("cp-loci")//record[citebody/@citeurn=$locus]
+  let $locus_label := $locus_data/label
+  let $locus_uri := $locus_data/uri
+  return if ($locus_data) then element tr { 
+  element td { $locus_uri , $locus_label }
+}
+  else cp:deest()
+};
+
+(: Join cp-cite-loci and cp-cite-urns on CTS :)
+(: cp-cite-urns must have a ctsurn element :)
+declare function cp:estlocus_locus(){
+  element list {
+for $estlocus_place in (collection("cp-cite-urns"), collection("cp-cite-loci"))//*[name()=("w", "record")]
+let $cts := $estlocus_place/ctsurn
+group by $cts
+return element tr { 
+element cts { $cts } , element estlocus { $estlocus_place/@ana/string() } , $estlocus_place/citelocus }
+}
+};
+
+(: for estlocus[1] return as link the cts[1] etc :)
+declare function cp:use_parallel_position($a_b, $url){
+  for $est in $a_b/estlocus
+  let $pos := $est/position()
+  let $cts := $url || $a_b/cts[position()=$pos]
+  return if ($est) then cp:simple_link ( $cts , $est/string() )
+  else cp:deest()
+};
+
+(: Join the cp-cite-loci and cp-cite-urns dbs, return place CITE URN and label, with all instances of estlocus for a place :)
+(: Enables analysis of different categorizations for a place :)
+declare function cp:join_locus_estlocus(){
+for $cts_set in cp:estlocus_locus()//tr
+let $locus := $cts_set/citelocus
+group by $locus
+order by count($cts_set) descending
+return if ($locus) then element tr {
+  element td { cp:simple_link("http://croala.ffzg.unizg.hr/basex/cite/" || $locus , $locus) } ,
+  (: for a place, return label and link :)
+  let $locus_name := cp:locus_data($locus)
+  return element td { cp:simple_link($locus_name//uri , $locus_name//label/string() ) } ,
+  
+  element td { count($cts_set) } ,
+  element td {
+  (: for the first estlocus, get first cts etc. :)
+  let $r := element td { 
+  $cts_set/estlocus ,
+  $cts_set/cts }
+  return cp:use_parallel_position ( $r , "http://croala.ffzg.unizg.hr/basex/ctsp/" )
+}
+}
+else()
+};
