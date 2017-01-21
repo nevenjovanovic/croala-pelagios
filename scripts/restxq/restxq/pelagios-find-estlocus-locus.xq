@@ -54,7 +54,7 @@ declare
 { cp:table(("Code", "Certainty level description"), cp:estlocus_info_all()) }
 <blockquote class="croala">
 <div class="table-responsive">
-{ cp:join_locus_estlocus()  }
+{ cp:table( ("CITE URN", "Place", "Assertions Total", "Assertions") , cp:join_locus_estlocus() ) }
 </div>
 </blockquote>
      <p/>
