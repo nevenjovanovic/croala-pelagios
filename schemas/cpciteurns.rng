@@ -50,6 +50,11 @@
                 <element name="context">
                     <data type="string"/>
                 </element>
+                    <element name="ctsurn">
+                        <data type="anyURI">
+                            <param name="pattern">urn:cts:croala:[a-zA-Z0-9.:\-]+</param>
+                        </data>
+                    </element>
         </element>
             </zeroOrMore>
         </element>
