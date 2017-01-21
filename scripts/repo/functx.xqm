@@ -31,3 +31,11 @@ declare function functx:capitalize-first
    concat(upper-case(substring($arg,1,1)),
              substring($arg,2))
  } ;
+ 
+ declare function functx:index-of-node
+  ( $nodes ,
+    $nodeToFind ) {
+
+  for $seq in (1 to count($nodes))
+  return $seq[$nodes[$seq] is $nodeToFind]
+ } ;

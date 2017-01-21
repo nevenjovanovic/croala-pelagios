@@ -1112,7 +1112,7 @@ element cts { $cts } , element estlocus { $estlocus_place/@ana/string() } , $est
 (: for estlocus[1] return as link the cts[1] etc :)
 declare function cp:use_parallel_position($a_b, $url){
   for $est in $a_b/estlocus
-  let $pos := $est/position()
+  let $pos := functx:index-of-node($a_b//estlocus, $est)
   let $cts := $url || $a_b/cts[position()=$pos]
   return if ($est) then cp:simple_link ( $cts , $est/string() )
   else cp:deest()
