@@ -19,7 +19,7 @@ declare variable $cp:estlocus_info := map {
   "estlocus0" : "This is not a reference to a named place.",
   "estlocus1" : "This is a clear and unambiguous reference to a named place.",
   "estlocus2" : "This is a part of a multi-word expression referring to a named place.",
-  "estlocus3" : "This is not a place name, but it is used rhetorically to refer to a named place",
+  "estlocus3" : "This is not a place name, but it is used rhetorically to refer to a named place.",
   "estlocus4" : "This is a complex use which should be investigated further.",
   "estlocusX" : "This is a potential place reference, it has not yet been analysed."
 };
@@ -1141,4 +1141,13 @@ return if ($locus) then element tr {
 }
 }
 else()
+};
+
+(: return table with a legend of certainty levels :)
+declare function cp:estlocus_info_all() {
+let $estlocus := ("estlocus0", "estlocus1", "estlocus2", "estlocus3", "estlocus4", "estlocusX")
+for $e in $estlocus
+return element tr { 
+element td { $e }, element td { map:get($cp:estlocus_info, $e)}
+}
 };
