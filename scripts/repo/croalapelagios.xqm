@@ -1151,3 +1151,80 @@ return element tr {
 element td { $e }, element td { map:get($cp:estlocus_info, $e)}
 }
 };
+
+(: For a CITE URN of a place or period, return label and uri :)
+declare function cp:cite_data($cite_urn) {
+  let $cite_map := map {
+    "urn:cite:croala:loci.aetas" : "cp-aetates",
+    "urn:cite:croala:loci.locid" : "cp-loci"
+  }
+  let $collection := map:get($cite_map , replace($cite_urn, "[0-9]+", ""))
+  let $cite_data := collection($collection)//record[citebody/@citeurn=$cite_urn]
+  let $cite_label := $cite_data/label
+  let $cite_uri := element uri { "http://croala.ffzg.unizg.hr/basex/cite/" || $cite_urn }
+  return if ($cite_data) then element tr { 
+  element td { $cite_uri , $cite_label }
+}
+  else cp:deest()
+};
+
+(: return table with rows cts[1] , citeurn[1] , citeaetas[1] etc :)
+declare function cp:use_parallel_position_period($a_b){
+  for $est in $a_b/cts
+  let $pos := functx:index-of-node($a_b//cts, $est)
+  let $citeurn := $a_b/citeurn[position()=$pos]
+  let $citeaetas := $a_b/citeaetas[position()=$pos]
+  return if ($est) then element tr { 
+  element td { cp:simple_link ( "http://croala.ffzg.unizg.hr/basex/ctsp/" || $est , $est/string() ) } , 
+  element td { cp:simple_link ( "http://croala.ffzg.unizg.hr/basex/cite/" || $citeurn , $citeurn/string() ) } , 
+  element td { cp:simple_link ( "http://croala.ffzg.unizg.hr/basex/cite/" || $citeaetas , $citeaetas/string() ) } }
+  else cp:deest()
+};
+
+(: Join cp-cite-loci and cp-cite-aetates on CTS :)
+declare function cp:locus_aetas(){
+  element list {
+for $period_place in (
+  collection("cp-cite-aetates"), 
+  collection("cp-cite-loci")
+)//record
+let $cts := $period_place/ctsurn
+group by $cts
+return if ($period_place/citeaetas and $period_place/citelocus) then element tr { 
+element cts { $cts } , 
+element citeurn { distinct-values($period_place/citeurn) } , 
+$period_place/citeaetas , 
+$period_place/citelocus }
+else()
+}
+};
+
+(: Join the cp-cite-loci and cp-cite-aetates dbs, return place CITE URN and label, with all instances of a period for a place :)
+(: Enables analysis of different periods for a place :)
+declare function cp:join_locus_aetas(){
+for $cts_set in cp:locus_aetas()//tr
+let $locus := $cts_set/citelocus
+group by $locus
+order by count($cts_set) descending
+return element tr {
+  (: for a place, return label and link :)
+  let $locus_name := cp:cite_data($locus)
+  return element td { cp:simple_link($locus_name//uri , $locus_name//label/string() ) } ,
+  element td { count($cts_set[citeaetas]) } ,
+  element td { 
+  for $cite_uri_ae in distinct-values($cts_set/citeaetas)
+  let $aetas_name := cp:cite_data($cite_uri_ae)
+  return if ($aetas_name//label) 
+    then cp:simple_link($aetas_name//uri , $aetas_name//label/string() ) 
+    else()
+},
+  element td {
+    cp:table ( "", (
+    for $c in $cts_set   
+    return cp:use_parallel_position_period($c)
+)
+)
+}
+}
+};
+
