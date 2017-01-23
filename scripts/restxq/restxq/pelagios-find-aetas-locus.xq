@@ -54,7 +54,7 @@ declare
 
 <blockquote class="croala">
 <div class="table-responsive">
-{ cp:table( ("Place", "Annotated with periods", "Periods", "Passages: CTS, CITE annotation, CITE period") , cp:join_locus_aetas() ) }
+{ cp:table( ("Place denotation", "Total annotated with periods", "Contextual periods", "Annotated passages: CTS, CITE annotation, CITE period") , cp:join_locus_aetas() ) }
 </div>
 </blockquote>
      <p/>
