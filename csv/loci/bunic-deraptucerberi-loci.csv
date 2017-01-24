@@ -8,14 +8,14 @@ estlocus1,Acheronta,Aera per tenuem praeceps Acheronta sub imum,bunic02.croala17
 estlocus1,Acheronte,Et quanquam sese quod saeuo Acheronte manebat,bunic02.croala1761880.croala-lat2w:body.div1.l253.w6
 estlocus1,Acheronte,"Pressa Acheronte truci , quae proelia uoce cieret",bunic02.croala1761880.croala-lat2w:body.div2.l188.w2
 estlocus1,Acheronte,Impius ex atro sontes Acheronte satelles,bunic02.croala1761880.croala-lat2w:body.div3.l25.w5
-estlocus1,Acherontis,Acherontis ad amnes,bunic02.croala1761880.croala-lat2w:body.div1.l61.app.rdg1.w1
+estlocus2,Acherontis,Acherontis ad amnes,bunic02.croala1761880.croala-lat2w:body.div1.l61.app.rdg1.w1
 estlocus1,Acherontis,Sed si uictorem spoliis Acherontis iniqui,bunic02.croala1761880.croala-lat2w:body.div2.l63.w5
 estlocus1,Acherontis,Dictaei fratres saeuas Acherontis habenas,bunic02.croala1761880.croala-lat2w:body.div3.l43.w4
 estlocus1,Acherontis,Mille deos Acherontis agit . Hinc arduus instat,bunic02.croala1761880.croala-lat2w:body.div3.l76.w3
-estlocus1,Acherontis,Herculis aufugit moestas Acherontis in aedes .,bunic02.croala1761880.croala-lat2w:body.div3.l160.w4
-estlocus1,Acherontis,"Pallentes Acherontis aquae , silet igneus amnis",bunic02.croala1761880.croala-lat2w:body.div3.l204.w2
-estlocus1,Acheruntis,Acheruntis ad amnes,bunic02.croala1761880.croala-lat2w:body.div1.l61.app.rdg2.w1
-estlocus1,Acheruntis,Acheruntis ad amnem,bunic02.croala1761880.croala-lat2w:body.div1.l61.app.rdg3.w1
+estlocus2,Acherontis,Herculis aufugit moestas Acherontis in aedes .,bunic02.croala1761880.croala-lat2w:body.div3.l160.w4
+estlocus2,Acherontis,"Pallentes Acherontis aquae , silet igneus amnis",bunic02.croala1761880.croala-lat2w:body.div3.l204.w2
+estlocus2,Acheruntis,Acheruntis ad amnes,bunic02.croala1761880.croala-lat2w:body.div1.l61.app.rdg2.w1
+estlocus2,Acheruntis,Acheruntis ad amnem,bunic02.croala1761880.croala-lat2w:body.div1.l61.app.rdg3.w1
 estlocus0,Actei,"Limnoria , Actei Cymodoceque",bunic02.croala1761880.croala-lat2w:body.div1.l166.app.rdg2.w2
 estlocus0,Acteique,"Liminoriaque , Acteique , Spioque ,",bunic02.croala1761880.croala-lat2w:body.div1.l166.app.rdg1.w2
 estlocus0,Admeti,Coniugis Admeti furuis e sedibus Orci,bunic02.croala1761880.croala-lat2w:body.div3.l344.w2
@@ -28,9 +28,9 @@ estlocus0,Aethere,Aethere caelitibus praedixerat unius aluo,bunic02.croala176188
 estlocus0,Aetherii,"Aetherii , diuos summo formauit Olympo .",bunic02.croala1761880.croala-lat2w:body.div3.l86.w1
 estlocus0,Aetherios,"Aetherios illi cultus benefacta dedere ,",bunic02.croala1761880.croala-lat2w:back.app.rdg1.div.l5.w1
 estlocus0,Aethiopas,Aethiopas duplices axemque uidebat utrumque .,bunic02.croala1761880.croala-lat2w:body.div3.l296.w1
-estlocus1,Aethiopum,Regna per Aethiopum . - - - Postquam genitoris adiuit,bunic02.croala1761880.croala-lat2w:body.div1.l275.w3
+estlocus2,Aethiopum,Regna per Aethiopum . - - - Postquam genitoris adiuit,bunic02.croala1761880.croala-lat2w:body.div1.l275.w3
 estlocus1,Aetnae,Inarimes quique Enceladum subiecimus Aetnae,bunic02.croala1761880.croala-lat2w:body.div2.l232.w5
-estlocus1,Aetnaeis,"Taenara et Aetnaeis torrens Vulcanus ab antris ,",bunic02.croala1761880.croala-lat2w:body.div3.l129.w3
+estlocus2,Aetnaeis,"Taenara et Aetnaeis torrens Vulcanus ab antris ,",bunic02.croala1761880.croala-lat2w:body.div3.l129.w3
 estlocus1,Aetnam,Pluto gerat uetitisque petat procursibus Aetnam .,bunic02.croala1761880.croala-lat2w:body.div2.l200.w6
 estlocus1,Aetnam,"Si super undantem flammis ardentibus Aetnam ,",bunic02.croala1761880.croala-lat2w:body.div3.l261.w6
 estlocus0,Aidonei,Tanta tridentiferi facies erat Aidonei .,bunic02.croala1761880.croala-lat2w:body.div3.l198.w5
@@ -65,7 +65,7 @@ estlocus0,Alcmenae,Et uidet Alcmenae et Iouis omnipotentis alumnum,bunic02.croal
 estlocus0,Alecto,"Peruigil Alecto semper custodit , at illas",bunic02.croala1761880.croala-lat2w:body.div2.l316.w2
 estlocus0,Alma,Alma quibus uehitur diuum Berecynthia mater .,bunic02.croala1761880.croala-lat2w:body.div1.l289.w1
 estlocus0,Alme,""" Alme pater mundi , solio qui promis ab alto",bunic02.croala1761880.croala-lat2w:body.div3.l286.w1
-estlocus1,Alpinis,"Alpinis extracta iugis , ac plaustra rotatirotato",bunic02.croala1761880.croala-lat2w:body.div1.l185.w1
+estlocus2,Alpinis,"Alpinis extracta iugis , ac plaustra rotatirotato",bunic02.croala1761880.croala-lat2w:body.div1.l185.w1
 estlocus0,Amatis,"Atque Thoi atque Amatis atque aurea Gallianira ,",bunic02.croala1761880.croala-lat2w:body.div1.l169.w4
 estlocus0,Amazonas,Gessit et inuictis spoliauit Amazonas armis .,bunic02.croala1761880.croala-lat2w:body.div2.l295.w5
 estlocus0,Ambrosiasque,"Ambrosiasque dapes , uitreo subtum carcere clausum ,",bunic02.croala1761880.croala-lat2w:body.div1.l202.w1
@@ -92,7 +92,7 @@ estlocus1,Arar,Sperchius et Arar,bunic02.croala1761880.croala-lat2w:body.div1.l2
 estlocus0,Arcada,Sarcophagi : uolucrem mihi Iuppiter Arcada caelo,bunic02.croala1761880.croala-lat2w:body.div2.l66.w5
 estlocus0,Arcas,"Et celer annexis uenerataderat talaribus Arcas ,",bunic02.croala1761880.croala-lat2w:body.div1.l292.w5
 estlocus0,Arcas,"Elicit hinc manes , hic suffocatsuprimit impius Arcas .",bunic02.croala1761880.croala-lat2w:body.div1.l297.w6
-estlocus1,Arethusa,"Candida siccabat madidos Arethusa capillos ,",bunic02.croala1761880.croala-lat2w:body.div1.l124.w4
+estlocus0,Arethusa,"Candida siccabat madidos Arethusa capillos ,",bunic02.croala1761880.croala-lat2w:body.div1.l124.w4
 estlocus0,Argo,Quem non heroum demens quos uexerat Argo,bunic02.croala1761880.croala-lat2w:body.div1.l91.w7
 estlocus0,Argoa,Hellespontiacos portus Argoa carina,bunic02.croala1761880.croala-lat2w:body.div1.l113.w3
 estlocus0,Argolicis,Argolicis et si qua prior uulgauerit aetas ?,bunic02.croala1761880.croala-lat2w:body.div1.l19.w1
@@ -102,7 +102,7 @@ estlocus0,Arionius,Altaque Arionius scindebat caerula delphin,bunic02.croala1761
 estlocus0,Aristaeis,Aristaeis,bunic02.croala1761880.croala-lat2w:body.div1.l72.app.rdg3.w
 estlocus1,Asiam,"Iudicat atque Asiam magnam , peccataque Minos",bunic02.croala1761880.croala-lat2w:body.div3.l47.w3
 estlocus0,Assacheus,"Implicat , Assacheus ueluti draco sanguine Maurum",bunic02.croala1761880.croala-lat2w:body.div2.l180.w2
-estlocus1,Assyrios,Ac uelut Assyrios saltus aut Syrtica linquens,bunic02.croala1761880.croala-lat2w:body.div3.l259.w3
+estlocus2,Assyrios,Ac uelut Assyrios saltus aut Syrtica linquens,bunic02.croala1761880.croala-lat2w:body.div3.l259.w3
 estlocus0,Astra,"Astra tenes , seu bella geris , seu candida circum",bunic02.croala1761880.croala-lat2w:body.div1.l9.w1
 estlocus1,Athos,"Quantus Olympus , Athos quantus , uel nubifer Atlas",bunic02.croala1761880.croala-lat2w:body.div3.l194.w3
 estlocus4,Atlas,"Quantus Olympus , Athos quantus , uel nubifer Atlas",bunic02.croala1761880.croala-lat2w:body.div3.l194.w7
@@ -112,7 +112,7 @@ estlocus0,Atys,"Foelix ille puer Phrygiis in montibus Atys ,",bunic02.croala1761
 estlocus1,Auentinum,"Acer Auentinum , tu templa Lacinia condis .",bunic02.croala1761880.croala-lat2w:body.div3.l340.w2
 estlocus1,Auerni,Principio ad fauces tetri stabulantur Auerni,bunic02.croala1761880.croala-lat2w:body.div1.l33.w6
 estlocus1,Auerni,Nunc igitur ne fama prior neu clarus Auerni,bunic02.croala1761880.croala-lat2w:body.div2.l245.w8
-estlocus1,Auerni,Et sonitu tetri domus atra resultat Auerni .,bunic02.croala1761880.croala-lat2w:body.div3.l244.w7
+estlocus2,Auerni,Et sonitu tetri domus atra resultat Auerni .,bunic02.croala1761880.croala-lat2w:body.div3.l244.w7
 estlocus1,Auerni,"Victor adit spoliis et munere laetus Auerni ,",bunic02.croala1761880.croala-lat2w:body.div3.l273.w7
 estlocus1,Auernum,"Subiecit uictrixque ferum spoliauit Auernum ,",bunic02.croala1761880.croala-lat2w:body.div3.l289.w5
 estlocus1,Auernus,"Iam pridem cupio , nec me crassator Auernus",bunic02.croala1761880.croala-lat2w:body.div2.l298.w7
@@ -135,11 +135,11 @@ estlocus0,Busiridis,Atque cruentatam Pharii Busiridis umbram .,bunic02.croala176
 estlocus0,CHRISTI,IACOBI BONI RACVSAEI SVB FIGVRA HERCVLIS CHRISTI PRAELVDIVM DEDICATVM LEONI X PONT. MAX. LIBER PRIMVS : AGLAIA,bunic02.croala1761880.croala-lat2w:body.div1.head.w7
 estlocus0,CHRISTI,IACOBI BONI RACVSAEI CHRISTI SVB FIGVRA HERCVLIS PRAELVDIVM LEONI X PONT. MAX. DICATVM LIBER SECVNDVS : THALIA,bunic02.croala1761880.croala-lat2w:body.div2.head.w4
 estlocus0,CHRISTI,IACOBI BONI RACVSAEI CHRISTI SVB FIGVRA HERCVLIS PRAELVDIVM DEDICATVM LEONI X PONT. MAX. LIBER TERTIVS : EVPHROSYNA,bunic02.croala1761880.croala-lat2w:body.div3.head.w4
-estlocus1,Calabro,Hic Ephyrea ratis Calabro resoluta Tarento,bunic02.croala1761880.croala-lat2w:body.div3.l308.w4
+estlocus2,Calabro,Hic Ephyrea ratis Calabro resoluta Tarento,bunic02.croala1761880.croala-lat2w:body.div3.l308.w4
 estlocus0,Calliopea,"Orphea nam memini , quem candida Calliopea",bunic02.croala1761880.croala-lat2w:body.div2.l88.w6
-estlocus1,Calpen,"Limina , in Hispanam Calpen qua surgit Abyla",bunic02.croala1761880.croala-lat2w:body.div1.l157.w4
+estlocus2,Calpen,"Limina , in Hispanam Calpen qua surgit Abyla",bunic02.croala1761880.croala-lat2w:body.div1.l157.w4
 estlocus0,Cancer,Qua tuus aurato pandebat limine Cancer,bunic02.croala1761880.croala-lat2w:body.div1.l315.w6
-estlocus1,Cantabria,"Pectora turbabat , ueluti Cantabria cautes",bunic02.croala1761880.croala-lat2w:body.div2.l202.w4
+estlocus2,Cantabria,"Pectora turbabat , ueluti Cantabria cautes",bunic02.croala1761880.croala-lat2w:body.div2.l202.w4
 estlocus1,Carthago,Perfida Carthago deuictaque Pergama flammis,bunic02.croala1761880.croala-lat2w:body.div1.l18.w2
 estlocus0,Castorides,"Castorides , uox illa fuit praenuntia laeti .",bunic02.croala1761880.croala-lat2w:body.div2.l10.w1
 estlocus1,Caucasei,"Quantaque Caucasei dorsi iuga , quanta Pachinni",bunic02.croala1761880.croala-lat2w:body.div3.l196.w2
@@ -180,7 +180,7 @@ estlocus4,Cyntho,Seu tua Latoo potius cunabula Cyntho,bunic02.croala1761880.croa
 estlocus4,Cypria,"Cypria diua , geris candenti in corpore uulnus . """,bunic02.croala1761880.croala-lat2w:body.div3.l189.w1
 estlocus0,Cyrenis,Gurgite aristeisaristeisAristaeis Euro spirante Cyrenis .,bunic02.croala1761880.croala-lat2w:body.div1.l72.w4
 estlocus0,Cytheri,Siluas Idalii et nemus Cytheri,bunic02.croala1761880.croala-lat2w:front.app2.rdg2.div.l2.w5
-estlocus1,Dalmaticus,"Dalmaticus Naron , Phasis Phrygiusque Caycus ,",bunic02.croala1761880.croala-lat2w:body.div1.l225.w1
+estlocus2,Dalmaticus,"Dalmaticus Naron , Phasis Phrygiusque Caycus ,",bunic02.croala1761880.croala-lat2w:body.div1.l225.w1
 estlocus1,Dardana,"Mox ait , "" ad caelum raptus , quoi Dardana pubes",bunic02.croala1761880.croala-lat2w:body.div1.l260.w7
 estlocus0,Delphinas,Delphinas stimulate uagos ! Cristalla ferantur,bunic02.croala1761880.croala-lat2w:body.div1.l180.w1
 estlocus0,Diana,Pluto tenet gestatque suam Diana pharetram ?,bunic02.croala1761880.croala-lat2w:body.div2.l122.w5
@@ -188,7 +188,7 @@ estlocus0,Dianae,"Turba pharetratae nec adhuc uitiata Dianae ,",bunic02.croala17
 estlocus0,Dianassa,Et cythara Dianassa sonans miranda tricordi,bunic02.croala1761880.croala-lat2w:body.div1.l194.w3
 estlocus4,Dictaei,Dictaei fratres saeuas Acherontis habenas,bunic02.croala1761880.croala-lat2w:body.div3.l43.w1
 estlocus0,Diomedis,"Armipotens Gradiue pater , Diomedis acuta",bunic02.croala1761880.croala-lat2w:body.div3.l186.w4
-estlocus1,Dircaei,"Obtestor Phoebi et Dircaei Amphionis urbem ,",bunic02.croala1761880.croala-lat2w:body.div2.l47.w4
+estlocus2,Dircaei,"Obtestor Phoebi et Dircaei Amphionis urbem ,",bunic02.croala1761880.croala-lat2w:body.div2.l47.w4
 estlocus0,Dis,"Dis pater , ignitis produnt quae faucibus alta",bunic02.croala1761880.croala-lat2w:body.div3.l128.w1
 estlocus4,Dis,Dis impune putans ad apertos emicat artus,bunic02.croala1761880.croala-lat2w:body.div3.l241.w1
 estlocus0,Discordia,"Horrisono , furibunda ruit Discordia iuxta ,",bunic02.croala1761880.croala-lat2w:body.div1.l55.w4
@@ -208,14 +208,14 @@ estlocus0,Ditis,En tua progenies sacraria Ditis auari,bunic02.croala1761880.croa
 estlocus0,Diua,Diua mihi Pimplea refer ! - - - Dux agmine Pluto,bunic02.croala1761880.croala-lat2w:body.div3.l70.w1
 estlocus0,Diuas,"Diuas , quae Paphiam deam colentem",bunic02.croala1761880.croala-lat2w:front.app2.rdg2.div.l1.w1
 estlocus1,Elysium,"Qua regit Elysium , qua Tartara quaque subimouoraci",bunic02.croala1761880.croala-lat2w:body.div1.l295.w3
-estlocus1,Elysium,"Sensit et Elysium longe nemus , audiit omnis",bunic02.croala1761880.croala-lat2w:body.div2.l193.w3
+estlocus2,Elysium,"Sensit et Elysium longe nemus , audiit omnis",bunic02.croala1761880.croala-lat2w:body.div2.l193.w3
 estlocus0,Enceladum,Inarimes quique Enceladum subiecimus Aetnae,bunic02.croala1761880.croala-lat2w:body.div2.l232.w3
 estlocus0,Enthea,"Enthea uocali modulantem carmina plectro ,",bunic02.croala1761880.croala-lat2w:body.div1.l11.w1
 estlocus0,Eoas,"Aeacus Europae gentes , Rhadamantus Eoas",bunic02.croala1761880.croala-lat2w:body.div3.l46.w5
-estlocus1,Eoas,"Arua draco siluasue procul cristatus Eoas ,",bunic02.croala1761880.croala-lat2w:body.div3.l260.w6
+estlocus2,Eoas,"Arua draco siluasue procul cristatus Eoas ,",bunic02.croala1761880.croala-lat2w:body.div3.l260.w6
 estlocus0,Eoo,""" Postera ab Eoo roseis inuecta quadrigis",bunic02.croala1761880.croala-lat2w:body.div2.l1.w3
 estlocus1,Ephyrea,Hic Ephyrea ratis Calabro resoluta Tarento,bunic02.croala1761880.croala-lat2w:body.div3.l308.w2
-estlocus1,Ephyreas,Parte alia ueniens Ephyreas laetus ad arces,bunic02.croala1761880.croala-lat2w:body.div3.l326.w4
+estlocus2,Ephyreas,Parte alia ueniens Ephyreas laetus ad arces,bunic02.croala1761880.croala-lat2w:body.div3.l326.w4
 estlocus0,Erebi,Et caligantes Erebi deuenit ad umbras .,bunic02.croala1761880.croala-lat2w:body.div1.l27.w3
 estlocus4,Erebi,""" Thracius ad sedes Erebi descendere uates",bunic02.croala1761880.croala-lat2w:body.div2.l109.w4
 estlocus4,Erebi,Iussit adire domos Erebi Stygiamque paludem,bunic02.croala1761880.croala-lat2w:body.div2.l115.w4
@@ -244,7 +244,7 @@ estlocus0,Furuius,Furuius,bunic02.croala1761880.croala-lat2w:body.div1.l68.app.r
 estlocus0,Gallae,Atque leues Gallae et furibundae sacra Cybelles .,bunic02.croala1761880.croala-lat2w:body.div1.l264.w3
 estlocus0,Gallianira,"Atque Thoi atque Amatis atque aurea Gallianira ,",bunic02.croala1761880.croala-lat2w:body.div1.l169.w7
 estlocus0,Ganymede,Sublatum spretouesocioque Patrem Ganymede potitum,bunic02.croala1761880.croala-lat2w:body.div1.l89.w3
-estlocus1,Gargara,Et quantis Idaea iugis se Gargara tollunt,bunic02.croala1761880.croala-lat2w:body.div3.l197.w6
+estlocus2,Gargara,Et quantis Idaea iugis se Gargara tollunt,bunic02.croala1761880.croala-lat2w:body.div3.l197.w6
 estlocus0,Garrulitate,Garrulitate lyrae fretus cantuque loquaci,bunic02.croala1761880.croala-lat2w:body.div2.l111.w1
 estlocus0,Gaudia,"Funera , nec longe fugientia Gaudia distant ,",bunic02.croala1761880.croala-lat2w:body.div1.l45.w5
 estlocus0,Gemitus,"Sternunturque toris Gemitus , infaustaque lugent",bunic02.croala1761880.croala-lat2w:body.div1.l44.w3
@@ -265,7 +265,7 @@ estlocus0,Gratia,"Cur mea dicta Charis , cur Gratia Musa uocata est ?",bunic02.c
 estlocus0,Gratia,"Quod charis , et totum hoc Gratia condit opus .",bunic02.croala1761880.croala-lat2w:front.app1.rdg1.div.l2.w6
 estlocus0,Harpyiaeque,Exequar ? Harpyiaeque et Phorcidos umbra Medusae,bunic02.croala1761880.croala-lat2w:body.div1.l41.w2
 estlocus4,Helicona,"Adsis , o Helicona tuens Iouis alma propago ,",bunic02.croala1761880.croala-lat2w:body.div1.l7.w3
-estlocus1,Hellespontiacos,Hellespontiacos portus Argoa carina,bunic02.croala1761880.croala-lat2w:body.div1.l113.w1
+estlocus2,Hellespontiacos,Hellespontiacos portus Argoa carina,bunic02.croala1761880.croala-lat2w:body.div1.l113.w1
 estlocus0,Herculea,"Qui Christum Herculea canunt figura ,",bunic02.croala1761880.croala-lat2w:front.app2.rdg2.div.l6.app.rdg2.w3
 estlocus0,Herculeae,Versibus Herculeae par est Iacobus arenae,bunic02.croala1761880.croala-lat2w:back.app.rdg1.div.l3.w2
 estlocus0,Herculeas,Herculeas super astra ferunt : ut fata nouercae,bunic02.croala1761880.croala-lat2w:body.div3.l334.w1
@@ -274,7 +274,7 @@ estlocus0,Herculis,"Consererent , magni timuerunt Herculis iras .",bunic02.croal
 estlocus0,Herculis,Herculis aufugit moestas Acherontis in aedes .,bunic02.croala1761880.croala-lat2w:body.div3.l160.w1
 estlocus0,Herculis,"Respondit Pluto : "" Magni uis Herculis ingens",bunic02.croala1761880.croala-lat2w:body.div3.l254.w5
 estlocus1,Hesperidum,"Hesperidum : "" Tu terrigenas , inuicte , Gigantes",bunic02.croala1761880.croala-lat2w:body.div3.l337.w1
-estlocus1,Hispanam,"Limina , in Hispanam Calpen qua surgit Abyla",bunic02.croala1761880.croala-lat2w:body.div1.l157.w3
+estlocus2,Hispanam,"Limina , in Hispanam Calpen qua surgit Abyla",bunic02.croala1761880.croala-lat2w:body.div1.l157.w3
 estlocus0,Hyla,"Et te cernit , Hyla puer : "" O Hyla "" , ipse repente ,",bunic02.croala1761880.croala-lat2w:body.div1.l80.w4
 estlocus0,Hyla,"Et te cernit , Hyla puer : "" O Hyla "" , ipse repente ,",bunic02.croala1761880.croala-lat2w:body.div1.l80.w7
 estlocus0,Hylaeumque,Hylaeumque,bunic02.croala1761880.croala-lat2w:body.div1.l78.app.rdg2.w
@@ -288,17 +288,17 @@ estlocus0,Iaccho,Corytus calamique leues et thyrsus Iaccho ;,bunic02.croala17618
 estlocus0,Ianiraque,"Apseudisque Ianiraque et hispida corpore Meni ,",bunic02.croala1761880.croala-lat2w:body.div1.l195.w2
 estlocus0,Ianitor,"Ianitor et moesto mors inuitabilis arcu ,",bunic02.croala1761880.croala-lat2w:body.div2.l258.w1
 estlocus0,Iason,"Quum tot onusta deum genitis intrarat , Iason",bunic02.croala1761880.croala-lat2w:body.div1.l114.w7
-estlocus1,Ida,""" Foelix Troianus Phrygia uenator ab Ida """,bunic02.croala1761880.croala-lat2w:body.div1.l259.w6
-estlocus1,Idaea,Et quantis Idaea iugis se Gargara tollunt,bunic02.croala1761880.croala-lat2w:body.div3.l197.w3
-estlocus1,Idalii,Siluas Idalii et nemus Cytheri,bunic02.croala1761880.croala-lat2w:front.app2.rdg2.div.l2.w2
+estlocus2,Ida,""" Foelix Troianus Phrygia uenator ab Ida """,bunic02.croala1761880.croala-lat2w:body.div1.l259.w6
+estlocus2,Idaea,Et quantis Idaea iugis se Gargara tollunt,bunic02.croala1761880.croala-lat2w:body.div3.l197.w3
+estlocus2,Idalii,Siluas Idalii et nemus Cytheri,bunic02.croala1761880.croala-lat2w:front.app2.rdg2.div.l2.w2
 estlocus1,Idalio,Idalio saltu : hic miseros amor urit amantes .,bunic02.croala1761880.croala-lat2w:body.div2.l318.w1
 estlocus0,Ieraque,Protoque Meliteque TaliaqueThaliaque DotoqueDoto Ieraque,bunic02.croala1761880.croala-lat2w:body.div1.l164.w3
 estlocus1,Ilerda,"Sperchios , Ilerda ,",bunic02.croala1761880.croala-lat2w:body.div1.l219.app.rdg1.w2
-estlocus1,Illyrico,Ister et Illyrico ueniens a littore Narbon .,bunic02.croala1761880.croala-lat2w:body.div1.l229.w3
+estlocus2,Illyrico,Ister et Illyrico ueniens a littore Narbon .,bunic02.croala1761880.croala-lat2w:body.div1.l229.w3
 estlocus1,Inarimes,Inarimes quique Enceladum subiecimus Aetnae,bunic02.croala1761880.croala-lat2w:body.div2.l232.w1
 estlocus1,Inda,Qualis ubi in domibus magnis auis Inda puellis,bunic02.croala1761880.croala-lat2w:body.div1.l203.w7
 estlocus0,Indigenae,"Indigenae , qui facta canunt et carmine laudes",bunic02.croala1761880.croala-lat2w:body.div3.l333.w1
-estlocus4,Inferna,Inferna Stygium de regione canem .,bunic02.croala1761880.croala-lat2w:back.app.rdg1.div.l2.w1
+estlocus2,Inferna,Inferna Stygium de regione canem .,bunic02.croala1761880.croala-lat2w:back.app.rdg1.div.l2.w1
 estlocus4,Infernaeque,"Infernaeque domus , quo tempore matris ab aluo",bunic02.croala1761880.croala-lat2w:body.div3.l154.w1
 estlocus0,Iouem,Quae magnum uexere Iouem rerumque parentem,bunic02.croala1761880.croala-lat2w:body.div1.l279.w4
 estlocus0,Ioues,Germanosque Ioues diuisaque regna canebat .,bunic02.croala1761880.croala-lat2w:body.div2.l99.w2
@@ -329,8 +329,8 @@ estlocus0,Iuppiter,"Iuppiter , interdum licuit quoi fallere diuos .",bunic02.cro
 estlocus0,Iuppiter,"Ergo uictor ago grates tibi , Iuppiter , auctor",bunic02.croala1761880.croala-lat2w:body.div3.l292.w6
 estlocus0,Ixion,"Constitit Ixion , pertusas fontibus urnas",bunic02.croala1761880.croala-lat2w:body.div2.l103.w2
 estlocus1,Lacaenis,Virginibus satyros cupiens miscere Lacaenis .,bunic02.croala1761880.croala-lat2w:body.div1.l216.w5
-estlocus1,Lacinia,"Acer Auentinum , tu templa Lacinia condis .",bunic02.croala1761880.croala-lat2w:body.div3.l340.w5
-estlocus1,Laethes,Fas Phlegetonte tenet placidoque in flumine Laethes,bunic02.croala1761880.croala-lat2w:body.div1.l296.w7
+estlocus2,Lacinia,"Acer Auentinum , tu templa Lacinia condis .",bunic02.croala1761880.croala-lat2w:body.div3.l340.w5
+estlocus2,Laethes,Fas Phlegetonte tenet placidoque in flumine Laethes,bunic02.croala1761880.croala-lat2w:body.div1.l296.w7
 estlocus0,Laeuiathan,"Laeuiathan , crines flauos arrectaque pulchrae",bunic02.croala1761880.croala-lat2w:body.div3.l77.w1
 estlocus0,Laomedontida,"Aequoreoque rapis tu Laomedontida monstro . """,bunic02.croala1761880.croala-lat2w:body.div3.l345.w4
 estlocus0,Lapithas,Lapithas,bunic02.croala1761880.croala-lat2w:body.div1.l77.app.rdg3.w
@@ -356,7 +356,7 @@ estlocus0,Lyciscae,"Expertus rabiem timidae domitare Lyciscae ,",bunic02.croala1
 estlocus1,Lycus,DillectusqueDilectusque Lycus nymphis et fuluus Oaxis,bunic02.croala1761880.croala-lat2w:body.div1.l220.w1
 estlocus0,Maeraque,Maeraque prima nouos experta cupidinis ignes,bunic02.croala1761880.croala-lat2w:body.div1.l193.w1
 estlocus0,Magnes,"Fluctibus in mediis , Magnes et concaua circum",bunic02.croala1761880.croala-lat2w:body.div2.l205.w4
-estlocus1,Maleae,"Est prope in obiectu rabidae spelunca Maleae ,",bunic02.croala1761880.croala-lat2w:body.div1.l22.w7
+estlocus2,Maleae,"Est prope in obiectu rabidae spelunca Maleae ,",bunic02.croala1761880.croala-lat2w:body.div1.l22.w7
 estlocus0,Mammona,Caetera serpenti similis . Prope Mammona curru,bunic02.croala1761880.croala-lat2w:body.div3.l79.w5
 estlocus0,Manibus,Manibus inferiasque meis atque aggere inanem,bunic02.croala1761880.croala-lat2w:body.div2.l50.w1
 estlocus0,Mars,Daemonas ut cunctos Mars experiatur ad unum .,bunic02.croala1761880.croala-lat2w:body.div3.l253.w4
@@ -374,7 +374,7 @@ estlocus1,Maurum,"Implicat , Assacheus ueluti draco sanguine Maurum",bunic02.cro
 estlocus0,Medusae,Exequar ? Harpyiaeque et Phorcidos umbra Medusae,bunic02.croala1761880.croala-lat2w:body.div1.l41.w6
 estlocus0,Megaera,At procul aeria custos ex arce Megaera,bunic02.croala1761880.croala-lat2w:body.div2.l184.w7
 estlocus0,Megaera,Exin Gorgoneis serpentibus hirta Megaera,bunic02.croala1761880.croala-lat2w:body.div3.l67.w5
-estlocus1,Meles,Smyrneusque Meles et multo Marte notatus,bunic02.croala1761880.croala-lat2w:body.div1.l228.w2
+estlocus2,Meles,Smyrneusque Meles et multo Marte notatus,bunic02.croala1761880.croala-lat2w:body.div1.l228.w2
 estlocus0,Meliteque,Protoque Meliteque TaliaqueThaliaque DotoqueDoto Ieraque,bunic02.croala1761880.croala-lat2w:body.div1.l164.w2
 estlocus1,Memphitico,Memphitico pingues e,bunic02.croala1761880.croala-lat2w:body.div1.l149.app.rdg2.w1
 estlocus0,Meni,"Apseudisque Ianiraque et hispida corpore Meni ,",bunic02.croala1761880.croala-lat2w:body.div1.l195.w6
@@ -393,13 +393,13 @@ estlocus0,Napaeae,", Napaeae !",bunic02.croala1761880.croala-lat2w:body.div1.l13
 estlocus0,Napaeas,Flumina te propter nymphas rapuisse Napaeas !,bunic02.croala1761880.croala-lat2w:body.div1.l94.w6
 estlocus0,Napaeas,Scilicet hoc pulchras prodest uidisse Napaeas,bunic02.croala1761880.croala-lat2w:body.div1.l270.w6
 estlocus1,Narbon,Ister et Illyrico ueniens a littore Narbon .,bunic02.croala1761880.croala-lat2w:body.div1.l229.w7
-estlocus1,Naron,"Dalmaticus Naron , Phasis Phrygiusque Caycus ,",bunic02.croala1761880.croala-lat2w:body.div1.l225.w2
+estlocus2,Naron,"Dalmaticus Naron , Phasis Phrygiusque Caycus ,",bunic02.croala1761880.croala-lat2w:body.div1.l225.w2
 estlocus0,Nayadas,Nayadas aspicio spumantes ire per undas .,bunic02.croala1761880.croala-lat2w:body.div1.l129.w1
 estlocus0,Nayadum,Numina Nayadum te sub sua regna tulisse .,bunic02.croala1761880.croala-lat2w:body.div1.l105.w2
 estlocus0,Nayadum,"In caua Nayadum spumosae Doridos antra . """,bunic02.croala1761880.croala-lat2w:body.div1.l135.w3
 estlocus1,Neapolitano,Reuerendissimo in Christo patri D. Oliuerio Carraphe Cardinali Neapolitano episcopo Sabinensi protectori Ragusino Iacobus Bonus,bunic02.croala1761880.croala-lat2w:front.app2.rdg2.div.head.app.rdg1.w8
 estlocus0,Nelidae,"Nelidae auxilium ferret , uix saucius iram",bunic02.croala1761880.croala-lat2w:body.div3.l159.w1
-estlocus1,Nemeaeo,Nudatumque clepit Nemeaeo tegmine corpus,bunic02.croala1761880.croala-lat2w:body.div2.l160.w3
+estlocus2,Nemeaeo,Nudatumque clepit Nemeaeo tegmine corpus,bunic02.croala1761880.croala-lat2w:body.div2.l160.w3
 estlocus0,Neptunia,Quum Notus aut Aquilo Neptunia concutit arua .,bunic02.croala1761880.croala-lat2w:body.div2.l32.w5
 estlocus0,Neptuno,"Tela trisulca Ioui , Neptuno fuscina , Phoebo",bunic02.croala1761880.croala-lat2w:body.div2.l119.w4
 estlocus0,Neptunum,"Quae Tethym et Neptunum et te , Tritonia Pallas ,",bunic02.croala1761880.croala-lat2w:body.div1.l281.w4
@@ -413,7 +413,7 @@ estlocus0,Nereus,Agmina nam propior cupiebat iungere Nereus,bunic02.croala176188
 estlocus0,Nereus,"Atria grandaeuus pulchra cum coniuge Nereus ,",bunic02.croala1761880.croala-lat2w:body.div1.l276.w6
 estlocus0,Neritium,Hoc et Neritium cantu sopisset Vlixem,bunic02.croala1761880.croala-lat2w:body.div3.l319.w3
 estlocus1,Nessumque,Ad Rhodani ripas sternis Nessumque latronemque,bunic02.croala1761880.croala-lat2w:body.div3.l339.w5
-estlocus1,Nesti,Quum leo descendit poturus flumina Nesti,bunic02.croala1761880.croala-lat2w:body.div3.l121.w6
+estlocus2,Nesti,Quum leo descendit poturus flumina Nesti,bunic02.croala1761880.croala-lat2w:body.div3.l121.w6
 estlocus0,Nestoreaeque,Nestoreaeque memor fuerat Saturnius aulae ;,bunic02.croala1761880.croala-lat2w:body.div3.l157.w1
 estlocus1,Nilus,Et septemgeminus secreto Nilus ab ortu,bunic02.croala1761880.croala-lat2w:body.div1.l222.w4
 estlocus0,Nympharumque,"Nympharumque chori , uasto genetricis in antro",bunic02.croala1761880.croala-lat2w:body.div1.l162.w1
@@ -429,9 +429,9 @@ estlocus4,Oceanus,Oceanus magnoque tubae clangore uocabant,bunic02.croala1761880
 estlocus0,Oceanus,Oceanus Scythico balaenis aequore iunctis,bunic02.croala1761880.croala-lat2w:body.div2.l6.w1
 estlocus0,Oceanus,"Tum pater Oceanus casum miseratus iniquumacerbum ,",bunic02.croala1761880.croala-lat2w:body.div2.l41.w3
 estlocus0,Oeagro,"Edidit Oeagro conceptum flumine , cymba",bunic02.croala1761880.croala-lat2w:body.div2.l89.w2
-estlocus1,Oechalicas,"Victor , et Oechalicas euertit funditus arces .",bunic02.croala1761880.croala-lat2w:body.div1.l6.w3
+estlocus2,Oechalicas,"Victor , et Oechalicas euertit funditus arces .",bunic02.croala1761880.croala-lat2w:body.div1.l6.w3
 estlocus1,Oethei,"Colchon , et Oethei ducebat Phasydos undas ,",bunic02.croala1761880.croala-lat2w:body.div1.l116.w3
-estlocus1,Olympi,"Exortusque petunt alii bipatentis Olympi ,",bunic02.croala1761880.croala-lat2w:body.div1.l314.w5
+estlocus2,Olympi,"Exortusque petunt alii bipatentis Olympi ,",bunic02.croala1761880.croala-lat2w:body.div1.l314.w5
 estlocus1,Olympi,"Quis deus haec superi praedicere posset Olympi ,",bunic02.croala1761880.croala-lat2w:body.div2.l271.w7
 estlocus1,Olympi,""" Principio architenens excelsi rector Olympi ,",bunic02.croala1761880.croala-lat2w:body.div3.l1.w5
 estlocus1,Olympi,"Sustollam super astra deoque aequabor Olympi . """,bunic02.croala1761880.croala-lat2w:body.div3.l104.w6
@@ -482,23 +482,23 @@ estlocus0,Palladis,Alcides multa pollens ui et Palladis arte,bunic02.croala17618
 estlocus0,Pallas,"Quae Tethym et Neptunum et te , Tritonia Pallas ,",bunic02.croala1761880.croala-lat2w:body.div1.l281.w8
 estlocus0,Pallor,"Pallor iit , nox orta oculis , labefactaque terram",bunic02.croala1761880.croala-lat2w:body.div1.l132.w1
 estlocus0,Pallor,"Luctus et algificus Pallor , Dolor improbus ipsam",bunic02.croala1761880.croala-lat2w:body.div2.l255.w4
-estlocus1,Paphiam,"Diuas , quae Paphiam deam colentem",bunic02.croala1761880.croala-lat2w:front.app2.rdg2.div.l1.w3
+estlocus2,Paphiam,"Diuas , quae Paphiam deam colentem",bunic02.croala1761880.croala-lat2w:front.app2.rdg2.div.l1.w3
 estlocus0,Parcae,"Cuncta , ratis Parcae quae uoluunt stamina fusis ,",bunic02.croala1761880.croala-lat2w:body.div3.l287.w3
 estlocus0,Parcas,"Funera , crudeles Parcas matrumque hymenaeos . """,bunic02.croala1761880.croala-lat2w:body.div2.l330.w3
 estlocus1,Parrhasius,"Parrhasius serpens , ignisque erructateructat ad auras",bunic02.croala1761880.croala-lat2w:body.div1.l38.w1
 estlocus0,Pastorumque,Pastorumque greges per pascua laeta uagantur .,bunic02.croala1761880.croala-lat2w:body.div1.l243.w1
-estlocus1,Patarea,Flammiferae seu templa colis Patarea Chimaerae .,bunic02.croala1761880.croala-lat2w:body.div1.l13.w5
+estlocus2,Patarea,Flammiferae seu templa colis Patarea Chimaerae .,bunic02.croala1761880.croala-lat2w:body.div1.l13.w5
 estlocus0,Pelectronios,Atque Pelectronios laphitaslapitasLapithas Rhetumque Pholumque,bunic02.croala1761880.croala-lat2w:body.div1.l77.w2
 estlocus1,Pergama,Perfida Carthago deuictaque Pergama flammis,bunic02.croala1761880.croala-lat2w:body.div1.l18.w4
-estlocus1,Pergameis,Cuspide Pergameis perfodit lancea campis .,bunic02.croala1761880.croala-lat2w:body.div3.l187.w2
-estlocus1,Perrhebi,Qualis Apollineo Perrhebi uertice Pindi,bunic02.croala1761880.croala-lat2w:body.div3.l120.w3
+estlocus2,Pergameis,Cuspide Pergameis perfodit lancea campis .,bunic02.croala1761880.croala-lat2w:body.div3.l187.w2
+estlocus2,Perrhebi,Qualis Apollineo Perrhebi uertice Pindi,bunic02.croala1761880.croala-lat2w:body.div3.l120.w3
 estlocus0,Persephones,Sed si Persephones rutilantis uirga metalli,bunic02.croala1761880.croala-lat2w:body.div2.l85.w3
 estlocus0,Persephones,Persephones . Quare infestum si comminus agmen,bunic02.croala1761880.croala-lat2w:body.div2.l215.w1
 estlocus0,Persephones,""" Tristia Persephones clauduntur regna noueno",bunic02.croala1761880.croala-lat2w:body.div2.l305.w2
 estlocus0,Phanetis,"Nox tulit , adfugiens ErebumOrcum , Phanetis amores ;",bunic02.croala1761880.croala-lat2w:body.div1.l287.w4
 estlocus0,Pharii,Atque cruentatam Pharii Busiridis umbram .,bunic02.croala1761880.croala-lat2w:body.div1.l79.w3
-estlocus1,Phasis,"Dalmaticus Naron , Phasis Phrygiusque Caycus ,",bunic02.croala1761880.croala-lat2w:body.div1.l225.w3
-estlocus1,Phasydos,"Colchon , et Oethei ducebat Phasydos undas ,",bunic02.croala1761880.croala-lat2w:body.div1.l116.w5
+estlocus2,Phasis,"Dalmaticus Naron , Phasis Phrygiusque Caycus ,",bunic02.croala1761880.croala-lat2w:body.div1.l225.w3
+estlocus2,Phasydos,"Colchon , et Oethei ducebat Phasydos undas ,",bunic02.croala1761880.croala-lat2w:body.div1.l116.w5
 estlocus0,Pherusa,Tresque simul iuuenes : Glaucis nitidisque Pherusa,bunic02.croala1761880.croala-lat2w:body.div1.l197.w6
 estlocus0,Philippi,Philippi Beroaldi Hexasticon .,bunic02.croala1761880.croala-lat2w:back.app.rdg1.div.head.w1
 estlocus1,Phlegethonta,Phlegethonta,bunic02.croala1761880.croala-lat2w:body.div2.l53.app.rdg2.w
@@ -508,8 +508,8 @@ estlocus1,Phlegeton,"En quae castra uomit Phlegeton , quod Tartarus agmen",bunic
 estlocus1,Phlegeton,"Et Phlegeton et Nox , quam discolor ambit amictus :",bunic02.croala1761880.croala-lat2w:body.div3.l214.w2
 estlocus1,Phlegetonta,Phlegetonta,bunic02.croala1761880.croala-lat2w:body.div2.l53.app.rdg3.w
 estlocus1,Phlegetonte,Fas Phlegetonte tenet placidoque in flumine Laethes,bunic02.croala1761880.croala-lat2w:body.div1.l296.w2
-estlocus1,Phlegetontis,Tum specus horrendum et fauces Phlegetontis anheli,bunic02.croala1761880.croala-lat2w:body.div3.l272.w6
-estlocus1,Phlegraea,Atque tot anguipedes Phlegraea ualle Gigantas,bunic02.croala1761880.croala-lat2w:body.div2.l233.w4
+estlocus2,Phlegetontis,Tum specus horrendum et fauces Phlegetontis anheli,bunic02.croala1761880.croala-lat2w:body.div3.l272.w6
+estlocus2,Phlegraea,Atque tot anguipedes Phlegraea ualle Gigantas,bunic02.croala1761880.croala-lat2w:body.div2.l233.w4
 estlocus0,Phlegyae,Quoi Phlegyae genus inuiso de sanguine Martis :,bunic02.croala1761880.croala-lat2w:body.div2.l304.w2
 estlocus1,Phlegyda,""" O Phlegyda "" , Alcides inquit , "" quid tanta gerat uis ? """,bunic02.croala1761880.croala-lat2w:body.div3.l66.w2
 estlocus0,Phocarumque,Phocarumque greges magnarum et monstra rotarum,bunic02.croala1761880.croala-lat2w:body.div2.l17.w1
@@ -522,13 +522,13 @@ estlocus0,Phoebi,Sed lyra iam reticet lassi Cyllenia Phoebi .,bunic02.croala1761
 estlocus0,Phoebo,"Tela trisulca Ioui , Neptuno fuscina , Phoebo",bunic02.croala1761880.croala-lat2w:body.div2.l119.w6
 estlocus0,Pholumque,Atque Pelectronios laphitaslapitasLapithas Rhetumque Pholumque,bunic02.croala1761880.croala-lat2w:body.div1.l77.w4
 estlocus0,Phorcidos,Exequar ? Harpyiaeque et Phorcidos umbra Medusae,bunic02.croala1761880.croala-lat2w:body.div1.l41.w4
-estlocus1,Phrygia,""" Foelix Troianus Phrygia uenator ab Ida """,bunic02.croala1761880.croala-lat2w:body.div1.l259.w3
-estlocus1,Phrygiis,"Foelix ille puer Phrygiis in montibus Atys ,",bunic02.croala1761880.croala-lat2w:body.div1.l262.w4
-estlocus1,Phrygiusque,"Dalmaticus Naron , Phasis Phrygiusque Caycus ,",bunic02.croala1761880.croala-lat2w:body.div1.l225.w4
+estlocus2,Phrygia,""" Foelix Troianus Phrygia uenator ab Ida """,bunic02.croala1761880.croala-lat2w:body.div1.l259.w3
+estlocus2,Phrygiis,"Foelix ille puer Phrygiis in montibus Atys ,",bunic02.croala1761880.croala-lat2w:body.div1.l262.w4
+estlocus2,Phrygiusque,"Dalmaticus Naron , Phasis Phrygiusque Caycus ,",bunic02.croala1761880.croala-lat2w:body.div1.l225.w4
 estlocus0,Pierides,"Soluite , Pierides , choreas et claudite fontes",bunic02.croala1761880.croala-lat2w:body.div3.l348.w2
-estlocus0,Pieridum,Pieridum te turba choro ludente coronat,bunic02.croala1761880.croala-lat2w:body.div1.l10.w1
+estlocus1,Pieridum,Pieridum te turba choro ludente coronat,bunic02.croala1761880.croala-lat2w:body.div1.l10.w1
 estlocus4,Pimplea,Diua mihi Pimplea refer ! - - - Dux agmine Pluto,bunic02.croala1761880.croala-lat2w:body.div3.l70.w3
-estlocus1,Pindi,Qualis Apollineo Perrhebi uertice Pindi,bunic02.croala1761880.croala-lat2w:body.div3.l120.w5
+estlocus2,Pindi,Qualis Apollineo Perrhebi uertice Pindi,bunic02.croala1761880.croala-lat2w:body.div3.l120.w5
 estlocus0,Pirithoi,Hic quoque Pirithoi sese obuia protulit umbra .,bunic02.croala1761880.croala-lat2w:body.div2.l267.w3
 estlocus0,Plurima,Plurima sint passim uiuis magalia saxis,bunic02.croala1761880.croala-lat2w:body.div1.l245.w1
 estlocus0,Plurima,Plurima laetanti testatus gaudia uultu .,bunic02.croala1761880.croala-lat2w:body.div1.l301.w1
@@ -554,7 +554,7 @@ estlocus0,Ragusino,Reuerendissimo in Christo patri D. Oliuerio Carraphe Cardinal
 estlocus0,Rhadamantus,"Aeacus Europae gentes , Rhadamantus Eoas",bunic02.croala1761880.croala-lat2w:body.div3.l46.w4
 estlocus0,Rhea,"Es mater tu , Rhea , mihi , non foemina pellex .",bunic02.croala1761880.croala-lat2w:body.div3.l167.w4
 estlocus0,Rhetumque,Atque Pelectronios laphitaslapitasLapithas Rhetumque Pholumque,bunic02.croala1761880.croala-lat2w:body.div1.l77.w3
-estlocus1,Rhodani,Ad Rhodani ripas sternis Nessumque latronemque,bunic02.croala1761880.croala-lat2w:body.div3.l339.w2
+estlocus2,Rhodani,Ad Rhodani ripas sternis Nessumque latronemque,bunic02.croala1761880.croala-lat2w:body.div3.l339.w2
 estlocus1,Rhodanusque,"Auratoque Tagus uultu Rhodanusque bicornis ,",bunic02.croala1761880.croala-lat2w:body.div1.l223.w4
 estlocus1,Rhodopeius,"Talia dum cantu celebrat Rhodopeius Orpheus ,",bunic02.croala1761880.croala-lat2w:body.div2.l100.w5
 estlocus0,Romulidum,"Quoi non Romulidum referuntur proelia , quoi non",bunic02.croala1761880.croala-lat2w:body.div1.l17.w3
@@ -567,44 +567,44 @@ estlocus0,Saturne,""" Tu genitor , Saturne , mihi , tu , regia Iuno ,",bunic02.c
 estlocus0,Saturnia,"Iuppiter Alcides , Saturnia regna redirent .",bunic02.croala1761880.croala-lat2w:body.div2.l62.w3
 estlocus0,Saturnius,Nestoreaeque memor fuerat Saturnius aulae ;,bunic02.croala1761880.croala-lat2w:body.div3.l157.w4
 estlocus1,Scyllaque,"Scyllaque , Circaeis quoi latrant inguina monstris ,",bunic02.croala1761880.croala-lat2w:body.div1.l35.w1
-estlocus1,Scythico,Oceanus Scythico balaenis aequore iunctis,bunic02.croala1761880.croala-lat2w:body.div2.l6.w2
-estlocus1,Smyrneusque,Smyrneusque Meles et multo Marte notatus,bunic02.croala1761880.croala-lat2w:body.div1.l228.w1
+estlocus2,Scythico,Oceanus Scythico balaenis aequore iunctis,bunic02.croala1761880.croala-lat2w:body.div2.l6.w2
+estlocus2,Smyrneusque,Smyrneusque Meles et multo Marte notatus,bunic02.croala1761880.croala-lat2w:body.div1.l228.w1
 estlocus4,Solque,Solque recedentes radiis dispescuit umbras,bunic02.croala1761880.croala-lat2w:body.div2.l3.w1
 estlocus4,Solque,"Solque dator lucis , caeli cor mensque profundi ,",bunic02.croala1761880.croala-lat2w:body.div3.l227.w1
-estlocus1,Spartano,"Spartano praetenta sinu , qua Ditis anhelat",bunic02.croala1761880.croala-lat2w:body.div1.l23.w1
+estlocus2,Spartano,"Spartano praetenta sinu , qua Ditis anhelat",bunic02.croala1761880.croala-lat2w:body.div1.l23.w1
 estlocus1,Sperchios,"Sperchios , Ilerda ,",bunic02.croala1761880.croala-lat2w:body.div1.l219.app.rdg1.w1
 estlocus1,Sperchius,Sperchius et Arar,bunic02.croala1761880.croala-lat2w:body.div1.l219.app.rdg2.w1
 estlocus0,Spio,Cymothoeque Legaeaque Spio,bunic02.croala1761880.croala-lat2w:body.div1.l167.app.rdg2.w3
 estlocus0,Spioque,"Liminoriaque , Acteique , Spioque ,",bunic02.croala1761880.croala-lat2w:body.div1.l166.app.rdg1.w3
 estlocus1,Strymon,"Immixti nymphis : Strymon , Sperchios,Ilerda,SperchiusetArar",bunic02.croala1761880.croala-lat2w:body.div1.l219.w3
 estlocus1,Styga,Causabarque deos furto . Mihi per Styga cuncti,bunic02.croala1761880.croala-lat2w:body.div1.l97.w6
-estlocus1,Stygia,Scilicet ignaui Stygia torpebimus aula,bunic02.croala1761880.croala-lat2w:body.div2.l240.w3
-estlocus1,Stygiae,Iamque propinquabat Stygiae qua portitor undae,bunic02.croala1761880.croala-lat2w:body.div1.l62.w3
-estlocus1,Stygiae,Proripit Alcides Stygiae se ad stagna paludis .,bunic02.croala1761880.croala-lat2w:body.div2.l71.w3
+estlocus2,Stygia,Scilicet ignaui Stygia torpebimus aula,bunic02.croala1761880.croala-lat2w:body.div2.l240.w3
+estlocus2,Stygiae,Iamque propinquabat Stygiae qua portitor undae,bunic02.croala1761880.croala-lat2w:body.div1.l62.w3
+estlocus2,Stygiae,Proripit Alcides Stygiae se ad stagna paludis .,bunic02.croala1761880.croala-lat2w:body.div2.l71.w3
 estlocus1,Stygiae,Thaesea quom Stygiae uinctum duxere cateruae ;,bunic02.croala1761880.croala-lat2w:body.div2.l281.w3
 estlocus1,Stygiae,Et Stygiae dant signa canes . Quis nube cruenta,bunic02.croala1761880.croala-lat2w:body.div3.l68.w2
-estlocus1,Stygiamque,Iussit adire domos Erebi Stygiamque paludem,bunic02.croala1761880.croala-lat2w:body.div2.l115.w5
-estlocus1,Stygias,"Euentus quibus , heu , Stygias detrusus ad undas",bunic02.croala1761880.croala-lat2w:body.div1.l143.w4
-estlocus1,Stygias,"Heu , nimium infoelix - - - Stygias inhumatus arenas",bunic02.croala1761880.croala-lat2w:body.div1.l266.w4
-estlocus1,Stygias,Quo Stygias prostratus aquas custodit et alta,bunic02.croala1761880.croala-lat2w:body.div2.l149.w2
-estlocus1,Stygias,Et Stygias seruare domos dedit arbiter Orci .,bunic02.croala1761880.croala-lat2w:body.div2.l186.w2
+estlocus2,Stygiamque,Iussit adire domos Erebi Stygiamque paludem,bunic02.croala1761880.croala-lat2w:body.div2.l115.w5
+estlocus2,Stygias,"Euentus quibus , heu , Stygias detrusus ad undas",bunic02.croala1761880.croala-lat2w:body.div1.l143.w4
+estlocus2,Stygias,"Heu , nimium infoelix - - - Stygias inhumatus arenas",bunic02.croala1761880.croala-lat2w:body.div1.l266.w4
+estlocus2,Stygias,Quo Stygias prostratus aquas custodit et alta,bunic02.croala1761880.croala-lat2w:body.div2.l149.w2
+estlocus2,Stygias,Et Stygias seruare domos dedit arbiter Orci .,bunic02.croala1761880.croala-lat2w:body.div2.l186.w2
 estlocus1,Stygias,Triplex ergo caput Stygias auersus ad umbras,bunic02.croala1761880.croala-lat2w:body.div3.l279.w4
-estlocus1,Stygii,Quum Iouis ante thronum Stygii collabitur atque,bunic02.croala1761880.croala-lat2w:body.div2.l176.w5
-estlocus1,Stygii,"Inflauit , Stygii quo protinus ardua regni",bunic02.croala1761880.croala-lat2w:body.div2.l191.w2
+estlocus2,Stygii,Quum Iouis ante thronum Stygii collabitur atque,bunic02.croala1761880.croala-lat2w:body.div2.l176.w5
+estlocus2,Stygii,"Inflauit , Stygii quo protinus ardua regni",bunic02.croala1761880.croala-lat2w:body.div2.l191.w2
 estlocus1,Stygii,Postquam autem Stygii tempestas atra tyranni,bunic02.croala1761880.croala-lat2w:body.div3.l115.w3
 estlocus1,Stygii,Tunc ambage noua Stygii timor iraque mentem,bunic02.croala1761880.croala-lat2w:body.div3.l145.w4
-estlocus1,Stygiique,Inuasit Stygiique ferox sacraria regni,bunic02.croala1761880.croala-lat2w:body.div1.l26.w2
-estlocus1,Stygiis,Deuorat ; haec Stygiis centum damnata per annos,bunic02.croala1761880.croala-lat2w:body.div2.l44.w3
-estlocus1,Stygios,Tramitibus uariis Stygios merguntur in ignes .,bunic02.croala1761880.croala-lat2w:body.div3.l38.w3
+estlocus2,Stygiique,Inuasit Stygiique ferox sacraria regni,bunic02.croala1761880.croala-lat2w:body.div1.l26.w2
+estlocus2,Stygiis,Deuorat ; haec Stygiis centum damnata per annos,bunic02.croala1761880.croala-lat2w:body.div2.l44.w3
+estlocus2,Stygios,Tramitibus uariis Stygios merguntur in ignes .,bunic02.croala1761880.croala-lat2w:body.div3.l38.w3
 estlocus1,Stygium,Inferna Stygium de regione canem .,bunic02.croala1761880.croala-lat2w:back.app.rdg1.div.l2.w2
 estlocus1,Stymphalidas,"Aeripedem ceruam , taurum , Stymphalidas , hortos",bunic02.croala1761880.croala-lat2w:body.div3.l336.w4
 estlocus1,Styx,"Styx tacet atra palus , mutescunt triste sonantis",bunic02.croala1761880.croala-lat2w:body.div3.l203.w1
 estlocus0,Syrenes,"Vos quoque uocales magni Syrenes Olympi ,",bunic02.croala1761880.croala-lat2w:body.div3.l228.w5
-estlocus1,Syrtica,Ac uelut Assyrios saltus aut Syrtica linquens,bunic02.croala1761880.croala-lat2w:body.div3.l259.w6
+estlocus2,Syrtica,Ac uelut Assyrios saltus aut Syrtica linquens,bunic02.croala1761880.croala-lat2w:body.div3.l259.w6
 estlocus1,Taenara,"Taenara et Aetnaeis torrens Vulcanus ab antris ,",bunic02.croala1761880.croala-lat2w:body.div3.l129.w1
-estlocus1,Taenarias,Taenarias fauces et debellata profundi,bunic02.croala1761880.croala-lat2w:body.div1.l1.w1
+estlocus2,Taenarias,Taenarias fauces et debellata profundi,bunic02.croala1761880.croala-lat2w:body.div1.l1.w1
 estlocus1,Tagus,"Auratoque Tagus uultu Rhodanusque bicornis ,",bunic02.croala1761880.croala-lat2w:body.div1.l223.w2
-estlocus1,Tarento,Hic Ephyrea ratis Calabro resoluta Tarento,bunic02.croala1761880.croala-lat2w:body.div3.l308.w6
+estlocus2,Tarento,Hic Ephyrea ratis Calabro resoluta Tarento,bunic02.croala1761880.croala-lat2w:body.div3.l308.w6
 estlocus1,Tartara,"Qua regit Elysium , qua Tartara quaque subimouoraci",bunic02.croala1761880.croala-lat2w:body.div1.l295.w5
 estlocus1,Tartara,Quod statuit ferri ipsa sibi sub Tartara munus,bunic02.croala1761880.croala-lat2w:body.div2.l124.w7
 estlocus1,Tartareae,Et uos Tartareae secreta silentia noctis,bunic02.croala1761880.croala-lat2w:body.div1.l31.w3
@@ -616,7 +616,7 @@ estlocus1,Tartareum,Tantane Tartareum tenet inclaementia regem ?,bunic02.croala1
 estlocus1,Tartarus,"En quae castra uomit Phlegeton , quod Tartarus agmen",bunic02.croala1761880.croala-lat2w:body.div3.l64.w7
 estlocus1,Tartarus,Tartarus et tonitru longe domus alta remugit .,bunic02.croala1761880.croala-lat2w:body.div3.l237.w1
 estlocus0,Taurum,Taurum linquat humi saeuumque assurgat in hostem ;,bunic02.croala1761880.croala-lat2w:body.div3.l268.w1
-estlocus1,Taygetis,Taygetis si quando iugis descendit amantes,bunic02.croala1761880.croala-lat2w:body.div1.l215.w1
+estlocus2,Taygetis,Taygetis si quando iugis descendit amantes,bunic02.croala1761880.croala-lat2w:body.div1.l215.w1
 estlocus1,Tegeaeus,"Nec Tegeaeus Aper , nec quos puer enecat angues",bunic02.croala1761880.croala-lat2w:body.div3.l170.w2
 estlocus0,Tethym,"Quae Tethym et Neptunum et te , Tritonia Pallas ,",bunic02.croala1761880.croala-lat2w:body.div1.l281.w2
 estlocus0,Thaesea,Thaesea quom Stygiae uinctum duxere cateruae ;,bunic02.croala1761880.croala-lat2w:body.div2.l281.w1

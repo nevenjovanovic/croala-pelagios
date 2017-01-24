@@ -200,15 +200,15 @@ estlocus4,Hibera,"Classis Hibera domat latisque Hispania terris ,",Hiberus,38007
 estlocus1,Hispania,"Classis Hibera domat latisque Hispania terris ,",Hispania,38007,AŽ,urn:cts:croala:crije02.croala292491.croala-lat2w:body.div5.div2.l71.w5,157802
 estlocus1,Ister,"Moenia pellitae gentes , quas Rhenus et Ister",Ister,38007,AŽ,urn:cts:croala:crije02.croala292491.croala-lat2w:body.div5.div2.l96.w7,158636
 estlocus1,Hispania,"Hinc mulis aduecta suis Hispania , uerbis",Hispania,38007,AŽ,urn:cts:croala:crije02.croala292491.croala-lat2w:body.div5.div2.l99.w5,158724
-estlocus4,Antipodasque,Signifer Antipodasque ima statione coaegit,antipodes,,ANNOTATOR,urn:cts:croala:crije02.croala292491.croala-lat2w:body.div5.div4.l100.w2,166676
+estlocus4,Antipodasque,Signifer Antipodasque ima statione coaegit,antipodes,38003,AŽ,urn:cts:croala:crije02.croala292491.croala-lat2w:body.div5.div4.l100.w2,166676
 estlocus4,Babylonia,"Stellarum subitas Babylonia cura catheruas ,",Babylonius,00000,AŽ,urn:cts:croala:crije02.croala292491.croala-lat2w:body.div5.div4.l104.w3,166784
 estlocus1,Athlas,Opstupuitque humero grauiori caelifer Athlas .,Atlas,00000,AŽ,urn:cts:croala:crije02.croala292491.croala-lat2w:body.div5.div4.l106.w5,166848
-estlocus4,Herimanthaeus,Teque Herimanthaeus torua cum matre Bootes,Erymantheus,,ANNOTATOR,urn:cts:croala:crije02.croala292491.croala-lat2w:body.div5.div4.l119.w2,167247
-estlocus4,Bootes,Teque Herimanthaeus torua cum matre Bootes,Bootes,,ANNOTATOR,urn:cts:croala:crije02.croala292491.croala-lat2w:body.div5.div4.l119.w6,167263
-estlocus4,Dictaeae,Pulcraque Dictaeae stupuerunt astra puellae .,Dictaeus,,ANNOTATOR,urn:cts:croala:crije02.croala292491.croala-lat2w:body.div5.div4.l120.w2,167275
-estlocus1,Delphos,Nec uero tripodas nec oportuit hiscere Delphos,Delphi,,ANNOTATOR,urn:cts:croala:crije02.croala292491.croala-lat2w:body.div5.div4.l135.w7,167812
-estlocus1,Hetruria,"Corniger , aut uano mendax Hetruria ritu ,",Etruria,,ANNOTATOR,urn:cts:croala:crije02.croala292491.croala-lat2w:body.div5.div4.l138.w5,167900
-estlocus4,Caldaeique,"Caldaeique senes , praesaga quid astra loquantur",Chaldaeus,,ANNOTATOR,urn:cts:croala:crije02.croala292491.croala-lat2w:body.div5.div4.l139.w1,167916
+estlocus4,Herimanthaeus,Teque Herimanthaeus torua cum matre Bootes,Erymantheus,38003,AŽ,urn:cts:croala:crije02.croala292491.croala-lat2w:body.div5.div4.l119.w2,167247
+estlocus4,Bootes,Teque Herimanthaeus torua cum matre Bootes,Bootes,38003,AŽ,urn:cts:croala:crije02.croala292491.croala-lat2w:body.div5.div4.l119.w6,167263
+estlocus4,Dictaeae,Pulcraque Dictaeae stupuerunt astra puellae .,Dictaeus,38003,AŽ,urn:cts:croala:crije02.croala292491.croala-lat2w:body.div5.div4.l120.w2,167275
+estlocus1,Delphos,Nec uero tripodas nec oportuit hiscere Delphos,Delphi,00000,AŽ,urn:cts:croala:crije02.croala292491.croala-lat2w:body.div5.div4.l135.w7,167812
+estlocus1,Hetruria,"Corniger , aut uano mendax Hetruria ritu ,",Etruria,00000,AŽ,urn:cts:croala:crije02.croala292491.croala-lat2w:body.div5.div4.l138.w5,167900
+estlocus4,Caldaeique,"Caldaeique senes , praesaga quid astra loquantur",Chaldaeus,00000,AŽ,urn:cts:croala:crije02.croala292491.croala-lat2w:body.div5.div4.l139.w1,167916
 estlocus4,Cynosura,"Ecce uiros , seu quos caeli Cynosura sub imo",Cynosura,,ANNOTATOR,urn:cts:croala:crije02.croala292491.croala-lat2w:body.div5.div4.l18.w6,164100
 estlocus4,Helice,"Siue Lychaoniis Helice demisit ab astris ,",helice,,ANNOTATOR,urn:cts:croala:crije02.croala292491.croala-lat2w:body.div5.div4.l20.w3,164156
 estlocus4,Graieue,"Vrsina de gente uides , Graieue puellae",Graius,,ANNOTATOR,urn:cts:croala:crije02.croala292491.croala-lat2w:body.div5.div4.l21.w5,164200
