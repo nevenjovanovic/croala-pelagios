@@ -1228,3 +1228,28 @@ return element tr {
 }
 };
 
+(: Visualize annotated segments in divs :)
+(: Build a CTS for a div segment :)
+declare function cp:wordtree($word, $ctsname) {
+let $tree := string-join(data($word/ancestor-or-self::*[@n]/@n),'.')
+return attribute href { 
+element ctsurn { "http://croala.ffzg.unizg.hr/basex/ctsp/" || functx:substring-before-last($ctsname, ":") || ":" || $tree } }
+};
+
+(: replace w elements with + or - :)
+declare function cp:plus($div, $ctsdiv){
+  let $names := ("l", "s")
+  for $l in $div//*[name()=$names]
+  let $wnames := ("w", "tei:w", "name")
+let $lines := for $w in $l/*[name()=$wnames]
+let $ctsurn := cp:wordtree($w, $ctsdiv)
+return if ($w/@ana) then element a { $ctsurn , "+" } else "-"
+return element p { $lines }
+};
+
+(: from CTS, open div -- need cp-div-cts for that :)
+declare function cp:openctsdiv($ctsdiv){
+  let $divnode := collection("cp-div-cts")//record[ctsurn=$ctsdiv]
+  let $pre := $divnode/@xml:id
+  return db:open-id("cp-2-texts", $pre)
+};
