@@ -43,7 +43,7 @@ declare
 <div class="col-md-6">
 <p>Annotationes in <a href="http://croala.ffzg.unizg.hr">CroALa</a>, { current-date() }.</p>
 <p><a href="http://orcid.org/0000-0002-9119-399X">Neven Jovanović</a> and the <a href="https://github.com/nevenjovanovic/croala-pelagios/wiki#the-team">CroALa-Pelagios team</a>.</p>
-<p>Annotatio indicata est signo "+".</p>
+<p>Verba significantur signis "+" et "-". Annotatio indicata est signo "+". Sequere nexum ut annotationes videas.</p>
 <p>Functio nominatur: {rest:uri()}.</p>
 
 </div>
