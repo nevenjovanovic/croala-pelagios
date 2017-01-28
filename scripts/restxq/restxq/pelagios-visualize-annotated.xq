@@ -53,6 +53,7 @@ declare
 </div>
 </div>
 <div class="graph-outer">
+<h2>{ cp:cts_metadata_simple($ctsdiv) }</h2>
 <blockquote class="croala">
 
 { cp:plus(cp:openctsdiv($ctsdiv), $ctsdiv) }

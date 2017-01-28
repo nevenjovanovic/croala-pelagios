@@ -1257,3 +1257,23 @@ declare function cp:openctsdiv($ctsdiv){
   return if ($divnode) then db:open-id("cp-2-texts", $pre)
     else cp:deest()
 };
+
+(: return just author / textgroup and title for a CTS URN :)
+declare function cp:cts_metadata_simple($urn){
+  let $edition := functx:substring-before-last(
+    functx:substring-before-last($urn, ":"), 
+    ".")
+  let $title :=  collection("cp-2-texts")//*:work[@urn=$edition]
+  let $author := collection("cp-2-texts")//*:textgroup[@urn=$title/@groupUrn/string()]
+  let $metadata := normalize-space($author || $title//*:title)
+  return ( 
+  element span { attribute class { "work"} , $metadata } ,
+  element small {
+    attribute class { "text-muted"},
+    normalize-space(
+    string-join(
+      cp:openctsdiv($urn)/*:head[1]//text()[not(ancestor::*:note)], 
+      " "))
+    }
+)
+};
