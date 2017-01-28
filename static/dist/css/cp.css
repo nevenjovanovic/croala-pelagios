@@ -304,7 +304,12 @@ table.numb > tbody > tr td:first-child::before {
 
 div.graph-inner {
     margin-left: 15%;
+}
+
+div.graph-inner > p {
     color: #859900;
+    font-weight: bold;
+    line-height: 0.8em;
 }
 
  /* unvisited link */
