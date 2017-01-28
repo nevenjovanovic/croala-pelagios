@@ -1238,18 +1238,23 @@ element ctsurn { "http://croala.ffzg.unizg.hr/basex/ctsp/" || functx:substring-b
 
 (: replace w elements with + or - :)
 declare function cp:plus($div, $ctsdiv){
+element div {
+ attribute class { "graph-inner"},
   let $names := ("l", "s")
   for $l in $div//*[name()=$names]
-  let $wnames := ("w", "tei:w", "name")
-let $lines := for $w in $l/*[name()=$wnames]
-let $ctsurn := cp:wordtree($w, $ctsdiv)
-return if ($w/@ana) then element a { $ctsurn , "+" } else "-"
-return element p { $lines }
+    let $wnames := ("w", "tei:w", "name")
+    let $lines := for $w in $l/*[name()=$wnames]
+      let $ctsurn := cp:wordtree($w, $ctsdiv)
+    return if ($w/@ana) then element a { $ctsurn , "+" } else "-"
+  return if ($lines) then element p { $lines }
+    else cp:deest()
+  }
 };
 
 (: from CTS, open div -- need cp-div-cts for that :)
 declare function cp:openctsdiv($ctsdiv){
   let $divnode := collection("cp-div-cts")//record[ctsurn=$ctsdiv]
   let $pre := $divnode/@xml:id
-  return db:open-id("cp-2-texts", $pre)
+  return if ($divnode) then db:open-id("cp-2-texts", $pre)
+    else cp:deest()
 };

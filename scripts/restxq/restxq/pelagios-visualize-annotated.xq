@@ -52,7 +52,7 @@ declare
 </div>
 </div>
 </div>
-<div class="container-fluid">
+<div class="graph-outer">
 <blockquote class="croala">
 
 { cp:plus(cp:openctsdiv($ctsdiv), $ctsdiv) }

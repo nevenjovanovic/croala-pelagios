@@ -301,3 +301,33 @@ table.numb > tbody > tr td:first-child::before {
     min-width: 1em;
     margin-right: 0.5em;
 }
+
+div.graph-inner {
+    margin-left: 15%;
+    color: #859900;
+}
+
+ /* unvisited link */
+div.graph-inner > p > a:link {
+    color: #dc322f;
+    text-decoration: none;
+}
+
+/* visited link */
+div.graph-inner > p > a:visited {
+    color: #6c71c4;
+    text-decoration: none;
+}
+
+/* mouse over link */
+div.graph-inner > p > a:hover {
+    color: #d33682;
+    text-decoration: none;
+}
+
+/* selected link */
+div.graph-inner > p > a:active {
+    color: #cb4b16;
+    text-decoration: none;
+}
+
