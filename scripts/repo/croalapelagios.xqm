@@ -1246,8 +1246,7 @@ element div {
     let $lines := for $w in $l/*[name()=$wnames]
       let $ctsurn := cp:wordtree($w, $ctsdiv)
     return if ($w/@ana) then element a { $ctsurn , "+" } else "-"
-  return if ($lines) then element p { $lines }
-    else cp:deest()
+  return element p { $lines }
   }
 };
 
