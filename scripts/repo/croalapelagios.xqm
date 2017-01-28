@@ -1240,6 +1240,7 @@ element ctsurn { "http://croala.ffzg.unizg.hr/basex/ctsp/" || functx:substring-b
 declare function cp:plus($div, $ctsdiv){
 element div {
  attribute class { "graph-inner"},
+ element h2 { cp:cts_metadata_simple($ctsdiv) } ,
   let $names := ("l", "s")
   for $l in $div//*[name()=$names]
     let $wnames := ("w", "tei:w", "name")
