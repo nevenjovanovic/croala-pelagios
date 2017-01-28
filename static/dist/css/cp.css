@@ -306,6 +306,10 @@ div.graph-inner {
     margin-left: 15%;
 }
 
+div.graph-inner > h2 {
+    margin-left: -10%;
+}
+
 div.graph-inner > p {
     color: #859900;
     font-weight: bold;
