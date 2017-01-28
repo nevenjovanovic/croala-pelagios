@@ -1243,7 +1243,7 @@ element div {
  element h2 { cp:cts_metadata_simple($ctsdiv) } ,
   let $names := ("l", "s")
   for $l in $div//*[name()=$names]
-    let $wnames := ("w", "tei:w", "name")
+    let $wnames := ("w", "tei:w", "name", "tei:name", "placeName", "tei:placeName")
     let $lines := for $w in $l/*[name()=$wnames]
       let $ctsurn := cp:wordtree($w, $ctsdiv)
     return if ($w/@ana) then element a { $ctsurn , "+" } else "-"
