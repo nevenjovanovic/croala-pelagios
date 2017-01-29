@@ -2,6 +2,12 @@
 module namespace cp = 'http://croala.ffzg.unizg.hr/croalapelagios';
 import module namespace functx = "http://www.functx.com" at "functx.xqm";
 
+declare variable $cp:editions := ("urn:cts:croala:bunic02.croala1761880.croala-lat2w", 
+"urn:cts:croala:crije02.croala292491.croala-lat2w", 
+"urn:cts:croala:marul01.croala754085.croala-lat2w",
+"urn:cts:croala:nikolamodr01.croala1394919.croala-lat2loci",
+"urn:cts:croala:crije01.croala789994.croala-lat2w");
+
 declare variable $cp:cite_namespace := "http://croala.ffzg.unizg.hr/basex/cite/";
 
 declare variable $cp:ann := map {
@@ -29,6 +35,11 @@ declare function cp:deest(){
   element tr {
     element td { "URN deest in collectionibus nostris." }
   }
+};
+
+(: helper function - calculate percentage :)
+declare function cp:percent($a , $b){
+  round ($a div $b * 100)
 };
 
 (: helper function for table :)
@@ -1277,4 +1288,73 @@ declare function cp:cts_metadata_simple($urn){
       " "))
     }
 )
+};
+
+(: return word count for an edition / sequence of editions :)
+declare function cp:count_words_edition($editions_cts){
+  element tbody {
+  for $e in $editions_cts
+let $names := ("w", "tei:w", "name", "placeName")
+let $words := collection("cp-2-texts")//*:text[@xml:base=$e]//*[name()=$names]
+let $wc := count($words)
+order by $wc descending
+return element tr {
+  element td { 
+  attribute class { "edition"},
+  $e } , 
+  element td { 
+  attribute class {"words"} ,
+  $wc }
+} }
+};
+(: EDA - return totals for estlocus in documents :)
+declare function cp:estlocus_total($edition, $string){
+  element tbody {
+let $t := collection("cp-cite-urns")//w[matches(@ana, $string) and starts-with(@n, $edition)]
+let $t_total := collection("cp-cite-urns")//w[matches(@ana, "estlocus") and starts-with(@n, $edition)]
+return element tr { 
+attribute class { "total"},
+element td { $edition } , 
+element td { $string },
+element td { count($t) },
+element td { count($t_total)},
+element td { cp:percent( count($t), count($t_total)) || "%"} ,
+element td {
+  attribute class { "allwords"},
+  cp:percent(
+  count($t_total) , cp:count_words_edition($edition)//tr/td[2] ) || "%"
+}
+}
+}
+};
+
+(: EDA - return counts and percentages of annotated estlocus segments for each document :)
+declare function cp:percent_annotated($edition, $totals){
+  element tbody {
+    for $e in collection("cp-cite-urns")//w[matches(@ana, "estlocus") and starts-with(@n, $edition)]
+    let $ana := $e/@ana/string()
+    group by $ana
+    return element tr { 
+    attribute class { "individual"},
+      element td { $edition },
+      element td { $ana } ,
+      element td { count($e)},
+      element td { 
+      "Percentage of annotated segments: " ||
+        cp:percent( count($e) , $totals//tr[td=$edition]/td[3] ) || "%" } ,
+      element td { 
+      "Percentage of marked segments: " ||
+        cp:percent( count($e), $totals//tr[td=$edition]/td[4]) || "%" },
+        element td {}
+} }
+};
+
+(: EDA - make table of totals and individual categories for each document :)
+declare function cp:eda_estlocus_table($ed_cts){
+for $edition in $ed_cts
+let $totals := cp:estlocus_total($edition, "estlocus[0-4]")
+let $results := cp:percent_annotated($edition, $totals)
+let $table := ( $totals//tr[td[1]=$edition] , $results//tr[td[1]=$edition] )
+let $headings := ("CTS URN", "Certainty code", "Segment count", "C4", "C5", "C6")
+return cp:table($headings , $table)
 };
