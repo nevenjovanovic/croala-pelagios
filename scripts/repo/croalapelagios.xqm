@@ -1316,7 +1316,7 @@ return element tr {
 attribute class { "total"},
 element td { $edition } , 
 element td { $string },
-element td { count($t) },
+element td { element b { count($t) } },
 element td { count($t_total)},
 element td { cp:percent( count($t), count($t_total)) || "%"} ,
 element td {
@@ -1338,12 +1338,12 @@ declare function cp:percent_annotated($edition, $totals){
     attribute class { "individual"},
       element td { $edition },
       element td { $ana } ,
-      element td { count($e)},
+      element td { element b { count($e) } },
       element td { 
-      "Percentage of annotated segments: " ||
+      "Annotated segments: " ||
         cp:percent( count($e) , $totals//tr[td=$edition]/td[3] ) || "%" } ,
       element td { 
-      "Percentage of marked segments: " ||
+      "Marked segments: " ||
         cp:percent( count($e), $totals//tr[td=$edition]/td[4]) || "%" },
         element td {}
 } }
@@ -1355,6 +1355,6 @@ for $edition in $ed_cts
 let $totals := cp:estlocus_total($edition, "estlocus[0-4]")
 let $results := cp:percent_annotated($edition, $totals)
 let $table := ( $totals//tr[td[1]=$edition] , $results//tr[td[1]=$edition] )
-let $headings := ("CTS URN", "Certainty code", "Segment count", "C4", "C5", "C6")
+let $headings := ("CTS URN", "Certainty code", "Segment count", "C4", "C5", "% of all words")
 return cp:table($headings , $table)
 };

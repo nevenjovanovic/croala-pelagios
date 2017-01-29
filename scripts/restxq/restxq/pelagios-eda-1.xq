@@ -39,21 +39,24 @@ declare
 <div class="jumbotron">
 <h1><span class="glyphicon glyphicon-th" aria-hidden="true"></span>{ $title }</h1>
 <div class="container-fluid">
-<div class="col-md-6">
+<div class="col-md-8">
 <p>Annotationes in <a href="http://croala.ffzg.unizg.hr">CroALa</a>, { current-date() }.</p>
 <p><a href="http://orcid.org/0000-0002-9119-399X">Neven Jovanović</a> and the <a href="https://github.com/nevenjovanovic/croala-pelagios/wiki#the-team">CroALa-Pelagios team</a>.</p>
-<p>Exploratory data analysis of certainty level annotations for the category "placeness" (estlocus0-estlocus4). Displayed are the totals and percentages for all annotations in a document (including ratio of annotated words to all words of the document), and totals and percentages of individual certainty levels in the document. In the latter, the first percentage shows ratio of the level to all annotated place references, the second the ratio of the level to all <em>marked</em> place references (some of which have not been annotated yet).</p>
-<p>Functio nominatur: {rest:uri()}.</p>
+<p>Exploratory data analysis of certainty level annotations for the category "placeness" (estlocus0-estlocus4).</p>
+<p>Displayed are the totals and percentages for all annotations in a document (including ratio of annotated words to all words of the document), and totals and percentages of individual certainty levels in the document. In the latter, the first percentage shows ratio of the level to all annotated place references, the second the ratio of the level to all <b>marked</b> place references (some of which have not been annotated yet).</p>
+
 
 </div>
-<div class="col-md-6">
+<div class="col-md-4">
 {croala:infodb('cp-div-cts')}
-</div>
-</div>
-</div>
+<p>Functio nominatur: {rest:uri()}.</p>
 <div class="container-fluid">
 { cp:table(("Place certainty code", "Meaning") , cp:estlocus_info_all()) }
 </div>
+</div>
+</div>
+</div>
+
 <div class="container-fluid">
 <blockquote class="croala">
 

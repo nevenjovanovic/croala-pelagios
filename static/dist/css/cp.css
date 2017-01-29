@@ -91,6 +91,19 @@ tr.table-success a:hover , td.cts a:hover , td.lemma a:hover {
     text-decoration: none;
 }
 
+tr.total > td {
+    background-color: #fdf6e3;
+    color: #839496;
+}
+
+tr.total > td > b {
+    color: #cb4b16;
+}
+
+tr.individual > td[1] {
+    color: #859900;
+}
+
  /* unvisited link */
 th > a:link {
     color:  #fdf6e3;
