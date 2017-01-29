@@ -100,7 +100,7 @@ tr.total > td > b {
     color: #cb4b16;
 }
 
-tr.individual > td[1] {
+tr.individual > td:first-child {
     color: #859900;
 }
 

@@ -39,7 +39,7 @@ declare
 <div class="jumbotron">
 <h1><span class="glyphicon glyphicon-th" aria-hidden="true"></span>{ $title }</h1>
 <div class="container-fluid">
-<div class="col-md-8">
+<div class="col-md-6">
 <p>Annotationes in <a href="http://croala.ffzg.unizg.hr">CroALa</a>, { current-date() }.</p>
 <p><a href="http://orcid.org/0000-0002-9119-399X">Neven Jovanović</a> and the <a href="https://github.com/nevenjovanovic/croala-pelagios/wiki#the-team">CroALa-Pelagios team</a>.</p>
 <p>Exploratory data analysis of certainty level annotations for the category "placeness" (estlocus0-estlocus4).</p>
@@ -47,8 +47,10 @@ declare
 
 
 </div>
-<div class="col-md-4">
+<div class="col-md-6">
+<div class="container-fluid">
 {croala:infodb('cp-div-cts')}
+</div>
 <p>Functio nominatur: {rest:uri()}.</p>
 <div class="container-fluid">
 { cp:table(("Place certainty code", "Meaning") , cp:estlocus_info_all()) }

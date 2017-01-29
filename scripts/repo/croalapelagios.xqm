@@ -1321,8 +1321,10 @@ element td { count($t_total)},
 element td { cp:percent( count($t), count($t_total)) || "%"} ,
 element td {
   attribute class { "allwords"},
+  element b {
   cp:percent(
   count($t_total) , cp:count_words_edition($edition)//tr/td[2] ) || "%"
+}
 }
 }
 }
