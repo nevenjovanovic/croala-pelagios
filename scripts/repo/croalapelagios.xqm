@@ -1336,6 +1336,7 @@ declare function cp:percent_annotated($edition, $totals){
     for $e in collection("cp-cite-urns")//w[matches(@ana, "estlocus") and starts-with(@n, $edition)]
     let $ana := $e/@ana/string()
     group by $ana
+    order by $ana
     return element tr { 
     attribute class { "individual"},
       element td { $edition },
