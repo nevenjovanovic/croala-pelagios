@@ -1211,6 +1211,7 @@ else()
 };
 
 (: Join the cp-cite-loci and cp-cite-aetates dbs, return place CITE URN and label, with all instances of a period for a place :)
+(: First version, see below cp:locus_aetates :)
 (: Enables analysis of different periods for a place :)
 declare function cp:join_locus_aetas(){
 for $cts_set in cp:locus_aetas()//tr
@@ -1360,4 +1361,51 @@ let $results := cp:percent_annotated($edition, $totals)
 let $table := ( $totals//tr[td[1]=$edition] , $results//tr[td[1]=$edition] )
 let $headings := ("CTS URN", "Certainty code", "Segment count", "C4", "C5", "% of all words")
 return cp:table($headings , $table)
+};
+
+(: return places with multiple periods :)
+declare function cp:label($collection , $citeurn){
+  let $l := collection($collection)//record[citebody/@citeurn=$citeurn]
+  return $l/label/string()
+};
+
+declare function cp:locus_aetates() {
+let $join_locus_aetas := element list {
+let $set := (collection("cp-cite-aetates"), collection("cp-cite-loci"))
+for $record in $set//record
+let $citeurn := $record/citeurn
+group by $citeurn
+where $record/citelocus and $record/citeaetas
+return element r { 
+$record/citelocus, 
+$record/citeaetas }
+}
+let $loci := element l {
+for $r in $join_locus_aetas//r
+let $locus := $r/citelocus
+group by $locus
+return element l {
+  element citelocus { $locus } ,
+  $r/citeaetas
+}
+}
+let $la := element result {
+for $l in $loci//l
+where $l/citeaetas[2] and $l/citelocus[text()]
+return element tr  {
+  element td {
+    cp:simple_link(
+      "http://croala.ffzg.unizg.hr/basex/cite/" || $l/citelocus/string() ,
+cp:label("cp-loci" , $l/citelocus/string())
+) } , 
+element td {
+for $a in distinct-values($l/citeaetas)
+return element citeaetas { 
+cp:simple_link("http://croala.ffzg.unizg.hr/basex/cite/" || $a , cp:label("cp-aetates" , $a)) } } }
+}
+for $lar in $la//tr
+where $lar/td[2]/citeaetas[2]
+let $c := count($lar/td[2]/citeaetas)
+order by $c descending
+return $lar 
 };

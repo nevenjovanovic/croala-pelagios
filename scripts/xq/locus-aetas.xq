@@ -9,6 +9,8 @@ declare function local:label($collection , $citeurn){
   let $l := collection($collection)//record[citebody/@citeurn=$citeurn]
   return $l/label/string()
 };
+
+declare function local:locus_aetas() {
 let $join_locus_aetas := element list {
 let $set := (collection("cp-cite-aetates"), collection("cp-cite-loci"))
 for $record in $set//record
@@ -46,4 +48,6 @@ for $lar in $la//tr
 where $lar/td[2]/citeaetas[2]
 let $c := count($lar/td[2]/citeaetas)
 order by $c descending
-return $lar
+return $lar 
+};
+local:locus_aetas()
