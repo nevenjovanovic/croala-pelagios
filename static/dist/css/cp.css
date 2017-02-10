@@ -3,6 +3,8 @@ body {
   font-family: "Trocchi", serif;
 }
 
+citeaetas { display: block; }
+
 s { text-decoration: none; }
 
 p.subtitle {
@@ -51,12 +53,12 @@ td.croala , b.croala {
 	color: #566D7E;
 }
 
-td.period a {
+citeaetas > a , td.period a {
     color: #2aa198;
     text-decoration: none;
 }
 
-td.period a:hover {
+citeaetas > a:hover, td.period a:hover {
     color: #268bd2;
     text-decoration: none;
 }
