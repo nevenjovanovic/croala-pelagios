@@ -3,7 +3,7 @@ body {
   font-family: "Trocchi", serif;
 }
 
-citeaetas { display: block; }
+citeaetas , citelemma { display: block; }
 
 s { text-decoration: none; }
 
@@ -63,12 +63,12 @@ citeaetas > a:hover, td.period a:hover {
     text-decoration: none;
 }
 	
-td.latty , td.cts_cite a {
+citelemma > a, td.latty , td.cts_cite a {
     color: maroon;
     text-decoration: none;
 }
 
-td.cts_cite a:hover {
+citelemma > a:hover, td.cts_cite a:hover {
     color: #cb4b16;
     text-decoration: none;
 }
