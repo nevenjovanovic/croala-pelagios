@@ -1409,3 +1409,51 @@ let $c := count($lar/td[2]/citeaetas)
 order by $c descending
 return $lar 
 };
+
+(: return places with multiple lemmata :)
+declare function cp:label2($collection , $citeurn){
+  let $l := collection($collection)//record[lemma/@citeurn=$citeurn]
+  return $l/lemma/string()
+};
+
+declare function cp:locus_lemma() {
+let $join_locus_lemma := element list {
+let $set := (collection("cp-cite-lemmata-2"), collection("cp-cite-loci"))
+for $record in $set//record
+let $citeurn := $record/citeurn
+group by $citeurn
+where $record/citelocus and $record/citelemma
+return element r { 
+$record/citelocus, 
+$record/citelemma }
+}
+let $loci := element l {
+for $r in $join_locus_lemma//r
+let $locus := $r/citelocus
+group by $locus
+return element l {
+  element citelocus { $locus } ,
+  $r/citelemma
+}
+}
+let $la := element result {
+for $l in $loci//l
+where $l/citelemma[2] and $l/citelocus[text()]
+return element tr  {
+  element td {
+    cp:simple_link(
+      "http://croala.ffzg.unizg.hr/basex/cite/" || $l/citelocus/string() ,
+cp:label("cp-loci" , $l/citelocus/string())
+) } , 
+element td {
+for $a in distinct-values($l/citelemma)
+return element citelemma { 
+cp:simple_link("http://croala.ffzg.unizg.hr/basex/cite/" || $a , cp:label2("cp-latlexents" , $a)) }
+ } }
+} 
+for $lar in $la//tr
+where $lar/td[2]/citelemma[2]
+let $c := count($lar/td[2]/citelemma)
+order by $c descending
+return $lar 
+};
